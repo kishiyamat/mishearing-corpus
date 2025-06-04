@@ -1,5 +1,5 @@
 # Mishearing Corpus (Japanese)  
-_Approximately 10 k rows of Japanese mis-hearing instances, kept as plain CSV/TSV plus Table Schema and automatically validated with Frictionless + pre-commit + GitHub Actions._
+_Approximately 10 k rows of Japanese (for now) mis-hearing instances, kept as plain CSV/TSV plus Table Schema and automatically validated with Frictionless + pre-commit + GitHub Actions._
 
 ---
 
@@ -42,6 +42,7 @@ Typical use-cases:
 * Developing data-driven pronunciation teaching materials
 
 The corpus includes a `Language` column, allowing for future expansion to non-Japanese data as well.
+A `Category` column is also included to classify the type/source of each mishearing instance (e.g., "ASR", "perceptual", "teaching").
 
 ---
 
@@ -71,23 +72,43 @@ VS Code users: install **Edit CSV** + **Rainbow CSV** for spreadsheet-like editi
 
 ```
 mishearing-corpus/
-├─ data/
-│  ├─ mishearing.csv          # Main table (≈10 k rows)
-│  ├─ source_utterance.csv
-│  ├─ speaker.csv
-│  ├─ listener.csv
-│  ├─ environment.csv
-│  └─ document.csv
-├─ schema/                    # Frictionless Table Schemas
-│  ├─ mishearing.schema.json
-│  └─ …                       # one per table
+├─ data/                         # —— テーブルごとにサブフォルダ
+│  ├─ mishearing/                #   多数のシャードCSV を格納
+│  │   ├─ yamato/                #   データソースごとにサブディレクトリ
+│  │   │   ├─ 2019-01-15_yamato.csv
+│  │   │   └─ ...
+│  │   └─ ...
+│  ├─ source_utterance/          #   （あとから必要になれば作成）
+│  │   └─ …                      #
+│  ├─ speaker/                   #   単一ファイルで足りる表はそのまま 1 枚
+│  │   └─ speaker.csv
+│  ├─ listener/
+│  │   └─ listener.csv
+│  ├─ environment/
+│  │   └─ environment.csv
+│  └─ document/
+│      └─ document.csv
+│
+├─ schema/                       # Frictionless Table Schemas
+│  └─ mishearing.schema.json
+│
 ├─ scripts/
-│  ├─ validate.py             # optional helpers
-│  ├─ stats.py                # row counts etc.
-│  └─ to_duckdb.py            # ad-hoc SQL on CSV
-├─ .pre-commit-config.yaml
-└─ .github/workflows/validate.yml
+│  ├─ build_datapackage.py       # シャード(注参照)一覧から datapackage.json を再生成
+│  └─ hooks/
+│      └─ check_filename.py      # YYYY-MM-DD 形式の命名規則を検査
+│
+├─ datapackage.json              # ← build_datapackage.py が自動出力
+├─ requirements.txt              # frictionless / pre-commit 等
+├─ .pre-commit-config.yaml       # ローカル検証フック
+└─ .github/
+    └─ workflows/
+        └─ validate.yml          # CI: ファイル名→datapackage→validate の順で実行
 ```
+
+- シャード (shard): 大きなテーブルやコレクションを
+  意味や順序を保ったまま、複数の小さなファイルやパーティションに分割して管理する方式
+- `_slug`: オプションで付ける、わかりやすい短い識別子
+
 
 ---
 
@@ -120,8 +141,8 @@ If validation fails, the commit/merge is blocked and a detailed error list is sh
 
 ## 6. Contributing
 
-1. **Fork → Branch → PR**.
-2. Append rows only; don’t rearrange column order.
+1. **Fork -> Branch -> PR**.
+2. Append rows only; don't rearrange column order.
 3. Run `frictionless validate --schema schema/*.json data/*.csv` locally until it passes.
 4. Push; the CI must turn green.
 5. PR template asks for:
@@ -141,8 +162,8 @@ See `CONTRIBUTING.md` for step-by-step details.
 **Creative Commons Attribution 4.0 International (CC BY 4.0)**
 [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
-> You may copy, modify, distribute and use the corpus—including commercially—
-> provided you credit **“Mishearing Corpus (2025)”** and link back to this repository.
+> You may copy, modify, distribute and use the corpus---including commercially---
+> provided you credit **``Mishearing Corpus (2025)''** and link back to this repository.
 
 ⚠️ Rows flagged `OriginalFlag = 1` contain minimal quotations drawn from corpora whose full texts/audio cannot be redistributed. Those excerpts remain under their original licences; they are included here under Japanese quotation exceptions for research.
 
@@ -159,7 +180,7 @@ MIT License (see `LICENSE-MIT`).
   author       = {Kishiyama, T. and Contributors},
   title        = {Mishearing Corpus: A CC BY 4.0 dataset of Japanese speech misperceptions},
   year         = {2025},
-  howpublished = {\url{https://github.com/<your-org>/mishearing-corpus}},
+  howpublished = {\url{https://github.com/kishiyamat/mishearing-corpus}},
   note         = {Version 1.0}
 }
 ```
@@ -168,7 +189,10 @@ MIT License (see `LICENSE-MIT`).
 
 ## 9. Contact · acknowledgements
 
-Maintainer : **岸山 健**  〈kishiyamat at example.com〉
+Special thanks to [Yamato Sokki Co., Ltd.](https://www.yamatosokki.co.jp/mistake)
+for generously providing a large amount of mishearing data used in this corpus.
+
+Maintainer : Takeshi Kishiyama  〈kishiyamat at example.com〉
 Issues   : please open a GitHub issue or discussion thread.
 
 We thank all annotators and contributors to this project.

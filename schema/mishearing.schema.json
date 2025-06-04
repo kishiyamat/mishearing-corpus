@@ -12,7 +12,8 @@
     {"name": "SpeakerID",      "type": "string"},
     {"name": "ListenerID",     "type": "string"},
     {"name": "EnvID",          "type": "string"},
-    {"name": "Language",       "type": "string"}
+    {"name": "Language",       "type": "string"},
+    {"name": "Category",       "type": "string"}
   ],
   "primaryKey": ["MishearID"]
 }

@@ -6,7 +6,7 @@ repos:
         name: Check CSV filename convention
         language: python
         entry: scripts/hooks/check_filename.py
-        files: ^data/mishearing/.*\.csv$
+        files: ^data/mishearing/.*/.*\.csv$
         pass_filenames: true
 
       # 2) datapackage を自動生成

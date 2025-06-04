@@ -7,12 +7,12 @@ Run this *before* frictionless validate.
 import json, glob, pathlib
 
 SCHEMA = "schema/mishearing.schema.json"
-PATTERN = "data/mishearing/*.csv"
+PATTERN = "data/mishearing/**/*.csv"  # 再帰的に全サブディレクトリを対象
 
 resources = [{
     "name": "mishearing",
     "profile": "tabular-data-resource",
-    "path": sorted(glob.glob(PATTERN)),   # full list, no wildcard
+    "path": sorted(glob.glob(PATTERN, recursive=True)),   # full list, no wildcard
     "schema": SCHEMA
 }]
 
