@@ -41,6 +41,8 @@ Typical use-cases:
 * Training and evaluating the robustness of speech recognition or TTS systems  
 * Developing data-driven pronunciation teaching materials
 
+The corpus includes a `Language` column, allowing for future expansion to non-Japanese data as well.
+
 ---
 
 ## 2. Quick start
