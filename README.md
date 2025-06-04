@@ -3,6 +3,19 @@ _Approximately 10 k rows of Japanese mis-hearing instances, kept as plain CSV/TS
 
 ---
 
+## Project Roadmap
+
+| Phase                        | Target Size      | Estimated Period | Main Tasks                                                                 | Quick Checkpoint                        |
+|-----------------------------|------------------|------------------|----------------------------------------------------------------------------|-----------------------------------------|
+| **0. Schema Design**        | 0 → 100          | 1 week           | Transfer samples from existing papers/reports, finalize columns & foreign keys | *Is Frictionless CI green?*             |
+| **1. Existing Data Import**  | 100 → 1,500      | 1–1.5 months     | Extract explicit mishearing cases from available sources (search + manual fix) | *Record search queries & extraction rules in markdown* |
+| **2. Literature Mining**    | 1,500 → 3,000    | 1 month          | Copy tables from conference papers, theses, tech reports → append to CSV      | *Clear copyright & always fill citation*|
+| **3. Crowdsourcing ①**      | 3,000 → 6,000    | 2 months         | Taskify mishearing spots in ASR logs for manual review                        | *Run UI & instructions as MVP, get feedback* |
+| **4. Crowdsourcing ②**      | 6,000 → 9,000    | 1 month          | Subject task: listen to short audio, type exactly what was heard             | *Auto-record mic/noise conditions in EnvID* |
+| **5. Expansion & Review**   | 9,000 → 10,000+  | 1 month          | Add review labels (confidence, duplicate flag), fill missing genres           | *pre-commit: RED → fix → GREEN*         |
+
+---
+
 ## Contents
 - [1. What's inside?](#1-whats-inside)
 - [2. Quick start](#2-quick-start)
@@ -22,10 +35,11 @@ The corpus records how spoken Japanese utterances were **mis-heard**,
 together with speaker/listener profiles and recording conditions.  
 Typical use-cases:
 
-* predicting mis-hearings in daily life, working, or learning environments
-* phonetic and psycholinguistic research on perceptual epenthesis or dialect differences  
-* training / evaluating speech-recognition or TTS robustness  
-* data-driven pronunciation teaching materials
+* Evaluation of models that predict mishearing events
+* Predicting mis-hearings in daily life, work, or educational settings
+* Phonetic and psycholinguistic research on perceptual epenthesis or dialect differences  
+* Training and evaluating the robustness of speech recognition or TTS systems  
+* Developing data-driven pronunciation teaching materials
 
 ---
 
@@ -45,7 +59,7 @@ python scripts/stats.py
 
 # query with DuckDB
 python scripts/to_duckdb.py
-````
+```
 
 VS Code users: install **Edit CSV** + **Rainbow CSV** for spreadsheet-like editing.
 
@@ -155,4 +169,4 @@ MIT License (see `LICENSE-MIT`).
 Maintainer : **岸山 健**  〈kishiyamat at example.com〉
 Issues   : please open a GitHub issue or discussion thread.
 
-We thank all annotators, as well as the maintainers of CSJ, NPCMJ, BCCWJ, and other resources cited herein.
+We thank all annotators and contributors to this project.
