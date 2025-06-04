@@ -1,0 +1,13 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "mishearing",
+      "profile": "tabular-data-resource",
+      "path": [
+        "data/mishearing/2019-01-15_yamato.csv"
+      ],
+      "schema": "schema/mishearing.schema.json"
+    }
+  ]
+}

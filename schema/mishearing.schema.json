@@ -1,0 +1,17 @@
+{
+  "fields": [
+    {"name": "MishearID",      "type": "string",  "constraints": {"required": true}},
+    {"name": "Src",            "type": "string"},
+    {"name": "Tgt",            "type": "string"},
+    {"name": "Tips",           "type": "string"},
+    {"name": "Note",           "type": "string"},
+    {"name": "OriginalFlag",   "type": "boolean"},
+    {"name": "DocID",          "type": "string"},
+    {"name": "URL",            "type": "string"},
+    {"name": "SrcID",          "type": "string"},
+    {"name": "SpeakerID",      "type": "string"},
+    {"name": "ListenerID",     "type": "string"},
+    {"name": "EnvID",          "type": "string"}
+  ],
+  "primaryKey": ["MishearID"]
+}

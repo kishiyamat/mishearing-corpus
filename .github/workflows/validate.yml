@@ -1,0 +1,17 @@
+name: validate
+on: [push, pull_request]
+
+jobs:
+  frictionless:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.x' }
+      - run: pip install frictionless
+      - name: Build datapackage.json
+        run: python scripts/build_datapackage.py
+      - name: Filename convention
+        run: python scripts/hooks/check_filename.py $(git ls-files "data/mishearing/*.csv")
+      - name: Frictionless validate
+        run: frictionless validate datapackage.json
