@@ -63,11 +63,11 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt          # frictionless & pre-commit
 pre-commit install                       # auto-validation on commit
 
-# see summary
-python scripts/stats.py
+# see summary (Future)
+# python scripts/stats.py
 
-# query with DuckDB
-python scripts/to_duckdb.py
+# query with DuckDB (Future)
+# python scripts/to_duckdb.py
 ```
 
 VS Code users: install **Edit CSV** + **Rainbow CSV** for spreadsheet-like editing.
