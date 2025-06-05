@@ -1,6 +1,13 @@
 repos:
   - repo: local
     hooks:
+      # 0) update_record_count.pyに実行権限を付与
+      - id: ensure-update-record-count-exec
+        name: Ensure update_record_count.py is executable
+        language: system
+        entry: chmod +x scripts/update_record_count.py
+        pass_filenames: false
+
       # 1) ファイル名規則
       - id: filename-convention
         name: Check CSV filename convention
@@ -28,4 +35,11 @@ repos:
         name: Run pytest
         language: system
         entry: pytest
+        pass_filenames: false
+
+      # 5) バッジ・README自動更新
+      - id: update-record-count
+        name: Update record count badge and README
+        language: python
+        entry: scripts/update_record_count.py
         pass_filenames: false
