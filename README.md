@@ -76,39 +76,47 @@ VS Code users: install **Edit CSV** + **Rainbow CSV** for spreadsheet-like editi
 
 ## 3. Directory layout
 
+各ディレクトリ・ファイルの役割を以下に示します。
+
 ```
 mishearing-corpus/
-├─ data/                         # —— テーブルごとにサブフォルダ
-│  ├─ mishearing/                #   多数のシャードCSV を格納
-│  │   ├─ yamato/                #   データソースごとにサブディレクトリ
-│  │   │   ├─ 2019-01-15_yamato.csv
+├─ data/                         # データ本体。各テーブルごとにサブフォルダを分割
+│  ├─ mishearing/                # 誤聴事例（メインテーブル）、複数CSVシャードで管理
+│  │   ├─ yamato/                # データソースごとのサブディレクトリ
+│  │   │   ├─ 2019-01-15_yamato.csv  # 日付＋ソース名で命名
 │  │   │   └─ ...
 │  │   └─ ...
-│  ├─ source_utterance/          #   （あとから必要になれば作成）
+│  ├─ source_utterance/          # 元発話テーブル（必要に応じて作成）
 │  │   └─ …                      #
-│  ├─ speaker/                   #   単一ファイルで足りる表はそのまま 1 枚
+│  ├─ speaker/                   # 話者情報
 │  │   └─ speaker.csv
-│  ├─ listener/
+│  ├─ listener/                  # 聞き手情報
 │  │   └─ listener.csv
-│  ├─ environment/
+│  ├─ environment/               # 録音環境情報
 │  │   └─ environment.csv
-│  └─ document/
+│  └─ document/                  # 出典文献情報
 │      └─ document.csv
 │
-├─ schema/                       # Frictionless Table Schemas
+├─ schema/                       # Frictionless Table Schema（各テーブルの定義JSON）
 │  └─ mishearing.schema.json
 │
-├─ scripts/
-│  ├─ build_datapackage.py       # シャード(注参照)一覧から datapackage.json を再生成
+├─ scripts/                      # 補助スクリプト類
+│  ├─ build_datapackage.py       # シャード一覧からdatapackage.jsonを自動生成
 │  └─ hooks/
-│      └─ check_filename.py      # YYYY-MM-DD 形式の命名規則を検査
+│      └─ check_filename.py      # ファイル名がYYYY-MM-DD形式か検査
 │
-├─ datapackage.json              # ← build_datapackage.py が自動出力
-├─ requirements.txt              # frictionless / pre-commit 等
-├─ .pre-commit-config.yaml       # ローカル検証フック
+├─ tests/                        # テストコード（スクリプトやバリデーションの自動テスト）
+│  └─ test_scripts.py
+│
+├─ datapackage.json              # データパッケージ定義（自動生成）
+├─ requirements.txt              # 必要なPythonパッケージ一覧
+├─ .pre-commit-config.yaml       # pre-commit用フック設定
 └─ .github/
-    └─ workflows/
-        └─ validate.yml          # CI: ファイル名→datapackage→validate の順で実行
+  └─ workflows/
+    └─ validate.yml          # GitHub Actions用CIワークフロー
+```
+
+各テーブルの詳細やカラム定義は `schema/` 配下のJSONファイルを参照してください。
 ```
 
 - シャード (shard): 大きなテーブルやコレクションを
