@@ -1,0 +1,31 @@
+repos:
+  - repo: local
+    hooks:
+      # 1) ファイル名規則
+      - id: filename-convention
+        name: Check CSV filename convention
+        language: python
+        entry: scripts/hooks/check_filename.py
+        files: ^data/mishearing/.+\.csv$
+        pass_filenames: true
+
+      # 2) datapackage を自動生成
+      - id: build-datapackage
+        name: Build datapackage.json
+        language: python
+        entry: scripts/build_datapackage.py
+        pass_filenames: false         # 変更ファイルに依存しない
+
+      # 3) Frictionless validate
+      - id: frictionless-validate
+        name: Frictionless validate
+        language: system
+        entry: bash -c 'frictionless validate datapackage.json'
+        pass_filenames: false
+
+      # 4) Pytest
+      - id: pytest
+        name: Run pytest
+        language: system
+        entry: pytest
+        pass_filenames: false

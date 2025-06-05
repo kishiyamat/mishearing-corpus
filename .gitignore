@@ -1,0 +1,32 @@
+# See https://git-scm.com/docs/gitignore for details
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Frictionless/CSV artifacts
+datapackage.json
+
+# Ignore all CSVs except those in version control
+!data/**/*.csv
