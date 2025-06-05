@@ -15,3 +15,5 @@ jobs:
         run: python scripts/hooks/check_filename.py $(git ls-files "data/mishearing/**/*.csv")
       - name: Frictionless validate
         run: frictionless validate datapackage.json
+      - name: Pytest
+        run: pytest

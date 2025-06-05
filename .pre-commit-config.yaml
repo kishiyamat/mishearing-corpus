@@ -22,3 +22,10 @@ repos:
         language: system
         entry: bash -c 'frictionless validate datapackage.json'
         pass_filenames: false
+
+      # 4) Pytest
+      - id: pytest
+        name: Run pytest
+        language: system
+        entry: pytest
+        pass_filenames: false
