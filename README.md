@@ -1,5 +1,8 @@
 # Mishearing Corpus (Japanese)  
-_Approximately 10 k rows of Japanese (for now) mis-hearing instances, kept as plain CSV/TSV plus Table Schema and automatically validated with Frictionless + pre-commit + GitHub Actions._
+
+_Approximately 10 k rows of Japanese (for now) mis-hearing instances,
+kept as plain CSV/TSV plus Table Schema 
+and automatically validated with `frictionless` + `pre-commit` + GitHub Actions._
 
 ---
 
@@ -42,7 +45,10 @@ Typical use-cases:
 * Developing data-driven pronunciation teaching materials
 
 The corpus includes a `Language` column, allowing for future expansion to non-Japanese data as well.
-A `Category` column is also included to classify the type/source of each mishearing instance (e.g., "ASR", "perceptual", "teaching").
+A `Category` column is also included to classify each instance by context
+---some involve safety-critical mishearings 
+(e.g., in medical or industrial settings),
+while others come from everyday, educational, or entertainment situations.
 
 ---
 
@@ -109,19 +115,18 @@ mishearing-corpus/
   意味や順序を保ったまま、複数の小さなファイルやパーティションに分割して管理する方式
 - `_slug`: オプションで付ける、わかりやすい短い識別子
 
-
 ---
 
 ## 4. Data model (overview)
 
 | Table                  | Key          | Purpose                                  |
 | ---------------------- | ------------ | ---------------------------------------- |
-| `mishearing.csv`       | `MishearID`  | one mis-hearing event                    |
-| `source_utterance.csv` | `SrcID`      | original utterance text + phonetic info  |
-| `speaker.csv`          | `SpeakerID`  | speaker metadata (gender, dialect, age…) |
-| `listener.csv`         | `ListenerID` | listener metadata                        |
-| `environment.csv`      | `EnvID`      | channel / noise / mic specs              |
-| `document.csv`         | `DocID`      | bibliographic source of each record      |
+| `mishearing/`           | `MishearID`  | one mis-hearing event (sharded CSV files)        |
+| `source_utterance/`     | `SrcID`      | original utterance text + phonetic info          |
+| `speaker/`              | `SpeakerID`  | speaker metadata (gender, dialect, age…)         |
+| `listener/`             | `ListenerID` | listener metadata                                |
+| `environment/`          | `EnvID`      | channel / noise / mic specs                      |
+| `document/`             | `DocID`      | bibliographic source of each record              |
 
 Full column definitions live in the corresponding `*.schema.json`.
 
