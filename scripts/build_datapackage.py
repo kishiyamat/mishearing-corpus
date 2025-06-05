@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Generate datapackage.json with the current CSV shards.
 Run this *before* frictionless validate.
