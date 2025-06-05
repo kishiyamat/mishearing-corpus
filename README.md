@@ -1,5 +1,9 @@
 # Mishearing Corpus (Japanese)  
 
+![records](https://img.shields.io/badge/dynamic/json?label=records&color=blue&query=$.count&url=https://raw.githubusercontent.com/kishiyamat/mishearing-corpus/feature/add-record-batch/badges/records.json)
+
+Total rows: <!-- RECORD_CNT_START -->5<!-- RECORD_CNT_END -->
+
 _Approximately 10 k rows of Japanese (for now) mis-hearing instances,
 kept as plain CSV/TSV plus Table Schema 
 and automatically validated with `frictionless` + `pre-commit` + GitHub Actions._
