@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import re, sys, pathlib
 PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}(?:_[A-Za-z0-9_-]+)?\.csv$")
 def main(paths):
