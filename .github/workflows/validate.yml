@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name  "github-actions"
           git config user.email "actions@users.noreply.github.com"
-          if git status --porcelain | grep -q '^\s*M\|^\s*??'; then
+          if git status --porcelain | grep -qE '^\s*M|^\s*\?\?'; then
             git add badges/records.json README.md
             git commit -m "chore: update record count (auto) [skip ci]"
             git push
