@@ -2,7 +2,7 @@
 
 ![records](https://img.shields.io/badge/dynamic/json?color=blue&label=records&query=$.count&url=https://raw.githubusercontent.com/kishiyamat/mishearing-corpus/main/badges/records.json)
 
-Total rows: <!-- RECORD_CNT_START -->0<!-- RECORD_CNT_END -->
+Total rows: <!-- RECORD_CNT_START -->5<!-- RECORD_CNT_END -->
 
 _Approximately 10 k rows of Japanese (for now) mis-hearing instances,
 kept as plain CSV/TSV plus Table Schema 
