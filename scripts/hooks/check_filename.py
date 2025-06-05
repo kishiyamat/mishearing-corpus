@@ -5,7 +5,7 @@ def main(paths):
     bad=[]
     for p in paths:
         p=pathlib.Path(p)
-        if p.suffix==".csv" and p.parent.name=="mishearing":
+        if p.suffix == ".csv" and "mishearing" in p.parts:
             if not PATTERN.match(p.name):
                 bad.append(str(p))
     if bad:
