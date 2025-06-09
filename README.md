@@ -59,7 +59,8 @@ git clone https://github.com/kishiyamat/mishearing-corpus.git
 cd mishearing-corpus
 
 # set up tools (once)
-python -m venv .venv && source .venv/bin/activate
+python -m venv venv
+. venv/bin/activate
 pip install -r requirements.txt          # frictionless & pre-commit
 pre-commit install                       # auto-validation on commit
 
