@@ -10,8 +10,8 @@ def get_csv_files(directory):
     return set(csv_files)
 
 def test_matching_filenames():
-    mishearing_dir = '/home/kishiyamat/mishearing-corpus/data/mishearing'
-    tag_dir = '/home/kishiyamat/mishearing-corpus/data/tag'
+    mishearing_dir = os.getenv('MISHEARING_DIR', '/home/kishiyamat/mishearing-corpus/data/mishearing')
+    tag_dir = os.getenv('TAG_DIR', '/home/kishiyamat/mishearing-corpus/data/tag')
 
     mishearing_files = get_csv_files(mishearing_dir)
     tag_files = get_csv_files(tag_dir)
