@@ -1,6 +1,5 @@
 import os
 import csv
-import pytest
 
 def get_csv_files(directory):
     csv_files = []
