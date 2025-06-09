@@ -95,6 +95,8 @@ mishearing-corpus/
 │  │   └─ listener.csv
 │  ├─ environment/               # 録音環境情報
 │  │   └─ environment.csv
+│  ├─ tag/                       # タグ情報（ジャンルやテーマ分類）
+│  │   └─ tag.csv
 │  └─ document/                  # 出典文献情報
 │      └─ document.csv
 │
