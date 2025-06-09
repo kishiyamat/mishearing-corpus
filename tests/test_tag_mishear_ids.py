@@ -18,23 +18,23 @@ def get_mishear_ids(file_path):
             mishear_ids.add(row['MishearID'])
     return mishear_ids
 
-def test_tags_mishear_ids_exist_in_mishearing():
+def test_tag_mishear_ids_exist_in_mishearing():
     mishearing_dir = '/home/kishiyamat/mishearing-corpus/data/mishearing'
-    tags_dir = '/home/kishiyamat/mishearing-corpus/data/tags'
+    tag_dir = '/home/kishiyamat/mishearing-corpus/data/tag'
 
     mishearing_files = get_csv_files(mishearing_dir)
-    tags_files = get_csv_files(tags_dir)
+    tag_files = get_csv_files(tag_dir)
 
-    for tags_file in tags_files:
-        tags_path = os.path.join(tags_dir, tags_file)
-        mishearing_path = os.path.join(mishearing_dir, tags_file)
+    for tag_file in tag_files:
+        tag_path = os.path.join(tag_dir, tag_file)
+        mishearing_path = os.path.join(mishearing_dir, tag_file)
 
         if not os.path.exists(mishearing_path):
             continue
 
-        tags_mishear_ids = get_mishear_ids(tags_path)
+        tag_mishear_ids = get_mishear_ids(tag_path)
         mishearing_mishear_ids = get_mishear_ids(mishearing_path)
 
-        missing_ids = tags_mishear_ids - mishearing_mishear_ids
+        missing_ids = tag_mishear_ids - mishearing_mishear_ids
 
-        assert not missing_ids, f"The following MishearIDs in {tags_file} do not exist in the corresponding mishearing file: {missing_ids}"
+        assert not missing_ids, f"The following MishearIDs in {tag_file} do not exist in the corresponding mishearing file: {missing_ids}"

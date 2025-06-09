@@ -11,11 +11,11 @@ def get_csv_files(directory):
 
 def test_matching_filenames():
     mishearing_dir = '/home/kishiyamat/mishearing-corpus/data/mishearing'
-    tags_dir = '/home/kishiyamat/mishearing-corpus/data/tags'
+    tag_dir = '/home/kishiyamat/mishearing-corpus/data/tag'
 
     mishearing_files = get_csv_files(mishearing_dir)
-    tags_files = get_csv_files(tags_dir)
+    tag_files = get_csv_files(tag_dir)
 
-    missing_files = tags_files - mishearing_files
+    missing_files = tag_files - mishearing_files
 
-    assert not missing_files, f"The following files in tags/**/.*.csv do not have corresponding files in mishearing/**/.*.csv: {missing_files}"
+    assert not missing_files, f"The following files in tag/**/.*.csv do not have corresponding files in mishearing/**/.*.csv: {missing_files}"
