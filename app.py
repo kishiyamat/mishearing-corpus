@@ -44,11 +44,19 @@ st.title("Merged CSV Viewer")
 try:
     merged_data = merge_files(mishearing_path, tag_path)
 
+    # Display total number of rows in the merged data
+    st.write(f"### Total Rows in Merged Data: {len(merged_data)}")
+
     # Extract unique tags
     unique_tags = merged_data["Tags"].explode().dropna().unique()
 
     # Multi-select for tags (multiple selection)
     selected_tags = st.multiselect("Select Tags to Filter", options=unique_tags)
+
+    # Display histogram of tag counts
+    tag_counts = merged_data["Tags"].explode().value_counts()
+    st.bar_chart(tag_counts)
+
     filter_mode = st.radio("Filter Mode", ("AND", "OR"), horizontal=True)
 
     if selected_tags:
