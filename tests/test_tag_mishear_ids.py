@@ -1,14 +1,6 @@
 import os
 import csv
-
-def get_csv_files(directory):
-    csv_files = []
-    for root, _, files in os.walk(directory):
-        for file in files:
-            if file.endswith('.csv'):
-                relative_path = os.path.relpath(os.path.join(root, file), directory)
-                csv_files.append(relative_path)
-    return csv_files
+from scripts.utils import get_csv_files
 
 def get_mishear_ids(file_path):
     mishear_ids = set()

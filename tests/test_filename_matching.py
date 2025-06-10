@@ -1,17 +1,10 @@
 import os
-
-def get_csv_files(directory):
-    csv_files = []
-    for root, _, files in os.walk(directory):
-        for file in files:
-            if file.endswith('.csv'):
-                relative_path = os.path.relpath(os.path.join(root, file), directory)
-                csv_files.append(relative_path)
-    return set(csv_files)
+from scripts.utils import get_csv_files
 
 def test_matching_filenames():
-    mishearing_dir = os.getenv('MISHEARING_DIR', '/home/kishiyamat/mishearing-corpus/data/mishearing')
-    tag_dir = os.getenv('TAG_DIR', '/home/kishiyamat/mishearing-corpus/data/tag')
+    script_dir = os.path.dirname(__file__)
+    mishearing_dir = os.path.join(script_dir, '../data/mishearing')
+    tag_dir = os.path.join(script_dir, '../data/tag')
 
     mishearing_files = get_csv_files(mishearing_dir)
     tag_files = get_csv_files(tag_dir)
