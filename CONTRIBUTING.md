@@ -48,6 +48,18 @@ To add new mishearing data:
 1. Run `python scripts/build_datapackage.py` to regenerate `datapackage.json`.
 2. Commit the updated `datapackage.json`.
 
+## Pull Request Template
+
+When submitting a pull request, please follow the template provided in `.github/pull_request_template.md`. This ensures:
+
+1. A clear description of the changes and their motivation.
+2. Validation of data using `frictionless validate`.
+3. Inclusion of tests for new features or fixes.
+4. Proper documentation updates.
+5. Web archive using https://megalodon.jp/
+
+Refer to the checklist in the template to ensure all steps are completed before submission.
+
 ## Reporting Issues
 
 If you encounter any issues, please open a GitHub issue with detailed information about the problem.
