@@ -1,5 +1,6 @@
 # Makefile for deploying the Streamlit app
 
+.PHONY: install run clean
 install:
 	pip install -r requirements.txt
 
