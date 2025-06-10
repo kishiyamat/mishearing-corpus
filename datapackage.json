@@ -5,6 +5,7 @@
       "name": "mishearing",
       "profile": "tabular-data-resource",
       "path": [
+        "data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv",
         "data/mishearing/taxi_media/2025-06-09_taximedia.csv",
         "data/mishearing/yamato/2019-01-15_yamato.csv"
       ],
