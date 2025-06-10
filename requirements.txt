@@ -3,3 +3,5 @@ pre-commit==4.2.0
 pandas==2.2.3
 python-slugify==8.0.4
 pytest
+streamlit
+duckdb
