@@ -220,9 +220,16 @@ We thank all annotators and contributors to this project.
 ### Tenshokudou Taxi Media
 - **Source**: Tenshokudou Media
 - **URL**: [https://www.tenshokudou.com/media/?p=13401](https://www.tenshokudou.com/media/?p=13401)
+- **Archive**: https://megalodon.jp/2025-0609-1602-44/https://www.tenshokudou.com:443/media/?p=13401
 - **Description**: Mishearing data collected from taxi-related media articles published by Tenshokudou.
 
 ### Yamato Sokki
 - **Source**: Yamato Sokki Co., Ltd.
 - **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
 - **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
+
+### Gendai Media
+- **Source**: Gendai Media
+- **URL**: [https://gendai.media/articles/-/152393?imp=0](https://gendai.media/articles/-/152393?imp=0)
+- **Archive**: https://megalodon.jp/2025-0610-1550-38/https://gendai.media:443/articles/-/152393?imp=0
+- **Description**: Mishearing data derived from articles published by Gendai Media, focusing on public facilities and store names.
