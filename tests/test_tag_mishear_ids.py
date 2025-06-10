@@ -19,8 +19,8 @@ def get_mishear_ids(file_path):
     return mishear_ids
 
 def test_tag_mishear_ids_exist_in_mishearing():
-    mishearing_dir = os.getenv('MISHEARING_DIR', '/home/kishiyamat/mishearing-corpus/data/mishearing')
-    tag_dir = os.getenv('TAG_DIR', '/home/kishiyamat/mishearing-corpus/data/tag')
+    mishearing_dir = os.getenv('MISHEARING_DIR', os.path.join(os.path.dirname(__file__), '../data/mishearing'))
+    tag_dir = os.getenv('TAG_DIR', os.path.join(os.path.dirname(__file__), '../data/tag'))
 
     mishearing_files = get_csv_files(mishearing_dir)
     tag_files = get_csv_files(tag_dir)
