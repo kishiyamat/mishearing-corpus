@@ -163,6 +163,10 @@ If validation fails, the commit/merge is blocked and a detailed error list is sh
 3. Run `frictionless validate --schema schema/*.json data/*.csv` locally until it passes.
 4. Push; the CI must turn green.
 5. PR template asks for:
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
    * new `MishearID` range
    * data source (paper / annotation task / synthetic)
    * statement that you own the rights or the excerpt is within quotation limits.
