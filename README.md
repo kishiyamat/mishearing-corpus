@@ -4,6 +4,8 @@ _Approximately 10 k rows of Japanese (for now) mis-hearing instances,
 kept as plain CSV/TSV plus Table Schema 
 and automatically validated with `frictionless` + `pre-commit` + GitHub Actions._
 
+You can see the data [here](https://mishearing-corpus-dev.streamlit.app/).
+
 ---
 
 ## Project Roadmap

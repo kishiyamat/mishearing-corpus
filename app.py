@@ -32,7 +32,7 @@ def merge_files(mishearing_path, tag_path):
         else:
             merged_dataframes.append(mishearing_df)
 
-    return merged_dataframes
+    return merged_dataframes, mishearing_files
 
 # Paths to the directories
 mishearing_path = "data/mishearing"
