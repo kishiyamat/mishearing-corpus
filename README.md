@@ -29,6 +29,7 @@ and automatically validated with `frictionless` + `pre-commit` + GitHub Actions.
 - [7. Licence](#7-licence)
 - [8. Citation](#8-citation)
 - [9. Contact / acknowledgements](#9-contact--acknowledgements)
+- [10. Data Sources](#10-data-sources)
 
 ---
 
@@ -95,6 +96,8 @@ mishearing-corpus/
 │  │   └─ listener.csv
 │  ├─ environment/               # 録音環境情報
 │  │   └─ environment.csv
+│  ├─ tag/                       # タグ情報（ジャンルやテーマ分類）
+│  │   └─ tag.csv
 │  └─ document/                  # 出典文献情報
 │      └─ document.csv
 │
@@ -160,7 +163,10 @@ If validation fails, the commit/merge is blocked and a detailed error list is sh
 3. Run `frictionless validate --schema schema/*.json data/*.csv` locally until it passes.
 4. Push; the CI must turn green.
 5. PR template asks for:
+<<<<<<< HEAD
+=======
 
+>>>>>>> main
    * new `MishearID` range
    * data source (paper / annotation task / synthetic)
    * statement that you own the rights or the excerpt is within quotation limits.
@@ -210,3 +216,15 @@ Maintainer : Takeshi Kishiyama  〈kishiyamat at example.com〉
 Issues   : please open a GitHub issue or discussion thread.
 
 We thank all annotators and contributors to this project.
+
+## 10. Data Sources
+
+### Tenshokudou Taxi Media
+- **Source**: Tenshokudou Media
+- **URL**: [https://www.tenshokudou.com/media/?p=13401](https://www.tenshokudou.com/media/?p=13401)
+- **Description**: Mishearing data collected from taxi-related media articles published by Tenshokudou.
+
+### Yamato Sokki
+- **Source**: Yamato Sokki Co., Ltd.
+- **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
+- **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
