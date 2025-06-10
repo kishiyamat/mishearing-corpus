@@ -42,9 +42,9 @@ tag_path = "data/tag"
 st.title("Merged CSV Viewer")
 
 try:
-    merged_dataframes = merge_files(mishearing_path, tag_path)
+    merged_dataframes, mishearing_files = merge_files(mishearing_path, tag_path)
     for idx, df in enumerate(merged_dataframes):
-        filename = os.path.basename(glob.glob(os.path.join(mishearing_path, "*/*.csv"))[idx])
+        filename = os.path.basename(mishearing_files[idx])
         st.write(f"### Merged DataFrame: {filename}")
         st.write(df)
 except Exception as e:
