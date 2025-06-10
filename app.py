@@ -32,7 +32,7 @@ def merge_files(mishearing_path, tag_path):
         else:
             merged_dataframes.append(mishearing_df)
 
-    return merged_dataframes, mishearing_files
+    return pd.concat(merged_dataframes, ignore_index=True)
 
 # Paths to the directories
 mishearing_path = "data/mishearing"
@@ -42,10 +42,25 @@ tag_path = "data/tag"
 st.title("Merged CSV Viewer")
 
 try:
-    merged_dataframes, mishearing_files = merge_files(mishearing_path, tag_path)
-    for idx, df in enumerate(merged_dataframes):
-        filename = os.path.basename(mishearing_files[idx])
-        st.write(f"### Merged DataFrame: {filename}")
-        st.write(df)
+    merged_data = merge_files(mishearing_path, tag_path)
+
+    # Extract unique tags
+    unique_tags = merged_data["Tags"].explode().dropna().unique()
+
+    # Multi-select for tags (multiple selection)
+    selected_tags = st.multiselect("Select Tags to Filter", options=unique_tags)
+    filter_mode = st.radio("Filter Mode", ("AND", "OR"), horizontal=True)
+
+    if selected_tags:
+        if filter_mode == "AND":
+            filtered_data = merged_data[merged_data["Tags"].apply(lambda tags: all(tag in tags for tag in selected_tags) if tags else False)]
+        else:  # OR mode
+            filtered_data = merged_data[merged_data["Tags"].apply(lambda tags: any(tag in tags for tag in selected_tags) if tags else False)]
+
+        st.write("### Filtered Data")
+        st.write(filtered_data)
+    else:
+        st.write("### Merged Data (Preview)")
+        st.write(merged_data.head())
 except Exception as e:
     st.error(f"An error occurred: {e}")
