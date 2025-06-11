@@ -233,3 +233,28 @@ We thank all annotators and contributors to this project.
 - **URL**: [https://gendai.media/articles/-/152393?imp=0](https://gendai.media/articles/-/152393?imp=0)
 - **Archive**: https://megalodon.jp/2025-0610-1550-38/https://gendai.media:443/articles/-/152393?imp=0
 - **Description**: Mishearing data derived from articles published by Gendai Media, focusing on public facilities and store names.
+
+### Med Safe
+
+- **Source**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
+- **Method**
+  1. 上記Payloadで検索
+  1. 
+
+**Payload**:
+
+```json
+{
+  "mode": "both",  // "new" or "old" or "both"
+  "report_type": ["事故", "ヒヤリハット"],
+  "year_from": 2010,
+  "year_to": 2025,
+  "per_page": 100,  # トータルが47件だったので100で出力
+  "summary": "",  // 概要検索（空欄）
+  "full_text_search": [
+    {
+      "keyword": "と聞き間違",  # 「を聞き間違え」より聞き間違えの対象が明らか
+      "condition": "or"  // 「いずれかを含む」
+    }
+  ]
+}```
