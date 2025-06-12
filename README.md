@@ -100,6 +100,8 @@ mishearing-corpus/
 │  │   └─ environment.csv
 │  ├─ tag/                       # タグ情報（ジャンルやテーマ分類）
 │  │   └─ tag.csv
+│  ├─ tag/                       # タグ情報（ジャンルやテーマ分類）
+│  │   └─ tag.csv
 │  └─ document/                  # 出典文献情報
 │      └─ document.csv
 │
@@ -214,6 +216,18 @@ Maintainer : Takeshi Kishiyama  〈kishiyamat at example.com〉
 Issues   : please open a GitHub issue or discussion thread.
 
 We thank all annotators and contributors to this project.
+
+## 10. Data Sources
+
+### Tenshokudou Taxi Media
+- **Source**: Tenshokudou Media
+- **URL**: [https://www.tenshokudou.com/media/?p=13401](https://www.tenshokudou.com/media/?p=13401)
+- **Description**: Mishearing data collected from taxi-related media articles published by Tenshokudou.
+
+### Yamato Sokki
+- **Source**: Yamato Sokki Co., Ltd.
+- **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
+- **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
 
 ## 10. Data Sources
 
