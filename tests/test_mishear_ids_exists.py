@@ -36,6 +36,19 @@ ENV_TRANSLATION_PATH = os.path.join(ENVIRONMENT_DIR, 'translation.csv')
 TAG_TRANSLATION_PATH = os.path.join(TAG_DIR, 'translation.csv')
 
 def test_tag_environment_exist():
+    """
+    Test to verify the existence of corresponding 'tag' and 'environment' files 
+    for each file in the MISHEARING_FILES list.
+
+    This function checks if the required files are present in their respective 
+    directories (TAG_DIR and ENVIRONMENT_DIR). If either the 'tag' or 'environment' 
+    file is missing for a given file, a warning is logged, and an AssertionError 
+    is raised to indicate the missing files.
+
+    Raises:
+        AssertionError: If the corresponding 'tag' or 'environment' file is missing 
+                        for any file in MISHEARING_FILES.
+    """
     # other columns: tag, environment
     for file_i in MISHEARING_FILES:
         tag_path = os.path.join(TAG_DIR, file_i)
@@ -46,6 +59,35 @@ def test_tag_environment_exist():
             raise AssertionError(f"Missing corresponding files for {file_i}. Ensure all files are present in the directories.")
 
 def test_mishear_ids_exist_in_other_columns():
+    """
+    Test function to verify that all `MishearID` values in the mishearing files exist in the corresponding tag and environment files.
+
+    This function iterates through a list of mishearing files, checks the presence of `MishearID` values in the corresponding tag and environment files, 
+    and logs errors for any missing IDs. It also asserts that there are no missing IDs, ensuring data consistency across the files.
+
+    Steps:
+    1. For each file in `MISHEARING_FILES`, construct paths for the mishearing, tag, and environment files.
+    2. Extract `MishearID` values from each file using the `get_ids` function.
+    3. Compare `MishearID` values from the mishearing file against those in the tag and environment files.
+    4. Log errors for any missing IDs and raise assertion errors if discrepancies are found.
+
+    Assertions:
+    - Ensures that all `MishearID` values in the mishearing file exist in the corresponding tag file.
+    - Ensures that all `MishearID` values in the mishearing file exist in the corresponding environment file.
+
+    Raises:
+    - AssertionError: If any `MishearID` values are missing in the tag or environment files.
+
+    Logging:
+    - Logs the processing of each file.
+    - Logs errors for missing `MishearID` values in the tag and environment files.
+
+    Dependencies:
+    - `MISHEARING_FILES`: List of filenames to process.
+    - `MISHEARING_DIR`, `TAG_DIR`, `ENVIRONMENT_DIR`: Directories containing the respective files.
+    - `get_ids`: Function to extract IDs from a file.
+    - `logger`: Logger instance for logging information and errors.
+    """
     for file_i in MISHEARING_FILES:
         mishearing_path = os.path.join(MISHEARING_DIR, file_i)
         tag_path = os.path.join(TAG_DIR, file_i)

@@ -3,6 +3,22 @@ from scripts.utils import get_csv_files
 from loguru import logger
 
 def test_matching_filenames():
+    """
+    Test to ensure that all CSV files in the 'tag' and 'environment' directories
+    have corresponding files in the 'mishearing' directory, excluding 'translation.csv'.
+
+    This function performs the following checks:
+    1. Collects all CSV files from the 'mishearing', 'tag', and 'environment' directories,
+       excluding 'translation.csv'.
+    2. Compares the filenames in the 'tag' and 'environment' directories against the
+       filenames in the 'mishearing' directory.
+    3. Asserts that there are no missing files in the 'tag' and 'environment' directories
+       when compared to the 'mishearing' directory.
+
+    Raises:
+        AssertionError: If there are files in 'tag' or 'environment' directories that
+                        do not have corresponding files in the 'mishearing' directory.
+    """
     script_dir = os.path.dirname(__file__)
     mishearing_dir = os.path.join(script_dir, '../data/mishearing')
     tag_dir = os.path.join(script_dir, '../data/tag')
