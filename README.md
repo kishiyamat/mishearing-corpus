@@ -81,27 +81,31 @@ VS Code users: install **Edit CSV** + **Rainbow CSV** for spreadsheet-like editi
 ## 3. Directory layout
 
 各ディレクトリ・ファイルの役割を以下に示します。
+追加時に mishearing, environment, tag は必須としています。
 
 ```
 mishearing-corpus/
-├─ data/                         # データ本体。各テーブルごとにサブフォルダを分割
+├─ app.py                         # https://mishearing-corpus-dev.streamlit.app/ で動く検索アプリ
+├─ data/                          # データ本体。各テーブルごとにサブフォルダを分割
 │  ├─ mishearing/                # 誤聴事例（メインテーブル）、複数CSVシャードで管理
-│  │   ├─ yamato/                # データソースごとのサブディレクトリ
+│  │   ├─ yamato/               # データソースごとのサブディレクトリ
 │  │   │   ├─ 2019-01-15_yamato.csv  # 日付＋ソース名で命名
 │  │   │   └─ ...
 │  │   └─ ...
-│  ├─ source_utterance/          # 元発話テーブル（必要に応じて作成）
-│  │   └─ …                      #
-│  ├─ speaker/                   # 話者情報
-│  │   └─ speaker.csv
-│  ├─ listener/                  # 聞き手情報
-│  │   └─ listener.csv
 │  ├─ environment/               # 録音環境情報
 │  │   ├─ yamato/               # データソースごとのブリッジテーブル
-│  │   ├─ med_safe/             # データソースごとのブリッジテーブル
-│  │   └─ env_translation.csv
+│  │   │   ├─ 2019-01-15_yamato.csv  # 日付＋ソース名で命名
+│  │   │   └─ ...
+│  │   └─ translation.csv       # 環境(place, modal, ...)の翻訳
+│  ├─ speaker/                   # 話者情 (未整備)報
+│  │   └─ speaker.csv
+│  ├─ listener/                  # 聞き手情報 (未整備)
+│  │   └─ listener.csv
 │  ├─ tag/                       # タグ情報（ジャンルやテーマ分類）
-│  │   └─ tag.csv
+│  │   ├─ yamato/               # データソースごとのサブディレクトリ
+│  │   │   ├─ 2019-01-15_yamato.csv  # 日付＋ソース名で命名
+│  │   │   └─ ...
+│  │   └─ translation.csv       # タグ (genre, category, ...)の翻訳
 │  └─ document/                  # 出典文献情報
 │      └─ document.csv
 │
@@ -249,26 +253,6 @@ We thank all annotators and contributors to this project.
 - **Description**: Mishearing data derived from articles published by Gendai Media, focusing on public facilities and store names.
 
 ### Med Safe
-
 - **Source**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
-- **Method**
-  1. 上記Payloadで検索
-  1. 
-
-**Payload**:
-
-```json
-{
-  "mode": "both",  // "new" or "old" or "both"
-  "report_type": ["事故", "ヒヤリハット"],
-  "year_from": 2010,
-  "year_to": 2025,
-  "per_page": 100,  # トータルが47件だったので100で出力
-  "summary": "",  // 概要検索（空欄）
-  "full_text_search": [
-    {
-      "keyword": "と聞き間違",  # 「を聞き間違え」より聞き間違えの対象が明らか
-      "condition": "or"  // 「いずれかを含む」
-    }
-  ]
-}```
+- **URL**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
+- **Description**: See `resource/medsafe/readme.md`
