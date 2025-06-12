@@ -1,111 +1,120 @@
-# streamlit_app.py
+# app.py
 from __future__ import annotations
-import os
-import glob
-import pandas as pd
-import streamlit as st
+import os, glob, pandas as pd, streamlit as st
 
-# ──────────────────────────────── I / O  ──────────────────────────────── #
+# ───────────────────────── I/O helpers ───────────────────────── #
 @st.cache_data(show_spinner=False)
 def load_csv_tree(root: str, *, exclude: str | None = None) -> pd.DataFrame:
-    """Recursively load every CSV under *root* (optionally excluding *exclude*)."""
-    pattern = os.path.join(root, "**/*.csv")
-    files = [
-        f for f in glob.glob(pattern, recursive=True)
-        if not exclude or exclude not in f
-    ]
+    pat = os.path.join(root, "**/*.csv")
+    files = [f for f in glob.glob(pat, recursive=True) if not exclude or exclude not in f]
     return pd.concat((pd.read_csv(f) for f in files), ignore_index=True)
 
 @st.cache_data(show_spinner=False)
-def load_translation(path: str) -> pd.DataFrame:
-    return pd.read_csv(path)
+def load_translation(root: str) -> pd.DataFrame:
+    return pd.read_csv(os.path.join(root, "translation.csv"))
 
-# ──────────────────────── Translation helpers ─────────────────────────── #
-# ── helpers.py ──────────────────────────────────────────────────────────
-def id_to_label(ids, trans_df: pd.DataFrame, lang: str):
-    """TagID / EnvID → 表示ラベル"""
+def id_to_label(ids, trans_df, lang):
     mapping = (
-        trans_df
-        .loc[trans_df["Lang"] == lang]
+        trans_df.loc[trans_df["Lang"] == lang]
         .set_index(trans_df.columns[0])["Label"]
         .to_dict()
     )
-    return [mapping.get(i, i) for i in ids]          # fallback = 原値
+    return [mapping.get(i, i) for i in ids]
 
-
-def label_to_id(labels, trans_df: pd.DataFrame, lang: str | None = None):
-    """ラベル → TagID / EnvID  
-       lang を渡せばその言語だけ、None なら全体から検索
-    """
-    df = trans_df if lang is None else trans_df.loc[trans_df["Lang"] == lang]
-    mapping = df.set_index("Label")[df.columns[0]].to_dict()
+def label_to_id(labels, trans_df, lang):
+    mapping = (
+        trans_df.loc[trans_df["Lang"] == lang]
+        .set_index("Label")[trans_df.columns[0]]
+        .to_dict()
+    )
     return [mapping[lbl] for lbl in labels if lbl in mapping]
 
+def make_mask(link_df, key_col, picked_ids, logic) -> set[str]:
+    """
+    Generate a set of IDs based on filtering logic applied to a DataFrame.
 
-# ────────────────────────── Filtering logic ───────────────────────────── #
-def make_mask(link_df, key_col, picked_ids, logic: str) -> set[str]:
-    """Return a set of MishearIDs that match *picked_ids* under *logic*."""
-    if not picked_ids:        # nothing picked → allow everything
-        return set(link_df["MishearID"].unique())
+    Args:
+        link_df (pd.DataFrame): The input DataFrame containing the data to filter.
+        key_col (str): The column name in the DataFrame to apply the filtering logic on.
+        picked_ids (Iterable): A collection of IDs to filter against.
+        logic (str): A string specifying the filtering logic. If it starts with "すべて",
+                     the function checks if all `picked_ids` are a subset of the values
+                     in `key_col` grouped by "MishearID". Otherwise, it filters rows
+                     where `key_col` contains any of the `picked_ids`.
 
-    if logic == "すべて含む (AND)":
-        ok = (
-            link_df.groupby("MishearID")[key_col]
-            .apply(lambda s: set(picked_ids).issubset(s))
-        )
+    Returns:
+        set[str]: A set of "MishearID" values that match the filtering criteria.
+    """
+    if not picked_ids:
+        return set(link_df["MishearID"])
+    if logic.startswith("すべて"):
+        # FIXME: 「すべて」というのはradioに依存している
+        ok = link_df.groupby("MishearID")[key_col].apply(lambda s: set(picked_ids).issubset(s))
         return set(ok[ok].index)
-    # OR
-    return set(link_df[link_df[key_col].isin(picked_ids)]["MishearID"].unique())
+    return set(link_df[link_df[key_col].isin(picked_ids)]["MishearID"])
 
 
-# ──────────────────────────────── UI  ─────────────────────────────────── #
+# ──────────────────────── Core application class ─────────────────────── #
+class MishearingApp:
+    ROOT = "data"
+
+    def __init__(self):
+        tag_root = f"{self.ROOT}/tag"
+        env_root = f"{self.ROOT}/environment"
+        mishear_root = f"{self.ROOT}/mishearing"
+
+        self.tag_trans = load_translation(tag_root)
+        self.env_trans = load_translation(env_root)
+
+        self.tag_link = load_csv_tree(tag_root, exclude="translation.csv")
+        self.env_link = load_csv_tree(env_root, exclude="translation.csv")
+        self.corpus   = load_csv_tree(mishear_root)
+
+        # Pre-compute counts
+        self.tag_counts = self.tag_link["TagID"].value_counts()
+        self.env_counts = self.env_link["EnvID"].value_counts()
+
+    # ------------- UI ------------ #
+    def sidebar_form(self):
+        with st.sidebar:
+            st.title("🔍 Filter")
+            lang = st.radio("Language", ("en", "ja"), horizontal=True, index=1)
+            with st.form(key="filter_form"):
+                tag_lbls = id_to_label(self.tag_counts.index, self.tag_trans, lang)
+                env_lbls = id_to_label(self.env_counts.index, self.env_trans, lang)
+
+                picked_tags = st.multiselect("Tags", tag_lbls)
+                tag_logic   = st.radio("Tag rule", ["すべて含む (AND)", "いずれか含む (OR)"])
+
+                picked_envs = st.multiselect("Environments", env_lbls)
+                env_logic   = st.radio("Env rule", ["すべて含む (AND)", "いずれか含む (OR)"])
+
+                submitted = st.form_submit_button("Apply filters")
+
+            return submitted, lang, picked_tags, tag_logic, picked_envs, env_logic
+
+    def run(self):
+        submitted, lang, p_tag_lbl, tag_logic, p_env_lbl, env_logic = self.sidebar_form()
+        if not submitted:
+            st.info("左のサイドバーでフィルタを選んで **Apply filters** を押してください。")
+            return
+
+        # --- translate back to IDs --- #
+        p_tag_ids = label_to_id(p_tag_lbl, self.tag_trans, lang)
+        p_env_ids = label_to_id(p_env_lbl, self.env_trans, lang)
+
+        keep_tag = make_mask(self.tag_link, "TagID", p_tag_ids, tag_logic)
+        keep_env = make_mask(self.env_link, "EnvID", p_env_ids, env_logic)
+        final_ids = keep_tag & keep_env
+
+        # --- main pane --- #
+        st.header(f"Results – {len(final_ids)} rows")
+        st.dataframe(self.corpus[self.corpus["MishearID"].isin(final_ids)])
+
+# ──────────────────────────── Bootstrap ────────────────────────── #
 def main():
-    # ---------- Paths ----------
-    ROOT_DATA = "data"
-    mishear_path = f"{ROOT_DATA}/mishearing"
-    tag_root = f"{ROOT_DATA}/tag"
-    env_root = f"{ROOT_DATA}/environment"
+    st.set_page_config(page_title="Mishearing Corpus", layout="wide")
+    st.title("Mishearing Corpus Viewer")
+    MishearingApp().run()
 
-    tag_trans = load_translation(f"{tag_root}/translation.csv")
-    env_trans = load_translation(f"{env_root}/translation.csv")
-
-    tag_link = load_csv_tree(tag_root, exclude="translation.csv")   # TagID, MishearID
-    env_link = load_csv_tree(env_root, exclude="translation.csv")   # EnvID, MishearID
-    corpus   = load_csv_tree(mishear_path)                          # Mishearing corpus
-
-    # ---------- Language ----------
-    lang = st.radio("Language", ("en", "ja"), horizontal=True, index=1)
-
-    # ---------- Tag & Env selectors ----------
-    tag_counts = tag_link["TagID"].value_counts()
-    env_counts = env_link["EnvID"].value_counts()
-
-    tag_labels = id_to_label(tag_counts.index, tag_trans, lang)
-    env_labels = id_to_label(env_counts.index, env_trans, lang)
-
-    st.header("Query by Tags and Environments")
-    st.markdown("Select tags and environments to filter the mishearing corpus.")
-
-    picked_tag_lbls = st.multiselect("Tags", tag_labels)
-    tag_logic = st.radio("Tag rule", ["すべて含む (AND)", "いずれか含む (OR)"])
-    picked_tag_ids = label_to_id(picked_tag_lbls, tag_trans, lang)
-    with st.expander("Tag counts", expanded=False):
-        st.bar_chart(tag_counts.rename(index=dict(zip(tag_counts.index, tag_labels))))
-    keep_by_tag = make_mask(tag_link, "TagID", picked_tag_ids, tag_logic)
-
-    picked_env_lbls = st.multiselect("Environments", env_labels)
-    env_logic = st.radio("Env rule", ["すべて含む (AND)", "いずれか含む (OR)"])
-    picked_env_ids = label_to_id(picked_env_lbls, env_trans, lang)
-    with st.expander("Environment counts", expanded=False):
-        st.bar_chart(env_counts.rename(index=dict(zip(env_counts.index, env_labels))))
-    keep_by_env = make_mask(env_link, "EnvID", picked_env_ids, env_logic)
-
-    final_keep  = keep_by_tag & keep_by_env
-
-    st.markdown(f"### Results – {len(final_keep)} rows")
-    st.dataframe(corpus[corpus["MishearID"].isin(final_keep)])
-
-
-st.set_page_config(page_title="Mishearing Corpus")
-st.title("Mishearing Corpus Viewer")
 main()
