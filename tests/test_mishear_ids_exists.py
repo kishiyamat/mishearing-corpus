@@ -11,12 +11,22 @@ def get_mishear_ids(file_path):
             mishear_ids.add(row['MishearID'])
     return mishear_ids
 
+def get_ids(file_path, column_name):
+    ids = set()
+    with open(file_path, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            ids.add(row[column_name])
+    return ids
+
 SCRIPT_DIR = os.path.dirname(__file__)
 MISHEARING_DIR = os.path.join(SCRIPT_DIR, '../data/mishearing')
 TAG_DIR = os.path.join(SCRIPT_DIR, '../data/tag')
 ENVIRONMENT_DIR = os.path.join(SCRIPT_DIR, '../data/environment')
 
 MISHEARING_FILES = get_csv_files(MISHEARING_DIR)
+ENV_TRANSLATION_PATH = os.path.join(ENVIRONMENT_DIR, 'translation.csv')
+TAG_TRANSLATION_PATH = os.path.join(TAG_DIR, 'translation.csv')
 
 def test_tag_environment_exist():
     # other columns: tag, environment
@@ -51,9 +61,30 @@ def test_mishear_ids_exist_in_other_columns():
         assert not missing_in_environment, f"The following MishearIDs in {file_i} do not exist in the corresponding environment file: {missing_in_environment}"
 
 def test_translation_exists():
-    # TODO: Add test to make sure that 
-    # translation.csv under environment and tag covered all EnvID and TagID 
-    # that are in the env and tag files.
-    # to check this, first we need to get all EnvID and TagID from the files
-    # Then, check if the EnvID and TagID are in the translation.csv files.
-    pass
+    environment_files = get_csv_files(ENVIRONMENT_DIR)
+    tag_files = get_csv_files(TAG_DIR)
+
+    env_ids = set()
+    tag_ids = set()
+
+    for file_i in environment_files:
+        if file_i != 'translation.csv':
+            env_ids.update(get_ids(os.path.join(ENVIRONMENT_DIR, file_i), 'EnvID'))
+
+    for file_i in tag_files:
+        if file_i != 'translation.csv':
+            tag_ids.update(get_ids(os.path.join(TAG_DIR, file_i), 'TagID'))
+
+    env_translation_ids = get_ids(ENV_TRANSLATION_PATH, 'EnvID')
+    tag_translation_ids = get_ids(TAG_TRANSLATION_PATH, 'TagID')
+
+    missing_env_ids = env_ids - env_translation_ids
+    missing_tag_ids = tag_ids - tag_translation_ids
+
+    if missing_env_ids:
+        logger.error(f"The following EnvIDs are missing in environment translation.csv: {missing_env_ids}")
+    if missing_tag_ids:
+        logger.error(f"The following TagIDs are missing in tag translation.csv: {missing_tag_ids}")
+
+    assert not missing_env_ids, f"The following EnvIDs are missing in environment translation.csv: {missing_env_ids}"
+    assert not missing_tag_ids, f"The following TagIDs are missing in tag translation.csv: {missing_tag_ids}"

@@ -31,5 +31,7 @@ PHONE,ja,電話
 PHONE,en,telephone
 VC,ja,ビデオ会議
 VC,en,video conference
+REC,ja,録音
+REC,en,recording
 OTHER,ja,その他
 OTHER,en,other
