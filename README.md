@@ -4,6 +4,8 @@ _Approximately 10 k rows of Japanese (for now) mis-hearing instances,
 kept as plain CSV/TSV plus Table Schema 
 and automatically validated with `frictionless` + `pre-commit` + GitHub Actions._
 
+You can see the data [here](https://mishearing-corpus-dev.streamlit.app/).
+
 ---
 
 ## Project Roadmap
@@ -98,6 +100,8 @@ mishearing-corpus/
 │  │   └─ environment.csv
 │  ├─ tag/                       # タグ情報（ジャンルやテーマ分類）
 │  │   └─ tag.csv
+│  ├─ tag/                       # タグ情報（ジャンルやテーマ分類）
+│  │   └─ tag.csv
 │  └─ document/                  # 出典文献情報
 │      └─ document.csv
 │
@@ -163,10 +167,6 @@ If validation fails, the commit/merge is blocked and a detailed error list is sh
 3. Run `frictionless validate --schema schema/*.json data/*.csv` locally until it passes.
 4. Push; the CI must turn green.
 5. PR template asks for:
-<<<<<<< HEAD
-=======
-
->>>>>>> main
    * new `MishearID` range
    * data source (paper / annotation task / synthetic)
    * statement that you own the rights or the excerpt is within quotation limits.
@@ -228,3 +228,47 @@ We thank all annotators and contributors to this project.
 - **Source**: Yamato Sokki Co., Ltd.
 - **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
 - **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
+
+## 10. Data Sources
+
+### Tenshokudou Taxi Media
+- **Source**: Tenshokudou Media
+- **URL**: [https://www.tenshokudou.com/media/?p=13401](https://www.tenshokudou.com/media/?p=13401)
+- **Archive**: https://megalodon.jp/2025-0609-1602-44/https://www.tenshokudou.com:443/media/?p=13401
+- **Description**: Mishearing data collected from taxi-related media articles published by Tenshokudou.
+
+### Yamato Sokki
+- **Source**: Yamato Sokki Co., Ltd.
+- **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
+- **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
+
+### Gendai Media
+- **Source**: Gendai Media
+- **URL**: [https://gendai.media/articles/-/152393?imp=0](https://gendai.media/articles/-/152393?imp=0)
+- **Archive**: https://megalodon.jp/2025-0610-1550-38/https://gendai.media:443/articles/-/152393?imp=0
+- **Description**: Mishearing data derived from articles published by Gendai Media, focusing on public facilities and store names.
+
+### Med Safe
+
+- **Source**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
+- **Method**
+  1. 上記Payloadで検索
+  1. 
+
+**Payload**:
+
+```json
+{
+  "mode": "both",  // "new" or "old" or "both"
+  "report_type": ["事故", "ヒヤリハット"],
+  "year_from": 2010,
+  "year_to": 2025,
+  "per_page": 100,  # トータルが47件だったので100で出力
+  "summary": "",  // 概要検索（空欄）
+  "full_text_search": [
+    {
+      "keyword": "と聞き間違",  # 「を聞き間違え」より聞き間違えの対象が明らか
+      "condition": "or"  // 「いずれかを含む」
+    }
+  ]
+}```
