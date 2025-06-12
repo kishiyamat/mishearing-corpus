@@ -1,6 +1,6 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SrcID,SpeakerID,ListenerID,EnvID,Language,Category
-20190115_001,十分周知していたのに、今ごろテール・ヘビー（tail heavy）に乗っかってこられちゃ～,十分周知していたのに、今ごろ定例日に乗っかってこられちゃ～,,誤:「tail heavy」を「定例日」と誤聴,1,YAMATO_201901,https://www.yamatosokki.co.jp/mistake/similar201901,YAMATO201901_001,N/A,N/A,N/A,ja,yamato
-20190115_002,当初の案よりもずいぶんとモデレート(moderate)なものにはなってきたと思うけど～,当初の案よりもずいぶんと戻り得たものにはなってきたと思うけど～,,誤:「moderate」を「戻り得た」と誤聴,1,YAMATO_201901,https://www.yamatosokki.co.jp/mistake/similar201901,YAMATO201901_002,N/A,N/A,N/A,ja,yamato
-20190115_003,将来へ向けて、競争を勝ち抜くための礎を構築する～,将来へ向けて、競争を勝ち抜くための位置づけを構築する～,,誤:「礎」を「位置づけ」と誤聴,1,YAMATO_201901,https://www.yamatosokki.co.jp/mistake/similar201901,YAMATO201901_003,N/A,N/A,N/A,ja,yamato
-20190115_004,南米の案件ですが、現地の空港が高地にあってですね～,南米の案件ですが、現地の空港が高知にあってですね～,,誤:「高地」を「高知」と誤聴,1,YAMATO_201901,https://www.yamatosokki.co.jp/mistake/similar201901,YAMATO201901_004,N/A,N/A,N/A,ja,yamato
-20190115_005,優秀な人材の地方還流をぜひにも～,優秀な人材の地方管理をぜひにも～,,誤:「還流」を「管理」と誤聴,1,YAMATO_201901,https://www.yamatosokki.co.jp/mistake/similar201901,YAMATO201901_005,N/A,N/A,N/A,ja,yamato
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+20190115_001,十分周知していたのに、今ごろテール・ヘビーに乗っかってこられちゃ～,十分周知していたのに、今ごろ定例日に乗っかってこられちゃ～,,誤:「テール・ヘビー（tail heavy）」を「定例日」と誤聴,1,YAMATO_201901,https://www.yamatosokki.co.jp/mistake/similar201901,N/A,N/A,ja
+20190115_002,当初の案よりもずいぶんとモデレートなものにはなってきたと思うけど～,当初の案よりもずいぶんと戻り得たものにはなってきたと思うけど～,,誤:「モデレート(moderate)」を「戻り得た」と誤聴,1,YAMATO_201901,https://www.yamatosokki.co.jp/mistake/similar201901,N/A,N/A,ja
+20190115_003,将来へ向けて、競争を勝ち抜くための礎を構築する～,将来へ向けて、競争を勝ち抜くための位置づけを構築する～,,誤:「礎」を「位置づけ」と誤聴,1,YAMATO_201901,https://www.yamatosokki.co.jp/mistake/similar201901,N/A,N/A,ja
+20190115_004,南米の案件ですが、現地の空港が高地にあってですね～,南米の案件ですが、現地の空港が高知にあってですね～,,誤:「高地」を「高知」と誤聴,1,YAMATO_201901,https://www.yamatosokki.co.jp/mistake/similar201901,N/A,N/A,ja
+20190115_005,優秀な人材の地方還流をぜひにも～,優秀な人材の地方管理をぜひにも～,,誤:「還流」を「管理」と誤聴,1,YAMATO_201901,https://www.yamatosokki.co.jp/mistake/similar201901,N/A,N/A,ja

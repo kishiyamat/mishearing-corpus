@@ -16,7 +16,7 @@ You can see the data [here](https://mishearing-corpus-dev.streamlit.app/).
 | **1. Existing Data Import**  | 100 → 1,500      | 1–1.5 months     | Extract explicit mishearing cases from available sources (search + manual fix) | *Record search queries & extraction rules in markdown* |
 | **2. Literature Mining**    | 1,500 → 3,000    | 1 month          | Copy tables from conference papers, theses, tech reports → append to CSV      | *Clear copyright & always fill citation*|
 | **3. Crowdsourcing ①**      | 3,000 → 6,000    | 2 months         | Taskify mishearing spots in ASR logs for manual review                        | *Run UI & instructions as MVP, get feedback* |
-| **4. Crowdsourcing ②**      | 6,000 → 9,000    | 1 month          | Subject task: listen to short audio, type exactly what was heard             | *Auto-record mic/noise conditions in EnvID* |
+| **4. Crowdsourcing ②**      | 6,000 → 9,000    | 1 month          | Subject task: listen to short audio, type exactly what was heard             | *Auto-record mic/noise conditions in Env* |
 | **5. Expansion & Review**   | 9,000 → 10,000+  | 1 month          | Add review labels (confidence, duplicate flag), fill missing genres           | *pre-commit: RED → fix → GREEN*         |
 
 ---
@@ -81,27 +81,31 @@ VS Code users: install **Edit CSV** + **Rainbow CSV** for spreadsheet-like editi
 ## 3. Directory layout
 
 各ディレクトリ・ファイルの役割を以下に示します。
+追加時に mishearing, environment, tag は必須としています。
 
 ```
 mishearing-corpus/
-├─ data/                         # データ本体。各テーブルごとにサブフォルダを分割
+├─ app.py                         # https://mishearing-corpus-dev.streamlit.app/ で動く検索アプリ
+├─ data/                          # データ本体。各テーブルごとにサブフォルダを分割
 │  ├─ mishearing/                # 誤聴事例（メインテーブル）、複数CSVシャードで管理
-│  │   ├─ yamato/                # データソースごとのサブディレクトリ
+│  │   ├─ yamato/               # データソースごとのサブディレクトリ
 │  │   │   ├─ 2019-01-15_yamato.csv  # 日付＋ソース名で命名
 │  │   │   └─ ...
 │  │   └─ ...
-│  ├─ source_utterance/          # 元発話テーブル（必要に応じて作成）
-│  │   └─ …                      #
-│  ├─ speaker/                   # 話者情報
-│  │   └─ speaker.csv
-│  ├─ listener/                  # 聞き手情報
-│  │   └─ listener.csv
 │  ├─ environment/               # 録音環境情報
-│  │   └─ environment.csv
+│  │   ├─ yamato/               # データソースごとのブリッジテーブル
+│  │   │   ├─ 2019-01-15_yamato.csv  # 日付＋ソース名で命名
+│  │   │   └─ ...
+│  │   └─ translation.csv       # 環境(place, modal, ...)の翻訳
+│  ├─ speaker/                   # 話者情 (未整備)報
+│  │   └─ speaker.csv
+│  ├─ listener/                  # 聞き手情報 (未整備)
+│  │   └─ listener.csv
 │  ├─ tag/                       # タグ情報（ジャンルやテーマ分類）
-│  │   └─ tag.csv
-│  ├─ tag/                       # タグ情報（ジャンルやテーマ分類）
-│  │   └─ tag.csv
+│  │   ├─ yamato/               # データソースごとのサブディレクトリ
+│  │   │   ├─ 2019-01-15_yamato.csv  # 日付＋ソース名で命名
+│  │   │   └─ ...
+│  │   └─ translation.csv       # タグ (genre, category, ...)の翻訳
 │  └─ document/                  # 出典文献情報
 │      └─ document.csv
 │
@@ -137,12 +141,12 @@ mishearing-corpus/
 
 | Table                  | Key          | Purpose                                  |
 | ---------------------- | ------------ | ---------------------------------------- |
-| `mishearing/`           | `MishearID`  | one mis-hearing event (sharded CSV files)        |
-| `source_utterance/`     | `SrcID`      | original utterance text + phonetic info          |
-| `speaker/`              | `SpeakerID`  | speaker metadata (gender, dialect, age…)         |
-| `listener/`             | `ListenerID` | listener metadata                                |
-| `environment/`          | `EnvID`      | channel / noise / mic specs                      |
-| `document/`             | `DocID`      | bibliographic source of each record              |
+| `mishearing/`          | `MishearID`  | one mis-hearing event (sharded CSV files)        |
+| `source_utterance/`    | `SrcID`      | original utterance text + phonetic info          |
+| `speaker/`             | `SpeakerID`  | speaker metadata (gender, dialect, age…)         |
+| `listener/`            | `ListenerID` | listener metadata                                |
+| `environment/`         | `Env`        | place / channel / noise / mic specs              |
+| `document/`            | `DocID`      | bibliographic source of each record              |
 
 Full column definitions live in the corresponding `*.schema.json`.
 
@@ -249,26 +253,6 @@ We thank all annotators and contributors to this project.
 - **Description**: Mishearing data derived from articles published by Gendai Media, focusing on public facilities and store names.
 
 ### Med Safe
-
 - **Source**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
-- **Method**
-  1. 上記Payloadで検索
-  1. 
-
-**Payload**:
-
-```json
-{
-  "mode": "both",  // "new" or "old" or "both"
-  "report_type": ["事故", "ヒヤリハット"],
-  "year_from": 2010,
-  "year_to": 2025,
-  "per_page": 100,  # トータルが47件だったので100で出力
-  "summary": "",  // 概要検索（空欄）
-  "full_text_search": [
-    {
-      "keyword": "と聞き間違",  # 「を聞き間違え」より聞き間違えの対象が明らか
-      "condition": "or"  // 「いずれかを含む」
-    }
-  ]
-}```
+- **URL**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
+- **Description**: See `resource/medsafe/readme.md`

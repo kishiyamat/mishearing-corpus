@@ -16,6 +16,9 @@
     - でスキーマを修正
 1. アノテーションしたファイルも保存 (`resource/medsafe/2025-06-10_medsafe_annotation.csv`)
 1. na列を削除
+1. resource/medsafe/2025-06-10_medsafe.csv をベースに、tagやenvを分離する。
+   分離したあと、再度mergeしてこのファイルとのdiffを確かめる。
+   ブリッジテーブルを使って対応する。
 
 ## Appendix
 
