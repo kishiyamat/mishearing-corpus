@@ -3,15 +3,22 @@ import csv
 from scripts.utils import get_csv_files
 from loguru import logger
 
-def get_mishear_ids(file_path):
-    mishear_ids = set()
-    with open(file_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            mishear_ids.add(row['MishearID'])
-    return mishear_ids
 
 def get_ids(file_path, column_name):
+    """
+    Extracts unique values from a specified column in a CSV file.
+
+    Args:
+        file_path (str): The path to the CSV file.
+        column_name (str): The name of the column to extract values from.
+
+    Returns:
+        set: A set containing unique values from the specified column.
+
+    Raises:
+        FileNotFoundError: If the file at the given path does not exist.
+        KeyError: If the specified column name is not found in the CSV file.
+    """
     ids = set()
     with open(file_path, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
@@ -45,9 +52,9 @@ def test_mishear_ids_exist_in_other_columns():
         environment_path = os.path.join(ENVIRONMENT_DIR, file_i)
 
         logger.info(f"Processing file: {file_i}")
-        mishearing_mishear_ids = get_mishear_ids(mishearing_path)
-        tag_mishear_ids = get_mishear_ids(tag_path)
-        environment_mishear_ids = get_mishear_ids(environment_path)
+        mishearing_mishear_ids = get_ids(mishearing_path, 'MishearID')
+        tag_mishear_ids = get_ids(tag_path, 'MishearID')
+        environment_mishear_ids = get_ids(environment_path, 'MishearID')
 
         missing_in_tag = mishearing_mishear_ids - tag_mishear_ids
         missing_in_environment = mishearing_mishear_ids - environment_mishear_ids
@@ -61,6 +68,20 @@ def test_mishear_ids_exist_in_other_columns():
         assert not missing_in_environment, f"The following MishearIDs in {file_i} do not exist in the corresponding environment file: {missing_in_environment}"
 
 def test_translation_exists():
+    """
+    Test to verify that all EnvIDs and TagIDs from the environment and tag CSV files 
+    exist in their respective translation CSV files.
+
+    This test performs the following checks:
+    1. Collects all EnvIDs from environment CSV files (excluding 'translation.csv').
+    2. Collects all TagIDs from tag CSV files (excluding 'translation.csv').
+    3. Retrieves EnvIDs and TagIDs from their respective translation CSV files.
+    4. Identifies any EnvIDs or TagIDs that are missing in the translation files.
+    5. Logs errors for missing IDs and asserts that no IDs are missing.
+
+    Raises:
+        AssertionError: If any EnvIDs or TagIDs are missing in their respective translation CSV files.
+    """
     environment_files = get_csv_files(ENVIRONMENT_DIR)
     tag_files = get_csv_files(TAG_DIR)
 
