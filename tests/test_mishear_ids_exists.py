@@ -49,3 +49,11 @@ def test_mishear_ids_exist_in_other_columns():
 
         assert not missing_in_tag, f"The following MishearIDs in {file_i} do not exist in the corresponding tag file: {missing_in_tag}"
         assert not missing_in_environment, f"The following MishearIDs in {file_i} do not exist in the corresponding environment file: {missing_in_environment}"
+
+def test_translation_exists():
+    # TODO: Add test to make sure that 
+    # translation.csv under environment and tag covered all EnvID and TagID 
+    # that are in the env and tag files.
+    # to check this, first we need to get all EnvID and TagID from the files
+    # Then, check if the EnvID and TagID are in the translation.csv files.
+    pass
