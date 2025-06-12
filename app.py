@@ -4,6 +4,10 @@ import os
 import streamlit as st
 
 # Function to merge files using left join on MishearID
+
+# en or ja
+st.radio("Language", ("English", "Japanese"), horizontal=True, key="language")
+
 def merge_files(mishearing_path, tag_path):
     mishearing_files = glob.glob(os.path.join(mishearing_path, "*/*.csv"))
     tag_files = glob.glob(os.path.join(tag_path, "*/*.csv"))
@@ -37,6 +41,7 @@ def merge_files(mishearing_path, tag_path):
 # Paths to the directories
 mishearing_path = "data/mishearing"
 tag_path = "data/tag"
+env_path = "data/env"
 
 # Streamlit app
 st.title("Merged CSV Viewer")

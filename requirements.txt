@@ -5,3 +5,4 @@ python-slugify==8.0.4
 pytest
 streamlit
 duckdb
+loguru

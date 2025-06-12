@@ -1,19 +1,16 @@
 {
   "fields": [
-    {"name": "MishearID",      "type": "string",  "constraints": {"required": true}},
-    {"name": "Src",            "type": "string"},
-    {"name": "Tgt",            "type": "string"},
-    {"name": "Tips",           "type": "string"},
-    {"name": "Note",           "type": "string"},
-    {"name": "OriginalFlag",   "type": "boolean"},
-    {"name": "DocID",          "type": "string"},
-    {"name": "URL",            "type": "string"},
-    {"name": "SrcID",          "type": "string"},
-    {"name": "SpeakerID",      "type": "string"},
-    {"name": "ListenerID",     "type": "string"},
-    {"name": "EnvID",          "type": "string"},
-    {"name": "Language",       "type": "string"},
-    {"name": "Category",       "type": "string"}
+    { "name": "MishearID",   "type": "string",  "constraints": { "required": true }, "description": "Unique identifier for the mishearing record" },
+    { "name": "Src",         "type": "string",  "description": "Source text of the mishearing" },
+    { "name": "Tgt",         "type": "string",  "description": "Target text of the mishearing" },
+    { "name": "Tips",        "type": "string",  "description": "Tips or suggestions related to the mishearing" },
+    { "name": "Note",        "type": "string",  "description": "Additional notes about the mishearing" },
+    { "name": "OriginalFlag","type": "boolean", "description": "Flag indicating if the record is original" },
+    { "name": "DocID",       "type": "string",  "description": "Document identifier associated with the mishearing" },
+    { "name": "URL",         "type": "string",  "description": "URL related to the mishearing" },
+    { "name": "SpeakerID",   "type": "string",  "description": "Identifier for the speaker involved in the mishearing" },
+    { "name": "ListenerID",  "type": "string",  "description": "Identifier for the listener involved in the mishearing" },
+    { "name": "Language",    "type": "string",  "description": "Language of the mishearing" }
   ],
   "primaryKey": ["MishearID"]
 }

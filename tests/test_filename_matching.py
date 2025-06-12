@@ -1,13 +1,16 @@
 import os
 from scripts.utils import get_csv_files
+from loguru import logger
 
 def test_matching_filenames():
     script_dir = os.path.dirname(__file__)
     mishearing_dir = os.path.join(script_dir, '../data/mishearing')
     tag_dir = os.path.join(script_dir, '../data/tag')
 
-    mishearing_files = get_csv_files(mishearing_dir)
-    tag_files = get_csv_files(tag_dir)
+    mishearing_files = {f for f in get_csv_files(mishearing_dir) if os.path.basename(f) != 'translation.csv'}
+    tag_files = {f for f in get_csv_files(tag_dir) if os.path.basename(f) != 'translation.csv'}
+
+    logger.info("Excluded 'translation.csv' from mishearing_files and tag_files.")
 
     missing_files = tag_files - mishearing_files
 

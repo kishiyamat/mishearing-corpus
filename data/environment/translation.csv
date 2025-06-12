@@ -1,0 +1,35 @@
+EnvID,Lang,Label
+TAXI,ja,タクシー
+TAXI,en,taxi
+OR,ja,手術室
+OR,en,operating room
+CATH,ja,カテーテル検査室
+CATH,en,catheterization lab
+ED,ja,救急外来
+ED,en,emergency department
+ER_CTR,ja,救命救急センター
+ER_CTR,en,emergency & critical-care center
+RAD_IMG,ja,放射線撮影室
+RAD_IMG,en,radiology (imaging) room
+RAD_RT,ja,放射線治療室
+RAD_RT,en,radiotherapy room
+WARD,ja,病室
+WARD,en,ward
+WARD_PROC,ja,病棟処置室
+WARD_PROC,en,ward treatment room
+NS,ja,ナースステーション
+NS,en,nurses' station
+ICU,ja,ＩＣＵ
+ICU,en,intensive care unit
+NICU,ja,ＮＩＣＵ
+NICU,en,neonatal intensive care unit
+DIAL,ja,透析室
+DIAL,en,dialysis room
+OPD,ja,外来診察室
+OPD,en,outpatient clinic
+PHONE,ja,電話
+PHONE,en,telephone
+VC,ja,ビデオ会議
+VC,en,video conference
+OTHER,ja,その他
+OTHER,en,other

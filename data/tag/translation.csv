@@ -1,0 +1,21 @@
+TagID,Lang,Label
+MEDICAL,ja,医療
+MEDICAL,en,medical
+BUSINESS,ja,ビジネス
+BUSINESS,en,business
+EDUCATION,ja,教育
+EDUCATION,en,education
+GEONAME,ja,地名
+GEONAME,en,place name
+PUBLIC_FACILITY,ja,公共施設
+PUBLIC_FACILITY,en,public facility
+STORE_NAME,ja,店名
+STORE_NAME,en,store name
+LOANWORD,ja,外来語
+LOANWORD,en,loanword
+ENGLISH,ja,英語
+ENGLISH,en,English
+FINANCE,ja,金融
+FINANCE,en,finance
+HUMAN_RESOURCES,ja,人事
+HUMAN_RESOURCES,en,human resources
