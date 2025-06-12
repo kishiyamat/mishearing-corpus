@@ -5,6 +5,10 @@ Please include a summary of the changes and the related issue. Explain the motiv
 
 ## Checklist
 - [ ] I have read the contributing guidelines.
+- [ ] I have added necessary files.
+    - [ ] `mishearing/<your-data>.csv`
+    - [ ] `environment/<your-data>.csv`
+    - [ ] `tag/<your-data>.csv`
 - [ ] I have run `frictionless validate` locally and ensured all checks pass.
 - [ ] I have added tests that prove my fix is effective or that my feature works.
 - [ ] I have added necessary documentation (if applicable).
