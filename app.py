@@ -1,74 +1,120 @@
-import pandas as pd
-import glob
-import os
-import streamlit as st
+# app.py
+from __future__ import annotations
+import os, glob, pandas as pd, streamlit as st
 
-# Function to merge files using left join on MishearID
-def merge_files(mishearing_path, tag_path):
-    mishearing_files = glob.glob(os.path.join(mishearing_path, "*/*.csv"))
-    tag_files = glob.glob(os.path.join(tag_path, "*/*.csv"))
+# ───────────────────────── I/O helpers ───────────────────────── #
+@st.cache_data(show_spinner=False)
+def load_csv_tree(root: str, *, exclude: str | None = None) -> pd.DataFrame:
+    pat = os.path.join(root, "**/*.csv")
+    files = [f for f in glob.glob(pat, recursive=True) if not exclude or exclude not in f]
+    return pd.concat((pd.read_csv(f) for f in files), ignore_index=True)
 
-    merged_dataframes = []
+@st.cache_data(show_spinner=False)
+def load_translation(root: str) -> pd.DataFrame:
+    return pd.read_csv(os.path.join(root, "translation.csv"))
 
-    for mishearing_file in mishearing_files:
-        filename = os.path.basename(mishearing_file)
-        matching_tag_file = next((tag_file for tag_file in tag_files if os.path.basename(tag_file) == filename), None)
+def id_to_label(ids, trans_df, lang):
+    mapping = (
+        trans_df.loc[trans_df["Lang"] == lang]
+        .set_index(trans_df.columns[0])["Label"]
+        .to_dict()
+    )
+    return [mapping.get(i, i) for i in ids]
 
-        mishearing_df = pd.read_csv(mishearing_file)
+def label_to_id(labels, trans_df, lang):
+    mapping = (
+        trans_df.loc[trans_df["Lang"] == lang]
+        .set_index("Label")[trans_df.columns[0]]
+        .to_dict()
+    )
+    return [mapping[lbl] for lbl in labels if lbl in mapping]
 
-        if matching_tag_file:
-            tag_df = pd.read_csv(matching_tag_file)
+def make_mask(link_df, key_col, picked_ids, logic) -> set[str]:
+    """
+    Generate a set of IDs based on filtering logic applied to a DataFrame.
 
-            # Perform left join on MishearID
-            merged_df = mishearing_df.merge(tag_df, how="left", on="MishearID")
+    Args:
+        link_df (pd.DataFrame): The input DataFrame containing the data to filter.
+        key_col (str): The column name in the DataFrame to apply the filtering logic on.
+        picked_ids (Iterable): A collection of IDs to filter against.
+        logic (str): A string specifying the filtering logic. If it starts with "すべて",
+                     the function checks if all `picked_ids` are a subset of the values
+                     in `key_col` grouped by "MishearID". Otherwise, it filters rows
+                     where `key_col` contains any of the `picked_ids`.
 
-            # Group TagID into a list if there are multiple rows for the same MishearID
-            if "TagID" in merged_df.columns:
-                tags_series = merged_df.groupby("MishearID")["TagID"].apply(lambda x: list(x.dropna()) if not x.empty else None)
-                merged_df = merged_df.drop(columns="TagID").drop_duplicates()
-                merged_df = merged_df.merge(tags_series.rename("Tags"), on="MishearID", how="left")
+    Returns:
+        set[str]: A set of "MishearID" values that match the filtering criteria.
+    """
+    if not picked_ids:
+        return set(link_df["MishearID"])
+    if logic.startswith("すべて"):
+        # FIXME: 「すべて」というのはradioに依存している
+        ok = link_df.groupby("MishearID")[key_col].apply(lambda s: set(picked_ids).issubset(s))
+        return set(ok[ok].index)
+    return set(link_df[link_df[key_col].isin(picked_ids)]["MishearID"])
 
-            merged_dataframes.append(merged_df)
-        else:
-            merged_dataframes.append(mishearing_df)
 
-    return pd.concat(merged_dataframes, ignore_index=True)
+# ──────────────────────── Core application class ─────────────────────── #
+class MishearingApp:
+    ROOT = "data"
 
-# Paths to the directories
-mishearing_path = "data/mishearing"
-tag_path = "data/tag"
+    def __init__(self):
+        tag_root = f"{self.ROOT}/tag"
+        env_root = f"{self.ROOT}/environment"
+        mishear_root = f"{self.ROOT}/mishearing"
 
-# Streamlit app
-st.title("Merged CSV Viewer")
+        self.tag_trans = load_translation(tag_root)
+        self.env_trans = load_translation(env_root)
 
-try:
-    merged_data = merge_files(mishearing_path, tag_path)
+        self.tag_link = load_csv_tree(tag_root, exclude="translation.csv")
+        self.env_link = load_csv_tree(env_root, exclude="translation.csv")
+        self.corpus   = load_csv_tree(mishear_root)
 
-    # Display total number of rows in the merged data
-    st.write(f"### Total Rows in Merged Data: {len(merged_data)}")
+        # Pre-compute counts
+        self.tag_counts = self.tag_link["TagID"].value_counts()
+        self.env_counts = self.env_link["EnvID"].value_counts()
 
-    # Extract unique tags
-    unique_tags = merged_data["Tags"].explode().dropna().unique()
+    # ------------- UI ------------ #
+    def sidebar_form(self):
+        with st.sidebar:
+            st.title("🔍 Filter")
+            lang = st.radio("Language", ("en", "ja"), horizontal=True, index=1)
+            with st.form(key="filter_form"):
+                tag_lbls = id_to_label(self.tag_counts.index, self.tag_trans, lang)
+                env_lbls = id_to_label(self.env_counts.index, self.env_trans, lang)
 
-    # Multi-select for tags (multiple selection)
-    selected_tags = st.multiselect("Select Tags to Filter", options=unique_tags)
+                picked_tags = st.multiselect("Tags", tag_lbls)
+                tag_logic   = st.radio("Tag rule", ["すべて含む (AND)", "いずれか含む (OR)"])
 
-    # Display histogram of tag counts
-    tag_counts = merged_data["Tags"].explode().value_counts()
-    st.bar_chart(tag_counts)
+                picked_envs = st.multiselect("Environments", env_lbls)
+                env_logic   = st.radio("Env rule", ["すべて含む (AND)", "いずれか含む (OR)"])
 
-    filter_mode = st.radio("Filter Mode", ("AND", "OR"), horizontal=True)
+                submitted = st.form_submit_button("Apply filters")
 
-    if selected_tags:
-        if filter_mode == "AND":
-            filtered_data = merged_data[merged_data["Tags"].apply(lambda tags: all(tag in tags for tag in selected_tags) if tags else False)]
-        else:  # OR mode
-            filtered_data = merged_data[merged_data["Tags"].apply(lambda tags: any(tag in tags for tag in selected_tags) if tags else False)]
+            return submitted, lang, picked_tags, tag_logic, picked_envs, env_logic
 
-        st.write("### Filtered Data")
-        st.write(filtered_data)
-    else:
-        st.write("### Merged Data (Preview)")
-        st.write(merged_data.head())
-except Exception as e:
-    st.error(f"An error occurred: {e}")
+    def run(self):
+        submitted, lang, p_tag_lbl, tag_logic, p_env_lbl, env_logic = self.sidebar_form()
+        if not submitted:
+            st.info("左のサイドバーでフィルタを選んで **Apply filters** を押してください。")
+            return
+
+        # --- translate back to IDs --- #
+        p_tag_ids = label_to_id(p_tag_lbl, self.tag_trans, lang)
+        p_env_ids = label_to_id(p_env_lbl, self.env_trans, lang)
+
+        keep_tag = make_mask(self.tag_link, "TagID", p_tag_ids, tag_logic)
+        keep_env = make_mask(self.env_link, "EnvID", p_env_ids, env_logic)
+        final_ids = keep_tag & keep_env
+
+        # --- main pane --- #
+        st.header(f"Results – {len(final_ids)} rows")
+        st.dataframe(self.corpus[self.corpus["MishearID"].isin(final_ids)])
+
+# ──────────────────────────── Bootstrap ────────────────────────── #
+def main():
+    st.set_page_config(page_title="Mishearing Corpus", layout="wide")
+    st.title("Mishearing Corpus Viewer")
+    MishearingApp().run()
+
+main()
