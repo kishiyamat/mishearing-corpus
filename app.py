@@ -112,9 +112,55 @@ class MishearingApp:
         st.dataframe(self.corpus[self.corpus["MishearID"].isin(final_ids)])
 
 # ──────────────────────────── Bootstrap ────────────────────────── #
+
 def main():
-    st.set_page_config(page_title="Mishearing Corpus", layout="wide")
     st.title("Mishearing Corpus Viewer")
     MishearingApp().run()
 
-main()
+st.set_page_config(page_title="Mishearing Corpus", layout="wide")
+m, s = st.tabs(["main", "scraping"])
+
+with m:
+    main()
+
+import requests
+import json
+
+def scrape():
+    # Scrapeの対象のURL
+    target_url = st.text_input("URL: ")
+
+    url = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
+    # Request payload configuration
+    payload = {
+        "input_value": target_url,  # The input value to be processed by the flow
+        "output_type": "chat",  # Specifies the expected output format
+        "input_type": "text"  # Specifies the input format
+    }
+
+    # Request headers
+    headers = {
+        "Content-Type": "application/json"
+    }
+
+    try:
+        # Send API request
+        response = requests.request("POST", url, json=payload, headers=headers)
+        response.raise_for_status()  # Raise exception for bad status codes
+
+        # Print response
+        try:
+            response_text = response.text  # Get response text
+            response_json = json.loads(response_text)  # Parse text as JSON
+            st.json(response_json)  # Display the JSON in a formatted way
+        except json.JSONDecodeError as e:
+            st.error(f"Error parsing response text as JSON: {e}")
+
+    except requests.exceptions.RequestException as e:
+        st.error(f"Error making API request: {e}")
+    except ValueError as e:
+        st.error(f"Error parsing response: {e}")
+        
+
+with s:
+    scrape()
