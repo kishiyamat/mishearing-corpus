@@ -176,28 +176,56 @@ with scraping_tab:
 
 from apify_client import ApifyClient
 
-@st.cache_resource(show_spinner=False)
-def run_apify_actor(queries, results_per_page, max_pages_per_query):
-    client = ApifyClient(st.secrets["apify"]["token"])
+# ─── joblib 導入 ─────────────────────────────────────────────
+from pathlib import Path
+from joblib import Memory
+from apify_client import ApifyClient
+import streamlit as st
 
-    # Prepare the Actor input
+# キャッシュを置く場所をプロジェクト直下 .cache/ に設定
+memory = Memory(location=Path(".cache"), verbose=0)
+
+@memory.cache                        # ← st.cache_resource を置き換え
+def run_apify_actor(
+    queries: str,
+    results_per_page: int,
+    max_pages_per_query: int,
+):
+    """Apify Google Search Scraper を実行し、結果を joblib でキャッシュする"""
+    # 日付とかも本当はキャッシュしたほうが良い.
+
+    client = ApifyClient(
+        st.secrets["apify"]["token"],
+        max_retries = 10,
+        min_delay_between_retries_millis = 2000,
+        timeout_secs = 360,
+    )
+
     run_input = {
         "queries": queries,
         "resultsPerPage": results_per_page,
         "maxPagesPerQuery": max_pages_per_query,
+        "countryCode": "jp",
+        "languageCode": "ja",
+        "forceExactMatch": True,
     }
 
-    # Run the Actor and wait for it to finish
-    run = client.actor("apify/google-search-scraper").call(run_input=run_input)
+    # Actor 実行
+    run = client.actor("apify/google-search-scraper").call(run_input=run_input, wait_secs=360)
 
-    # Fetch and st.write Actor results from the run's dataset (if there are any)
-    st.write("💾 Check your data here: https://console.apify.com/storage/datasets/" + run["defaultDatasetId"])
+    # データセット取得
     dataset = client.dataset(run["defaultDatasetId"])
-    return dataset
+
+    # Apify の Dataset オブジェクトそのままではシリアライズできない
+    # list_items() で JSON 互換のリストに変換してから返す
+    return list(dataset.iterate_items())
+
 
 with google_tab:
     st.write("This tab is for Apify integration. Currently, it is not implemented.")
-    queries = st.text_input("Goolge Search Query", '"と*の聞き間違"')
+    queries = st.text_input("Google Search Query", '"と*の聞き間違"')
+    results_per_page = st.number_input("results_per_page", 10)
+    max_pages_per_query = st.number_input("max_pages_per_query (1しか動かない)",1)
     if not queries:
         st.warning("Please enter a query to run the Apify Actor.")
     else: 
@@ -206,12 +234,14 @@ with google_tab:
             # Replace '<YOUR_API_TOKEN>' with your token.
             run_input = {
                 "queries": queries,
-                "results_per_page": 10,
-                "max_pages_per_query": 2,
+                "results_per_page": results_per_page,
+                "max_pages_per_query": max_pages_per_query,
             }
             dataset = run_apify_actor(**run_input)
-            for item in dataset.iterate_items():
-                st.write(item)
+            items = []
+            for item in dataset:
+                items.extend(item["organicResults"]) 
+            st.write(len(items))
             # You can add your Apify-related code here if needed.
             # organicResults に検索結果が入っているので、そこから必要な情報を抽出して表示することができます。
 
@@ -219,6 +249,8 @@ with loop_tab:
     st.write("This tab is for Apify integration. Currently, it is not implemented.")
     queries = st.text_input("Query to apply loop")
     save_path = st.text_input("base path (Loop): ", "/home/kishiyamat/mishearing-corpus/directory")
+    results_per_page = st.number_input("results_per_page (loop)", 10)
+    max_pages_per_query = st.number_input("max_pages_per_query (loop)",1)
     if not queries:
         st.warning("Please enter a query to run the Apify Actor.")
     else: 
@@ -227,10 +259,10 @@ with loop_tab:
             # Replace '<YOUR_API_TOKEN>' with your token.
             run_input = {
                 "queries": queries,
-                "results_per_page": 100,
-                "max_pages_per_query": 10,
+                "results_per_page": results_per_page,
+                "max_pages_per_query": max_pages_per_query,
             }
-            dataset = run_apify_actor(**run_input).iterate_items()
+            dataset = run_apify_actor(**run_input)
             for item in dataset:
                 for organic_result in item["organicResults"]:
                     st.write(organic_result["url"])

@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+ne9a96dee1118_001,S,F,注意が必要,「S」と「F」の聞き間違いでメールが届かなかったことがある。,True,ne9a96dee1118,https://note.com/imominty/n/ne9a96dee1118,NA,NA,日本語,"['仕事', 'コールセンター', 'アルファベット', '電話対応', 'メールアドレス', '聞き間違い', 'フォネティックコード', '製品番号']","['電話', '通信環境']"
+ne9a96dee1118_002,M,N,注意が必要,「M」と「N」の聞き間違いも発生する可能性がある。,True,ne9a96dee1118,https://note.com/imominty/n/ne9a96dee1118,NA,NA,日本語,"['仕事', 'コールセンター', 'アルファベット', '電話対応', 'メールアドレス', '聞き間違い', 'フォネティックコード', '製品番号']","['電話', '通信環境']"
+ne9a96dee1118_003,C,E,注意が必要,「C」と「E」の聞き間違いも注意が必要。,True,ne9a96dee1118,https://note.com/imominty/n/ne9a96dee1118,NA,NA,日本語,"['仕事', 'コールセンター', 'アルファベット', '電話対応', 'メールアドレス', '聞き間違い', 'フォネティックコード', '製品番号']","['電話', '通信環境']"

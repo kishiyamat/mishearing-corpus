@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+calltipsnet_001,サシスセソのサ,サインのサ,具体的な単語で伝える,「サシスセソ」という言葉が「タチツテト」に聞こえることがあるため、具体的な単語で伝える。,True,calltipsnet,https://calltips.net/listening-techniques/,日本語,"['電話対応', 'コミュニケーション', '聞き間違い']","['電話', 'コールセンター', '通信環境']"
+calltipsnet_002,4,よん,数字は読み方に注意,「4」は「よん」と伝えることで聞き間違いを防ぐ。,True,calltipsnet,https://calltips.net/listening-techniques/,日本語,"['電話対応', 'コミュニケーション', '聞き間違い']","['電話', 'コールセンター', '通信環境']"
+calltipsnet_003,B,BLACKのB,英単語を使う,「B」と「D」など聞き間違いが多いアルファベットは英単語を使って伝える。,True,calltipsnet,https://calltips.net/listening-techniques/,日本語,"['電話対応', 'コミュニケーション', '聞き間違い']","['電話', 'コールセンター', '通信環境']"
