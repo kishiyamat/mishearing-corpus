@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+watashinoarukikata_001,ハチ公,ハチコウ,注意が必要,先生が日本語の単語「ハチ公」をタイ語の単語として聞き取ろうとして理解できなかった。,True,watashinoarukikata,https://www.watashinoarukikata-diary.com/entry/2022/03/31/112227,NA,NA,日本語,"['タイ語学習', '聞き間違い', 'タイ', 'チェンマイ']","['タイ語授業', '日常会話']"
+watashinoarukikata_002,ビアシン２杯,ビアシン２杯,注意が必要,タイ語の類別詞の授業で「ビアシン２杯」が先生にうまく聞き取ってもらえなかった。,True,watashinoarukikata,https://www.watashinoarukikata-diary.com/entry/2022/03/31/112227,NA,NA,日本語,"['タイ語学習', '聞き間違い', 'タイ', 'チェンマイ']","['タイ語授業', '日常会話']"
