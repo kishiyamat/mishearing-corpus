@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ne9a96dee1118_001,ハチ公,ハチコウ,注意が必要,先生が日本語の単語を使った際、著者はタイ語の単語として認識できなかった。,True,ne9a96dee1118,https://note.com/imominty/n/ne9a96dee1118,日本語,"['タイ', 'チェンマイ', 'タイ語', '聞き間違い']","['教室', '日常生活']"
+ne9a96dee1118_002,ビアシン,ビアシン,注意が必要,類別詞の授業で、著者が言った「ビアシン２杯」がなかなか先生に聞き取ってもらえなかった。,True,ne9a96dee1118,https://note.com/imominty/n/ne9a96dee1118,日本語,"['タイ', 'チェンマイ', 'タイ語', '聞き間違い']","['教室', '日常生活']"

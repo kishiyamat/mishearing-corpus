@@ -127,6 +127,7 @@ import requests
 import json
 
 
+@st.cache_data(show_spinner=False)
 def scrape(target_url, save_path):
     input_str = json.dumps({"url": target_url, "save_dir": save_path})
     st.write(input_str)
@@ -226,11 +227,11 @@ with loop_tab:
             # Replace '<YOUR_API_TOKEN>' with your token.
             run_input = {
                 "queries": queries,
-                "results_per_page": 10,
-                "max_pages_per_query": 2,
+                "results_per_page": 100,
+                "max_pages_per_query": 10,
             }
-            dataset = run_apify_actor(**run_input)
-            for item in dataset.iterate_items():
+            dataset = run_apify_actor(**run_input).iterate_items()
+            for item in dataset:
                 for organic_result in item["organicResults"]:
                     st.write(organic_result["url"])
                     scrape(organic_result["url"], save_path)
