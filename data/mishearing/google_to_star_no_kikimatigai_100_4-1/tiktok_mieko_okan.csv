@@ -1,2 +1,2 @@
-MishearID,Src,Tgt,URL,Note
-NA_fail_001,NA,NA,https://www.tiktok.com/@mieko.okan/video/7330125348794895618,TECH_FAIL: unable to retrieve content due to platform or size limitation
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+tiktok_7330125348794895618_001,居酒屋,煮魚,"電話越しに「いざかや」と「にざかな」の中音域（ざか）が重なり、語尾が不明瞭になると誤聴しやすい。はっきり区切って発声すると防げる。","TikTok動画で紹介された、電話で『居酒屋』を『煮魚』と聞き間違えた一幕。",True,tiktok_7330125348794895618,https://www.tiktok.com/@mieko.okan/video/7330125348794895618,NA,NA,ja,"['聞き間違い','電話','日本語']","['phone','call']"
