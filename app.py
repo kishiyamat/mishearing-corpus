@@ -118,7 +118,7 @@ def main():
     MishearingApp().run()
 
 st.set_page_config(page_title="Mishearing Corpus", layout="wide")
-main_tab, google_tab, scraping_tab = st.tabs(["main", "google", "scraping"])
+main_tab, google_tab, scraping_tab, loop_tab = st.tabs(["main", "google", "scraping", "loop"])
 
 with main_tab:
     main()
@@ -127,50 +127,50 @@ import requests
 import json
 
 
-def scrape():
-    # Scrapeの対象のURL
-    target_url = st.text_input("URL: ")
-    save_path = st.text_input("base path: ", "/home/kishiyamat/mishearing-corpus/directory")
+def scrape(target_url, save_path):
     input_str = json.dumps({"url": target_url, "save_dir": save_path})
     st.write(input_str)
+    url = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
+    # Request payload configuration
+    payload = {
+        "input_value": input_str,  # The input value to be processed by the flow
+        "output_type": "chat",  # Specifies the expected output format
+        "input_type": "text"  # Specifies the input format
+    }
+
+    # Request headers
+    headers = {
+        "Content-Type": "application/json"
+    }
+
+    try:
+        # Send API request
+        response = requests.request("POST", url, json=payload, headers=headers)
+        response.raise_for_status()  # Raise exception for bad status codes
+
+        # Print response
+        try:
+            response_text = response.text  # Get response text
+            response_json = json.loads(response_text)  # Parse text as JSON
+            st.json(response_json)  # Display the JSON in a formatted way
+        except json.JSONDecodeError as e:
+            st.error(f"Error parsing response text as JSON: {e}")
+
+    except requests.exceptions.RequestException as e:
+        st.error(f"Error making API request: {e}")
+    except ValueError as e:
+        st.error(f"Error parsing response: {e}")
+    
+
+with scraping_tab:
+    # Scrapeの対象のURL
+    target_url = st.text_input("URL: ", "https://note.com/imominty/n/ne9a96dee1118")
+    save_path = st.text_input("base path: ", "/home/kishiyamat/mishearing-corpus/directory")
     if not (target_url and save_path):
         st.warning("Please enter a URL to scrape and Directory to save it to.")
     else:
         if st.button("Save CSV"):
-            url = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
-            # Request payload configuration
-            payload = {
-                "input_value": input_str,  # The input value to be processed by the flow
-                "output_type": "chat",  # Specifies the expected output format
-                "input_type": "text"  # Specifies the input format
-            }
-
-            # Request headers
-            headers = {
-                "Content-Type": "application/json"
-            }
-
-            try:
-                # Send API request
-                response = requests.request("POST", url, json=payload, headers=headers)
-                response.raise_for_status()  # Raise exception for bad status codes
-
-                # Print response
-                try:
-                    response_text = response.text  # Get response text
-                    response_json = json.loads(response_text)  # Parse text as JSON
-                    st.json(response_json)  # Display the JSON in a formatted way
-                except json.JSONDecodeError as e:
-                    st.error(f"Error parsing response text as JSON: {e}")
-
-            except requests.exceptions.RequestException as e:
-                st.error(f"Error making API request: {e}")
-            except ValueError as e:
-                st.error(f"Error parsing response: {e}")
-            
-
-with scraping_tab:
-    scrape()
+            scrape(target_url, save_path)
 
 
 from apify_client import ApifyClient
@@ -196,7 +196,7 @@ def run_apify_actor(queries, results_per_page, max_pages_per_query):
 
 with google_tab:
     st.write("This tab is for Apify integration. Currently, it is not implemented.")
-    queries = st.text_input("")
+    queries = st.text_input("Goolge Search Query", '"と*の聞き間違"')
     if not queries:
         st.warning("Please enter a query to run the Apify Actor.")
     else: 
@@ -211,5 +211,28 @@ with google_tab:
             dataset = run_apify_actor(**run_input)
             for item in dataset.iterate_items():
                 st.write(item)
+            # You can add your Apify-related code here if needed.
+            # organicResults に検索結果が入っているので、そこから必要な情報を抽出して表示することができます。
+
+with loop_tab:
+    st.write("This tab is for Apify integration. Currently, it is not implemented.")
+    queries = st.text_input("Query to apply loop")
+    save_path = st.text_input("base path (Loop): ", "/home/kishiyamat/mishearing-corpus/directory")
+    if not queries:
+        st.warning("Please enter a query to run the Apify Actor.")
+    else: 
+        if st.button("Run Apify Actor Loop"):
+            # Initialize the ApifyClient with your Apify API token
+            # Replace '<YOUR_API_TOKEN>' with your token.
+            run_input = {
+                "queries": queries,
+                "results_per_page": 10,
+                "max_pages_per_query": 2,
+            }
+            dataset = run_apify_actor(**run_input)
+            for item in dataset.iterate_items():
+                for organic_result in item["organicResults"]:
+                    st.write(organic_result["url"])
+                    scrape(organic_result["url"], save_path)
             # You can add your Apify-related code here if needed.
             # organicResults に検索結果が入っているので、そこから必要な情報を抽出して表示することができます。
