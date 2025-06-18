@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+weing_dxblog_190_001,数値,別の数値,注意が必要,電話やFAXでの受発注業務で数値の聞き間違いが発生しやすい。,True,weing_dxblog_190,https://weing.co.jp/dx-blog/archives/190,日本語,"['受発注', 'DX', '業務効率化', 'ヒューマンエラー', '製造業']","['オフィス', '電話', 'FAX', 'アナログ環境']"
+weing_dxblog_190_002,品名,別の品名,注意が必要,電話やFAXでの受発注業務で品名の読み間違いが発生しやすい。,True,weing_dxblog_190,https://weing.co.jp/dx-blog/archives/190,日本語,"['受発注', 'DX', '業務効率化', 'ヒューマンエラー', '製造業']","['オフィス', '電話', 'FAX', 'アナログ環境']"

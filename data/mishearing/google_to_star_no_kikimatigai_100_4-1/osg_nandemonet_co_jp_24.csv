@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,NA,NA,https://www.osg-nandemonet.co.jp/communication/24.html,TECH_FAIL: Error loading documents: 'utf-8' codec can't decode byte 0x81 in position 316: invalid start byte

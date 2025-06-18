@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+musashikosugi_blogshinobi_6217_001,新丸子駅,下丸子駅,駅名・地名が似ているので注意,実際に新丸子駅で「下丸子駅ではありません！」と注意喚起が掲示されている。,True,musashikosugi_blogshinobi_6217,https://musashikosugi.blog.shinobi.jp/Entry/6217/,日本語,"['駅名', '地名', '聞き間違い', '交通', '川崎市', '大田区']","['駅構内', '日常生活', '通勤']"
+musashikosugi_blogshinobi_6217_002,キヤノン小杉事業所,キヤノン本社（下丸子）,会社名・所在地が似ているので注意,実際に会社員が間違えて訪問した実例あり。,True,musashikosugi_blogshinobi_6217,https://musashikosugi.blog.shinobi.jp/Entry/6217/,日本語,"['企業', '聞き間違い', '交通', '川崎市', '大田区']","['会社訪問', '日常生活']"
+musashikosugi_blogshinobi_6217_003,新丸子,下丸子,地名が似ているので注意,会話や待ち合わせでの聞き間違い。,True,musashikosugi_blogshinobi_6217,https://musashikosugi.blog.shinobi.jp/Entry/6217/,日本語,"['地名', '聞き間違い', 'コミュニケーション']","['会話', '待ち合わせ']"
