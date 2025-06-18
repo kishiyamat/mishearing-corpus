@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+cjjc_001,拐,かどわかし,注意が必要,(Tgt=NA: 'かどわかし'は誤聴形として具体的だが、元の語が単漢字のため注意),True,cjjc,https://cjjc.weblio.jp/content/%E6%8B%90,NA,NA,日本語,"['中国語', '聞き間違い']","['教室', '自宅', '日常生活']"

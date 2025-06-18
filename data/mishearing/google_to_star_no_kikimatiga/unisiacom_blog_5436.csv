@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+chiebukuro_11288911251_001,青木さんですか？,奥さんですか？,注意が必要,先生の質問を誤解し、返答を間違えた体験。周囲に人がいたため恥ずかしかった。,True,chiebukuro_11288911251,https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10254043620,NA,NA,日本語,"['聞き間違い', 'コミュニケーション', '学校生活']","['学校', '教室']"
+chiebukuro_11288911251_002,これ、やってみそそ？,みそそ？,注意が必要,ほのかが言った際、オカメは誤解した。,True,chiebukuro_11288911251,https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10254043620,ほのか,オカメ,日本語,"['聞き間違い', 'コミュニケーション', '学校生活']","['学校', '教室']"
+chiebukuro_11288911251_003,ほのかの薔薇園！,ほのかの花園！,注意が必要,オカメが言った際、ほのかは誤解した。,True,chiebukuro_11288911251,https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10254043620,オカメ,ほのか,日本語,"['聞き間違い', 'コミュニケーション', '学校生活']","['学校', '教室']"

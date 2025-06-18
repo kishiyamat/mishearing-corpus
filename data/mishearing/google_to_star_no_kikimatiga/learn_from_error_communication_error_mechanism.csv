@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+001,その本、撮ってくれる？,その本、取ってくれる？,注意が必要,聞き間違いの例,True,communication_error,https://learn-from-error.com/communication-error-mechanism/,NA,NA,日本語,"['コミュニケーション', '聴力', 'エラー防止']","['職場', '教室']"
+002,すぐに来てください,30分後に来る,注意が必要,聞き間違いの例,True,communication_error,https://learn-from-error.com/communication-error-mechanism/,NA,NA,日本語,"['コミュニケーション', '聴力', 'エラー防止']","['職場', '教室']"

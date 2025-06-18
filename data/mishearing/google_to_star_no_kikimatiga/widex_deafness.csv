@@ -1,0 +1,5 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+ne9a96dee1118_001,高い音が聞こえなくなる,NA,注意が必要,(Tgt=NA: no specific misheard phrase given),True,ne9a96dee1118,https://www.widex.com/ja-jp/local/ja-jp/deafness/what/symptoms_hearing_loss/,NA,NA,日本語,"['聴力', '難聴', '聞き間違い', 'コミュニケーション']","['教室', '日常生活']"
+ne9a96dee1118_002,言葉を聞き分けられなくなる,NA,注意が必要,(Tgt=NA: no specific misheard phrase given),True,ne9a96dee1118,https://www.widex.com/ja-jp/local/ja-jp/deafness/what/symptoms_hearing_loss/,NA,NA,日本語,"['聴力', '難聴', '聞き間違い', 'コミュニケーション']","['教室', '日常生活']"
+ne9a96dee1118_003,聞きたい音を選別できなくなる,NA,注意が必要,(Tgt=NA: no specific misheard phrase given),True,ne9a96dee1118,https://www.widex.com/ja-jp/local/ja-jp/deafness/what/symptoms_hearing_loss/,NA,NA,日本語,"['聴力', '難聴', '聞き間違い', 'コミュニケーション']","['教室', '日常生活']"
+ne9a96dee1118_004,早口の会話が聞き取りにくい,NA,注意が必要,(Tgt=NA: no specific misheard phrase given),True,ne9a96dee1118,https://www.widex.com/ja-jp/local/ja-jp/deafness/what/symptoms_hearing_loss/,NA,NA,日本語,"['聴力', '難聴', '聞き間違い', 'コミュニケーション']","['教室', '日常生活']"
