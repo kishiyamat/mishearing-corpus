@@ -118,49 +118,98 @@ def main():
     MishearingApp().run()
 
 st.set_page_config(page_title="Mishearing Corpus", layout="wide")
-m, s = st.tabs(["main", "scraping"])
+main_tab, google_tab, scraping_tab = st.tabs(["main", "google", "scraping"])
 
-with m:
+with main_tab:
     main()
 
 import requests
 import json
 
+
 def scrape():
     # Scrapeの対象のURL
     target_url = st.text_input("URL: ")
+    save_path = st.text_input("base path: ", "/home/kishiyamat/mishearing-corpus/directory")
+    input_str = json.dumps({"url": target_url, "save_dir": save_path})
+    st.write(input_str)
+    if not (target_url and save_path):
+        st.warning("Please enter a URL to scrape and Directory to save it to.")
+    else:
+        if st.button("Save CSV"):
+            url = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
+            # Request payload configuration
+            payload = {
+                "input_value": input_str,  # The input value to be processed by the flow
+                "output_type": "chat",  # Specifies the expected output format
+                "input_type": "text"  # Specifies the input format
+            }
 
-    url = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
-    # Request payload configuration
-    payload = {
-        "input_value": target_url,  # The input value to be processed by the flow
-        "output_type": "chat",  # Specifies the expected output format
-        "input_type": "text"  # Specifies the input format
-    }
+            # Request headers
+            headers = {
+                "Content-Type": "application/json"
+            }
 
-    # Request headers
-    headers = {
-        "Content-Type": "application/json"
-    }
+            try:
+                # Send API request
+                response = requests.request("POST", url, json=payload, headers=headers)
+                response.raise_for_status()  # Raise exception for bad status codes
 
-    try:
-        # Send API request
-        response = requests.request("POST", url, json=payload, headers=headers)
-        response.raise_for_status()  # Raise exception for bad status codes
+                # Print response
+                try:
+                    response_text = response.text  # Get response text
+                    response_json = json.loads(response_text)  # Parse text as JSON
+                    st.json(response_json)  # Display the JSON in a formatted way
+                except json.JSONDecodeError as e:
+                    st.error(f"Error parsing response text as JSON: {e}")
 
-        # Print response
-        try:
-            response_text = response.text  # Get response text
-            response_json = json.loads(response_text)  # Parse text as JSON
-            st.json(response_json)  # Display the JSON in a formatted way
-        except json.JSONDecodeError as e:
-            st.error(f"Error parsing response text as JSON: {e}")
+            except requests.exceptions.RequestException as e:
+                st.error(f"Error making API request: {e}")
+            except ValueError as e:
+                st.error(f"Error parsing response: {e}")
+            
 
-    except requests.exceptions.RequestException as e:
-        st.error(f"Error making API request: {e}")
-    except ValueError as e:
-        st.error(f"Error parsing response: {e}")
-        
-
-with s:
+with scraping_tab:
     scrape()
+
+
+from apify_client import ApifyClient
+
+@st.cache_resource(show_spinner=False)
+def run_apify_actor(queries, results_per_page, max_pages_per_query):
+    client = ApifyClient(st.secrets["apify"]["token"])
+
+    # Prepare the Actor input
+    run_input = {
+        "queries": queries,
+        "resultsPerPage": results_per_page,
+        "maxPagesPerQuery": max_pages_per_query,
+    }
+
+    # Run the Actor and wait for it to finish
+    run = client.actor("apify/google-search-scraper").call(run_input=run_input)
+
+    # Fetch and st.write Actor results from the run's dataset (if there are any)
+    st.write("💾 Check your data here: https://console.apify.com/storage/datasets/" + run["defaultDatasetId"])
+    dataset = client.dataset(run["defaultDatasetId"])
+    return dataset
+
+with google_tab:
+    st.write("This tab is for Apify integration. Currently, it is not implemented.")
+    queries = st.text_input("")
+    if not queries:
+        st.warning("Please enter a query to run the Apify Actor.")
+    else: 
+        if st.button("Run Apify Actor"):
+            # Initialize the ApifyClient with your Apify API token
+            # Replace '<YOUR_API_TOKEN>' with your token.
+            run_input = {
+                "queries": queries,
+                "results_per_page": 10,
+                "max_pages_per_query": 2,
+            }
+            dataset = run_apify_actor(**run_input)
+            for item in dataset.iterate_items():
+                st.write(item)
+            # You can add your Apify-related code here if needed.
+            # organicResults に検索結果が入っているので、そこから必要な情報を抽出して表示することができます。

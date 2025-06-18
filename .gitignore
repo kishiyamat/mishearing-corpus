@@ -30,3 +30,5 @@ datapackage.json
 
 # Ignore all CSVs except those in version control
 !data/**/*.csv
+
+.streamlit/secrets.toml
