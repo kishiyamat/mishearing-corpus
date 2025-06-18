@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+youtube_ATBfxaFyP00_001,Cotomo,子供,AIの名前『Cotomo』を『子供』と聞き間違えた場合は文脈やイントネーションに注意すると良い。,AI（Cotomo）と人間（子供）の間で『Cotomo』と『子供』の聞き間違いが発生し、会話がかみ合わず大口論になった。,True,youtube_ATBfxaFyP00,https://www.youtube.com/watch?v=ATBfxaFyP00,日本語,"['聞き間違い', 'AI', '子供', 'YouTube', '雑談']","['動画', 'YouTube', '雑談配信', 'AI音声', '子供の声']"
