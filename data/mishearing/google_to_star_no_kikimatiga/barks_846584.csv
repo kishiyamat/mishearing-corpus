@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+001,S,F,注意が必要,,True,ne9a96dee1118,https://note.com/imominty/n/ne9a96dee1118,NA,NA,日本語,"['仕事', 'コールセンター', 'アルファベット', '電話対応', 'メールアドレス', '聞き間違い', 'フォネティックコード', '製品番号']","['電話', '通信環境']"
+002,M,N,注意が必要,,True,ne9a96dee1118,https://note.com/imominty/n/ne9a96dee1118,NA,NA,日本語,"['仕事', 'コールセンター', 'アルファベット', '電話対応', 'メールアドレス', '聞き間違い', 'フォネティックコード', '製品番号']","['電話', '通信環境']"
+003,C,E,注意が必要,,True,ne9a96dee1118,https://note.com/imominty/n/ne9a96dee1118,NA,NA,日本語,"['仕事', 'コールセンター', 'アルファベット', '電話対応', 'メールアドレス', '聞き間違い', 'フォネティックコード', '製品番号']","['電話', '通信環境']"
