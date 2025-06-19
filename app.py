@@ -118,7 +118,7 @@ def main():
     MishearingApp().run()
 
 st.set_page_config(page_title="Mishearing Corpus", layout="wide")
-main_tab, google_tab, scraping_tab, loop_tab = st.tabs(["main", "google", "scraping", "loop"])
+main_tab, google_tab, scraping_tab, loop_tab, fix_csv_tab = st.tabs(["main", "google", "scraping", "loop", "fix_csv"])
 
 with main_tab:
     main()
@@ -269,3 +269,83 @@ with loop_tab:
                     scrape(organic_result["url"], save_path)
             # You can add your Apify-related code here if needed.
             # organicResults に検索結果が入っているので、そこから必要な情報を抽出して表示することができます。
+
+# fix_csv_tab.py
+import json
+from pathlib import Path
+
+import requests
+import streamlit as st
+
+API_URL_FIX_CSV = (
+    "http://127.0.0.1:7860/api/v1/run/"
+    "688463f5-255f-4368-88f9-e3fb5ed17a50"
+)
+
+import pandas as pd
+
+from io import StringIO
+
+with fix_csv_tab:
+    """複数 CSV を API に送るメイン処理"""
+    st.header("CSV ファイルを修正して API へ送信")
+    # ▼ 1. 複数ファイルを受け取る
+    save_path = st.text_input("Path where files to be fixed exist")
+    save_dir_fixed = st.text_input("Path where fixed files to be fixed exist")
+    save_dir_envs = st.text_input("Path where envs files to be fixed exist")
+    save_dir_tags = st.text_input("Path where tags files to be fixed exist")
+    files = st.file_uploader(
+        "CSV を選択（複数可）", type="csv", accept_multiple_files=True
+    )
+
+    # ▼ 2. 「送信」ボタンを押すまで処理を待機
+    # 行数が同じことは保証したい。
+    if files and st.button("送信"):
+        for f in files:
+            st.write(f)
+            # 2-A. ファイル内容を文字列として取得
+            csv_text = f.getvalue().decode("utf-8")
+
+            csvStringIO = StringIO(csv_text)
+            df = pd.read_csv(csvStringIO, sep=",", header=0)
+            original_nrow = len(df)
+            st.write(df)
+
+            # 2-C. JSON 文字列を作成
+            payload_input = {
+                "save_path": save_path,
+                "fixed_dir": save_dir_fixed,
+                "envs_dir": save_dir_envs,
+                "tags_dir": save_dir_tags,
+                "csv_name": f.name,
+                "json_text": df.to_json(orient="records", force_ascii=False),
+            }
+            payload_input_str = json.dumps(payload_input, ensure_ascii=False)
+            payload = {
+                "input_value": payload_input_str,  # The input value to be processed by the flow
+                "output_type": "chat",  # Specifies the expected output format
+                "input_type": "text"  # Specifies the input format
+            }
+            # Request headers
+            headers = {
+                "Content-Type": "application/json"
+            }
+
+            # 2-D. 送信内容を画面に表示（デバッグ用）
+            st.code(payload_input_str, language="json")
+
+            # 2-E. API へ POST
+            try:
+                r = requests.request("POST", API_URL_FIX_CSV, json=payload, headers=headers)
+                r.raise_for_status()
+            except requests.RequestException as e:
+                st.error(f"API Error: {e}")
+                continue  # エラーが出ても次のファイルへ進む
+
+            new_df = pd.read_csv(f"{save_path}/{save_dir_fixed}/{f.name}")
+            st.write(new_df)
+            assert original_nrow==len(new_df)
+            # ここで出力のファイルの正しさを保証
+            # 2-F. 結果を表示
+            st.success(f"{f.name} → 成功")
+            st.json(r.json())
