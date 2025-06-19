@@ -101,13 +101,11 @@ mishearing-corpus/
 │  │   └─ speaker.csv
 │  ├─ listener/                  # 聞き手情報 (未整備)
 │  │   └─ listener.csv
-│  ├─ tag/                       # タグ情報（ジャンルやテーマ分類）
-│  │   ├─ yamato/               # データソースごとのサブディレクトリ
-│  │   │   ├─ 2019-01-15_yamato.csv  # 日付＋ソース名で命名
-│  │   │   └─ ...
-│  │   └─ translation.csv       # タグ (genre, category, ...)の翻訳
-│  └─ document/                  # 出典文献情報
-│      └─ document.csv
+│  └─ tag/                       # タグ情報（ジャンルやテーマ分類）
+│       ├─ yamato/               # データソースごとのサブディレクトリ
+│       │   ├─ 2019-01-15_yamato.csv  # 日付＋ソース名で命名
+│       │   └─ ...
+│       └─ translation.csv       # タグ (genre, category, ...)の翻訳
 │
 ├─ schema/                       # Frictionless Table Schema（各テーブルの定義JSON）
 │  └─ mishearing.schema.json
@@ -115,7 +113,7 @@ mishearing-corpus/
 ├─ scripts/                      # 補助スクリプト類
 │  ├─ build_datapackage.py       # シャード一覧からdatapackage.jsonを自動生成
 │  └─ hooks/
-│      └─ check_filename.py      # ファイル名がYYYY-MM-DD形式か検査
+│      └─ check_filename.py      # ファイル名に.や*をふくまないようテスト
 │
 ├─ tests/                        # テストコード（スクリプトやバリデーションの自動テスト）
 │  └─ test_scripts.py
@@ -142,11 +140,10 @@ mishearing-corpus/
 | Table                  | Key          | Purpose                                  |
 | ---------------------- | ------------ | ---------------------------------------- |
 | `mishearing/`          | `MishearID`  | one mis-hearing event (sharded CSV files)        |
-| `source_utterance/`    | `SrcID`      | original utterance text + phonetic info          |
+| `tag/`                 | `TagID`      | ジャンルやテーマ分類              |
+| `environment/`         | `EnvID`      | place / channel / noise / mic specs              |
 | `speaker/`             | `SpeakerID`  | speaker metadata (gender, dialect, age…)         |
 | `listener/`            | `ListenerID` | listener metadata                                |
-| `environment/`         | `Env`        | place / channel / noise / mic specs              |
-| `document/`            | `DocID`      | bibliographic source of each record              |
 
 Full column definitions live in the corresponding `*.schema.json`.
 
@@ -257,11 +254,36 @@ We thank all annotators and contributors to this project.
 - **URL**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
 - **Description**: See `resource/medsafe/readme.md`
 
+### Kikimatsugai 1101
+- できれば加えたいデータ(かなり量がある)
+
 ### Google
 
-#### "と*の聞き間違い"
+- **Source**: Various
+- **URL**: Depends on the fetched URL
+- **Archive**: N/A
+- **Description**: 
 
-1. Google検索をAPIFYのAPIを使って実行
-2. LLMでCSVに変換
-3. 人力で修正
-4. LLMで修正
+#### `"Mishearing of と and の"`: 
+
+1. Use APIFY's API to perform a Google search query and retrieve URLs.
+2. For each URL, use an LLM to output the data into a CSV: `url2json2csv`.
+3. Manually review and correct the data.
+4. Use an LLM to refine the CSV: `fix_csv_google_to_star_no_kikimatigai`.
+    - Check CSV format
+    - Generate EnvID
+    - Generate TagID
+5. Perform a final manual review and correction.
+
+### Indivisuals
+
+- 個人の報告
+- データを整理しやすいフォームを整備する
+  - テキストを貼り付ける
+    - Src, Tgt
+    - 状況を述べる
+    - カテゴリー
+    - だれがなにを
+  - LLMで自動整形
+
+#### Kishiyama 
