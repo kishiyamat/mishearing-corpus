@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-kfc_misunderstanding_001,ケンタッキーってなんで経営不振なの？,ケンタッキーってなんでKFCなの？,幼稚園児の言葉を正確に聞き取るために、似た音の言葉を区別して確認しましょう。,幼稚園児が「ケンタッキーってなんで経営不振なの？」と聞いたが、実際には「KFC」のことを聞きたかった。,True,kfc_misunderstanding,https://home.kingsoft.jp/news/amusing/byokan/kfc20200728.html,NA,NA,日本語,"['聞き間違い', 'コミュニケーション', '幼稚園児', 'KFC', '経営不振']","['幼稚園', '家庭', '日常生活']"

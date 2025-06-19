@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-ydo_001,青木さんですか？,奥さんですか？,注意が必要,母親が「青木さんですか？」を「あ、奥さんですか？」と聞き間違えた。,True,ydo,https://www.ydo.or.jp/%E9%9B%91%E6%84%9F/post-6422/,NA,NA,日本語,"['聞き間違い', 'コミュニケーション']","['電話', '家庭']"
-ydo_002,ミキさんにお任せ,スタッフの名前にお任せ,注意が必要,スタッフの名前を誤解した。,True,ydo,https://www.ydo.or.jp/%E9%9B%91%E6%84%9F/post-6422/,NA,NA,日本語,"['聞き間違い', 'コミュニケーション']",['職場']

@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-oshiete_goo_8011794_001,苗字呼び,別の苗字,注意が必要,(Src=NA: '苗字呼び' is not a specific phrase)(Tgt=NA: '別の苗字' is not a specific phrase),True,oshiete_goo_8011794,https://oshiete.goo.ne.jp/qa/8011794.html,NA,NA,日本語,"['聞き間違い', 'コミュニケーション', '学校生活', '病院']","['学校', '病院', '教室', '待合室']"

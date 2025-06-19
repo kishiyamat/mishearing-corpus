@@ -1,3 +1,3 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-sec_english_18239118_001,rice,lice,発音に注意,「rice（米）」と「lice（蚤）」の発音の違い。文脈で判断されることが多い。,True,sec_english_18239118,http://blog.livedoor.jp/sec_english/archives/18239118.html,日本語,"['英語学習', '発音', '聞き間違い', 'リスニング', 'コミュニケーション','非母語話者']","['海外旅行', 'レストラン', '英語授業', '日常会話']"
-sec_english_18239118_002,sit,shit,発音に注意,「sit（座る）」と「shit（糞）」の発音の違い。スラングとしても使われるため注意が必要。,True,sec_english_18239118,http://blog.livedoor.jp/sec_english/archives/18239118.html,日本語,"['英語学習', '発音', '聞き間違い', 'リスニング', 'スラング','非母語話者']","['英語授業', '日常会話']"
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+sec_english_18239118_001,rice,lice,発音に注意,「rice（米）」と「lice（蚤）」の発音の違い。文脈で判断されることが多い。,True,sec_english_18239118,http://blog.livedoor.jp/sec_english/archives/18239118.html,,,ja
+sec_english_18239118_002,sit,shit,発音に注意,「sit（座る）」と「shit（糞）」の発音の違い。スラングとしても使われるため注意が必要。,True,sec_english_18239118,http://blog.livedoor.jp/sec_english/archives/18239118.html,,,ja

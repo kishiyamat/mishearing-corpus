@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-career_up_607_001,b,d,注意が必要,電話での聞き間違いの例。,True,career_up_607,https://www.career-up.co.jp/blog/?mode=detail&article=607,NA,NA,日本語,"['聞き間違い', 'コミュニケーション', '電話対応', 'アルファベット']","['電話', '通信環境']"
-career_up_607_002,t,p,注意が必要,アルファベットの発音における聞き取りの難しさ。,True,career_up_607,https://www.career-up.co.jp/blog/?mode=detail&article=607,NA,NA,日本語,"['聞き間違い', 'コミュニケーション', '電話対応', 'アルファベット']","['電話', '通信環境']"

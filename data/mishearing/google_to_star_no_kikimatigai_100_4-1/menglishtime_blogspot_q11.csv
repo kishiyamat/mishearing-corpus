@@ -1,2 +1,2 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-menglishtime_20170611_001,First of all,Festival,ネイティブ発音に注意,ネイティブの発音では「First of all」と「Festival」が似て聞こえ、著者は長らく聞き間違えていた。,True,menglishtime_20170611,http://menglishtime.blogspot.com/2017/06/blog-post_11.html,日本語,"['英語学習', '聞き間違い', '空耳', '発音', 'リスニング', 'ブログ', '非母語話者']","['英語学習環境', '授業', '面接', '日常会話', '日本人学習者', 'ネイティブ英語話者', '通常の会話']"
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+menglishtime_20170611_001,First of all,Festival,ネイティブ発音に注意,ネイティブの発音では「First of all」と「Festival」が似て聞こえ、著者は長らく聞き間違えていた。,True,menglishtime_20170611,http://menglishtime.blogspot.com/2017/06/blog-post_11.html,,,ja

@@ -1,2 +1,2 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-ekantei_100667_42368_001,近いうちに来院していただけませんか？,近いうちにLINEしていただけませんか？,電話での会話は発音が似ている語に注意すること。,病院の看護師から『来院してほしい』と言われたのを『LINEしてほしい』と聞き間違えた体験談。会話が噛み合わず恥ずかしい思いをした。,True,ekantei_100667_42368,https://e-kantei.net/fortuneteller/100667/articles/42368/,日本語,"['聞き間違い', '電話', '病院', '日常生活', 'コミュニケーション', '占い師', '体験談']","['病院', '電話', '家庭', '通信環境']"
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+ekantei_100667_42368_001,近いうちに来院していただけませんか？,近いうちにLINEしていただけませんか？,電話での会話は発音が似ている語に注意すること。,病院の看護師から『来院してほしい』と言われたのを『LINEしてほしい』と聞き間違えた体験談。会話が噛み合わず恥ずかしい思いをした。,True,ekantei_100667_42368,https://e-kantei.net/fortuneteller/100667/articles/42368/,看護師,,ja

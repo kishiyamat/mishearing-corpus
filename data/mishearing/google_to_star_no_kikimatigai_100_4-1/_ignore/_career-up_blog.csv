@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-careerup_607_001,b,d,電話でアルファベットを伝える際は例を挙げて区別する（例：abcの2番目のb）,電話でのアルファベット聞き間違い例,True,careerup_607,https://www.career-up.co.jp/blog/?mode=detail&article=607,日本語,"['聞き間違い', 'コミュニケーション', '電話対応', 'アルファベット']","['電話', '通信環境']"
-careerup_607_002,t,p,発音が似ているアルファベットは例を挙げて伝える（例：ぱぴぷぺぽのp）,電話でのアルファベット聞き間違い例,True,careerup_607,https://www.career-up.co.jp/blog/?mode=detail&article=607,日本語,"['聞き間違い', 'コミュニケーション', '電話対応', 'アルファベット']","['電話', '通信環境']"

@@ -1,3 +1,3 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-togetter_1884109_001,Edy,iD,店員・客ともに番号で伝えると良い,レジで「Edy」と言ったのに「iD」と聞き間違えられ、決済エラーになる事例多数。,True,togetter_1884109,https://togetter.com/li/1884109?page=2,日本語,"['キャッシュレス', 'キャッシュレス決済', 'FeliCa', '電子マネー', '聞き間違い', 'レジ', 'コミュニケーション', '店舗運営']","['店舗', 'レジ', '飛沫防止パネル', 'ノイズ', 'マイク・スピーカー']"
-togetter_1884109_002,iD,Edy,店員・客ともに番号で伝えると良い,レジで「iD」と言ったのに「Edy」と聞き間違えられ、決済エラーになる事例多数。,True,togetter_1884109,https://togetter.com/li/1884109?page=2,日本語,"['キャッシュレス', 'キャッシュレス決済', 'FeliCa', '電子マネー', '聞き間違い', 'レジ', 'コミュニケーション', '店舗運営']","['店舗', 'レジ', '飛沫防止パネル', 'ノイズ', 'マイク・スピーカー']"
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+togetter_1884109_001,Edy,iD,店員・客ともに番号で伝えると良い,レジで「Edy」と言ったのに「iD」と聞き間違えられ、決済エラーになる事例多数。,True,togetter_1884109,https://togetter.com/li/1884109?page=2,,,ja
+togetter_1884109_002,iD,Edy,店員・客ともに番号で伝えると良い,レジで「iD」と言ったのに「Edy」と聞き間違えられ、決済エラーになる事例多数。,True,togetter_1884109,https://togetter.com/li/1884109?page=2,,,ja

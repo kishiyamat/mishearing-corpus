@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-unisiacom_5436_001,注文内容,別の注文内容,ITツール導入で防止,口頭や手書き伝票での注文時にスタッフが注文内容を聞き間違えることがある。セルフオーダーやOESで防止可能。,True,unisiacom_5436,https://www.unisiacom.co.jp/blog/5436/,日本語,"['飲食店', 'IT化', 'オーダーエントリーシステム', '聞き間違い', '業務効率化']","['飲食店', '店内', 'タブレット端末', '通信環境']"
-unisiacom_5436_002,予約内容,別の予約内容,ITツール導入で防止,電話や紙台帳での予約時に内容の聞き間違いや書き間違いが発生しやすい。予約管理システムで防止可能。,True,unisiacom_5436,https://www.unisiacom.co.jp/blog/5436/,日本語,"['飲食店', 'IT化', '予約管理', '聞き間違い', '業務効率化']","['飲食店', '電話予約', '通信環境']"

@@ -1,2 +1,2 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-bepal_239415_001,Big C,Big Sea,地図で確認,ハンガリーのカヤッククラブで「Big C（Cの字の小川）」を「Big Sea（大きな海）」と聞き間違えた。内陸国で海がないのに「大きな海」と言われて混乱したが、地図で確認して誤解が解けた。,True,bepal_239415,https://www.bepal.net/archives/239415,日本語,"['旅行', '聞き間違い', '英語', 'コミュニケーション', '非母語話者']","['ハンガリーの田舎町パーシュ', 'カヤッククラブ', 'ドナウ川', '英語での会話', '屋外']"
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+bepal_239415_001,Big C,Big Sea,地図で確認,ハンガリーのカヤッククラブで「Big C（Cの字の小川）」を「Big Sea（大きな海）」と聞き間違えた。内陸国で海がないのに「大きな海」と言われて混乱したが、地図で確認して誤解が解けた。,True,bepal_239415,https://www.bepal.net/archives/239415,,,ja

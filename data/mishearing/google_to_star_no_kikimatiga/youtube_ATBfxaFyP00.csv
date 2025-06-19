@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-youtube_cotomo_001,Cotomo,子供,注意が必要,AIと子供の間での聞き間違いによる口論の例。,True,youtube_cotomo_001,https://www.youtube.com/watch?v=ATBfxaFyP00,NA,NA,日本語,"['聞き間違い', 'コミュニケーション', 'AI', '子供']","['動画', 'YouTube']"

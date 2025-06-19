@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-chiebukuro_254043620_001,2階に◯◯さんいる？,2階の◯◯さん呼ぶ？,注意が必要,先生が話しかけたが、聞き手が誤解して返答し、周囲に人がいて恥ずかしかった,True,chiebukuro_254043620,https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10254043620,Teacher,Student,日本語,"['聞き間違い', '学校', '先生', 'コミュニケーション']","['教室', '対面会話']"
-chiebukuro_254043620_002,別の生徒の名前を呼んでいた,自分の名前だと思い返事をした,注意が必要,授業中、先生に当てられたと思って答えたら実は人違いで、恥ずかしい思いをした,True,chiebukuro_254043620,https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10254043620,Teacher,Student,日本語,"['聞き間違い', '学校', '先生', 'コミュニケーション']","['教室', '対面会話']"

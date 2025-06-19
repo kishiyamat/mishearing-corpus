@@ -1,2 +1,2 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-mitohonoka_20080529_001,巾着袋に見える？,近所の神楽に見える？,はっきり発音しよう,オカメが「巾着袋に見える？」と聞いたのを、ほのかが「近所の神楽に見える？」と聞き間違えた。,True,mitohonoka_20080529,https://plaza.rakuten.co.jp/mitohonoka/diary/200805290000/,日本語,"['聞き間違い', '日常会話', '友人', 'ユーモア', 'ブログ']","['自宅', '友人同士', '日常生活']"
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+mitohonoka_20080529_001,巾着袋に見える？,近所の神楽に見える？,はっきり発音しよう,オカメが「巾着袋に見える？」と聞いたのを、ほのかが「近所の神楽に見える？」と聞き間違えた。,True,mitohonoka_20080529,https://plaza.rakuten.co.jp/mitohonoka/diary/200805290000/,オカメ,ほのか,ja

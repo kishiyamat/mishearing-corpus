@@ -1,21 +1,21 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-pottora_telephonealphabet_001,B,D,注意が必要,「B」と「D」は電話で特に聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_002,B,P,注意が必要,「B」と「P」も聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_003,B,T,注意が必要,「B」と「T」も聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_004,D,B,注意が必要,「D」と「B」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_005,D,P,注意が必要,「D」と「P」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_006,D,T,注意が必要,「D」と「T」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_007,P,B,注意が必要,「P」と「B」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_008,P,D,注意が必要,「P」と「D」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_009,P,T,注意が必要,「P」と「T」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_010,T,B,注意が必要,「T」と「B」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_011,T,D,注意が必要,「T」と「D」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_012,T,P,注意が必要,「T」と「P」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_013,I,Y,注意が必要,「I」と「Y」も聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_014,L,M,注意が必要,「L」と「M」も聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_015,L,N,注意が必要,「L」と「N」も聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_016,M,L,注意が必要,「M」と「L」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_017,M,N,注意が必要,「M」と「N」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_018,N,L,注意が必要,「N」と「L」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_019,N,M,注意が必要,「N」と「M」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
-pottora_telephonealphabet_020,Q,9,注意が必要,「Q」と「9」は数字とアルファベットの混同が多発。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,日本語,"['電話対応', 'コールセンター', 'アルファベット', 'フォネティックコード', '聞き間違い', 'メールアドレス', '型番', '数字']","['電話', 'コールセンター', '通信環境', 'オフィス', 'ノイズあり']"
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+pottora_telephonealphabet_001,B,D,注意が必要,「B」と「D」は電話で特に聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_002,B,P,注意が必要,「B」と「P」も聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_003,B,T,注意が必要,「B」と「T」も聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_004,D,B,注意が必要,「D」と「B」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_005,D,P,注意が必要,「D」と「P」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_006,D,T,注意が必要,「D」と「T」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_007,P,B,注意が必要,「P」と「B」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_008,P,D,注意が必要,「P」と「D」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_009,P,T,注意が必要,「P」と「T」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_010,T,B,注意が必要,「T」と「B」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_011,T,D,注意が必要,「T」と「D」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_012,T,P,注意が必要,「T」と「P」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_013,I,Y,注意が必要,「I」と「Y」も聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_014,L,M,注意が必要,「L」と「M」も聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_015,L,N,注意が必要,「L」と「N」も聞き間違えやすい。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_016,M,L,注意が必要,「M」と「L」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_017,M,N,注意が必要,「M」と「N」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_018,N,L,注意が必要,「N」と「L」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_019,N,M,注意が必要,「N」と「M」も同様。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja
+pottora_telephonealphabet_020,Q,9,注意が必要,「Q」と「9」は数字とアルファベットの混同が多発。,True,pottora_telephonealphabet,https://pottora.com/telephone-alphabet/,,,ja

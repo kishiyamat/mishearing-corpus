@@ -1,8 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
-calltips_listening_001,佐村,田村,名前は単語で補足説明,名前の聞き間違い。電話で「さむら」と伝えたが「たむら」と誤認された。,True,calltips_listening,https://calltips.net/listening-techniques/,,,ja
-calltips_listening_002,サシスセソ,タチツテト,行名は使わず単語で,「サシスセソのサ」が「タチツテト」に聞こえることがある。,True,calltips_listening,https://calltips.net/listening-techniques/,,,ja
-calltips_listening_003,1（いち）,8（はち）,「イチ」「ハチ」と強調,「1」と「8」は「チ」で終わるため聞き間違いが多い。,True,calltips_listening,https://calltips.net/listening-techniques/,,,ja
-calltips_listening_004,4（し）,7（しち）,「よん」「なな」と言う,「4」と「7」は「し」「しち」だと混同しやすい。,True,calltips_listening,https://calltips.net/listening-techniques/,,,ja
-calltips_listening_005,B,D,単語で補足(「BLACKのB」（ブラックのビー）),「ビー」と「ディー」は電話で混同しやすい。,True,calltips_listening,https://calltips.net/listening-techniques/,,,ja
-calltips_listening_006,I,Y,単語で補足(「ITALIAのI」（イタリアのアイ）),「アイ」と「ワイ」は電話で混同しやすい。,True,calltips_listening,https://calltips.net/listening-techniques/,,,ja
-calltips_listening_007,T,P,単語で補足(「TIGERのT」  (タイガーのティー)),「ティー」と「ピー」は電話で混同しやすい。,True,calltips_listening,https://calltips.net/listening-techniques/,,,ja
