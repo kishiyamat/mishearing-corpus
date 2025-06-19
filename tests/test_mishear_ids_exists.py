@@ -102,9 +102,9 @@ def test_mishear_ids_exist_in_other_columns():
         missing_in_environment = mishearing_mishear_ids - environment_mishear_ids
 
         if missing_in_tag:
-            logger.error(f"The following MishearIDs in {file_i} do not exist in the corresponding tag file: {missing_in_tag}")
+            logger.error(f"The following MishearIDs in Tag{file_i} (Tags) do not exist in the corresponding tag file: {missing_in_tag}")
         if missing_in_environment:
-            logger.error(f"The following MishearIDs in {file_i} do not exist in the corresponding environment file: {missing_in_environment}")
+            logger.error(f"The following MishearIDs in {file_i} (Envs) do not exist in the corresponding environment file: {missing_in_environment}")
 
         assert not missing_in_tag, f"The following MishearIDs in {file_i} do not exist in the corresponding tag file: {missing_in_tag}"
         assert not missing_in_environment, f"The following MishearIDs in {file_i} do not exist in the corresponding environment file: {missing_in_environment}"

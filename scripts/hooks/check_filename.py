@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import re, sys, pathlib
 # 修正された正規表現: 日付部分を削除し、アスタリスクやドットなどの特殊文字を避ける
-PATTERN = re.compile(r"^[A-Za-z0-9-]+\.csv$")
+PATTERN = re.compile(r"^[A-Za-z0-9-_]+\.csv$")
 
 def main(paths):
     bad = []

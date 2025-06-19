@@ -4,7 +4,7 @@ from pathlib import Path
 import os
 
 def test_valid_filenames():
-    valid_files = ["valid-file.csv", "another-valid-file.csv"]
+    valid_files = ["valid-file.csv", "another-valid-file.csv", "valid_file.csv"]
     for file in valid_files:
         Path(file).touch()
 

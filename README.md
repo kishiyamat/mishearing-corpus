@@ -256,3 +256,12 @@ We thank all annotators and contributors to this project.
 - **Source**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
 - **URL**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
 - **Description**: See `resource/medsafe/readme.md`
+
+### Google
+
+#### "と*の聞き間違い"
+
+1. Google検索をAPIFYのAPIを使って実行
+2. LLMでCSVに変換
+3. 人力で修正
+4. LLMで修正

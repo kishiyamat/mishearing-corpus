@@ -19,3 +19,245 @@ FINANCE,ja,金融
 FINANCE,en,finance
 HUMAN_RESOURCES,ja,人事
 HUMAN_RESOURCES,en,human resources
+SCHOOL,ja,学校
+SCHOOL,en,school
+HEARING,ja,聴覚
+HEARING,en,hearing
+HOKKAIDO,ja,北海道
+HOKKAIDO,en,Hokkaido
+HEARING_AID,ja,補聴器
+HEARING_AID,en,hearing aid
+CASHLESS_PAYMENT,ja,キャッシュレス決済
+CASHLESS_PAYMENT,en,cashless payment
+FOREIGN_CASHIER,ja,外国人レジ係
+FOREIGN_CASHIER,en,foreign cashier
+DUOLINGO,ja,デュオリンゴ
+DUOLINGO,en,Duolingo
+CHIKOE,ja,ちこえ
+CHIKOE,en,Chikoe
+DATE,ja,日付
+DATE,en,date
+ROCK,ja,ロック
+ROCK,en,rock
+TELEVISION_TOKYO,ja,テレビ東京
+TELEVISION_TOKYO,en,Television Tokyo
+PROPER_NOUN,ja,固有名詞
+PROPER_NOUN,en,proper noun
+HIRAGANA,ja,ひらがな
+HIRAGANA,en,hiragana
+SORA_MIMI,ja,空耳
+SORA_MIMI,en,soramimi
+HISTORY,ja,歴史
+HISTORY,en,history
+FRIEND,ja,友達
+FRIEND,en,friend
+PHONETIC_CODE,ja,音声コード
+PHONETIC_CODE,en,phonetic code
+MISHEARING,ja,聞き間違い
+MISHEARING,en,mishearing
+DAILY_NECESSITIES,ja,日用品
+DAILY_NECESSITIES,en,daily necessities
+ENGLISH_LEARNING,ja,英語学習
+ENGLISH_LEARNING,en,English learning
+WORKSHOP,ja,ワークショップ
+WORKSHOP,en,workshop
+ENGINE_ORDER,ja,エンジンオーダー
+ENGINE_ORDER,en,engine order
+SLANG,ja,スラング
+SLANG,en,slang
+PHONE,ja,電話
+PHONE,en,phone
+BYOIN,ja,病院
+BYOIN,en,hospital
+CASH_REGISTER,ja,レジ
+CASH_REGISTER,en,cash register
+KOMYUNIKESHON,ja,コミュニケーション
+KOMYUNIKESHON,en,communication
+TELEVISION,ja,テレビ
+TELEVISION,en,television
+FELICA,ja,フェリカ
+FELICA,en,Felica
+PHONE_SUPPORT,ja,電話サポート
+PHONE_SUPPORT,en,phone support
+HEARING_IMPAIRMENT,ja,聴覚障害
+HEARING_IMPAIRMENT,en,hearing impairment
+REGGAE,ja,レゲエ
+REGGAE,en,reggae
+COMEDY,ja,コメディ
+COMEDY,en,comedy
+STORE_MANAGEMENT,ja,店舗管理
+STORE_MANAGEMENT,en,store management
+CASHLESS,ja,キャッシュレス
+CASHLESS,en,cashless
+MODEL_NUMBER,ja,型番
+MODEL_NUMBER,en,model number
+LISTENING,ja,リスニング
+LISTENING,en,listening
+FILMARKS,ja,フィルマークス
+FILMARKS,en,Filmarks
+YUKI_TSUNODA,ja,角田裕毅
+YUKI_TSUNODA,en,Yuki Tsunoda
+F1,ja,F1
+F1,en,F1
+VARIETY,ja,バラエティ
+VARIETY,en,variety
+FAMILY,ja,家族
+FAMILY,en,family
+SUPERMARKET,ja,スーパーマーケット
+SUPERMARKET,en,supermarket
+HATSUON,ja,発音
+HATSUON,en,pronunciation
+COMMUNICATION,ja,コミュニケーション
+COMMUNICATION,en,communication
+SELF_EXPRESSION,ja,自己表現
+SELF_EXPRESSION,en,self-expression
+ALPHABET,ja,アルファベット
+ALPHABET,en,alphabet
+COMIC_ESSAY,ja,コミックエッセイ
+COMIC_ESSAY,en,comic essay
+NICHJO_SEIKATSU,ja,日常生活
+NICHJO_SEIKATSU,en,daily life
+HOME,ja,家
+HOME,en,home
+PRODUCT_NUMBER,ja,品番
+PRODUCT_NUMBER,en,product number
+EARLY_CHILDHOOD,ja,幼児期
+EARLY_CHILDHOOD,en,early childhood
+NAVIGATION,ja,ナビゲーション
+NAVIGATION,en,navigation
+NUMBER,ja,数字
+NUMBER,en,number
+ANNOUNCER,ja,アナウンサー
+ANNOUNCER,en,announcer
+DIGITS,ja,桁
+DIGITS,en,digits
+NON_NATIVE_SPEAKER,ja,非ネイティブスピーカー
+NON_NATIVE_SPEAKER,en,non-native speaker
+MANZAI,ja,漫才
+MANZAI,en,manzai
+TRAVEL,ja,旅行
+TRAVEL,en,travel
+HIBO_GO_WASHA,ja,非母語話者
+HIBO_GO_WASHA,en,non-native speaker
+SPEECH_RECOGNITION,ja,音声認識
+SPEECH_RECOGNITION,en,speech recognition
+DAILY_LIFE,ja,日常生活
+DAILY_LIFE,en,daily life
+CRIME_SUSPENSE,ja,犯罪サスペンス
+CRIME_SUSPENSE,en,crime suspense
+EIGO_GAKUSHU,ja,英語学習
+EIGO_GAKUSHU,en,English learning
+RADIO,ja,ラジオ
+RADIO,en,radio
+KIKIMACHI-GAI,ja,聞き間違い
+KIKIMACHI-GAI,en,mishearing
+TRANSPORTATION,ja,交通
+TRANSPORTATION,en,transportation
+MOVIE,ja,映画
+MOVIE,en,movie
+ELECTRONIC_MONEY,ja,電子マネー
+ELECTRONIC_MONEY,en,electronic money
+AGING,ja,老化
+AGING,en,aging
+HEARING_LOSS,ja,聴力損失
+HEARING_LOSS,en,hearing loss
+BLOG,ja,ブログ
+BLOG,en,blog
+PILOTAGE,ja,操縦
+PILOTAGE,en,pilotage
+KIKIMACHIGAI,ja,聞き間違い
+KIKIMACHIGAI,en,mishearing
+R_B,ja,R&B
+R_B,en,R&B
+CAR_ACTION,ja,カーアクション
+CAR_ACTION,en,car action
+TELEPHONE,ja,電話
+TELEPHONE,en,telephone
+SDGS,ja,SDGs
+SDGS,en,SDGs
+KAWASAKI_CITY,ja,川崎市
+KAWASAKI_CITY,en,Kawasaki City
+CONVENIENCE_STORE,ja,コンビニ
+CONVENIENCE_STORE,en,convenience store
+HUMOR,ja,ユーモア
+HUMOR,en,humor
+MOTOR_SPORTS,ja,モータースポーツ
+MOTOR_SPORTS,en,motor sports
+LYRICS,ja,歌詞
+LYRICS,en,lyrics
+OTA_WARD,ja,大田区
+OTA_WARD,en,Ota Ward
+SEKKAKUGYO,ja,接客業
+SEKKAKUGYO,en,customer service
+ID,ja,iD（電子カード）
+ID,en,iD (electronic card)
+NAME_ORIGIN,ja,名前の由来
+NAME_ORIGIN,en,name origin
+CUSTOMER_SERVICE,ja,顧客サービス
+CUSTOMER_SERVICE,en,customer service
+PRESENTATION,ja,プレゼンテーション
+PRESENTATION,en,presentation
+HOCHOOKI,ja,補聴器
+HOCHOOKI,en,hearing aid
+SORA-MIMI,ja,空耳
+SORA-MIMI,en,soramimi
+HIGH_SCHOOL,ja,高校
+HIGH_SCHOOL,en,high school
+ANIMAL,ja,動物
+ANIMAL,en,animal
+VISIT_SALES,ja,訪問販売
+VISIT_SALES,en,visit sales
+URANAISHI,ja,占い師
+URANAISHI,en,fortune teller
+RESTAURANT,ja,レストラン
+RESTAURANT,en,restaurant
+STATIONERY,ja,文房具
+STATIONERY,en,stationery
+RAKUTEN_EDY,ja,楽天Edy
+RAKUTEN_EDY,en,Rakuten Edy
+GERMANY,ja,ドイツ
+GERMANY,en,Germany
+NAME,ja,名前
+NAME,en,name
+EMAIL_ADDRESS,ja,メールアドレス
+EMAIL_ADDRESS,en,email address
+ACTION,ja,アクション
+ACTION,en,action
+CHILDCARE,ja,育児
+CHILDCARE,en,childcare
+POPS,ja,ポップス
+POPS,en,pops
+DISABILITY_WELFARE,ja,障害福祉
+DISABILITY_WELFARE,en,disability welfare
+CALL_CENTER,ja,コールセンター
+CALL_CENTER,en,call center
+SOUL,ja,ソウル
+SOUL,en,soul
+PIERCING,ja,ピアス
+PIERCING,en,piercing
+WORK,ja,仕事
+WORK,en,work
+PRONUNCIATION,ja,発音
+PRONUNCIATION,en,pronunciation
+STORE,ja,店
+STORE,en,store
+TAIKENDAN,ja,体験談
+TAIKENDAN,en,experience
+JAPANESE,ja,日本語
+JAPANESE,en,Japanese
+DENWA,ja,電話
+DENWA,en,telephone
+WESTERN_MUSIC,ja,洋楽
+WESTERN_MUSIC,en,western music
+PUBLIC_BROADCAST,ja,公共放送
+PUBLIC_BROADCAST,en,public broadcast
+RAILWAY,ja,鉄道
+RAILWAY,en,railway
+CONVERSATION,ja,会話
+CONVERSATION,en,conversation
+WORKPLACE,ja,職場
+WORKPLACE,en,workplace
+KIKIMATSUGAI,ja,聞き間違い
+KIKIMATSUGAI,en,mishearing
+OUTDOOR_ANNOUNCE,ja,屋外放送
+OUTDOOR_ANNOUNCE,en,outdoor announce
