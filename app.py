@@ -302,6 +302,14 @@ with fix_csv_tab:
     # 行数が同じことは保証したい。
     if files and st.button("送信"):
         for f in files:
+            # f"{save_path}/{save_dir_fixed}/{f.name}")が存在するならcontinue
+            if Path(f"{save_path}/{save_dir_fixed}/{f.name}").exists():
+                st.warning(f"{f.name} はすでに存在します。スキップします。")
+                st.write(pd.read_csv(f"{save_path}/{save_dir_fixed}/{f.name}"))
+                st.write(pd.read_csv(f"{save_path}/{save_dir_envs}/{f.name}"))
+                st.write(pd.read_csv(f"{save_path}/{save_dir_tags}/{f.name}"))
+                continue
+
             st.write(f)
             # 2-A. ファイル内容を文字列として取得
             csv_text = f.getvalue().decode("utf-8")
@@ -344,6 +352,8 @@ with fix_csv_tab:
 
             new_df = pd.read_csv(f"{save_path}/{save_dir_fixed}/{f.name}")
             st.write(new_df)
+            st.write(pd.read_csv(f"{save_path}/{save_dir_envs}/{f.name}"))
+            st.write(pd.read_csv(f"{save_path}/{save_dir_tags}/{f.name}"))
             assert original_nrow==len(new_df)
             # ここで出力のファイルの正しさを保証
             # 2-F. 結果を表示
