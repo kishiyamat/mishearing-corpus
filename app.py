@@ -301,23 +301,31 @@ with fix_csv_tab:
     # ▼ 2. 「送信」ボタンを押すまで処理を待機
     # 行数が同じことは保証したい。
     if files and st.button("送信"):
+        st.write("送信中...")
         for f in files:
+            st.write(f)
+
+            # 2-A. ファイル内容を文字列として取得
+            csvStringIO = StringIO(f.getvalue().decode("utf-8"))
+            df = pd.read_csv(csvStringIO, sep=",", header=0)
+            original_nrow = len(df)
+            st.write(df)
+            st.write(df["Tags"].values[0])
+            st.write(df["Envs"].values[0])
+
+            def is_vacant(x):
+                return pd.isna(x) or x == "" or x == "nan"
+
             # f"{save_path}/{save_dir_fixed}/{f.name}")が存在するならcontinue
             if Path(f"{save_path}/{save_dir_fixed}/{f.name}").exists():
                 st.warning(f"{f.name} はすでに存在します。スキップします。")
                 st.write(pd.read_csv(f"{save_path}/{save_dir_fixed}/{f.name}"))
-                st.write(pd.read_csv(f"{save_path}/{save_dir_envs}/{f.name}"))
-                st.write(pd.read_csv(f"{save_path}/{save_dir_tags}/{f.name}"))
+                if  not is_vacant(df["Tags"].values[0]):
+                    st.write(pd.read_csv(f"{save_path}/{save_dir_tags}/{f.name}"))
+                if  not is_vacant(df["Envs"].values[0]):
+                    st.write(pd.read_csv(f"{save_path}/{save_dir_envs}/{f.name}"))
                 continue
 
-            st.write(f)
-            # 2-A. ファイル内容を文字列として取得
-            csv_text = f.getvalue().decode("utf-8")
-
-            csvStringIO = StringIO(csv_text)
-            df = pd.read_csv(csvStringIO, sep=",", header=0)
-            original_nrow = len(df)
-            st.write(df)
 
             # 2-C. JSON 文字列を作成
             payload_input = {
