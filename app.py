@@ -7,7 +7,12 @@ import os, glob, pandas as pd, streamlit as st
 def load_csv_tree(root: str, *, exclude: str | None = None) -> pd.DataFrame:
     pat = os.path.join(root, "**/*.csv")
     files = [f for f in glob.glob(pat, recursive=True) if not exclude or exclude not in f]
-    return pd.concat((pd.read_csv(f) for f in files), ignore_index=True)
+    dataframes = []
+    for f in files:
+        df = pd.read_csv(f)
+        df["path"] = f  # Add a column with the file path
+        dataframes.append(df)
+    return pd.concat(dataframes, ignore_index=True)
 
 @st.cache_data(show_spinner=False)
 def load_translation(root: str) -> pd.DataFrame:
@@ -118,10 +123,40 @@ def main():
     MishearingApp().run()
 
 st.set_page_config(page_title="Mishearing Corpus", layout="wide")
-main_tab, google_tab, scraping_tab, loop_tab, fix_csv_tab = st.tabs(["main", "google", "scraping", "loop", "fix_csv"])
+
+main_tab, stats_tab, google_tab, scraping_tab, loop_tab, fix_csv_tab = st.tabs(["main", "stats", "google", "scraping", "loop", "fix_csv"])
 
 with main_tab:
     main()
+
+
+import pathlib
+
+def extract_dir(path_str: str) -> str:
+    """
+    data/mishearing/<DIR_NAME>/file.csv から <DIR_NAME> を取り出す。
+    想定外の形式なら空文字を返す。
+    """
+    try:
+        parts = pathlib.Path(path_str).parts
+        # parts = ('data', 'mishearing', '<DIR_NAME>', 'YYYY-MM-DD_xxx.csv')
+        return parts[2] if len(parts) >= 3 else ""
+    except Exception:
+        return ""
+
+with stats_tab:
+    df = MishearingApp().corpus
+    df["dir"] = df["path"].apply(extract_dir)
+    counts = df["dir"].value_counts(dropna=False).reset_index()
+    counts.columns = ["Directory", "Count"]
+    total = len(df)
+
+    # ─── 表示 ──────────────────────────────────────────
+    st.subheader("ディレクトリ別件数")
+    st.dataframe(counts)
+
+    st.subheader("合計")
+    st.metric(label="総件数", value=total)
 
 import requests
 import json

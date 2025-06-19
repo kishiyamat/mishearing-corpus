@@ -230,31 +230,31 @@ We thank all annotators and contributors to this project.
 - **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
 - **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
 
-## 10. Data Sources
+## 10. Data Sources (N=196)
 
-### Tenshokudou Taxi Media
+### Tenshokudou Taxi Media (N=22)
 - **Source**: Tenshokudou Media
 - **URL**: [https://www.tenshokudou.com/media/?p=13401](https://www.tenshokudou.com/media/?p=13401)
 - **Archive**: https://megalodon.jp/2025-0609-1602-44/https://www.tenshokudou.com:443/media/?p=13401
 - **Description**: Mishearing data collected from taxi-related media articles published by Tenshokudou.
 
-### Yamato Sokki
+### Yamato Sokki (N=5)
 - **Source**: Yamato Sokki Co., Ltd.
 - **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
 - **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
 
-### Gendai Media
+### Gendai Medi (N=8)a
 - **Source**: Gendai Media
 - **URL**: [https://gendai.media/articles/-/152393?imp=0](https://gendai.media/articles/-/152393?imp=0)
 - **Archive**: https://megalodon.jp/2025-0610-1550-38/https://gendai.media:443/articles/-/152393?imp=0
 - **Description**: Mishearing data derived from articles published by Gendai Media, focusing on public facilities and store names.
 
-### Med Safe
+### Med Safe (N=42)
 - **Source**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
 - **URL**: https://www.med-safe.jp/mpsearch/SearchReportResult.action
 - **Description**: See `resource/medsafe/readme.md`
 
-### Kikimatsugai 1101
+### Kikimatsugai 1101 (N=9)
 - できれば加えたいデータ(かなり量がある)
 
 ### Google
@@ -264,7 +264,7 @@ We thank all annotators and contributors to this project.
 - **Archive**: N/A
 - **Description**: 
 
-#### `"Mishearing of と and の"`: 
+#### `"Mishearing of と and の"` (N=110)
 
 1. Use APIFY's API to perform a Google search query and retrieve URLs.
 2. For each URL, use an LLM to output the data into a CSV: `url2json2csv`.
