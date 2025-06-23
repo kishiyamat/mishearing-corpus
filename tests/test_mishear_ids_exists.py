@@ -137,12 +137,14 @@ def test_translation_exists():
         if file_i != 'translation.csv':
             env_id = get_ids(os.path.join(ENVIRONMENT_DIR, file_i), 'EnvID')
             env_ids.update(env_id)
+            # 個別にしりたければ、以下のコメントアウトを有効にする
             # assert env_id.issubset(env_translation_ids), f"EnvID {env_id} in {file_i} is not in translation.csv"
 
     for file_i in tag_files:
         if file_i != 'translation.csv':
             tag_id = get_ids(os.path.join(TAG_DIR, file_i), 'TagID')
             tag_ids.update(tag_id)
+            # 個別にしりたければ、以下のコメントアウトを有効にする
             # assert tag_id.issubset(tag_translation_ids), f"TagID {tag_id} in {file_i} is not in translation.csv"
 
     missing_env_ids = env_ids - env_translation_ids
