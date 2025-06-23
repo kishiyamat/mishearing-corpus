@@ -71,7 +71,7 @@ def google_search(
 
 queries = '"と*の聞き間違え"'
 save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_to_star_no_kikimatigae"
-st.wwarning("queriesとsave_pathは適宜変更してください。")
+st.warning("queriesとsave_pathは適宜変更してください。")
 results_per_page = st.number_input("results_per_page", 5)
 max_pages_per_query = st.number_input("max_pages_per_query", 1)
 
