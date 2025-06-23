@@ -51,6 +51,8 @@ def google_search(
         st.error(f"Error parsing response: {e}")
 
 """
+全ての検索を実施したらこのファイルはtaskに移動する。
+
 手続き
 0. 保存するディレクトリの名前を検索のクエリから決める
 1. ApifyのGoogle Search Scraperを実行して、検索結果を取得
@@ -58,13 +60,14 @@ def google_search(
 3. 保存された結果のCSVを手動で確認、分類
     1. not_relevant
     2. relevant
-
+4. 修正したCSVをAPIに送ってフォーマット修正する
 
 改善点
 - descriptionを取得してXなどの際でも推定できるようにする
 - 取得の過程をrequestsベースで行う
 - プロセスを一つのファイルにまとめる
 - ValidationはできるだけCSVを作成するタイミングで行う
+
 """
 
 queries = st.text_input("聞き間違え", '"と*の聞き間違え"')
