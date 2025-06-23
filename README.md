@@ -264,7 +264,7 @@ We thank all annotators and contributors to this project.
 - **Archive**: N/A
 - **Description**: 
 
-#### `"Mishearing of と and の"` (N=110)
+#### `"Mishearing of と and の 聞き間違い"` (N=110)
 
 1. Use APIFY's API to perform a Google search query and retrieve URLs.
   - APIを叩いても100件取得しきれていない。
@@ -277,6 +277,16 @@ We thank all annotators and contributors to this project.
     - Generate TagID
 5. Perform a final manual review and correction.
 6. save to google_to_star_no_kikimatigai_100_4-1
+
+#### `"Mishearing of と and の 聞き間違え"` (N=32)
+
+4. Use an LLM to refine the CSV: `google_to_star_no_kikimatigae`.
+- commit_id: `259b981`
+
+#### `"Mishearing of と and を 聞き間違*"` (N=7)
+
+4. Use an LLM to refine the CSV: `google_to_star_wo_kikimatiga_star`.
+`と*を聞き間違*`
 
 ### Indivisuals
 
