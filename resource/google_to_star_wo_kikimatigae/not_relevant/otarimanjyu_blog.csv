@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+otarimanjyu_blog_002_001,幇間,NA,注意が必要,(Tgt=NA: 誤聴語が本文に記載されていない),True,otarimanjyu_blog_002,http://otarimanjyu.com/blog/index.php?c=43-61&page=2&PHPSESSID=00da102321e63995104888a366d49cae,日本語,"['落語', '漫談', '聞き間違い', '日本語', '芸能', '歴史']","['舞台', '演芸場', '観客席', 'マイク', '雑音']"

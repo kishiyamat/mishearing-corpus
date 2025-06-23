@@ -311,3 +311,31 @@ APP_NAI_KAIWA,ja,アプリ内会話
 APP_NAI_KAIWA,en,in-app conversation
 ANNOUNCEMENT,ja,アナウンス
 ANNOUNCEMENT,en,announcement
+INSIDE_STORE,ja,店内
+INSIDE_STORE,en,inside store
+TV_PROGRAM_RECORDING_SITE,ja,テレビ番組収録現場
+TV_PROGRAM_RECORDING_SITE,en,TV program recording site
+ELDERLY_CLERK,ja,高齢者店員
+ELDERLY_CLERK,en,elderly clerk
+FACE_TO_FACE_CONVERSATION,ja,対面会話
+FACE_TO_FACE_CONVERSATION,en,face-to-face conversation
+HISTORICAL_CONTEXT,ja,歴史的背景
+HISTORICAL_CONTEXT,en,historical context
+CONVENIENCE_STORE,ja,コンビニエンスストア
+CONVENIENCE_STORE,en,convenience store
+ENGLISH_CONVERSATION_CLASSROOM,ja,英会話教室
+ENGLISH_CONVERSATION_CLASSROOM,en,English conversation classroom
+STUDIO,ja,スタジオ
+STUDIO,en,studio
+YOSE_VENUE,ja,寄席会場
+YOSE_VENUE,en,yose venue
+VARIETY_SHOW,ja,バラエティ番組
+VARIETY_SHOW,en,variety show
+AGE_VERIFICATION_DISPLAY,ja,年齢確認表示
+AGE_VERIFICATION_DISPLAY,en,age verification display
+DRAMA_SHOOTING_SITE,ja,ドラマ撮影現場
+DRAMA_SHOOTING_SITE,en,drama shooting site
+LANGUAGE_LEARNING_ENVIRONMENT,ja,言語学習環境
+LANGUAGE_LEARNING_ENVIRONMENT,en,language learning environment
+TEREBI_SHICHO,ja,テレビ視聴
+TEREBI_SHICHO,en,TV viewing

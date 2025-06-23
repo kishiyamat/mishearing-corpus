@@ -52,6 +52,7 @@ def google_search(
 
 """
 手続き
+0. 保存するディレクトリの名前を検索のクエリから決める
 1. ApifyのGoogle Search Scraperを実行して、検索結果を取得
 2. 取得した検索結果のURLを使って、mishearing-scrapeを実行
 3. 保存された結果のCSVを手動で確認、分類

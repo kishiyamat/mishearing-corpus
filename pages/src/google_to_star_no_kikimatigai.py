@@ -80,15 +80,3 @@ def scrape(target_url, save_path):
     except ValueError as e:
         st.error(f"Error parsing response: {e}")
 
-
-def extract_dir(path_str: str) -> str:
-    """
-    data/mishearing/<DIR_NAME>/file.csv から <DIR_NAME> を取り出す。
-    想定外の形式なら空文字を返す。
-    """
-    try:
-        parts = pathlib.Path(path_str).parts
-        # parts = ('data', 'mishearing', '<DIR_NAME>', 'YYYY-MM-DD_xxx.csv')
-        return parts[2] if len(parts) >= 3 else ""
-    except Exception:
-        return ""

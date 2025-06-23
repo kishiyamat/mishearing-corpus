@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+atr_j28_001,NA,NA,NA,(Src=NA: no explicit mishearing example in document)(Tgt=NA: no explicit mishearing example in document),True,atr_j28,https://www.atr.jp/journal/ATR-J28.pdf,日本語,"['音声認識', '機械翻訳', '認識誤り', '聞き間違い', '技術課題']","['研究室', '音声認識システム', '機械翻訳システム']"

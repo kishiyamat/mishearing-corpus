@@ -1,10 +1,19 @@
 # app.py
 from __future__ import annotations
 import os, glob, pandas as pd, streamlit as st
+import pathlib
 
-from pages.src.google_to_star_no_kikimatigai import run_apify_actor
-from pages.src.google_to_star_no_kikimatigai import scrape
-from pages.src.google_to_star_no_kikimatigai import extract_dir
+def extract_dir(path_str: str) -> str:
+    """
+    data/mishearing/<DIR_NAME>/file.csv から <DIR_NAME> を取り出す。
+    想定外の形式なら空文字を返す。
+    """
+    try:
+        parts = pathlib.Path(path_str).parts
+        # parts = ('data', 'mishearing', '<DIR_NAME>', 'YYYY-MM-DD_xxx.csv')
+        return parts[2] if len(parts) >= 3 else ""
+    except Exception:
+        return ""
 
 # ───────────────────────── I/O helpers ───────────────────────── #
 @st.cache_data(show_spinner=False)
@@ -118,10 +127,18 @@ class MishearingApp:
         st.header(f"Results – {len(final_ids)} rows")
         st.dataframe(self.corpus[self.corpus["MishearID"].isin(final_ids)])
 
+    def check(self):
+        # MishearIDが2つ以上の行を抽出
+        dup_ids = self.corpus["MishearID"].value_counts()
+        dup_ids = dup_ids[dup_ids > 1].index.tolist()
+        if dup_ids:
+            st.warning(f"Duplicate MishearIDs found: {', '.join(dup_ids)}") 
+
 # ──────────────────────────── Bootstrap ────────────────────────── #
 
 def main():
     st.title("Mishearing Corpus Viewer")
+    MishearingApp().check()
     MishearingApp().run()
 
 st.set_page_config(page_title="Mishearing Corpus")

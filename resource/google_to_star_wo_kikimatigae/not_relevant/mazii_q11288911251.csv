@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+mazii_nishimura_001,西村一義（にしむら かずよし）,中村一義（なかむら かずよし）,人名の読み・表記に注意,Maziiで「西村一義」を検索したが、実際は「中村一義」の情報が表示された。人名の聞き間違い・表記間違いの典型例。,True,mazii_nishimura,https://mazii.net/vi-VN/search/japanese/jaja/%E8%A5%BF%E6%9D%91%E4%B8%80%E7%BE%A9,日本語,"['辞書', '日本語', '人名', '聞き間違い', 'ミュージシャン', '非母語話者']","['ウェブ辞書', '検索フォーム', '日本語学習環境', '非母語話者による検索']"
