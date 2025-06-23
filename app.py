@@ -80,26 +80,24 @@ class MishearingApp:
         self.env_counts = self.env_link["EnvID"].value_counts()
 
     # ------------- UI ------------ #
-    def sidebar_form(self):
-        with st.sidebar:
-            st.title("🔍 Filter")
-            lang = st.radio("Language", ("en", "ja"), horizontal=True, index=1)
-            with st.form(key="filter_form"):
-                tag_lbls = id_to_label(self.tag_counts.index, self.tag_trans, lang)
-                env_lbls = id_to_label(self.env_counts.index, self.env_trans, lang)
+    def form(self):
+        lang = st.radio("Language", ("en", "ja"), horizontal=True, index=1)
+        with st.form(key="filter_form"):
+            tag_lbls = id_to_label(self.tag_counts.index, self.tag_trans, lang)
+            env_lbls = id_to_label(self.env_counts.index, self.env_trans, lang)
 
-                picked_tags = st.multiselect("Tags", tag_lbls)
-                tag_logic   = st.radio("Tag rule", ["すべて含む (AND)", "いずれか含む (OR)"])
+            picked_tags = st.multiselect("Tags", tag_lbls)
+            tag_logic   = st.radio("Tag rule", ["すべて含む (AND)", "いずれか含む (OR)"])
 
-                picked_envs = st.multiselect("Environments", env_lbls)
-                env_logic   = st.radio("Env rule", ["すべて含む (AND)", "いずれか含む (OR)"])
+            picked_envs = st.multiselect("Environments", env_lbls)
+            env_logic   = st.radio("Env rule", ["すべて含む (AND)", "いずれか含む (OR)"])
 
-                submitted = st.form_submit_button("Apply filters")
+            submitted = st.form_submit_button("Apply filters")
 
-            return submitted, lang, picked_tags, tag_logic, picked_envs, env_logic
+        return submitted, lang, picked_tags, tag_logic, picked_envs, env_logic
 
     def run(self):
-        submitted, lang, p_tag_lbl, tag_logic, p_env_lbl, env_logic = self.sidebar_form()
+        submitted, lang, p_tag_lbl, tag_logic, p_env_lbl, env_logic = self.form()
         if not submitted:
             st.info("左のサイドバーでフィルタを選んで **Apply filters** を押してください。")
             return
@@ -122,7 +120,7 @@ def main():
     st.title("Mishearing Corpus Viewer")
     MishearingApp().run()
 
-st.set_page_config(page_title="Mishearing Corpus", layout="wide")
+st.set_page_config(page_title="Mishearing Corpus")
 
 main_tab, stats_tab, google_tab, scraping_tab, loop_tab, fix_csv_tab = st.tabs(["main", "stats", "google", "scraping", "loop", "fix_csv"])
 
