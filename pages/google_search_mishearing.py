@@ -69,8 +69,8 @@ def google_search(
 - ValidationはできるだけCSVを作成するタイミングで行った
 """
 
-queries = '"と*の聞き間違え"'
-save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_to_star_no_kikimatigae"
+queries = '"を*に聞き間違"'
+save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_wo_star_ni_kikimatiga"
 st.warning("queriesとsave_pathは適宜変更してください。")
 results_per_page = st.number_input("results_per_page", 5)
 max_pages_per_query = st.number_input("max_pages_per_query", 1)
