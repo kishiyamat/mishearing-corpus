@@ -280,13 +280,21 @@ We thank all annotators and contributors to this project.
 
 #### `"Mishearing of と and の 聞き間違え"` (N=32)
 
-4. Use an LLM to refine the CSV: `google_to_star_no_kikimatigae`.
-- commit_id: `259b981`
+`google_to_star_no_kikimatigae` (commit_id: `259b981`)
+1. 検索するクエリを決める
+1. クエリに基づいて、保存するディレクトリの名前を決める
+1. ApifyのGoogle Search Scraperを実行して、検索結果を取得
+1. 取得した検索結果のURLを使って、mishearing-scrapeを実行
+1. 保存された結果のCSVを手動で確認、分類
+    1. not_relevant
+    2. relevant
+1. 修正したCSVをAPIに送ってフォーマット修正する
 
 #### `"Mishearing of と and を 聞き間違*"` (N=7)
 
-4. Use an LLM to refine the CSV: `google_to_star_wo_kikimatiga_star`.
-`と*を聞き間違*`
+`google_to_star_wo_kikimatiga` (commit_id: [31f1f79](https://github.com/kishiyamat/mishearing-corpus/pull/15/commits/31f1f7905cf7c06f85ade35af5f632820d5f0bde))
+
+上に同じ
 
 ### Indivisuals
 

@@ -51,29 +51,29 @@ def google_search(
         st.error(f"Error parsing response: {e}")
 
 """
-全ての検索を実施したらこのファイルはtaskに移動する。
-
 手続き
-0. 保存するディレクトリの名前を検索のクエリから決める
+
+1. 検索するクエリを決める
+1. クエリに基づいて、保存するディレクトリの名前を決める
 1. ApifyのGoogle Search Scraperを実行して、検索結果を取得
-2. 取得した検索結果のURLを使って、mishearing-scrapeを実行
-3. 保存された結果のCSVを手動で確認、分類
+1. 取得した検索結果のURLを使って、mishearing-scrapeを実行
+1. 保存された結果のCSVを手動で確認、分類
     1. not_relevant
     2. relevant
-4. 修正したCSVをAPIに送ってフォーマット修正する
+1. 修正したCSVをAPIに送ってフォーマット修正する
 
 改善点
-- descriptionを取得してXなどの際でも推定できるようにする
-- 取得の過程をrequestsベースで行う
-- プロセスを一つのファイルにまとめる
-- ValidationはできるだけCSVを作成するタイミングで行う
-
+- descriptionを取得してXなどの際でも推定できるようにした
+- 取得の過程をrequestsベースで行わせた
+- プロセスを一つのファイルにまとめた
+- ValidationはできるだけCSVを作成するタイミングで行った
 """
 
-queries = st.text_input("聞き間違え", '"と*の聞き間違え"')
+queries = '"と*の聞き間違え"'
+save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_to_star_no_kikimatigae"
+st.wwarning("queriesとsave_pathは適宜変更してください。")
 results_per_page = st.number_input("results_per_page", 5)
 max_pages_per_query = st.number_input("max_pages_per_query", 1)
-save_path = st.text_input("Base path for Loop: ", "/home/kishiyamat/mishearing-corpus/data/mishearing/google_to_star_no_kikimatigae")
 
 # syncで待たないと全てが帰ってこないかも？
 url = "https://api.apify.com/v2/acts/apify~google-search-scraper/run-sync-get-dataset-items"
