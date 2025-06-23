@@ -1,0 +1,8 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+togetter_1209435_001,理学部,医学部,何度も訂正必要,親戚や他人に「理学部」を「医学部」と聞き間違えられる。,True,togetter_1209435,https://togetter.com/li/1209435,,親戚や他人,ja
+togetter_1209435_002,工学部,法学部,何度も訂正必要,「工学部」を「法学部」と聞き間違えられる。,True,togetter_1209435,https://togetter.com/li/1209435,,,ja
+togetter_1209435_003,法学部,工学部,何度も訂正必要,「法学部」を「工学部」と聞き間違えられる。,True,togetter_1209435,https://togetter.com/li/1209435,,,ja
+togetter_1209435_004,技術部,美術部,何度も訂正必要,「技術部」を「美術部」と聞き間違えられる。,True,togetter_1209435,https://togetter.com/li/1209435,,,ja
+togetter_1209435_005,理容師,漁師,職業名注意,病院で「理容師」を「漁師」と聞き間違えられる。,True,togetter_1209435,https://togetter.com/li/1209435,,,ja
+togetter_1209435_006,史学科,歯学科,学科名注意,「史学科」を「歯学科」と聞き間違えられる。,True,togetter_1209435,https://togetter.com/li/1209435,,,ja
+togetter_1209435_007,石屋,医者,職業名注意,「石屋」を「医者」と聞き間違えられる。,True,togetter_1209435,https://togetter.com/li/1209435,,,ja

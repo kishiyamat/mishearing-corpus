@@ -267,6 +267,8 @@ We thank all annotators and contributors to this project.
 #### `"Mishearing of と and の"` (N=110)
 
 1. Use APIFY's API to perform a Google search query and retrieve URLs.
+  - APIを叩いても100件取得しきれていない。
+  - その後、スクリプトを修正してみたが、　62件程度なのでむしろ良い方だった。
 2. For each URL, use an LLM to output the data into a CSV: `url2json2csv`.
 3. Manually review and correct the data.
 4. Use an LLM to refine the CSV: `fix_csv_google_to_star_no_kikimatigai`.
@@ -274,6 +276,7 @@ We thank all annotators and contributors to this project.
     - Generate EnvID
     - Generate TagID
 5. Perform a final manual review and correction.
+6. save to google_to_star_no_kikimatigai_100_4-1
 
 ### Indivisuals
 

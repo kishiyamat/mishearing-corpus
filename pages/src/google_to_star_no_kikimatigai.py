@@ -2,11 +2,12 @@ from joblib import Memory
 from pathlib import Path
 import streamlit as st
 from apify_client import ApifyClient
+import json
+import requests
+
+
 # キャッシュを置く場所をプロジェクト直下 .cache/ に設定
 memory = Memory(location=Path(".cache"), verbose=0)
-import json
-
-import requests
 
 @memory.cache                        # ← st.cache_resource を置き換え
 def run_apify_actor(

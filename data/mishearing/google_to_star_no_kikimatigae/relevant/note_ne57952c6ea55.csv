@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+note_hiha_ne57952c6ea55_001,sixteen（16）,sixty（60）,数字の発音に注意,VRAM要件の説明で「16」と「60」の聞き間違いがないか何度も確認した。自動文字起こしの誤りも多い。,True,note_hiha_ne57952c6ea55,https://note.com/hiha/n/ne57952c6ea55,NA,NA,英語,"['技術', 'AI', '画像生成', 'VRAM', '聞き間違い', '英語', '自動文字起こし', '非母語話者']","['YouTube動画', '英語音声', '自動文字起こし', '技術ブログ', 'PC（Windows）', 'オンライン']"

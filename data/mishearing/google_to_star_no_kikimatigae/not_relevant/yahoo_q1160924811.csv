@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+chiebukuro_q1160924811_001,bum,bomb,英語発音に注意,「bum」を「bomb」と聞き間違え、交通渋滞の原因となったエピソード。,True,chiebukuro_q1160924811,https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1160924811,英語,"['英語', '聞き間違い', 'コミュニケーション', '非母語話者']","['英語圏', '交通機関', '公共の場', 'アナウンス']"
+chiebukuro_q1160924811_002,おかけください,おかきください,丁寧語の発音に注意,「おかけください」を「おかきください」と言い間違えた。,True,chiebukuro_q1160924811,https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1160924811,日本語,"['日本語', '言い間違い', 'コミュニケーション']","['日本語圏', '受付', '案内', '日常会話']"

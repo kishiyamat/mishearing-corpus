@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nikkizakki_1060606390_001,iD,edy,「ア」と「エ」を強調してゆっくり発音する、画面表示を確認してからタッチ,「iD」と言ったのに「edy」と聞き間違えられ、edyで決済されてしまう事例。,True,nikkizakki_1060606390,https://nikkizakki.blog.jp/archives/1060606390.html,日本語,"['電子マネー', '決済', '聞き間違い', 'コミュニケーション', '店舗', '日本語']","['店舗', 'レジカウンター', '雑音']"
+nikkizakki_1060606390_002,dポイント,Tカード,「ドコモポイント」「ツタヤポイント」などサービス名を明示する,「dポイント」と言ったのに「Tカード」と聞き間違えられた（コメント欄の参考事例）。,True,nikkizakki_1060606390,https://nikkizakki.blog.jp/archives/1060606390.html,日本語,"['ポイントカード', '聞き間違い', 'コミュニケーション', '店舗', '日本語']","['店舗', 'レジカウンター', '雑音']"
