@@ -149,8 +149,6 @@ EIGO_GAKUSHU,ja,英語学習
 EIGO_GAKUSHU,en,English learning
 RADIO,ja,ラジオ
 RADIO,en,radio
-KIKIMACHI-GAI,ja,聞き間違い
-KIKIMACHI-GAI,en,mishearing
 TRANSPORTATION,ja,交通
 TRANSPORTATION,en,transportation
 MOVIE,ja,映画
@@ -257,8 +255,8 @@ CONVERSATION,ja,会話
 CONVERSATION,en,conversation
 WORKPLACE,ja,職場
 WORKPLACE,en,workplace
-KIKIMATSUGAI,ja,聞き間違い
-KIKIMATSUGAI,en,mishearing
+KIKIMATSUGAI,ja,ききまつがい
+KIKIMATSUGAI,en,kikimatsugai
 OUTDOOR_ANNOUNCE,ja,屋外放送
 OUTDOOR_ANNOUNCE,en,outdoor announce
 YAKUZAI,ja,薬剤
