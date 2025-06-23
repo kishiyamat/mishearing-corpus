@@ -261,3 +261,139 @@ KIKIMATSUGAI,ja,聞き間違い
 KIKIMATSUGAI,en,mishearing
 OUTDOOR_ANNOUNCE,ja,屋外放送
 OUTDOOR_ANNOUNCE,en,outdoor announce
+YAKUZAI,ja,薬剤
+YAKUZAI,en,pharmaceutical
+EVENT,ja,イベント
+EVENT,en,event
+MEDICAL_WELFARE,ja,医療福祉
+MEDICAL_WELFARE,en,medical welfare
+FAILURE_STORY,ja,失敗談
+FAILURE_STORY,en,failure story
+MANNER,ja,マナー
+MANNER,en,manner
+TWITTER,ja,ツイッター
+TWITTER,en,Twitter
+DISNEY,ja,ディズニー
+DISNEY,en,Disney
+NET_CULTURE,ja,ネット文化
+NET_CULTURE,en,net culture
+FOOD_SERVICE,ja,飲食サービス
+FOOD_SERVICE,en,food service
+CONTEST,ja,コンテスト
+CONTEST,en,contest
+UDON_SOUP,ja,うどんスープ
+UDON_SOUP,en,udon soup
+ARUARU,ja,あるある
+ARUARU,en,common experience
+BARRIER_FREE,ja,バリアフリー
+BARRIER_FREE,en,barrier-free
+SHOKUGYOUMEI,ja,職業名
+SHOKUGYOUMEI,en,occupation name
+KIKIMACHI,ja,聞き待ち
+KIKIMACHI,en,listening wait
+UDON,ja,うどん
+UDON,en,udon
+CELEBRITY,ja,有名人
+CELEBRITY,en,celebrity
+TYPOGRAPHY,ja,タイポグラフィ
+TYPOGRAPHY,en,typography
+GAME,ja,ゲーム
+GAME,en,game
+CHILDREN,ja,子供
+CHILDREN,en,children
+SCHOOL_LIFE,ja,学校生活
+SCHOOL_LIFE,en,school life
+TV_BANGUMI,ja,テレビ番組
+TV_BANGUMI,en,TV program
+HIGH_FREQUENCY,ja,高周波
+HIGH_FREQUENCY,en,high frequency
+TEAM_ACTIVITY,ja,チーム活動
+TEAM_ACTIVITY,en,team activity
+VRAM,ja,ビデオメモリ
+VRAM,en,VRAM
+GAME_STREAMING,ja,ゲーム配信
+GAME_STREAMING,en,game streaming
+MINEO,ja,マイネオ
+MINEO,en,Mineo
+NIHON_GO,ja,日本語
+NIHON_GO,en,Japanese language
+UNIFORM,ja,制服
+UNIFORM,en,uniform
+CHARACTER,ja,キャラクター
+CHARACTER,en,character
+SPORTS,ja,スポーツ
+SPORTS,en,sports
+OFFICE,ja,オフィス
+OFFICE,en,office
+NANCHOU,ja,難聴
+NANCHOU,en,hearing loss
+PRODUCT_NAME,ja,商品名
+PRODUCT_NAME,en,product name
+POSITION_NAME,ja,役職名
+POSITION_NAME,en,position name
+RAMEN,ja,ラーメン
+RAMEN,en,ramen
+CONVERSATION_APP,ja,会話アプリ
+CONVERSATION_APP,en,conversation app
+PAYMENT,ja,支払い
+PAYMENT,en,payment
+CHILD,ja,子ども
+CHILD,en,child
+BUSINESS_TERM,ja,ビジネス用語
+BUSINESS_TERM,en,business term
+CM,ja,コマーシャル
+CM,en,commercial
+WIND_ORCHESTRA_CLUB,ja,吹奏楽部
+WIND_ORCHESTRA_CLUB,en,wind orchestra club
+GAKUBUMEI,ja,学部名
+GAKUBUMEI,en,faculty name
+SOCCER,ja,サッカー
+SOCCER,en,soccer
+ELDERLY,ja,高齢者
+ELDERLY,en,elderly
+KATAKANA_WORD,ja,カタカナ語
+KATAKANA_WORD,en,katakana word
+TWITCH,ja,ツイッチ
+TWITCH,en,Twitch
+KOKUGO_JITEN,ja,国語辞典
+KOKUGO_JITEN,en,Japanese dictionary
+JUNIOR_HIGH_SCHOOL,ja,中学校
+JUNIOR_HIGH_SCHOOL,en,junior high school
+HIGASHIMARU,ja,ヒガシマル
+HIGASHIMARU,en,Higashimaru
+AUTOMATIC_TRANSCRIPTION,ja,自動文字起こし
+AUTOMATIC_TRANSCRIPTION,en,automatic transcription
+ENTERTAINMENT,ja,エンターテインメント
+ENTERTAINMENT,en,entertainment
+IMAGE_GENERATION,ja,画像生成
+IMAGE_GENERATION,en,image generation
+DESIGN,ja,デザイン
+DESIGN,en,design
+BUKATSUDOU,ja,部活動
+BUKATSUDOU,en,club activity
+SNS,ja,SNS
+SNS,en,social networking service
+JAPANESE_LANGUAGE,ja,日本語
+JAPANESE_LANGUAGE,en,Japanese language
+KENKO_JOHO,ja,健康情報
+KENKO_JOHO,en,health information
+IRYO,ja,医療
+IRYO,en,medical
+FOOD_WASTE,ja,食品ロス
+FOOD_WASTE,en,food waste
+GAKKAMEI,ja,学科名
+GAKKAMEI,en,department name
+ENGLISH_CONVERSATION,ja,英会話
+ENGLISH_CONVERSATION,en,English conversation
+AI,ja,人工知能
+AI,en,artificial intelligence
+TECHNOLOGY,ja,技術
+TECHNOLOGY,en,technology
+MUSIC,ja,音楽
+MUSIC,en,music
+SOUND_SPECTROGRAM,ja,音声スペクトログラム
+SOUND_SPECTROGRAM,en,sound spectrogram
+PHONEME,ja,音素
+PHONEME,en,phoneme
+POINT_CARD,ja,ポイントカード
+POINT_CARD,en,point card

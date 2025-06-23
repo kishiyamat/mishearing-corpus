@@ -211,3 +211,103 @@ TETSUDOU,ja,鉄道
 TETSUDOU,en,railway
 STATION,ja,駅
 STATION,en,station
+PREMIERE_SCREENING,ja,プレミア上映
+PREMIERE_SCREENING,en,premiere screening
+JAPANESE_SPEAKER,ja,日本語話者
+JAPANESE_SPEAKER,en,Japanese speaker
+JIDOU_MOJI_OKOSHI,ja,自動文字起こし
+JIDOU_MOJI_OKOSHI,en,automatic transcription
+MIC_PA_SYSTEM,ja,マイクPAシステム
+MIC_PA_SYSTEM,en,mic PA system
+HARD_OF_HEARING_PERSON,ja,難聴者
+HARD_OF_HEARING_PERSON,en,hard of hearing person
+NON_NATIVE_SPEAKER,ja,非ネイティブ話者
+NON_NATIVE_SPEAKER,en,non-native speaker
+KATEI,ja,家庭
+KATEI,en,home
+HOSPITAL,ja,病院
+HOSPITAL,en,hospital
+HEARING_AID_SHOP,ja,補聴器店
+HEARING_AID_SHOP,en,hearing aid shop
+TV_PROGRAM,ja,テレビ番組
+TV_PROGRAM,en,TV program
+SOCCER_GROUND,ja,サッカー場
+SOCCER_GROUND,en,soccer ground
+TELEVISION_CM,ja,テレビCM
+TELEVISION_CM,en,television commercial
+PC_WINDOWS,ja,PCウィンドウズ
+PC_WINDOWS,en,PC Windows
+NOISE_UNKNOWN,ja,不明なノイズ
+NOISE_UNKNOWN,en,unknown noise
+BUSINESS_GENBA,ja,ビジネス現場
+BUSINESS_GENBA,en,business site
+ENGLISH_ONSEI,ja,英語音声
+ENGLISH_ONSEI,en,English audio
+YOUTUBE_DOUGA,ja,YouTube動画
+YOUTUBE_DOUGA,en,YouTube video
+MEDICAL_SITE,ja,医療現場
+MEDICAL_SITE,en,medical site
+SCHOOL,ja,学校
+SCHOOL,en,school
+KATEI_NAIZU,ja,家庭内ノイズ
+KATEI_NAIZU,en,home noise
+RECORDING_ENVIRONMENT_UNKNOWN,ja,不明な録音環境
+RECORDING_ENVIRONMENT_UNKNOWN,en,unknown recording environment
+HEARING_TEST_ROOM,ja,聴力検査室
+HEARING_TEST_ROOM,en,hearing test room
+UNKNOWN,ja,不明
+UNKNOWN,en,unknown
+MULTIPLE_PEOPLE,ja,複数人
+MULTIPLE_PEOPLE,en,multiple people
+GAME_SOUND,ja,ゲーム音
+GAME_SOUND,en,game sound
+CASH_REGISTER_COUNTER,ja,レジカウンター
+CASH_REGISTER_COUNTER,en,cash register counter
+ONLINE_GAME,ja,オンラインゲーム
+ONLINE_GAME,en,online game
+KAIGI,ja,会議
+KAIGI,en,meeting
+GIJUTSU_BLOG,ja,技術ブログ
+GIJUTSU_BLOG,en,technical blog
+AI,ja,AI
+AI,en,AI
+IN_STORE_NOISE,ja,店内ノイズ
+IN_STORE_NOISE,en,in-store noise
+ELDERLY_PERSON,ja,高齢者
+ELDERLY_PERSON,en,elderly person
+HALL,ja,ホール
+HALL,en,hall
+COUNTER_ORDER,ja,カウンター注文
+COUNTER_ORDER,en,counter order
+VOICE_CHAT,ja,ボイスチャット
+VOICE_CHAT,en,voice chat
+CHILD_S_SINGING,ja,子供の歌
+CHILD_S_SINGING,en,child's singing
+RELATIVE_CONVERSATION,ja,親戚の会話
+RELATIVE_CONVERSATION,en,relative conversation
+PART_TIME_JOB_INTERVIEW,ja,アルバイト面接
+PART_TIME_JOB_INTERVIEW,en,part-time job interview
+CONTEST_VENUE,ja,コンテスト会場
+CONTEST_VENUE,en,contest venue
+TELEVISION_AUDIO,ja,テレビ音声
+TELEVISION_AUDIO,en,television audio
+MIC_UNKNOWN,ja,不明なマイク
+MIC_UNKNOWN,en,unknown mic
+SNS,ja,SNS
+SNS,en,SNS
+STREAMING_MIC,ja,ストリーミングマイク
+STREAMING_MIC,en,streaming mic
+ONLINE,ja,オンライン
+ONLINE,en,online
+DICTIONARY_USAGE_ENVIRONMENT,ja,辞書使用環境
+DICTIONARY_USAGE_ENVIRONMENT,en,dictionary usage environment
+TWITCH,ja,Twitch
+TWITCH,en,Twitch
+MOVIE_THEATER,ja,映画館
+MOVIE_THEATER,en,movie theater
+ELDERLY,ja,高齢者
+ELDERLY,en,elderly
+APP_NAI_KAIWA,ja,アプリ内会話
+APP_NAI_KAIWA,en,in-app conversation
+ANNOUNCEMENT,ja,アナウンス
+ANNOUNCEMENT,en,announcement
