@@ -259,6 +259,10 @@ We thank all annotators and contributors to this project.
 
 ### Google
 
+基本的にpagesの下で回収する実験を行う。
+できるだけLangflowで構成を作って、サーバーをローカルで立てて動かす。
+`make run` でなく `make exp` などにして、走らせるファイルを変えたほうが良いかもしれない。
+
 - **Source**: Various
 - **URL**: Depends on the fetched URL
 - **Archive**: N/A

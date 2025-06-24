@@ -1,6 +1,6 @@
 import streamlit as st
-from pages.src.google_to_star_no_kikimatigai import run_apify_actor
-from pages.src.google_to_star_no_kikimatigai import scrape
+from pages.experiments.src.google_to_star_no_kikimatigai import run_apify_actor
+from pages.experiments.src.google_to_star_no_kikimatigai import scrape
 
 st.write("""This tab is for Apify integration.
 まず、GoogleのAPIを使って検索を行い、結果を取得します。

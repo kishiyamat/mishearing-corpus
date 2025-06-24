@@ -1,5 +1,5 @@
 import streamlit as st
-from pages.src.google_to_star_no_kikimatigai import run_apify_actor
+from pages.experiments.src.google_to_star_no_kikimatigai import run_apify_actor
 
 st.write("""
 ## Google Search Integration

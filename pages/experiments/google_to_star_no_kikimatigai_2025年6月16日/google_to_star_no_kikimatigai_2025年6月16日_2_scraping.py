@@ -1,5 +1,5 @@
 import streamlit as st
-from pages.src.google_to_star_no_kikimatigai import scrape
+from pages.experiments.src.google_to_star_no_kikimatigai import scrape
 
 # Scrapeの対象のURL
 st.write("""
