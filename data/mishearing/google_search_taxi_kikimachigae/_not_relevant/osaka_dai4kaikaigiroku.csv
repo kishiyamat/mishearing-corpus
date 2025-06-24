@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,NA,NA,https://www.city.osaka.lg.jp/toshikotsu/cmsfiles/contents/0000560/560816/20220224_dai4kaikaigiroku.pdf,TECH_FAIL: unable to retrieve content due to encoding error ('utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte)

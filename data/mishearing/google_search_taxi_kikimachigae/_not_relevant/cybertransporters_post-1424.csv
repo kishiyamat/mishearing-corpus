@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+cybertransporters_1424_001,NA,NA,はっきり伝えること,(Src=NA: placeholder '住所や名前')(Tgt=NA: placeholder '別の住所や名前') 電話での配車リクエスト時、オペレーターが利用者の住所や名前を聞き間違え、配車ミスやトラブルが発生することがある。,True,cybertransporters_1424,https://cybertransporters.com/news/post-1424,日本語,"['タクシー', '配車', '電話対応', '聞き間違い', '高齢者', 'DX', 'クラウドシステム', 'オペレーター', 'トラブル防止']","['電話', '配車センター', 'オフィス', '高齢者の自宅', '通信環境']"

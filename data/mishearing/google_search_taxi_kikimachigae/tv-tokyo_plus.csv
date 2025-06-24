@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tvtokyo_plus_14953_001,NA,NA,忙しい時は注意,タクシー配車業務の忙しさから、配車担当者が顧客の住所を聞き間違えるミスが発生。具体的な住所名は記載なし。(Src=NA: 具体的な住所名が記載されていない)(Tgt=NA: 具体的な住所名が記載されていない),True,tvtokyo_plus_14953,https://www.tv-tokyo.co.jp/plus/business/entry/202404/14953.html,日本語,"['ビジネス', '働き方改革', 'バス', 'タクシー', '配車', '聞き間違い', 'コールセンター', 'IT化', '地方交通', '高齢化', '労働問題']","['タクシー会社配車室', '電話', '無線', '忙しい業務環境', '地方都市', 'コールセンター']"

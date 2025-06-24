@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+togetter_193527_001,藤沢周平,富士山周辺,作家名や固有名詞は文脈で推測しにくいので注意。,X（旧Twitter）ユーザーが作家名「藤沢周平」を「富士山周辺」と聞き間違えたエピソード。,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '日本語', '作家名', 'SNS']","['SNS', '日常会話']"

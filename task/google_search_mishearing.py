@@ -1,4 +1,11 @@
 # 1. cacheは使う
+import pandas as pd
+import streamlit as st
+import requests
+from io import StringIO
+import json
+from pathlib import Path
+
 import json
 import requests
 from joblib import Memory
@@ -50,6 +57,8 @@ def google_search(
     except ValueError as e:
         st.error(f"Error parsing response: {e}")
 
+st.write("## 異聴データ収集 (Google Search Scraper)")
+
 """
 手続き
 
@@ -69,11 +78,19 @@ def google_search(
 - ValidationはできるだけCSVを作成するタイミングで行った
 """
 
-queries = '"を*と聞き間違"'
-save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_wo_star_to_kikimatiga"
+st.write("### クエリと保存ディレクトリの設定")
+
 st.warning("queriesとsave_pathは適宜変更してください。")
-results_per_page = st.number_input("results_per_page", 5)
-max_pages_per_query = st.number_input("max_pages_per_query", 1)
+st.warning("results_per_pageとmax_pages_per_queryも適宜変更してください。")
+queries = 'タクシー "聞き間違え"'
+save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_taxi_kikimachigae"
+results_per_page = 20
+max_pages_per_query = 20
+# 設定をwrite
+st.write(f"queries: `{queries}`")
+st.write(f"save_path: `{save_path}`")
+st.write(f"results_per_page: `{results_per_page}`")
+st.write(f"max_pages_per_query: `{max_pages_per_query}`")
 
 # syncで待たないと全てが帰ってこないかも？
 url = "https://api.apify.com/v2/acts/apify~google-search-scraper/run-sync-get-dataset-items"
@@ -84,6 +101,8 @@ if not queries:
 
 if "response_json_pages" not in st.session_state:
     st.session_state["response_json_pages"] = []
+
+st.write("### Goolgle Search Scraperを実行")
 
 if st.button("Run Apify Actor (Google)") or st.session_state["response_json_pages"] == []:
     st.session_state["response_json_pages"] = google_search(queries=queries, results_per_page=results_per_page, max_pages_per_query=max_pages_per_query)
@@ -124,6 +143,7 @@ def mishearing_scrape(target_url, description, save_path):
     except ValueError as e:
         st.error(f"Error parsing response: {e}")
 
+st.write("### 各検索結果のURLに対してScrapeを実行")
 
 if st.button("Run Scrape and Save"):
     for result in organic_results:
@@ -134,16 +154,67 @@ if st.button("Run Scrape and Save"):
         st.json(json_out)  # Assuming the output is in this format
         st.write(json_out[0]["URL"])  # かならず1件はあるはずなので、最初の要素を表示
 
-st.info("not_relevantとrelevantディレクトリを作成して分類してください。")
+st.write("### RelevantとNot Relevantの分類")
+
+st.info("not_relevantとrelevantディレクトリを作成して分類します。")
+save_path = save_path
+save_dir_relevant =  "relevant"
+save_dir_not_relevant =  "not_relevant"
+save_dir_maybe_relevant =  "maybe_relevant" # maybeも
+# 設定をwrite
+st.write(f"save_path: `{save_path}`")
+st.write(f"save_dir_relevant: `{save_dir_relevant}`")
+st.write(f"save_dir_not_relevant: `{save_dir_not_relevant}`")
+st.write(f"save_dir_maybe_relevant: `{save_dir_maybe_relevant}`")
+
+files_tobe_cat = st.file_uploader(
+    "分類するCSV を選択（複数可）", type="csv", accept_multiple_files=True
+)
+
+# ▼ 2. 「送信」ボタンを押すまで処理を待機
+# 行数が同じことは保証したい。
+if files_tobe_cat and st.button("分類を送信"):
+    st.write("送信中...")
+    for f in files_tobe_cat:
+        st.write(f)
+
+        # 2-A. ファイル内容を文字列として取得
+        csvStringIO = StringIO(f.getvalue().decode("utf-8"))
+        df = pd.read_csv(csvStringIO, sep=",", header=0)
+        original_nrow = len(df)
+        st.write(df)
+
+        def is_vacant(x):
+            return pd.isna(x) or x == "" or x == "nan"
+
+        # f"{save_path}/{save_dir_fixed}/{f.name}")が存在するならcontinue
+        if any(Path(f"{save_path}/{dir}/{f.name}").exists() for dir in [save_dir_relevant, save_dir_not_relevant, save_dir_maybe_relevant]):
+            st.warning(f"{f.name} はすでに存在します。スキップします。")
+            continue
+
+        # 2-C. JSON 文字列を作成
+        payload_input = {
+            "save_path": save_path,
+            "dir_relevant": save_dir_relevant,
+            "dir_not_relevant": save_dir_not_relevant,
+            "dir_maybe_relevant": save_dir_maybe_relevant,
+            "csv_name": f.name,
+            "json_text": df.to_json(orient="records", force_ascii=False),
+        }
+        payload_input_str = json.dumps(payload_input, ensure_ascii=False)
+        st.code(payload_input_str, language="json")
+        payload = {
+            "input_value": payload_input_str,  # The input value to be processed by the flow
+            "output_type": "chat",  # Specifies the expected output format
+            "input_type": "text"  # Specifies the input format
+        }
+        # Request headers
+        headers = {
+            "Content-Type": "application/json"
+        }
 
 
-
-import pandas as pd
-import streamlit as st
-import requests
-from io import StringIO
-import json
-from pathlib import Path
+st.write("### 各検索結果のURLに対してScrapeを実行")
 
 
 API_URL_FIX_CSV = (
@@ -151,13 +222,18 @@ API_URL_FIX_CSV = (
     "688463f5-255f-4368-88f9-e3fb5ed17a50"
 )
 
-
-st.write("修正したCSVファイルをAPIに送ってフォーマット修正する")
+st.write("### 修正したCSVファイルをAPIに送ってフォーマット修正する")
 # ▼ 1. 複数ファイルを受け取る
-save_path = st.text_input("Path where files to be fixed exist", save_path + "/relevant")
-save_dir_fixed = st.text_input("Directory where fixed files to be fixed exist", "fixed")
-save_dir_envs = st.text_input("Directory where envs files to be fixed exist", "envs")
-save_dir_tags = st.text_input("Directory where tags files to be fixed exist", "tags")
+save_path = save_path + "/relevant"
+save_dir_fixed =  "fixed"
+save_dir_envs =  "envs"
+save_dir_tags =  "tags"
+# 設定をwrite
+st.write(f"save_path: `{save_path}`")
+st.write(f"save_dir_fixed: `{save_dir_fixed}`")
+st.write(f"save_dir_envs: `{save_dir_envs}`")
+st.write(f"save_dir_tags: `{save_dir_tags}`")
+
 files = st.file_uploader(
     "CSV を選択（複数可）", type="csv", accept_multiple_files=True
 )

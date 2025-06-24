@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+driversgate_taxi_001,からやま,かなやま,復唱確認必須,名古屋の地名で有名な聞き間違い例。タクシー運転手が目的地を誤認しクレームに。,True,driversgate_taxi,https://drivers-gate.com/taxi-driver-complain/,日本語,"['タクシー', '職業', 'クレーム', '聞き間違い', '地名', 'コミュニケーション', '接客']","['タクシー車内', '道路', '交通ノイズ']"

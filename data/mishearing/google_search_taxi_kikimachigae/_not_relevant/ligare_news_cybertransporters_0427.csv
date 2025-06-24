@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ligare_cybertransporters_0427_001,NA,NA,電話注文時はゆっくり・はっきり伝える,(Src=NA: 記事中に具体的な発話例なし)(Tgt=NA: 記事中に具体的な誤聴例なし),True,ligare_cybertransporters_0427,https://ligare.news/story/cybertransporters-0427/,日本語,"['タクシー', '配車', '電話注文', '高齢者', 'IT化', '聞き間違い', '地域交通', 'DX', 'モビリティ']","['電話', 'タクシー配車センター', '高齢者利用者', '通信環境（固定電話・携帯電話）', 'オペレーター（人間）', 'ノイズ（家庭・施設・外出先）']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+travelogue_11405479_001,Mundo,（地名だと思われた）,スペイン語の単語の意味を事前に調べておくと誤解を防げる。,タクシー運転手がスペイン語の『Mundo』（世界）を地名と聞き間違えた事例。Tgt=NA: 地名の具体名は不明。,True,travelogue_11405479,https://4travel.jp/travelogue/11405479,スペイン語,"['旅行', 'スペイン語', '聞き間違い', 'タクシー', 'コミュニケーション']","['タクシー車内', '海外', '運転中']"

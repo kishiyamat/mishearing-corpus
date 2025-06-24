@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+jtsbdiNo18_04_001,RWY 16,RWY 14,滑走路番号は明確に復唱する,管制官の指示をパイロットが誤って聞き取り、誤った滑走路に進入しそうになった。,True,jtsbdiNo18_04,https://jtsb.mlit.go.jp/bunseki-kankoubutu/jtsbdigests/jtsbdigests_No18/No18_pdf/jtsbdi-No18_04.pdf,日本語,"['航空', '管制', '聞き間違い', '重大インシデント', '安全対策', '非母語話者']","['空港', '航空機コックピット', '管制塔', '無線通信', '雑音', 'ヘッドセットマイク']"

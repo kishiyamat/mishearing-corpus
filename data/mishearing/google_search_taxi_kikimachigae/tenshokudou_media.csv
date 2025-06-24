@@ -1,0 +1,12 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tenshokudou_13401_001,田端,蒲田,しっかり確認してから出発,どちらも東京都内で音が似ており、間違えると大きなロス。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"
+tenshokudou_13401_002,仙川,千川,濁音の有無に注意,濁音の有無だけで異なる地名。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"
+tenshokudou_13401_003,五反田,五反野,発音がほぼ同じ,場所は全く異なる。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"
+tenshokudou_13401_004,板橋,飯田橋,音が似ている,どちらも有名地名で間違えやすい。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"
+tenshokudou_13401_005,渋谷,日比谷,音が似ている,距離は近いが間違えやすい。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"
+tenshokudou_13401_006,青梅,青海,発音・漢字が似ている,東京の地名間違いで最も多い。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"
+tenshokudou_13401_007,立川,立会川,名前が非常に似ている,急いでいる時に混同しやすい。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"
+tenshokudou_13401_008,目白,めじろ台,「台」の有無に注意,「台」を聞きそびれると間違いやすい。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"
+tenshokudou_13401_009,亀戸,亀有,名前が似ている,どちらも東京都内の地名。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"
+tenshokudou_13401_010,北千束,北千住,名前が似ている,ターミナル駅とローカル駅で混同しやすい。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"
+tenshokudou_13401_011,浅草,浅草橋,「橋」の有無に注意,距離は近いが目的地が異なる。,True,tenshokudou_13401,https://www.tenshokudou.com/media/?p=13401,日本語,"['タクシー', '聞き間違い', '地名', '東京']","['タクシー車内', '都市部']"

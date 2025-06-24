@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+agoda_hoteldelagaite_001,タクシー,タックス,英語発音に注意,日本人旅行者がホテルフロントで「タクシー」と「タックス（市税）」を聞き間違えた。外国語環境での典型的な事例。,True,agoda_hoteldelagaite,https://www.agoda.com/hotel-de-la-gaite/reviews/paris-fr.html,日本語,"['旅行', 'ホテル', '英語', '聞き間違い', '非母語話者', 'フロント対応', 'パリ', '日本人']","['ホテルフロント', '海外', '英語']"
+agoda_hoteldelagaite_002,タックス,タクシー,英語発音に注意,上記と同様。どちらを尋ねたかは文脈によるが、両方向の誤解が生じやすい。,True,agoda_hoteldelagaite,https://www.agoda.com/hotel-de-la-gaite/reviews/paris-fr.html,日本語,"['旅行', 'ホテル', '英語', '聞き間違い', '非母語話者', 'フロント対応', 'パリ', '日本人']","['ホテルフロント', '海外', '英語']"

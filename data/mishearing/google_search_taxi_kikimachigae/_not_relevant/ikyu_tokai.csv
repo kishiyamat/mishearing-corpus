@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ikyu_tokai_pr24_001,NA,NA,点数ははっきり伝えましょう,宝探しアクティビティで、インストラクターが子どもの点数を聞き間違えたが、具体的な数字は不明。(Src=NA: 具体的な発話が記載されていない)(Tgt=NA: 聞き間違えた内容が不明),True,ikyu_tokai_pr24_ct24013000_aca4096acr32768_si11,https://www.ikyu.com/tokai/pr24/ct24013000/aca4096acr32768/si11/,日本語,"['アクティビティ', '体験', 'ホテル', '子ども', '聞き間違い', 'コミュニケーション']","['屋外アクティビティ', 'ホテル施設', '子どもとインストラクターの対話', 'ノイズあり']"

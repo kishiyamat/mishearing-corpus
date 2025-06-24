@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+responsejp_345382_001,住所や名前、目的地,別の住所や名前、目的地,明瞭にゆっくり伝える、繰り返し確認することで誤聴を防げる,地方のタクシー配車で電話口の聞き間違いが多発。自動化で解消を目指す。,True,responsejp_345382,https://response.jp/article/2021/04/28/345382.html,日本語,"['タクシー', '配車', 'IT化', '聞き間違い', '地方交通', 'オペレーター', '業務効率化', '高齢化', 'DX']","['電話', '配車センター', '店舗', '病院', '薬局']"

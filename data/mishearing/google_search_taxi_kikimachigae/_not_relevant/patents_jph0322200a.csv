@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+JPH0322200A_001,氏名,NA,固有名詞は特に注意,(Tgt=NA: placeholder '別の氏名'),True,JPH0322200A,https://patents.google.com/patent/JPH0322200A/ja,日本語,"['タクシー', '配車', '電話', '聞き間違い', '顧客情報', '氏名', 'コミュニケーションエラー']","['配車センター', '電話', 'オフィス', 'ノイズ', '受話器']"
+JPH0322200A_002,住所,NA,地名・番地は注意,(Tgt=NA: placeholder '別の住所'),True,JPH0322200A,https://patents.google.com/patent/JPH0322200A/ja,日本語,"['タクシー', '配車', '電話', '聞き間違い', '顧客情報', '住所', 'コミュニケーションエラー']","['配車センター', '電話', 'オフィス', 'ノイズ', '受話器']"
+JPH0322200A_003,道順,NA,道案内は特に注意,(Tgt=NA: placeholder '別の道順'),True,JPH0322200A,https://patents.google.com/patent/JPH0322200A/ja,日本語,"['タクシー', '配車', '電話', '聞き間違い', '顧客情報', '道順', 'コミュニケーションエラー']","['配車センター', '電話', 'オフィス', 'ノイズ', '受話器']"

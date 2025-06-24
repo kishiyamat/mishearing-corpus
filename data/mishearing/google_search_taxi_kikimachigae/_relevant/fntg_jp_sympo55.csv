@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+fntg55_access_j_001,理学部,医学部,目的地ははっきり伝えましょう,タクシー運転手が「理学部」と「医学部」を聞き間違えると、全く別のキャンパスに到着してしまう。,True,fntg55_access_j,https://fntg.jp/jp_new/symposium/sympo55/doc/fntg55_access_j.pdf,日本語,"['大学', 'キャンパス', 'タクシー', '聞き間違い', '案内', '日本語']","['タクシー車内', '交通機関', '都市部', '運転手と乗客の会話', 'ノイズ']"
+fntg55_access_j_002,医学部,理学部,目的地ははっきり伝えましょう,タクシー運転手が「医学部」と「理学部」を聞き間違えると、全く別のキャンパスに到着してしまう。,True,fntg55_access_j,https://fntg.jp/jp_new/symposium/sympo55/doc/fntg55_access_j.pdf,日本語,"['大学', 'キャンパス', 'タクシー', '聞き間違い', '案内', '日本語']","['タクシー車内', '交通機関', '都市部', '運転手と乗客の会話', 'ノイズ']"

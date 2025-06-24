@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kurobou207_202404_001,クマの透析の病院,NA,病院名ははっきり発音,(Tgt=NA: 運転手が別の病院名に聞き間違えたが具体名不明),True,kurobou207_202404,https://twitter.com/kurobou207/status/1926969644516032847,日本語,"['タクシー', '病院', '聞き間違い', 'コミュニケーション', '日常生活']","['タクシー車内', '運転中', '交通騒音', '車載マイク']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+ejalc_taxi_english2_001,"Turn on the light, please.","Turn right, please.",RとLの発音に注意,タクシー車内で「ライトをつけて」と言われたのを「右に曲がって」と聞き間違え右折してしまった実体験。,True,ejalc_taxi_english2,https://ej.alc.co.jp/tag/BUSINESS/20230120-taxi-english-2,NA,NA,日本語,"['英語学習', 'タクシードライバー', 'ビジネス英語', '聞き間違い', '発音', '非母語話者', '接客', '実践英語']","['タクシー車内', '走行中', '英語非母語話者同士', '交通ノイズあり', '実際の接客現場', 'マイク仕様不明']"

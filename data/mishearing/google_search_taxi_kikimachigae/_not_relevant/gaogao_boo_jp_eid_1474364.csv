@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,NA,NA,http://china.gaogao.boo.jp/?eid=1474364,TECH_FAIL: unable to retrieve content due to encoding error ('euc_jp' codec can't decode byte 0xad)

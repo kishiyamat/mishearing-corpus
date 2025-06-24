@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+matangi_inquiry_001,伊庭町（いばちょう）,NA,地名ははっきり伝えましょう,(Tgt=NA: 実際に何と聞き間違えたか具体的な語句が記載されていない),True,matangi_inquiry,https://school.matangi-yoga-life.com/inquiry/,日本語,"['地名', '聞き間違い', 'タクシー', '交通', '日本語', '案内']","['タクシー車内', '交通機関', '会話', 'ノイズ']"

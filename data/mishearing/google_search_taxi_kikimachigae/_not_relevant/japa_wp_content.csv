@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+atc_comm_handbook_001,RWY36 の進入端近くまでタクシーして待機,ルサイン,無線指示は必ず復唱し、内容が不明瞭な場合は確認を取ること。,descriptionより推定。無線通信のノイズや非母語話者の発音で誤聴が発生しやすい。,True,ATC_Communication_Handbook_JP,https://www.japa.or.jp/wp-content/uploads/2019/04/ATC_Communication_Handbook_JP.pdf,日本語,"['航空', '航空管制', '聞き間違い', '無線通信']","['空港', '管制塔', '無線通信', 'ノイズあり']"
