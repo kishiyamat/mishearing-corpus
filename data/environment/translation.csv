@@ -339,3 +339,97 @@ LANGUAGE_LEARNING_ENVIRONMENT,ja,言語学習環境
 LANGUAGE_LEARNING_ENVIRONMENT,en,language learning environment
 TEREBI_SHICHO,ja,テレビ視聴
 TEREBI_SHICHO,en,TV viewing
+SECURITY_STRICT_ENVIRONMENT,ja,厳重なセキュリティ環境
+SECURITY_STRICT_ENVIRONMENT,en,strict security environment
+IN_CLASS,ja,教室内
+IN_CLASS,en,in class
+MULTIPLE_PEOPLE_CONVERSATION,ja,複数人の会話
+MULTIPLE_PEOPLE_CONVERSATION,en,multiple people conversation
+TEXTBOOK,ja,教科書
+TEXTBOOK,en,textbook
+NOISY_PARTY,ja,騒がしいパーティー
+NOISY_PARTY,en,noisy party
+NOISE_JOUHOU_FUMEI,ja,ノイズ情報不明
+NOISE_JOUHOU_FUMEI,en,noise information unknown
+STORE_OR_HOME,ja,店または家
+STORE_OR_HOME,en,store or home
+PARTY,ja,パーティー
+PARTY,en,party
+SINGING,ja,歌う
+SINGING,en,singing
+MEIJI_PERIOD_YOKOHAMA,ja,明治時代横浜
+MEIJI_PERIOD_YOKOHAMA,en,Meiji period Yokohama
+TELEVISION_PROGRAM_RECORDING,ja,テレビ番組の録画
+TELEVISION_PROGRAM_RECORDING,en,television program recording
+KOUREISHA_TO_SHOKUIN_NO_YARI_TORI,ja,高齢者と職員のやり取り
+KOUREISHA_TO_SHOKUIN_NO_YARI_TORI,en,interaction between elderly and staff
+NATIVE_NON_NATIVE_CONVERSATION,ja,ネイティブと非ネイティブの会話
+NATIVE_NON_NATIVE_CONVERSATION,en,native and non-native conversation
+NO_NOISE,ja,ノイズなし
+NO_NOISE,en,no noise
+QUIET_INDOOR,ja,静かな室内
+QUIET_INDOOR,en,quiet indoor
+ALEXA,ja,アレクサ
+ALEXA,en,Alexa
+SAPPORO,ja,札幌
+SAPPORO,en,Sapporo
+SECURITY_GUARD_CALLING,ja,警備員の呼び出し
+SECURITY_GUARD_CALLING,en,security guard calling
+SHITSUNAI,ja,室内
+SHITSUNAI,en,indoor
+INDOOR_PRIVATE_HOME,ja,室内の自宅
+INDOOR_PRIVATE_HOME,en,indoor private home
+ENGLISH_NON_NATIVE_SPEAKER,ja,英語非ネイティブスピーカー
+ENGLISH_NON_NATIVE_SPEAKER,en,English non-native speaker
+RECORDED_AUDIO,ja,録音音声
+RECORDED_AUDIO,en,recorded audio
+REGULAR_EXAM,ja,定期試験
+REGULAR_EXAM,en,regular exam
+SMART_SPEAKER,ja,スマートスピーカー
+SMART_SPEAKER,en,smart speaker
+NICHOJIKAIWA,ja,日常会話
+NICHOJIKAIWA,en,daily conversation
+LISTENING_TEST,ja,リスニングテスト
+LISTENING_TEST,en,listening test
+KAIGO_SHISSETSU,ja,介護施設
+KAIGO_SHISSETSU,en,nursing facility
+CROSS_CULTURAL_EXCHANGE,ja,異文化交流
+CROSS_CULTURAL_EXCHANGE,en,cross-cultural exchange
+RECREATION_EVENT,ja,レクリエーションイベント
+RECREATION_EVENT,en,recreation event
+SCOTTISH_ACCENT_ENGLISH,ja,スコットランド訛りの英語
+SCOTTISH_ACCENT_ENGLISH,en,Scottish accent English
+INSIDE_SCHOOL,ja,学校内
+INSIDE_SCHOOL,en,inside school
+NOISY_AND_TENSE_SITUATION,ja,騒がしく緊張した状況
+NOISY_AND_TENSE_SITUATION,en,noisy and tense situation
+DIALOGUE_AGENT,ja,対話エージェント
+DIALOGUE_AGENT,en,dialogue agent
+KINDERGARTENER,ja,幼稚園児
+KINDERGARTENER,en,kindergartener
+SIMULATION,ja,シミュレーション
+SIMULATION,en,simulation
+DINING,ja,食事
+DINING,en,dining
+NICHIJOU_KAIWA,ja,日常会話
+NICHIJOU_KAIWA,en,daily conversation
+ZATSUDAN_KAIWA,ja,雑談会話
+ZATSUDAN_KAIWA,en,casual conversation
+BUSY_SITUATION,ja,忙しい状況
+BUSY_SITUATION,en,busy situation
+NOISE_CONDITION_UNKNOWN,ja,ノイズ条件不明
+NOISE_CONDITION_UNKNOWN,en,noise condition unknown
+NET_JOU,ja,ネット上
+NET_JOU,en,online
+AMERICAN_PUBLIC_SCHOOL,ja,アメリカの公立学校
+AMERICAN_PUBLIC_SCHOOL,en,American public school
+SHIZUKANA_SHITSUNAI,ja,静かな室内
+SHIZUKANA_SHITSUNAI,en,quiet indoor
+KAINUSHI_TO_INU_NO_YARITORI,ja,飼い主と犬のやり取り
+KAINUSHI_TO_INU_NO_YARITORI,en,interaction between owner and dog
+COUPLE_CONVERSATION,ja,カップルの会話
+COUPLE_CONVERSATION,en,couple conversation
+KOREA,ja,韓国
+KOREA,en,Korea
+NOISE_OR_WEAK_PRONUNCIATION,ja,ノイズまたは弱い発音
+NOISE_OR_WEAK_PRONUNCIATION,en,noise or weak pronunciation
