@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+withdog_178181_001,はさみ,ささみ,母音が似ている単語は犬が聞き間違えやすい。,飼い主が「はさみ取って〜」と言った際、犬が「ささみ」と勘違いして反応した。,True,withdog_178181,https://dog.benesse.ne.jp/withdog/content/?id=178181,owner,dog,ja
+withdog_178181_002,たむ,ハム,母音や音が似ていると犬は自分の名前と勘違いしやすい。,「ハム」と呼ぶと自分の名前（たむ）と勘違いして反応することが多い。,True,withdog_178181,https://dog.benesse.ne.jp/withdog/content/?id=178181,owner,dog,ja
