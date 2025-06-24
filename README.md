@@ -264,6 +264,21 @@ We thank all annotators and contributors to this project.
 - **Archive**: N/A
 - **Description**: 
 
+どういう場合を除外したか: resourceのnot_relevantディレクトリに移動
+- 判定のできない情報
+  - 外国語 (4travel_10649575_001): アルトゥン（黄金）の塔,アルトゥ（6）の塔
+  -  芸術は場数だ→芸術は爆発だ
+- 小説や創作物: おっさんズラブの「嫁がイカゲームっつうのに」, ただし、同音語は許可
+- 人外は含める (モデルをいれるなら犬も入れていい)
+  - 犬による聞き取り: はさみ→ささみ
+  - AIモデルは含めるが、タグをつける。学会→学会など。
+- 聞き間違いじゃない場合
+  - 聞き間違いかと思ったが
+  - 想定の話: I like の I を eye と聞き間違えない理由は...
+- ハルシネーション
+  - takeeats_sushi_002,いくら,いか,ネタ名はゆっくり、はっきり伝える。,電話注文時、語尾が似ているため聞き間違いが発生しやすい。,True,takeeats_sushi,https://take-eats.jp/scenes/sushi/,日本語,"['寿司', '飲食', '電話注文', '聞き間違い', '接客', '日本語']","['電話注文', '店内', '雑音']"
+  - pochistory_002,パッチーズ,ポチ,日本語話者注意,英語話者が「パッチーズ」と言い直したのを、日本人が「ポチ」と聞き間違えた。,False,pochistory_10455,https://xn--h9jua5ezakf0c3qner030b.com/10455.html,日本語,"['言葉の由来', '聞き間違い', '日本文化', '犬', '明治時代', '番組解説', '非母語話者（英語→日本語）']","['明治時代の横浜', '異文化交流']"
+
 #### `"Mishearing of と and の 聞き間違い"` (N=110)
 
 1. Use APIFY's API to perform a Google search query and retrieve URLs.
@@ -295,6 +310,9 @@ We thank all annotators and contributors to this project.
 `google_to_star_wo_kikimatiga` (commit_id: [31f1f79](https://github.com/kishiyamat/mishearing-corpus/pull/15/commits/31f1f7905cf7c06f85ade35af5f632820d5f0bde))
 
 上に同じ
+
+### 
+
 
 ### Indivisuals
 

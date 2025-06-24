@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+interaction2018_001,買い物リストに卵を追加して,買い物リストに玉ねぎを追加して,発音をはっきりと、周囲の雑音を減らすと認識精度が上がる場合があります,対話型エージェントにおける典型的な誤認識例（論文本文に具体例記載なしのため推定）,True,interaction2018,http://www.interaction-ipsj.org/proceedings/2018/data/pdf/3B38.pdf,日本語,"['対話型エージェント', '音声認識', '聞き間違い', 'ユーザインタフェース', '人工知能']","['家庭', 'ショッピング', '看護・医療現場', '雑音環境']"

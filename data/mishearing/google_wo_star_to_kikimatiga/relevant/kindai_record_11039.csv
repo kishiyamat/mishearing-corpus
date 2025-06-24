@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kindai_11039_001,visit,busy,/v/と/b/の混同,/v/を/b/と聞き間違えた。日本人学習者によくある音素の混同。,True,kindai_11039,https://kindai.repo.nii.ac.jp/record/11039/files/AA1196034X-20140731-0047.pdf,日本語,"['英語学習', 'リスニング', '音声認識', '日本人学習者', '聞き間違い', '非母語話者']","['教室', 'リスニングテスト', '録音音声']"
+kindai_11039_002,Have fun.,I'm fine.,/h/の聞き落とし,/h/の音が聞き取れず、意味が異なるフレーズを選択してしまった。,True,kindai_11039,https://kindai.repo.nii.ac.jp/record/11039/files/AA1196034X-20140731-0047.pdf,日本語,"['英語学習', 'リスニング', '音声認識', '日本人学習者', '聞き間違い', '非母語話者']","['教室', 'リスニングテスト', '録音音声']"

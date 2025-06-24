@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+digidine_restaurant_knowhow_1206_001,NA,NA,注文内容を明確に,(Src=NA: 具体的な注文内容が記載されていない)(Tgt=NA: 具体的な誤聴内容が記載されていない),True,digidine_restaurant_knowhow_1206,https://digidine.jp/restaurant/know-how/1206/,日本語,"['飲食店', '多言語対応', '注文ミス', '聞き間違い', 'インバウンド', 'デジタルメニュー', 'タブレット注文', 'QRコード注文', '自動翻訳', '非母語話者', '接客']","['飲食店', '店舗', 'タブレット端末', 'スマートフォン', '通信環境（Wi-Fi/モバイル回線）', '雑音（店内BGM・他の客の会話など）']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+getnews_2053776_001,Dona,Donna,アクセント注意,スコットランド訛りの『Dona』をAlexaが『Donna』と認識し、曲が再生されなかった。,True,getnews_2053776,https://getnews.jp/archives/2053776,英語,"['AI', 'Alexa', '音声認識', '聞き間違い', '英語', 'スコットランド訛り', '非母語話者', 'IT', 'コミュニケーション']","['家庭', 'スマートスピーカー', 'スコットランド訛りの英語', 'Alexa', 'ノイズ状況不明']"

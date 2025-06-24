@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,NA,NA,https://hikosou.jp/images/202003_2nd-grade-communication.pdf,TECH_FAIL: unable to retrieve content due to decoding error ('utf-8' codec can't decode byte 0xb5 in position 11: invalid start byte)
