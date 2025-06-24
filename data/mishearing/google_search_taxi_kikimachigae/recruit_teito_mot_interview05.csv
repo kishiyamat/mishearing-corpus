@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-recruitteitomot_interview05_001,NA,NA,お客様の指示をよく確認すること,(Src=NA: 具体的な行き先の語句が記載されていない)(Tgt=NA: 具体的な誤聴語句が記載されていない) 新卒タクシー運転手が配属直後、行き先を聞き間違えて違う方向に進み、お客様から叱られた。営業所に報告し、班長と謝罪に行った。,True,recruitteitomot_interview05,https://recruit-teito-mot.com/shinsotsu/interview/interview05/,日本語,"['仕事', 'タクシー', '新卒', '聞き間違い', '接客', '交通', '日本語']","['タクシー車内', '道路', '走行中', '会話', '走行音あり', 'マイク仕様不明']"

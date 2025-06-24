@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-keiseigroup_taxi_004_001,NA,NA,ドライバーとの会話は明瞭に,(Src=NA: 具体的な発話内容不明)(Tgt=NA: 具体的な誤聴内容不明),True,keiseigroup_taxi_004,https://minhyo.jp/keiseigroup-taxi?page=4,日本語,"['タクシー', '接客', '聞き間違い', 'クレーム', '交通']","['タクシー車内', '雨天', '対面会話', 'ノイズ']"

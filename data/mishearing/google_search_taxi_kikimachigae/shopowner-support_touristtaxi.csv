@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-shopowner_support_taxi_001,NA,NA,多言語対応・確認を徹底,(Src=NA: 具体的な発話例がなく「目的地や指示」など抽象表現のみ)(Tgt=NA: 具体的な誤聴形がなく「別の場所や誤った内容」など抽象表現のみ),True,shopowner_support_taxi,https://www.shopowner-support.net/attracting_customers/traffic/taxi/touristtaxi/,日本語,"['観光タクシー', 'インバウンド', '聞き間違い', '多言語対応', '外国語', '非母語話者']","['タクシー車内', '観光地', '交通機関', '外国語環境']"

@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-robotstart_20210427_001,NA,NA,住所や名前ははっきり伝える,(Src=NA: 記事中に具体的な発話文が記載されていない)(Tgt=NA: 記事中に具体的な誤聴形が記載されていない),True,robotstart_20210427,https://robotstart.info/2021/04/27/txi-dash-button-vehicle-dispatch.html,日本語,"['タクシー', '配車', '電話', '高齢者', 'IoT', '聞き間違い', 'クラウドシステム', '地域交通', 'DX', '非母語話者']","['電話', '配車センター', '店舗・病院・薬局', '自宅', '通信環境']"

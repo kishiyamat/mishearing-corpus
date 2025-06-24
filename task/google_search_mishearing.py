@@ -156,6 +156,8 @@ if st.button("Run Scrape and Save"):
 
 st.write("### RelevantとNot Relevantの分類")
 
+API_URL_CATEGORIZE_CSV = "http://localhost:7860/api/v1/run/8e66efed-1840-42e0-9778-9ced64bf978d"
+
 st.info("not_relevantとrelevantディレクトリを作成して分類します。")
 save_path = save_path
 save_dir_relevant =  "relevant"
@@ -212,6 +214,13 @@ if files_tobe_cat and st.button("分類を送信"):
         headers = {
             "Content-Type": "application/json"
         }
+        # 2-E. API へ POST
+        try:
+            r = requests.request("POST", API_URL_CATEGORIZE_CSV, json=payload, headers=headers)
+            r.raise_for_status()
+        except requests.RequestException as e:
+            st.error(f"API Error: {e}")
+            continue  # エラーが出ても次のファイルへ進む
 
 
 st.write("### 各検索結果のURLに対してScrapeを実行")
