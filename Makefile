@@ -7,6 +7,9 @@ install:
 run:
 	streamlit run app.py
 
+ggl:
+	streamlit run task/google_search_mishearing.py
+
 clean:
 	rm -rf __pycache__ *.db
 
