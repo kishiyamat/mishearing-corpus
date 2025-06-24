@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+berkeleyhouse_eiken_scbt_001,会場リスニング音声,周囲の雑音・他受験者の声,ヘッドフォン推奨,従来型英検のリスニングは会場の雑音や座席位置で聞き間違いが起きやすい。S-CBTはヘッドフォンで低減。,True,berkeleyhouse_eiken_scbt,https://berkeleyhouse.co.jp/blog/eiken/eiken-scbt/,日本語,"['英検', 'S-CBT', 'リスニング', '聞き間違い', '教育', '非母語話者']","['会場リスニング', 'ヘッドフォン', 'パソコン', '周囲の雑音', '個別ブース']"
+berkeleyhouse_eiken_scbt_002,他受験者のスピーキング音声,自分のスピーキング内容,集中力が必要,S-CBTのスピーキングは隣の受験者の声が気になり、聞き間違いや集中力低下のリスクがある。,True,berkeleyhouse_eiken_scbt,https://berkeleyhouse.co.jp/blog/eiken/eiken-scbt/,日本語,"['英検', 'S-CBT', 'スピーキング', '聞き間違い', '教育', '非母語話者']","['パソコン', 'ヘッドフォン', 'マイク', '個別ブース', '周囲の受験者の声']"

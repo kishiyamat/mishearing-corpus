@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+bizdrive_post_144_001,NA,NA,セルフオーダー端末の導入で聞き間違いを防止できる,(Src=NA: '注文内容'が具体的に記載されていないため)(Tgt=NA: '別の注文内容'が具体的に記載されていないため),True,bizdrive_post_144,https://business.ntt-east.co.jp/bizdrive/column/post_144.html,日本語,"['DX', '店舗DX', '小売業', '飲食業', 'ICT', '業務効率化', '聞き間違い', 'オーダーミス', '自動化']","['飲食店', '小売店舗', '店舗内', '口頭注文', 'セルフオーダー端末', 'BGMや雑音あり']"

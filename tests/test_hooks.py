@@ -39,12 +39,12 @@ def test_check_filename_invalid(tmp_path):
         tmp_path (pathlib.Path): A temporary directory provided by pytest for creating test files.
     """
     # 一時的に不正なファイルを作成してテスト
-    invalid = tmp_path / "20250605test.csv"
+    invalid = tmp_path / "20250605@test.csv"
     invalid.write_text("dummy")
     # mishearingディレクトリ配下でないとスキップされる仕様なので、サブディレクトリを作成
     mishearing_dir = tmp_path / "mishearing"
     mishearing_dir.mkdir()
-    invalid_path = mishearing_dir / "20250605test.csv"
+    invalid_path = mishearing_dir / "20250605@test.csv"
     invalid_path.write_text("dummy")
     result = subprocess.run([
         sys.executable, "scripts/hooks/check_filename.py", str(invalid_path)

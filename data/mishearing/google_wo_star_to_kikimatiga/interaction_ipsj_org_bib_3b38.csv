@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+interaction2018_3B38_001,学会について教えて？,合体について教えて？,ユーモアを交えることで会話を円滑にする効果がある,ユーザが「学会について教えて？」と入力した際、エージェントが「合体？」と聞き間違えて返すボケを実装。,True,interaction2018_3B38,http://www.interaction-ipsj.org/proceedings/2018/data/bib/3B38.html,ユーザ,AI,ja

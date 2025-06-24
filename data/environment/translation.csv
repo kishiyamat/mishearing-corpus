@@ -35,3 +35,401 @@ REC,ja,録音
 REC,en,recording
 OTHER,ja,その他
 OTHER,en,other
+WITH_LIFE_NOISE,ja,生活雑音
+WITH_LIFE_NOISE,en,life noise
+ENGLISH_CLASS,ja,英語クラス
+ENGLISH_CLASS,en,English class
+EDUCATIONAL_ENVIRONMENT,ja,教育環境
+EDUCATIONAL_ENVIRONMENT,en,educational environment
+CLASSROOM,ja,教室
+CLASSROOM,en,classroom
+MEETING,ja,会議
+MEETING,en,meeting
+AUDIBILITY_TEST_ENVIRONMENT,ja,聴力テスト環境
+AUDIBILITY_TEST_ENVIRONMENT,en,audibility test environment
+OUTDOOR,ja,屋外
+OUTDOOR,en,outdoor
+REJI,ja,レジ
+REJI,en,register
+TRAIN,ja,電車
+TRAIN,en,train
+DANUBE_RIVER,ja,ドナウ川
+DANUBE_RIVER,en,Danube River
+ENGLISH_CONVERSATION,ja,英会話
+ENGLISH_CONVERSATION,en,English conversation
+MOVIE_CONVERSATION,ja,映画の会話
+MOVIE_CONVERSATION,en,movie conversation
+WORKPLACE,ja,職場
+WORKPLACE,en,workplace
+CLASS,ja,クラス
+CLASS,en,class
+REGISTER_COUNTER,ja,レジカウンター
+REGISTER_COUNTER,en,register counter
+TENPO,ja,店舗
+TENPO,en,store
+HUNGARIAN_COUNTRYSIDE_PASU,ja,ハンガリー田舎パス
+HUNGARIAN_COUNTRYSIDE_PASU,en,Hungarian countryside PASU
+HEARING_TEST_ENVIRONMENT,ja,聴力検査環境
+HEARING_TEST_ENVIRONMENT,en,hearing test environment
+TV_VIEWING,ja,テレビ視聴
+TV_VIEWING,en,TV viewing
+ENGLISH,ja,英語
+ENGLISH,en,English
+TEST_ANSWER_CHECK,ja,テスト解答確認
+TEST_ANSWER_CHECK,en,test answer check
+INTERPHONE,ja,インターフォン
+INTERPHONE,en,interphone
+MIC_SPEAKER,ja,マイクスピーカー
+MIC_SPEAKER,en,mic speaker
+HOME,ja,家
+HOME,en,home
+STORE_INSIDE,ja,店内
+STORE_INSIDE,en,store inside
+HIMATSU_BOSHI_PANEL,ja,暇つぶしパネル
+HIMATSU_BOSHI_PANEL,en,leisure panel
+JITAKU,ja,自宅
+JITAKU,en,home
+CIRCUIT,ja,回路
+CIRCUIT,en,circuit
+SHIP_BRIDGE,ja,船橋
+SHIP_BRIDGE,en,ship bridge
+DAILY_CONVERSATION,ja,日常会話
+DAILY_CONVERSATION,en,daily conversation
+INTERVIEW,ja,インタビュー
+INTERVIEW,en,interview
+PIT_WIRELESS,ja,ピット無線
+PIT_WIRELESS,en,pit wireless
+EVERYDAY_LIFE,ja,日常生活
+EVERYDAY_LIFE,en,everyday life
+DAILY_LIFE,ja,日常生活
+DAILY_LIFE,en,daily life
+CONVERSATION,ja,会話
+CONVERSATION,en,conversation
+RADIO,ja,ラジオ
+RADIO,en,radio
+WORKSHOP_VENUE,ja,ワークショップ会場
+WORKSHOP_VENUE,en,workshop venue
+COMMUNICATION_ENVIRONMENT,ja,通信環境
+COMMUNICATION_ENVIRONMENT,en,communication environment
+CONVENI,ja,コンビニ
+CONVENI,en,convenience store
+KAIGAI_RYOKO,ja,海外旅行
+KAIGAI_RYOKO,en,overseas travel
+STATION_INSIDE,ja,駅構内
+STATION_INSIDE,en,station inside
+KAITEN_SUSHI,ja,回転寿司
+KAITEN_SUSHI,en,conveyor belt sushi
+ENGLISH_LEARNING_ENVIRONMENT,ja,英語学習環境
+ENGLISH_LEARNING_ENVIRONMENT,en,English learning environment
+FOREIGNER_CLERK,ja,外国人店員
+FOREIGNER_CLERK,en,foreigner clerk
+NICHOJO_KAIWA,ja,日常会話
+NICHOJO_KAIWA,en,daily conversation
+KAYAK_CLUB,ja,カヤッククラブ
+KAYAK_CLUB,en,kayak club
+EIGO_JUGYO,ja,英語授業
+EIGO_JUGYO,en,English class
+GROUP_WORK,ja,グループ作業
+GROUP_WORK,en,group work
+F1_RACE_CHU,ja,F1レース中
+F1_RACE_CHU,en,during F1 race
+PRESENTATION,ja,プレゼンテーション
+PRESENTATION,en,presentation
+MOVIE_WATCHING,ja,映画鑑賞
+MOVIE_WATCHING,en,movie watching
+NOISY,ja,騒がしい
+NOISY,en,noisy
+ENGINE_ROOM,ja,エンジンルーム
+ENGINE_ROOM,en,engine room
+FACE_TO_FACE_INSTRUCTION,ja,対面指導
+FACE_TO_FACE_INSTRUCTION,en,face-to-face instruction
+COMMUTING,ja,通勤
+COMMUTING,en,commuting
+OFFICE,ja,オフィス
+OFFICE,en,office
+JAPANESE_LEARNER,ja,日本語学習者
+JAPANESE_LEARNER,en,Japanese learner
+RESTAURANT,ja,レストラン
+RESTAURANT,en,restaurant
+YUJIN_DOSHI,ja,友人同士
+YUJIN_DOSHI,en,among friends
+NOISE,ja,ノイズ
+NOISE,en,noise
+GERMAN_HIGHWAY,ja,ドイツ高速道路
+GERMAN_HIGHWAY,en,German highway
+MUSIC_LISTENING,ja,音楽鑑賞
+MUSIC_LISTENING,en,music listening
+HOUSING,ja,住宅
+HOUSING,en,housing
+CALL_CENTER,ja,コールセンター
+CALL_CENTER,en,call center
+DRUGSTORE,ja,ドラッグストア
+DRUGSTORE,en,drugstore
+CALL,ja,通話
+CALL,en,call
+LIVING_ROOM,ja,リビングルーム
+LIVING_ROOM,en,living room
+NATURAL_ENVIRONMENT,ja,自然環境
+NATURAL_ENVIRONMENT,en,natural environment
+STORE_REGISTER_TERMINAL,ja,店舗レジ端末
+STORE_REGISTER_TERMINAL,en,store register terminal
+STORE,ja,店舗
+STORE,en,store
+NICHIJO_SEIKATSU,ja,日常生活
+NICHIJO_SEIKATSU,en,daily life
+FACE_TO_FACE,ja,対面
+FACE_TO_FACE,en,face-to-face
+APPLICATION,ja,アプリケーション
+APPLICATION,en,application
+NOISE_PRESENT,ja,ノイズあり
+NOISE_PRESENT,en,noise present
+LISTENING_PRACTICE,ja,リスニング練習
+LISTENING_PRACTICE,en,listening practice
+NORMAL_CONVERSATION,ja,普通の会話
+NORMAL_CONVERSATION,en,normal conversation
+NATIVE_ENGLISH_SPEAKER,ja,ネイティブ英語話者
+NATIVE_ENGLISH_SPEAKER,en,native English speaker
+SHOPPING,ja,ショッピング
+SHOPPING,en,shopping
+SHANAI_ANNOUNCE,ja,車内アナウンス
+SHANAI_ANNOUNCE,en,in-train announcement
+NEWS,ja,ニュース
+NEWS,en,news
+GAITOU_HOUSOU,ja,街頭放送
+GAITOU_HOUSOU,en,street broadcast
+SHARYOU,ja,車両
+SHARYOU,en,vehicle
+TELEVISION,ja,テレビ
+TELEVISION,en,television
+ONGAKU_BANGUMI,ja,音楽番組
+ONGAKU_BANGUMI,en,music program
+KANSAI_HOUGEN,ja,関西方言
+KANSAI_HOUGEN,en,Kansai dialect
+FASHION,ja,ファッション
+FASHION,en,fashion
+TETSUDOU,ja,鉄道
+TETSUDOU,en,railway
+STATION,ja,駅
+STATION,en,station
+PREMIERE_SCREENING,ja,プレミア上映
+PREMIERE_SCREENING,en,premiere screening
+JAPANESE_SPEAKER,ja,日本語話者
+JAPANESE_SPEAKER,en,Japanese speaker
+JIDOU_MOJI_OKOSHI,ja,自動文字起こし
+JIDOU_MOJI_OKOSHI,en,automatic transcription
+MIC_PA_SYSTEM,ja,マイクPAシステム
+MIC_PA_SYSTEM,en,mic PA system
+HARD_OF_HEARING_PERSON,ja,難聴者
+HARD_OF_HEARING_PERSON,en,hard of hearing person
+NON_NATIVE_SPEAKER,ja,非ネイティブ話者
+NON_NATIVE_SPEAKER,en,non-native speaker
+KATEI,ja,家庭
+KATEI,en,home
+HOSPITAL,ja,病院
+HOSPITAL,en,hospital
+HEARING_AID_SHOP,ja,補聴器店
+HEARING_AID_SHOP,en,hearing aid shop
+TV_PROGRAM,ja,テレビ番組
+TV_PROGRAM,en,TV program
+SOCCER_GROUND,ja,サッカー場
+SOCCER_GROUND,en,soccer ground
+TELEVISION_CM,ja,テレビCM
+TELEVISION_CM,en,television commercial
+PC_WINDOWS,ja,PCウィンドウズ
+PC_WINDOWS,en,PC Windows
+NOISE_UNKNOWN,ja,不明なノイズ
+NOISE_UNKNOWN,en,unknown noise
+BUSINESS_GENBA,ja,ビジネス現場
+BUSINESS_GENBA,en,business site
+ENGLISH_ONSEI,ja,英語音声
+ENGLISH_ONSEI,en,English audio
+YOUTUBE_DOUGA,ja,YouTube動画
+YOUTUBE_DOUGA,en,YouTube video
+MEDICAL_SITE,ja,医療現場
+MEDICAL_SITE,en,medical site
+SCHOOL,ja,学校
+SCHOOL,en,school
+KATEI_NAIZU,ja,家庭内ノイズ
+KATEI_NAIZU,en,home noise
+RECORDING_ENVIRONMENT_UNKNOWN,ja,不明な録音環境
+RECORDING_ENVIRONMENT_UNKNOWN,en,unknown recording environment
+HEARING_TEST_ROOM,ja,聴力検査室
+HEARING_TEST_ROOM,en,hearing test room
+UNKNOWN,ja,不明
+UNKNOWN,en,unknown
+MULTIPLE_PEOPLE,ja,複数人
+MULTIPLE_PEOPLE,en,multiple people
+GAME_SOUND,ja,ゲーム音
+GAME_SOUND,en,game sound
+CASH_REGISTER_COUNTER,ja,レジカウンター
+CASH_REGISTER_COUNTER,en,cash register counter
+ONLINE_GAME,ja,オンラインゲーム
+ONLINE_GAME,en,online game
+KAIGI,ja,会議
+KAIGI,en,meeting
+GIJUTSU_BLOG,ja,技術ブログ
+GIJUTSU_BLOG,en,technical blog
+AI,ja,AI
+AI,en,AI
+IN_STORE_NOISE,ja,店内ノイズ
+IN_STORE_NOISE,en,in-store noise
+ELDERLY_PERSON,ja,高齢者
+ELDERLY_PERSON,en,elderly person
+HALL,ja,ホール
+HALL,en,hall
+COUNTER_ORDER,ja,カウンター注文
+COUNTER_ORDER,en,counter order
+VOICE_CHAT,ja,ボイスチャット
+VOICE_CHAT,en,voice chat
+CHILD_S_SINGING,ja,子供の歌
+CHILD_S_SINGING,en,child's singing
+RELATIVE_CONVERSATION,ja,親戚の会話
+RELATIVE_CONVERSATION,en,relative conversation
+PART_TIME_JOB_INTERVIEW,ja,アルバイト面接
+PART_TIME_JOB_INTERVIEW,en,part-time job interview
+CONTEST_VENUE,ja,コンテスト会場
+CONTEST_VENUE,en,contest venue
+TELEVISION_AUDIO,ja,テレビ音声
+TELEVISION_AUDIO,en,television audio
+MIC_UNKNOWN,ja,不明なマイク
+MIC_UNKNOWN,en,unknown mic
+SNS,ja,SNS
+SNS,en,SNS
+STREAMING_MIC,ja,ストリーミングマイク
+STREAMING_MIC,en,streaming mic
+ONLINE,ja,オンライン
+ONLINE,en,online
+DICTIONARY_USAGE_ENVIRONMENT,ja,辞書使用環境
+DICTIONARY_USAGE_ENVIRONMENT,en,dictionary usage environment
+TWITCH,ja,Twitch
+TWITCH,en,Twitch
+MOVIE_THEATER,ja,映画館
+MOVIE_THEATER,en,movie theater
+ELDERLY,ja,高齢者
+ELDERLY,en,elderly
+APP_NAI_KAIWA,ja,アプリ内会話
+APP_NAI_KAIWA,en,in-app conversation
+ANNOUNCEMENT,ja,アナウンス
+ANNOUNCEMENT,en,announcement
+INSIDE_STORE,ja,店内
+INSIDE_STORE,en,inside store
+TV_PROGRAM_RECORDING_SITE,ja,テレビ番組収録現場
+TV_PROGRAM_RECORDING_SITE,en,TV program recording site
+ELDERLY_CLERK,ja,高齢者店員
+ELDERLY_CLERK,en,elderly clerk
+FACE_TO_FACE_CONVERSATION,ja,対面会話
+FACE_TO_FACE_CONVERSATION,en,face-to-face conversation
+HISTORICAL_CONTEXT,ja,歴史的背景
+HISTORICAL_CONTEXT,en,historical context
+CONVENIENCE_STORE,ja,コンビニエンスストア
+CONVENIENCE_STORE,en,convenience store
+ENGLISH_CONVERSATION_CLASSROOM,ja,英会話教室
+ENGLISH_CONVERSATION_CLASSROOM,en,English conversation classroom
+STUDIO,ja,スタジオ
+STUDIO,en,studio
+YOSE_VENUE,ja,寄席会場
+YOSE_VENUE,en,yose venue
+VARIETY_SHOW,ja,バラエティ番組
+VARIETY_SHOW,en,variety show
+AGE_VERIFICATION_DISPLAY,ja,年齢確認表示
+AGE_VERIFICATION_DISPLAY,en,age verification display
+DRAMA_SHOOTING_SITE,ja,ドラマ撮影現場
+DRAMA_SHOOTING_SITE,en,drama shooting site
+LANGUAGE_LEARNING_ENVIRONMENT,ja,言語学習環境
+LANGUAGE_LEARNING_ENVIRONMENT,en,language learning environment
+TEREBI_SHICHO,ja,テレビ視聴
+TEREBI_SHICHO,en,TV viewing
+SECURITY_STRICT_ENVIRONMENT,ja,厳重なセキュリティ環境
+SECURITY_STRICT_ENVIRONMENT,en,strict security environment
+IN_CLASS,ja,教室内
+IN_CLASS,en,in class
+MULTIPLE_PEOPLE_CONVERSATION,ja,複数人の会話
+MULTIPLE_PEOPLE_CONVERSATION,en,multiple people conversation
+TEXTBOOK,ja,教科書
+TEXTBOOK,en,textbook
+NOISY_PARTY,ja,騒がしいパーティー
+NOISY_PARTY,en,noisy party
+NOISE_JOUHOU_FUMEI,ja,ノイズ情報不明
+NOISE_JOUHOU_FUMEI,en,noise information unknown
+STORE_OR_HOME,ja,店または家
+STORE_OR_HOME,en,store or home
+PARTY,ja,パーティー
+PARTY,en,party
+SINGING,ja,歌う
+SINGING,en,singing
+MEIJI_PERIOD_YOKOHAMA,ja,明治時代横浜
+MEIJI_PERIOD_YOKOHAMA,en,Meiji period Yokohama
+TELEVISION_PROGRAM_RECORDING,ja,テレビ番組の録画
+TELEVISION_PROGRAM_RECORDING,en,television program recording
+KOUREISHA_TO_SHOKUIN_NO_YARI_TORI,ja,高齢者と職員のやり取り
+KOUREISHA_TO_SHOKUIN_NO_YARI_TORI,en,interaction between elderly and staff
+NATIVE_NON_NATIVE_CONVERSATION,ja,ネイティブと非ネイティブの会話
+NATIVE_NON_NATIVE_CONVERSATION,en,native and non-native conversation
+NO_NOISE,ja,ノイズなし
+NO_NOISE,en,no noise
+QUIET_INDOOR,ja,静かな室内
+QUIET_INDOOR,en,quiet indoor
+ALEXA,ja,アレクサ
+ALEXA,en,Alexa
+SAPPORO,ja,札幌
+SAPPORO,en,Sapporo
+SECURITY_GUARD_CALLING,ja,警備員の呼び出し
+SECURITY_GUARD_CALLING,en,security guard calling
+SHITSUNAI,ja,室内
+SHITSUNAI,en,indoor
+INDOOR_PRIVATE_HOME,ja,室内の自宅
+INDOOR_PRIVATE_HOME,en,indoor private home
+ENGLISH_NON_NATIVE_SPEAKER,ja,英語非ネイティブスピーカー
+ENGLISH_NON_NATIVE_SPEAKER,en,English non-native speaker
+RECORDED_AUDIO,ja,録音音声
+RECORDED_AUDIO,en,recorded audio
+REGULAR_EXAM,ja,定期試験
+REGULAR_EXAM,en,regular exam
+SMART_SPEAKER,ja,スマートスピーカー
+SMART_SPEAKER,en,smart speaker
+NICHOJIKAIWA,ja,日常会話
+NICHOJIKAIWA,en,daily conversation
+LISTENING_TEST,ja,リスニングテスト
+LISTENING_TEST,en,listening test
+KAIGO_SHISSETSU,ja,介護施設
+KAIGO_SHISSETSU,en,nursing facility
+CROSS_CULTURAL_EXCHANGE,ja,異文化交流
+CROSS_CULTURAL_EXCHANGE,en,cross-cultural exchange
+RECREATION_EVENT,ja,レクリエーションイベント
+RECREATION_EVENT,en,recreation event
+SCOTTISH_ACCENT_ENGLISH,ja,スコットランド訛りの英語
+SCOTTISH_ACCENT_ENGLISH,en,Scottish accent English
+INSIDE_SCHOOL,ja,学校内
+INSIDE_SCHOOL,en,inside school
+NOISY_AND_TENSE_SITUATION,ja,騒がしく緊張した状況
+NOISY_AND_TENSE_SITUATION,en,noisy and tense situation
+DIALOGUE_AGENT,ja,対話エージェント
+DIALOGUE_AGENT,en,dialogue agent
+KINDERGARTENER,ja,幼稚園児
+KINDERGARTENER,en,kindergartener
+SIMULATION,ja,シミュレーション
+SIMULATION,en,simulation
+DINING,ja,食事
+DINING,en,dining
+NICHIJOU_KAIWA,ja,日常会話
+NICHIJOU_KAIWA,en,daily conversation
+ZATSUDAN_KAIWA,ja,雑談会話
+ZATSUDAN_KAIWA,en,casual conversation
+BUSY_SITUATION,ja,忙しい状況
+BUSY_SITUATION,en,busy situation
+NOISE_CONDITION_UNKNOWN,ja,ノイズ条件不明
+NOISE_CONDITION_UNKNOWN,en,noise condition unknown
+NET_JOU,ja,ネット上
+NET_JOU,en,online
+AMERICAN_PUBLIC_SCHOOL,ja,アメリカの公立学校
+AMERICAN_PUBLIC_SCHOOL,en,American public school
+SHIZUKANA_SHITSUNAI,ja,静かな室内
+SHIZUKANA_SHITSUNAI,en,quiet indoor
+KAINUSHI_TO_INU_NO_YARITORI,ja,飼い主と犬のやり取り
+KAINUSHI_TO_INU_NO_YARITORI,en,interaction between owner and dog
+COUPLE_CONVERSATION,ja,カップルの会話
+COUPLE_CONVERSATION,en,couple conversation
+KOREA,ja,韓国
+KOREA,en,Korea
+NOISE_OR_WEAK_PRONUNCIATION,ja,ノイズまたは弱い発音
+NOISE_OR_WEAK_PRONUNCIATION,en,noise or weak pronunciation

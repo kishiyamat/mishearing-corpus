@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+mlab_arrowjp_med_safety_001,4mg,1mg,口頭指示は復唱,医師の口頭指示で「4mg」を「1mg」と聞き間違えた。薬剤投与量の重大なミスにつながる。,True,mlab_arrowjp_med_safety,http://mlab.arrow.jp/med_safety.htm,日本語,"['医療', '薬剤', '聞き間違い', '口頭指示', '医療安全', 'ヒューマンエラー']","['病院', '医療現場', '口頭指示']"
+mlab_arrowjp_med_safety_002,休薬の指示,持参薬の休薬,指示内容を確認,「休薬の指示」が「持参薬の休薬」と誤解された。患者の服薬管理に影響。,True,mlab_arrowjp_med_safety,http://mlab.arrow.jp/med_safety.htm,日本語,"['医療', '薬剤', '聞き間違い', '口頭指示', '医療安全', 'ヒューマンエラー']","['病院', '医療現場', '口頭指示']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+lbb_innovace_page25_001,顧客の注文内容,別のメニューや数量,注文内容を復唱・確認する、モバイルオーダー活用,スタッフが口頭で注文を受ける際に「聞き間違い」によるオーダーミスが発生することがある。モバイルオーダー導入でこれを防げる。,True,lbb_innovace_page25,https://lbb.co.jp/innovace/page25.html,日本語,"['モバイルオーダー', '飲食店', 'オーダーミス', 'DX', '非接触']","['店舗', '店内会話', '通信環境', 'ノイズ']"

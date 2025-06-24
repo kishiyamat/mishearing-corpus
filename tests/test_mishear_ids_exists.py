@@ -102,9 +102,9 @@ def test_mishear_ids_exist_in_other_columns():
         missing_in_environment = mishearing_mishear_ids - environment_mishear_ids
 
         if missing_in_tag:
-            logger.error(f"The following MishearIDs in {file_i} do not exist in the corresponding tag file: {missing_in_tag}")
+            logger.error(f"The following MishearIDs in Tag{file_i} (Tags) do not exist in the corresponding tag file: {missing_in_tag}")
         if missing_in_environment:
-            logger.error(f"The following MishearIDs in {file_i} do not exist in the corresponding environment file: {missing_in_environment}")
+            logger.error(f"The following MishearIDs in {file_i} (Envs) do not exist in the corresponding environment file: {missing_in_environment}")
 
         assert not missing_in_tag, f"The following MishearIDs in {file_i} do not exist in the corresponding tag file: {missing_in_tag}"
         assert not missing_in_environment, f"The following MishearIDs in {file_i} do not exist in the corresponding environment file: {missing_in_environment}"
@@ -130,16 +130,22 @@ def test_translation_exists():
     env_ids = set()
     tag_ids = set()
 
+    env_translation_ids = get_ids(ENV_TRANSLATION_PATH, 'EnvID')
+    tag_translation_ids = get_ids(TAG_TRANSLATION_PATH, 'TagID')
+
     for file_i in environment_files:
         if file_i != 'translation.csv':
-            env_ids.update(get_ids(os.path.join(ENVIRONMENT_DIR, file_i), 'EnvID'))
+            env_id = get_ids(os.path.join(ENVIRONMENT_DIR, file_i), 'EnvID')
+            env_ids.update(env_id)
+            # 個別にしりたければ、以下のコメントアウトを有効にする
+            # assert env_id.issubset(env_translation_ids), f"EnvID {env_id} in {file_i} is not in translation.csv"
 
     for file_i in tag_files:
         if file_i != 'translation.csv':
-            tag_ids.update(get_ids(os.path.join(TAG_DIR, file_i), 'TagID'))
-
-    env_translation_ids = get_ids(ENV_TRANSLATION_PATH, 'EnvID')
-    tag_translation_ids = get_ids(TAG_TRANSLATION_PATH, 'TagID')
+            tag_id = get_ids(os.path.join(TAG_DIR, file_i), 'TagID')
+            tag_ids.update(tag_id)
+            # 個別にしりたければ、以下のコメントアウトを有効にする
+            # assert tag_id.issubset(tag_translation_ids), f"TagID {tag_id} in {file_i} is not in translation.csv"
 
     missing_env_ids = env_ids - env_translation_ids
     missing_tag_ids = tag_ids - tag_translation_ids

@@ -1,0 +1,5 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+threads_C84O0_001,しがつ,しちがつ,電話では『しがつ』より『よんがつ』と明瞭に言うと伝わりやすい,『しがつ』は電話越しで『よんがつ』と聞き間違えやすいため推奨表現がある,True,threads_C84O0,https://www.threads.net/@dq.sakura/post/C84O0_vSvbq?hl=ja,,,ja
+threads_C84O0_002,ようか,よっか,電話では『ようか』より『はちにち』と明瞭に言うと伝わりやすい,『ようか』は電話越しで『はちにち』と聞き間違えやすいため推奨表現がある,True,threads_C84O0,https://www.threads.net/@dq.sakura/post/C84O0_vSvbq?hl=ja,,,ja
+threads_C84O0_003,しちがつ,しがつ,電話では『しがつ』より『よんがつ』と明瞭に言うと伝わりやすい,『しがつ』は電話越しで『よんがつ』と聞き間違えやすいため推奨表現がある,False,threads_C84O0,https://www.threads.net/@dq.sakura/post/C84O0_vSvbq?hl=ja,,,ja
+threads_C84O0_004,よっか,ようか,電話では『ようか』より『はちにち』と明瞭に言うと伝わりやすい,『ようか』は電話越しで『はちにち』と聞き間違えやすいため推奨表現がある,False,threads_C84O0,https://www.threads.net/@dq.sakura/post/C84O0_vSvbq?hl=ja,,,ja

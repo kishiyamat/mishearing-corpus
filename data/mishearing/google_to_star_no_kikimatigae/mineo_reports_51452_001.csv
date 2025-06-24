@@ -1,0 +1,5 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+kingmineo_51452_001,ぶっかけうどん,かけうどん,はっきり発音する,うどん店で「ぶっかけうどん」を注文したが「ぶっ」が聞こえず「かけうどん」が提供された。,True,kingmineo_51452,https://king.mineo.jp/reports/51452,,,ja
+kingmineo_51452_002,カレーうどん,かけうどん,復唱を求める,コメント欄より。カレーうどんを注文したが「かけうどん」と聞き間違えられた。,True,kingmineo_51452,https://king.mineo.jp/reports/51452,,,ja
+kingmineo_51452_003,しょゆラーメン,塩ラーメン,ゆっくり発音する,コメント欄より。醤油ラーメンを「しょゆラーメン」と言ったら塩ラーメンが来た。,True,kingmineo_51452,https://king.mineo.jp/reports/51452,,,ja
+kingmineo_51452_004,禁煙,喫煙,明瞭に伝える,コメント欄より。禁煙と喫煙の聞き間違いも起こりやすい。,True,kingmineo_51452,https://king.mineo.jp/reports/51452,,,ja

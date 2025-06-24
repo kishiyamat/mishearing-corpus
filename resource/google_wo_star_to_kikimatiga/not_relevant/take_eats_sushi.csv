@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+takeeats_sushi_001,サーモン,サバ,ネタ名ははっきり発音すること。,電話注文時、寿司ネタの発音が似ているため聞き間違いが発生しやすい。,True,takeeats_sushi,https://take-eats.jp/scenes/sushi/,日本語,"['寿司', '飲食', '電話注文', '聞き間違い', '接客', '日本語']","['電話注文', '店内', '雑音']"
+takeeats_sushi_002,いくら,いか,ネタ名はゆっくり、はっきり伝える。,電話注文時、語尾が似ているため聞き間違いが発生しやすい。,True,takeeats_sushi,https://take-eats.jp/scenes/sushi/,日本語,"['寿司', '飲食', '電話注文', '聞き間違い', '接客', '日本語']","['電話注文', '店内', '雑音']"
+takeeats_sushi_003,3人前,1人前,数量は繰り返し確認する。,電話注文時、人数や数量の聞き間違いが発生しやすい。,True,takeeats_sushi,https://take-eats.jp/scenes/sushi/,日本語,"['寿司', '飲食', '電話注文', '聞き間違い', '接客', '日本語']","['電話注文', '店内', '雑音']"
