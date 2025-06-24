@@ -279,7 +279,7 @@ We thank all annotators and contributors to this project.
   - takeeats_sushi_002,いくら,いか,ネタ名はゆっくり、はっきり伝える。,電話注文時、語尾が似ているため聞き間違いが発生しやすい。,True,takeeats_sushi,https://take-eats.jp/scenes/sushi/,日本語,"['寿司', '飲食', '電話注文', '聞き間違い', '接客', '日本語']","['電話注文', '店内', '雑音']"
   - pochistory_002,パッチーズ,ポチ,日本語話者注意,英語話者が「パッチーズ」と言い直したのを、日本人が「ポチ」と聞き間違えた。,False,pochistory_10455,https://xn--h9jua5ezakf0c3qner030b.com/10455.html,日本語,"['言葉の由来', '聞き間違い', '日本文化', '犬', '明治時代', '番組解説', '非母語話者（英語→日本語）']","['明治時代の横浜', '異文化交流']"
 
-#### `"Mishearing of と and の 聞き間違い"` (N=110)
+#### `"Mishearing of to*no聞き間違い"` (N=110)
 
 1. Use APIFY's API to perform a Google search query and retrieve URLs.
   - APIを叩いても100件取得しきれていない。
@@ -293,7 +293,7 @@ We thank all annotators and contributors to this project.
 5. Perform a final manual review and correction.
 6. save to google_to_star_no_kikimatigai_100_4-1
 
-#### `"Mishearing of と and の 聞き間違え"` (N=32)
+#### `"Mishearing of to*no聞き間違え"` (N=32)
 
 `google_to_star_no_kikimatigae` (commit_id: `259b981`)
 1. 検索するクエリを決める
@@ -305,13 +305,13 @@ We thank all annotators and contributors to this project.
     2. relevant
 1. 修正したCSVをAPIに送ってフォーマット修正する
 
-#### `"Mishearing of と and を 聞き間違*"` (N=7)
+#### `"Mishearing of to*wo*聞き間違*"` (N=7)
 
 `google_to_star_wo_kikimatiga` (commit_id: [31f1f79](https://github.com/kishiyamat/mishearing-corpus/pull/15/commits/31f1f7905cf7c06f85ade35af5f632820d5f0bde))
 
 上に同じ
 
-### 
+#### `"Mishearing of wo*to*聞き間違*"` (N=20)
 
 
 ### Indivisuals
