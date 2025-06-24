@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+atmalab_generateai_001,専門用語,誤変換,専門用語や社内用語は事前に辞書登録やカスタマイズを推奨,AI議事録作成の導入初期に専門用語や社内用語の誤変換が多発した事例。具体的な単語例は記事内に記載なし。,True,atmalab_generateai_meeting_minutes,https://www.atmalab.co.jp/ai-articles/generate-ai-meeting-minutes,日本語,"['生成AI', '議事録', '中小企業', 'AI活用', '音声認識', '誤変換', 'DX', '業務効率化']","['会議室', 'オンライン会議', '録音デバイス']"

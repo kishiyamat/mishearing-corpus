@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+probonjin_tokyo_EdyID_001,Edyで,iDで,「楽天Edyで」と言うと良い,コンビニで「Edyで」と言ったのに「iD」と間違えられて決済されてしまう。特に外国人店員との間で発生しやすい。,True,probonjin_tokyo_EdyID,https://www.probonjin.tokyo/EdyID,,外国人店員,ja

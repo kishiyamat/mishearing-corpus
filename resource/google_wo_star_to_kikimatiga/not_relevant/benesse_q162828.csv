@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+dogbenesse_162828_001,はさみ,ささみ,食べ物ワード注意,飼い主が「はさみ取って」と言ったのを犬が「ささみ」と聞き間違えておねだりした。,True,dogbenesse_162828,https://dog.benesse.ne.jp/lovedog/content/?id=162828,飼い主,たむたむくん,日本語,"['ペット', '犬', '聞き間違い', 'コミュニケーション', 'かわいい', 'SNS', '日常', '非母語話者']","['家庭', '飼い主と犬の会話', '室内', '日常生活', 'SNS投稿']"
+dogbenesse_162828_002,ハム,たむ,名前ワード注意,「ハム」という単語を自分の名前「たむ」と聞き間違えて反応することが多い。,True,dogbenesse_162828,https://dog.benesse.ne.jp/lovedog/content/?id=162828,飼い主,たむたむくん,日本語,"['ペット', '犬', '聞き間違い', 'コミュニケーション', 'かわいい', 'SNS', '日常', '非母語話者']","['家庭', '飼い主と犬の会話', '室内', '日常生活', 'SNS投稿']"
