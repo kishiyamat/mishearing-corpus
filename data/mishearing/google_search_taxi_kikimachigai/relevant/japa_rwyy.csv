@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-atc_communication_handbook_001,RWY36の手前で待機,RWY36の進入端近くまでタクシーして待機,指示表現に注意,ATCで「RWY36の手前で待機」と指示した際、進入端近くまでタクシーしてしまう誤解が生じやすい。,True,atc_communication_handbook,https://www.japa.or.jp/wp-content/uploads/2019/04/ATC_Communication_Handbook_JP.pdf,日本語,"['航空', 'ATC', 'コミュニケーション', '聞き間違い', '管制', '非母語話者', '安全']","['空港', '管制塔', '航空無線', 'ノイズあり', '無線通信', 'マイク仕様不明']"

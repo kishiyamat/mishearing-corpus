@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-instagram_C5iPEupqIvK_001,JCB,JTB,カタカナ発音注意,タクシー乗務員が「JCB」と「JTB」を聞き間違え、後処理が発生していた。チケット対応で解消。,True,instagram_C5iPEupqIvK,https://www.instagram.com/p/C5iPEupqIvK/,日本語,"['タクシー', '聞き間違い', 'キャッシュレス', 'クレジットカード', '交通', '田舎', '仕事', '日本語']","['タクシー車内', '交通機関', '現金・キャッシュレス決済', '乗務員と乗客の会話', 'ノイズあり']"
-instagram_C5iPEupqIvK_002,JTB,JCB,カタカナ発音注意,上記と逆のパターンも発生しうる。,True,instagram_C5iPEupqIvK,https://www.instagram.com/p/C5iPEupqIvK/,日本語,"['タクシー', '聞き間違い', 'キャッシュレス', 'クレジットカード', '交通', '田舎', '仕事', '日本語']","['タクシー車内', '交通機関', '現金・キャッシュレス決済', '乗務員と乗客の会話', 'ノイズあり']"

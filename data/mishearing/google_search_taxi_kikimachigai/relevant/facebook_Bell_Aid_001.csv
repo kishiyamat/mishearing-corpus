@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-bell_aid_fb_001,パークサイド,ダークサイド,地名・施設名は明瞭に伝えると誤聴を防げる,介護タクシー現場での地名聞き間違い事例,True,bell_aid_fb,https://www.facebook.com/people/Bell-Aid/61550602013238/,日本語,"['介護タクシー', '民間救急', '聞き間違い', '地名', '福祉搬送', 'ドライバー', '現場の声']","['車内', '搬送現場', '通話・会話', '雑音あり']"
