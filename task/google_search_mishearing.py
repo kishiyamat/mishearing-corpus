@@ -94,7 +94,7 @@ if not queries:
 if "response_json_pages" not in st.session_state:
     st.session_state["response_json_pages"] = []
 
-st.write("### Goolgle Search Scraperを実行")
+st.write("### Google Search Scraperを実行")
 
 if st.button("Run Apify Actor (Google)") or st.session_state["response_json_pages"] == []:
     st.session_state["response_json_pages"] = google_search(queries=queries, results_per_page=results_per_page, max_pages_per_query=max_pages_per_query)
@@ -135,7 +135,7 @@ def mishearing_scrape(target_url, description, save_path):
     except ValueError as e:
         st.error(f"Error parsing response: {e}")
 
-st.write("### 各検索結果のURLに対してScrapeを実行")
+st.write("### Scrape URLs from Search Results")
 
 if st.button("Run Scrape and Save"):
     for result in organic_results:
