@@ -22,9 +22,14 @@ def load_csv_tree(root: str, *, exclude: str | None = None) -> pd.DataFrame:
     files = [f for f in glob.glob(pat, recursive=True) if not exclude or exclude not in f]
     dataframes = []
     for f in files:
-        df = pd.read_csv(f)
-        df["path"] = f  # Add a column with the file path
-        dataframes.append(df)
+        # 問題があるファイルはファイル名を出力
+        try:
+            df = pd.read_csv(f)
+            df["path"] = f  # Add a column with the file path
+            dataframes.append(df)
+        except:
+            st.error(f"Error reading {f}. Please check the file format.")
+            st.stop()
     return pd.concat(dataframes, ignore_index=True)
 
 @st.cache_data(show_spinner=False)
