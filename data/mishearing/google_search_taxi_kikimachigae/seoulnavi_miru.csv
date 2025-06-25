@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+seoulnavi_miru_932_001,ホンデ（弘大）,トンデ（東大）,目的地の地名だけでなく、周辺の有名な建物や大学名も伝えるとよい。,韓国語の発音が難しく、似た地名が多いため、運転手が聞き間違えて違う場所に行ってしまうことがある。,True,seoulnavi_miru_932,https://www.seoulnavi.com/miru/932/,,,other

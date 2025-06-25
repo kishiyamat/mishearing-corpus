@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nlabitmedia_3299216_001,予約者の名前,別人の名前,名前をはっきり確認,タクシー運転手が乗車時に名前を聞き間違え、他人を乗せてしまい決済まで進んだ事例。,True,nlabitmedia_3299216,https://nlab.itmedia.co.jp/cont/articles/3299216/,日本語,"['タクシー', '配車アプリ', 'DiDi', '聞き間違い', '本人確認', 'トラブル', 'IT', 'コミュニケーション', '日本語']","['タクシー車内', '路上', 'スマートフォンアプリ', '通信環境', '都市部', '雑音あり']"

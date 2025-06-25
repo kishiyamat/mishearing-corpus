@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+heiwa_tokai_caseim_001,NA,NA,重要情報は復唱,(Src=NA: 具体的な住所の発話文が記載されていない)(Tgt=NA: 具体的な誤聴住所が記載されていない),True,heiwa_tokai_caseim,http://heiwa-tokai.jp/b_phone/case-im-message.html,日本語,"['業務改善', '電話対応', '聞き間違い', '伝言ミス', 'タクシー会社', '通話録音', '予約受付', 'コミュニケーション']","['事務所', '電話', '通信環境']"
+heiwa_tokai_caseim_002,NA,NA,重要情報は復唱,(Src=NA: 具体的な指定時間の発話文が記載されていない)(Tgt=NA: 具体的な誤聴時間が記載されていない),True,heiwa_tokai_caseim,http://heiwa-tokai.jp/b_phone/case-im-message.html,日本語,"['業務改善', '電話対応', '聞き間違い', '伝言ミス', 'タクシー会社', '通話録音', '予約受付', 'コミュニケーション']","['事務所', '電話', '通信環境']"

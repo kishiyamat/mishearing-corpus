@@ -269,6 +269,9 @@ We thank all annotators and contributors to this project.
 - **Description**: 
 
 どういう場合を除外したか: resourceのnot_relevantディレクトリに移動
+- YouTubeの文字起こし
+  - youtube_AcrugLVnrLE(https://www.youtube.com/watch?v=AcrugLVnrLE) は事例が多いので気合
+  - ラファエルさんの動画はアルフォート→アルフォード？みたいなものだがスルー
 - 判定のできない情報
   - 外国語 (4travel_10649575_001): アルトゥン（黄金）の塔,アルトゥ（6）の塔
   -  芸術は場数だ→芸術は爆発だ
@@ -317,6 +320,11 @@ We thank all annotators and contributors to this project.
 
 #### `"Mishearing of wo*to*聞き間違*"` (N=20)
 
+
+### Google | Taxk (N=196)
+
+- 作成したアプリで収集(`queries = 'タクシー "聞き間違え"'`)
+- 重複もあるかもしれない。
 
 ### Indivisuals
 

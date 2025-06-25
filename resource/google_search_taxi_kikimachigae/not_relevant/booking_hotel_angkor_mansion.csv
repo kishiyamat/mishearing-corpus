@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+booking_angkor_mansion_001,NA,NA,注文時は復唱や指差し確認を推奨,メゾンカイザーで注文の聞き間違いが数回発生。具体的な内容は不明。(Src=NA: 注文内容不明)(Tgt=NA: 聞き間違えた内容不明),True,booking_angkor_mansion,https://www.booking.com/reviews/kh/hotel/angkor-mansion.ja.html,日本語,"['ホテル', '飲食店', '海外旅行', '聞き間違い', '注文', '日本語話者', 'カンボジア', '非母語話者']","['飲食店', '海外', '日本人旅行者', '現地スタッフ', '店舗内']"

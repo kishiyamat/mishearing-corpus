@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+taxi_story_tokyochiri_001,日比谷国際ビル,日比谷にある国際ビル,地名・施設名は正確に確認,タクシー運転中、目的地のビル名を聞き間違えて誤った場所に進行してしまった。,True,taxi_story_tokyochiri,https://taxi-story.org/category/%E6%9D%B1%E4%BA%AC%E3%81%AE%E5%9C%B0%E7%90%86,日本語,"['タクシー', '東京の地理', '聞き間違い', '地名', '施設名', '交通', '失敗談', '日本語']","['タクシー車内', '都市（東京）', '運転中', '道路騒音']"

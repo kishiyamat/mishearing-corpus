@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ss49english_001,The taxi driver's looking for a target.,,targetの発音に注意,(Tgt=NA: 聞き間違い語句が記事から特定できないが、targetを別語に聞き間違えた旨のみ記載),True,ss49english,https://www.tv-asahi.co.jp/ss/49/english/index2.html,英語,"['英語学習', 'リスニング', '聞き間違い', 'テレビ番組', '非母語話者']","['テレビ番組収録スタジオ', '英語リスニング問題', '日本語話者', 'マイク・スピーカー環境']"
