@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+aoi_kotsu_voice_231_001,飯田橋,板橋,地名は要確認,お客様が「飯田橋」と言ったのに「板橋」に向かってしまい、途中で気付いて戻った。タクシー車内での会話。,True,aoi_kotsu_voice_231,https://www.aoi-kotsu.com/recruit/voice/231/,Y,客,日本語,"['タクシー', '交通', '聞き間違い', '地名', '仕事', '接客', '日本語', '社会人', '都市名']","['タクシー車内', '道路走行中', '都市部', '車内・道路音']"
+aoi_kotsu_voice_231_002,五反田,五反野,地名は要確認,「五反田」と足立区の「五反野」を間違えた。タクシー車内での会話。,True,aoi_kotsu_voice_231,https://www.aoi-kotsu.com/recruit/voice/231/,Y,客,日本語,"['タクシー', '交通', '聞き間違い', '地名', '仕事', '接客', '日本語', '社会人', '都市名']","['タクシー車内', '道路走行中', '都市部', '車内・道路音']"

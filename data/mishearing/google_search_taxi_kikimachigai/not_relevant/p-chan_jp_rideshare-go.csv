@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+pchan_ridesharego_001,目的地（口頭伝達）,別の目的地,アプリで事前指定推奨,口頭で目的地を伝える際、地名や建物名の聞き間違いが発生しやすい。アプリ利用で防止可能。,True,pchan_ridesharego,https://p-chan.jp/taxi/column/rideshare-go,日本語,"['タクシー', 'ライドシェア', '配車アプリ', '聞き間違い', '交通', 'IT', 'コミュニケーション', '日本', '非母語話者']","['タクシー車内', '公道', 'スマートフォンアプリ', '通信環境', '口頭やり取り']"

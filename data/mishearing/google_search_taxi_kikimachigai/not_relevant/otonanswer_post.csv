@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+otonanswer_52818_001,,,乗る前に金額確認,(Src=NA: 運転手の伝えた金額が具体的に記載されていない)(Tgt=NA: 聞き間違えた金額が具体的に記載されていない),True,otonanswer_52818,https://otonanswer.jp/post/52818/,日本語,"['旅行', '海外', 'ラオス', 'タクシー', '聞き間違い', 'コミュニケーション', 'バックパッカー', '非母語話者']","['ラオス', 'タクシー車内', '交通環境', 'ノイズあり', '非母語話者']"

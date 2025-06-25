@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tripcom_wuhan_001,数字,別の数字,数字は紙に書いて確認,武漢方言や発音の違いで、タクシーや市場で数字を聞き間違え、過払い・目的地ミスが発生しやすい。(Src=NA: 具体的な数字の例が記載されていない)(Tgt=NA: 具体的な数字の例が記載されていない),True,tripcom_wuhan,https://jp.trip.com/guide/info/%E6%AD%A6%E6%BC%A2+%E6%B2%BB%E5%AE%89.html,日本語,"['中国', '武漢', '旅行', '治安', '聞き間違い', '数字', '非母語話者']","['市場', 'タクシー', '旅行', '雑踏', '方言', 'ノイズ']"

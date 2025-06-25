@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+hurricanemiki_001,箱根まで,箱根山通り,地名の聞き間違いに注意,歌舞伎町から乗車したお客様が「箱根まで」と言った際、89%の確率で「箱根山通り」と聞き間違える。東京のタクシー業界でよくある事例。,True,hurricanemiki,https://twitter.com/hurricanemiki,日本語,"['タクシー', '聞き間違い', '東京', '地名', '交通', 'コミュニケーション', '日本語']","['タクシー車内', '都市（東京・歌舞伎町）', '走行中', '騒音', '会話']"

@@ -1,0 +1,11 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+togetter_193527_001,MRI,芋洗い,医療用語は聞き慣れないと誤聴しやすいので注意,,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '医療', '日本語', 'SNS']","['病院', '家庭', 'SNS']"
+togetter_193527_002,ICU,足湯,略語や専門用語は文脈で確認を,,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '医療', '日本語', 'SNS']","['病院', 'SNS']"
+togetter_193527_003,藤沢周平,富士山周辺,人名は地名と混同しやすいので注意,,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '人名', '日本語', 'SNS']","['日常生活', 'SNS']"
+togetter_193527_004,錦糸町,警視庁,地名は発音をはっきりと伝える,,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '地名', 'タクシー', 'SNS']","['タクシー', '都市', 'SNS']"
+togetter_193527_005,白河町,平河町,地名は似ているので注意,,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '地名', 'タクシー', 'SNS']","['タクシー', '都市', 'SNS']"
+togetter_193527_006,たまプラ,鎌倉,略称は通じない場合があるので正式名称で伝える,,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '地名', 'タクシー', 'SNS']","['タクシー', '都市', 'SNS']"
+togetter_193527_007,大倉山,大岡山,地名は発音を明確に,,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '地名', 'タクシー', 'SNS']","['タクシー', '都市', 'SNS']"
+togetter_193527_008,プリン,うに,飲食店でははっきり発音する,,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '飲食店', 'SNS']","['飲食店', 'SNS']"
+togetter_193527_009,プリン,ブリ,飲食店でははっきり発音する,,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '飲食店', 'SNS']","['飲食店', 'SNS']"
+togetter_193527_010,メット持ってきて！,熱湯です！,部活動など騒がしい環境では確認を,,True,togetter_193527,https://togetter.com/li/193527,日本語,"['聞き間違い', '学校', 'SNS']","['学校', '部活動', 'SNS']"

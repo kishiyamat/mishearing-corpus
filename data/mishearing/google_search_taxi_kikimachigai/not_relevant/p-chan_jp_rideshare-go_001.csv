@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+pchan_ridesharego_001,,,アプリで事前指定を推奨,(Src=NA: placeholder '目的地（地名・施設名）')(Tgt=NA: placeholder '別の目的地（地名・施設名）') 口頭で目的地を伝える際に、地名や施設名の聞き間違いが発生しやすい。アプリ利用で防止可能。,True,pchan_ridesharego,https://p-chan.jp/taxi/column/rideshare-go,日本語,"['タクシー', 'ライドシェア', '配車アプリ', '聞き間違い', '交通', 'IT', 'コミュニケーション', '非母語話者']","['タクシー車内', '道路', 'スマートフォンアプリ', '通信環境', '騒音環境']"

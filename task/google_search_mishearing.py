@@ -13,6 +13,9 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from app import MishearingApp
 
+# TODO
+# 1. 以下のEndpointが機能しているか確かめる
+# 2. Rerunしたときでも再度おなじURLを検索しないよう修正
 GOOGLE_SEARCH_ENDPOINT = "https://api.apify.com/v2/acts/apify~google-search-scraper/run-sync-get-dataset-items"
 MISHEARING_SCRAPE_AND_SAVER_ENDPOINT = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
 API_URL_CATEGORIZE_CSV_ENDPOINT = "http://localhost:7860/api/v1/run/8e66efed-1840-42e0-9778-9ced64bf978d"
@@ -150,10 +153,14 @@ if st.button("Run Scrape and Save"):
         if url_tgt in URL_SET:
             st.warning(f"URL `{url_tgt}` はすでに存在します。スキップします。")
             continue
-        json_out = mishearing_scrape_and_save(url_tgt, description_tgt, save_path)
-        json_out = json.loads(json_out["outputs"][0]["outputs"][0]["outputs"]["message"]["message"] )
-        st.json(json_out)  # Assuming the output is in this format
-        st.write(json_out[0]["URL"])  # かならず1件はあるはずなので、最初の要素を表示
+        try:
+            st.write(f"Scraping URL: {url_tgt}")
+            json_out = mishearing_scrape_and_save(url_tgt, description_tgt, save_path)
+            json_out = json.loads(json_out["outputs"][0]["outputs"][0]["outputs"]["message"]["message"] )
+            st.json(json_out)  # Assuming the output is in this format
+            st.write(json_out[0]["URL"])  # かならず1件はあるはずなので、最初の要素を表示
+        except Exception as e:
+            st.error(f"Error processing URL `{url_tgt}`: {e}")
 
 st.write("### RelevantとNot Relevantの分類")
 

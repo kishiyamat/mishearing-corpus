@@ -1,0 +1,11 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+komachi816730_001,負うた子に教えられて浅瀬を渡る,大タコに教えられて浅瀬を渡る,ことわざの誤変換,小学生時代の誤変換,True,komachi816730,https://komachi.yomiuri.co.jp/topics/id/816730/,,,日本語,"['聞き間違い', '脳内誤変換', 'ことわざ']","['家庭', '学校']"
+komachi816730_002,大英博物館,ダイエー博物館,テレビ音声,高校生時代の誤変換,True,komachi816730,https://komachi.yomiuri.co.jp/topics/id/816730/,,,日本語,"['聞き間違い', '脳内誤変換', 'ニュース']","['家庭', 'テレビ']"
+komachi816730_003,タイ風焼きそば,台風焼きそば,飲食店での案内,飲み屋での誤変換,True,komachi816730,https://komachi.yomiuri.co.jp/topics/id/816730/,,,日本語,"['聞き間違い', '脳内誤変換', '食べ物']",['飲食店']
+komachi816730_004,赤い紐,赤い干物,職場での会話,用箋ばさみの紐,True,komachi816730,https://komachi.yomiuri.co.jp/topics/id/816730/,,,日本語,"['聞き間違い', '脳内誤変換', '職場']",['職場']
+komachi816730_005,貼る場所,春場所,職場での会話,掲示板前での誤変換,True,komachi816730,https://komachi.yomiuri.co.jp/topics/id/816730/,,,日本語,"['聞き間違い', '脳内誤変換', '職場']",['職場']
+komachi816730_006,線対称・点対称,戦隊ショー・天体ショー,子供の質問,小学生の息子との会話,True,komachi816730,https://komachi.yomiuri.co.jp/topics/id/816730/,,,日本語,"['聞き間違い', '脳内誤変換', '子供']",['家庭']
+komachi816730_007,波浪注意報,ハロー注意報,天気予報,子供時代の誤変換,True,komachi816730,https://komachi.yomiuri.co.jp/topics/id/816730/,,,日本語,"['聞き間違い', '脳内誤変換', '天気']","['家庭', 'テレビ']"
+komachi816730_008,猪突猛進,ちょっと摘もう心,四字熟語の誤解,幼少期の誤変換,True,komachi816730,https://komachi.yomiuri.co.jp/topics/id/816730/,,,日本語,"['聞き間違い', '脳内誤変換', 'ことわざ']","['家庭', '学校']"
+komachi816730_009,異人さん,ニンジンさん,童謡「赤い靴」,歌詞の聞き間違い,True,komachi816730,https://komachi.yomiuri.co.jp/topics/id/816730/,,,日本語,"['聞き間違い', '脳内誤変換', '歌詞']","['家庭', '学校']"
+komachi816730_010,汚職事件,お食事券,ニュース,ニュースの聞き間違い,True,komachi816730,https://komachi.yomiuri.co.jp/topics/id/816730/,,,日本語,"['聞き間違い', '脳内誤変換', 'ニュース']","['家庭', 'テレビ']"

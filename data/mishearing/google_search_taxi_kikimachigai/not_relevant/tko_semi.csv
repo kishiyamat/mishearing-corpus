@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tko_sakura_semi_001,,,インターホン越しは注意,(Src=NA: 具体的な発話内容不明)(Tgt=NA: 具体的な誤聴内容不明) インターホン越しの会話で商品名や数量、部屋番号などが聞き間違えられることが多いとされるが、明示的な事例記載なし。descriptionからの推定。,True,tko_sakura_semi,http://tko.sakura.ne.jp/semi/IT%82%C5%81u%90%DA%8Bq%97%CD%81v%82%F0%8D%82%82%DF%82%E9%25E3%2580%2580%83%5E%83b%83%60%83p%83l%83%8B%81AIC%83J%81%5B%83h%82%F0%83t%83%8B%8A%88%97p.htm,日本語,"['サービス業', '小売', '飲食店', 'タクシー', 'ホテル', 'インターホン', '聞き間違い', 'コミュニケーション', '音声認識', 'IT活用']","['店舗', '飲食店', 'タクシー', 'ホテル', 'インターホン越し', '雑音あり']"

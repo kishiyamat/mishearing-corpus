@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,DocID,URL,Note,OriginalFlag,Language,Tags,Envs
+taxi_hisohiso_001,,,taxi_hisohiso,https://www.amazon.co.jp/dp/B00FTPFUHE,(Src=NA: 具体的な地名の発話文未記載)(Tgt=NA: 具体的な誤聴形未記載),True,日本語,"['タクシー', '職業体験', '聞き間違い', '地名', 'コミュニケーション', '日本語', '非母語話者']","['タクシー車内', '都市部', '交通騒音', '対話']"

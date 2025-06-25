@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+prtimes_000000008_000012813_001,,,住所ははっきり伝えましょう,(Src=NA: placeholder '住所（例：○○町）')(Tgt=NA: placeholder '別の住所（例：△△町）') 電話受付時に住所の聞き間違いが発生しやすい。タクシーダッシュボタン導入で解消。,True,prtimes_000000008_000012813,https://prtimes.jp/main/html/rd/p/000000008.000012813.html,日本語,"['タクシー', '配車', 'IoT', '高齢者', '住所', '聞き間違い', '電話対応', 'ユニバーサルデザイン', '日本', '新潟', '宮城', '沖縄']","['タクシー配車受付（電話）', '高齢者の自宅', '通信環境', 'ノイズの多い電話環境']"

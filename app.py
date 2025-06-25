@@ -16,7 +16,7 @@ def extract_dir(path_str: str) -> str:
         return ""
 
 # ───────────────────────── I/O helpers ───────────────────────── #
-@st.cache_data(show_spinner=False)
+# @st.cache_data(show_spinner=False)
 def load_csv_tree(root: str, *, exclude: str | None = None) -> pd.DataFrame:
     pat = os.path.join(root, "**/*.csv")
     files = [f for f in glob.glob(pat, recursive=True) if not exclude or exclude not in f]

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+s99t_fc2web_blog1_001,,,クリアに確認すること,(Src=NA: 具体的な発話文・地名が記載されていない)(Tgt=NA: 具体的な誤聴形が記載されていない) タクシー営業所で、乗客の指示を聞き間違えて違う場所に停車した事例（descriptionより推定）,True,s99t_fc2web_blog1,http://s99t.fc2web.com/blog1.html,日本語,"['タクシー', '聞き間違い', '勘違い', '交通', '接客', '日本語']","['タクシー車内', '道路', '交通騒音', '無線/インターホン', '運転中']"

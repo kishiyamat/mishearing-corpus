@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+taxi_japan_TaxiKatsuyaku_001,配車先,別の配車先,無線は明瞭に伝えること、復唱確認を徹底することが推奨される。,(Src=NA: 具体的な地名・住所が記載されていないため)(Tgt=NA: 具体的な地名・住所が記載されていないため) 配車無線で配車先の聞き間違いが多いとされる事例。,True,taxi_japan_TaxiKatsuyaku,http://www.taxi-japan.or.jp/pdf/TaxiKatsuyakuGuideline.pdf,日本語,"['タクシー', '配車', '聞き間違い', '無線', 'ヒューマンエラー']","['タクシー車内', '配車センター', '無線通信', '雑音']"
