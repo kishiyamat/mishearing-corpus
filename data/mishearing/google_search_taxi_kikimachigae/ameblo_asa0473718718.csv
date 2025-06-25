@@ -1,0 +1,5 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+ameblo_asa0473718718_001,鎌倉にお願いします。,鎌倉にお願いします。,地名は複数あるので区や市まで確認する。,乗客は葛飾区の鎌倉を希望したが、ドライバーは神奈川県鎌倉市と勘違い。,True,ameblo_asa0473718718,https://ameblo.jp/asa0473718718/entry-12905879628.html,乗客,ドライバー,ja
+ameblo_asa0473718718_002,洗足までお願いします。,千束までお願いします。,地名は複数あるので区や町名まで確認する。,乗客は目黒区洗足を希望したが、ドライバーは台東区千束と勘違い。,True,ameblo_asa0473718718,https://ameblo.jp/asa0473718718/entry-12905879628.html,乗客,ドライバー,ja
+ameblo_asa0473718718_003,錦糸町までお願いします。,警視庁までお願いします。,発音が似ている地名は特に注意。,乗客の「錦糸町」を「警視庁」と聞き間違えた。,True,ameblo_asa0473718718,https://ameblo.jp/asa0473718718/entry-12905879628.html,乗客,ドライバー,ja
+ameblo_asa0473718718_004,銀座の松屋にお願いします。,銀座の松屋にお願いします。,店舗名は業態や場所を明確に伝える。,乗客の「銀座の松屋（百貨店）」を牛丼チェーンの松屋と勘違い。,True,ameblo_asa0473718718,https://ameblo.jp/asa0473718718/entry-12905879628.html,乗客,ドライバー,ja

@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-seishian_bijutsu3_001,誠之会（せいしかい）,選手会（せんしゅかい）,団体名や固有名詞ははっきり発音し、繰り返し伝えると誤解を防げる。,タクシー運転手が「誠之会」を「選手会」と聞き間違え、競艇場に向かった。,True,seishian_bijutsu3,https://seishian.com/%E7%BE%8E%E8%A1%93%E3%83%84%E3%82%A2%E3%83%BC3%E6%97%A5%E7%9B%AE-2/,driver,customer,ja,"['旅行', '美術ツアー', '聞き間違い', 'タクシー', 'コミュニケーション', '日本語']","['タクシー車内', '旅行中', '朝', '目的地案内']"

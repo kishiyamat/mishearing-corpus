@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-taxidriver_12777586_001,千里山,千里丘,地名ははっきり伝えること,タクシー運転手が「千里山」と「千里丘」を聞き間違え、目的地を誤った。地名の類似性と車内ノイズが原因。,True,taxidriver_12777586,https://taxidriver.blog.jp/archives/12777586.html,日本語,"['タクシー', '聞き間違い', '地名', '交通', 'トラブル', 'コミュニケーション']","['タクシー車内', '運転手と乗客の会話', '走行中', 'ノイズ', '車載マイク']"

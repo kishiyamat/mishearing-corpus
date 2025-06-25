@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-flugzeug_20190225_001,N,M,航空無線で誘導路名などを伝える際、「N」を「M」と聞き間違える可能性があるため、フォネティックコードが使われる。,,True,flugzeug_20190225,https://flugzeug.hatenablog.com/entry/2019/02/25/173000,日本語,"['航空', '無線通信', 'フォネティックコード', '聞き間違い', 'アルファベット', '管制', 'パイロット', '非母語話者']","['航空無線', '管制塔', 'コックピット', '無線通信環境', 'ノイズあり', 'ヘッドセットマイク']"
