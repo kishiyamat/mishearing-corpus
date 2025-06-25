@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+tiktok_taxi_china_001,上海（Shànghǎi）,山海（Shānhǎi）,声調に注意,中国語の地名の声調違いによる聞き間違い。電話やアプリでの配車時に発生しやすい。,True,tiktok_taxi_china,https://www.tiktok.com/discover/%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E9%85%8D%E8%BB%8A%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84-%E4%B8%AD%E5%9B%BD,,,zh
+tiktok_taxi_china_002,南京東路（Nánjīng Dōng Lù）,南京西路（Nánjīng Xī Lù）,東西に注意,路名の「東」「西」の聞き間違い。運転手が違う方向に向かうトラブル。,True,tiktok_taxi_china,https://www.tiktok.com/discover/%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E9%85%8D%E8%BB%8A%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84-%E4%B8%AD%E5%9B%BD,,,zh
+tiktok_taxi_china_003,空港（jīchǎng）,市場（shìchǎng）,発音に注意,母音・子音の違いによる聞き間違い。特に非母語話者が発音した場合に発生しやすい。,True,tiktok_taxi_china,https://www.tiktok.com/discover/%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E9%85%8D%E8%BB%8A%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84-%E4%B8%AD%E5%9B%BD,,,zh
