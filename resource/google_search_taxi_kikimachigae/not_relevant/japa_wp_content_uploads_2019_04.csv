@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+atc_comm_handbook_001,サイン,ルサイン,注意が必要,無線通信で「サイン」と言ったつもりが「ルサイン」と聞き間違えられた事例。,True,atc_comm_handbook,https://www.japa.or.jp/wp-content/uploads/2019/04/ATC_Communication_Handbook_JP.pdf,日本語,"['航空', '航空管制', '聞き間違い', 'コミュニケーション', '非母語話者', '英語', '日本語']","['空港', '管制塔', '航空無線', 'ノイズあり', '無線通信', 'ヘッドセットマイク']"
+atc_comm_handbook_002,RWY36 の進入端近くまでタクシーして待機,本来の指示と異なる解釈,注意が必要,指示が「RWY36 の進入端近くまでタクシーして待機」と誤解されやすい。,True,atc_comm_handbook,https://www.japa.or.jp/wp-content/uploads/2019/04/ATC_Communication_Handbook_JP.pdf,日本語,"['航空', '航空管制', '聞き間違い', 'コミュニケーション', '非母語話者', '英語', '日本語']","['空港', '管制塔', '航空無線', 'ノイズあり', '無線通信', 'ヘッドセットマイク']"

@@ -521,3 +521,267 @@ KOREA,ja,韓国
 KOREA,en,Korea
 CLASS,ja,クラス
 CLASS,en,class
+BAR,ja,バー
+BAR,en,bar
+J_POP,ja,Jポップ
+J_POP,en,J-pop
+MOUGAKKOU,ja,盲学校
+MOUGAKKOU,en,school for the blind
+ADDRESS,ja,住所
+ADDRESS,en,address
+ADVERTISING,ja,広告
+ADVERTISING,en,advertising
+GAKKOU,ja,学校
+GAKKOU,en,school
+ROUGAKKOU,ja,聾学校
+ROUGAKKOU,en,school for the deaf
+CONTROL,ja,制御
+CONTROL,en,control
+BUILDING_NAME,ja,建物名
+BUILDING_NAME,en,building name
+MEMO,ja,メモ
+MEMO,en,memo
+KYOUIKU,ja,教育
+KYOUIKU,en,education
+ART_TOUR,ja,アートツアー
+ART_TOUR,en,art tour
+URBAN_LIFE,ja,都市生活
+URBAN_LIFE,en,urban life
+ABBREVIATION,ja,略語
+ABBREVIATION,en,abbreviation
+AUTOMOBILE,ja,自動車
+AUTOMOBILE,en,automobile
+SIGHTSEEING,ja,観光
+SIGHTSEEING,en,sightseeing
+CROSS_CULTURAL_COMMUNICATION,ja,異文化コミュニケーション
+CROSS_CULTURAL_COMMUNICATION,en,cross-cultural communication
+EMBARRASSING_EXPERIENCE,ja,恥ずかしい経験
+EMBARRASSING_EXPERIENCE,en,embarrassing experience
+KAIGO_TAXI,ja,介護タクシー
+KAIGO_TAXI,en,care taxi
+KOREAN_LANGUAGE,ja,韓国語
+KOREAN_LANGUAGE,en,Korean language
+HOTEL,ja,ホテル
+HOTEL,en,hotel
+KOREAN,ja,韓国
+KOREAN,en,Korea
+CHINA,ja,中国
+CHINA,en,China
+PHONE_NUMBER,ja,電話番号
+PHONE_NUMBER,en,phone number
+HANASHIKATA,ja,話し方
+HANASHIKATA,en,speaking style
+COUNTRYSIDE,ja,田舎
+COUNTRYSIDE,en,countryside
+OFFICIAL_NOTATION,ja,公式表記
+OFFICIAL_NOTATION,en,official notation
+AVIATION,ja,航空
+AVIATION,en,aviation
+BUSINESS_ENGLISH,ja,ビジネス英語
+BUSINESS_ENGLISH,en,business English
+KAGAWA_PREFECTURE,ja,香川県
+KAGAWA_PREFECTURE,en,Kagawa Prefecture
+PHRASE_EXPLANATION,ja,フレーズの説明
+PHRASE_EXPLANATION,en,phrase explanation
+IBUNKA_COMMUNICATION,ja,異文化コミュニケーション
+IBUNKA_COMMUNICATION,en,cross-cultural communication
+JIKAN,ja,時間
+JIKAN,en,time
+GUIDANCE,ja,案内
+GUIDANCE,en,guidance
+PONCHA,ja,ポンチャ
+PONCHA,en,Poncha
+TAIWAN,ja,台湾
+TAIWAN,en,Taiwan
+TENDON,ja,天丼
+TENDON,en,tempura rice bowl
+SHOUDOSHIMA,ja,小豆島
+SHOUDOSHIMA,en,Shodoshima
+ISLAND,ja,島
+ISLAND,en,island
+STATION_NAME,ja,駅名
+STATION_NAME,en,station name
+FILMING_LOCATION,ja,撮影場所
+FILMING_LOCATION,en,filming location
+BUS,ja,バス
+BUS,en,bus
+TENKASU,ja,天かす
+TENKASU,en,tempura bits
+TALK,ja,話
+TALK,en,talk
+SURVIVAL_FOOD,ja,非常食
+SURVIVAL_FOOD,en,survival food
+TSUIN,ja,通院
+TSUIN,en,hospital visit
+BAITO,ja,バイト
+BAITO,en,part-time job
+KAIGO_TAKUSHI,ja,介護タクシー
+KAIGO_TAKUSHI,en,care taxi
+KODOMO,ja,子ども
+KODOMO,en,child
+TV_PROGRAM,ja,テレビ番組
+TV_PROGRAM,en,TV program
+MENKYO,ja,免許
+MENKYO,en,license
+FACILITY,ja,施設
+FACILITY,en,facility
+BEIJING,ja,北京
+BEIJING,en,Beijing
+MATSUYAMA,ja,松山
+MATSUYAMA,en,Matsuyama
+TAXI,ja,タクシー
+TAXI,en,taxi
+DAILY_CONVERSATION,ja,日常会話
+DAILY_CONVERSATION,en,daily conversation
+HEARING_DISABILITY,ja,聴覚障害
+HEARING_DISABILITY,en,hearing disability
+UTA,ja,歌
+UTA,en,song
+SORAUMI,ja,空海
+SORAUMI,en,sky and sea
+WIRELESS_COMMUNICATION,ja,無線通信
+WIRELESS_COMMUNICATION,en,wireless communication
+TRAFFIC_GUIDANCE,ja,交通案内
+TRAFFIC_GUIDANCE,en,traffic guidance
+GUNMA_TOYOTA,ja,群馬トヨタ
+GUNMA_TOYOTA,en,Gunma Toyota
+NIHONGO,ja,日本語
+NIHONGO,en,Japanese
+CLUB_ACTIVITY,ja,クラブ活動
+CLUB_ACTIVITY,en,club activity
+ITALY,ja,イタリア
+ITALY,en,Italy
+OCCUPATION,ja,職業
+OCCUPATION,en,occupation
+KATSUZETSU,ja,滑舌
+KATSUZETSU,en,articulation
+DAILY_ENGLISH_CONVERSATION,ja,日常英会話
+DAILY_ENGLISH_CONVERSATION,en,daily English conversation
+KAIGAI_SHUCCHO,ja,海外出張
+KAIGAI_SHUCCHO,en,overseas business trip
+GEONAME_MADEIRA,ja,地名マデイラ
+GEONAME_MADEIRA,en,place name Madeira
+HOMOPHONE,ja,同音異義語
+HOMOPHONE,en,homophone
+ALBUM,ja,アルバム
+ALBUM,en,album
+ACCESS_ANNNAI,ja,アクセス案内
+ACCESS_ANNNAI,en,access guide
+ORDER,ja,注文
+ORDER,en,order
+COCKTAIL,ja,カクテル
+COCKTAIL,en,cocktail
+CAR_NAVIGATION,ja,カーナビ
+CAR_NAVIGATION,en,car navigation
+PERSON_NAME,ja,人名
+PERSON_NAME,en,person name
+DRIVER,ja,運転手
+DRIVER,en,driver
+AMOUNT,ja,金額
+AMOUNT,en,amount
+CHIBA,ja,千葉
+CHIBA,en,Chiba
+KANCHIGAI,ja,勘違い
+KANCHIGAI,en,misunderstanding
+NUMBER_PLATE,ja,ナンバープレート
+NUMBER_PLATE,en,number plate
+KIKIMACHI_GAI,ja,聞き間違い
+KIKIMACHI_GAI,en,mishearing
+INTERVIEW,ja,インタビュー
+INTERVIEW,en,interview
+TROUBLE_PREVENTION,ja,トラブル防止
+TROUBLE_PREVENTION,en,trouble prevention
+COMPLAINT,ja,苦情
+COMPLAINT,en,complaint
+CHINESE,ja,中国語
+CHINESE,en,Chinese
+EMBARRASSMENT,ja,恥ずかしさ
+EMBARRASSMENT,en,embarrassment
+PORTUGAL,ja,ポルトガル
+PORTUGAL,en,Portugal
+PERSONAL_EXPERIENCE,ja,個人的な経験
+PERSONAL_EXPERIENCE,en,personal experience
+HOSPITAL,ja,病院
+HOSPITAL,en,hospital
+TOKYU_LINE,ja,東急線
+TOKYU_LINE,en,Tokyu Line
+YOKOHAMA,ja,横浜
+YOKOHAMA,en,Yokohama
+PILOT,ja,パイロット
+PILOT,en,pilot
+KOREISHA,ja,高齢者
+KOREISHA,en,elderly
+SAITAMA,ja,埼玉
+SAITAMA,en,Saitama
+GEIMEI,ja,芸名
+GEIMEI,en,stage name
+JAPANESE_TRAVELER,ja,日本人旅行者
+JAPANESE_TRAVELER,en,Japanese traveler
+TROUBLE,ja,トラブル
+TROUBLE,en,trouble
+SHIGA_PREFECTURE,ja,滋賀県
+SHIGA_PREFECTURE,en,Shiga Prefecture
+CROSS_CULTURAL_EXPERIENCE,ja,異文化体験
+CROSS_CULTURAL_EXPERIENCE,en,cross-cultural experience
+YOYAKU,ja,予約
+YOYAKU,en,reservation
+YOSHIZAWAKAYOKO,ja,吉沢京子
+YOSHIZAWAKAYOKO,en,Yoshizawa Kyoko
+CREATION,ja,創作
+CREATION,en,creation
+SURNAME,ja,姓
+SURNAME,en,surname
+GYOMU_KAIZEN,ja,業務改善
+GYOMU_KAIZEN,en,work improvement
+IR,ja,IR
+IR,en,IR
+MARUGAME_SEIMEN,ja,丸亀製麺
+MARUGAME_SEIMEN,en,Marugame Seimen
+CAMPUS,ja,キャンパス
+CAMPUS,en,campus
+NIKITA,ja,ニキータ
+NIKITA,en,Nikita
+KANAGAWA,ja,神奈川
+KANAGAWA,en,Kanagawa
+DENWA_TAI_O,ja,電話対応
+DENWA_TAI_O,en,phone support
+KAIGO,ja,介護
+KAIGO,en,care
+STAGE_GREETING,ja,舞台挨拶
+STAGE_GREETING,en,stage greeting
+UNIVERSITY,ja,大学
+UNIVERSITY,en,university
+TRIVIA,ja,雑学
+TRIVIA,en,trivia
+FACILITY_NAME,ja,施設名
+FACILITY_NAME,en,facility name
+FOUR_PANEL_COMIC,ja,四コマ漫画
+FOUR_PANEL_COMIC,en,four-panel comic
+TOURIST_TROUBLE,ja,観光客トラブル
+TOURIST_TROUBLE,en,tourist trouble
+PRACTICAL_ENGLISH,ja,実用英語
+PRACTICAL_ENGLISH,en,practical English
+KOUZUSHIMA,ja,神津島
+KOUZUSHIMA,en,Kouzushima
+TAXI_DRIVER,ja,タクシー運転手
+TAXI_DRIVER,en,taxi driver
+CAPITAL_REGION,ja,首都圏
+CAPITAL_REGION,en,capital region
+NICHIJOU_KAIWA,ja,日常会話
+NICHIJOU_KAIWA,en,daily conversation
+PUBLIC_TRANSPORT,ja,公共交通機関
+PUBLIC_TRANSPORT,en,public transport
+TOKYO,ja,東京
+TOKYO,en,Tokyo
+TIME,ja,時間
+TIME,en,time
+WELFARE,ja,福祉
+WELFARE,en,welfare
+CAFE,ja,カフェ
+CAFE,en,cafe
+YUKI,ja,雪
+YUKI,en,snow
+TAMA,ja,多摩
+TAMA,en,Tama
+PROFESSIONALISM,ja,プロ意識
+PROFESSIONALISM,en,professionalism

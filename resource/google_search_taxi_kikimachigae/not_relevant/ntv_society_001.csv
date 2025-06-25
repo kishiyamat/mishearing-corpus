@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+newsntv_df7426d38f9f49518d78_001,行き先の指示,別の行き先・誤認,聞き取りに自信がない場合は復唱や確認を徹底することが重要。,タクシー運転手が乗客の行き先指示を聞き間違えたことで、乗客が激昂し暴言を吐いたカスハラ事例。(Src=NA: 具体的な発話文が記事中に明記されていない)(Tgt=NA: 誤認内容が明記されていない),True,newsntv_df7426d38f9f49518d78,https://news.ntv.co.jp/category/society/df7426d38f9f49518d78143ccb4c0e94,日本語,"['カスタマーハラスメント', 'タクシー', '職場のトラブル', '聞き間違い', '社会問題', '暴言', '東京都条例', '接客']","['タクシー車内', 'ドライブレコーダー録音']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nikkei_DGKKZO70254800_001,配車先の地名や住所,別の地名や住所,クリアに確認すること,電話での配車依頼時、オペレーターが配車先を聞き間違え、誤配車が発生していた。システム導入で低減。,True,nikkei_DGKKZO70254800,https://www.nikkei.com/article/DGKKZO70254800X10C23A4L21000/,日本語,"['タクシー', '配車', '聞き間違い', 'システム導入', '業務効率化', '交通', '日本語']","['電話', '配車センター', 'オフィス', '通信環境', 'ノイズ']"

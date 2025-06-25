@@ -433,3 +433,229 @@ KOREA,ja,韓国
 KOREA,en,Korea
 NOISE_OR_WEAK_PRONUNCIATION,ja,ノイズまたは弱い発音
 NOISE_OR_WEAK_PRONUNCIATION,en,noise or weak pronunciation
+RAINY_DAY,ja,雨天
+RAINY_DAY,en,rainy day
+BAR,ja,バー
+BAR,en,bar
+VOICE_COMMUNICATION,ja,音声通信
+VOICE_COMMUNICATION,en,voice communication
+GAKKOU,ja,学校
+GAKKOU,en,school
+KAIGO_TAXI_CAR,ja,介護タクシー車
+KAIGO_TAXI_CAR,en,care taxi car
+QUIET_PLACE,ja,静かな場所
+QUIET_PLACE,en,quiet place
+NO_LOCAL_KNOWLEDGE,ja,地元知識なし
+NO_LOCAL_KNOWLEDGE,en,no local knowledge
+OFFICIAL_DOCUMENT,ja,公式文書
+OFFICIAL_DOCUMENT,en,official document
+URBAN_SUBURBAN,ja,都市郊外
+URBAN_SUBURBAN,en,urban suburban
+RAIN,ja,雨
+RAIN,en,rain
+URBAN_AREA_SHINJUKU_DEPARTURE,ja,新宿発都市エリア
+URBAN_AREA_SHINJUKU_DEPARTURE,en,urban area Shinjuku departure
+SAKING_GENBA,ja,作業現場
+SAKING_GENBA,en,work site
+CAR_NOISE,ja,車の騒音
+CAR_NOISE,en,car noise
+SIMILAR_STORE_NAME_ENVIRONMENT,ja,類似店舗名環境
+SIMILAR_STORE_NAME_ENVIRONMENT,en,similar store name environment
+URBAN_SUBURBS,ja,都市郊外
+URBAN_SUBURBS,en,urban suburbs
+DRIVER_AND_PASSENGER,ja,運転手と乗客
+DRIVER_AND_PASSENGER,en,driver and passenger
+TAIMEN,ja,対面
+TAIMEN,en,face-to-face
+NOISE_AUDIENCE_LAUGHTER,ja,観客の笑い声
+NOISE_AUDIENCE_LAUGHTER,en,audience laughter noise
+TV_MICROPHONE,ja,テレビマイク
+TV_MICROPHONE,en,TV microphone
+DRIVER_PASSENGER_CONVERSATION,ja,運転手と乗客の会話
+DRIVER_PASSENGER_CONVERSATION,en,driver-passenger conversation
+NAVIGATION_USE,ja,ナビ使用
+NAVIGATION_USE,en,navigation use
+FERRY_HIGH_SPEED_BOAT,ja,高速船
+FERRY_HIGH_SPEED_BOAT,en,high-speed boat
+URBAN_AREA,ja,都市エリア
+URBAN_AREA,en,urban area
+INTERVIEW_SITE,ja,インタビュー現場
+INTERVIEW_SITE,en,interview site
+BUSINESS_TRIP,ja,出張
+BUSINESS_TRIP,en,business trip
+HANASHIKATA_KYOSHITSU,ja,話し方教室
+HANASHIKATA_KYOSHITSU,en,speaking class
+DRIVING,ja,運転
+DRIVING,en,driving
+CROWD,ja,群衆
+CROWD,en,crowd
+TAIWAN,ja,台湾
+TAIWAN,en,Taiwan
+COCKPIT,ja,コックピット
+COCKPIT,en,cockpit
+TAXI_CAR,ja,タクシー車
+TAXI_CAR,en,taxi car
+TV_PROGRAM_RECORDING_STUDIO,ja,テレビ番組収録スタジオ
+TV_PROGRAM_RECORDING_STUDIO,en,TV program recording studio
+RADIO_STATION,ja,ラジオ局
+RADIO_STATION,en,radio station
+DESTINATION_GUIDANCE,ja,目的地案内
+DESTINATION_GUIDANCE,en,destination guidance
+REGION_CHIBA_NAGANAMACHI,ja,千葉県長南町
+REGION_CHIBA_NAGANAMACHI,en,Chiba Naganamachi region
+SEOUL_CITY,ja,ソウル市
+SEOUL_CITY,en,Seoul city
+IN_TRANSIT,ja,移動中
+IN_TRANSIT,en,in transit
+BEIJING_CITY,ja,北京市
+BEIJING_CITY,en,Beijing city
+AFTER_LONG_SHOOTING,ja,長時間撮影後
+AFTER_LONG_SHOOTING,en,after long shooting
+KYOSHITSU,ja,教室
+KYOSHITSU,en,classroom
+VERBAL_COMMUNICATION,ja,言語コミュニケーション
+VERBAL_COMMUNICATION,en,verbal communication
+CONTROL_TOWER,ja,管制塔
+CONTROL_TOWER,en,control tower
+TRAFFIC_NOISE,ja,交通騒音
+TRAFFIC_NOISE,en,traffic noise
+RAILWAY_STATION,ja,鉄道駅
+RAILWAY_STATION,en,railway station
+OVERSEAS_HOTEL,ja,海外ホテル
+OVERSEAS_HOTEL,en,overseas hotel
+TRAFFIC_GUIDANCE,ja,交通案内
+TRAFFIC_GUIDANCE,en,traffic guidance
+MARKET,ja,市場
+MARKET,en,market
+KAIGO_TAXI_WORKPLACE,ja,介護タクシー職場
+KAIGO_TAXI_WORKPLACE,en,care taxi workplace
+CLUB_ACTIVITY,ja,クラブ活動
+CLUB_ACTIVITY,en,club activity
+MEETING_POINT,ja,待ち合わせ場所
+MEETING_POINT,en,meeting point
+SPORTS_CAFE,ja,スポーツカフェ
+SPORTS_CAFE,en,sports cafe
+ENGLISH_FRONT_DESK,ja,英語フロントデスク
+ENGLISH_FRONT_DESK,en,English front desk
+KATSUZETSU,ja,滑舌
+KATSUZETSU,en,articulation
+CAR_MOUNTED_MIC,ja,車載マイク
+CAR_MOUNTED_MIC,en,car-mounted mic
+TOURIST_SPOT,ja,観光地
+TOURIST_SPOT,en,tourist spot
+GERMANY_DUSSELDORF,ja,ドイツデュッセルドルフ
+GERMANY_DUSSELDORF,en,Germany Düsseldorf
+DOZING_OFF,ja,居眠り
+DOZING_OFF,en,dozing off
+WHILE_DRIVING,ja,運転中
+WHILE_DRIVING,en,while driving
+IZAKAYA,ja,居酒屋
+IZAKAYA,en,izakaya
+HOTEL_LOBBY,ja,ホテルロビー
+HOTEL_LOBBY,en,hotel lobby
+SPEECH,ja,スピーチ
+SPEECH,en,speech
+ON_THE_WAY_TO_HOSPITAL,ja,病院への途中
+ON_THE_WAY_TO_HOSPITAL,en,on the way to hospital
+STATION_TICKET_COUNTER,ja,駅の切符売り場
+STATION_TICKET_COUNTER,en,station ticket counter
+ROAD,ja,道路
+ROAD,en,road
+TRAVELER_AND_DRIVER,ja,旅行者と運転手
+TRAVELER_AND_DRIVER,en,traveler and driver
+JOUKYAKU_FEW_SHIZUKANA_KANKYOU,ja,乗客少ない静かな環境
+JOUKYAKU_FEW_SHIZUKANA_KANKYOU,en,few passengers quiet environment
+NOISE_RAIN_CAR_INTERIOR,ja,雨の車内ノイズ
+NOISE_RAIN_CAR_INTERIOR,en,rain car interior noise
+JOUGO_BUS_CAR_NAI,ja,乗合バス車内
+JOUGO_BUS_CAR_NAI,en,shared bus interior
+HEADSET_MIC,ja,ヘッドセットマイク
+HEADSET_MIC,en,headset mic
+CHIHOU_YAMANASHI,ja,地方山梨
+CHIHOU_YAMANASHI,en,rural Yamanashi
+NOISE_CAR_PHONE,ja,車内電話ノイズ
+NOISE_CAR_PHONE,en,car phone noise
+ROAD_DRIVING_NOISE,ja,道路運転ノイズ
+ROAD_DRIVING_NOISE,en,road driving noise
+PASSENGER_COMPANY_EMPLOYEE,ja,乗客会社員
+PASSENGER_COMPANY_EMPLOYEE,en,passenger company employee
+STUDIO_NOISE,ja,スタジオノイズ
+STUDIO_NOISE,en,studio noise
+KOREA_SEOUL,ja,韓国ソウル
+KOREA_SEOUL,en,Korea Seoul
+TRAVELING,ja,旅行中
+TRAVELING,en,traveling
+KOE,ja,声
+KOE,en,voice
+EARLY_MORNING,ja,早朝
+EARLY_MORNING,en,early morning
+UNILATERAL_HEARING_LOSS,ja,片側難聴
+UNILATERAL_HEARING_LOSS,en,unilateral hearing loss
+AIRCRAFT_RADIO,ja,航空機無線
+AIRCRAFT_RADIO,en,aircraft radio
+REAL_CUSTOMER_SERVICE_SCENE,ja,実際の接客場面
+REAL_CUSTOMER_SERVICE_SCENE,en,real customer service scene
+DRUNK_PASSENGER,ja,酔った乗客
+DRUNK_PASSENGER,en,drunk passenger
+GEOGRAPHIC_KNOWLEDGE_GAP,ja,地理知識のギャップ
+GEOGRAPHIC_KNOWLEDGE_GAP,en,geographic knowledge gap
+PHONE_RESERVATION,ja,電話予約
+PHONE_RESERVATION,en,phone reservation
+FOREIGN_LANGUAGE_ENVIRONMENT,ja,外国語環境
+FOREIGN_LANGUAGE_ENVIRONMENT,en,foreign language environment
+TRANSPORTATION,ja,交通
+TRANSPORTATION,en,transportation
+CONVERSATION_WITH_FRIEND,ja,友人との会話
+CONVERSATION_WITH_FRIEND,en,conversation with friend
+MIC_SPEC_UNKNOWN,ja,マイク仕様不明
+MIC_SPEC_UNKNOWN,en,mic spec unknown
+NON_NATIVE_ENGLISH_SPEAKERS,ja,非ネイティブ英語話者
+NON_NATIVE_ENGLISH_SPEAKERS,en,non-native English speakers
+TAXI_INSIDE,ja,タクシー内
+TAXI_INSIDE,en,taxi inside
+LOCAL_RESIDENT_CONVERSATION,ja,地元住民との会話
+LOCAL_RESIDENT_CONVERSATION,en,local resident conversation
+RUNNING,ja,走る
+RUNNING,en,running
+VEHICLE_REGISTRATION,ja,車両登録
+VEHICLE_REGISTRATION,en,vehicle registration
+RADIO_COMMUNICATION_ENVIRONMENT,ja,無線通信環境
+RADIO_COMMUNICATION_ENVIRONMENT,en,radio communication environment
+DRIVER_YOUNG,ja,若い運転手
+DRIVER_YOUNG,en,young driver
+WITH_CAR_NAVIGATION,ja,カーナビ付き
+WITH_CAR_NAVIGATION,en,with car navigation
+HOSPITAL_RECEPTION,ja,病院受付
+HOSPITAL_RECEPTION,en,hospital reception
+NOISY_ENVIRONMENT_ESTIMATED,ja,騒がしい環境推定
+NOISY_ENVIRONMENT_ESTIMATED,en,noisy environment estimated
+CHINESE_LANGUAGE,ja,中国語
+CHINESE_LANGUAGE,en,Chinese language
+MORNING,ja,朝
+MORNING,en,morning
+OVERSEAS,ja,海外
+OVERSEAS,en,overseas
+TEREBI,ja,テレビ
+TEREBI,en,television
+CITY_TOKYO,ja,東京都市
+CITY_TOKYO,en,Tokyo city
+ONSEI_ANNNAI_ONLY_HYOUJI_NASHI,ja,音声案内のみ表示なし
+ONSEI_ANNNAI_ONLY_HYOUJI_NASHI,en,voice guidance only no display
+STAGE_GREETINGS_EVENT,ja,舞台挨拶イベント
+STAGE_GREETINGS_EVENT,en,stage greetings event
+DOCUMENT_FILLING,ja,書類記入
+DOCUMENT_FILLING,en,document filling
+CAR_MIC,ja,車載マイク
+CAR_MIC,en,car mic
+NIGHT,ja,夜
+NIGHT,en,night
+GOVERNMENT_OFFICE_LAND_TRANSPORT_BUREAU,ja,陸運局
+GOVERNMENT_OFFICE_LAND_TRANSPORT_BUREAU,en,land transport bureau
+MIC_PA_AVAILABLE,ja,マイクPA利用可能
+MIC_PA_AVAILABLE,en,mic PA available
+KOREA_TRAVEL,ja,韓国旅行
+KOREA_TRAVEL,en,Korea travel
+NOISE_DRUNK_SPEECH_CAR_ENVIRONMENT,ja,酔った話し声車内ノイズ
+NOISE_DRUNK_SPEECH_CAR_ENVIRONMENT,en,drunk speech car environment noise
+TAXI_INTERIOR,ja,タクシー内装
+TAXI_INTERIOR,en,taxi interior

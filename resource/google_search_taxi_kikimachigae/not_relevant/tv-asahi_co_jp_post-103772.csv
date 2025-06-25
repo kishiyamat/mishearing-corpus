@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+posttv_asahi_103772_001,どっかで降ろせ,オルセー美術館で降ろせ,海外タクシーで注意,パリのタクシーで日本語が地名に聞こえたことで目的地が偶然合致した事例,True,posttv_asahi_103772,https://post.tv-asahi.co.jp/post-103772/,日本語,"['バラエティ', '海外旅行', 'タクシー', '聞き間違い', '番組エピソード', '非母語話者']","['パリ', 'タクシー車内', '異言語環境', '旅行中', 'ノイズ']"

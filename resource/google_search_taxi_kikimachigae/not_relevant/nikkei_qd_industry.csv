@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nikkei_DGXZQOCC134VC0T10C23A4000000_001,NA,NA,クリアに復唱・確認を徹底,(Src=NA: 記事に具体的な配車先名称や住所の例記載なし)(Tgt=NA: 記事に具体的な誤聴先名称や住所の例記載なし),True,nikkei_DGXZQOCC134VC0T10C23A4000000,https://www.nikkei.com/nkd/industry/article/?DisplayType=1&n_m_code=132&ng=DGXZQOCC134VC0T10C23A4000000,日本語,"['タクシー', '配車', '聞き間違い', '交通', 'DX', 'システム導入', '共同配車', '業務効率化']","['電話', '配車室', '交通機関', '通信環境']"

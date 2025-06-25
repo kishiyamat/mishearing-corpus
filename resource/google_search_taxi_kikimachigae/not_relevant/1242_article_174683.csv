@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+news1242_174683_001,NA,NA,ホテル名は正確に伝える,(Src=NA: ホテル名が記事中に明記されていない)(Tgt=NA: 聞き間違えたホテル名が明記されていない),True,news1242_174683,https://news.1242.com/article/174683,日本語,"['芸能', 'ラジオ', '乃木坂46', '旅行', 'ホテル', '聞き間違い', 'コミュニケーション']","['深夜', 'タクシー車内', '札幌市内', '雪・小雨', 'ホテル前']"
