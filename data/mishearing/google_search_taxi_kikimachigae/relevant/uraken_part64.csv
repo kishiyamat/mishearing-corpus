@@ -1,2 +1,2 @@
 MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-uraken_part64_001,第二種運転免許,医師免許,滑舌に注意,滑舌が悪い話者が「第二種運転免許」と言うと「医師免許」と聞き間違えられる。,True,uraken_part64,https://www.uraken.net/ri/part64.html,日本語,"['聞き間違い', '滑舌', '免許', 'コミュニケーション', '日本語']","['日常会話', '対面', '滑舌', '静かな場所']"
+uraken_part64_001,二種免許,医師免許,滑舌に注意,滑舌が悪い話者が「二種免許(第二種運転免許)」と言うと「医師免許」と聞き間違えられる。,True,uraken_part64,https://www.uraken.net/ri/part64.html,日本語,"['聞き間違い', '滑舌', '免許', 'コミュニケーション', '日本語']","['日常会話', '対面', '滑舌', '静かな場所']"

@@ -132,7 +132,9 @@ class MishearingApp:
         dup_ids = self.corpus["MishearID"].value_counts()
         dup_ids = dup_ids[dup_ids > 1].index.tolist()
         if dup_ids:
-            st.warning(f"Duplicate MishearIDs found: {', '.join(dup_ids)}") 
+            dup_paths = self.corpus[self.corpus["MishearID"].isin(dup_ids)][["MishearID", "path"]]
+            st.warning("Duplicate MishearIDs found:")
+            st.dataframe(dup_paths)
 
 # ──────────────────────────── Bootstrap ────────────────────────── #
 
