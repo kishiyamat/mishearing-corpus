@@ -5,15 +5,7 @@ import requests
 from io import StringIO
 import json
 from pathlib import Path
-
-import json
-import requests
 from joblib import Memory
-from pathlib import Path
-import streamlit as st
-import requests
-import json
-import streamlit as st
 
 # 1. Google Search
 memory = Memory(location=Path(".cache"), verbose=0)
