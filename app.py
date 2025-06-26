@@ -1,11 +1,8 @@
 # app.py
-from pathlib import Path
-import pandas as pd
-import streamlit as st
 from datetime import datetime, timezone
-import git
 import os, glob, pandas as pd, streamlit as st
 import pathlib
+import git
 
 def extract_dir(path_str: str) -> str:
     """
@@ -186,7 +183,7 @@ with stats_tab:
 
 def show_history():
     st.subheader("Corpus 行数の推移（Git 履歴から自動取得）")
-    repo = git.Repo(Path(__file__).resolve().parent)
+    repo = git.Repo(pathlib.Path(__file__).resolve().parent)
     records = []
 
     for c in repo.iter_commits(paths="data/mishearing"):
