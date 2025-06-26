@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kyotoben_1069_001,唐揚げ定食,日替わり定食,滑舌に注意,定食屋で「唐揚げ定食」を注文したが、日替わり定食（豚肉のポン酢漬け）が出てきた。滑舌の問題も影響か。,True,kyotoben_1069,https://www.kyotoben.or.jp/pages_kobetu.cfm?id=1069&s=blog,日本語,"['聞き間違い', 'オーダーミス', '飲食店', '滑舌', '日常生活']","['飲食店', '対面注文', '店内環境']"
+kyotoben_1069_002,宇治抹茶ラテ,ホットカフェラテ,滑舌に注意,カフェで「宇治抹茶ラテ」を注文したが、「ホットカフェラテ」が出てきた。滑舌の問題で聞き間違えられた。,True,kyotoben_1069,https://www.kyotoben.or.jp/pages_kobetu.cfm?id=1069&s=blog,日本語,"['聞き間違い', 'オーダーミス', 'カフェ', '滑舌', '日常生活']","['カフェ', '対面注文', '店内環境']"
+kyotoben_1069_003,温めてください,タバコ,滑舌に注意,コンビニでおにぎりを買い「温めてください」と言ったら、店員がタバコを持ってきた。発音の不明瞭さによる聞き間違い。,True,kyotoben_1069,https://www.kyotoben.or.jp/pages_kobetu.cfm?id=1069&s=blog,日本語,"['聞き間違い', 'オーダーミス', 'コンビニ', '滑舌', '日常生活']","['コンビニ', '対面注文', '店内環境']"

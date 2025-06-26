@@ -1,0 +1,25 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+komachi367676_001,C'est tout?,Sept oeufs?,フランス語の発音に注意,パリの食品店で「これで全部ですか？」が「卵を7つですか？」に聞こえた,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,fr
+komachi367676_002,Eiffel Tour,Et fais le tour,フランス語の語順・発音に注意,タクシーで「エッフェル塔」と言ったつもりが「ここで一回回れ」と解釈された,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,fr
+komachi367676_003,Citibank,Shitty bank,s/ʃ/の発音に注意,「シティバンク」が「くそったれ銀行」に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_004,Please sit down,Please shit down,sit/shitの発音に注意,「どうぞお座りください」が「う○こして下さい」に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_005,Beer,Milk,発音に注意,日本人・韓国人の発音で「ビア」が「ミルク」に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,Japanese/Korean,,en
+komachi367676_006,Milk,Beer,発音に注意,日本人・韓国人の発音で「ビア」が「ミルク」に聞こえる逆パターン,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,Japanese/Korean,,en
+komachi367676_007,Concord,観光案内,発音に注意,「コンコルド」と言ったつもりが観光案内に連れて行かれた (Tgt=NA: 意味的誤解),True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_008,No money,飲まねえ,発音に注意,「飲まねえ」が「No money」に聞こえた,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_009,Calpis,Cow piss,商品名に注意,「カルピス」が「牛の尿」に聞こえるため「カルピコ」に変更,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_010,Peanut Butter,Penis Butter,発音に注意,「ピーナッツバター」が「ペニスバター」に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_011,支店長,shit-tencho,ローマ字表記に注意,「支店長」が下品な言葉に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,ja/en
+komachi367676_012,sheet,shit,イタリア人の母音発音に注意,「シーツ」が下品な言葉に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_013,piece,piss,イタリア人の母音発音に注意,「ピース」が下品な言葉に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_014,ATAMI,TATAMI,発音に注意,熱海（ATAMI）と畳（TATAMI）の聞き間違い,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,ja/en
+komachi367676_018,ショコラ・ショー,レ（牛乳）,発音に注意,「ショコラ・ショー」が「レ（牛乳）」に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,fr
+komachi367676_019,カプチーノ,カップ・オブ・ティー,発音に注意,「カプチーノ」が「カップ・オブ・ティー」に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_020,コロナ（ビール）,コーラ,発音に注意,「コロナ」が「コーラ」に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_021,四（si）,十（shi）,中国語の発音に注意,「四」と「十」の聞き間違い,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,zh
+komachi367676_022,画像処理（カジョウショリ）,課長処理,香港人の発音に注意,「画像処理」が「課長処理」に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,ja
+komachi367676_025,"Turn, right here","Turn right, here",ジェスチャーをつける。,区切りの問題,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_027,SPAM（缶詰ハム）,sperm（精子）,発音に注意,「スパム」が「スパーム」に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en
+komachi367676_028,すい,sweet,言語間,「すい（酸っぱい）」が「sweet」に聞こえた,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,ja
+komachi367676_029,畳,熱海,言語間,日本語非母語話者「畳」を「熱海」と聞き間違えた,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,non-native Japanese,,ja
+komachi367676_030,コロナ（ビール）,コナ,発音に注意,「コロナ」が「コナ（地ビール）」に聞こえる,True,komachi367676,https://komachi.yomiuri.co.jp/topics/id/367676/,,,en

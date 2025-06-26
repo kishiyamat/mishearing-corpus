@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+juntokutei5gaiyou_1_001,タクシー業界の平均賃金（約36万円）,ドライバーだけでなく事務職も含めた平均値,平均賃金の対象範囲（ドライバーのみか全職種か）を明確に確認することが重要。,会議中に「平均賃金」が「ドライバーだけでなく事務職も含めた平均値」と聞き間違えられた可能性。,True,juntokutei5gaiyou_1,https://wwwtb.mlit.go.jp/kanto/jidou_koutu/tabi2/taxi_kyougikai/tokyo/tokubetu/date/juntokutei/5/gaiyou_1.pdf,,,日本語,"['タクシー業界', '聞き間違い', '会議', '平均賃金', '交通', '日本語', '仕事']","['会議室', '議事録', '複数人発話', '録音/議事録作成', 'ノイズ不明']"

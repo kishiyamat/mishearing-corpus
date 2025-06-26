@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+geniusenglish_grab_001,EGIホテル,,目的地は明確に伝えること,(Tgt=NA: 誤送先が具体的に記載されていないが、地名の聞き間違いで全く違う場所に連れて行かれた事例),True,geniusenglish_grab,https://genius-english.jp/blog/2018/09/28/grab/,日本語,"['フィリピン', 'セブ島', 'タクシー', '配車アプリ', 'Grab', '聞き間違い', '旅行', '留学', '非母語話者']","['タクシー車内', 'Grabアプリ利用時', '非母語話者同士']"
+geniusenglish_grab_002,マリバゴ,,目的地は明確に伝えること,(Tgt=NA: 誤送先が具体的に記載されていないが、地名の聞き間違いで誤った場所に到着した事例),True,geniusenglish_grab,https://genius-english.jp/blog/2018/09/28/grab/,日本語,"['フィリピン', 'セブ島', 'タクシー', '配車アプリ', 'Grab', '聞き間違い', '旅行', '留学', '非母語話者']","['タクシー車内', 'Grabアプリ利用時', '非母語話者同士']"

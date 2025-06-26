@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+youtube_MJWPIFPUFHI_001,,,地名ははっきり伝える,(Src=NA: 地名Aが具体的に記載されていない)(Tgt=NA: 地名Bが具体的に記載されていない),True,youtube_MJWPIFPUFHI,https://www.youtube.com/watch?v=MJWPIFPUFHI,日本語,"['タクシー', '地名', '聞き間違い', '日本語', '交通', '接客', 'コミュニケーション']","['タクシー車内', '道路', '交通騒音', '車内マイク', '急いでいる状況']"

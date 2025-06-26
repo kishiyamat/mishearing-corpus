@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+minfor_korea_travel_6966_001,行き先や住所を口頭で伝える,正しく伝わらず、別の場所に連れて行かれる,紙に書いた住所や配車アプリを使うと良い,韓国語が不慣れな旅行者がタクシー運転手に行き先を伝える際、聞き間違い・伝達ミスが発生しやすい。配車アプリや紙に書いた住所で防止可能。,True,minfor_korea_travel_6966,https://minfor.jp/korea_travel/6966/,,,日本語,"['韓国旅行', 'タクシー', '聞き間違い', 'コミュニケーション', '旅行トラブル', '非母語話者', '配車アプリ', '交通']","['韓国', 'タクシー車内', '道路', '駅・バス停', '配車アプリ利用時', 'ノイズ']"

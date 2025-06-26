@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,DocID,URL,Note,OriginalFlag,Language,Tags,Envs
+mainichi_20171029k00_001,,,mainichi_20171029k00,https://mainichi.jp/articles/20171029/k00/00e/040/209000c,(Src=NA: 具体的な発話文・地名が記事内に明記されていない)(Tgt=NA: 具体的な誤聴形が記事内に明記されていない),True,日本語,"['聴覚障害', 'タクシー', 'コミュニケーション', '聞き間違い', 'バリアフリー', '交通', '難聴', '福祉']","['タクシー車内', '公道', '交通騒音', '難聴者', '顧客との対面会話']"

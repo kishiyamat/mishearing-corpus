@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+oshiete_11806664_001,予約者の名前（例：田中）,別の予約者の名前（例：高橋）,名前ははっきり伝える,タクシー乗車時、運転手が「○○さんですか？」と聞いた名前を聞き間違え、別の予約者と誤認する可能性 (Src=NA: placeholder '予約者の名前（例：田中）')(Tgt=NA: placeholder '別の予約者の名前（例：高橋）'),True,oshiete_11806664,https://oshiete.goo.ne.jp/qa/11806664.html,日本語,"['タクシー', '聞き間違い', '名前', '交通機関', 'コミュニケーション', '生活', '仕事']","['タクシー車内', '交通機関', '対面会話', 'ノイズ']"

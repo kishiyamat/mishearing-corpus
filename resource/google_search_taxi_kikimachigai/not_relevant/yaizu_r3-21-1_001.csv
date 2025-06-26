@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+yaizu_r3_21_1_001,,,電話予約時は復唱推奨,(Src=NA: placeholder '名前')(Tgt=NA: placeholder '別の名前'),True,yaizu_r3_21_1,https://www.city.yaizu.lg.jp/documents/12726/r3-21-1.pdf,日本語,"['タクシー', '公共交通', '聞き間違い', '電話予約', 'コミュニケーション', '行政', '高齢者', '地域交通']","['電話', 'タクシー予約', '事務所', '通信環境', '高齢者利用']"
+yaizu_r3_21_1_002,,,電話予約時は復唱推奨,(Src=NA: placeholder '乗降場所')(Tgt=NA: placeholder '別の場所'),True,yaizu_r3_21_1,https://www.city.yaizu.lg.jp/documents/12726/r3-21-1.pdf,日本語,"['タクシー', '公共交通', '聞き間違い', '電話予約', 'コミュニケーション', '行政', '高齢者', '地域交通']","['電話', 'タクシー予約', '事務所', '通信環境', '高齢者利用']"

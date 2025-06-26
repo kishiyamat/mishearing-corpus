@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+omishima_ferry_441090631_001,,40分,電話での案内は復唱確認を推奨,(Src=NA: 元の所要時間が不明) フェリー会社の電話案内で所要時間を尋ねた際、「40分」と聞き取ったが、実際は異なる時間だった。,True,omishima_ferry_441090631,https://www.tripadvisor.jp/ShowUserReviews-g1022436-d8385651-r441090631-Omishima_Ferry_Co_Ltd-Takehara_Hiroshima_Prefecture_Chugoku.html,日本語,"['旅行', '交通', 'フェリー', '電話案内', '聞き間違い']","['電話', 'フェリー会社案内窓口', '交通機関']"

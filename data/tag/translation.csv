@@ -785,3 +785,213 @@ TAMA,ja,多摩
 TAMA,en,Tama
 PROFESSIONALISM,ja,プロ意識
 PROFESSIONALISM,en,professionalism
+CHAT,ja,チャット
+CHAT,en,chat
+JOKE,ja,ジョーク
+JOKE,en,joke
+DRAGON_QUEST_X,ja,ドラゴンクエストX
+DRAGON_QUEST_X,en,Dragon Quest X
+SONG,ja,歌
+SONG,en,song
+CITY_NAME,ja,都市名
+CITY_NAME,en,city name
+EIGA_TITLE,ja,映画タイトル
+EIGA_TITLE,en,movie title
+GOGEN,ja,語源
+GOGEN,en,word origin
+CHINESE_LANGUAGE,ja,中国語
+CHINESE_LANGUAGE,en,Chinese language
+NET_SLANG,ja,ネットスラング
+NET_SLANG,en,net slang
+AZUMI_SHINICHIRO,ja,東慎一郎
+AZUMI_SHINICHIRO,en,Azumi Shinichiro
+ONLINE_GAME,ja,オンラインゲーム
+ONLINE_GAME,en,online game
+MEDICAL_DRAMA,ja,医療ドラマ
+MEDICAL_DRAMA,en,medical drama
+EQUIPMENT,ja,機器
+EQUIPMENT,en,equipment
+PROOFREADING,ja,校正
+PROOFREADING,en,proofreading
+EXPRESSION,ja,表現
+EXPRESSION,en,expression
+PEACH,ja,桃
+PEACH,en,peach
+WEATHER,ja,天気
+WEATHER,en,weather
+TRUE_STORY,ja,実話
+TRUE_STORY,en,true story
+ORGANIZATION_NAME,ja,組織名
+ORGANIZATION_NAME,en,organization name
+NEWS,ja,ニュース
+NEWS,en,news
+FOOD_NAME,ja,食品名
+FOOD_NAME,en,food name
+TAX,ja,税金
+TAX,en,tax
+TIKTOK,ja,TikTok
+TIKTOK,en,TikTok
+JOB_EXPERIENCE,ja,職務経験
+JOB_EXPERIENCE,en,job experience
+PRODUCT_LABEL,ja,商品ラベル
+PRODUCT_LABEL,en,product label
+VARIETY_NAME,ja,品種名
+VARIETY_NAME,en,variety name
+PRIVATE_EMERGENCY,ja,個人緊急事態
+PRIVATE_EMERGENCY,en,private emergency
+SERVICE_INDUSTRY,ja,サービス業
+SERVICE_INDUSTRY,en,service industry
+WELFARE_TRANSPORT,ja,福祉輸送
+WELFARE_TRANSPORT,en,welfare transport
+TOKYO_23_WARDS,ja,東京23区
+TOKYO_23_WARDS,en,Tokyo 23 wards
+RECEPTION,ja,受付
+RECEPTION,en,reception
+SELF_DEFENSE_FORCE,ja,自衛隊
+SELF_DEFENSE_FORCE,en,self-defense force
+ANNOUNCEMENT,ja,アナウンス
+ANNOUNCEMENT,en,announcement
+TRANSPORTATION_TROUBLE,ja,交通トラブル
+TRANSPORTATION_TROUBLE,en,transportation trouble
+MANUSCRIPT,ja,原稿
+MANUSCRIPT,en,manuscript
+SELF_INTRODUCTION,ja,自己紹介
+SELF_INTRODUCTION,en,self-introduction
+WASEI_EIGO,ja,和製英語
+WASEI_EIGO,en,Japanese-made English
+DRIVER_HONNE,ja,運転手の本音
+DRIVER_HONNE,en,driver's true feelings
+FOOD_INGREDIENT,ja,食品成分
+FOOD_INGREDIENT,en,food ingredient
+YOUGYAKU,ja,用語逆
+YOUGYAKU,en,term reversal
+SUNDAY_HEAVEN,ja,サンデーヘブン
+SUNDAY_HEAVEN,en,Sunday Heaven
+EIGO,ja,英語
+EIGO,en,English
+PC_INPUT,ja,PC入力
+PC_INPUT,en,PC input
+INN,ja,宿
+INN,en,inn
+PRECONCEPTION,ja,先入観
+PRECONCEPTION,en,preconception
+KYOTO,ja,京都
+KYOTO,en,Kyoto
+ESSAY,ja,エッセイ
+ESSAY,en,essay
+COMPANY_NAME,ja,会社名
+COMPANY_NAME,en,company name
+WORK_HISTORY,ja,職歴
+WORK_HISTORY,en,work history
+LABOR,ja,労働
+LABOR,en,labor
+ACCOMMODATION,ja,宿泊施設
+ACCOMMODATION,en,accommodation
+MONEY_AMOUNT,ja,金額
+MONEY_AMOUNT,en,money amount
+WORKING_ADULT,ja,社会人
+WORKING_ADULT,en,working adult
+ORGANIZATION,ja,組織
+ORGANIZATION,en,organization
+NICHIJOU,ja,日常
+NICHIJOU,en,daily life
+COMEDY_IMPROV,ja,即興コメディ
+COMEDY_IMPROV,en,comedy improv
+MISREADING,ja,読み間違い
+MISREADING,en,misreading
+GENGOGAKU,ja,言語学
+GENGOGAKU,en,linguistics
+FOREIGNER,ja,外国人
+FOREIGNER,en,foreigner
+COUNTER,ja,カウンター
+COUNTER,en,counter
+MISHEARING_SOUND,ja,聞き間違い音
+MISHEARING_SOUND,en,mishearing sound
+RECEIPT,ja,領収書
+RECEIPT,en,receipt
+FRENCH,ja,フランス語
+FRENCH,en,French
+FACE_TO_FACE,ja,対面
+FACE_TO_FACE,en,face-to-face
+WORDS,ja,単語
+WORDS,en,words
+EAST_KANTO_DIALECT,ja,東関東方言
+EAST_KANTO_DIALECT,en,East Kanto dialect
+OVERSEAS_LIFE,ja,海外生活
+OVERSEAS_LIFE,en,overseas life
+MAGAZINE_NAME,ja,雑誌名
+MAGAZINE_NAME,en,magazine name
+TEACHING_MATERIAL,ja,教材
+TEACHING_MATERIAL,en,teaching material
+CAR,ja,車
+CAR,en,car
+CONVERSION_ERROR,ja,変換エラー
+CONVERSION_ERROR,en,conversion error
+FIELD_VOICE,ja,現場の声
+FIELD_VOICE,en,field voice
+DINING_TABLE,ja,食卓
+DINING_TABLE,en,dining table
+ADMINISTRATION,ja,行政
+ADMINISTRATION,en,administration
+STUDY_ABROAD,ja,留学
+STUDY_ABROAD,en,study abroad
+LOVE,ja,愛
+LOVE,en,love
+PHILIPPINES,ja,フィリピン
+PHILIPPINES,en,Philippines
+THEATER,ja,劇場
+THEATER,en,theater
+RESERVATION,ja,予約
+RESERVATION,en,reservation
+SPORTS_EVENT,ja,スポーツイベント
+SPORTS_EVENT,en,sports event
+ENGLISH_CLASS,ja,英語クラス
+ENGLISH_CLASS,en,English class
+HOBO_NICHI,ja,ほぼ日
+HOBO_NICHI,en,Hobo Nichi
+KATAKANA_EIGO,ja,カタカナ英語
+KATAKANA_EIGO,en,katakana English
+NEWSPAPER,ja,新聞
+NEWSPAPER,en,newspaper
+FOREIGN_LANGUAGE,ja,外国語
+FOREIGN_LANGUAGE,en,foreign language
+COMEDY_SKIT,ja,コメディスキット
+COMEDY_SKIT,en,comedy skit
+EVENT_NAME,ja,イベント名
+EVENT_NAME,en,event name
+VETERAN_DRIVER,ja,ベテランドライバー
+VETERAN_DRIVER,en,veteran driver
+SINGER_NAME,ja,歌手名
+SINGER_NAME,en,singer name
+GRAB,ja,Grab
+GRAB,en,Grab
+PROVERB,ja,ことわざ
+PROVERB,en,proverb
+CEBU_ISLAND,ja,セブ島
+CEBU_ISLAND,en,Cebu Island
+IN_FLIGHT,ja,機内
+IN_FLIGHT,en,in-flight
+CARE_TAXI_ARUARU,ja,介護タクシーあるある
+CARE_TAXI_ARUARU,en,care taxi common experiences
+STREET,ja,通り
+STREET,en,street
+INDUSTRY_ARULE,ja,業界あるある
+INDUSTRY_ARULE,en,industry common experiences
+DEPARTMENT_NAME,ja,部署名
+DEPARTMENT_NAME,en,department name
+MISUNDERSTANDING,ja,誤解
+MISUNDERSTANDING,en,misunderstanding
+MISSTATEMENT,ja,言い間違い
+MISSTATEMENT,en,misstatement
+BATHHOUSE,ja,銭湯
+BATHHOUSE,en,bathhouse
+DESTINATION,ja,目的地
+DESTINATION,en,destination
+SPORTS_TERMS,ja,スポーツ用語
+SPORTS_TERMS,en,sports terms
+HAULING,ja,運搬
+HAULING,en,hauling
+DRUG_NAME,ja,薬品名
+DRUG_NAME,en,drug name
+BRAIN_MISCONVERSION,ja,脳内変換ミス
+BRAIN_MISCONVERSION,en,brain misconversion

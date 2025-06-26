@@ -1,0 +1,6 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+tfm_skyrocket_20200915_001,町田,町家,注意が必要,タクシーで地名の聞き間違いが多発する。,True,tfm_skyrocket_20200915,https://www.tfm.co.jp/sky/archive/index_pc.php?catid=1724&page=529,taxi_driver,passenger,ja
+tfm_skyrocket_20200915_002,町田,松戸,注意が必要,タクシーで地名の聞き間違いが多発する。,True,tfm_skyrocket_20200915,https://www.tfm.co.jp/sky/archive/index_pc.php?catid=1724&page=529,taxi_driver,passenger,ja
+tfm_skyrocket_20200915_003,渋谷,入谷,注意が必要,タクシーで地名の聞き間違いが多発する。,True,tfm_skyrocket_20200915,https://www.tfm.co.jp/sky/archive/index_pc.php?catid=1724&page=529,taxi_driver,passenger,ja
+tfm_skyrocket_20200915_006,シングレア錠,シンデレラ城,注意が必要,医療現場で薬名を電話で聞き間違えた例。,True,tfm_skyrocket_20200915,https://www.tfm.co.jp/sky/archive/index_pc.php?catid=1724&page=529,medical_staff,patient,ja
+tfm_skyrocket_20200915_007,ジャカビ,ジャガビー,注意が必要,医療現場で薬名を電話で聞き間違えた例。,True,tfm_skyrocket_20200915,https://www.tfm.co.jp/sky/archive/index_pc.php?catid=1724&page=529,medical_staff,patient,ja

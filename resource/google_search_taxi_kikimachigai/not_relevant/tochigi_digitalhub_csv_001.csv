@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tochigi_digitalhub_467_001,,,重要情報は文字でやりとりしましょう,NO_INCIDENT: no explicit mishearing found (Src=NA: 具体的な発話例なし)(Tgt=NA: 具体的な誤聴例なし),True,tochigi_digitalhub_467,https://www.tochigi-digitalhub.jp/member/like/?id=467&sort=2,日本語,"['陣痛タクシー', '聞き間違い', 'コミュニケーション', '登録手続き', 'LINE', 'デジタル化', '医療・福祉', '宇都宮市']","['サービス受付（LINE）', '病院・自宅', '通信環境']"

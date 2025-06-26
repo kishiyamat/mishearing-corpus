@@ -1,4 +1,3 @@
-# 1. cacheは使う
 import pandas as pd
 import streamlit as st
 import requests
@@ -6,6 +5,23 @@ from io import StringIO
 import json
 from pathlib import Path
 from joblib import Memory
+
+# parent directoryもpathに追加
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from app import MishearingApp
+
+# TODO
+# 1. 以下のEndpointが機能しているか確かめる
+# 2. Rerunしたときでも再度おなじURLを検索しないよう修正
+GOOGLE_SEARCH_ENDPOINT = "https://api.apify.com/v2/acts/apify~google-search-scraper/run-sync-get-dataset-items"
+MISHEARING_SCRAPE_AND_SAVER_ENDPOINT = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
+API_URL_CATEGORIZE_CSV_ENDPOINT = "http://localhost:7860/api/v1/run/8e66efed-1840-42e0-9778-9ced64bf978d"
+API_URL_FIX_CSV_ENDPOINT = "http://127.0.0.1:7860/api/v1/run/688463f5-255f-4368-88f9-e3fb5ed17a50"
+URL_SET = set(MishearingApp().urls)
+
 
 # 1. Google Search
 memory = Memory(location=Path(".cache"), verbose=0)
@@ -16,8 +32,6 @@ def google_search(
     results_per_page: int,
     max_pages_per_query: int,
 ):
-    # url = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
-    # Request payload configuration
     payload = {
         "queries": queries,
         "resultsPerPage": results_per_page,
@@ -33,7 +47,7 @@ def google_search(
     }
     try:
         # Send API request
-        response = requests.request("POST", url, json=payload, headers=headers)
+        response = requests.request("POST", GOOGLE_SEARCH_ENDPOINT, json=payload, headers=headers)
         response.raise_for_status()  # Raise exception for bad status codes
 
         # Print response
@@ -74,18 +88,16 @@ st.write("### クエリと保存ディレクトリの設定")
 
 st.warning("queriesとsave_pathは適宜変更してください。")
 st.warning("results_per_pageとmax_pages_per_queryも適宜変更してください。")
-queries = 'タクシー "聞き間違え"'
-save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_taxi_kikimachigae"
+queries = 'タクシー "聞き間違い"'
+save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_taxi_kikimachigai"
 results_per_page = 20
-max_pages_per_query = 20
+max_pages_per_query = 30
 # 設定をwrite
 st.write(f"queries: `{queries}`")
 st.write(f"save_path: `{save_path}`")
 st.write(f"results_per_page: `{results_per_page}`")
 st.write(f"max_pages_per_query: `{max_pages_per_query}`")
 
-# syncで待たないと全てが帰ってこないかも？
-url = "https://api.apify.com/v2/acts/apify~google-search-scraper/run-sync-get-dataset-items"
 
 if not queries:
     st.warning("Please enter a query to run the Apify Actor.")
@@ -106,10 +118,7 @@ for p in st.session_state["response_json_pages"]:
 st.write(f"queries: `{queries}`で取得したページ数: {len(organic_results)}")
 # st.write(organic_results)
 
-
-def mishearing_scrape(target_url, description, save_path):
-    url = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
-
+def mishearing_scrape_and_save(target_url, description, save_path):
     input_str = json.dumps({"url": target_url, "description": description, "save_dir": save_path}, ensure_ascii=False)
     st.write(input_str)
     payload = {
@@ -120,7 +129,7 @@ def mishearing_scrape(target_url, description, save_path):
     headers = { "Content-Type": "application/json" }
 
     try:
-        response = requests.request("POST", url, json=payload, headers=headers)
+        response = requests.request("POST", MISHEARING_SCRAPE_AND_SAVER_ENDPOINT, json=payload, headers=headers)
         response.raise_for_status()  # Raise exception for bad status codes
 
         try:
@@ -141,14 +150,19 @@ if st.button("Run Scrape and Save"):
     for result in organic_results:
         url_tgt = result.get("url")
         description_tgt = result.get("description")
-        json_out = mishearing_scrape(url_tgt, description_tgt, save_path)
-        json_out = json.loads(json_out["outputs"][0]["outputs"][0]["outputs"]["message"]["message"] )
-        st.json(json_out)  # Assuming the output is in this format
-        st.write(json_out[0]["URL"])  # かならず1件はあるはずなので、最初の要素を表示
+        if url_tgt in URL_SET:
+            st.warning(f"URL `{url_tgt}` はすでに存在します。スキップします。")
+            continue
+        try:
+            st.write(f"Scraping URL: {url_tgt}")
+            json_out = mishearing_scrape_and_save(url_tgt, description_tgt, save_path)
+            json_out = json.loads(json_out["outputs"][0]["outputs"][0]["outputs"]["message"]["message"] )
+            st.json(json_out)  # Assuming the output is in this format
+            st.write(json_out[0]["URL"])  # かならず1件はあるはずなので、最初の要素を表示
+        except Exception as e:
+            st.error(f"Error processing URL `{url_tgt}`: {e}")
 
 st.write("### RelevantとNot Relevantの分類")
-
-API_URL_CATEGORIZE_CSV = "http://localhost:7860/api/v1/run/8e66efed-1840-42e0-9778-9ced64bf978d"
 
 st.info("not_relevantとrelevantディレクトリを作成して分類します。")
 save_path = save_path
@@ -208,20 +222,11 @@ if files_tobe_cat and st.button("分類を送信"):
         }
         # 2-E. API へ POST
         try:
-            r = requests.request("POST", API_URL_CATEGORIZE_CSV, json=payload, headers=headers)
+            r = requests.request("POST", API_URL_CATEGORIZE_CSV_ENDPOINT, json=payload, headers=headers)
             r.raise_for_status()
         except requests.RequestException as e:
             st.error(f"API Error: {e}")
             continue  # エラーが出ても次のファイルへ進む
-
-
-st.write("### 各検索結果のURLに対してScrapeを実行")
-
-
-API_URL_FIX_CSV = (
-    "http://127.0.0.1:7860/api/v1/run/"
-    "688463f5-255f-4368-88f9-e3fb5ed17a50"
-)
 
 st.write("### 修正したCSVファイルをAPIに送ってフォーマット修正する")
 # ▼ 1. 複数ファイルを受け取る
@@ -293,7 +298,7 @@ if files and st.button("送信"):
 
         # 2-E. API へ POST
         try:
-            r = requests.request("POST", API_URL_FIX_CSV, json=payload, headers=headers)
+            r = requests.request("POST", API_URL_FIX_CSV_ENDPOINT, json=payload, headers=headers)
             r.raise_for_status()
         except requests.RequestException as e:
             st.error(f"API Error: {e}")

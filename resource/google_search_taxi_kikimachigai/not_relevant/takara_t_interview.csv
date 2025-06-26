@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+takarat_recruit_001,,,目的地の復唱推奨,(Src=NA: 具体的な目的地名が記載されていない)(Tgt=NA: 具体的な誤聴先の目的地名が記載されていない),True,takarat_recruit,https://takara-t.com/recruit/interview.html,日本語,"['タクシー', '聞き間違い', '交通', '接客', '新人', '仕事', 'コミュニケーション', '日本語']","['タクシー車内', '運転中', '交通環境', '車載ナビ', '通常の道路騒音']"

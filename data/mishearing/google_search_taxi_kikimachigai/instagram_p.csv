@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+insta_C5iPEupqIvK_001,JCB,JTB,発音を明確に伝える,タクシー乗務員が「JCB」と「JTB」を聞き間違え、後処理が発生していた。,True,insta_C5iPEupqIvK,https://www.instagram.com/p/C5iPEupqIvK/,タクシー乗務員,,ja
+insta_C5iPEupqIvK_002,JTB,JCB,発音を明確に伝える,上記と逆パターンも想定される。,True,insta_C5iPEupqIvK,https://www.instagram.com/p/C5iPEupqIvK/,,,ja
