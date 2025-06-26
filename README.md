@@ -333,6 +333,9 @@ We thank all annotators and contributors to this project.
 
 ときおり、聞き間違いを集めているスレッドがあって大きく収集できる。
 
+言い間違いのデータだったり、SrcとTgtが逆になっているパターンがあるので
+注意して編集する.
+
 ### Indivisuals
 
 - 個人の報告
