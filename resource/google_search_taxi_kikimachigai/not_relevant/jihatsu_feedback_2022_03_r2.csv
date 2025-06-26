@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+jihatsu_FEEDBACK202203R2_001,,,指示内容を復唱・確認,管制指示Aを別の指示と取り違え、誤った行動（Taxi Back）を実施した。(Src=NA: 管制指示Aの具体的な発話文不明)(Tgt=NA: 聞き間違えた指示の具体的な発話文不明),True,jihatsu_FEEDBACK202203R2,https://jihatsu.jp/wp-content/uploads/FEEDBACK-2022-03_R2.pdf,日本語,"['航空', '無線通信', '聞き間違い', '管制指示', '事故防止']","['空港', '航空無線', '管制塔', 'コックピット', 'ノイズ', 'ヘッドセットマイク']"

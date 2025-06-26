@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+driversgate_taxi_001,,,出発前に必ず目的地とルートを確認する,(Src=NA: placeholder '目的地')(Tgt=NA: placeholder '別の場所') 酔客は目的地を正確に伝えられないことがあり、聞き間違いが発生しやすい。未然防止が重要。,True,driversgate_taxi_driver,https://drivers-gate.com/taxi-driver-drunk/,日本語,"['タクシー', '接客', '酔っ払い', '聞き間違い', 'トラブル対応', '交通', '実務ノウハウ', '日本語']","['タクシー車内', '夜間・早朝', '都市部・繁華街', '対面会話', 'ノイズ有']"

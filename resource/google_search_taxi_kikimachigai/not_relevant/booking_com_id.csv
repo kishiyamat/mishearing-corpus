@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+lomanpark_yogyakarta_001,,,予約や手続きは文書化推奨,(Src=NA: 具体的な発話文が記載されていない)(Tgt=NA: 具体的な誤聴形が記載されていない),True,lomanpark_yogyakarta,https://www.booking.com/reviews/id/hotel/lomanpark-yogyakarta.ja.html,日本語,"['旅行', 'ホテル', 'インドネシア', 'コミュニケーション', '聞き間違い', '非母語話者', '日本語レビュー']","['ホテルフロント', 'インドネシア（ジョグジャカルタ）', '多言語環境', '受付カウンター', 'ロビーの環境音', '対面会話']"

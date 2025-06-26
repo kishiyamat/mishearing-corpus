@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+goma_books_8883_001,地名A,地名B,地名は明確に伝える,似たような地名の聞き間違いで目的地を間違えることが多い。タクシー運転手の職業病とも言える。(Src=NA: placeholder '地名A')(Tgt=NA: placeholder '地名B'),True,goma_books_8883,http://www.goma-books.com/archives/8883,日本語,"['タクシー', '職業体験', '聞き間違い', '地名', 'コミュニケーション', '日本語', '接客', '都市交通']","['タクシー車内', '都市部', '交通騒音', '運転中', '乗客と運転手の会話']"

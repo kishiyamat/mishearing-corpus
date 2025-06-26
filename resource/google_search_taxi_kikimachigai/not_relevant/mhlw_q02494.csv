@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+mhlw_meirei_m02494_001,,,証人尋問で証言内容の聞き間違いや訂正の可能性が指摘されたが、具体的な誤聴内容は不明。,(Src=NA: 証言内容の具体的な誤聴語句が本文に記載されていない)(Tgt=NA: 証言内容の具体的な誤聴語句が本文に記載されていない),True,mhlw_meirei_m02494,https://www.mhlw.go.jp/churoi/meirei_db/mei/pdf/m02494.pdf,日本語,"['労働委員会', '証人尋問', '聞き間違い', '労働問題', '法律']","['労働委員会', '証人尋問', '法的手続き']"

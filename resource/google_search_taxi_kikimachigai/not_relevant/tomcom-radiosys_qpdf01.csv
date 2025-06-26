@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tomcom_radiosys_product03apdf01_001,35号車,25号車,数字の聞き間違いに注意,無線での配車指示時、号車番号の聞き間違いが発生しやすい。例：35号車→25号車。,True,tomcom_radiosys_product03apdf01,https://www.tomcom-radiosys.jp/images/product03apdf01.pdf,日本語,"['タクシー', '無線', '聞き間違い', '配車業務', '業務効率', '交通', '通信']","['タクシー車内', '無線通信', '配車センター', '雑音', '業務用無線機']"
+tomcom_radiosys_product03apdf01_002,指名きてます,指名きてません,指示語の明瞭化,無線での指示語「指名きてます」が否定形や他の表現と混同されることがある。,True,tomcom_radiosys_product03apdf01,https://www.tomcom-radiosys.jp/images/product03apdf01.pdf,日本語,"['タクシー', '無線', '聞き間違い', '配車業務', '業務効率', '交通', '通信']","['タクシー車内', '無線通信', '配車センター', '雑音', '業務用無線機']"
+tomcom_radiosys_product03apdf01_003,配車,廃車,業務用語の明瞭化,「配車」と「廃車」など、音が似ている業務用語の聞き間違いが発生しやすい。,True,tomcom_radiosys_product03apdf01,https://www.tomcom-radiosys.jp/images/product03apdf01.pdf,日本語,"['タクシー', '無線', '聞き間違い', '配車業務', '業務効率', '交通', '通信']","['タクシー車内', '無線通信', '配車センター', '雑音', '業務用無線機']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tochigi_digitalhub_574_001,氏名・住所・電話番号・出産予定日・産院名,別の氏名・住所・電話番号・出産予定日・産院名,文字入力を徹底,口頭での登録時に重要情報の聞き間違いが発生するリスクがあるため、LINEからの文字入力に限定している。,True,tochigi_digitalhub_574,https://www.tochigi-digitalhub.jp/project/page.php?id=574,日本語,"['妊婦', '陣痛タクシー', '聞き間違い', 'デジタル化', 'LINE', '交通', '子育て', '福祉']","['電話', 'LINE', '事務所', 'タクシー会社', '通信環境']"

@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+enjoyyangon_grabcancel_001,Grabをキャンセルしてもらえますか？,乗車拒否,冷静に確認しよう,運転手の「キャンセルしてほしい」を「乗車拒否」と誤解しかけた。実際はコミッション回避目的。,True,enjoyyangon_grabcancel,https://enjoy-yangon.com/ja/enyanblog/309-grab-cancel,日本語,"['ミャンマー', 'ヤンゴン', 'タクシー', '配車アプリ', 'Grab', 'コミュニケーション', '聞き間違い', '生活', '旅行', '非母語話者']","['ヤンゴン市内', 'タクシー車内', 'Grabアプリ経由', '運転手と乗客の対面会話', '交通騒音あり', 'スマートフォン利用']"
+enjoyyangon_grabcancel_002,Grabをキャンセルしてもらえますか？,聞き間違い,冷静に確認しよう,「自分が聞き間違えたのか？」と一瞬思ったが、実際は運転手の意図だった。,True,enjoyyangon_grabcancel,https://enjoy-yangon.com/ja/enyanblog/309-grab-cancel,日本語,"['ミャンマー', 'ヤンゴン', 'タクシー', '配車アプリ', 'Grab', 'コミュニケーション', '聞き間違い', '生活', '旅行', '非母語話者']","['ヤンゴン市内', 'タクシー車内', 'Grabアプリ経由', '運転手と乗客の対面会話', '交通騒音あり', 'スマートフォン利用']"

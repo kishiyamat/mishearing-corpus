@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+shibetsu_naraigoto_taxi_001,,,IT化で防止可能,(Src=NA: descriptionに具体的な発話文がない)(Tgt=NA: descriptionに具体的な誤聴形がない) description欄に『言い間違いや聞き間違いがなくとても便利』とあるが、具体的な誤聴事例は記載されていない。,True,shibetsu_naraigoto_taxi,https://www.city.shibetsu.lg.jp/material/files/group/2/naraigoto_taxi.pdf,日本語,"['行政サービス', 'タクシー', '予約', '聞き間違い', 'IT化', 'コミュニケーション', '高齢者', '地方自治体']","['電話', 'LINE', 'Googleフォーム', '生活現場', '市役所', '通信環境']"

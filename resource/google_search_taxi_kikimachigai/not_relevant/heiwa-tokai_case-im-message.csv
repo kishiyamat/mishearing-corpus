@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+heiwa_tokai_caseim_001,住所（例：○○町1-2-3）,住所（例：○○町1-3-2）,数字や地名は繰り返し確認,電話受付で住所の数字や地名を聞き間違え、運転手に誤った伝言をした事例。,True,heiwa_tokai_caseim,http://heiwa-tokai.jp/b_phone/case-im-message.html,日本語,"['電話対応', '聞き間違い', '伝言ミス', '受付業務', '配車', '日本語', 'コミュニケーション']","['受付窓口（電話）', 'オフィス', '配車業務', '通信環境（電話回線）', 'ノイズ']"
+heiwa_tokai_caseim_002,指定時間（例：10時）,指定時間（例：11時）,時間は復唱して確認,電話受付で指定時間を聞き間違え、運転手に誤った時間を伝えた事例。,True,heiwa_tokai_caseim,http://heiwa-tokai.jp/b_phone/case-im-message.html,日本語,"['電話対応', '聞き間違い', '伝言ミス', '受付業務', '配車', '日本語', 'コミュニケーション']","['受付窓口（電話）', 'オフィス', '配車業務', '通信環境（電話回線）', 'ノイズ']"

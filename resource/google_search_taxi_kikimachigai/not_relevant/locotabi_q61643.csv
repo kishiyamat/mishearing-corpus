@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+locotabi_london_61643_001,,,行き先は紙に書いて運転手に渡すとよい,(Src=NA: '行き先の地名や住所'が具体語でない)(Tgt=NA: '別の場所や誤認識'が具体語でない),True,locotabi_london_61643,https://locotabi.jp/london/q/61643,日本語,"['旅行', 'ロンドン', 'タクシー', '聞き間違い', '英語', '非母語話者', 'コミュニケーション']","['ロンドン市内', 'タクシー車内', '道路', '英語（非母語話者）', '雑音あり']"

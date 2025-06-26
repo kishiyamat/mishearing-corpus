@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+response_318133_001,住所,別の住所,住所は明確に,従来の電話配車では住所の聞き間違いが発生しやすい。新デバイスで解消。,True,response_318133,https://response.jp/article/2019/01/17/318133.html,日本語,"['タクシー', 'IoT', '高齢者', '配車', '聞き間違い', '住所', '電話対応', '日本', 'テクノロジー']","['電話', '配車受付システム', '高齢者の自宅', '通信環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+heiwa_transport_004_001,,,電話での注文・問い合わせ内容（住所や時間指定など）は聞き間違いが起きやすいので、録音を活用して正確に伝達することが有効。,(Src=NA: 具体的な発話文・語句が記載されていない)(Tgt=NA: 具体的な誤聴形が記載されていない),True,heiwa_transport_004,https://heiwa-net.ne.jp/phone/case_transport_004/,日本語,"['ビジネスホン', '通話録音', '聞き間違い', '伝言ミス', '運輸・運送業', 'タクシー会社', '電話対応', '業務効率化']","['事務所', '電話', '録音装置', '人手不足', '固定電話回線']"

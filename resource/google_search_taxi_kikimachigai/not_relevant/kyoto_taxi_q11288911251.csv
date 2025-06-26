@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,,,https://kyoto-taxi.or.jp/wp/wp-content/uploads/2023/03/%E8%AD%B0%E4%BA%8B%E9%8C%B2%EF%BC%8820230307-%E7%AC%AC11%E5%9B%9E%E4%BA%AC%E9%83%BD%E5%B8%82%E5%9F%9F%E4%BA%A4%E9%80%9A%E5%9C%8F%E6%BA%96%E7%89%B9%E5%AE%9A%E5%9C%B0%E5%9F%9F%E5%8D%94%E8%AD%B0%E4%BC%9A%EF%BC%89.pdf,TECH_FAIL: unable to retrieve content due to PDF decoding error ('utf-8' codec can't decode byte 0x9c)

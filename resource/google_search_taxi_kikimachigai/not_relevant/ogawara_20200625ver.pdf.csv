@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ogawara_20200625ver_001,,,申請は書面で行うことで聞き間違いを防げる,(Src=NA: 具体的な発話例なし)(Tgt=NA: 具体的な誤聴例なし),True,ogawara_20200625ver,https://www.town.ogawara.miyagi.jp/secure/1286/20200625ver.pdf,日本語,"['行政', '申請', '電話対応', '聞き間違い', 'コミュニケーション', '公的手続き']","['行政窓口', '電話', 'FAX', 'オンライン申請', '役場', '通信環境']"

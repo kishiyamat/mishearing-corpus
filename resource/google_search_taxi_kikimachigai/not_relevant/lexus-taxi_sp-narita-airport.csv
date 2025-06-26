@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+lexustaxi_narita_001,,,電話予約時は聞き間違いが起こりやすいので、氏名・日時・場所・便名・人数・連絡先などは特に注意して伝えること。,(Src=NA: 具体的な発話文・単語の記載なし)(Tgt=NA: 具体的な誤聴形の記載なし),True,lexustaxi_narita,https://www.lexus-taxi.jp/sp-narita-airport/,日本語,"['タクシー', '交通', '予約', '電話対応', '聞き間違い', '成田空港', '日本語', 'コミュニケーション']","['電話', '交通機関', 'ノイズ', '電話回線']"

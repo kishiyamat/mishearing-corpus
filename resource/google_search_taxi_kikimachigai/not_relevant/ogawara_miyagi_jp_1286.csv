@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ogawara_20200625ver_001,,,電話では申請内容や個人情報などを聞き間違える恐れがあるため、申請書のみ受付。,(Src=NA: 具体的な発話文・語句が記載されていない)(Tgt=NA: 具体的な誤聴形が記載されていない),True,ogawara_20200625ver,https://www.town.ogawara.miyagi.jp/secure/1286/20200625ver.pdf,日本語,"['行政', '申請', '電話対応', '聞き間違い', 'コミュニケーション', '公的手続き']","['行政窓口', '電話', 'FAX', 'オンライン申請', '役場', '通信環境']"

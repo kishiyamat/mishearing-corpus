@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+karisuma_taxi_20121011_001,,,地名やコース名は必ず復唱して確認すること,(Src=NA: 具体的な地名・発話文が記事中に記載されていない)(Tgt=NA: 具体的な誤聴形が記事中に記載されていない),True,karisuma_taxi_20121011,https://karisuma-taxi.com/media/20121011.php,日本語,"['タクシー', '聞き間違い', 'コミュニケーション', '接客', '交通', '仕事', '日本語', '類似地名', 'サービス業']","['タクシー車内', '都市部', '走行中', '対面会話', '雑音']"

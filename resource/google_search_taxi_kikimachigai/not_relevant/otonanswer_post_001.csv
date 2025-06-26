@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+otonanswer_52818_001,運賃の金額,別の金額,乗る前にしっかり確認,運転手が伝えた金額を聞き間違え、トラブルになりかけたが、同乗者の指摘で気づいた。(Src=NA: 金額の具体的な語句不明)(Tgt=NA: 金額の具体的な語句不明),True,otonanswer_52818,https://otonanswer.jp/post/52818/,日本語,"['旅行', '海外', 'ラオス', 'タクシー', '聞き間違い', 'コミュニケーション', '非母語話者', '体験談', '漫画']","['ラオス', 'タクシー車内', '路上', '異国語環境', '旅行中', 'ノイズ']"

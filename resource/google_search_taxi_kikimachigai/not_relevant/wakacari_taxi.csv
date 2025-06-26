@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+wakacari_taxi_001,,,地名ははっきり伝えるとよい。ルート確認も有効。,(Src=NA: 具体的な地名の記載なし)(Tgt=NA: 具体的な誤聴形の記載なし),True,wakacari_taxi,https://wakacari.com/manner/taxi/,日本語,"['ビジネスマナー', 'タクシー', '聞き間違い', '地名', 'コミュニケーション']","['タクシー車内', '運転手との会話', '都市部']"

@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kkg_taxi_pc_001,地名・住所,別の地名・住所,はっきり伝えること、Web注文を利用することで防止可能,(Src=NA: placeholder '地名・住所')(Tgt=NA: placeholder '別の地名・住所'),True,kkg_taxi_pc,https://www.kkg-osaka.jp/service/taxi/taxi_pc.php,日本語,"['タクシー', '配車', '電話', '聞き間違い', 'ITサービス', '交通', 'オンライン注文']","['電話', '配車センター', '通信環境']"
+kkg_taxi_pc_002,台数,別の台数,数字を明確に伝える、Web注文で防止可能,(Src=NA: placeholder '台数')(Tgt=NA: placeholder '別の台数'),True,kkg_taxi_pc,https://www.kkg-osaka.jp/service/taxi/taxi_pc.php,日本語,"['タクシー', '配車', '電話', '聞き間違い', 'ITサービス', '交通', 'オンライン注文']","['電話', '配車センター', '通信環境']"
+kkg_taxi_pc_003,時間,別の時間,時間を繰り返して確認、Web注文で防止可能,(Src=NA: placeholder '時間')(Tgt=NA: placeholder '別の時間'),True,kkg_taxi_pc,https://www.kkg-osaka.jp/service/taxi/taxi_pc.php,日本語,"['タクシー', '配車', '電話', '聞き間違い', 'ITサービス', '交通', 'オンライン注文']","['電話', '配車センター', '通信環境']"
