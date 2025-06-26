@@ -1,5 +1,9 @@
 # app.py
-from __future__ import annotations
+from pathlib import Path
+import pandas as pd
+import streamlit as st
+from datetime import datetime, timezone
+import git
 import os, glob, pandas as pd, streamlit as st
 import pathlib
 
@@ -180,18 +184,6 @@ with stats_tab:
     st.subheader("合計")
     st.metric(label="総件数", value=total)
 
-import subprocess
-import shlex
-from datetime import datetime, timezone
-from pathlib import Path
-
-import pandas as pd
-import streamlit as st
-
-from pathlib import Path
-from datetime import datetime, timezone
-import csv, git
-
 def show_history():
     st.subheader("Corpus 行数の推移（Git 履歴から自動取得）")
     repo = git.Repo(Path(__file__).resolve().parent)
@@ -238,7 +230,6 @@ def show_history():
     daily["rows"] = daily["rows"].ffill()
     # ⑤ Streamlit で利用
     st.line_chart(daily["rows"])
-    st.dataframe(daily.reset_index(names="date"))
 
 with progress_tab:
     show_history()
