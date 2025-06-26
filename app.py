@@ -16,8 +16,11 @@ def extract_dir(path_str: str) -> str:
         return ""
 
 # ───────────────────────── I/O helpers ───────────────────────── #
-# @st.cache_data(show_spinner=False)
-def load_csv_tree(root: str, *, exclude: str | None = None) -> pd.DataFrame:
+@st.cache_data(show_spinner=False)
+def load_csv_tree(*args, **kwargs):
+    return _load_csv_tree(*args, **kwargs)
+
+def _load_csv_tree(root: str, *, exclude: str | None = None) -> pd.DataFrame:
     pat = os.path.join(root, "**/*.csv")
     files = [f for f in glob.glob(pat, recursive=True) if not exclude or exclude not in f]
     dataframes = []
@@ -84,18 +87,26 @@ class MishearingApp:
     def __init__(self):
         tag_root = f"{self.ROOT}/tag"
         env_root = f"{self.ROOT}/environment"
-        mishear_root = f"{self.ROOT}/mishearing"
+        self.mishear_root = f"{self.ROOT}/mishearing"
 
         self.tag_trans = load_translation(tag_root)
         self.env_trans = load_translation(env_root)
 
         self.tag_link = load_csv_tree(tag_root, exclude="translation.csv")
         self.env_link = load_csv_tree(env_root, exclude="translation.csv")
-        self.corpus   = load_csv_tree(mishear_root)
+        self.corpus   = load_csv_tree(self.mishear_root)
 
         # Pre-compute counts
         self.tag_counts = self.tag_link["TagID"].value_counts()
         self.env_counts = self.env_link["EnvID"].value_counts()
+
+    @property
+    def urls(self) -> set[str]:
+        """
+        Returns a dictionary of URLs for the tag and environment links.
+        キャッシュを使わずに常に最新のURLのセットを取得する。
+        """
+        return set(_load_csv_tree(self.mishear_root).URL)
 
     # ------------- UI ------------ #
     def form(self):

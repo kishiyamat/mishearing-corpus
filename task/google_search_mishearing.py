@@ -20,7 +20,7 @@ GOOGLE_SEARCH_ENDPOINT = "https://api.apify.com/v2/acts/apify~google-search-scra
 MISHEARING_SCRAPE_AND_SAVER_ENDPOINT = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
 API_URL_CATEGORIZE_CSV_ENDPOINT = "http://localhost:7860/api/v1/run/8e66efed-1840-42e0-9778-9ced64bf978d"
 API_URL_FIX_CSV_ENDPOINT = "http://127.0.0.1:7860/api/v1/run/688463f5-255f-4368-88f9-e3fb5ed17a50"
-URL_SET = set(MishearingApp().corpus.URL)
+URL_SET = set(MishearingApp().urls)
 
 
 # 1. Google Search
