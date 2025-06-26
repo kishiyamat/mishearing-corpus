@@ -659,3 +659,143 @@ NOISE_DRUNK_SPEECH_CAR_ENVIRONMENT,ja,酔った話し声車内ノイズ
 NOISE_DRUNK_SPEECH_CAR_ENVIRONMENT,en,drunk speech car environment noise
 TAXI_INTERIOR,ja,タクシー内装
 TAXI_INTERIOR,en,taxi interior
+ENGLISH_NON_NATIVE_SPEAKERS,ja,英語非ネイティブ話者
+ENGLISH_NON_NATIVE_SPEAKERS,en,English non-native speakers
+REQUEST,ja,リクエスト
+REQUEST,en,request
+SEIKATSU_ON,ja,生活音
+SEIKATSU_ON,en,life sound
+MIDNIGHT_TRAIN,ja,深夜列車
+MIDNIGHT_TRAIN,en,midnight train
+CUSTOMER_SERVICE_COUNTER,ja,接客カウンター
+CUSTOMER_SERVICE_COUNTER,en,customer service counter
+CITY_TOKYO_KABUKICHO,ja,東京都歌舞伎町
+CITY_TOKYO_KABUKICHO,en,Tokyo Kabukicho
+MEDICAL,ja,医療
+MEDICAL,en,medical
+PHILIPPINES,ja,フィリピン
+PHILIPPINES,en,Philippines
+STATION_PLATFORM,ja,駅のプラットフォーム
+STATION_PLATFORM,en,station platform
+VOICE,ja,声
+VOICE,en,voice
+PUBLIC_TRANSPORTATION,ja,公共交通機関
+PUBLIC_TRANSPORTATION,en,public transportation
+CAR,ja,車
+CAR,en,car
+GRAB_INSIDE,ja,Grab車内
+GRAB_INSIDE,en,inside Grab
+ON_ROAD_DRIVING,ja,道路運転中
+ON_ROAD_DRIVING,en,on-road driving
+TELEVISION_PROGRAM_RECORDING_SITE,ja,テレビ番組収録現場
+TELEVISION_PROGRAM_RECORDING_SITE,en,TV program recording site
+JAPAN_DOMESTIC,ja,日本国内
+JAPAN_DOMESTIC,en,Japan domestic
+DIALOGUE,ja,対話
+DIALOGUE,en,dialogue
+PLACE_NAME_GUIDANCE,ja,地名案内
+PLACE_NAME_GUIDANCE,en,place name guidance
+KYOTO_CITY,ja,京都市
+KYOTO_CITY,en,Kyoto city
+SENIOR_CONVERSATION,ja,高齢者の会話
+SENIOR_CONVERSATION,en,senior conversation
+NOISE_TRAFFIC_JAM,ja,交通渋滞のノイズ
+NOISE_TRAFFIC_JAM,en,traffic jam noise
+THEATER,ja,劇場
+THEATER,en,theater
+HIKOUKI,ja,飛行機
+HIKOUKI,en,airplane
+null,ja,不明
+null,en,unknown
+NOISY_ENVIRONMENT,ja,騒がしい環境
+NOISY_ENVIRONMENT,en,noisy environment
+INSIDE_CAR,ja,車内
+INSIDE_CAR,en,inside car
+HAISHA_APP,ja,配車アプリ
+HAISHA_APP,en,ride-hailing app
+ACCOUNTING,ja,会計
+ACCOUNTING,en,accounting
+FRIEND,ja,友人
+FRIEND,en,friend
+FACE_TO_FACE_CONVERSATION_WHILE_BOARDING,ja,乗車中の対面会話
+FACE_TO_FACE_CONVERSATION_WHILE_BOARDING,en,face-to-face conversation while boarding
+INTERNET,ja,インターネット
+INTERNET,en,internet
+CONVERSATION_BETWEEN_DRIVER_AND_PASSENGER,ja,運転手と乗客の会話
+CONVERSATION_BETWEEN_DRIVER_AND_PASSENGER,en,conversation between driver and passenger
+FOREIGN_CUSTOMER,ja,外国人客
+FOREIGN_CUSTOMER,en,foreign customer
+CITY,ja,都市
+CITY,en,city
+MONEY_TRANSACTION,ja,金銭取引
+MONEY_TRANSACTION,en,money transaction
+WORKPLACE_CLOTHING_STORE_ETC,ja,職場（衣料品店など）
+WORKPLACE_CLOTHING_STORE_ETC,en,workplace (clothing store, etc.)
+KARAOKE,ja,カラオケ
+KARAOKE,en,karaoke
+SHOKUBAI,ja,触媒
+SHOKUBAI,en,catalyst
+TAXI_RADIO,ja,タクシー無線
+TAXI_RADIO,en,taxi radio
+IN_CAR_MIC,ja,車内マイク
+IN_CAR_MIC,en,in-car mic
+TAKUSHI,ja,タクシー
+TAKUSHI,en,taxi
+INSIDE_CAR_ROAD_NOISE,ja,車内道路ノイズ
+INSIDE_CAR_ROAD_NOISE,en,inside car road noise
+DESTINATION_CONFIRMATION,ja,目的地確認
+DESTINATION_CONFIRMATION,en,destination confirmation
+SUPAA,ja,スーパー
+SUPAA,en,supermarket
+FOREIGNERS_AND_JAPANESE_CONVERSATION,ja,外国人と日本人の会話
+FOREIGNERS_AND_JAPANESE_CONVERSATION,en,conversation between foreigners and Japanese
+FOREIGNER_CONVERSATION,ja,外国人の会話
+FOREIGNER_CONVERSATION,en,foreigner conversation
+MICROPHONE_SPEC_UNKNOWN,ja,マイク仕様不明
+MICROPHONE_SPEC_UNKNOWN,en,microphone spec unknown
+NOISY_INSIDE_STORE,ja,店内騒がしい
+NOISY_INSIDE_STORE,en,noisy inside store
+AIRPORT,ja,空港
+AIRPORT,en,airport
+RECEPTION,ja,受付
+RECEPTION,en,reception
+STREET,ja,通り
+STREET,en,street
+EAST_KANTO_DIALECT_AREA,ja,東関東方言地域
+EAST_KANTO_DIALECT_AREA,en,East Kanto dialect area
+HOTEL,ja,ホテル
+HOTEL,en,hotel
+SUPER_SENTO,ja,スーパー銭湯
+SUPER_SENTO,en,super sento
+ONLINE_GAME_EVENT,ja,オンラインゲームイベント
+ONLINE_GAME_EVENT,en,online game event
+CAR_INTERIOR,ja,車内
+CAR_INTERIOR,en,car interior
+TRANSPORT_SITE,ja,交通現場
+TRANSPORT_SITE,en,transport site
+TEXT,ja,テキスト
+TEXT,en,text
+TOKYO_METROPOLITAN_AREA,ja,東京都市圏
+TOKYO_METROPOLITAN_AREA,en,Tokyo metropolitan area
+CASH_TICKET_PAYMENT,ja,現金・チケット支払い
+CASH_TICKET_PAYMENT,en,cash/ticket payment
+STAFF_AND_CUSTOMER,ja,スタッフと顧客
+STAFF_AND_CUSTOMER,en,staff and customer
+TV,ja,テレビ
+TV,en,TV
+IN_FLIGHT,ja,機内
+IN_FLIGHT,en,in-flight
+IRYOU_GENBA,ja,医療現場
+IRYOU_GENBA,en,medical site
+WITH_SUITCASE,ja,スーツケース付き
+WITH_SUITCASE,en,with suitcase
+KAISHA,ja,会社
+KAISHA,en,company
+KATAKANA_ENGLISH,ja,カタカナ英語
+KATAKANA_ENGLISH,en,katakana English
+RADIO_PROGRAM,ja,ラジオ番組
+RADIO_PROGRAM,en,radio program
+SUPERMARKET,ja,スーパーマーケット
+SUPERMARKET,en,supermarket
+OVERSEAS_TRAVEL,ja,海外旅行
+OVERSEAS_TRAVEL,en,overseas travel
