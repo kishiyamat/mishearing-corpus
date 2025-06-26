@@ -10,14 +10,20 @@ You can see the data [here](https://mishearing-corpus-dev.streamlit.app/).
 
 ## Project Roadmap
 
-| Phase                        | Target Size      | Estimated Period | Main Tasks                                                                 | Quick Checkpoint                        |
-|-----------------------------|------------------|------------------|----------------------------------------------------------------------------|-----------------------------------------|
-| **0. Schema Design**        | 0 → 100          | 1 week           | Transfer samples from existing papers/reports, finalize columns & foreign keys | *Is Frictionless CI green?*             |
-| **1. Existing Data Import**  | 100 → 1,500      | 1–1.5 months     | Extract explicit mishearing cases from available sources (search + manual fix) | *Record search queries & extraction rules in markdown* |
-| **2. Literature Mining**    | 1,500 → 3,000    | 1 month          | Copy tables from conference papers, theses, tech reports → append to CSV      | *Clear copyright & always fill citation*|
-| **3. Crowdsourcing ①**      | 3,000 → 6,000    | 2 months         | Taskify mishearing spots in ASR logs for manual review                        | *Run UI & instructions as MVP, get feedback* |
-| **4. Crowdsourcing ②**      | 6,000 → 9,000    | 1 month          | Subject task: listen to short audio, type exactly what was heard             | *Auto-record mic/noise conditions in Env* |
-| **5. Expansion & Review**   | 9,000 → 10,000+  | 1 month          | Add review labels (confidence, duplicate flag), fill missing genres           | *pre-commit: RED → fix → GREEN*         |
+To expand the dataset, it will be necessary at some point
+to implement a procedure for predicting and presenting potential mishearings.
+The extent of such data available on the web is currently unknown.
+Collecting 20 items from 100~200 participants would yield 2,000~4,000 instances,
+which seems to be the practical limit. 
+
+| Phase                       |   Target Size    | Estimated Period | Main Tasks                                                                 | Quick Checkpoint            |
+|-----------------------------|------------------|------------------|----------------------------------------------------------------------------|-----------------------------|
+| **0. Schema Design**        | 0 → 100         | 1 week           | Transfer samples from existing papers/reports/URLs, finalize columns       | *Is Frictionless CI green?* |
+| **1. Data Mining (1)**      | 100 → 1,000     | 1 month          | Extract explicit mishearing cases from available sources using LLMs        | *Search queries/LLMs setup* |
+| **2. Data Mining (2)**      | 1,000 → 3,000   | 1 month          | Continue expanding the CSV dataset.                                        | *Utilize LLMs and Fix tags* |
+| **3. Crowdsourcing (1)**    | 3,000 → 5,000   | 2 months         | Collect approximately 2,000 cases by recruiting 100 participants online.   | *Make an MVP, get feedback* |
+| **4. Crowdsourcing (2)**    | 5,000 → 6,000   | 1 month          | Develop a prediction model to generate stimuli for commonly misheard pairs.| *Is Frictionless CI green?* |
+| **5. Crowdsourcing (3)**    | 6,000 → 10,000  | 1 month          | Optimize the process to complete the remaining data collection.            | *Is Frictionless CI green?* |
 
 ---
 
@@ -127,7 +133,6 @@ mishearing-corpus/
 ```
 
 各テーブルの詳細やカラム定義は `schema/` 配下のJSONファイルを参照してください。
-```
 
 - シャード (shard): 大きなテーブルやコレクションを
   意味や順序を保ったまま、複数の小さなファイルやパーティションに分割して管理する方式
@@ -256,6 +261,7 @@ We thank all annotators and contributors to this project.
 
 ### Kikimatsugai 1101 (N=9)
 - できれば加えたいデータ(かなり量がある)
+- 現状だとデータのフェッチが難しい
 
 ### Google
 
