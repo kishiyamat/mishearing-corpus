@@ -161,7 +161,7 @@ def main():
 
 st.set_page_config(page_title="Mishearing Corpus")
 
-main_tab, stats_tab = st.tabs(["main", "stats"])
+main_tab, stats_tab, progress_tab = st.tabs(["main", "stats", "progress"])
 
 with main_tab:
     main()
@@ -179,3 +179,66 @@ with stats_tab:
 
     st.subheader("合計")
     st.metric(label="総件数", value=total)
+
+import subprocess
+import shlex
+from datetime import datetime, timezone
+from pathlib import Path
+
+import pandas as pd
+import streamlit as st
+
+from pathlib import Path
+from datetime import datetime, timezone
+import csv, git
+
+def show_history():
+    st.subheader("Corpus 行数の推移（Git 履歴から自動取得）")
+    repo = git.Repo(Path(__file__).resolve().parent)
+    records = []
+
+    for c in repo.iter_commits(paths="data/mishearing"):
+        ts = datetime.fromtimestamp(c.committed_date, tz=timezone.utc).isoformat()
+        total = 0
+        for b in c.tree.traverse():
+            p = b.path
+            if p.startswith("data/mishearing/") and p.endswith(".csv"):
+                rows = b.data_stream.read().decode("utf-8", "ignore").splitlines()
+                total += max(len(rows) - 1, 0)      # ヘッダーを除外
+        records.append({
+            "commit": c.hexsha,
+            "timestamp": ts,
+            "rows": total
+        })
+
+    df = pd.DataFrame(records)
+
+    # ① タイムスタンプを日付（00:00 UTC）に丸める
+    df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True, errors="coerce")
+    df["date"] = df["timestamp"].dt.normalize()
+
+    # ② 同一日の中で最後（= 行数が最新）のレコードを残す
+    daily = (
+        df.sort_values("timestamp")
+        .groupby("date", as_index=False)
+        .last()                     # 最後の commit が残る
+        .set_index("date")
+    )
+
+    # ③ 欠損日のインデックスを補完
+    full_idx = pd.date_range(
+        start=daily.index.min(),
+        end=daily.index.max(),
+        freq="D",
+        tz="UTC"
+    )
+    daily = daily.reindex(full_idx)
+
+    # ④ rows と commit を前方埋め
+    daily["rows"] = daily["rows"].ffill()
+    # ⑤ Streamlit で利用
+    st.line_chart(daily["rows"])
+    st.dataframe(daily.reset_index(names="date"))
+
+with progress_tab:
+    show_history()
