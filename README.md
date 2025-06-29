@@ -327,12 +327,12 @@ We thank all annotators and contributors to this project.
 #### `"Mishearing of wo*to*聞き間違*"` (N=20)
 
 
-### Google | Taxk (N=196)
+### Google | Taxi (N=196)
 
 - 作成したアプリで収集(`queries = 'タクシー "聞き間違え"'`)
 - 重複もあるかもしれない。
 
-### Google | Taxk (N=244)
+### Google | Taxi (N=244)
 
 - 作成したアプリで収集(`queries = 'タクシー "聞き間違い"'`)
 - 重複するURLで事前にスキップ
