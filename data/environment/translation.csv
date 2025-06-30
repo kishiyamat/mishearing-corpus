@@ -987,3 +987,109 @@ CAFE,ja,カフェ
 CAFE,en,cafe
 SALES_FLOOR_GUIDANCE,ja,売り場案内
 SALES_FLOOR_GUIDANCE,en,sales floor guidance
+NO_MIC,ja,マイクなし
+NO_MIC,en,no mic
+QUIET_PLACE_NOISY_PLACE,ja,静かな場所と騒がしい場所
+QUIET_PLACE_NOISY_PLACE,en,quiet place and noisy place
+LAB,ja,研究室
+LAB,en,lab
+HOME_SHOP_MEDICAL_FACILITY,ja,家庭・店舗・医療施設
+HOME_SHOP_MEDICAL_FACILITY,en,"home, shop, medical facility"
+ORAL_REPORT,ja,口頭報告
+ORAL_REPORT,en,oral report
+ZATSUON_KANKYO,ja,雑音環境
+ZATSUON_KANKYO,en,noisy environment
+WINTER,ja,冬
+WINTER,en,winter
+ELDERLY_CONVERSATION,ja,高齢者の会話
+ELDERLY_CONVERSATION,en,conversation with elderly
+CHAT,ja,チャット
+CHAT,en,chat
+QUIET_STORE_INTERIOR,ja,静かな店内
+QUIET_STORE_INTERIOR,en,quiet store interior
+NURSING_FACILITY,ja,介護施設
+NURSING_FACILITY,en,nursing facility
+MASK_WEARING,ja,マスク着用
+MASK_WEARING,en,mask wearing
+CONVERSATION_NOISE,ja,会話ノイズ
+CONVERSATION_NOISE,en,conversation noise
+VIDEO,ja,ビデオ
+VIDEO,en,video
+MEDICAL_WARD,ja,医療病棟
+MEDICAL_WARD,en,medical ward
+GAS_STATION,ja,ガソリンスタンド
+GAS_STATION,en,gas station
+NOISY_ESTIMATED,ja,騒がしいと推定
+NOISY_ESTIMATED,en,noisy estimated
+THROUGH_PANEL,ja,パネル越し
+THROUGH_PANEL,en,through panel
+SECURITY_CAMERA_AUDIO,ja,防犯カメラ音声
+SECURITY_CAMERA_AUDIO,en,security camera audio
+BYOIN,ja,病院
+BYOIN,en,hospital
+FRONT_OF_REGISTER,ja,レジ前
+FRONT_OF_REGISTER,en,front of register
+OFFICE_ESTIMATED,ja,オフィスと推定
+OFFICE_ESTIMATED,en,office estimated
+TEACHING_MATERIAL_AUDIO,ja,教材音声
+TEACHING_MATERIAL_AUDIO,en,teaching material audio
+MASK_VINYL_BARRIER,ja,マスクとビニールバリア
+MASK_VINYL_BARRIER,en,mask and vinyl barrier
+LAW_OFFICE,ja,法律事務所
+LAW_OFFICE,en,law office
+ACROSS_COUNTER,ja,カウンター越し
+ACROSS_COUNTER,en,across counter
+FACE_TO_FACE_CUSTOMER_SERVICE,ja,対面接客
+FACE_TO_FACE_CUSTOMER_SERVICE,en,face-to-face customer service
+FRIENDS_FAMILY,ja,友人・家族
+FRIENDS_FAMILY,en,friends and family
+KOREISHA_TO_NO_KAIWA,ja,高齢者との会話
+KOREISHA_TO_NO_KAIWA,en,conversation with elderly
+COMPANY_ESTABLISHMENT_PROCEDURE,ja,会社設立手続き
+COMPANY_ESTABLISHMENT_PROCEDURE,en,company establishment procedure
+JAPANESE,ja,日本語
+JAPANESE,en,Japanese
+PC_WORK,ja,PC作業
+PC_WORK,en,PC work
+WORKING,ja,仕事中
+WORKING,en,working
+ELDERLY_FACILITY,ja,高齢者施設
+ELDERLY_FACILITY,en,elderly facility
+QUIET_ENVIRONMENT,ja,静かな環境
+QUIET_ENVIRONMENT,en,quiet environment
+KAIGO_GENBA,ja,介護現場
+KAIGO_GENBA,en,care site
+FATIGUE_STATE,ja,疲労状態
+FATIGUE_STATE,en,fatigue state
+WINDOW_COUNTER_WORK,ja,窓口業務
+WINDOW_COUNTER_WORK,en,window counter work
+CORONA_PANDEMIC,ja,コロナパンデミック
+CORONA_PANDEMIC,en,corona pandemic
+FRIEND_HOUSE,ja,友人の家
+FRIEND_HOUSE,en,friend's house
+WATCHING_TV,ja,テレビ視聴
+WATCHING_TV,en,watching TV
+SALES_SITE,ja,販売現場
+SALES_SITE,en,sales site
+SELF_INTRODUCTION,ja,自己紹介
+SELF_INTRODUCTION,en,self-introduction
+SMARTPHONE_APP,ja,スマホアプリ
+SMARTPHONE_APP,en,smartphone app
+HEARING_AID_UNWORN_WORN,ja,補聴器未装着・装着
+HEARING_AID_UNWORN_WORN,en,hearing aid unworn/worn
+CONVERSATION_WITH_ELDERLY,ja,高齢者との会話
+CONVERSATION_WITH_ELDERLY,en,conversation with elderly
+STUDYING_FOR_EXAMS,ja,試験勉強
+STUDYING_FOR_EXAMS,en,studying for exams
+INSHOKUTEN,ja,飲食店
+INSHOKUTEN,en,restaurant
+LEARNING_ENVIRONMENT,ja,学習環境
+LEARNING_ENVIRONMENT,en,learning environment
+AMERICA,ja,アメリカ
+AMERICA,en,America
+CASH_REGISTER,ja,レジ
+CASH_REGISTER,en,cash register
+TOEIC_LISTENING,ja,TOEICリスニング
+TOEIC_LISTENING,en,TOEIC listening
+NICHIJO_KAIWA,ja,日常会話
+NICHIJO_KAIWA,en,daily conversation

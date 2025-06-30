@@ -38,6 +38,7 @@ which seems to be the practical limit.
 - [8. Citation](#8-citation)
 - [9. Contact / acknowledgements](#9-contact--acknowledgements)
 - [10. Data Sources](#10-data-sources)
+- [11. Applications](#11-applications)
 
 ---
 
@@ -342,19 +343,24 @@ We thank all annotators and contributors to this project.
 言い間違いのデータだったり、SrcとTgtが逆になっているパターンがあるので
 注意して編集する.
 
-### Google | Shigoto (N=?)
+### Google | Shigoto (N=275)
 
-- 作成したアプリで収集(`queries = '仕事 "聞き間違え"'`) -> N=?
-- 作成したアプリで収集(`queries = '仕事 "聞き間違い"'`) -> N=?
+- 作成したアプリで収集(`queries = '仕事 "聞き間違え"'`) -> N=199
+- 作成したアプリで収集(`queries = '仕事 "聞き間違い"'`) -> N=76
 
 漫画の例は回収できればする。
 言い間違いと思い込んで聞き間違えた場合は無視（酷暑のホットコーヒー→アイスコーヒーの確認。）
+- 差別的な例は除外
+
+ファイル名が.を含んでしまう場合がある。
+勘違い系はSpeakerとListenerが逆になっているかも？
 
 ### Google | Business (N=?)
 
+- IgnoreのURLを指定できるように更新
+  - resourceの中にあるnot_relevant directoryにあるcsvのurlを無視する。
 - 作成したアプリで収集(`queries = 'ビジネス "聞き間違え"'`) -> N=?
 - 作成したアプリで収集(`queries = 'ビジネス "聞き間違い"'`) -> N=?
-
 
 ### Indivisuals
 
@@ -368,3 +374,19 @@ We thank all annotators and contributors to this project.
   - LLMで自動整形
 
 #### Kishiyama 
+
+個人的な経験
+
+## 11. Applications
+
+### Machine Learning
+
+* Evaluation of models that predict mishearing events in daily life,
+  work, or educational settings
+
+### Psycholinguistics
+
+* Phonetic and psycholinguistic research on perceptual epenthesis or dialect differences  
+  - コンテキストが単語の活性化をどの程度抑制していくか.
+  - 文脈を絞る度合いの個人差
+  - 大きなデータ・セットによる評価

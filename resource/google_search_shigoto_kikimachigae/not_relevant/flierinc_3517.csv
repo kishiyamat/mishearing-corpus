@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+flier_3517_001,番号の読み上げ,番号の聞き間違い,ダブルチェックでもミスは起こる,FAX送信時、1人が番号を読み上げ、もう1人が番号を押すダブルチェックでも、聞き間違いや言い間違いで送信ミスが発生した。,True,flier_3517,https://www.flierinc.com/summary/3517,日本語,"['仕事', '業務効率化', 'ミス防止', 'コミュニケーション', '職場', 'ダブルチェック', 'システム改善', '聞き間違い']","['オフィス', 'FAX送信', 'チーム作業']"
