@@ -1,0 +1,15 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+39mag_benesse_16332_001,日本シリーズ第3戦の模様,日本シリーズ第3戦の水玉模様や花模様,文脈に注意,「模様」を柄の模様と誤解,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', 'テレビ', 'ニュース', '同音異義語', '日常生活']",['テレビ視聴']
+39mag_benesse_16332_002,誤って池に落ちて,謝って池に落ちて,文脈に注意,「誤って」を「謝って」と誤解,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', 'ニュース', '同音異義語', '日常生活']",['テレビ視聴']
+39mag_benesse_16332_003,右中間,宇宙感,野球用語に注意,野球用語の「右中間」を「宇宙感」と誤解,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '野球', 'スポーツ', '同音異義語', '日常生活']",['テレビ視聴']
+39mag_benesse_16332_004,多機能トイレです,滝のおトイレです,音声案内に注意,駅の音声案内「多機能トイレです」を「滝のおトイレです」と誤解,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '音声案内', '駅', '日常生活']",['駅のトイレ（音声案内）']
+39mag_benesse_16332_005,舞踏会,ぶどう会,子どもに多い,絵本の「舞踏会」を「ぶどう会」と思い込んだ,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '子ども', '絵本', '日常生活']",['絵本の読み聞かせ']
+39mag_benesse_16332_006,さようでございますか,サイでございますか,子どもに多い,電話応対の「さようでございますか」を動物のサイと誤解,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '子ども', '電話', '日常生活']","['家庭内会話', '電話']"
+39mag_benesse_16332_007,恐縮です,キョウシュク（品物名）,子どもに多い,「恐縮です」を商品名と誤解,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '子ども', '業者', '日常生活']",['家庭内会話']
+39mag_benesse_16332_008,お世話さまです,オセワサマ（名字）,子どもに多い,「お世話さまです」を名字と誤解,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '子ども', '業者', '日常生活']",['家庭内会話']
+39mag_benesse_16332_009,お勉強しまして,勉強（算数・国語）,子どもに多い,家電屋の「お勉強しまして」を本当に勉強していると誤解,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '子ども', '業者', '日常生活']",['家庭内会話']
+39mag_benesse_16332_010,薬剤師,ヤクザ,子どもに多い,「やくざいし」を「ヤクザ」と誤解,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '子ども', '学校', '職業', '日常生活']",['学校']
+39mag_benesse_16332_011,加齢臭,カレー臭,子どもに多い,息子が「加齢臭」を「カレー臭」と思い込んでいた,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '子ども', '家庭', '日常生活']",['家庭内会話']
+39mag_benesse_16332_012,トリノオリンピック,鳥のオリンピック,子どもに多い,娘が「トリノオリンピック」を「鳥のオリンピック」と誤解,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '子ども', 'テレビ', 'スポーツ', '日常生活']",['テレビ視聴']
+39mag_benesse_16332_013,ニトリ,ことり屋さん,見間違い（視覚的）,店名「ニトリ」を「ことり屋さん」と見間違えた,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['見間違い', '子ども', '店舗', '日常生活']",['店舗']
+39mag_benesse_16332_014,ルパン三世のテーマ曲,ルパンルパーン,歌詞の聞き間違い,「ルパン三世」のテーマ曲の歌い出しを「ルパンルパーン」と思い込んでいた,True,39mag_benesse_16332,https://39mag.benesse.ne.jp/lifestyle/content/?id=16332,日本語,"['聞き間違い', '音楽', '歌詞', '日常生活']",['音楽（歌詞）']

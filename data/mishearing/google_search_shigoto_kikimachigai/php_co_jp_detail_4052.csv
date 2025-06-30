@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+the21phpcojp_4052_001,管制官の指示,離陸許可が出たと誤解,指示の復唱・確認,1977年カナリア諸島空港事故。副操縦士が管制官の指示を勘違いし、機長に意見できず大事故に。,True,the21phpcojp_4052,https://the21.php.co.jp/detail/4052,NA,NA,日本語,"['職場', 'ヒューマンエラー', '聞き間違い', 'コミュニケーション', '航空事故', '安全管理', '組織論', '非母語話者']","['空港', 'コックピット', '濃霧・混雑', '無線通信', '管制官とパイロット間の英語交信', 'ノイズ']"

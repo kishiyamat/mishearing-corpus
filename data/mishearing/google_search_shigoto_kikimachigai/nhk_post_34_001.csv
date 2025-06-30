@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nhk_lifechat_post_34_001,香川,カナダ,窓口業務中、上司の口頭指示で「香川」を「カナダ」と聞き間違えた。雑音環境やAPDの症状が影響。,APD当事者の実体験。DocIDは記事URLから抽出。,True,nhk_lifechat_post_34,https://www3.nhk.or.jp/news/special/lifechat/post_34.html,日本語,"['APD', '聴覚情報処理障害', '聞き間違い', '雑音環境', 'コミュニケーション障害', '医療', '教育', '仕事']","['職場', '窓口業務', '雑音環境', '対面接客']"

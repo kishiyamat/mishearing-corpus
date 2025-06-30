@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+hancho_workmistake_001,NA,NA,指示は復唱・明確に,工場現場で指示の聞き間違いによる作業ミスが発生することがあるが、具体的な誤聴語句は記載なし。(Src=NA: 指示内容が具体語でない)(Tgt=NA: 誤聴内容が具体語でない),True,hancho_workmistake,https://www.hancho.jp/column/work_mistake,日本語,"['工場', '作業ミス', 'ヒューマンエラー', '聞き間違い', '生産管理', '業務改善', 'MES', 'DX', '製造業', '連絡ミス']","['工場現場', '生産ライン', '複数人作業', '指示伝達環境', 'ノイズあり']"

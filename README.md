@@ -336,6 +336,17 @@ We thank all annotators and contributors to this project.
 言い間違いのデータだったり、SrcとTgtが逆になっているパターンがあるので
 注意して編集する.
 
+### Google | Shigoto (N=?)
+
+- 作成したアプリで収集(`queries = '仕事 "聞き間違え"'`) -> N=?
+- 作成したアプリで収集(`queries = '仕事 "聞き間違い"'`) -> N=?
+
+### Google | Business (N=?)
+
+- 作成したアプリで収集(`queries = 'ビジネス "聞き間違え"'`) -> N=?
+- 作成したアプリで収集(`queries = 'ビジネス "聞き間違い"'`) -> N=?
+
+
 ### Indivisuals
 
 - 個人の報告
