@@ -353,6 +353,7 @@ We thank all annotators and contributors to this project.
 - 差別的な例は除外
 
 ファイル名が.を含んでしまう場合がある。
+勘違い系はSpeakerとListenerが逆になっているかも？
 
 ### Google | Business (N=?)
 
