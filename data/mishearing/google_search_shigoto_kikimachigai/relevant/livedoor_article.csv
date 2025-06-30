@@ -1,5 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-livedoor_12842343_001,釈迦野（しゃかの）,坂野（さかの）,電話で名字を聞き返す際は、ゆっくり・はっきり確認すること。,電話で相手の名字を聞き間違えた。(これは仕方ない...),True,livedoor_12842343,https://news.livedoor.com/article/detail/12842343/,日本語,"['職場', '聞き間違い', '名前', '電話対応']","['オフィス', '電話']"
-livedoor_12842343_002,ノグチ,タブチ,似た音の名前が複数いる場合は、フルネームで確認する。,似た音の名前を聞き間違えた。,True,livedoor_12842343,https://news.livedoor.com/article/detail/12842343/,日本語,"['職場', '聞き間違い', '名前']","['オフィス', '会話']"
-livedoor_12842343_003,タブチ,マブチ,似た音の名前が複数いる場合は、フルネームで確認する。,似た音の名前を聞き間違えた。,True,livedoor_12842343,https://news.livedoor.com/article/detail/12842343/,日本語,"['職場', '聞き間違い', '名前']","['オフィス', '会話']"
-livedoor_12842343_004,マブチ,ノグチ,似た音の名前が複数いる場合は、フルネームで確認する。,似た音の名前を聞き間違えた。,True,livedoor_12842343,https://news.livedoor.com/article/detail/12842343/,日本語,"['職場', '聞き間違い', '名前']","['オフィス', '会話']"

@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-hicareer_hiyoko_25189_001,あなたもポンカツ、始めませんか？,あなたも温活、始めませんか？,音が似ている語に注意。文脈で判断する習慣をつけると良い。,朝のラジオ番組で『ポンカツ』と聞こえたが、実際は『温活』だった。,True,hicareer_hiyoko_25189,https://www.hicareer.jp/inter/hiyoko/25189.html,日本語,"['聞き間違い', 'ラジオ', '日常生活']","['ラジオ放送', '自宅', '音声のみ']"
-hicareer_hiyoko_25189_002,キャサリン,キャリセン,略語やカタカナ表記は見間違えやすいので注意。掲示物はよく確認する。,大学構内のポスターで『キャサリン』と見間違えたが、実際は『キャリセン（キャリアセンターの略）』だった。,True,hicareer_hiyoko_25189,https://www.hicareer.jp/inter/hiyoko/25189.html,日本語,"['見間違い', '大学', '掲示物']","['大学構内', 'ポスター', '視覚情報']"

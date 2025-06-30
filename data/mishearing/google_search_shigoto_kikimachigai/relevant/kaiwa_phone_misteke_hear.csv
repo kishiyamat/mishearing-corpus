@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-kaiwa_cloud_tel_support_001,1時（いちじ）,7時（しちじ）,数字は復唱が有効,電話で数字を伝える際、音が似ているため聞き間違いが発生しやすい。復唱で防止。,True,kaiwa_cloud_tel_support,https://kaiwa.cloud/media/telephone-work/tel-support/phone-misteke-hear/,日本語,"['電話対応', '聞き間違い', 'コールセンター', 'ビジネス', '顧客対応', '数字', '復唱', 'メモ', 'コミュニケーション', '日本語']","['電話', 'オフィス', 'コールセンター', '騒音環境', '通信環境']"
-kaiwa_cloud_tel_support_002,広井（ひろい）,白井（しらい）,名前は復唱が有効,電話で名前を伝える際、音が似ているため聞き間違いが発生しやすい。復唱で防止。,True,kaiwa_cloud_tel_support,https://kaiwa.cloud/media/telephone-work/tel-support/phone-misteke-hear/,日本語,"['電話対応', '聞き間違い', 'コールセンター', 'ビジネス', '顧客対応', '名前', '復唱', 'メモ', 'コミュニケーション', '日本語']","['電話', 'オフィス', 'コールセンター', '騒音環境', '通信環境']"
