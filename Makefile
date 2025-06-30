@@ -15,3 +15,8 @@ clean:
 
 build-datapackage:
 	python scripts/build_datapackage.py
+
+# test
+# lint
+# mypy
+# autopep8
