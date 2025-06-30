@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-milacshearing_conversation_001,こないだコロナになって大変だったよ,こないだ転んだって大変だったよ,聞き返し推奨,難聴者の花子さんは「コロナになった」を「転んだ」と聞き間違え、会話がすれ違った。,True,milacshearing_conversation,https://milacshearing.com/life/conversation/,太郎,花子,日本語,"['難聴', '聞き間違い', 'コミュニケーション', '補聴器', '高齢者', '生活', 'すれ違い', '会話', '医療・福祉']","['家庭', '日常会話', '雑音環境', '難聴者']"
