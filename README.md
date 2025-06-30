@@ -380,9 +380,12 @@ We thank all annotators and contributors to this project.
 
 ### Machine Learning
 
-* Evaluation of models that predict mishearing events
-* Predicting mis-hearings in daily life, work, or educational settings
+* Evaluation of models that predict mishearing events in daily life,
+  work, or educational settings
 
 ### Psycholinguistics
 
 * Phonetic and psycholinguistic research on perceptual epenthesis or dialect differences  
+  - コンテキストが単語の活性化をどの程度抑制していくか.
+  - 文脈を絞る度合いの個人差
+  - 大きなデータ・セットによる評価
