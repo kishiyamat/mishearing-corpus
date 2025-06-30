@@ -995,3 +995,237 @@ DRUG_NAME,ja,薬品名
 DRUG_NAME,en,drug name
 BRAIN_MISCONVERSION,ja,脳内変換ミス
 BRAIN_MISCONVERSION,en,brain misconversion
+TAPE_TRANSCRIPTION,ja,テープ文字起こし
+TAPE_TRANSCRIPTION,en,tape transcription
+HUMAN_ERROR,ja,ヒューマンエラー
+HUMAN_ERROR,en,human error
+SHIGOTO,ja,仕事
+SHIGOTO,en,work
+VOICE_GUIDANCE,ja,音声案内
+VOICE_GUIDANCE,en,voice guidance
+COMIC_BLOG,ja,コミックブログ
+COMIC_BLOG,en,comic blog
+PRODUCT_GUIDANCE,ja,商品案内
+PRODUCT_GUIDANCE,en,product guidance
+FUFU,ja,夫婦
+FUFU,en,spouses
+ILLUSTRATION_ESSAY,ja,イラストエッセイ
+ILLUSTRATION_ESSAY,en,illustration essay
+SUUJI,ja,数字
+SUUJI,en,numbers
+NICHOSEIKATSU,ja,日常生活
+NICHOSEIKATSU,en,daily life
+TABEMONO,ja,食べ物
+TABEMONO,en,food
+KIGYO,ja,企業
+KIGYO,en,company
+WORKING_MOTHER,ja,働く母親
+WORKING_MOTHER,en,working mother
+PRODUCT_ORDER,ja,商品注文
+PRODUCT_ORDER,en,product order
+ZATSU_GAKU,ja,雑学
+ZATSU_GAKU,en,trivia
+TEXT_TRANSCRIPTION,ja,テキスト文字起こし
+TEXT_TRANSCRIPTION,en,text transcription
+SEASON,ja,季節
+SEASON,en,season
+BUSINESS_EFFICIENCY,ja,業務効率
+BUSINESS_EFFICIENCY,en,business efficiency
+DENWA_OUTAI,ja,電話応対
+DENWA_OUTAI,en,phone response
+ONSEI_NINSHIKI,ja,音声認識
+ONSEI_NINSHIKI,en,speech recognition
+HATTATSU_SHOGAI,ja,発達障害
+HATTATSU_SHOGAI,en,developmental disorder
+ELECTION,ja,選挙
+ELECTION,en,election
+GAME_JIKKYOU,ja,ゲーム実況
+GAME_JIKKYOU,en,game commentary
+BUSINESS_MANNERS,ja,ビジネスマナー
+BUSINESS_MANNERS,en,business manners
+SCHEDULE_ADJUSTMENT,ja,スケジュール調整
+SCHEDULE_ADJUSTMENT,en,schedule adjustment
+NICHOJISEIKATSU,ja,日常生活
+NICHOJISEIKATSU,en,daily life
+MUSICAL,ja,ミュージカル
+MUSICAL,en,musical
+KIRAKIRA_REGISTER_DIARY,ja,キラキラレジ日記
+KIRAKIRA_REGISTER_DIARY,en,shiny register diary
+OFFICE_WORK,ja,事務作業
+OFFICE_WORK,en,office work
+DENWA_DAIKOU,ja,電話代行
+DENWA_DAIKOU,en,phone proxy
+ACCOUNTING,ja,会計
+ACCOUNTING,en,accounting
+SHAMEI,ja,社名
+SHAMEI,en,company name
+NEW_EMPLOYEE,ja,新入社員
+NEW_EMPLOYEE,en,new employee
+CHEER_UP,ja,応援
+CHEER_UP,en,cheer up
+KODOMU,ja,子ども
+KODOMU,en,child
+NORTH_AMERICAN_LIFE,ja,北米生活
+NORTH_AMERICAN_LIFE,en,North American life
+COMIC,ja,コミック
+COMIC,en,comic
+REPEAT_CONFIRMATION,ja,繰り返し確認
+REPEAT_CONFIRMATION,en,repeat confirmation
+CHILD_REARING,ja,子育て
+CHILD_REARING,en,child rearing
+KOKYAKU_TAIOU,ja,顧客対応
+KOKYAKU_TAIOU,en,customer service
+WORD_PLAY,ja,言葉遊び
+WORD_PLAY,en,word play
+PART_TIME_JOB,ja,アルバイト
+PART_TIME_JOB,en,part-time job
+CORONA_CRISIS,ja,コロナ禍
+CORONA_CRISIS,en,corona crisis
+MIMACHIGAI,ja,聞き間違い
+MIMACHIGAI,en,mishearing
+HEARING_INFORMATION_PROCESSING_DISORDER,ja,聴覚情報処理障害
+HEARING_INFORMATION_PROCESSING_DISORDER,en,hearing information processing disorder
+REPEAT,ja,繰り返し
+REPEAT,en,repeat
+NON_NATIVE_SPEAKER_INTERNATIONAL_CALL,ja,非ネイティブスピーカー国際電話
+NON_NATIVE_SPEAKER_INTERNATIONAL_CALL,en,non-native speaker international call
+TIME_NOTATION,ja,時間表記
+TIME_NOTATION,en,time notation
+ELEMENTARY_SCHOOL_STUDENT,ja,小学生
+ELEMENTARY_SCHOOL_STUDENT,en,elementary school student
+PICTURE_BOOK,ja,絵本
+PICTURE_BOOK,en,picture book
+MEETING,ja,会議
+MEETING,en,meeting
+BLOOD_DRAW,ja,採血
+BLOOD_DRAW,en,blood draw
+MINUTES,ja,議事録
+MINUTES,en,minutes
+HARD_OF_HEARING,ja,難聴
+HARD_OF_HEARING,en,hard of hearing
+KAIGO_MANGA,ja,介護漫画
+KAIGO_MANGA,en,care manga
+TENSYOKU,ja,転職
+TENSYOKU,en,career change
+MANGA,ja,漫画
+MANGA,en,manga
+OMOIKOMI,ja,思い込み
+OMOIKOMI,en,preconception
+APD,ja,聴覚処理障害
+APD,en,auditory processing disorder
+MANAGEMENT,ja,管理
+MANAGEMENT,en,management
+SOCIETY,ja,社会
+SOCIETY,en,society
+INCIDENT,ja,事件
+INCIDENT,en,incident
+HOMEN_KAIGO,ja,訪問介護
+HOMEN_KAIGO,en,home care
+POLITE,ja,丁寧
+POLITE,en,polite
+EXPERIENCE_STORY,ja,体験談
+EXPERIENCE_STORY,en,experience story
+NYUSHA_SETSUMEIKAI,ja,入社説明会
+NYUSHA_SETSUMEIKAI,en,company orientation
+STAGE,ja,舞台
+STAGE,en,stage
+HOCHOKI,ja,補聴器
+HOCHOKI,en,hearing aid
+ANIMAL_BEHAVIOR,ja,動物行動
+ANIMAL_BEHAVIOR,en,animal behavior
+MOM,ja,母親
+MOM,en,mom
+DENWA_TAIOU,ja,電話対応
+DENWA_TAIOU,en,phone support
+IT_TOOL,ja,ITツール
+IT_TOOL,en,IT tool
+IKUJI,ja,育児
+IKUJI,en,childcare
+ILLUSTRATION,ja,イラスト
+ILLUSTRATION,en,illustration
+CHILDHOOD,ja,幼少期
+CHILDHOOD,en,childhood
+SHAKAIJIN,ja,社会人
+SHAKAIJIN,en,working adult
+HOMOPHONES,ja,同音異義語
+HOMOPHONES,en,homophones
+HEALTH,ja,健康
+HEALTH,en,health
+BUSINESS_MANNER,ja,ビジネスマナー
+BUSINESS_MANNER,en,business manner
+CONTRACT,ja,契約
+CONTRACT,en,contract
+MISHEARD_WORDS,ja,聞き間違い単語
+MISHEARD_WORDS,en,misheard words
+SAGA,ja,佐賀
+SAGA,en,Saga
+FRENCH_PERSON,ja,フランス人
+FRENCH_PERSON,en,French person
+HIBOGO_WASHA,ja,非母語話者
+HIBOGO_WASHA,en,non-native speaker
+BRAIN_HEALTH,ja,脳の健康
+BRAIN_HEALTH,en,brain health
+SHINNYU_SHAIN,ja,新入社員
+SHINNYU_SHAIN,en,new employee
+JAPANESE_LEARNING,ja,日本語学習
+JAPANESE_LEARNING,en,Japanese learning
+CLEANING,ja,掃除
+CLEANING,en,cleaning
+SHUSHOKU_KATSUDO,ja,就職活動
+SHUSHOKU_KATSUDO,en,job hunting
+NEAR_MISS,ja,ヒヤリハット
+NEAR_MISS,en,near miss
+FAMILY_NAME,ja,姓
+FAMILY_NAME,en,family name
+POSTER,ja,ポスター
+POSTER,en,poster
+IDIOM,ja,慣用句
+IDIOM,en,idiom
+RECRUITMENT,ja,採用
+RECRUITMENT,en,recruitment
+FALSE_CHARGE,ja,冤罪
+FALSE_CHARGE,en,false charge
+VOCABULARY,ja,語彙
+VOCABULARY,en,vocabulary
+KATEI,ja,家庭
+KATEI,en,home
+BASEBALL,ja,野球
+BASEBALL,en,baseball
+NICJOU,ja,日常
+NICJOU,en,daily life
+KENSHU,ja,研修
+KENSHU,en,training
+YOUTUBE,ja,YouTube
+YOUTUBE,en,YouTube
+PORK,ja,豚肉
+PORK,en,pork
+REMOTE_WORK,ja,リモートワーク
+REMOTE_WORK,en,remote work
+ECONOMY,ja,経済
+ECONOMY,en,economy
+IZAKAYA,ja,居酒屋
+IZAKAYA,en,izakaya
+NUMERALS,ja,数字
+NUMERALS,en,numerals
+KATAKANA_GO,ja,カタカナ語
+KATAKANA_GO,en,katakana word
+SHIGA,ja,滋賀
+SHIGA,en,Shiga
+FUKUSYOU,ja,復唱
+FUKUSYOU,en,repeat
+KOSODATE,ja,子育て
+KOSODATE,en,child rearing
+HEALTH_CHECKUP,ja,健康診断
+HEALTH_CHECKUP,en,health checkup
+FOOD_AND_DRINK,ja,飲食
+FOOD_AND_DRINK,en,food and drink
+REKISHI,ja,歴史
+REKISHI,en,history
+GOYGEN,ja,語源
+GOYGEN,en,word origin
+NANCHO,ja,難聴
+NANCHO,en,hearing loss
+SAFETY,ja,安全
+SAFETY,en,safety
+CS_KOJO,ja,CS向上
+CS_KOJO,en,customer satisfaction improvement

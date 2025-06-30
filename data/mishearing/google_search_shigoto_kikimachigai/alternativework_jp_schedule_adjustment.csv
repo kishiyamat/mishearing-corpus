@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+alternativework_scheduleadjust_001,午後5時で調整して,15時で調整して,24時間表記を推奨,上司の「午後5時で調整して」を「15時で調整して」と聞き間違え、日程調整ミスが発生した事例。,True,alternativework_scheduleadjust,https://www.alternativework.jp/makingefficient/schedule-adjustment/,上司,,ja

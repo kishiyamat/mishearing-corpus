@@ -799,3 +799,191 @@ SUPERMARKET,ja,スーパーマーケット
 SUPERMARKET,en,supermarket
 OVERSEAS_TRAVEL,ja,海外旅行
 OVERSEAS_TRAVEL,en,overseas travel
+HEALTH_CHECKUP_VENUE,ja,健康診断会場
+HEALTH_CHECKUP_VENUE,en,health checkup venue
+STATION_TOILET_AUDIO_GUIDANCE,ja,駅トイレ音声案内
+STATION_TOILET_AUDIO_GUIDANCE,en,station toilet audio guidance
+WITHOUT_HEARING_AID,ja,補聴器なし
+WITHOUT_HEARING_AID,en,without hearing aid
+HOME_CONVERSATION,ja,家庭内会話
+HOME_CONVERSATION,en,home conversation
+UNIVERSITY_CAMPUS,ja,大学キャンパス
+UNIVERSITY_CAMPUS,en,university campus
+FRIENDS,ja,友人
+FRIENDS,en,friends
+CALENDAR_ENTRY,ja,カレンダー記入
+CALENDAR_ENTRY,en,calendar entry
+INSIDE_STORE_SECURITY_CAMERA,ja,店内防犯カメラ
+INSIDE_STORE_SECURITY_CAMERA,en,inside store security camera
+LIVING,ja,リビング
+LIVING,en,living
+ADMINISTRATIVE_WORK,ja,事務作業
+ADMINISTRATIVE_WORK,en,administrative work
+IZAKAYA_SMOKING_AREA,ja,居酒屋喫煙所
+IZAKAYA_SMOKING_AREA,en,izakaya smoking area
+STAGE_PLAY,ja,舞台劇
+STAGE_PLAY,en,stage play
+VISUAL_INFORMATION,ja,視覚情報
+VISUAL_INFORMATION,en,visual information
+HEARING_IMPAIRMENT,ja,聴覚障害
+HEARING_IMPAIRMENT,en,hearing impairment
+COUNTER_SERVICE,ja,カウンターサービス
+COUNTER_SERVICE,en,counter service
+MUSICAL_PERFORMANCE,ja,音楽演奏
+MUSICAL_PERFORMANCE,en,musical performance
+MULTI_PERSON_CONVERSATION,ja,複数人の会話
+MULTI_PERSON_CONVERSATION,en,multi-person conversation
+WITH_BACKGROUND_NOISE,ja,背景ノイズあり
+WITH_BACKGROUND_NOISE,en,with background noise
+BATHROOM,ja,浴室
+BATHROOM,en,bathroom
+OWNER_PET_CONVERSATION,ja,飼い主とペットの会話
+OWNER_PET_CONVERSATION,en,owner-pet conversation
+AUDIO_ONLY,ja,音声のみ
+AUDIO_ONLY,en,audio only
+ELECTION_CAR,ja,選挙カー
+ELECTION_CAR,en,election car
+CORONA_CRISIS,ja,コロナ禍
+CORONA_CRISIS,en,corona crisis
+YOUTUBE_HAISHIN,ja,YouTube配信
+YOUTUBE_HAISHIN,en,YouTube streaming
+IC_RECORDER_RECORDING,ja,ICレコーダー録音
+IC_RECORDER_RECORDING,en,IC recorder recording
+ON_THE_WAY_HOME,ja,帰宅途中
+ON_THE_WAY_HOME,en,on the way home
+REGISTER_AREA,ja,レジエリア
+REGISTER_AREA,en,register area
+NICJOU_KAIWA,ja,日常会話
+NICJOU_KAIWA,en,daily conversation
+HOME_VISIT_CARE_SITE,ja,訪問介護現場
+HOME_VISIT_CARE_SITE,en,home visit care site
+MEIJI_JIDAI_NO_NIHON,ja,明治時代の日本
+MEIJI_JIDAI_NO_NIHON,en,Meiji-era Japan
+PARENT_CHILD_CONVERSATION,ja,親子の会話
+PARENT_CHILD_CONVERSATION,en,parent-child conversation
+CROWD_NOISE,ja,群衆のノイズ
+CROWD_NOISE,en,crowd noise
+BLOOD_DRAW_TIME,ja,採血時
+BLOOD_DRAW_TIME,en,blood draw time
+QUIET_ROOM,ja,静かな部屋
+QUIET_ROOM,en,quiet room
+ELDERLY_HOME,ja、高齢者の家
+ELDERLY_HOME,en,elderly home
+EIGO_GAKUSHUU_KANKYOU,ja,英語学習環境
+EIGO_GAKUSHUU_KANKYOU,en,English learning environment
+CASHIER_COUNTER,ja,レジカウンター
+CASHIER_COUNTER,en,cashier counter
+TAIMEN_CHUMON,ja,対面注文
+TAIMEN_CHUMON,en,face-to-face order
+PC_MIC,ja,PCマイク
+PC_MIC,en,PC mic
+NICHOJ_KAIWA,ja,日常会話
+NICHOJ_KAIWA,en,daily conversation
+AMERICA_NEW_YORK,ja,アメリカニューヨーク
+AMERICA_NEW_YORK,en,America New York
+SHIZUKANA_KANKYOU,ja,静かな環境
+SHIZUKANA_KANKYOU,en,quiet environment
+FAMILY,ja,家族
+FAMILY,en,family
+SHOUTEN,ja,商店
+SHOUTEN,en,shop
+SIBLINGS,ja,兄弟姉妹
+SIBLINGS,en,siblings
+JAPANESE_DIALOGUE,ja,日本語の会話
+JAPANESE_DIALOGUE,en,Japanese dialogue
+SHINNYU_SHAIN_KENSHU,ja,新入社員研修
+SHINNYU_SHAIN_KENSHU,en,new employee training
+FOREIGN_AUDIENCE,ja,外国人観客
+FOREIGN_AUDIENCE,en,foreign audience
+KOKUSAI_PHONE_JAPAN_NETHERLANDS_FAMILY,ja,国際電話日本オランダ家族
+KOKUSAI_PHONE_JAPAN_NETHERLANDS_FAMILY,en,international call Japan-Netherlands family
+COUNTER_SEAT,ja,カウンター席
+COUNTER_SEAT,en,counter seat
+LIVE_HOUSE,ja,ライブハウス
+LIVE_HOUSE,en,live house
+NOISE_OR_COMMUNICATION_ENVIRONMENT,ja,ノイズまたは通信環境
+NOISE_OR_COMMUNICATION_ENVIRONMENT,en,noise or communication environment
+TENNAI,ja,店内
+TENNAI,en,inside store
+MUSIC,ja,音楽
+MUSIC,en,music
+COMPANY,ja,会社
+COMPANY,en,company
+QUIET_ENVIRONMENT_ESTIMATED,ja,静かな環境推定
+QUIET_ENVIRONMENT_ESTIMATED,en,quiet environment estimated
+NICHIJOU_SEIKATSU,ja,日常生活
+NICHIJOU_SEIKATSU,en,daily life
+ORAL_COMMUNICATION,ja,口頭コミュニケーション
+ORAL_COMMUNICATION,en,oral communication
+TELEVISION_VIEWING,ja,テレビ視聴
+TELEVISION_VIEWING,en,television viewing
+TSUSHIN_KANKYO,ja,通信環境
+TSUSHIN_KANKYO,en,communication environment
+FACTORY,ja,工場
+FACTORY,en,factory
+CONSTRUCTION_SITE,ja,建設現場
+CONSTRUCTION_SITE,en,construction site
+BUSINESS,ja,ビジネス
+BUSINESS,en,business
+POSTER,ja,ポスター
+POSTER,en,poster
+MEETING_ROOM,ja,会議室
+MEETING_ROOM,en,meeting room
+KITCHEN,ja,キッチン
+KITCHEN,en,kitchen
+SHOPPING_MALL,ja,ショッピングモール
+SHOPPING_MALL,en,shopping mall
+PHONE_ORAL_EMAIL,ja,電話・口頭・メール
+PHONE_ORAL_EMAIL,en,"phone, oral, email"
+CHILDCARE,ja,育児
+CHILDCARE,en,childcare
+MINUTES_CREATION,ja,議事録作成
+MINUTES_CREATION,en,minutes creation
+TABOU,ja,タブー
+TABOU,en,taboo
+REMOTE_WORK,ja,リモートワーク
+REMOTE_WORK,en,remote work
+TV_WATCHING,ja,テレビ視聴
+TV_WATCHING,en,TV watching
+YOUTUBE_VIDEO,ja,YouTube動画
+YOUTUBE_VIDEO,en,YouTube video
+CUSTOMER_COUNTER,ja,顧客カウンター
+CUSTOMER_COUNTER,en,customer counter
+PICTURE_BOOK_READING,ja,絵本読み聞かせ
+PICTURE_BOOK_READING,en,picture book reading
+TRANSPORTATION_SITE,ja,交通現場
+TRANSPORTATION_SITE,en,transportation site
+KODOMO_TO_NO_KAIWA,ja,子どもとの会話
+KODOMO_TO_NO_KAIWA,en,conversation with children
+GAME_NAI,ja,ゲーム内
+GAME_NAI,en,in-game
+PUBLIC_FACILITY,ja,公共施設
+PUBLIC_FACILITY,en,public facility
+FUFU_NO_KAIWA,ja,夫婦の会話
+FUFU_NO_KAIWA,en,conversation between spouses
+3_YEARS_OLD,ja,3歳
+3_YEARS_OLD,en,3 years old
+HEARING_IMPAIRED_PERSON,ja,聴覚障害者
+HEARING_IMPAIRED_PERSON,en,hearing impaired person
+SHINSHAKAIJIN_NO_SHOKUBA,ja,新社会人の職場
+SHINSHAKAIJIN_NO_SHOKUBA,en,workplace of new employees
+NET,ja,ネット
+NET,en,net
+RADIO_BROADCAST,ja,ラジオ放送
+RADIO_BROADCAST,en,radio broadcast
+ORDER_FROM_BEHIND,ja,後ろからの注文
+ORDER_FROM_BEHIND,en,order from behind
+MUSIC_LYRICS,ja,音楽の歌詞
+MUSIC_LYRICS,en,music lyrics
+NOISY_LIVE_MUSIC,ja,騒がしいライブ音楽
+NOISY_LIVE_MUSIC,en,noisy live music
+DAILY_WORK,ja,日常業務
+DAILY_WORK,en,daily work
+TAHAI_UKETORI,ja,多配受け取り
+TAHAI_UKETORI,en,bulk delivery receipt
+NURSE_PATIENT_CONVERSATION,ja,看護師と患者の会話
+NURSE_PATIENT_CONVERSATION,en,nurse-patient conversation
+CAFE,ja,カフェ
+CAFE,en,cafe
+SALES_FLOOR_GUIDANCE,ja,売り場案内
+SALES_FLOOR_GUIDANCE,en,sales floor guidance

@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+gendai_media_143629_001,メガネ,ネガメ,幼児は音の順序を入れ替えて発音することがあるので、ゆっくりはっきり伝えると良い。,4歳児の言い間違い。発音の逆転。,True,gendai_media_143629,https://gendai.media/articles/-/143629,日本語,"['子育て', '幼児', '聞き間違い', '言い間違い']","['家庭', '日常生活']"
+gendai_media_143629_002,トウモロコシ,トウモコロシ,幼児は音の並びを間違えやすいので、正しい発音を繰り返し聞かせると良い。,4歳児の言い間違い。音の入れ替え。,True,gendai_media_143629,https://gendai.media/articles/-/143629,日本語,"['子育て', '幼児', '聞き間違い', '言い間違い']","['家庭', '日常生活']"
