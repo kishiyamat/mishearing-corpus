@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+keyence_errorproofing_001,NA,NA,指示は復唱確認,(Src=NA: 具体的な指示内容が記載されていないため)(Tgt=NA: 具体的な誤聴内容が記載されていないため),True,keyence_errorproofing,https://www.keyence.co.jp/ss/general/manufacture-tips/error-proofing.jsp,日本語,"['製造業', 'ヒューマンエラー', '聞き間違い', 'エラープルーフ', '安全管理', '業務改善']","['製造現場', '工場', '作業現場', '複数人作業', '機械操作', 'ノイズあり']"

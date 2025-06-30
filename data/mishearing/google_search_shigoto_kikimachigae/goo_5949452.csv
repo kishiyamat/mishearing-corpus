@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+oshiete_goo_5949452_001,電話番号の真ん中4桁,電話番号の真ん中3桁,電話番号の桁数を復唱して確認すること,顧客の電話番号の真ん中4桁を3桁しかメモできず、連絡が取れなくなった。具体的な数字は不明のため(Src=NA: 数字不明)(Tgt=NA: 数字不明),True,oshiete_goo_5949452,https://oshiete.goo.ne.jp/qa/5949452.html,日本語,"['電話番号', '聞き間違い', 'ビジネス', 'コミュニケーション', '仕事', 'メモ', 'アルバイト', '顧客対応']","['店舗', '電話', 'メモ取り']"

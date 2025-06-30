@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+bonz_denwataio_001,名前（例：田中）,別の名前（例：高田）,重要な情報は復唱・確認すること,電話で相手の名前を聞き間違えることが多い。復唱や聞き返しで防止可能。,True,bonz_denwataio,https://bonz-c.co.jp/column/d-c-contents-c/denwataiodeokoriyasuimisutoha,日本語,"['電話対応', 'コールセンター', '聞き間違い', 'ビジネスマナー', 'コミュニケーション', '仕事']","['オフィス', 'コールセンター', '電話', '通信環境']"
+bonz_denwataio_002,1時（いちじ）,7時（しちじ）,「13時」「7時（ななじ）」など言い換えで防止,時間の聞き間違いが発生しやすい。数字で伝える、または「ななじ」と言い換えると良い。,True,bonz_denwataio,https://bonz-c.co.jp/column/d-c-contents-c/denwataiodeokoriyasuimisutoha,日本語,"['電話対応', 'コールセンター', '聞き間違い', 'ビジネスマナー', 'コミュニケーション', '仕事']","['オフィス', 'コールセンター', '電話', '通信環境']"
+bonz_denwataio_003,数字・個数,別の数字・個数,重要な数字は復唱・確認すること,連絡先や個数などの数字を聞き間違えることがある。復唱やメモで防止可能。,True,bonz_denwataio,https://bonz-c.co.jp/column/d-c-contents-c/denwataiodeokoriyasuimisutoha,日本語,"['電話対応', 'コールセンター', '聞き間違い', 'ビジネスマナー', 'コミュニケーション', '仕事']","['オフィス', 'コールセンター', '電話', '通信環境']"
