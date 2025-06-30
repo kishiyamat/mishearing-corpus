@@ -341,6 +341,9 @@ We thank all annotators and contributors to this project.
 - 作成したアプリで収集(`queries = '仕事 "聞き間違え"'`) -> N=?
 - 作成したアプリで収集(`queries = '仕事 "聞き間違い"'`) -> N=?
 
+漫画の例は回収できればする。
+言い間違いと思い込んで聞き間違えた場合は無視（酷暑のホットコーヒー→アイスコーヒーの確認。）
+
 ### Google | Business (N=?)
 
 - 作成したアプリで収集(`queries = 'ビジネス "聞き間違え"'`) -> N=?
