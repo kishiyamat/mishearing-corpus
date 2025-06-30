@@ -1,9 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-ameba_kikimachi_001,Z,ジェット,アルファベットの発音に注意,アルファベット復唱時に「Z」を「ジェット」と聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,日本語,"['聞き間違い', '電話', 'アルファベット']","['電話', '職場']"
-ameba_kikimachi_002,しむらしんじ,ちむらちんじ,名前の聞き取りに注意,電話予約で「ちむらしんじ」を「しむらしんじ」と聞き間違え、さらに「ちんじ」と誤認。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,日本語,"['聞き間違い', '電話', '名前']","['電話', '職場']"
-ameba_kikimachi_003,洗濯機,ケンタッキー,発音の違いに注意,作業所で「洗濯機」を「ケンタッキー」と聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,日本語,"['聞き間違い', '作業所', '日常']",['職場']
-ameba_kikimachi_004,ばさき,馬刺し,子音・母音の聞き分けに注意,子供の「ばさき（バイト先）」を「馬刺し」と聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,日本語,"['聞き間違い', '家庭', '子供']",['家庭']
-ameba_kikimachi_005,低電圧駆動,停電は続くよ,専門用語の聞き取りに注意,授業中「低電圧駆動」を「停電は続くよ」と聞き間違えてPCに入力。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,日本語,"['聞き間違い', '学校', '授業']",['学校']
-ameba_kikimachi_006,Chopsticks,Chapstick,英語の発音に注意,アメリカで「お箸」と「リップクリーム」を聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,日本語,"['聞き間違い', '英語', '非母語話者']","['海外', '日常']"
-ameba_kikimachi_007,古波蔵恵里,フォアグラ,カタカナ語の聞き分けに注意,ドラマの登場人物名「古波蔵恵里（こはぐらえり）」を「フォアグラ」と聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,日本語,"['聞き間違い', 'テレビ', 'カタカナ']",['家庭']
-ameba_kikimachi_008,番線の縛り方,男性の縛り方,文脈の確認に注意,YouTubeで「番線の縛り方」を「男性の縛り方」と聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,日本語,"['聞き間違い', '動画', '家庭']","['家庭', '動画']"

@@ -1,5 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-bamka_kikikoku_001,渋谷,日比谷,地名は特に注意,高齢者との会話で地名の聞き間違いが発生しやすい。,True,bamka_kikikoku,https://bamka.info/kikikoku,日本語,"['ITツール', '高齢者', '聞き間違い', 'バリアフリー', '日本語']","['日常会話', '高齢者との会話', '電話']"
-bamka_kikikoku_002,たいしん,さいしん,音の響きが似ている場合は注意,聴力低下で区別しにくい。,True,bamka_kikikoku,https://bamka.info/kikikoku,日本語,"['ITツール', '高齢者', '聞き間違い', 'バリアフリー', '日本語']","['日常会話', '高齢者との会話', '電話']"
-bamka_kikikoku_003,あくしゅ,はくしゅ,意味で言い換え（手を握る/手を叩く）,意味で説明すると誤解が減る。,True,bamka_kikikoku,https://bamka.info/kikikoku,日本語,"['ITツール', '高齢者', '聞き間違い', 'バリアフリー', '日本語']","['日常会話', '高齢者との会話', '電話']"
-bamka_kikikoku_004,かとう,さとう,フルネームで話すと防げる,名字の聞き間違い。電話や病院などで多い。,True,bamka_kikikoku,https://bamka.info/kikikoku,日本語,"['ITツール', '高齢者', '聞き間違い', 'バリアフリー', '日本語']","['日常会話', '高齢者との会話', '電話']"

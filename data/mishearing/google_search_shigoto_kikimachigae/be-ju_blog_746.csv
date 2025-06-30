@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-beju_blog_746_001,予約時間,別の時間,予約内容を復唱する,美容室受付でお客様の予約時間を聞き間違え、違う時間で予約を取ってしまうことがある。電話や対面でのやりとりで発生しやすい。,True,beju_blog_746,https://be-ju.jp/blog/archives/746,NA,NA,日本語,"['受付', '美容室', '聞き間違い', 'クレーム対応', '職場', '接客']","['美容室', '受付カウンター', '電話応対']"

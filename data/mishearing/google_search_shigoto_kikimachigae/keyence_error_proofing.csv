@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-keyence_errorproofing_001,NA,NA,注意が必要,(Src=NA: '指示'は具体語でない)(Tgt=NA: '別の指示'は具体語でない) 製造現場で作業者が指示を聞き間違えることがあるが、具体例は記載なし。,True,keyence_errorproofing,https://www.keyence.co.jp/ss/general/manufacture-tips/error-proofing.jsp,日本語,"['製造業', 'ヒューマンエラー', '聞き間違い', 'エラープルーフ', '安全管理', '業務改善', '現場', '日本語']","['製造現場', '工場', '作業現場', '複数人作業', '機械操作', 'ノイズあり']"

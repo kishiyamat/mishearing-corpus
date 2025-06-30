@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-jawikipedia_jeffbezos_001,Cadabra,cadaver,英語の発音が似ている単語は注意して発音・確認すること。,"Amazon創業時、社名『Cadabra, Inc.』が弁護士に『cadaver（死体）』と聞き間違えられた事例。これがきっかけで社名を変更した。",True,jawikipedia_jeffbezos,https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%95%E3%83%BB%E3%83%99%E3%82%BE%E3%82%B9,日本語,"['社名', '英単語', '聞き間違い', 'ビジネス', 'アメリカ']","['法律事務所', '会社設立手続き', '会話']"

@@ -1,5 +1,5 @@
 MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-gakumado_10925_001,英語にして持ってきて,A5でコピーして持ってきて,「英語（えいご）」と「A5（えーご）」の音が似ているので注意。,,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人', '非母語話者', '英語']","['オフィス', '営業現場']"
+gakumado_10925_001,英語にして持ってきて,A5にして持ってきて,「英語（えいご）」と「A5（えーご）」の音が似ているので注意。,,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人', '非母語話者', '英語']","['オフィス', '営業現場']"
 gakumado_10925_002,汚職事件,お食事券,発音が似ているので注意。,,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人']",['オフィス']
 gakumado_10925_003,インライン,淫乱,発音が似ているので注意。,,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人']",['オフィス']
 gakumado_10925_004,売り上げは？,お土産は？,質問内容をしっかり聞き取る。,,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人']",['オフィス']
@@ -9,5 +9,4 @@ gakumado_10925_007,KY（危険予知）,KY（空気読めない）,略語の意�
 gakumado_10925_008,支柱,シチュー,発音が似ているので注意。,,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人']",['建設現場']
 gakumado_10925_009,部長付き,部長好き,職名の意味を確認する。,,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人']",['オフィス']
 gakumado_10925_010,産休,サンキュー,発音が似ているので注意。,,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人']",['オフィス']
-gakumado_10925_011,特休,特急,発音が似ているので注意。,,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人']",['オフィス']
-gakumado_10925_012,おう,YES,返事の意味を確認する。,実際はNOだった。,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人']","['オフィス', '会話']"
+gakumado_10925_011,特休（特別休暇）,特急,発音が似ているので注意。,,True,gakumado_10925,https://gakumado.mynavi.jp/freshers/articles/10925,日本語,"['職場', '聞き間違い', '言い間違い', 'コミュニケーション', '社会人']",['オフィス']

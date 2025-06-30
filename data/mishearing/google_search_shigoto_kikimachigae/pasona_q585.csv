@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-pasona_lab_585_001,じゅうしちじ,じゅうななじ,数字は明確に言い換える,17時を「じゅうしちじ」と言うと聞き間違いが起きやすい。,True,pasona_lab_585,https://lab.pasona.co.jp/haken-basic/skill/585/,日本語,"['ビジネスマナー', '電話応対', '聞き間違い', 'コミュニケーション', '派遣']","['電話', 'オフィス', '通信環境']"
-pasona_lab_585_002,かとう,あとう,人名はアゴをしっかり動かして発声する,加齢による子音の聞き取りづらさで「かとう」を「あとう」と誤認しやすい,True,pasona_lab_585,https://lab.pasona.co.jp/haken-basic/skill/585/,日本語,"['ビジネスマナー', '電話応対', '聞き間違い', 'コミュニケーション', '派遣', '非母語話者']","['電話', 'オフィス', '通信環境', '加齢']"

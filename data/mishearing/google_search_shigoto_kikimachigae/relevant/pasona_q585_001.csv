@@ -1,3 +1,2 @@
 MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-pasona_hakenbasic_585_001,17時（じゅうしちじ）,17時（じゅうななじ）,数字は明確に言い換える,電話で「じゅうしちじ」と言うと「じゅういちじ」や「じゅうはちじ」と混同されやすいため「じゅうななじ」と言い換える。,True,pasona_hakenbasic_585,https://lab.pasona.co.jp/haken-basic/skill/585/,日本語,"['ビジネスマナー', '電話応対', '聞き間違い', 'コミュニケーション', '派遣']","['電話', 'オフィス', '通信環境']"
-pasona_hakenbasic_585_002,かとう,あとう,子音をはっきり発音する,加齢により子音が聞き取りにくくなり「かとう」を「あとう」と聞き間違えることがある。人名・地名は特に注意。,True,pasona_hakenbasic_585,https://lab.pasona.co.jp/haken-basic/skill/585/,日本語,"['ビジネスマナー', '電話応対', '聞き間違い', 'コミュニケーション', '派遣', '非母語話者']","['電話', 'オフィス', '通信環境', '高齢者との会話']"
+pasona_hakenbasic_585_001,かとう,あとう,子音をはっきり発音する,加齢により子音が聞き取りにくくなり「かとう」を「あとう」と聞き間違えることがある。人名・地名は特に注意。,True,pasona_hakenbasic_585,https://lab.pasona.co.jp/haken-basic/skill/585/,日本語,"['ビジネスマナー', '電話応対', '聞き間違い', 'コミュニケーション', '派遣', '非母語話者']","['電話', 'オフィス', '通信環境', '高齢者との会話']"

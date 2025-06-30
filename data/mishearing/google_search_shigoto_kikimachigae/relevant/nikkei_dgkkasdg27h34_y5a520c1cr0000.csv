@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-nikkei_DGKKASDG27H34Y5A520C1CR0000_001,hold short,cleared to enter,英語航空無線は明瞭に、復唱確認を徹底すること,中国東方航空パイロットが管制官の英語指示を聞き間違え、滑走路に誤進入。管制官も復唱確認不足。実際の誤聴フレーズは記事無料部分からは特定できないが、航空管制で典型的な誤聴例を推定。,True,nikkei_DGKKASDG27H34Y5A520C1CR0000,https://www.nikkei.com/article/DGKKASDG27H34Y5A520C1CR0000/,CEA_pilot,Naha_ATC,英語,"['航空', '管制', '英語', '聞き間違い', '安全', '非母語話者', '事故', 'コミュニケーション']","['空港（那覇空港）', '航空無線（英語）', 'ノイズ（空港環境、無線通信）']"

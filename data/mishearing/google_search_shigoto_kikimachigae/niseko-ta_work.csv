@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-niseko_001,住所など（例：町名、番地、氏名）,別の住所や氏名,電話での注文時は住所や氏名をゆっくり・はっきり伝える。可能ならフォーム利用を推奨。,電話注文時に住所などの聞き間違いを防ぐためフォーム利用を推奨しているが、具体的な誤聴例は記載されていない。(Tgt=NA: placeholder '別の住所や氏名'),True,niseko_ta_work,https://www.niseko-ta.jp/about/work/,日本語,"['行政', '住所', '電話注文', '聞き間違い', 'コミュニケーション']","['電話', '役所窓口']"

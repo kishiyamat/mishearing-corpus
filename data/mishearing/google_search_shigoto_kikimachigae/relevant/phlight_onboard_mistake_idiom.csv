@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-phlight_mistakeidiom_001,ストロベリーアイスクリーム,ブルーベリーアイスクリーム,注文時ははっきり伝える,客がストロベリーアイスを注文したが、店員がブルーベリーと聞き間違えた。,True,phlight_mistakeidiom,https://phlight.co.jp/onboard/mistake-idiom/,日本語,"['英語学習', '聞き間違い', 'オンライン英会話', '実用英語', '接客', '非母語話者']","['店舗', '対面注文', 'ノイズ環境']"

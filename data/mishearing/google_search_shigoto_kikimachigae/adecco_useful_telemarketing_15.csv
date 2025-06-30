@@ -1,7 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-adecco_telemarketing_15_001,1,7,数字の聞き分け注意,「イチ」と「シチ」「ハチ」は電話で混同しやすい,True,adecco_telemarketing_15,https://www.adecco.co.jp/useful/telemarketing_15,日本語,"['コールセンター', '電話対応', '聞き間違い', '数字', '復唱', '仕事']","['電話', 'コールセンター', '通信環境']"
-adecco_telemarketing_15_002,1,8,数字の聞き分け注意,「イチ」と「ハチ」は電話で混同しやすい,True,adecco_telemarketing_15,https://www.adecco.co.jp/useful/telemarketing_15,日本語,"['コールセンター', '電話対応', '聞き間違い', '数字', '復唱', '仕事']","['電話', 'コールセンター', '通信環境']"
-adecco_telemarketing_15_003,9,Q,数字とアルファベット,「キュウ」と「キュー」は電話で混同しやすい,True,adecco_telemarketing_15,https://www.adecco.co.jp/useful/telemarketing_15,日本語,"['コールセンター', '電話対応', '聞き間違い', '数字', 'アルファベット', '復唱', '仕事']","['電話', 'コールセンター', '通信環境']"
-adecco_telemarketing_15_004,0,O,数字とアルファベット,「ゼロ」と「オー」は電話で混同しやすい,True,adecco_telemarketing_15,https://www.adecco.co.jp/useful/telemarketing_15,日本語,"['コールセンター', '電話対応', '聞き間違い', '数字', 'アルファベット', '復唱', '仕事']","['電話', 'コールセンター', '通信環境']"
-adecco_telemarketing_15_005,B,8,アルファベット注意,「ビー」と「ハチ」は電話で混同しやすい,True,adecco_telemarketing_15,https://www.adecco.co.jp/useful/telemarketing_15,日本語,"['コールセンター', '電話対応', '聞き間違い', '数字', 'アルファベット', '復唱', '仕事']","['電話', 'コールセンター', '通信環境']"
-adecco_telemarketing_15_006,Z,2,アルファベット注意,「ゼット」と「ニ」は電話で混同しやすい,True,adecco_telemarketing_15,https://www.adecco.co.jp/useful/telemarketing_15,日本語,"['コールセンター', '電話対応', '聞き間違い', '数字', 'アルファベット', '復唱', '仕事']","['電話', 'コールセンター', '通信環境']"
