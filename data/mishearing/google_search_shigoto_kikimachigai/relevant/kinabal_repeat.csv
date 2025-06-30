@@ -1,8 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-kinabal_repeat_001,イチ時,シチ時,数字の発音に注意,1時と7時の聞き間違い。電話や対面での時間確認時に発生しやすい。,True,kinabal_repeat,https://kinabal.co.jp/marketing/repeat/,日本語,"['ビジネス', '電話対応', '復唱', '聞き間違い', '数字']","['電話', 'オフィス', '通信環境']"
-kinabal_repeat_002,ヨッカ,ヨウカ,日付の発音に注意,4日と8日の聞き間違い。日付指定時に発生しやすい。,True,kinabal_repeat,https://kinabal.co.jp/marketing/repeat/,日本語,"['ビジネス', '電話対応', '復唱', '聞き間違い', '数字']","['電話', 'オフィス', '通信環境']"
-kinabal_repeat_003,キュウ,Q,数字とアルファベットの区別に注意,9とQの聞き間違い。電話番号やメールアドレスの確認時に発生しやすい。,True,kinabal_repeat,https://kinabal.co.jp/marketing/repeat/,日本語,"['ビジネス', '電話対応', '復唱', '聞き間違い', 'アルファベット']","['電話', 'オフィス', '通信環境']"
-kinabal_repeat_004,ビー,ディー,アルファベットの発音に注意,BとDの聞き間違い。メールアドレスや製品番号の確認時に発生しやすい。,True,kinabal_repeat,https://kinabal.co.jp/marketing/repeat/,日本語,"['ビジネス', '電話対応', '復唱', '聞き間違い', 'アルファベット']","['電話', 'オフィス', '通信環境']"
-kinabal_repeat_005,ティー,ピー,アルファベットの発音に注意,TとPの聞き間違い。,True,kinabal_repeat,https://kinabal.co.jp/marketing/repeat/,日本語,"['ビジネス', '電話対応', '復唱', '聞き間違い', 'アルファベット']","['電話', 'オフィス', '通信環境']"
-kinabal_repeat_006,エム,エヌ,アルファベットの発音に注意,MとNの聞き間違い。,True,kinabal_repeat,https://kinabal.co.jp/marketing/repeat/,日本語,"['ビジネス', '電話対応', '復唱', '聞き間違い', 'アルファベット']","['電話', 'オフィス', '通信環境']"
-kinabal_repeat_007,5時,15時,時刻の確認に注意,5時と15時（午後3時）の聞き間違い。,True,kinabal_repeat,https://kinabal.co.jp/marketing/repeat/,日本語,"['ビジネス', '電話対応', '復唱', '聞き間違い', '数字']","['電話', 'オフィス', '通信環境']"

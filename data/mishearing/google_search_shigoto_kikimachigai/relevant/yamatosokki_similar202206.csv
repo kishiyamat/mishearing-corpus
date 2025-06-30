@@ -1,6 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-yamatosokki_similar202206_001,断,done,英語混入に注意,「断であったはず」を「doneであったはず」と誤記。,True,yamatosokki_similar202206,https://www.yamatosokki.co.jp/mistake/similar202206,日本語,"['速記', '文字起こし', '聞き間違い', '仕事', '英語', '非母語話者']","['会議室', '録音', 'ノイズ', '席位置']"
-yamatosokki_similar202206_002,こういう名称,固有名詞,専門用語の混同注意,「こういう名称を使用したい」を「固有名詞を使用したい」と誤記。,True,yamatosokki_similar202206,https://www.yamatosokki.co.jp/mistake/similar202206,日本語,"['速記', '文字起こし', '聞き間違い', '仕事', '専門用語']","['会議室', '録音', 'ノイズ', '席位置']"
-yamatosokki_similar202206_003,内燃機関,幾何,専門用語の聞き分け,「内燃機関の仕事」を「幾何の仕事」と誤記。,True,yamatosokki_similar202206,https://www.yamatosokki.co.jp/mistake/similar202206,日本語,"['速記', '文字起こし', '聞き間違い', '仕事', '専門用語']","['会議室', '録音', 'ノイズ', '席位置']"
-yamatosokki_similar202206_004,帯域換算係数,待機換算係数,専門用語の聞き分け,「帯域換算係数」を「待機換算係数」と誤記。,True,yamatosokki_similar202206,https://www.yamatosokki.co.jp/mistake/similar202206,日本語,"['速記', '文字起こし', '聞き間違い', '仕事', '専門用語']","['会議室', '録音', 'ノイズ', '席位置']"
-yamatosokki_similar202206_005,社会受容性,社会需要性,専門用語の聞き分け,「社会受容性の確保」を「社会需要性の確保」と誤記。,True,yamatosokki_similar202206,https://www.yamatosokki.co.jp/mistake/similar202206,日本語,"['速記', '文字起こし', '聞き間違い', '仕事', '専門用語']","['会議室', '録音', 'ノイズ', '席位置']"

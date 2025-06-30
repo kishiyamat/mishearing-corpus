@@ -1,4 +1,3 @@
 MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
 takasima_shigasaku_001,千葉（チバ）,滋賀（シガ）,地名は注意,ニュースや会話で「千葉」と「滋賀」を聞き間違えることが多い。,True,takasima_shigasaku,https://takasima.shiga-saku.net/e26982.html,日本語,"['地名', '聞き間違い', 'ニュース', '日本語', '滋賀', '千葉', '佐賀']","['ニュース', '日常生活']"
 takasima_shigasaku_002,千葉県出身,滋賀県出身,地名は注意,「千葉県出身」と「滋賀県出身」を聞き間違えてしまう。,True,takasima_shigasaku,https://takasima.shiga-saku.net/e26982.html,日本語,"['地名', '聞き間違い', 'ニュース', '日本語', '滋賀', '千葉', '佐賀']","['ニュース', '日常生活']"
-takasima_shigasaku_003,○○さん（名字のみ）,別の同姓の○○さん,職場は注意,職場で同じ名字の人が3人いるため、電話で「○○さんお願いします」と言われると困る。(Src=NA: placeholder '○○さん')(Tgt=NA: placeholder '別の同姓の○○さん'),True,takasima_shigasaku,https://takasima.shiga-saku.net/e26982.html,日本語,"['職場', '電話応対', '聞き間違い', '日本語']","['職場', '電話']"
