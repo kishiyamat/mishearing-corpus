@@ -994,7 +994,7 @@ QUIET_PLACE_NOISY_PLACE,en,quiet place and noisy place
 LAB,ja,研究室
 LAB,en,lab
 HOME_SHOP_MEDICAL_FACILITY,ja,家庭・店舗・医療施設
-HOME_SHOP_MEDICAL_FACILITY,en,home, shop, medical facility
+HOME_SHOP_MEDICAL_FACILITY,en,"home, shop, medical facility"
 ORAL_REPORT,ja,口頭報告
 ORAL_REPORT,en,oral report
 ZATSUON_KANKYO,ja,雑音環境
