@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-symphonet_post_710_001,1時（いちじ）,7時（しちじ）,「午後1時」や「13時」など、明確な言い換えや確認を推奨。,電話で「1時」と伝えたつもりが「7時」と聞き間違えられることがある。,True,symphonet_post_710,https://www.symphonet.co.jp/newblog/blog/post_710.html,,,日本語,"['電話対応', '聞き間違い', '数字', '時刻', 'ビジネス', 'コールセンター', '日本語']","['電話', 'オフィス', 'コールセンター', '通信環境']"
-symphonet_post_710_002,4日（よっか）,8日（ようか）,曜日を添えて「4日の〇曜日、8日の〇曜日」と確認することを推奨。,電話で「4日」と伝えたつもりが「8日」と聞き間違えられることがある。,True,symphonet_post_710,https://www.symphonet.co.jp/newblog/blog/post_710.html,,,日本語,"['電話対応', '聞き間違い', '数字', '日付', 'ビジネス', 'コールセンター', '日本語']","['電話', 'オフィス', 'コールセンター', '通信環境']"
