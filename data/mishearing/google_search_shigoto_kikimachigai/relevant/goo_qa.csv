@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+oshiete_goo_8220164_001,ひとつ,ふたつ,「いち」「に」や「1」「2」などで確認推奨,カフェで「ひとつ」と「ふたつ」の聞き間違いによる注文ミスが多発。カウンター席や背後からの注文時に顕著。,True,oshiete_goo_8220164,https://oshiete.goo.ne.jp/qa/8220164.html,,,日本語,"['接客', 'アルバイト', 'カフェ', '聞き間違い', '日本語', '数詞', 'コミュニケーション']","['カフェ', '店舗', 'カウンター席', '対面', '背後からの注文', 'ノイズ']"

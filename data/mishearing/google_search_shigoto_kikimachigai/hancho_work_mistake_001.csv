@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-hancho_workmistake_001,NA,NA,指示は復唱・明確に,錯覚によるヒューマンエラー。指示の聞き間違い・見間違い・勘違いが原因。(Src=NA: 具体的な指示文が記載されていない)(Tgt=NA: 具体的な誤聴内容が記載されていない),True,hancho_workmistake,https://www.hancho.jp/column/work_mistake,日本語,"['工場', '作業ミス', 'ヒューマンエラー', '聞き間違い', '錯覚', '業務改善', '製造業', 'MES', 'DX', 'コミュニケーション']","['工場現場', '生産ライン', '複数人作業', '指示伝達環境']"
