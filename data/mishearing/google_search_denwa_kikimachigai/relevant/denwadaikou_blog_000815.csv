@@ -1,6 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-denwadaikou_000815_001,4（し）,7（しち）,「よん」「なな」と言い換えると良い,電話で「し」と言うと「しち」と混同されやすい。数字の伝達時に注意。,True,denwadaikou_000815,https://denwadaikou.jp/column/blog/000815/,日本語,"['電話応対', 'コールセンター', '聞き間違い', '数字']","['電話', 'コールセンター']"
-denwadaikou_000815_002,2日（ふつか）,20日（はつか）,「にじゅうにち」や曜日を添えて確認,日付の伝達時に「ふつか」と「はつか」が混同されやすい。,True,denwadaikou_000815,https://denwadaikou.jp/column/blog/000815/,日本語,"['電話応対', 'コールセンター', '聞き間違い', '日付']","['電話', 'コールセンター']"
-denwadaikou_000815_003,千（せん）,二千（にせん）,「ふたせん」と明確に言う,金額や数量の伝達時に「せん」と「にせん」が混同されやすい。,True,denwadaikou_000815,https://denwadaikou.jp/column/blog/000815/,日本語,"['電話応対', 'コールセンター', '聞き間違い', '数字']","['電話', 'コールセンター']"
-denwadaikou_000815_004,3ダース,半ダース,「6個でよろしいですか」など具体的な数字で確認,「ダース」単位の数量が曖昧になりやすい。,True,denwadaikou_000815,https://denwadaikou.jp/column/blog/000815/,日本語,"['電話応対', 'コールセンター', '聞き間違い', '数量']","['電話', 'コールセンター']"
-denwadaikou_000815_005,アルファベット（t）,アルファベット（p）,単語例（textのt、paperのp）で確認,アルファベットの伝達時に発音が似ているため混同されやすい。,True,denwadaikou_000815,https://denwadaikou.jp/column/blog/000815/,日本語,"['電話応対', 'コールセンター', '聞き間違い', 'アルファベット']","['電話', 'コールセンター']"

@@ -1,4 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-meganehompo_check_001,ささみ,たたみ,高音域の子音（さ行）が聞き取りづらい場合は、文脈で判断したり、聞き返すことが大切です。,「ささみ」の「さ」が「た」に聞こえて「たたみ」と誤認。S音が聞き取りづらい例。,True,meganehompo_check,https://www.meganehompo.co.jp/check,日本語,"['聴力', '難聴', '聞き間違い', 'コミュニケーション', '補聴器', '日本語', '高齢者', '医療']","['日常会話', '家庭', '店舗']"
-meganehompo_check_002,はさみ,あたみ,母音や子音の区別がつきにくい場合は、ゆっくり話してもらう・繰り返してもらうと良いです。,「はさみ」の「は」が「あ」に、「さ」が「た」に聞こえて「あたみ」と誤認。,True,meganehompo_check,https://www.meganehompo.co.jp/check,日本語,"['聴力', '難聴', '聞き間違い', 'コミュニケーション', '補聴器', '日本語', '高齢者', '医療']","['日常会話', '家庭', '店舗']"
-meganehompo_check_003,さとうさん,かとうさん,人名などは特に聞き間違えやすいので、確認を心がけましょう。,「さとうさん」の「さ」が「か」に聞こえて「かとうさん」と誤認。S音とK音の混同。,True,meganehompo_check,https://www.meganehompo.co.jp/check,日本語,"['聴力', '難聴', '聞き間違い', 'コミュニケーション', '補聴器', '日本語', '高齢者', '医療']","['日常会話', '家庭', '店舗']"
