@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+gohoeshizuoka_e1312283_001,,,復唱確認を必ず行う,(Src=NA: 電話番号の具体的数字が不明)(Tgt=NA: 聞き間違えた電話番号の具体的数字が不明) 新入社員Sさんが電話応対でお客様の電話番号を聞き間違え、間違った番号にかけてしまった。復唱確認を怠ったことが原因。,True,gohoeshizuoka_e1312283,https://goho.eshizuoka.jp/e1312283.html,Sさん,お客様,日本語,"['電話対応', '聞き間違い', '企業', 'コミュニケーション', '仕事', '新入社員', '信用問題', '日本語']","['会社（オフィス）', '電話']"

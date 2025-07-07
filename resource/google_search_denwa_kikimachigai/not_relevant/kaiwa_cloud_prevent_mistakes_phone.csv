@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kaiwa_cloud_tel_support_001,相手の名前,別の名前,復唱確認を徹底する,電話対応で相手の名前を聞き間違えることが多い。早口や雑音、経験不足が原因となる。,True,kaiwa_cloud_tel_support,https://kaiwa.cloud/media/telephone-work/tel-support/prevent-mistakes-phone/,日本語,"['電話対応', 'コールセンター', '聞き間違い', 'ビジネスマナー', '顧客対応', '復唱確認', '情報共有', 'マニュアル']","['オフィス', 'コールセンター', '電話', '通信環境']"
+kaiwa_cloud_tel_support_002,用件,別の用件,復唱確認を徹底する,電話対応で用件を聞き間違えることが多い。早口や雑音、経験不足が原因となる。,True,kaiwa_cloud_tel_support,https://kaiwa.cloud/media/telephone-work/tel-support/prevent-mistakes-phone/,日本語,"['電話対応', 'コールセンター', '聞き間違い', 'ビジネスマナー', '顧客対応', '復唱確認', '情報共有', 'マニュアル']","['オフィス', 'コールセンター', '電話', '通信環境']"

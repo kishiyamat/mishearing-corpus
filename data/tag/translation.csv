@@ -1593,3 +1593,127 @@ CRISIS_MANAGEMENT,ja,危機管理
 CRISIS_MANAGEMENT,en,crisis management
 PRODUCT_DEVELOPMENT,ja,製品開発
 PRODUCT_DEVELOPMENT,en,product development
+ORDERING,ja,注文
+ORDERING,en,ordering
+ERROR_PREVENTION,ja,エラー防止
+ERROR_PREVENTION,en,error prevention
+SHOP,ja,店舗
+SHOP,en,shop
+QUANTITY,ja,数量
+QUANTITY,en,quantity
+IINKAE_FUKUSHO,ja,委員会復唱
+IINKAE_FUKUSHO,en,committee repetition
+DRIVE,ja,運転
+DRIVE,en,drive
+LESSON,ja,授業
+LESSON,en,lesson
+RYOKOU,ja,旅行
+RYOKOU,en,travel
+IT_RELATED,ja,IT関連
+IT_RELATED,en,IT related
+EMPLOYMENT,ja,雇用
+EMPLOYMENT,en,employment
+REGISTERED_DIETITIAN,ja,管理栄養士
+REGISTERED_DIETITIAN,en,registered dietitian
+CEMENT,ja,セメント
+CEMENT,en,cement
+PRODUCT,ja,製品
+PRODUCT,en,product
+MONTH_NAME,ja,月名
+MONTH_NAME,en,month name
+TELEWORK,ja,テレワーク
+TELEWORK,en,telework
+CONSTRUCTION,ja,建設
+CONSTRUCTION,en,construction
+TECHNICAL_TERM,ja,専門用語
+TECHNICAL_TERM,en,technical term
+PARENT_CHILD,ja,親子
+PARENT_CHILD,en,parent-child
+SEKIKYAKU,ja,接客
+SEKIKYAKU,en,customer service
+EXPLANATION,ja,説明
+EXPLANATION,en,explanation
+GROWTH,ja,成長
+GROWTH,en,growth
+QUERY,ja,問い合わせ
+QUERY,en,query
+IVR,ja,IVR
+IVR,en,IVR
+MUSEN,ja,無線
+MUSEN,en,wireless
+MASK,ja,マスク
+MASK,en,mask
+CAREER_UP,ja,キャリアアップ
+CAREER_UP,en,career up
+KAREI,ja,加齢
+KAREI,en,aging
+MINECRAFT,ja,Minecraft
+MINECRAFT,en,Minecraft
+VOICE_CHAT,ja,ボイスチャット
+VOICE_CHAT,en,voice chat
+APPOINTMENT,ja,予約
+APPOINTMENT,en,appointment
+KOUONIKI,ja,高音域
+KOUONIKI,en,high frequency range
+BIKE_SHOP,ja,自転車店
+BIKE_SHOP,en,bike shop
+EMPLOYMENT_SUPPORT,ja,雇用支援
+EMPLOYMENT_SUPPORT,en,employment support
+LOVE_REALITY,ja,恋愛リアリティ
+LOVE_REALITY,en,love reality
+PHONE_RESPONSE,ja,電話応答
+PHONE_RESPONSE,en,phone response
+CHATBOT,ja,チャットボット
+CHATBOT,en,chatbot
+NOISE,ja,ノイズ
+NOISE,en,noise
+NUMBERS,ja,数字
+NUMBERS,en,numbers
+LANGUAGE_LEARNING,ja,言語学習
+LANGUAGE_LEARNING,en,language learning
+TSUUSHIN,ja,通信
+TSUUSHIN,en,communication
+KAREISEI_NANCHO,ja,加齢性難聴
+KAREISEI_NANCHO,en,age-related hearing loss
+FUKUSHO,ja,復唱
+FUKUSHO,en,repetition
+JIMUSHOKU,ja,事務職
+JIMUSHOKU,en,clerical work
+KAISHA_MEI,ja,会社名
+KAISHA_MEI,en,company name
+BUSINESS_COMMUNICATION,ja,ビジネスコミュニケーション
+BUSINESS_COMMUNICATION,en,business communication
+RULE,ja,ルール
+RULE,en,rule
+MILITARY,ja,軍隊
+MILITARY,en,military
+PHONETIC_ALPHABET,ja,音声アルファベット
+PHONETIC_ALPHABET,en,phonetic alphabet
+FAMILY_RESTAURANT,ja,ファミリーレストラン
+FAMILY_RESTAURANT,en,family restaurant
+REPRIMAND,ja,叱責
+REPRIMAND,en,reprimand
+MESSAGE,ja,メッセージ
+MESSAGE,en,message
+BEAUTY_SALON,ja,美容院
+BEAUTY_SALON,en,beauty salon
+MEDICATION_GUIDANCE,ja,薬剤指導
+MEDICATION_GUIDANCE,en,medication guidance
+IN_STORE_ANNOUNCEMENT,ja,店内アナウンス
+IN_STORE_ANNOUNCEMENT,en,in-store announcement
+SPELL_CHECK,ja,スペルチェック
+SPELL_CHECK,en,spell check
+BRAND,ja,ブランド
+BRAND,en,brand
+MENTAL_HEALTH,ja,メンタルヘルス
+MENTAL_HEALTH,en,mental health
+RISK_AVOIDANCE,ja,リスク回避
+RISK_AVOIDANCE,en,risk avoidance
+CHOURYOKU,ja,聴力
+CHOURYOKU,en,hearing ability
+DAILY_GROUP,ja,日常グループ
+DAILY_GROUP,en,daily group
+YOUTH_SLANG,ja,若者スラング
+YOUTH_SLANG,en,youth slang
+MATERIAL,ja,材料
+MATERIAL,en,material

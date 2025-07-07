@@ -249,7 +249,7 @@ We thank all annotators and contributors to this project.
 - **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
 - **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
 
-### Gendai Medi (N=8)a
+### Gendai Medi (N=8)
 - **Source**: Gendai Media
 - **URL**: [https://gendai.media/articles/-/152393?imp=0](https://gendai.media/articles/-/152393?imp=0)
 - **Archive**: https://megalodon.jp/2025-0610-1550-38/https://gendai.media:443/articles/-/152393?imp=0
@@ -345,6 +345,8 @@ We thank all annotators and contributors to this project.
 
 ### Google | Shigoto (N=275)
 
+Shigoto (Work)
+
 - 作成したアプリで収集(`queries = '仕事 "聞き間違え"'`) -> N=199
 - 作成したアプリで収集(`queries = '仕事 "聞き間違い"'`) -> N=76
 
@@ -355,10 +357,19 @@ We thank all annotators and contributors to this project.
 ファイル名が.を含んでしまう場合がある。
 勘違い系はSpeakerとListenerが逆になっているかも？
 
-### Google | Konsaru (N=51+64)
+### Google | Konsaru (N=115)
+
+Konsaru (Consultant)
 
 - 作成したアプリで収集(`queries = 'コンサル "聞き間違え"'`) -> N=64
 - 作成したアプリで収集(`queries = 'コンサル "聞き間違い"'`) -> N=51
+
+### Google | Denwa (N=255)
+
+Denwa (Telephone)
+
+- 作成したアプリで収集(`queries = '電話 "聞き間違え"'`) -> N=80
+- 作成したアプリで収集(`queries = '電話 "聞き間違い"'`) -> N=175
 
 ### Google | Business (N=?)
 

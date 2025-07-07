@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,DocID,URL,Note,OriginalFlag,Language,Tags,Envs
+kidsnifty_250207759041_001,,,kidsnifty_250207759041,https://kids.nifty.com/cs/kuchikomi/kids_soudan/list/aid_250207759041/1.htm,(Src=NA: 練習場所の具体的な発話文が不明)(Tgt=NA: 聞き間違えた内容が不明),True,日本語,"['聞き間違い', '記憶', '学校生活', '中学生', '相談', 'ニフティキッズ', 'コミュニケーション', 'メモ', '学習']","['学校', '教室', '日常会話']"
+kidsnifty_250207759041_002,,,kidsnifty_250207759041,https://kids.nifty.com/cs/kuchikomi/kids_soudan/list/aid_250207759041/1.htm,(Src=NA: 補習日程の具体的な発話文が不明)(Tgt=NA: 聞き間違えた日程が不明),True,日本語,"['聞き間違い', '記憶', '学校生活', '中学生', '相談', 'ニフティキッズ', 'コミュニケーション', 'メモ', '学習']","['学校', '教室', '日常会話']"

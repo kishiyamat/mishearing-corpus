@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+campus2247_11879454489_001,電話番号（数字）,別の電話番号（数字）,復唱確認を必ず行うこと,新入社員Sさんが電話でお客様から番号を聞き取り、メモした番号を間違えて記録し、誤った番号に電話をかけてしまった。復唱確認を怠ったことが原因。,True,campus2247_11879454489,https://ameblo.jp/campus2247/entry-11879454489.html,Sさん,お客様,日本語,"['電話応対', '聞き間違い', '仕事', '新入社員', 'コミュニケーション', '電話番号', '復唱確認', '企業トラブル']","['会社', 'オフィス', '電話']"

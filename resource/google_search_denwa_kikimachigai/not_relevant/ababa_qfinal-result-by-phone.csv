@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ababa_finalresultphone_001,重要事項（例：日程・持ち物・提出書類）,,復唱して確認すること,(Tgt=NA: 具体的な誤聴内容が本文に記載されていないが、重要事項を別の内容や誤った内容に聞き間違えるリスクがあるため),True,ababa_finalresultphone,https://hr.ababa.co.jp/article/tips/final-result-by-phone/,日本語,"['就活', '面接', '電話対応', 'ビジネスマナー', '聞き間違い', '復唱', '重要事項確認', '新卒', '企業連絡']","['電話', '就職活動', '静かな場所推奨', 'ノイズ']"

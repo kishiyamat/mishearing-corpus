@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+youtube_hTk9KiDjbbk_001,Aです,Bですか？,電話で名乗る際はゆっくりはっきり話すと良い,電話で名前を聞き間違えられる典型例,True,youtube_hTk9KiDjbbk,https://www.youtube.com/watch?v=hTk9KiDjbbk,日本語,"['コメディ', '電話', '聞き間違い']","['電話', 'オフィス']"
+youtube_hTk9KiDjbbk_002,田中です,高橋さんですね？,名字は一音ずつ区切って伝えると誤解が減る,名字の聞き間違い,True,youtube_hTk9KiDjbbk,https://www.youtube.com/watch?v=hTk9KiDjbbk,日本語,"['コメディ', '電話', '聞き間違い']","['電話', 'オフィス']"
+youtube_hTk9KiDjbbk_003,○○会社です,□□会社さんですか？,会社名は最初にゆっくり繰り返すと良い,会社名の聞き間違い,True,youtube_hTk9KiDjbbk,https://www.youtube.com/watch?v=hTk9KiDjbbk,日本語,"['コメディ', '電話', '聞き間違い']","['電話', 'オフィス']"
