@@ -2,5 +2,3 @@ MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
 proconcept_76_001,産前350日,"3,350日",数字の区切りに注意,「育児休暇は何日？」の問いに「さんぜんさんびゃくごじゅうにち」と答えたら「十年も？」と誤解された。,True,proconcept_76,https://blog.proconcept.co.jp/?p=76,,,日本語,"['日本語', '聞き間違い', '数字', '家庭']","['家庭', '日常会話']"
 proconcept_76_002,今秋姉妹店がオープンします,今週姉妹店がオープンします,文脈で補足説明を,「今秋姉妹店がオープンします」を「今週」と聞き間違え、時期を誤解。,True,proconcept_76,https://blog.proconcept.co.jp/?p=76,,,日本語,"['日本語', '聞き間違い', '同音異義語', '店舗']","['店舗', 'ビジネス']"
 proconcept_76_003,明日から金沢に出張,明日からカナダに出張,地名は明確に,電話で「明日から金沢に出張」と伝えたが、母親が「カナダ」と聞き間違え、家族で混乱。,True,proconcept_76,https://blog.proconcept.co.jp/?p=76,,,日本語,"['日本語', '聞き間違い', '地名', '家庭', '電話']","['家庭', '電話']"
-proconcept_76_004,林威助,はやし・いすけ,外国人名のカタカナ読み注意,阪神の選手名を日本人名と読み違えた。,True,proconcept_76,https://blog.proconcept.co.jp/?p=76,,,日本語,"['日本語', '聞き間違い', '外国人名', 'テレビ']","['家庭', 'テレビ観戦']"
-proconcept_76_005,毛沢東,けざわひがし,有名人名の読み間違い注意,学生時代、毛沢東を「けざわひがし」と読んだ人がいた。,True,proconcept_76,https://blog.proconcept.co.jp/?p=76,,,日本語,"['日本語', '聞き間違い', '人名']","['学校', '日常会話']"

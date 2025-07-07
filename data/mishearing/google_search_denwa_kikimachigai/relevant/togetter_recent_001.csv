@@ -1,7 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-togetter_kikimachigai_001,明治36年に発注した物が来週入ってくるけど大丈夫？,,年号や数字の聞き間違いに注意,(Tgt=NA: 具体的な誤聴形が記載されていない),True,togetter_kikimachigai,https://togetter.com/t/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84/recent,日本語,"['聞き間違い', '電話', '事務ミス']","['電話', '職場']"
-togetter_kikimachigai_002,ダンボの映画が見たい,ランボーの映画が見たい,子供の発話は特に注意,,True,togetter_kikimachigai,https://togetter.com/t/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84/recent,日本語,"['聞き間違い', '家族', '映画']",['家庭']
-togetter_kikimachigai_003,うどん多ない？,Udon All night!?,方言や発音の違いに注意,方言を英語と誤認,True,togetter_kikimachigai,https://togetter.com/t/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84/recent,日本語,"['聞き間違い', '方言', '外国語', '飲食']","['店舗', '多言語']"
-togetter_kikimachigai_004,箸ください,ハッシュデスネ！,発音やイントネーションに注意,外国人店員による聞き間違い,True,togetter_kikimachigai,https://togetter.com/t/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84/recent,日本語,"['聞き間違い', '店舗', '外国語', '非母語話者']","['店舗', '多言語']"
-togetter_kikimachigai_005,マンボウ,マンゴー,食べ物名の聞き間違いに注意,九州の友人に「マンボウをもらった」と言ったら「マンゴー」と勘違いされた,True,togetter_kikimachigai,https://togetter.com/t/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84/recent,日本語,"['聞き間違い', '食べ物']","['職場', '家庭']"
-togetter_kikimachigai_006,屈強なキリシタン,国境なき医師団,団体名の聞き間違いに注意,「国境なき医師団」を「屈強なキリシタン」と聞き間違えた,True,togetter_kikimachigai,https://togetter.com/t/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84/recent,日本語,"['聞き間違い', '団体名']","['電話', '職場']"

@@ -1,4 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-youtube_8RVTwQmG4aU_001,B,D,アルファベットの発音を明確に伝える。BとDは特に注意。,電話でBとDの区別がつきにくい。,True,youtube_8RVTwQmG4aU,https://www.youtube.com/watch?v=8RVTwQmG4aU,日本語,"['電話対応', '聞き間違い', 'ビジネス', 'カイクラ']","['オフィス', 'コールセンター', '電話']"
-youtube_8RVTwQmG4aU_002,1,7,数字はゆっくり、はっきり伝える。1と7は特に注意。,1と7の聞き間違いは数字伝達で多い。,True,youtube_8RVTwQmG4aU,https://www.youtube.com/watch?v=8RVTwQmG4aU,日本語,"['電話対応', '聞き間違い', 'ビジネス', 'カイクラ']","['オフィス', 'コールセンター', '電話']"
-youtube_8RVTwQmG4aU_003,佐藤,加藤,名前や固有名詞は復唱・確認を徹底。,佐藤と加藤など、似た音の名字は電話で特に間違えやすい。,True,youtube_8RVTwQmG4aU,https://www.youtube.com/watch?v=8RVTwQmG4aU,日本語,"['電話対応', '聞き間違い', 'ビジネス', 'カイクラ']","['オフィス', 'コールセンター', '電話']"
