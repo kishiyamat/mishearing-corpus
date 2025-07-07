@@ -867,7 +867,7 @@ BLOOD_DRAW_TIME,ja,採血時
 BLOOD_DRAW_TIME,en,blood draw time
 QUIET_ROOM,ja,静かな部屋
 QUIET_ROOM,en,quiet room
-ELDERLY_HOME,ja、高齢者の家
+ELDERLY_HOME,ja,高齢者の家
 ELDERLY_HOME,en,elderly home
 EIGO_GAKUSHUU_KANKYOU,ja,英語学習環境
 EIGO_GAKUSHUU_KANKYOU,en,English learning environment
@@ -1093,3 +1093,191 @@ TOEIC_LISTENING,ja,TOEICリスニング
 TOEIC_LISTENING,en,TOEIC listening
 NICHIJO_KAIWA,ja,日常会話
 NICHIJO_KAIWA,en,daily conversation
+REAL_ESTATE_TRANSACTION_SITE,ja,不動産取引現場
+REAL_ESTATE_TRANSACTION_SITE,en,real estate transaction site
+JIMUSHO_NAI,ja,事務所内
+JIMUSHO_NAI,en,inside office
+CROSS_CULTURAL_CONTACT,ja,異文化接触
+CROSS_CULTURAL_CONTACT,en,cross-cultural contact
+YOUTUBE_DOUGA_SATSUEI_GENBA,ja,YouTube動画撮影現場
+YOUTUBE_DOUGA_SATSUEI_GENBA,en,YouTube video shooting site
+DENTAL_CLINIC,ja,歯科診療所
+DENTAL_CLINIC,en,dental clinic
+KAISHOKU,ja,会食
+KAISHOKU,en,meal gathering
+OVERSEAS_AIRPORT,ja,海外空港
+OVERSEAS_AIRPORT,en,overseas airport
+MEAL_DISTRIBUTION_SITE,ja,食事配布現場
+MEAL_DISTRIBUTION_SITE,en,meal distribution site
+HISTORICAL_NAMING,ja,歴史的命名
+HISTORICAL_NAMING,en,historical naming
+OUTDOOR_ANDES_MOUNTAINS_AREA,ja,屋外アンデス山脈地域
+OUTDOOR_ANDES_MOUNTAINS_AREA,en,outdoor Andes mountains area
+WRITER_HOME,ja,作家の家
+WRITER_HOME,en,writer's home
+SHUUGOU_SHASHIN_SATSUEI,ja,集合写真撮影
+SHUUGOU_SHASHIN_SATSUEI,en,group photo shooting
+LANDLINE_PHONE,ja,固定電話
+LANDLINE_PHONE,en,landline phone
+STATION_CITY,ja,駅都市
+STATION_CITY,en,station city
+BUSINESS_SITE,ja,ビジネス現場
+BUSINESS_SITE,en,business site
+AUDIO_MATERIAL,ja,音声資料
+AUDIO_MATERIAL,en,audio material
+FUKUSUUJIN,ja,複数人
+FUKUSUUJIN,en,multiple people
+BUSY,ja,忙しい
+BUSY,en,busy
+HISTORICAL_CONVERSATION,ja,歴史的会話
+HISTORICAL_CONVERSATION,en,historical conversation
+CITY_HALL,ja,市役所
+CITY_HALL,en,city hall
+BUSINESS_DOCUMENT_CREATION,ja,ビジネス文書作成
+BUSINESS_DOCUMENT_CREATION,en,business document creation
+AVIATION_RADIO_ATC,ja,航空無線ATC
+AVIATION_RADIO_ATC,en,aviation radio ATC
+REAL_ESTATE_GUIDANCE,ja,不動産案内
+REAL_ESTATE_GUIDANCE,en,real estate guidance
+CAFE_TENPO,ja,カフェ店舗
+CAFE_TENPO,en,cafe store
+GENERAL_CONSUMER,ja,一般消費者
+GENERAL_CONSUMER,en,general consumer
+INDIGENOUS_AND_SPANISH_CONQUERORS,ja,先住民とスペイン征服者
+INDIGENOUS_AND_SPANISH_CONQUERORS,en,indigenous and Spanish conquerors
+MEDICAL_INSTITUTION,ja,医療機関
+MEDICAL_INSTITUTION,en,medical institution
+AIR_TRAFFIC_CONTROL_RADIO,ja,航空管制無線
+AIR_TRAFFIC_CONTROL_RADIO,en,air traffic control radio
+FACE_TO_FACE_SERVICE,ja,対面サービス
+FACE_TO_FACE_SERVICE,en,face-to-face service
+OFFICIAL_CONTACT,ja,公式連絡
+OFFICIAL_CONTACT,en,official contact
+CROWDED_COMMUTING_TIME,ja,混雑した通勤時間
+CROWDED_COMMUTING_TIME,en,crowded commuting time
+REJI_COUNTER,ja,レジカウンター
+REJI_COUNTER,en,register counter
+KONZATSUJI,ja,混雑時
+KONZATSUJI,en,during congestion
+ORAL_GUIDANCE,ja,口頭案内
+ORAL_GUIDANCE,en,oral guidance
+CONGESTION,ja,混雑
+CONGESTION,en,congestion
+INPATIENT_WARD,ja,入院病棟
+INPATIENT_WARD,en,inpatient ward
+YOUTUBE_PODCAST,ja,YouTubeポッドキャスト
+YOUTUBE_PODCAST,en,YouTube podcast
+CLINICAL_SITE,ja,臨床現場
+CLINICAL_SITE,en,clinical site
+BUSINESS_CONVERSATION,ja,ビジネス会話
+BUSINESS_CONVERSATION,en,business conversation
+FACE_TO_FACE_ORAL,ja,対面口頭
+FACE_TO_FACE_ORAL,en,face-to-face oral
+ORAL_ORDER,ja,口頭注文
+ORAL_ORDER,en,oral order
+CULTURE_SECTION,ja,文化部門
+CULTURE_SECTION,en,culture section
+NOISY_AIRPORT_ENVIRONMENT,ja,騒がしい空港環境
+NOISY_AIRPORT_ENVIRONMENT,en,noisy airport environment
+TENPO_COUNTER,ja,店舗カウンター
+TENPO_COUNTER,en,store counter
+KANKYO_ON,ja,環境音
+KANKYO_ON,en,environment sound
+MOVIE_DRAMA_VIEWING,ja,映画ドラマ鑑賞
+MOVIE_DRAMA_VIEWING,en,movie drama viewing
+ONLINE_ENGLISH_CONVERSATION,ja,オンライン英会話
+ONLINE_ENGLISH_CONVERSATION,en,online English conversation
+FIXED_PHONE,ja,固定電話
+FIXED_PHONE,en,fixed phone
+JAPANESE_SPEAKER_FOREIGN_COMPANY_NAME_LISTENING,ja,日本語話者外国会社名聞き取り
+JAPANESE_SPEAKER_FOREIGN_COMPANY_NAME_LISTENING,en,Japanese speaker foreign company name listening
+SEARCH_ENGINE,ja,検索エンジン
+SEARCH_ENGINE,en,search engine
+AUTOMATIC_TICKET_GATE,ja,自動改札機
+AUTOMATIC_TICKET_GATE,en,automatic ticket gate
+KENSHU_KAIJO,ja,研修会場
+KENSHU_KAIJO,en,training venue
+PRODUCT_PACKAGE,ja,製品パッケージ
+PRODUCT_PACKAGE,en,product package
+WEB_SEARCH,ja,ウェブ検索
+WEB_SEARCH,en,web search
+EXAMINATION_ROOM,ja,診察室
+EXAMINATION_ROOM,en,examination room
+BUSINESS_ENVIRONMENT,ja,ビジネス環境
+BUSINESS_ENVIRONMENT,en,business environment
+NOISE_RADIO_COMMUNICATION,ja,無線通信ノイズ
+NOISE_RADIO_COMMUNICATION,en,radio communication noise
+ONLINE_EVENT,ja,オンラインイベント
+ONLINE_EVENT,en,online event
+AVIATION_RADIO_HEADSET,ja,航空無線ヘッドセット
+AVIATION_RADIO_HEADSET,en,aviation radio headset
+NYUSHA_SHIKI,ja,入社式
+NYUSHA_SHIKI,en,company entrance ceremony
+STORE_COUNTER,ja,店舗カウンター
+STORE_COUNTER,en,store counter
+DRINKING_PARTY,ja,飲み会
+DRINKING_PARTY,en,drinking party
+STUDENT_CONVERSATION,ja,学生の会話
+STUDENT_CONVERSATION,en,student conversation
+NOISY_FOREIGN_LANGUAGE_ENVIRONMENT,ja,騒がしい外国語環境
+NOISY_FOREIGN_LANGUAGE_ENVIRONMENT,en,noisy foreign language environment
+JAPANESE_SPEAKER_KATAKANA_LISTENING_SITUATION,ja,日本語話者カタカナ聞き取り状況
+JAPANESE_SPEAKER_KATAKANA_LISTENING_SITUATION,en,Japanese speaker katakana listening situation
+PREFECTURAL_OFFICE,ja,県庁
+PREFECTURAL_OFFICE,en,prefectural office
+BAGGAGE_HANDLING_SITE,ja,荷物取り扱い現場
+BAGGAGE_HANDLING_SITE,en,baggage handling site
+ENGLISH_SPANISH_ACCENT,ja,英語スペイン訛り
+ENGLISH_SPANISH_ACCENT,en,English Spanish accent
+ZOOLOGY,ja,動物学
+ZOOLOGY,en,zoology
+TAIMEN_SEKKYAKU,ja,対面接客
+TAIMEN_SEKKYAKU,en,face-to-face customer service
+PHONE_FACE_TO_FACE,ja,電話対面
+PHONE_FACE_TO_FACE,en,phone face-to-face
+MEDICATION_ADMINISTRATION_SITE,ja,薬剤投与現場
+MEDICATION_ADMINISTRATION_SITE,en,medication administration site
+ELDERLY_PEOPLE,ja,高齢者
+ELDERLY_PEOPLE,en,elderly people
+ENGLISH_SPEAKING_COUNTRY,ja,英語圏
+ENGLISH_SPEAKING_COUNTRY,en,English-speaking country
+BOSS_AND_SUBORDINATE_CONVERSATION,ja,上司と部下の会話
+BOSS_AND_SUBORDINATE_CONVERSATION,en,boss and subordinate conversation
+ONLINE_SEARCH,ja,オンライン検索
+ONLINE_SEARCH,en,online search
+CHILDREN_CONVERSATION,ja,子供の会話
+CHILDREN_CONVERSATION,en,children conversation
+FAST_SPEECH_NERVOUS,ja,早口緊張
+FAST_SPEECH_NERVOUS,en,fast speech nervous
+CORPORATE_SALES_SITE,ja,企業販売現場
+CORPORATE_SALES_SITE,en,corporate sales site
+TELEPHONE,ja,電話
+TELEPHONE,en,telephone
+NOISE_ESTIMATION,ja,ノイズ推定
+NOISE_ESTIMATION,en,noise estimation
+ZATSUDAN,ja,雑談
+ZATSUDAN,en,casual conversation
+OUTPATIENT_RECEPTION,ja,外来受付
+OUTPATIENT_RECEPTION,en,outpatient reception
+ORAL_INSTRUCTION,ja,口頭指導
+ORAL_INSTRUCTION,en,oral instruction
+COMPANY_INTRODUCTION,ja,会社紹介
+COMPANY_INTRODUCTION,en,company introduction
+GENERAL_MEDICAL_ENVIRONMENT,ja,一般医療環境
+GENERAL_MEDICAL_ENVIRONMENT,en,general medical environment
+AIRPORT_KANSAI_INTERNATIONAL_AIRPORT,ja,関西国際空港
+AIRPORT_KANSAI_INTERNATIONAL_AIRPORT,en,Kansai International Airport
+SHIZUKANA_KANKYO,ja,静かな環境
+SHIZUKANA_KANKYO,en,quiet environment
+COUNTER,ja,カウンター
+COUNTER,en,counter
+ENGLISH_SPEAKING_AREA,ja,英語圏地域
+ENGLISH_SPEAKING_AREA,en,English-speaking area
+TOKYO_STATION_MARUNOUCHI_EXIT,ja,東京駅丸の内出口
+TOKYO_STATION_MARUNOUCHI_EXIT,en,Tokyo Station Marunouchi Exit
+ZATSUON,ja,雑音
+ZATSUON,en,noise
+PATIENT_STAFF_CONVERSATION,ja,患者とスタッフの会話
+PATIENT_STAFF_CONVERSATION,en,patient-staff conversation
+MEDICAL_CARE_REHABILITATION_WORKPLACE,ja,医療ケアリハビリ職場
+MEDICAL_CARE_REHABILITATION_WORKPLACE,en,medical care rehabilitation workplace

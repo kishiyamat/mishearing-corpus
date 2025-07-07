@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+postas_3521_001,1つ,2つ,数量の復唱を徹底,「1つ」と「2つ」は音が似ており、混同されやすい。混雑や騒音で発生しやすい。,True,postas_3521,https://www.postas.co.jp/makesmiles/3521/,,,ja
+postas_3521_002,醤油ラーメン,塩ラーメン,商品名の復唱・区別,似た名前の商品は騒音や伝達ミスで混同されやすい。伝票や食器の工夫が有効。,True,postas_3521,https://www.postas.co.jp/makesmiles/3521/,,,ja
+postas_3521_003,3番テーブル,8番テーブル,テーブル番号の復唱,キッチンからホールへの伝達時に番号を聞き間違え、誤配膳が発生することがある。,True,postas_3521,https://www.postas.co.jp/makesmiles/3521/,キッチン,ホール,ja
