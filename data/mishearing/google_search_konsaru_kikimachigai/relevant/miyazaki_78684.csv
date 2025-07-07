@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-miyazaki78684_001,サトウ,カトウ,氏名の聞き間違いを防ぐため、復唱確認を行うとよい。,氏名の聞き間違い。電話や窓口でよく発生。,True,miyazaki78684,https://www.pref.miyazaki.lg.jp/documents/78684/78684_20231222113636-1.pdf,日本語,"['行政', '電話対応', '聞き間違い', '氏名']","['県庁', '電話', '窓口']"
-miyazaki78684_002,1,7,数字は一語ずつ、はっきりと伝える。確認のため繰り返す。,数字の聞き間違い。申請番号や電話番号で発生しやすい。,True,miyazaki78684,https://www.pref.miyazaki.lg.jp/documents/78684/78684_20231222113636-1.pdf,日本語,"['行政', '電話対応', '聞き間違い', '数字']","['県庁', '電話', '窓口']"

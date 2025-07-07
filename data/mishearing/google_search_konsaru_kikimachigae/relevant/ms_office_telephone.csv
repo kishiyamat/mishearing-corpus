@@ -1,5 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-ms_office_telephone_001,イチ（1）,シチ（7）,復唱して確認すること,電話越しで数字を伝える際に「イチ」と「シチ」を聞き間違えることがある。,True,ms_office_telephone,https://www.ms-office.co.jp/column/column/telephone.html,日本語,"['電話応対', 'ビジネスマナー', '聞き間違い', '新入社員', 'コミュニケーション', '日本語', '非母語話者']","['オフィス', '電話', '通信環境', '固定電話']"
-ms_office_telephone_002,イチ（1）,ハチ（8）,復唱して確認すること,電話越しで数字を伝える際に「イチ」と「ハチ」を聞き間違えることがある。,True,ms_office_telephone,https://www.ms-office.co.jp/column/column/telephone.html,日本語,"['電話応対', 'ビジネスマナー', '聞き間違い', '新入社員', 'コミュニケーション', '日本語', '非母語話者']","['オフィス', '電話', '通信環境', '固定電話']"
-ms_office_telephone_003,シチ（7）,ハチ（8）,復唱して確認すること,電話越しで数字を伝える際に「シチ」と「ハチ」を聞き間違えることがある。,True,ms_office_telephone,https://www.ms-office.co.jp/column/column/telephone.html,日本語,"['電話応対', 'ビジネスマナー', '聞き間違い', '新入社員', 'コミュニケーション', '日本語', '非母語話者']","['オフィス', '電話', '通信環境', '固定電話']"
-ms_office_telephone_004,ム,ヌ,復唱して確認すること,電話越しでカタカナの「ム」と「ヌ」を聞き間違えることがある。,True,ms_office_telephone,https://www.ms-office.co.jp/column/column/telephone.html,日本語,"['電話応対', 'ビジネスマナー', '聞き間違い', '新入社員', 'コミュニケーション', '日本語', '非母語話者']","['オフィス', '電話', '通信環境', '固定電話']"

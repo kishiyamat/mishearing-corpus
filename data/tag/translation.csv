@@ -1359,3 +1359,237 @@ LANGUAGE_DEVELOPMENT,ja,言語発達
 LANGUAGE_DEVELOPMENT,en,language development
 WORK_EMPLOYMENT,ja,仕事・雇用
 WORK_EMPLOYMENT,en,work and employment
+COMMUNICATION_ERROR,ja,コミュニケーションエラー
+COMMUNICATION_ERROR,en,communication error
+SYMBOLISM_METAPHOR,ja,象徴・比喩
+SYMBOLISM_METAPHOR,en,symbolism/metaphor
+BCG,ja,BCG
+BCG,en,BCG
+DENTAL_CLINIC,ja,歯科医院
+DENTAL_CLINIC,en,dental clinic
+MIDDLE_AGED,ja、中年
+MIDDLE_AGED,en,middle-aged
+ATC,ja,航空管制
+ATC,en,air traffic control
+SEIZO_GYO,ja,製造業
+SEIZO_GYO,en,manufacturing industry
+OPERATOR_TRAINING,ja,オペレーター研修
+OPERATOR_TRAINING,en,operator training
+MCKINSEY,ja,マッキンゼー
+MCKINSEY,en,McKinsey
+KATAKANA_ENGLISH,ja,カタカナ英語
+KATAKANA_ENGLISH,en,katakana English
+SAFETY_MANAGEMENT,ja,安全管理
+SAFETY_MANAGEMENT,en,safety management
+DIGITALIZATION,ja,デジタル化
+DIGITALIZATION,en,digitalization
+TELEPHONE_RESPONSE,ja,電話応対
+TELEPHONE_RESPONSE,en,telephone response
+SIZE_ORDER,ja,サイズ順
+SIZE_ORDER,en,size order
+NICHIZI_KAKUNIN,ja,日次確認
+NICHIZI_KAKUNIN,en,daily confirmation
+SUURYOU,ja,数量
+SUURYOU,en,quantity
+INSTRUCTION,ja,指示
+INSTRUCTION,en,instruction
+FACTORY_AUTOMATION,ja,工場自動化
+FACTORY_AUTOMATION,en,factory automation
+WORK_TECHNIQUE,ja,作業技術
+WORK_TECHNIQUE,en,work technique
+KOUKYUUSHA,ja,高級車
+KOUKYUUSHA,en,luxury car
+SELF_ORDER,ja,セルフ注文
+SELF_ORDER,en,self-order
+DOONIGIGO,ja,同音異義語
+DOONIGIGO,en,homophones
+INDIGENOUS_PEOPLE,ja,先住民
+INDIGENOUS_PEOPLE,en,indigenous people
+BUSINESS_SKILL,ja,ビジネススキル
+BUSINESS_SKILL,en,business skill
+NURSING_CARE,ja,介護
+NURSING_CARE,en,nursing care
+DIRTY_JOKE,ja,下ネタ
+DIRTY_JOKE,en,dirty joke
+COLUMN,ja,コラム
+COLUMN,en,column
+SEARCH,ja,検索
+SEARCH,en,search
+SELL,ja,販売
+SELL,en,sell
+ADULT_MIDDLEAGED,ja,成人・中年
+ADULT_MIDDLEAGED,en,adult/middle-aged
+LITERATURE,ja,文学
+LITERATURE,en,literature
+TRAINING,ja,研修
+TRAINING,en,training
+MISTAKE_PREVENTION,ja,ミス防止
+MISTAKE_PREVENTION,en,mistake prevention
+BRAND_NAME,ja,ブランド名
+BRAND_NAME,en,brand name
+DX,ja,DX
+DX,en,DX
+ANALYSIS,ja,分析
+ANALYSIS,en,analysis
+DOCUMENT,ja,文書
+DOCUMENT,en,document
+MARKETING,ja,マーケティング
+MARKETING,en,marketing
+FOREIGN_COMPANY,ja,外資系企業
+FOREIGN_COMPANY,en,foreign company
+WORK_EFFICIENCY,ja,業務効率
+WORK_EFFICIENCY,en,work efficiency
+GLOBAL_ISSUE,ja,グローバル課題
+GLOBAL_ISSUE,en,global issue
+SEKKYAKU,ja,接客
+SEKKYAKU,en,customer service
+INTERNATIONAL_FLIGHT,ja,国際便
+INTERNATIONAL_FLIGHT,en,international flight
+HUMAN_SKILL,ja,ヒューマンスキル
+HUMAN_SKILL,en,human skill
+ORGANIZATIONAL_THEORY,ja,組織論
+ORGANIZATIONAL_THEORY,en,organizational theory
+NEW_EMPLOYEE_TRAINING,ja,新入社員研修
+NEW_EMPLOYEE_TRAINING,en,new employee training
+DOUBLE_CHECK,ja,ダブルチェック
+DOUBLE_CHECK,en,double check
+CORPORATE_INTERVIEW,ja,企業面接
+CORPORATE_INTERVIEW,en,corporate interview
+REAL_ESTATE_TERMS,ja,不動産用語
+REAL_ESTATE_TERMS,en,real estate terms
+JOB_HUNTING,ja,就職活動
+JOB_HUNTING,en,job hunting
+TRANSACTION,ja,取引
+TRANSACTION,en,transaction
+AIR_TRAFFIC_CONTROL,ja,航空管制
+AIR_TRAFFIC_CONTROL,en,air traffic control
+OPERATION,ja,操作
+OPERATION,en,operation
+OTSUKAI,ja,お使い
+OTSUKAI,en,errand
+CONSULTANT,ja,コンサルタント
+CONSULTANT,en,consultant
+REHABILITATION,ja,リハビリ
+REHABILITATION,en,rehabilitation
+ANIME,ja,アニメ
+ANIME,en,anime
+UNIT,ja,単位
+UNIT,en,unit
+5W1H,ja,5W1H
+5W1H,en,5W1H
+KIGYO_SHIEN,ja,企業支援
+KIGYO_SHIEN,en,business support
+GYOMU_EFFICIENCY,ja,業務効率化
+GYOMU_EFFICIENCY,en,work efficiency improvement
+AWARD,ja,賞
+AWARD,en,award
+SEIKATSU_CHISHIKI,ja,生活知識
+SEIKATSU_CHISHIKI,en,lifestyle knowledge
+DENTISTRY,ja,歯科
+DENTISTRY,en,dentistry
+MEDICAL_SITE,ja,医療現場
+MEDICAL_SITE,en,medical site
+MEMO_TECHNIQUE,ja,メモ技術
+MEMO_TECHNIQUE,en,memo technique
+KENRISHO,ja,権利書
+KENRISHO,en,title deed
+GEONAME_PUBLIC_FACILITY,ja,地名公共施設
+GEONAME_PUBLIC_FACILITY,en,place name public facility
+CHEMISTRY,ja,化学
+CHEMISTRY,en,chemistry
+PATIENT_CONFIRMATION,ja,患者確認
+PATIENT_CONFIRMATION,en,patient confirmation
+SHINJIN_KENSHU,ja,新人研修
+SHINJIN_KENSHU,en,new employee training
+WRITER,ja,作家
+WRITER,en,writer
+CONSULTING,ja,コンサルティング
+CONSULTING,en,consulting
+SHOUHINMEI,ja,商品名
+SHOUHINMEI,en,product name
+SHAKAI_HOKEN,ja,社会保険
+SHAKAI_HOKEN,en,social insurance
+KAISHA,ja,会社
+KAISHA,en,company
+ELEMENT,ja,要素
+ELEMENT,en,element
+WORD,ja,単語
+WORD,en,word
+OVERSEAS_BUSINESS_TRIP,ja,海外出張
+OVERSEAS_BUSINESS_TRIP,en,overseas business trip
+NYUSHA_SHIKI,ja,入社式
+NYUSHA_SHIKI,en,company entrance ceremony
+SYSTEM_CREATION,ja,システム構築
+SYSTEM_CREATION,en,system creation
+DRINKING_PARTY,ja,飲み会
+DRINKING_PARTY,en,drinking party
+MEDICAL_SAFETY,ja,医療安全
+MEDICAL_SAFETY,en,medical safety
+ORDER_MISS,ja,注文ミス
+ORDER_MISS,en,order mistake
+SHOKUBA,ja,職場
+SHOKUBA,en,workplace
+YOUTUBER,ja,ユーチューバー
+YOUTUBER,en,YouTuber
+TABLE_NUMBER,ja,テーブル番号
+TABLE_NUMBER,en,table number
+DOKKIRI,ja,ドッキリ
+DOKKIRI,en,prank
+SEIDO_RIKAI,ja,制度理解
+SEIDO_RIKAI,en,system understanding
+MEDICAL_ACCIDENT,ja,医療事故
+MEDICAL_ACCIDENT,en,medical accident
+SCIENCE,ja,科学
+SCIENCE,en,science
+WORKPLACE_COMMUNICATION,ja,職場コミュニケーション
+WORKPLACE_COMMUNICATION,en,workplace communication
+MANSION,ja,マンション
+MANSION,en,mansion
+REAL_ESTATE,ja,不動産
+REAL_ESTATE,en,real estate
+LINKEDIN,ja,LinkedIn
+LINKEDIN,en,LinkedIn
+KIKIMACHI-GAI,ja,聞き間違い
+KIKIMACHI-GAI,en,mishearing
+JAPANESE_COMPANY,ja,日本企業
+JAPANESE_COMPANY,en,Japanese company
+PROJECT_MANAGEMENT,ja,プロジェクト管理
+PROJECT_MANAGEMENT,en,project management
+NEW_GRADUATE,ja,新卒
+NEW_GRADUATE,en,new graduate
+HOURENSOU,ja,報連相
+HOURENSOU,en,"reporting, contacting, consulting"
+LANGUAGE,ja,言語
+LANGUAGE,en,language
+ACTIVE_LISTENING,ja,積極的傾聴
+ACTIVE_LISTENING,en,active listening
+SHINSOTSU,ja,新卒
+SHINSOTSU,en,new graduate
+CORPORATE_COLLABORATION,ja,企業連携
+CORPORATE_COLLABORATION,en,corporate collaboration
+JAPAN,ja,日本
+JAPAN,en,Japan
+CHILE,ja,チリ
+CHILE,en,Chile
+STATION,ja,駅
+STATION,en,station
+KEIEI_SODAN,ja,経営相談
+KEIEI_SODAN,en,management consultation
+PACKAGE_DESIGN,ja,パッケージデザイン
+PACKAGE_DESIGN,en,package design
+PHONETIC_CHANGE,ja,音声変化
+PHONETIC_CHANGE,en,phonetic change
+GEOPOLITICS,ja,地政学
+GEOPOLITICS,en,geopolitics
+POSITIVE_THINKING,ja,ポジティブ思考
+POSITIVE_THINKING,en,positive thinking
+WINE,ja,ワイン
+WINE,en,wine
+ENGINEERING,ja,工学
+ENGINEERING,en,engineering
+BUSINESS_TERMS,ja,ビジネス用語
+BUSINESS_TERMS,en,business terms
+CRISIS_MANAGEMENT,ja,危機管理
+CRISIS_MANAGEMENT,en,crisis management
+PRODUCT_DEVELOPMENT,ja,製品開発
+PRODUCT_DEVELOPMENT,en,product development
