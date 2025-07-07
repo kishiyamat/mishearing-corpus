@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+jobcatalog_1477498984_001,面接官の質問,,質問は聞き返してOK,(Tgt=NA: 質問内容が不明で具体的な誤聴形が特定できない),True,jobcatalog_1477498984,https://contents.jobcatalog.yahoo.co.jp/qa/list/1477498984/,日本語,"['就職活動', '面接', '聞き間違い', 'コミュニケーション', '企業', '人事']","['面接会場', '対面', '静かな環境']"
+jobcatalog_1477498984_002,会社についてどう思っていますか？,会社の外壁について？,質問は聞き返してOK,「会社についてどう思うか？」を「会社の外壁について？」と聞き間違えた実例。,True,jobcatalog_1477498984,https://contents.jobcatalog.yahoo.co.jp/qa/list/1477498984/,日本語,"['就職活動', '面接', '聞き間違い', 'コミュニケーション', '企業', '人事']","['面接会場', '対面', '静かな環境']"

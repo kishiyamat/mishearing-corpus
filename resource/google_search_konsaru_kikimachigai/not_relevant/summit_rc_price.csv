@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+summitrc_price_001,,,指示書を活用すること,(Src=NA: 具体的な発話文・語句が記載されていないため)(Tgt=NA: 具体的な誤聴語句が記載されていないため) 店舗現場で口頭指示の「言い間違い」「聞き間違い」が多発し、作業指示書の導入で人時削減に成功した事例。,True,summitrc_price,https://summit-rc.com/improvement/price/,日本語,"['スーパーマーケット', '業務改善', 'コンサルティング', '聞き間違い', '言い間違い', '作業指示', '小売業']","['店舗現場', '作業指示（口頭）', 'ノイズ（店舗内）']"

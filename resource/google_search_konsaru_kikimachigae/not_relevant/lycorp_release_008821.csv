@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+lycorp_008821_001,,,明瞭な発音で案内を,NO_INCIDENT: no explicit mishearing found (Src=NA: placeholder '地名・道路名・案内文')(Tgt=NA: placeholder '別の地名・道路名・案内文'),True,lycorp_008821,https://www.lycorp.co.jp/ja/news/release/008821/,日本語,"['カーナビ', '音声合成', 'AI', '音声案内', 'モバイルアプリ', 'ユーザー体験', '聞き間違い', '日本語', '技術開発']","['車内', 'カーナビアプリ', 'スマートフォン', 'オンデバイス', '雑音環境']"

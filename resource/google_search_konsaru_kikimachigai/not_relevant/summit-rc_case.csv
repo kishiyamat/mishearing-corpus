@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+summitrc_3387_001,,,指示書を活用,(Src=NA: 作業指示内容が具体語で記載されていない)(Tgt=NA: 聞き間違えた内容が具体語で記載されていない),True,summitrc_3387,https://summit-rc.com/case/3387/,日本語,"['スーパーマーケット', '青果部門', '業務改善', 'コンサルティング', '聞き間違い', '作業指示書', 'コミュニケーション', '地方店舗', '小売業']","['店舗', '作業現場', '複数従業員間の口頭指示', 'ノイズ（店舗内）', 'マイク仕様不明']"

@@ -1,0 +1,11 @@
+MishearID,TagID
+cproduce_megumi_001,CALL_CENTER
+cproduce_megumi_001,PHONE_SUPPORT
+cproduce_megumi_001,MISHEARING
+cproduce_megumi_001,NUMBER
+cproduce_megumi_001,OPERATOR_TRAINING
+cproduce_megumi_002,CALL_CENTER
+cproduce_megumi_002,PHONE_SUPPORT
+cproduce_megumi_002,MISHEARING
+cproduce_megumi_002,COMMUNICATION_ERROR
+cproduce_megumi_002,OPERATOR_TRAINING

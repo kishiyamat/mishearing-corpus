@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+apple_hikkoshi_2_001,引越し日・配達日・回収日,別の日付や予定,日付・予定の復唱を徹底,電話や口頭でのやりとりで、引越し日や段ボール配達・回収日などの予定を聞き間違えるケースが多発していた。,True,apple_hikkoshi_2,https://circu.co.jp/pro-sharing/cases/apple-hikkoshi-2/,日本語,"['引越し', 'サービス業', '顧客対応', '日付', '予定', '聞き間違い', 'DX', 'Webサービス', 'オペレーション改善', 'プロシェアリング']","['電話', '口頭コミュニケーション', 'オフィス', '顧客とのやりとり', 'ノイズ']"

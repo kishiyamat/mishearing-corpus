@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+employment_enjapan_116010_001,2万円引きで住める,2万円で住める,福利厚生の説明は数字や条件を正確に確認すること。,入社前説明で『2万円で住める』と誤認。実際は『2万円引き』。複数人の会話環境で発生。,True,employment_enjapan_116010,https://employment.en-japan.com/comp-116010/,日本語,"['職場', '福利厚生', '聞き間違い', '日本語', 'オフィス', '説明会', '新入社員', '認識違い']","['オフィス', '説明会', '面接', '雑音']"

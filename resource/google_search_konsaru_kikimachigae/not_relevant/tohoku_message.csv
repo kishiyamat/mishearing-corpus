@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tohoku_jinji_message_001,,,電話で相手の名前を聞き間違えた場合は、復唱して確認することが大切です。,(Src=NA: 相手の名前が具体的に記載されていない)(Tgt=NA: 聞き間違えた名前が具体的に記載されていない),True,tohoku_jinji_message,http://www.bureau.tohoku.ac.jp/jinji/open/saiyo/tohokutiku/message.pdf,日本語,"['事務職員', '電話対応', '聞き間違い', 'コミュニケーション', '大学']","['大学事務室', '電話', 'オフィス']"

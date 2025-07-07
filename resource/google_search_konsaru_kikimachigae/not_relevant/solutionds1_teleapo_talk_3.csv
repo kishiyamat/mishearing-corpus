@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+solutionds1_teleapo_001,担当者名,別の担当者名,復唱して確認すること,電話で担当者名や個人情報を聞き間違えると、次回の連絡や信頼関係に支障が出るため注意が必要。(Src=NA: placeholder '担当者名')(Tgt=NA: placeholder '別の担当者名'),True,solutionds1_teleapo_talk_3,https://solutionds1.co.jp/column/line-service/teleapo-talk-3/,日本語,"['テレアポ', '電話営業', 'コールセンター', 'スクリプト', '聞き間違い', '個人情報', 'ビジネス', 'CTI', '業務効率化']","['オフィス', 'コールセンター', '電話', '通信環境', 'クラウドCTI', '録音機能あり']"

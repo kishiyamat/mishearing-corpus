@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+openwork_a0AIh00000049w2_001,,,聞き返し推奨,(Src=NA: 具体的な発話文不明)(Tgt=NA: 具体的な誤聴形不明) コールセンター業務中に顧客との電話で聞き間違いが発生したと記述あり。詳細は不明。,True,openwork_a0AIh00000049w2,https://www.openwork.jp/user_answer.php?vid=a0AIh00000049w2,日本語,"['コールセンター', '聞き間違い', '仕事', '電話対応', '人材サービス']","['コールセンター', '電話', '通信環境', 'ヘッドセットマイク（推定）']"

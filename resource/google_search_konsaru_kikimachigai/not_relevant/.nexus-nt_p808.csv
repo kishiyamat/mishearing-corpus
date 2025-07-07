@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nexusnt_p808_001,50個,15個,数量は復唱確認,顧客が「50個」と伝えたのに「15個」と聞き間違え、納期や在庫に重大な影響が出る事例。,True,nexusnt_p808,https://nexus-nt.co.jp/column/p808/,日本語,"['受注管理', '電話対応', '聞き間違い', '生産管理', 'CRM', 'システム導入', '業務改善', '履歴管理', '業務効率化', '日本語']","['電話', '事務所', '生産管理現場', '通信環境']"

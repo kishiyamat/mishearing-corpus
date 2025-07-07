@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ragent_article6905_001,日付,別の日付,口頭では面接日程や内定回答期限などの日付を聞き間違える可能性があるため、メールでのやりとりが推奨されている。,(Tgt=NA: '別の日付'は具体的な誤聴形ではなく、日付の取り違え全般を指す),True,ragent_article6905,https://www.r-agent.com/guide/article6905/,日本語,"['転職', 'エージェント', 'コミュニケーション', 'ビジネスメール', '日付', '聞き間違い', '連絡ミス', '仕事']","['オフィス', '電話', 'メール', 'オンライン', '通信環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,,,https://www.global.jcb/ja/press/2024/202405161210_others.pdf,TECH_FAIL: unable to retrieve content due to decoding error (invalid start byte in PDF)

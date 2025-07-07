@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+dei_column_20180424_001,,,別の言い回しで話しかける,(Src=NA: 発話内容が記事中に明記されていない)(Tgt=NA: 的外れな応答の具体内容が記載されていない),True,dei_column_20180424,https://www.dei.or.jp/aboutdei/column/20180424,日本語,"['スマートスピーカー', 'AIアシスタント', 'Amazon Echo', 'アレクサ', '音声認識', '聞き間違い', '家庭', 'IT', '非母語話者']","['家庭内', 'スマートスピーカー利用環境', '生活音あり', 'Amazon Echo内蔵マイク']"

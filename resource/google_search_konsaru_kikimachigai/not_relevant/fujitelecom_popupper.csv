@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,DocID,URL,Note,Tags,Envs
+NA_dummy_001,,,fujitelecom_popupper,https://www.fujitelecom.co.jp/package/popupper/,NO_INCIDENT: no explicit mishearing found,"['CRM', 'コールセンター', '電話応対', '聞き間違い', '通話録音', '顧客管理', '業務効率化', 'ICT', 'セキュリティ']","['オフィス', 'コールセンター', '電話回線', 'LAN環境', 'クライアントPC', '通信環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+profond_mailmagazine127_001,,,その場で分からない単語は恥ずかしがらずに確認することが大切,(Src=NA: 具体的な発話・単語が本文に記載されていない)(Tgt=NA: 具体的な聞き間違い形が本文に記載されていない),True,profond_mailmagazine127,https://profond.jp/mailmagazine127/,日本語,"['ビジネス', 'コミュニケーション', 'インタビュー', '聞き間違い', '略語', '独特の表現', '教訓']","['ビジネス現場', 'インタビュー', 'オフィス', 'Skype打合せ']"
