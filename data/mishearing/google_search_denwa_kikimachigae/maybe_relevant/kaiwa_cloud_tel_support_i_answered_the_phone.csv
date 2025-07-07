@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kaiwa_cloud_tel_support_001,前の職場の社名,現在の職場の社名,デスクに現職の社名メモを貼る,転職直後や緊張時に、前職の社名で名乗ってしまう。(Src=NA: placeholder '前の職場の社名')(Tgt=NA: placeholder '現在の職場の社名'),True,kaiwa_cloud_tel_support,https://kaiwa.cloud/media/telephone-work/tel-support/i-answered-the-phone/,日本語,"['電話対応', 'ビジネス', '聞き間違い', '社名', 'コミュニケーション', '仕事']","['オフィス', '電話', '通信環境']"
+kaiwa_cloud_tel_support_002,1時（いちじ）,7時（しちじ）,「ななじ」と言い換えや復唱で確認する,電話での時間伝達時、「1時」と「7時」など発音が似ているため聞き間違いが発生しやすい。,True,kaiwa_cloud_tel_support,https://kaiwa.cloud/media/telephone-work/tel-support/i-answered-the-phone/,日本語,"['電話対応', 'ビジネス', '聞き間違い', '時間', 'コミュニケーション', '仕事']","['オフィス', '電話', '通信環境']"

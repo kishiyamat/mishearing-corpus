@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+jmannercat63post12_001,,,聞き間違えそうな場合は言い換えて確認,NO_INCIDENT: no explicit mishearing found (Src=NA: placeholder '言葉や数字')(Tgt=NA: placeholder '別の言葉や数字'),True,jmannercat63post12,https://www.j-manner.com/business/cat63/post-12.html,日本語,"['ビジネスマナー', '電話応対', '聞き間違い', '伝言', 'コミュニケーション', '仕事']","['オフィス', '電話', 'ビジネス現場', '通信環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+hqmgarns_092_001,お客様のお申し出によりお繋ぎできません,お客様のお申し出によりお繋ぎできます,案内文の意味をよく確認すること,電話の自動音声案内で「お繋ぎできません」が「お繋ぎできます」と誤聴される場合,True,hqmgarns_092,https://hqmgarns.company/.f20us9swljjfwa8vedvvx/092.xml,日本語,"['電話応対', '自動音声', '聞き間違い', 'コールセンター', '日本語', '接客', 'アナウンス']","['電話', 'コールセンター', '自動音声案内', 'ノイズあり（推定）', '通信環境']"

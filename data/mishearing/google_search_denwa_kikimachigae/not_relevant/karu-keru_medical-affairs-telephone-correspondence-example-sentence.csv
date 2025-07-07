@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+karu_keru_mc_001,苗字のみ,同姓の別人,フルネームを必ず確認,(Src=NA: '苗字のみ'は具体語でない)(Tgt=NA: '同姓の別人'は具体語でない),True,karu_keru_mc_medical_affairs_telephone,https://karu-keru.com/info/job/mc/medical-affairs-telephone-correspondence-example-sentence,日本語,"['医療事務', '電話対応', '聞き間違い', 'コミュニケーション', '医療安全', '受付', '日本語']","['医療機関', '電話', '受付カウンター']"
+karu_keru_mc_002,名前・用件,別の名前・用件,復唱・メモをとる・聞き返す,(Src=NA: '名前・用件'は具体語でない)(Tgt=NA: '別の名前・用件'は具体語でない),True,karu_keru_mc_medical_affairs_telephone,https://karu-keru.com/info/job/mc/medical-affairs-telephone-correspondence-example-sentence,日本語,"['医療事務', '電話対応', '聞き間違い', 'コミュニケーション', '医療安全', '受付', '日本語']","['医療機関', '電話', '受付カウンター']"

@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kindai_sales_bank20180715_001,4日,1日,数字ははっきり伝える,電話で「4日」と伝えたつもりが「1日」と聞き間違えられることがある。,True,kindai_sales_bank20180715,http://www.kindai-sales.co.jp/images/upload/files/bank20180715_P46-47.pdf,日本語,"['電話対応', '聞き間違い', 'コミュニケーション', 'ビジネスマナー']","['電話', 'オフィス']"
+kindai_sales_bank20180715_002,田中,高田,名前はゆっくり復唱する,電話で「田中」と伝えたつもりが「高田」と聞き間違えられることがある。,True,kindai_sales_bank20180715,http://www.kindai-sales.co.jp/images/upload/files/bank20180715_P46-47.pdf,日本語,"['電話対応', '聞き間違い', 'コミュニケーション', 'ビジネスマナー']","['電話', 'オフィス']"
+kindai_sales_bank20180715_003,佐藤,加藤,名前はゆっくり復唱する,電話で「佐藤」と伝えたつもりが「加藤」と聞き間違えられることがある。,True,kindai_sales_bank20180715,http://www.kindai-sales.co.jp/images/upload/files/bank20180715_P46-47.pdf,日本語,"['電話対応', '聞き間違い', 'コミュニケーション', 'ビジネスマナー']","['電話', 'オフィス']"
