@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nikken_tsunagu_2331_001,,,口頭指示は復唱推奨,(Src=NA: 具体的な発話文が記事中に明記されていない)(Tgt=NA: 具体的な誤聴形が記事中に明記されていない),True,nikken_tsunagu_2331,https://www.nikken-totalsourcing.jp/business/tsunagu/column/2331/,日本語,"['製造業', 'ヒューマンエラー', 'ポカヨケ', '聞き間違い', '認知エラー', '安全管理', '生産管理']","['製造現場', '工場', '作業現場', '口頭指示', '騒音環境', 'マニュアル/作業指示書']"

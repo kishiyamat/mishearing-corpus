@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nikkei_DGXNASDW3000H_001,hold,cleared for takeoff,管制英語は復唱必須,管制官の「待機（hold）」指示をパイロットが「離陸許可（cleared for takeoff）」と誤認した可能性。国際線の英語コミュニケーションで発音や語順の違いが誤解を生みやすい。,True,nikkei_DGXNASDW3000H,https://www.nikkei.com/article/DGXNASDW3000H_Q1A131C1000000/,英語,"['航空', '英語', '聞き間違い', '管制', '国際線', '非母語話者', '安全']","['空港（関西国際空港）', '航空無線（ATC）', 'ノイズあり（空港環境）', '航空無線用ヘッドセット', '英語（非母語話者同士）']"

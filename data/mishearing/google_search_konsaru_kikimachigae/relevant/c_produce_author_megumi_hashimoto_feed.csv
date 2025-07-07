@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+cproduce_megumi_001,1,7,「しち」は「なな」に言い換えるなど工夫,電話応対で「1」と「7」は音が似ており、特に「しち」と「いち」の混同が多いため、明瞭に伝える工夫が必要。,True,cproduce_megumi,https://www.c-produce.jp/archives/author/megumi-hashimoto/feed/,日本語,"['コールセンター', '電話応対', '聞き間違い', '数字', 'オペレーター教育']","['電話', 'コールセンター', '通信環境']"
+cproduce_megumi_002,対象内,対象外,ゆっくり・明瞭に伝えること,「対象内」と「対象外」は音が似ており、聞き間違いによるトラブルが発生しやすい。明確な発音が重要。,True,cproduce_megumi,https://www.c-produce.jp/archives/author/megumi-hashimoto/feed/,日本語,"['コールセンター', '電話応対', '聞き間違い', '伝達ミス', 'オペレーター教育']","['電話', 'コールセンター', '通信環境']"

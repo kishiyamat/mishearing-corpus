@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+mmaccc_int_amano_001,キーエンスです,金？銀？なんて言った？,社名ははっきり伝える,新卒で営業時に「キーエンスです」と名乗ると、顧客に「金？銀？なんて言った？」と聞き間違えられた。,True,mmaccc_int_amano,https://mmac.cc/int_amano/,日本語,"['製造業', 'デジタル化', 'DX', 'ファクトリーオートメーション', '企業インタビュー', '聞き間違い', '社名', 'コミュニケーション']","['企業営業現場', '電話・対面', 'ノイズあり', 'マイク仕様不明']"

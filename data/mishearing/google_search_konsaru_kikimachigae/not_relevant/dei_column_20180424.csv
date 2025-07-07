@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+dei_or_jp_20180424_001,,,はっきり話すとよい,NO_INCIDENT: no explicit mishearing found (Src=NA: 具体的な発話文が本文に記載されていない)(Tgt=NA: 具体的な誤聴語が本文に記載されていない),True,dei_or_jp_20180424,https://www.dei.or.jp/aboutdei/column/20180424,日本語,"['スマートスピーカー', 'AIアシスタント', 'Amazon Echo', 'アレクサ', '音声認識', '買い物リスト', '実店舗', '流通', '聞き間違い', '家庭', '高齢者', '非母語話者（AI）']","['家庭', 'Amazon Echo', '音声入力環境', '日常生活音', '家族']"

@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,DocID,URL,Note
+qacjp_sapotopi_37_001,,,qacjp_sapotopi_37,https://service.qac.jp/sapo-topi/column/37,(Src=NA: placeholder '氏名')(Tgt=NA: placeholder '別の氏名')
+qacjp_sapotopi_37_002,,,qacjp_sapotopi_37,https://service.qac.jp/sapo-topi/column/37,(Src=NA: placeholder '注文情報')(Tgt=NA: placeholder '別の注文情報')
+qacjp_sapotopi_37_003,,,qacjp_sapotopi_37,https://service.qac.jp/sapo-topi/column/37,(Src=NA: placeholder '配送日/受取日')(Tgt=NA: placeholder '別の日付')

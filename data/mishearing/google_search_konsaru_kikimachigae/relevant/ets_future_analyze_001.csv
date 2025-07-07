@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+etsfuture_338_001,Gd（ガドリニウム）,Cd（カドミウム）,専門用語注意,電話で「Gd（ガドリニウム）」を「Cd（カドミウム）」と聞き間違えた。元素記号が似ているため発生。,True,etsfuture_338,https://www.ets-future.com/information/column/analyze/338/,日本語,"['分析', '化学', '元素', '職場', '電話', '聞き間違い']","['職場', '電話', '専門用語']"
+etsfuture_338_002,カドリニウム,カドミウム,専門用語注意,電話で「カドリニウム」を「カドミウム」と聞き間違えた。カタカナ表記が似ているため発生。,True,etsfuture_338,https://www.ets-future.com/information/column/analyze/338/,日本語,"['分析', '化学', '元素', '職場', '電話', '聞き間違い']","['職場', '電話', '専門用語']"

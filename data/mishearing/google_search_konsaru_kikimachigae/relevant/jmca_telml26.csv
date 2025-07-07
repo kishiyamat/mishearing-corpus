@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+jmca_telm26_001,20日（火）,21日（水）,日付・曜日は必ず復唱,電話注文で日付や曜日を聞き間違えやすい。復唱・確認を怠ると納期ミスにつながる。,True,jmca_telm26,https://plus.jmca.jp/telm/telm26.html,日本語,"['電話応対', '受注', '日付', '曜日', '聞き間違い', '社員教育', 'ビジネスマナー']","['事務所', '電話', '通信環境']"

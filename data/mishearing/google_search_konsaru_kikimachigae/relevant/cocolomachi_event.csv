@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+cocolomachi_event_001,五反野,五反田,地名に注意,「五反野」は「五反田」と見間違え・聞き間違えられることが日常茶飯事。東京の地名で、駅名としてのみ残っている。,True,cocolomachi_event,https://cocolomachi.co.jp/info/event,日本語,"['地名', '聞き間違い', '不動産', 'コミュニケーション', '東京', '非母語話者']","['電話', '対面会話', '不動産案内', 'オンラインイベント', '駅・街中']"

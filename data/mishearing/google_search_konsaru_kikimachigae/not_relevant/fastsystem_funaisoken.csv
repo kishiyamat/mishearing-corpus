@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kaiwa_cloud_2_001,田中さん,,氏名を確認する,(Tgt=NA: 別の田中さんなど同姓の顧客と聞き間違えるケース。具体的な誤聴語は記載なし),True,kaiwa_cloud_2,https://fastsystem.funaisoken.co.jp/digital/kaiwa-cloud-2/,日本語,"['電話応対', '顧客管理', '聞き間違い', 'コールセンター', 'DX', 'kintone連携', '固定電話', '業務効率化']","['電話', 'オフィス', 'コールセンター']"
+kaiwa_cloud_2_002,氏名（早口）,,氏名を確認する,(Tgt=NA: 早口で名乗られた際に別の氏名と聞き間違えるが、具体的な誤聴語は記載なし),True,kaiwa_cloud_2,https://fastsystem.funaisoken.co.jp/digital/kaiwa-cloud-2/,日本語,"['電話応対', '顧客管理', '聞き間違い', 'コールセンター', 'DX', 'kintone連携', '固定電話', '業務効率化']","['電話', 'オフィス', 'コールセンター']"
