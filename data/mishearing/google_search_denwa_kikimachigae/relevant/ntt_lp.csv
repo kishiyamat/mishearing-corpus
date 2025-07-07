@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-nttcom_aitelephone_001,1,7,注意が必要,電話で数字の「1」と「7」を聞き間違えることがある。伝言や個人情報の聞き取り時に発生しやすい。,True,nttcom_aitelephone_column04,https://www.ntt.com/business/services/aitelephone/lp/column-04.html,日本語,"['電話対応', '伝言', '聞き間違い', 'コミュニケーション', 'DX', 'AI', 'IVR', 'チャットボット', 'ビジネス']","['オフィス', 'コールセンター', '電話回線', 'ノイズ', '固定電話', 'IP電話', 'AI電話']"
-nttcom_aitelephone_002,B,V,注意が必要,電話でアルファベットの「B」と「V」を聞き間違えることがある。伝言や個人情報の聞き取り時に発生しやすい。,True,nttcom_aitelephone_column04,https://www.ntt.com/business/services/aitelephone/lp/column-04.html,日本語,"['電話対応', '伝言', '聞き間違い', 'コミュニケーション', 'DX', 'AI', 'IVR', 'チャットボット', 'ビジネス']","['オフィス', 'コールセンター', '電話回線', 'ノイズ', '固定電話', 'IP電話', 'AI電話']"

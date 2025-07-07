@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+ntvnews_363127_001,しぶや,ひびや,地名は特に注意,東京の地名で発音が似ており、聞き間違いやすい。,True,ntvnews_363127,https://news.ntv.co.jp/category/society/363127,,,ja
+ntvnews_363127_002,さとう,かとう,名字は特に注意,1文字違いの名字で発音が似ており、聞き間違いやすい。,True,ntvnews_363127,https://news.ntv.co.jp/category/society/363127,,,ja
+ntvnews_363127_003,あくしゅ,はくしゅ,言い換えも有効,発音が似ており、意識して発音しないと聞き間違いやすい。言い換え提案あり。,True,ntvnews_363127,https://news.ntv.co.jp/category/society/363127,,,ja
