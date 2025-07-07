@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+oshiete_12313599_001,面接の日程と時間,別の日程と時間,電話で重要な情報を伝えられた際は必ず復唱し、メモを取ることが大切。,(Src=NA: 具体的な発話文が記載されていない)(Tgt=NA: 具体的な誤聴内容が記載されていない),True,oshiete_12313599,https://oshiete.goo.ne.jp/qa/12313599.html,ja,"['聞き間違い', '電話', '面接', '就職活動', 'コミュニケーション']","['電話', '面接日程連絡']"

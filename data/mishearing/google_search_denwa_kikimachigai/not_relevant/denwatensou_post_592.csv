@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+denwatensou_202012_post592_001,,,名前は復唱して確認することが重要,(Src=NA: placeholder 'お客様の名前')(Tgt=NA: placeholder '別の名前'),True,denwatensou_202012_post592,https://www.denwatensou.com/blog/2020/12/post-592.html,日本語,"['電話対応', 'ビジネスマナー', '聞き間違い', 'コミュニケーション', 'メモ', '復唱確認', '仕事']","['オフィス', '電話', 'ビジネス現場', '通信環境（電話回線）', 'メモ用紙・ペン']"
+denwatensou_202012_post592_002,,,聞き取りにくい場合は必ず聞き返すこと,(Src=NA: placeholder '日程や数字')(Tgt=NA: placeholder '別の日程や数字'),True,denwatensou_202012_post592,https://www.denwatensou.com/blog/2020/12/post-592.html,日本語,"['電話対応', 'ビジネスマナー', '聞き間違い', 'コミュニケーション', 'メモ', '復唱確認', '仕事']","['オフィス', '電話', 'ビジネス現場', '通信環境（電話回線）', 'メモ用紙・ペン']"

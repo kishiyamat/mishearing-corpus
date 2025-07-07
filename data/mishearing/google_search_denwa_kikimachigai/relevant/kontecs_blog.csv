@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kontecs_91_001,アイスコーヒー,アイスティー,忙しい時は注意,サンマルクカフェで「アイスコーヒー」を注文したが「アイスティー」が提供された。店員は忙しそうで、注文を聞き間違えた。,True,kontecs_91,https://www.kontecs.com/blog/staff/archives/91,日本語,"['注文', '聞き間違い', 'カフェ', '接客', '日常', '日本語', '店舗', 'フードサービス']","['カフェ', '店舗', '混雑', 'レジカウンター', 'ノイズ', '対面注文']"

@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+siri_mhtaxc2pxmy_001,天気を教えて,電気をつけて,はっきり発音する,Siriが「天気」を「電気」と誤認識。生活音や発音の曖昧さが原因。,True,siri_mhtaxc2pxmy,https://www.youtube.com/watch?v=MHtAXC2pXmY,日本語,"['Siri', '音声認識', '聞き間違い', 'スマートフォン', 'コミュニケーション']","['自宅', 'スマートフォン', 'Siri', '生活音', '内蔵マイク']"
+siri_mhtaxc2pxmy_002,明日の予定,足の予定,ゆっくり発音する,Siriが「明日」を「足」と誤認識。日本語の音の近さが原因。,True,siri_mhtaxc2pxmy,https://www.youtube.com/watch?v=MHtAXC2pXmY,日本語,"['Siri', '音声認識', '聞き間違い', 'スマートフォン', 'コミュニケーション']","['自宅', 'スマートフォン', 'Siri', '生活音', '内蔵マイク']"
+siri_mhtaxc2pxmy_003,アラームを7時にセット,アラームを8時にセット,ゆっくりはっきり言う,Siriが時刻を誤認識し、意図しない時間にアラームをセットした。,True,siri_mhtaxc2pxmy,https://www.youtube.com/watch?v=MHtAXC2pXmY,日本語,"['Siri', '音声認識', '聞き間違い', 'スマートフォン', 'コミュニケーション']","['自宅', 'スマートフォン', 'Siri', '生活音', '内蔵マイク']"

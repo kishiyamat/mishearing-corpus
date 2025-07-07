@@ -1,0 +1,5 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+youtube_8RVTwQmG4aU_001,B,D,アルファベットの発音を明確に伝える。Bは“ビー”、Dは“ディー”と区別して発音する。,電話対応でBとDの聞き間違いが発生しやすい。,True,youtube_8RVTwQmG4aU,https://www.youtube.com/watch?v=8RVTwQmG4aU,日本語,"['電話対応', '聞き間違い', 'アルファベット']","['オフィス', 'コールセンター', '電話']"
+youtube_8RVTwQmG4aU_002,M,N,Mは“エム”、Nは“エヌ”と明確に発音する。,電話対応でMとNの聞き間違いが発生しやすい。,True,youtube_8RVTwQmG4aU,https://www.youtube.com/watch?v=8RVTwQmG4aU,日本語,"['電話対応', '聞き間違い', 'アルファベット']","['オフィス', 'コールセンター', '電話']"
+youtube_8RVTwQmG4aU_003,15,50,数字は一桁ずつ区切って伝える。例：“いち・ご”と“ご・じゅう”,電話対応で15と50の聞き間違いが発生しやすい。,True,youtube_8RVTwQmG4aU,https://www.youtube.com/watch?v=8RVTwQmG4aU,日本語,"['電話対応', '聞き間違い', '数字']","['オフィス', 'コールセンター', '電話']"
+youtube_8RVTwQmG4aU_004,7,1,“なな”と“いち”をはっきり区別して発音する。,電話対応で7と1の聞き間違いが発生しやすい。,True,youtube_8RVTwQmG4aU,https://www.youtube.com/watch?v=8RVTwQmG4aU,日本語,"['電話対応', '聞き間違い', '数字']","['オフィス', 'コールセンター', '電話']"

@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+mottel_47234_001,,,聞き取れなかった場合は必ず復唱・確認する,(Src=NA: placeholder '会社名・担当者名')(Tgt=NA: placeholder '別の会社名・担当者名'),True,mottel_47234,https://www.mot-net.com/mottel/what_cloudpbx/denwadaikou/47234,日本語,"['電話対応', '聞き間違い', 'コールセンター', 'ビジネスマナー', '業務効率化', '電話代行', 'ストレス対策', '社内教育']","['オフィス', 'コールセンター', '電話', '通信環境', '周囲に同僚や上司']"
+mottel_47234_002,,,聞き取れなかった部分は理由を伝えて聞き直す,(Src=NA: placeholder '用件')(Tgt=NA: placeholder '別の用件'),True,mottel_47234,https://www.mot-net.com/mottel/what_cloudpbx/denwadaikou/47234,日本語,"['電話対応', '聞き間違い', 'コールセンター', 'ビジネスマナー', '業務効率化', '電話代行', 'ストレス対策', '社内教育']","['オフィス', 'コールセンター', '電話', '通信環境', '周囲に同僚や上司']"

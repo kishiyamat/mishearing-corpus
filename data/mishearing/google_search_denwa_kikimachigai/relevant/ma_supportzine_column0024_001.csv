@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+mainc_supportzine_0024_001,1,7,「イチ」と「シチ」は「ナナ」や「ひと（つ）」に言い換えると良い,電話で数字を伝える際、「1」と「7」は音が似ていて聞き間違いが多いため、言い換えが推奨される。,True,mainc_supportzine_0024,https://ma-inc.jp/supportzine/all/technic/column0024,日本語,"['コールセンター', '電話対応', '聞き間違い', '数字']","['電話', 'コールセンター', '通信環境']"
+mainc_supportzine_0024_002,T,D,「ティー」と「ディー」は「テー」「デー」やアルファベットの並びで説明する,電話でアルファベットを伝える際、「T」と「D」は音が似ていて聞き間違いが多いため、説明を工夫する必要がある。,True,mainc_supportzine_0024,https://ma-inc.jp/supportzine/all/technic/column0024,日本語,"['コールセンター', '電話対応', '聞き間違い', 'アルファベット']","['電話', 'コールセンター', '通信環境']"
+mainc_supportzine_0024_003,オヤマ,大山（オオヤマ）,漢字を確認することで聞き間違いを防ぐ,固有名詞（名前や地名）は音だけでなく漢字を確認することで、誤認を防ぐことができる。,True,mainc_supportzine_0024,https://ma-inc.jp/supportzine/all/technic/column0024,日本語,"['コールセンター', '電話対応', '聞き間違い', '固有名詞']","['電話', 'コールセンター', '通信環境']"

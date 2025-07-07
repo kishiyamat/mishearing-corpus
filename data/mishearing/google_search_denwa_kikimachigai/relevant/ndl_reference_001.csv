@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+crdndl_1000221248_001,カワ,川,「サンボンガワのカワ」など具体的に説明,「カワ」とだけ言われると「川」か「河」か分からず混乱が生じる。電話での同音異義語の典型例。,True,crdndl_1000221248,https://crd.ndl.go.jp/reference/entry/index.php?id=1000221248&page=ref_view,日本語,"['ビジネスマナー', '電話応対', '同音異義語', '聞き間違い', '日本語', '確認方法', '教育', '文献紹介']","['ビジネス電話', 'オフィス', '電話回線']"
+crdndl_1000221248_002,カワ,河,「サンズイのカワ」など具体的に説明,上記と同様。電話での同音異義語の典型例。,True,crdndl_1000221248,https://crd.ndl.go.jp/reference/entry/index.php?id=1000221248&page=ref_view,日本語,"['ビジネスマナー', '電話応対', '同音異義語', '聞き間違い', '日本語', '確認方法', '教育', '文献紹介']","['ビジネス電話', 'オフィス', '電話回線']"
