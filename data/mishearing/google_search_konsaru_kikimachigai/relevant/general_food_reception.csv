@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+generalfood_letswrite_001,上でいいよ,うえ,「上様」と書くべき場面で注意,「上でいいよ」と言われて「上様」と書くべきところを「うえ」や「ウエ」と書いてしまう例。,True,generalfood_letswrite,https://general-food.com/reception/lets-write-if-you-dont-understand-the-character,日本語,"['飲食店', 'レジ', '領収書', '宛名', '聞き間違い', 'カタカナ', '会社名', 'コミュニケーション', '接客']","['飲食店', 'レジカウンター', '店舗内', '対面接客', '雑音あり']"
+generalfood_letswrite_002,カタカナ会社名,,メモに書いてもらうと良い,(Tgt=NA: 具体的な誤聴形が記載されていない),True,generalfood_letswrite,https://general-food.com/reception/lets-write-if-you-dont-understand-the-character,日本語,"['飲食店', 'レジ', '領収書', '宛名', '聞き間違い', 'カタカナ', '会社名', 'コミュニケーション', '接客']","['飲食店', 'レジカウンター', '店舗内', '対面接客', '雑音あり']"

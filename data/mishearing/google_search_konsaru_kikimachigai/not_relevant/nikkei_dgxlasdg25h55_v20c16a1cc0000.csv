@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nikkei_DGXLASDG25H55_001,町名（住所）,別の町名,住所は復唱確認,救急通報時、消防署員が町名（住所）を聞き間違え、救急車が誤った場所に到着し14分遅れた。(Src=NA: 具体的な町名不明)(Tgt=NA: 具体的な町名不明),True,nikkei_DGXLASDG25H55,https://www.nikkei.com/article/DGXLASDG25H55_V20C16A1CC0000/,日本語,"['救急', '住所', '聞き間違い', '電話', '緊急通報', '医療', '日本', '事故', 'コミュニケーション']","['電話', '救急通報', '住宅', '通信環境', '高齢者', '緊急時']"

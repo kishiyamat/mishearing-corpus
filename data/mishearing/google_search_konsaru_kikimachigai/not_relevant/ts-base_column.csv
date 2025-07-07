@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tsbase_20230829_001,,,重要情報は復唱・確認,(Src=NA: placeholder '担当者名・部署・金額')(Tgt=NA: placeholder '別の担当者名・部署・金額'),True,tsbase_20230829_1,https://www.ts-base.net/column/20230829_1,日本語,"['受発注業務', '聞き間違い', '電話対応', '業務効率化', 'システム化', '企業間取引', 'コミュニケーション']","['電話', '対面', 'オフィス', '業務現場', '通信環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+cloudcontactcenter_what_is_chat_support_001,会員番号や住所を口頭で確認する際,別の番号や住所として聞き間違える,チャットでは文字で確認できるためミスが減る,電話での口頭確認時に発生しやすい聞き間違い。チャットサポートでは視覚的に確認できるため防止できる。,True,cloudcontactcenter_what_is_chat_support,https://www.cloud-contactcenter.jp/blog/what-is-chat-support.html,日本語,"['コンタクトセンター', 'チャットサポート', '聞き間違い', '電話', 'DX', 'CRM', 'オペレーション', '非母語話者']","['コールセンター', '電話', 'チャット', 'オフィス', '通信環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+mbpjapan_hajimearai_5197571_001,滑走路手前での待機指示,滑走路上での待機許可,指示の復唱・確認を徹底,羽田空港2024年事故。管制官の「滑走路手前で待機せよ」という指示を「滑走路上で待機してよい」と誤認。航空無線のノイズや緊張、権威勾配も影響。,True,mbpjapan_hajimearai_5197571,https://mbp-japan.com/tokyo/hajimearai/column/5197571/,,,日本語,"['航空', '管制', '聞き間違い', 'ヒューマンエラー', '事故', 'コミュニケーション', '権威勾配', 'アサーティブ']","['空港', '航空管制室', 'コックピット', '無線通信', 'ノイズあり', '権威勾配', 'マイク・ヘッドセット使用']"

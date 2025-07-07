@@ -1,0 +1,5 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kaiwa_cloud_article13_001,品番,別の品番,注意が必要,建設業などで電話注文時に品番の聞き間違いが多発。録音導入で大幅に低減。,True,kaiwa_cloud_article13,https://kaiwa.cloud/media/tsuroku_old/article-13/,日本語,"['電話対応', '聞き間違い', '業務効率化', '通話録音', '誤受注', '法人向けサービス', 'クレーム対応']","['電話', 'オフィス', '現場', 'ノイズ', '業務用電話']"
+kaiwa_cloud_article13_002,数量,別の数量,注意が必要,建設業・宅配ピザ等で数量の聞き間違いによる誤受注が多発。録音導入で大幅に低減。,True,kaiwa_cloud_article13,https://kaiwa.cloud/media/tsuroku_old/article-13/,日本語,"['電話対応', '聞き間違い', '業務効率化', '通話録音', '誤受注', '法人向けサービス', 'クレーム対応']","['電話', 'オフィス', '店舗', 'ノイズ', '業務用電話']"
+kaiwa_cloud_article13_003,メニュー名,別のメニュー名,注意が必要,飲食店・宅配ピザでメニュー名の聞き間違いによる誤配達が多発。録音導入で大幅に低減。,True,kaiwa_cloud_article13,https://kaiwa.cloud/media/tsuroku_old/article-13/,日本語,"['電話対応', '聞き間違い', '業務効率化', '通話録音', '誤受注', '法人向けサービス', 'クレーム対応']","['電話', '店舗', 'ノイズ', '業務用電話']"
+kaiwa_cloud_article13_004,サイズ,別のサイズ,注意が必要,宅配ピザ等でサイズの聞き間違いによる誤配達が多発。録音導入で大幅に低減。,True,kaiwa_cloud_article13,https://kaiwa.cloud/media/tsuroku_old/article-13/,日本語,"['電話対応', '聞き間違い', '業務効率化', '通話録音', '誤受注', '法人向けサービス', 'クレーム対応']","['電話', '店舗', 'ノイズ', '業務用電話']"
