@@ -355,6 +355,11 @@ We thank all annotators and contributors to this project.
 ファイル名が.を含んでしまう場合がある。
 勘違い系はSpeakerとListenerが逆になっているかも？
 
+### Google | Konsaru (N=51+64)
+
+- 作成したアプリで収集(`queries = 'コンサル "聞き間違え"'`) -> N=64
+- 作成したアプリで収集(`queries = 'コンサル "聞き間違い"'`) -> N=51
+
 ### Google | Business (N=?)
 
 - IgnoreのURLを指定できるように更新
