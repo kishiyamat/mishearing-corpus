@@ -1,2 +1,2 @@
 MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-sankei_online_20171002_001,Flintoff,Slintoss,電話では必ずスペルを確認すること。頭文字を単語で伝える（例：F for Fox）が有効。,「Flintoff（フリントフ）」さんが電話でFをSと聞き間違えられ“Slintoss”と宛名が届いた実例。,True,sankei_online_20171002,https://human.sankei.co.jp/guide/blog/20171002/,日本語,"['英語', '電話', '聞き間違い', 'アルファベット', 'ビジネス', 'スペルチェック', '非母語話者']","['電話', 'オフィス', '通信環境']"
+sankei_online_20171002_001,Flintoff,Slintoss,電話では必ずスペルを確認すること。頭文字を単語で伝える（例：F for Fox）が有効。,「Flintoff（フリントフ）」さんが電話でFをSと聞き間違えられ“Slintoss”と宛名が届いた実例。,True,sankei_online_20171002,https://human.sankei.co.jp/guide/blog/20171002/,英語,"['英語', '電話', '聞き間違い', 'アルファベット', 'ビジネス', 'スペルチェック']","['電話', 'オフィス', '通信環境']"
