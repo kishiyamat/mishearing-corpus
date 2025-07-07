@@ -232,7 +232,7 @@ def build_history() -> pd.DataFrame:
     return daily.reset_index(names="date")
 
 with progress_tab:
-    st.subheader("Corpus 行数の推移（完全版）")
+    st.subheader("Corpus 行数の推移")
     daily = build_history()
 
     st.line_chart(daily.set_index("date")["rows"], height=300)
