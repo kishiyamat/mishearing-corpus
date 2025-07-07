@@ -1,0 +1,5 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+splan_column1295_001,19日,17日,数字・日付は復唱必須,予約日や注文数量などの数字の聞き間違いでダブルブッキングや過剰発注などのトラブルが発生しやすい。,True,splan_column1295,https://www.splan.jp/column/customer-management/column-1295/,日本語,"['電話対応', '聞き間違い', 'コミュニケーション', '顧客管理', 'クレーム防止', 'OJT', '復唱確認']","['店舗・オフィス', '電話', '通信環境']"
+splan_column1295_002,3個,30個,数量は必ず復唱確認,注文数量の聞き間違いで過剰納品や在庫不足などのトラブルが発生する。,True,splan_column1295,https://www.splan.jp/column/customer-management/column-1295/,日本語,"['電話対応', '聞き間違い', 'コミュニケーション', '顧客管理', 'クレーム防止', 'OJT', '復唱確認']","['店舗・オフィス', '電話', '通信環境']"
+splan_column1295_003,山田,田中,名前・担当者名は復唱必須,顧客名や担当者名の聞き間違いで折り返しや伝言が正しく伝わらず、クレームや信用失墜につながる。,True,splan_column1295,https://www.splan.jp/column/customer-management/column-1295/,日本語,"['電話対応', '聞き間違い', 'コミュニケーション', '顧客管理', 'クレーム防止', 'OJT', '復唱確認']","['店舗・オフィス', '電話', '通信環境']"
+splan_column1295_004,080-xxxx-xxxx,090-xxxx-xxxx,電話番号は必ず復唱確認,電話番号の聞き間違いで折り返しができず、顧客満足度や信頼性が低下する。,True,splan_column1295,https://www.splan.jp/column/customer-management/column-1295/,日本語,"['電話対応', '聞き間違い', 'コミュニケーション', '顧客管理', 'クレーム防止', 'OJT', '復唱確認']","['店舗・オフィス', '電話', '通信環境']"

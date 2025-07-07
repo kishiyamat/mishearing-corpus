@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+clinickaigyo_navi_riskofverbal_001,あの患者のあれ、やっといて,,指示は明確に,(Tgt=NA: 誤った患者や処置の具体語が本文に記載されていない),True,clinickaigyo_navi_riskofverbal,https://clinickaigyo-navi.com/column/risk-of-verbal-instructions/,日本語,"['医療', '看護', 'コミュニケーション', '聞き間違い', '口頭指示', '医療ミス', 'チーム医療', 'リスク管理']","['病院', '病棟', '医療現場', 'チーム制', '電子カルテ/紙カルテ併用', '多忙・緊張状態', '口頭指示']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+shibuyaoffice_consultant_001,,,録音や復唱で確認を徹底しましょう,(Src=NA: 具体的な発話文・数字列が記載されていない)(Tgt=NA: 具体的な誤聴形が記載されていない),True,shibuyaoffice_consultant,https://www.shibuya-office.co.jp/outai/consultant.html,日本語,"['電話対応', 'コールセンター', '聞き間違い', '電話番号', '復唱', '録音', '仕事', 'コミュニケーション']","['電話', 'コールセンター', '通信環境', 'オフィス']"

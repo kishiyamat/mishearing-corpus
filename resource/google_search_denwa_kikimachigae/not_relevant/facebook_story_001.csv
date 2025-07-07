@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+facebook_620013433963439_001,電話番号の一部の数字,別の数字,数字ははっきり確認,パン屋の店員が予約客の電話番号を聞き間違え、連絡できなかった事例。,True,facebook_620013433963439,https://www.facebook.com/story.php?story_fbid=620013433963439&id=100078643624258,日本語,"['パン屋', '電話対応', '聞き間違い', '数字', '予約', 'コミュニケーション']","['店舗', '電話', '通信環境']"

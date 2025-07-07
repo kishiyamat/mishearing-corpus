@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+mamastar_116541_001,リモコン持ってきて,リンゴ持ってきて,忙しいときは一呼吸おいて聞き直すと良い,娘の発話を母親が聞き間違えた事例,True,mamastar_116541,https://select.mamastar.jp/116541,daughter,mother,ja
+mamastar_116541_002,シメサバ食べたい,シマウマ食べたい,食卓での会話はしっかり聞き返すと誤解が減る,夫の発話を妻が聞き間違えた事例,True,mamastar_116541,https://select.mamastar.jp/116541,husband,wife,ja
+mamastar_116541_003,ワイン届いてます,ワニ届いてます,宅配時は周囲の雑音に注意,宅配員の発話を母親が聞き間違えた事例,True,mamastar_116541,https://select.mamastar.jp/116541,delivery_person,mother,ja

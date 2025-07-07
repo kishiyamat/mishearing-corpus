@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+adecco_telemarketing_15_001,1,7,数字の聞き分け注意,「イチ」と「シチ」「ハチ」は電話で混同しやすい,True,adecco_telemarketing_15,https://www.adecco.co.jp/useful/telemarketing_15,,,ja
+adecco_telemarketing_15_002,1,8,数字の聞き分け注意,「イチ」と「ハチ」は電話で混同しやすい,True,adecco_telemarketing_15,https://www.adecco.co.jp/useful/telemarketing_15,,,ja
+adecco_telemarketing_15_003,9,Q,数字とアルファベット,「キュウ」と「キュー」は電話で混同しやすい,True,adecco_telemarketing_15,https://www.adecco.co.jp/useful/telemarketing_15,,,ja

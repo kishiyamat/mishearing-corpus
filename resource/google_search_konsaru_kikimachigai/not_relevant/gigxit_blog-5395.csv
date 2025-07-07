@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+gigxit_blog_5395_001,,,顧客情報を画面表示で確認,(Src=NA: placeholder '会社名や氏名')(Tgt=NA: placeholder '別の会社名や氏名') コールセンターで電話口での会社名や氏名の聞き間違いを防ぐため、CTIで顧客情報をPC画面に表示する仕組みが紹介されている。具体的な誤聴例はないが、聞き間違い防止が主な目的として挙げられている。,True,gigxit_blog_5395,https://gigxit.co.jp/blog/blog-5395/,日本語,"['コールセンター', 'CTI', 'CRM', '電話対応', '顧客情報', '聞き間違い', 'クラウド', '業務効率化', 'ITシステム']","['コールセンター', 'オフィス', '電話', 'ヘッドセット/イヤフォン', 'クラウド環境', '通信環境']"

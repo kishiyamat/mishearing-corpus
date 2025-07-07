@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+philzimmermann_faq_001,フィルが何らかの取り引きをした,どんな取り引きもしていません,誤解に注意,フィル・ジマーマンが「取り引き」をしたという誤解に対し、本人がFAQで否定している。,True,philzimmermann_faq,https://philzimmermann.com/JA/faq/index.html,日本語,"['暗号技術', 'PGP', 'セキュリティ', '誤解', '聞き間違い', 'FAQ', '非母語話者']","['ウェブサイト', 'FAQページ', 'オンライン', 'テキストベース']"

@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+shiono_zei_blog_mistakes_001,M,L,S・M・Lは聞き間違いやすいので、確認時に「真ん中Mサイズ」など具体的に伝えると良い。,ドトールのレジで「Mサイズ」を「Lサイズ」と聞き間違えるケース。発音が似ているため混同しやすい。,True,shiono_zei_blog_mistakes,https://www.shiono-zei-blog.com/mistakes-reduction/,,,ja
+shiono_zei_blog_mistakes_002,L,M,S・M・Lは聞き間違いやすいので、確認時に「大きいLサイズ」など具体的に伝えると良い。,「Lサイズ」を「Mサイズ」と聞き間違えるケースも同様に発生。,True,shiono_zei_blog_mistakes,https://www.shiono-zei-blog.com/mistakes-reduction/,,,ja

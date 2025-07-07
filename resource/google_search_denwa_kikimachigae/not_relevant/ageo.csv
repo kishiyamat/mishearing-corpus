@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ageo_105061_001,,,聞き返し推奨,NO_INCIDENT: no explicit mishearing found (Src=NA: 具体的な発話例なし)(Tgt=NA: 具体的な誤聴形なし),True,ageo_105061,https://www.city.ageo.lg.jp/uploaded/attachment/105061.pdf,日本語,"['聞き間違い', '難聴', '高齢者', '生活支援', '上尾市', '相談案内']","['日常生活', '家庭', '公共の場', '電話', '雑音環境', '高齢者']"

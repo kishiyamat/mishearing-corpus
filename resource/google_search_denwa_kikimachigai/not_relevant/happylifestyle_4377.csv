@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+happylifestyle_4377_001,電話番号,別の番号,復唱で確認しましょう,(Src=NA: placeholder '電話番号')(Tgt=NA: placeholder '別の番号'),True,happylifestyle_4377,https://happylifestyle.com/4377,日本語,"['ビジネスマナー', '電話対応', '聞き間違い', '復唱', 'コミュニケーション', '仕事']","['電話', 'オフィス', 'ビジネスシーン']"
+happylifestyle_4377_002,日時,別の日時,復唱で確認しましょう,(Src=NA: placeholder '日時')(Tgt=NA: placeholder '別の日時'),True,happylifestyle_4377,https://happylifestyle.com/4377,日本語,"['ビジネスマナー', '電話対応', '聞き間違い', '復唱', 'コミュニケーション', '仕事']","['電話', 'オフィス', 'ビジネスシーン']"
+happylifestyle_4377_003,名前,別の名前,復唱で確認しましょう,(Src=NA: placeholder '名前')(Tgt=NA: placeholder '別の名前'),True,happylifestyle_4377,https://happylifestyle.com/4377,日本語,"['ビジネスマナー', '電話対応', '聞き間違い', '復唱', 'コミュニケーション', '仕事']","['電話', 'オフィス', 'ビジネスシーン']"

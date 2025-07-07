@@ -1,0 +1,5 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+cdZ2NvGry5U_001,右に行って,見に行って,ゆっくり・はっきり発音する,ゲーム内AIが音声指示を誤認識し、意図しない行動を取る,True,cdZ2NvGry5U,https://www.youtube.com/watch?v=cdZ2NvGry5U,実況者,AIキャラクター,ja
+cdZ2NvGry5U_002,ジャンプして,しゃがんで,動詞の発音に注意,行動指示が逆に伝わる,True,cdZ2NvGry5U,https://www.youtube.com/watch?v=cdZ2NvGry5U,実況者,AIキャラクター,ja
+cdZ2NvGry5U_003,開けて,投げて,明瞭に発音する,オブジェクト操作の誤認識,True,cdZ2NvGry5U,https://www.youtube.com/watch?v=cdZ2NvGry5U,実況者,AIキャラクター,ja
+cdZ2NvGry5U_004,止まって,回って,指示語の明確化,動作が全く異なる,True,cdZ2NvGry5U,https://www.youtube.com/watch?v=cdZ2NvGry5U,実況者,AIキャラクター,ja

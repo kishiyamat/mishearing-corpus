@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+heiwatokai_caseimmessage_001,住所,別の住所,重要な情報は復唱,電話受付時にお客様の住所を聞き間違え、運転手に誤った伝言をしてしまう事例。,True,heiwatokai_caseimmessage,http://heiwa-tokai.jp/b_phone/case-im-message.html,日本語,"['業務改善', '電話対応', '聞き間違い', '伝言ミス', '通話録音', 'タクシー会社', '予約受付', 'ビジネスホン', '企業導入事例']","['タクシー会社事務所', '電話受付', '通話録音機能付きビジネスホン', '通信環境']"
+heiwatokai_caseimmessage_002,指定時間,別の時間,重要な情報は復唱,電話受付時にお客様の指定時間を聞き間違え、運転手に誤った伝言をしてしまう事例。,True,heiwatokai_caseimmessage,http://heiwa-tokai.jp/b_phone/case-im-message.html,日本語,"['業務改善', '電話対応', '聞き間違い', '伝言ミス', '通話録音', 'タクシー会社', '予約受付', 'ビジネスホン', '企業導入事例']","['タクシー会社事務所', '電話受付', '通話録音機能付きビジネスホン', '通信環境']"

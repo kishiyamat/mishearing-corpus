@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+chatwork_businesschat_180_001,,,口頭より文字で伝えると良い,"NO_INCIDENT: no explicit mishearing found (Src=NA: only general mention of '細かい数字や同音異字' as prone to mishearing, no concrete example) (Tgt=NA: only general mention, no concrete misheard form)",True,chatwork_businesschat_180,https://go.chatwork.com/ja/column/business_chat/business-chat-180.html,日本語,"['ビジネス', 'コミュニケーション', '聞き間違い', 'メール', 'チャット', '報告', '業務効率化', 'Chatwork']","['オフィス', 'テレワーク', '電話', 'ビジネスチャット', 'メール', '会議室', 'ノイズ環境']"

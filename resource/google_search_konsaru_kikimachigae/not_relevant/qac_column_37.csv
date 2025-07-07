@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+qac_sapotopi_37_001,氏名,別の氏名,氏名は復唱確認,顧客の氏名を電話で聞き間違え、誤った情報を記録・伝達してしまうケース。(Src=NA: placeholder '氏名')(Tgt=NA: placeholder '別の氏名'),True,qac_sapotopi_37,https://service.qac.jp/sapo-topi/column/37,日本語,"['コールセンター', 'カスタマーサポート', '電話業務', '聞き間違い', '伝達ミス', '業務効率化']","['コールセンター', 'オフィス', '電話回線']"
+qac_sapotopi_37_002,注文情報,別の注文情報,復唱・確認必須,注文内容を聞き間違え、誤った商品や数量を記録・伝達してしまうケース。(Src=NA: placeholder '注文情報')(Tgt=NA: placeholder '別の注文情報'),True,qac_sapotopi_37,https://service.qac.jp/sapo-topi/column/37,日本語,"['コールセンター', 'カスタマーサポート', '電話業務', '聞き間違い', '伝達ミス', '業務効率化']","['コールセンター', 'オフィス', '電話回線']"
+qac_sapotopi_37_003,配送日/受取日,別の日付,日付は繰り返し確認,配送日や受取日を聞き間違え、誤った日付で案内・手配してしまうケース。(Src=NA: placeholder '配送日/受取日')(Tgt=NA: placeholder '別の日付'),True,qac_sapotopi_37,https://service.qac.jp/sapo-topi/column/37,日本語,"['コールセンター', 'カスタマーサポート', '電話業務', '聞き間違い', '伝達ミス', '業務効率化']","['コールセンター', 'オフィス', '電話回線']"

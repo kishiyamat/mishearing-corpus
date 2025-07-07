@@ -1,0 +1,9 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+ameba_kikimachi_001,ゼット(Z),ジェット,アルファベットの発音に注意,アルファベット復唱時に「Z」を「ジェット」と聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,,,ja
+ameba_kikimachi_002,ちむら,しむら,名前の聞き取りに注意,電話予約で「ちむらしんじ」を「しむらしんじ」と聞き間違え、さらに「ちんじ」と誤認。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,,,ja
+ameba_kikimachi_003,洗濯機,ケンタッキー,発音の違いに注意,作業所で「洗濯機」を「ケンタッキー」と聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,,,ja
+ameba_kikimachi_004,ばさき,馬刺し,子音・母音の聞き分けに注意,子供の「ばさき（バイト先）」を「馬刺し」と聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,子供,,ja
+ameba_kikimachi_005,低電圧駆動,停電は続くよ,専門用語の聞き取りに注意,授業中「低電圧駆動」を「停電は続くよ」と聞き間違えてPCに入力。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,,,ja
+ameba_kikimachi_007,古波蔵（こはぐら）,フォアグラ,カタカナ語の聞き分けに注意,ドラマの登場人物名「古波蔵恵里（こはぐらえり）」を「フォアグラ」と聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,,,ja
+ameba_kikimachi_008,番線の縛り方,男性の縛り方,文脈の確認に注意,YouTubeで「番線の縛り方」を「男性の縛り方」と聞き間違えた。,True,ameba_kikimachi,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,,,ja
+ameba_kikimachi_009,大腿骨骨折,だいたい全部骨折,医療現場注意,医者の「大腿骨骨折」を「だいたい全部骨折」と聞き間違えた。,True,ameba_blogtag_kikimachigae,https://blogtag.ameba.jp/news/%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%88,医者,,ja

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+wovie_eoccupation_71450_001,注文内容,別の注文内容,聞き取れなかった場合は必ず聞き返す、復唱する習慣をつけること,(Src=NA: 具体的な注文内容が本文に記載されていない)(Tgt=NA: 具体的な誤聴内容が本文に記載されていない),True,wovie_eoccupation_71450,https://wovie.me/contents-2/experience/e-occupation/?p=71450,日本語,"['飲食店', 'アルバイト', '聞き間違い', 'コミュニケーション', '接客', '仕事術', 'ミス防止', '高校生', '成長', '自己改善']","['飲食店', '店舗内', '混雑時', 'ノイズ', '接客現場']"

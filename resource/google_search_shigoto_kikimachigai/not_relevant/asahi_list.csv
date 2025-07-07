@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,DocID,URL,Note,OriginalFlag,Language,Tags,Envs
+asahi_kikitori_001,,,asahi_kikitori,https://www.asahi.com/rensai/list.html?id=1996,(Src=NA: 芸能人の名前が具体的に記載されていない)(Tgt=NA: 聞き間違えた芸能人名が具体的に記載されていない),True,日本語,"['医療', '健康', '聞き取り困難症', '聴力', '発達障害', '教育', '仕事', '人間関係', 'コミュニケーション']","['学校', '会議', '日常会話', '静かな環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+diamond_350209_001,,,難聴に注意,NO_INCIDENT: no explicit mishearing found (Src=NA: no explicit phrase in article)(Tgt=NA: no explicit misheard phrase),True,diamond_350209,https://diamond.jp/articles/-/350209,日本語,"['IT・通信', 'AI・テクノロジー', '聞き間違い', '難聴', 'コミュニケーション', '健康']","['オフィス', '会議', '電話', '日常生活', '雑音環境', '通信環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,,,http://www7b.biglobe.ne.jp/~hinosato/hanashi-sogo/eventdata11.html,TECH_FAIL: unable to retrieve content due to decoding error ('utf-8' codec can't decode byte 0x98 in position 252: invalid start byte)

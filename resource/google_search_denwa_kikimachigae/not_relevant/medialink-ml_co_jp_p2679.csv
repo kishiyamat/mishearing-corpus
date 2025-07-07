@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+mediaseries_p2679_001,名前の一部（例：田中の「田」）,,部分的に聞き直すことが重要,(Tgt=NA: 誤聴形が具体語でなく例示のみ),True,mediaseries_p2679,https://mediaseries.medialink-ml.co.jp/mediavoice/column/p2679/,日本語,"['電話対応', 'ビジネスマナー', 'コールセンター', '名前確認', '聞き間違い']","['電話', 'コールセンター', 'オフィス']"
+mediaseries_p2679_002,名前の漢字や読み方,,必ず漢字や読み方を確認すること,(Tgt=NA: 誤聴形が具体語でなく例示のみ),True,mediaseries_p2679,https://mediaseries.medialink-ml.co.jp/mediavoice/column/p2679/,日本語,"['電話対応', 'ビジネスマナー', 'コールセンター', '名前確認', '聞き間違い']","['電話', 'コールセンター', 'オフィス']"
+mediaseries_p2679_003,外国人の名前（例：スペル）,,スペルを確認することが重要,(Tgt=NA: 誤聴形が具体語でなく例示のみ),True,mediaseries_p2679,https://mediaseries.medialink-ml.co.jp/mediavoice/column/p2679/,日本語,"['電話対応', 'ビジネスマナー', 'コールセンター', '名前確認', '聞き間違い', '非母語話者', '外国語対応']","['電話', 'コールセンター', 'オフィス']"

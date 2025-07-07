@@ -1,0 +1,7 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+bewith_gemba_337_001,佐藤（さとう）,加藤（かとう）,サ行の子音を強調し、ゆっくりはっきり伝える,電話で名乗ると高確率で間違われる。逆も同様。,True,bewith_gemba_337,https://www.bewith.net/gemba-driven/article/human/entry-337.html,日本語,"['コールセンター', '電話応対', '聞き間違い', '苗字', '滑舌']","['電話', 'コールセンター', 'オフィス']"
+bewith_gemba_337_002,加藤（かとう）,佐藤（さとう）,カ行・サ行の発音を明瞭に,電話で名乗ると高確率で間違われる。逆も同様。,True,bewith_gemba_337,https://www.bewith.net/gemba-driven/article/human/entry-337.html,日本語,"['コールセンター', '電話応対', '聞き間違い', '苗字', '滑舌']","['電話', 'コールセンター', 'オフィス']"
+bewith_gemba_337_003,お電話ありがとうございます,おでんありがとうございます,語頭をしっかり発声,音声認識AIによる自動テキスト化で発生。,True,bewith_gemba_337,https://www.bewith.net/gemba-driven/article/human/entry-337.html,日本語,"['コールセンター', '電話応対', '聞き間違い', '音声認識', 'AI']","['電話', 'コールセンター', '音声認識AI']"
+bewith_gemba_337_004,お電話ありがとうございます,俺はありがとうございます,語頭をしっかり発声,音声認識AIによる自動テキスト化で発生。,True,bewith_gemba_337,https://www.bewith.net/gemba-driven/article/human/entry-337.html,日本語,"['コールセンター', '電話応対', '聞き間違い', '音声認識', 'AI']","['電話', 'コールセンター', '音声認識AI']"
+bewith_gemba_337_005,ビーウィズ,ビーカー／ビーズ／ビール,例えや分解説明を工夫,会社名の伝達時に誤認されやすい。,True,bewith_gemba_337,https://www.bewith.net/gemba-driven/article/human/entry-337.html,日本語,"['コールセンター', '電話応対', '聞き間違い', 'カタカナ', '会社名']","['電話', 'コールセンター', 'オフィス']"
+bewith_gemba_337_006,ドュ／ヴァ（建物名の一部）,,カタカナ部分を分解して説明,カタカナの建物名が伝わりにくい。(Tgt=NA: 正しい誤聴形が明示されていない),True,bewith_gemba_337,https://www.bewith.net/gemba-driven/article/human/entry-337.html,日本語,"['コールセンター', '電話応対', '聞き間違い', 'カタカナ', '建物名']","['電話', 'コールセンター', 'オフィス']"

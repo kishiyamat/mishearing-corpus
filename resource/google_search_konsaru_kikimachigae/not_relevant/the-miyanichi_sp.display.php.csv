@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+the_miyanichi_c63339r3_001,,,口頭確認を減らす工夫,(Src=NA: 具体的な発話例なし)(Tgt=NA: 具体的な誤聴例なし) レジでの「支払い方法」「ポイントカード有無」「レジ袋の有無」などの口頭確認で聞き間違い・伝え間違いが発生しやすい。UWB/BLEとアプリで自動化し、トラブル防止を目指す。,True,the_miyanichi_c63339r3,https://www.the-miyanichi.co.jp/special/prtimes/sp/display.php?fileName=c63339_r3,日本語,"['キャッシュレス決済', '店舗オペレーション', '聞き間違い', 'コミュニケーション', '多言語対応', 'デジタル化', '小売', '非母語話者']","['店舗（レジカウンター）', '混雑時', '多言語環境', 'ノイズあり（店内BGM、他の客の声）', '店員・顧客間の口頭コミュニケーション', 'スマートフォン/タブレット利用']"

@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+jimu_cho_hospitality_202303_001,タキソール,タキソテール,薬品名は明確に伝える,抗がん剤の薬品名の聞き間違いで死亡事故が発生した事例。,True,jimu_cho_hospitality_202303,https://jimu-cho.net/hospitality-202303,,,ja
+jimu_cho_hospitality_202303_002,1単位,1筒,単位は必ず復唱する,インスリンの「1単位」と「1筒」を聞き間違え、低血糖発作・意識障害が発生した事例。,True,jimu_cho_hospitality_202303,https://jimu-cho.net/hospitality-202303,,,ja

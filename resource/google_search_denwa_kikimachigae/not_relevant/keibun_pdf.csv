@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,,,https://www.keibun.co.jp/education/manners/pdf/2016/10.pdf,TECH_FAIL: unable to retrieve content due to encoding error ('utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte)

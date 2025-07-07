@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+hrcj_24058_001,注文内容,別の注文内容,注文復唱推奨,飲食店ホールスタッフのオーダーミス（注文の聞き間違い）が評価項目として明記されている。,True,hrcj_24058,https://www.hrc-j.com/column/24058/,日本語,"['飲食業', '人事評価', 'オーダーミス', '聞き間違い']","['店舗', '飲食店', 'ホール']"

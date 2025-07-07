@@ -1,0 +1,5 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+sotogofun_23065_001,1時,7時,「ななじ」と明確に発音する,電話予約時、1時と7時の聞き間違いが多発。,True,sotogofun_23065,https://sotogofun.club/service/23065/,,,ja
+sotogofun_23065_002,1名様,7名様,明確に人数を伝える,人数の聞き間違いが発生しやすい。,True,sotogofun_23065,https://sotogofun.club/service/23065/,,,ja
+sotogofun_23065_003,コース名のみ,コース内容,コース内容も復唱する,コース名だけでなく内容も確認しないと誤解が生じる。,True,sotogofun_23065,https://sotogofun.club/service/23065/,,,ja
+sotogofun_23065_004,大人と子供の人数をまとめて伝える,大人と子供の人数を分けて伝える,内訳を明確に伝える,大人と子供の人数を分けて確認しないと誤解が生じる。,True,sotogofun_23065,https://sotogofun.club/service/23065/,,,ja
