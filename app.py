@@ -181,52 +181,59 @@ with stats_tab:
     st.subheader("合計")
     st.metric(label="総件数", value=total)
 
-def show_history():
-    st.subheader("Corpus 行数の推移（Git 履歴から自動取得）")
+
+@st.cache_data(show_spinner="Git 履歴を解析中 …")
+def build_history() -> pd.DataFrame:
     repo = git.Repo(pathlib.Path(__file__).resolve().parent)
     records = []
 
+    # mishearing に変更があったコミットを走査
     for c in repo.iter_commits(paths="data/mishearing"):
-        ts = datetime.fromtimestamp(c.committed_date, tz=timezone.utc).isoformat()
-        total = 0
+        ts = datetime.fromtimestamp(c.committed_date, tz=timezone.utc)
+        env_files, tag_files, mis_blobs = set(), set(), []
+
+        # ツリーを一度だけ走査して 3 種のファイルを収集
         for b in c.tree.traverse():
             p = b.path
-            if p.startswith("data/mishearing/") and p.endswith(".csv"):
-                rows = b.data_stream.read().decode("utf-8", "ignore").splitlines()
-                total += max(len(rows) - 1, 0)      # ヘッダーを除外
-        records.append({
-            "commit": c.hexsha,
-            "timestamp": ts,
-            "rows": total
-        })
+            if p.endswith(".csv"):
+                name = pathlib.Path(p).name  # ファイル名のみ
+                if p.startswith("data/environment/"):
+                    env_files.add(name)
+                elif p.startswith("data/tag/"):
+                    tag_files.add(name)
+                elif p.startswith("data/mishearing/"):
+                    mis_blobs.append((name, b))  # 後で読むので blob も保持
 
-    df = pd.DataFrame(records)
+        # 同名 CSV が三箇所すべてにある場合(データを適切に追加していenv, tagを生成した場合)だけカウント
+        total = 0
+        for name, blob in mis_blobs:
+            if name in env_files and name in tag_files:
+                rows = blob.data_stream.read().decode("utf-8", "ignore").splitlines()
+                total += max(len(rows) - 1, 0)  # ヘッダー 1 行を除外
 
-    # ① タイムスタンプを日付（00:00 UTC）に丸める
-    df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True, errors="coerce")
+        if total:  # 行数 0 は除外
+            records.append({"commit": c.hexsha[:7], "timestamp": ts, "rows": total})
+
+    # DataFrame 化と日付補完
+    df = pd.DataFrame(records).sort_values("timestamp")
     df["date"] = df["timestamp"].dt.normalize()
 
-    # ② 同一日の中で最後（= 行数が最新）のレコードを残す
     daily = (
-        df.sort_values("timestamp")
-        .groupby("date", as_index=False)
-        .last()                     # 最後の commit が残る
-        .set_index("date")
+        df.groupby("date", as_index=False)
+          .last()                                # 同日の最新コミットを採用
+          .set_index("date")
     )
 
-    # ③ 欠損日のインデックスを補完
-    full_idx = pd.date_range(
-        start=daily.index.min(),
-        end=daily.index.max(),
-        freq="D",
-        tz="UTC"
+    full_idx = pd.date_range(daily.index.min(), daily.index.max(), freq="D", tz="UTC")
+    daily = (
+        daily.reindex(full_idx)
+             .ffill()                            # 前回値で埋める
     )
-    daily = daily.reindex(full_idx)
-
-    # ④ rows と commit を前方埋め
-    daily["rows"] = daily["rows"].ffill()
-    # ⑤ Streamlit で利用
-    st.line_chart(daily["rows"])
+    return daily.reset_index(names="date")
 
 with progress_tab:
-    show_history()
+    st.subheader("Corpus 行数の推移（完全版）")
+    daily = build_history()
+
+    st.line_chart(daily.set_index("date")["rows"], height=300)
+    st.dataframe(daily, height=250, hide_index=True)
