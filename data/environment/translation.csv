@@ -1281,3 +1281,159 @@ PATIENT_STAFF_CONVERSATION,ja,患者とスタッフの会話
 PATIENT_STAFF_CONVERSATION,en,patient-staff conversation
 MEDICAL_CARE_REHABILITATION_WORKPLACE,ja,医療ケアリハビリ職場
 MEDICAL_CARE_REHABILITATION_WORKPLACE,en,medical care rehabilitation workplace
+FAST_SPEECH,ja,早口
+FAST_SPEECH,en,fast speech
+WIRELESS_COMMUNICATION,ja,無線通信
+WIRELESS_COMMUNICATION,en,wireless communication
+INTERPRETATION_SITE,ja,通訳現場
+INTERPRETATION_SITE,en,interpretation site
+FAST_SPEECH_NOISY,ja,早口で騒がしい
+FAST_SPEECH_NOISY,en,fast speech noisy
+RESUTORAN,ja,レストラン
+RESUTORAN,en,restaurant
+MASK_CHAKUYO,ja,マスク着用
+MASK_CHAKUYO,en,mask wearing
+PHARMACY_RECEPTION,ja,薬局受付
+PHARMACY_RECEPTION,en,pharmacy reception
+DRIVE,ja,運転
+DRIVE,en,drive
+BETWEEN_SPOUSES,ja,夫婦間
+BETWEEN_SPOUSES,en,between spouses
+RECEIPT,ja,領収書
+RECEIPT,en,receipt
+ENGLISH_LEARNING_CLASSROOM,ja,英語学習教室
+ENGLISH_LEARNING_CLASSROOM,en,English learning classroom
+HEALTH_CHECKUP,ja,健康診断
+HEALTH_CHECKUP,en,health checkup
+CLERICAL_WORK,ja,事務作業
+CLERICAL_WORK,en,clerical work
+PHARMACY,ja,薬局
+PHARMACY,en,pharmacy
+NON_NATIVE_SPEAKER_CONVERSATION,ja,非ネイティブ話者の会話
+NON_NATIVE_SPEAKER_CONVERSATION,en,non-native speaker conversation
+MEDICAL_WELFARE_FACILITY,ja,医療福祉施設
+MEDICAL_WELFARE_FACILITY,en,medical welfare facility
+BUSINESS_PHONE,ja,ビジネス電話
+BUSINESS_PHONE,en,business phone
+CHUUMON_COUNTER,ja,注文カウンター
+CHUUMON_COUNTER,en,order counter
+INDOOR,ja,室内
+INDOOR,en,indoor
+TELEWORK,ja,テレワーク
+TELEWORK,en,telework
+ACCENT,ja,アクセント
+ACCENT,en,accent
+NICHIJOKAIWA,ja,日常会話
+NICHIJOKAIWA,en,daily conversation
+PHARMACY_COUNTER,ja,薬局カウンター
+PHARMACY_COUNTER,en,pharmacy counter
+YOUNG_PEOPLE_CONVERSATION,ja,若者の会話
+YOUNG_PEOPLE_CONVERSATION,en,conversation with young people
+FACE_TO_FACE_ORDER,ja,対面注文
+FACE_TO_FACE_ORDER,en,face-to-face order
+PUBLIC_PLACE,ja,公共の場所
+PUBLIC_PLACE,en,public place
+STORE_BACKYARD,ja,店舗裏
+STORE_BACKYARD,en,store backyard
+ON_DUTY,ja,勤務中
+ON_DUTY,en,on duty
+KOREISHASHA,ja,高齢者車
+KOREISHASHA,en,elderly vehicle
+IT_WORKPLACE,ja,IT職場
+IT_WORKPLACE,en,IT workplace
+AI_PHONE,ja,AI電話
+AI_PHONE,en,AI phone
+YUJIN,ja,友人
+YUJIN,en,friend
+MASK,ja,マスク
+MASK,en,mask
+WIRELESS_PHONE,ja,無線電話
+WIRELESS_PHONE,en,wireless phone
+IN_STORE_BROADCAST,ja,店内放送
+IN_STORE_BROADCAST,en,in-store broadcast
+KAIGAI_BUSINESS,ja,海外ビジネス
+KAIGAI_BUSINESS,en,overseas business
+FACE_TO_FACE_MEETING,ja,対面会議
+FACE_TO_FACE_MEETING,en,face-to-face meeting
+IP_PHONE,ja,IP電話
+IP_PHONE,en,IP phone
+HEARING_CHARACTERISTICS_DIFFERENCE,ja,聴覚特性の違い
+HEARING_CHARACTERISTICS_DIFFERENCE,en,hearing characteristics difference
+REFRIGERATOR,ja,冷蔵庫
+REFRIGERATOR,en,refrigerator
+NARROW_BANDWIDTH,ja,狭帯域
+NARROW_BANDWIDTH,en,narrow bandwidth
+NUMBER_TRANSMISSION,ja,番号送信
+NUMBER_TRANSMISSION,en,number transmission
+HOSPITAL_CLINIC,ja,病院・診療所
+HOSPITAL_CLINIC,en,hospital/clinic
+PHONE_LINE,ja,電話回線
+PHONE_LINE,en,phone line
+ONLINE_MEETING,ja,オンライン会議
+ONLINE_MEETING,en,online meeting
+NEWCOMER_UNFAMILIAR_WORKPLACE,ja,新人の慣れない職場
+NEWCOMER_UNFAMILIAR_WORKPLACE,en,newcomer unfamiliar workplace
+POSTAL_CODE_READING,ja,郵便番号読み取り
+POSTAL_CODE_READING,en,postal code reading
+SHOKUJI,ja,食事
+SHOKUJI,en,meal
+RESERVATION_ACCEPTANCE,ja,予約受付
+RESERVATION_ACCEPTANCE,en,reservation acceptance
+TAIKUKAN,ja,体育館
+TAIKUKAN,en,gymnasium
+MATERIAL_ORDER,ja,材料注文
+MATERIAL_ORDER,en,material order
+BUS,ja,バス
+BUS,en,bus
+REAL_ESTATE_INDUSTRY,ja,不動産業
+REAL_ESTATE_INDUSTRY,en,real estate industry
+DENSHA,ja,電車
+DENSHA,en,train
+SUMMER,ja,夏
+SUMMER,en,summer
+HANDSET_LEFT_EAR_RIGHT_EAR,ja,左耳右耳の受話器
+HANDSET_LEFT_EAR_RIGHT_EAR,en,handset left ear right ear
+KUCHIMOTO_GA_MIENAI_JOKYO,ja,口元が見えない状況
+KUCHIMOTO_GA_MIENAI_JOKYO,en,situation where mouth is not visible
+CUSTOMER,ja,顧客
+CUSTOMER,en,customer
+TRAVEL,ja,旅行
+TRAVEL,en,travel
+KOUKYOU_SHISSEKI,ja,公共施設
+KOUKYOU_SHISSEKI,en,public facility
+ELDERLY_HEARING_IMPAIRED,ja,高齢者難聴
+ELDERLY_HEARING_IMPAIRED,en,elderly hearing impaired
+QUIET_INDOOR_ESTIMATED,ja,静かな室内と推定
+QUIET_INDOOR_ESTIMATED,en,quiet indoor estimated
+POSSIBILITY_OF_NOISE,ja,ノイズの可能性
+POSSIBILITY_OF_NOISE,en,possibility of noise
+MILITARY,ja,軍隊
+MILITARY,en,military
+GATTOU,ja,合頭
+GATTOU,en,head-to-head
+ZATSUON_ARI,ja,雑音あり
+ZATSUON_ARI,en,noise present
+NEW_STAFF,ja,新しいスタッフ
+NEW_STAFF,en,new staff
+BEAUTY_SALON,ja,美容院
+BEAUTY_SALON,en,beauty salon
+STUDENT_SECTION,ja,学生部門
+STUDENT_SECTION,en,student section
+CONVERSATION_WITH_BOSS,ja,上司との会話
+CONVERSATION_WITH_BOSS,en,conversation with boss
+ONGAKU,ja,音楽
+ONGAKU,en,music
+JAPANESE_LEARNING_ENVIRONMENT,ja,日本語学習環境
+JAPANESE_LEARNING_ENVIRONMENT,en,Japanese learning environment
+SHANAI_HOUSOU,ja,車内放送
+SHANAI_HOUSOU,en,in-train broadcast
+KAIWA,ja,会話
+KAIWA,en,conversation
+WIRELESS,ja,無線
+WIRELESS,en,wireless
+SHIKA_IIN,ja,歯科医院
+SHIKA_IIN,en,dental clinic
+ANIME,ja,アニメ
+ANIME,en,anime
+MOVIE,ja,映画
+MOVIE,en,movie
