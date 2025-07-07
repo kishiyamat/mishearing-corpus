@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nttcom_aitelephone_32_001,顧客の名前,別の名前,必ず復唱すること,電話の取り次ぎ時、顧客の名前を聞き間違えるリスク。復唱で確認・訂正が可能。,True,nttcom_aitelephone_32,https://www.ntt.com/business/services/aitelephone/lp/column-32.html,日本語,"['ビジネスマナー', '電話対応', 'コールセンター', '聞き間違い', '復唱', 'メモ', '業務効率化', 'AI電話']","['オフィス', 'コールセンター', '固定電話', '通信環境']"
+nttcom_aitelephone_32_002,要件,別の要件,必ず復唱すること,電話の取り次ぎ時、要件を聞き間違えるリスク。復唱で確認・訂正が可能。,True,nttcom_aitelephone_32,https://www.ntt.com/business/services/aitelephone/lp/column-32.html,日本語,"['ビジネスマナー', '電話対応', 'コールセンター', '聞き間違い', '復唱', 'メモ', '業務効率化', 'AI電話']","['オフィス', 'コールセンター', '固定電話', '通信環境']"
+nttcom_aitelephone_32_003,会社名,別の会社名,必ず復唱すること,電話の取り次ぎ時、会社名を聞き間違えるリスク。復唱で確認・訂正が可能。,True,nttcom_aitelephone_32,https://www.ntt.com/business/services/aitelephone/lp/column-32.html,日本語,"['ビジネスマナー', '電話対応', 'コールセンター', '聞き間違い', '復唱', 'メモ', '業務効率化', 'AI電話']","['オフィス', 'コールセンター', '固定電話', '通信環境']"

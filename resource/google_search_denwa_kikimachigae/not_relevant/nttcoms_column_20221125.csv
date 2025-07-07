@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,DocID,URL,Note,OriginalFlag,Language,Tags,Envs
+nttcoms_20221125_001,社名や氏名を聞き間違える,,nttcoms_20221125,https://www.nttcoms.com/service/mobileweb/column/20221125/,(Tgt=NA: placeholder '別の社名や氏名'),True,日本語,"['電話業務', 'コールセンター', '聞き間違い', '伝達ミス', '業務効率化', '顧客対応', 'ビジネス', 'テレワーク', 'ITツール']","['オフィス', 'コールセンター', '電話回線', '通信環境', 'テレワーク環境']"
+nttcoms_20221125_002,話の内容を理解しきれず担当者に十分に伝達できない,,nttcoms_20221125,https://www.nttcoms.com/service/mobileweb/column/20221125/,(Tgt=NA: placeholder '不十分な伝達内容'),True,日本語,"['電話業務', 'コールセンター', '聞き間違い', '伝達ミス', '業務効率化', '顧客対応', 'ビジネス', 'テレワーク', 'ITツール']","['オフィス', 'コールセンター', '電話回線', '通信環境', 'テレワーク環境']"

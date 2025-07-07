@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+mediaseries_p3135_001,,,数字は区切って復唱,(Src=NA: placeholder '電話番号')(Tgt=NA: placeholder '別の番号'),True,mediaseries_p3135,https://mediaseries.medialink-ml.co.jp/mediavoice/column/p3135/,日本語,"['コールセンター', '電話対応', '復唱確認', 'ビジネスコミュニケーション', '聞き間違い', 'IVR', '顧客対応', '業務効率化']","['電話', 'コールセンター', 'オフィス', '通信環境']"
+mediaseries_p3135_002,,,ゆっくりはっきり復唱,(Src=NA: placeholder '名前')(Tgt=NA: placeholder '別の名前'),True,mediaseries_p3135,https://mediaseries.medialink-ml.co.jp/mediavoice/column/p3135/,日本語,"['コールセンター', '電話対応', '復唱確認', 'ビジネスコミュニケーション', '聞き間違い', 'IVR', '顧客対応', '業務効率化']","['電話', 'コールセンター', 'オフィス', '通信環境']"
+mediaseries_p3135_003,,,具体的に復唱,(Src=NA: placeholder '日付・数量')(Tgt=NA: placeholder '別の日付等'),True,mediaseries_p3135,https://mediaseries.medialink-ml.co.jp/mediavoice/column/p3135/,日本語,"['コールセンター', '電話対応', '復唱確認', 'ビジネスコミュニケーション', '聞き間違い', 'IVR', '顧客対応', '業務効率化']","['電話', 'コールセンター', 'オフィス', '通信環境']"

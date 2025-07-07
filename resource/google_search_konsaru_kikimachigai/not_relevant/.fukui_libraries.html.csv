@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+fukui_lib_368_001,離婚訴訟,離婚訴状,法律用語の発音に注意,「離婚訴訟」を「離婚訴状」と聞き間違える例。法律用語の類似性が原因。,True,fukui_lib_368,http://www.library-archives.pref.fukui.lg.jp/tosyo/category/shiraberu/368.html,日本語,"['法律', '離婚', '訴訟', '聞き間違い', '日本語', '非母語話者']","['図書館', '法律相談', '受付カウンター', '静かな環境']"
+fukui_lib_368_002,離婚訴訟,離婚訴求,法律用語の発音に注意,「離婚訴訟」を「離婚訴求」と聞き間違える例。法律用語の類似性が原因。,True,fukui_lib_368,http://www.library-archives.pref.fukui.lg.jp/tosyo/category/shiraberu/368.html,日本語,"['法律', '離婚', '訴訟', '聞き間違い', '日本語', '非母語話者']","['図書館', '法律相談', '受付カウンター', '静かな環境']"

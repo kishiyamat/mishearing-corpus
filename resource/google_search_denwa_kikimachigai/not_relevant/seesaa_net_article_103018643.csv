@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+businessrule00_001,社名・名前,別の社名・名前,必ず復唱・言い換え・メモを取る,電話で社名や名前が聞き取りにくい場合、確認や復唱を怠ると聞き間違いが発生しやすい。,True,businessrule00_103018643,http://business-rule00.seesaa.net/article/103018643.html,日本語,"['ビジネスマナー', '電話応対', '聞き間違い', '新社会人', '社名', '名前', 'アルファベット']","['オフィス', '電話', '通信環境']"
+businessrule00_002,M（エム）,N（エヌ）など,アルファベットは「マザーのM」など説明を添える,アルファベットの社名や略称は特に聞き間違いが多いため、説明を添えて確認することが推奨される。,True,businessrule00_103018643,http://business-rule00.seesaa.net/article/103018643.html,日本語,"['ビジネスマナー', '電話応対', '聞き間違い', '新社会人', '社名', '名前', 'アルファベット']","['オフィス', '電話', '通信環境']"

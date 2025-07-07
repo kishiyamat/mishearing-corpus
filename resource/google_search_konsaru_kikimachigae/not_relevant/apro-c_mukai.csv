@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+aproccredo3mukai_001,注文内容,別の注文内容,注文復唱・確認推奨,カフェで注文を聞き間違えてしまうことがある。具体的なフレーズは記事内に明記なし。(Src=NA: placeholder '注文内容')(Tgt=NA: placeholder '別の注文内容'),True,aproccredo3mukai,https://apro-c.co.jp/credo-3-mukai/,日本語,"['サービス', '飲食店', 'カフェ', '顧客対応', '聞き間違い', 'クレーム対応', '心配り', 'リーダーシップ', '体験談']","['カフェ', '飲食店', '店舗', '接客現場', '日常会話']"
+aproccredo3mukai_002,辛くないカレー,辛いカレー,辛さの確認推奨,辛いものが苦手な客に辛い唐辛子入りのカレーを提供してしまった。,True,aproccredo3mukai,https://apro-c.co.jp/credo-3-mukai/,日本語,"['サービス', '飲食店', 'カフェ', '顧客対応', '聞き間違い', 'クレーム対応', '心配り', 'リーダーシップ', '体験談']","['カフェ', '飲食店', '店舗', '接客現場', '日常会話']"

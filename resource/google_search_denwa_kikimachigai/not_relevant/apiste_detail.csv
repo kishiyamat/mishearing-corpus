@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+apiste_4349_001,,,社名から復唱する,(Src=NA: placeholder '会社名A')(Tgt=NA: placeholder '会社名B'),True,apiste_4349,https://www.apiste.co.jp/column/detail/id=4349,日本語,"['ビジネスマナー', '電話対応', '聞き間違い', 'メモ', 'コミュニケーション', '伝言', '会社名']","['オフィス', '電話', '通信環境']"
+apiste_4349_002,,,担当者名も復唱する,(Src=NA: placeholder '担当者名A')(Tgt=NA: placeholder '担当者名B'),True,apiste_4349,https://www.apiste.co.jp/column/detail/id=4349,日本語,"['ビジネスマナー', '電話対応', '聞き間違い', 'メモ', 'コミュニケーション', '伝言', '担当者名']","['オフィス', '電話', '通信環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+youtube_vqvrCeLhLWg_001,,,酷すぎる聞き間違いが複数描かれているが、具体的な内容は動画本文から取得できず。,(Src=NA: 動画本文から具体的な発話が取得できない)(Tgt=NA: 動画本文から具体的な誤聴形が取得できない),True,youtube_vqvrCeLhLWg,https://www.youtube.com/shorts/vqvrCeLhLWg,日本語,"['アニメ', 'ヒューマンバグ大学', '聞き間違い', 'コミュニケーション', '仕事', '日常', '漫画', 'YouTube']","['アニメ動画', 'YouTube', '日常生活', '仕事場']"

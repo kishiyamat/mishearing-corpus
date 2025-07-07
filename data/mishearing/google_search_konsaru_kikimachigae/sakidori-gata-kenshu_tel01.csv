@@ -1,0 +1,9 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+sakidori_tel01_001,１,７,数字は明確に伝える,「１」と「７」は発音が似ており、電話での聞き間違いが多い。午後１時→１３時、７月→なながつ等で防止。,True,sakidori_tel01,http://sakidori-gata-kenshu.com/tel01/,,,ja
+sakidori_tel01_002,４日,８日,曜日まで伝える,「４日」と「８日」は聞き間違いやすい。曜日まで伝えることで防止。,True,sakidori_tel01,http://sakidori-gata-kenshu.com/tel01/,,,ja
+sakidori_tel01_003,日比谷,渋谷,ゆっくり、はっきり伝える,地名の聞き間違い。ゆっくり、はっきり伝えることで防止。,True,sakidori_tel01,http://sakidori-gata-kenshu.com/tel01/,,,ja
+sakidori_tel01_004,保険,保健,漢字まで伝える,同音異義語の聞き間違い。漢字まで伝えることで防止。,True,sakidori_tel01,http://sakidori-gata-kenshu.com/tel01/,,,ja
+sakidori_tel01_005,終了,修了,漢字まで伝える,同音異義語の聞き間違い。漢字まで伝えることで防止。,True,sakidori_tel01,http://sakidori-gata-kenshu.com/tel01/,,,ja
+sakidori_tel01_006,市立,私立,漢字まで伝える,同音異義語の聞き間違い。漢字まで伝えることで防止。,True,sakidori_tel01,http://sakidori-gata-kenshu.com/tel01/,,,ja
+sakidori_tel01_007,操業,創業,漢字まで伝える,同音異義語の聞き間違い。漢字まで伝えることで防止。,True,sakidori_tel01,http://sakidori-gata-kenshu.com/tel01/,,,ja
+sakidori_tel01_008,退社（帰宅）,退社（退職）,状況を明確に伝える,「退社」は「帰宅」と「退職」の両方の意味があり、誤解を生む。文脈で明確に伝える必要あり。,True,sakidori_tel01,http://sakidori-gata-kenshu.com/tel01/,,,ja

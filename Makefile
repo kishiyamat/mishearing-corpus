@@ -15,3 +15,13 @@ clean:
 
 build-datapackage:
 	python scripts/build_datapackage.py
+
+friction:
+	frictionless validate datapackage.json
+
+test:
+	pytest
+# test
+# lint
+# mypy
+# autopep8

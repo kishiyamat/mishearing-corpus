@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+otsuka_case13_001,,,名前は復唱確認,(Src=NA: placeholder '顧客名')(Tgt=NA: placeholder '別の名前')電話で顧客名や社員名の聞き間違いが多発。具体例は記載なし。,True,otsuka_case13,https://www.otsuka-shokai.co.jp/erpnavi/problem-solution/sales/case-13/,日本語,"['電話対応', 'コールセンター', '業務効率化', '顧客対応', '聞き間違い', 'ITソリューション', '企業業務']","['オフィス', '電話', '通信環境', 'ビジネスフォン']"

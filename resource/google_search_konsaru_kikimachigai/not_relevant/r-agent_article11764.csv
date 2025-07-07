@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ragent_article11764_001,,,メモで確認し復唱すること,(Src=NA: placeholder '部署名・担当者名')(Tgt=NA: placeholder '別の部署名・担当者名'),True,ragent_article11764,https://www.r-agent.com/guide/article11764/,日本語,"['転職', '電話対応', 'ビジネスマナー', '聞き間違い', 'コミュニケーション', '面接', '企業連絡', '日本語']","['オフィス', '自宅', '電話', '静かな場所', '雑音少', '電波良']"
+ragent_article11764_002,,,必ず復唱・メモを取ること,(Src=NA: placeholder '日程・時間')(Tgt=NA: placeholder '別の日程・時間'),True,ragent_article11764,https://www.r-agent.com/guide/article11764/,日本語,"['転職', '電話対応', 'ビジネスマナー', '聞き間違い', 'コミュニケーション', '面接', '企業連絡', '日本語']","['オフィス', '自宅', '電話', '静かな場所', '雑音少', '電波良']"
+ragent_article11764_003,,,状況を伝え再度確認・復唱を依頼すること,(Src=NA: placeholder '声が聞き取りにくい')(Tgt=NA: placeholder '別の内容に誤認'),True,ragent_article11764,https://www.r-agent.com/guide/article11764/,日本語,"['転職', '電話対応', 'ビジネスマナー', '聞き間違い', 'コミュニケーション', '面接', '企業連絡', '日本語']","['オフィス', '自宅', '電話', '静かな場所', '雑音少', '電波良']"

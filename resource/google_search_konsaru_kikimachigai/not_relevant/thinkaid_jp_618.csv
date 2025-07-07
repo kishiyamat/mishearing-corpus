@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+thinkaid_618_001,バカ,,子どもの発話は注意して聞くこと,(Tgt=NA: 聞き間違いかと思ったが実際は『バカ』だったため、誤聴形が具体的に存在しない),True,thinkaid_618,https://thinkaid.jp/?p=618,日本語,"['子育て', '家庭', '言葉の教育', '聞き間違い', 'クリティカルシンキング', 'Why-Whys', '日本語', '幼児']","['家庭', '日常会話', '幼児']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,,,http://www.tcp-ip.or.jp/~tengjing/hanyu/step3/step3-101.html,TECH_FAIL: unable to retrieve content due to decoding error ('utf-8' codec can't decode byte 0x93 in position 21: invalid start byte)

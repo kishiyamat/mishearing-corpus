@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+iroha_corecon_001,ドット（.）,"カンマ（,）",記号の違いを明確に伝えること,"メールアドレスの記号部分で「.」と「,」を聞き間違えると、正しく届かない・登録できない。",True,iroha_corecon_post12121,https://iroha.corecon.co.jp/post-12121/,日本語,"['メールアドレス', '聞き間違い', '入力ミス', 'ITリテラシー', 'スマホ', '非母語話者']","['電話', '対面', 'オンライン']"
+iroha_corecon_002,ハイフン（-）,アンダーバー（_）,記号の違いを明確に伝えること,メールアドレスの記号部分で「-」と「_」を聞き間違えると、正しく届かない・登録できない。,True,iroha_corecon_post12121,https://iroha.corecon.co.jp/post-12121/,日本語,"['メールアドレス', '聞き間違い', '入力ミス', 'ITリテラシー', 'スマホ', '非母語話者']","['電話', '対面', 'オンライン']"

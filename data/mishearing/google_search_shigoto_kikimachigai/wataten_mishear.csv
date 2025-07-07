@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+wataten_mishear_001,1（いち）,7（しち）,1は「ひと」、7は「なな」と言うと良い,電話や口頭で「いち」と「しち」は非常に聞き間違えやすい。ビジネス現場でのトラブル例多数。,True,wataten_mishear,https://wataten.com/mishear/,,,ja
+wataten_mishear_002,4（し）,7（しち）,4は「よん」と言うと良い,「し」と「しち」も聞き間違いやすい。特に電話や会話で注意が必要。,True,wataten_mishear,https://wataten.com/mishear/,,,ja
+wataten_mishear_003,1時（いちじ）,7時（しちじ）,13時など24時間表記を併用すると良い,午後1時と午後7時の聞き間違いを防ぐため、13時・19時などの表現を併用するのが有効。,True,wataten_mishear,https://wataten.com/mishear/,,,ja

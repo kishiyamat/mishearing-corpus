@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tsuuwahyou_wikipedia_001,S,F,無線電話など雑音環境ではSとFの聞き間違いが多いため、通話表が制定された。,通話表制定の背景としてSとFの聞き間違いが多発したため。,True,tsuuwahyou_wikipedia,https://ja.wikipedia.org/wiki/%E9%80%9A%E8%A9%B1%E8%A1%A8,日本語,"['通信', '無線', 'フォネティックコード', '聞き間違い', 'アルファベット', '雑音', '通話表']","['無線電話', '雑音環境', '帯域の狭い通信']"
+tsuuwahyou_wikipedia_002,M,N,MとNも無線通信で聞き間違えやすい組み合わせ。,通話表制定の背景としてMとNの聞き間違いが多発したため。,True,tsuuwahyou_wikipedia,https://ja.wikipedia.org/wiki/%E9%80%9A%E8%A9%B1%E8%A1%A8,日本語,"['通信', '無線', 'フォネティックコード', '聞き間違い', 'アルファベット', '雑音', '通話表']","['無線電話', '雑音環境', '帯域の狭い通信']"
+tsuuwahyou_wikipedia_003,C,E,CとEも発音が似ており、通話表で区別される。,通話表制定の背景としてCとEの聞き間違いが多発したため。,True,tsuuwahyou_wikipedia,https://ja.wikipedia.org/wiki/%E9%80%9A%E8%A9%B1%E8%A1%A8,日本語,"['通信', '無線', 'フォネティックコード', '聞き間違い', 'アルファベット', '雑音', '通話表']","['無線電話', '雑音環境', '帯域の狭い通信']"

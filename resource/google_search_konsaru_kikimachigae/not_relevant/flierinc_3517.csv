@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+flierinc_3517_001,番号の読み上げ,番号の聞き間違い,ダブルチェックの形骸化に注意,FAX送信時、1人が番号を読み上げ、もう1人が押すダブルチェックでも聞き間違い・言い間違いが発生し、送信ミスにつながった。,True,flierinc_3517,https://www.flierinc.com/summary/3517,日本語,"['仕事', '業務改善', 'ミス防止', 'コミュニケーション', 'ビジネス', '職場', '生産性', '時間管理']","['オフィス', '電話・FAX', 'ビジネス現場', 'チーム作業', '通信環境']"

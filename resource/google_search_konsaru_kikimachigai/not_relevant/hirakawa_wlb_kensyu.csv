@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+hirakawa_wlbkensyu_001,メールアドレス,,口頭伝達時は特に注意,(Tgt=NA: 具体的な誤聴形が本文に記載されていないが、メールアドレスを電話や口頭で伝える際に文字や記号を聞き間違えるリスクがあると明記),True,hirakawa_wlbkensyu,https://www.city.hirakawa.lg.jp/kurashi/kyoudou/WLB_kensyu.html,日本語,"['聞き間違い', 'メールアドレス', '申込', '電話対応', '事務手続き']","['電話', '事務窓口', '通信環境']"
+hirakawa_wlbkensyu_002,URL,,口頭伝達時は特に注意,(Tgt=NA: 具体的な誤聴形が本文に記載されていないが、URLを電話や口頭で伝える際に文字や記号を聞き間違えるリスクがあると明記),True,hirakawa_wlbkensyu,https://www.city.hirakawa.lg.jp/kurashi/kyoudou/WLB_kensyu.html,日本語,"['聞き間違い', 'URL', '申込', '電話対応', '事務手続き']","['電話', '事務窓口', '通信環境']"

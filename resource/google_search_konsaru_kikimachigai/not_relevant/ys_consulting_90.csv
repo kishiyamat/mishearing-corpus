@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ysconsulting_90_001,,,似た発音の単語に注意,(Src=NA: placeholder '自分の名前（橋本）')(Tgt=NA: placeholder '自分のことを話していると誤解') 台湾駐在員が会話中に自分の名前が聞こえたと感じ、陰口や悪口と誤解したが、実際は無関係な単語の場合が多い。,True,ysconsulting_90,https://www.ys-consulting.com.tw/column/90.html,日本語,"['海外駐在', '台湾', '中国語', '聞き間違い', '異文化コミュニケーション', '非母語話者', 'ビジネス', 'メンタルヘルス']","['台湾現地法人オフィス', '会議室', '休憩室', '食事中', 'ノイズあり', '通訳レベル低め', 'マイクなし']"

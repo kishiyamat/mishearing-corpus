@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tebiki_carelessmistake_001,,,騒音下では復唱・確認,(Src=NA: 指示や内容の具体語が記事中に明記されていない)(Tgt=NA: 誤った内容・操作の具体語が記事中に明記されていない),True,tebiki_carelessmistake,https://tebiki.jp/genba/useful/careless-mistake/,日本語,"['製造業', '安全対策', 'ヒューマンエラー', '聞き間違い', '騒音', '作業環境', 'ポカミス', 'ケアレスミス', '現場改善']","['工場', '製造現場', '騒音環境', '作業現場']"

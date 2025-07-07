@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+chintai_callphrase_001,,,復唱して確認すること,(Src=NA: placeholder '会社名・名前・マンション名・部屋番号')(Tgt=NA: placeholder '別の会社名・名前・マンション名・部屋番号'),True,chintai_callphrase,https://solution.chintai.net/useful/callphrase/,日本語,"['電話応対', 'ビジネスマナー', '不動産営業', '言葉遣い', '聞き間違い', 'コミュニケーション', '復唱', '固有名詞', '日本語']","['オフィス', '電話', 'ビジネス現場', '通信環境']"
+chintai_callphrase_002,,,取り次ぎ前に確認すること,(Src=NA: placeholder '担当者名')(Tgt=NA: placeholder '別の担当者名'),True,chintai_callphrase,https://solution.chintai.net/useful/callphrase/,日本語,"['電話応対', 'ビジネスマナー', '不動産営業', '言葉遣い', '聞き間違い', 'コミュニケーション', '復唱', '固有名詞', '日本語']","['オフィス', '電話', 'ビジネス現場', '通信環境']"

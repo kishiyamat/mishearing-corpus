@@ -10,14 +10,20 @@ You can see the data [here](https://mishearing-corpus-dev.streamlit.app/).
 
 ## Project Roadmap
 
-| Phase                        | Target Size      | Estimated Period | Main Tasks                                                                 | Quick Checkpoint                        |
-|-----------------------------|------------------|------------------|----------------------------------------------------------------------------|-----------------------------------------|
-| **0. Schema Design**        | 0 → 100          | 1 week           | Transfer samples from existing papers/reports, finalize columns & foreign keys | *Is Frictionless CI green?*             |
-| **1. Existing Data Import**  | 100 → 1,500      | 1–1.5 months     | Extract explicit mishearing cases from available sources (search + manual fix) | *Record search queries & extraction rules in markdown* |
-| **2. Literature Mining**    | 1,500 → 3,000    | 1 month          | Copy tables from conference papers, theses, tech reports → append to CSV      | *Clear copyright & always fill citation*|
-| **3. Crowdsourcing ①**      | 3,000 → 6,000    | 2 months         | Taskify mishearing spots in ASR logs for manual review                        | *Run UI & instructions as MVP, get feedback* |
-| **4. Crowdsourcing ②**      | 6,000 → 9,000    | 1 month          | Subject task: listen to short audio, type exactly what was heard             | *Auto-record mic/noise conditions in Env* |
-| **5. Expansion & Review**   | 9,000 → 10,000+  | 1 month          | Add review labels (confidence, duplicate flag), fill missing genres           | *pre-commit: RED → fix → GREEN*         |
+To expand the dataset, it will be necessary at some point
+to implement a procedure for predicting and presenting potential mishearings.
+The extent of such data available on the web is currently unknown.
+Collecting 20 items from 100~200 participants would yield 2,000~4,000 instances,
+which seems to be the practical limit. 
+
+| Phase                       |   Target Size    | Estimated Period | Main Tasks                                                                 | Quick Checkpoint            |
+|-----------------------------|------------------|------------------|----------------------------------------------------------------------------|-----------------------------|
+| **0. Schema Design**        | 0 → 100         | 1 week           | Transfer samples from existing papers/reports/URLs, finalize columns       | *Is Frictionless CI green?* |
+| **1. Data Mining (1)**      | 100 → 1,000     | 1 month          | Extract explicit mishearing cases from available sources using LLMs        | *Search queries/LLMs setup* |
+| **2. Data Mining (2)**      | 1,000 → 3,000   | 1 month          | Continue expanding the CSV dataset.                                        | *Utilize LLMs and Fix tags* |
+| **3. Crowdsourcing (1)**    | 3,000 → 5,000   | 2 months         | Collect approximately 2,000 cases by recruiting 100 participants online.   | *Make an MVP, get feedback* |
+| **4. Crowdsourcing (2)**    | 5,000 → 6,000   | 1 month          | Develop a prediction model to generate stimuli for commonly misheard pairs.| *Is Frictionless CI green?* |
+| **5. Crowdsourcing (3)**    | 6,000 → 10,000  | 1 month          | Optimize the process to complete the remaining data collection.            | *Is Frictionless CI green?* |
 
 ---
 
@@ -32,6 +38,7 @@ You can see the data [here](https://mishearing-corpus-dev.streamlit.app/).
 - [8. Citation](#8-citation)
 - [9. Contact / acknowledgements](#9-contact--acknowledgements)
 - [10. Data Sources](#10-data-sources)
+- [11. Applications](#11-applications)
 
 ---
 
@@ -127,7 +134,6 @@ mishearing-corpus/
 ```
 
 各テーブルの詳細やカラム定義は `schema/` 配下のJSONファイルを参照してください。
-```
 
 - シャード (shard): 大きなテーブルやコレクションを
   意味や順序を保ったまま、複数の小さなファイルやパーティションに分割して管理する方式
@@ -243,7 +249,7 @@ We thank all annotators and contributors to this project.
 - **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
 - **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
 
-### Gendai Medi (N=8)a
+### Gendai Medi (N=8)
 - **Source**: Gendai Media
 - **URL**: [https://gendai.media/articles/-/152393?imp=0](https://gendai.media/articles/-/152393?imp=0)
 - **Archive**: https://megalodon.jp/2025-0610-1550-38/https://gendai.media:443/articles/-/152393?imp=0
@@ -256,6 +262,7 @@ We thank all annotators and contributors to this project.
 
 ### Kikimatsugai 1101 (N=9)
 - できれば加えたいデータ(かなり量がある)
+- 現状だとデータのフェッチが難しい
 
 ### Google
 
@@ -321,12 +328,12 @@ We thank all annotators and contributors to this project.
 #### `"Mishearing of wo*to*聞き間違*"` (N=20)
 
 
-### Google | Taxk (N=196)
+### Google | Taxi (N=196)
 
 - 作成したアプリで収集(`queries = 'タクシー "聞き間違え"'`)
 - 重複もあるかもしれない。
 
-### Google | Taxk (N=244)
+### Google | Taxi (N=244)
 
 - 作成したアプリで収集(`queries = 'タクシー "聞き間違い"'`)
 - 重複するURLで事前にスキップ
@@ -335,6 +342,41 @@ We thank all annotators and contributors to this project.
 
 言い間違いのデータだったり、SrcとTgtが逆になっているパターンがあるので
 注意して編集する.
+
+### Google | Shigoto (N=275)
+
+Shigoto (Work)
+
+- 作成したアプリで収集(`queries = '仕事 "聞き間違え"'`) -> N=199
+- 作成したアプリで収集(`queries = '仕事 "聞き間違い"'`) -> N=76
+
+漫画の例は回収できればする。
+言い間違いと思い込んで聞き間違えた場合は無視（酷暑のホットコーヒー→アイスコーヒーの確認。）
+- 差別的な例は除外
+
+ファイル名が.を含んでしまう場合がある。
+勘違い系はSpeakerとListenerが逆になっているかも？
+
+### Google | Konsaru (N=115)
+
+Konsaru (Consultant)
+
+- 作成したアプリで収集(`queries = 'コンサル "聞き間違え"'`) -> N=64
+- 作成したアプリで収集(`queries = 'コンサル "聞き間違い"'`) -> N=51
+
+### Google | Denwa (N=255)
+
+Denwa (Telephone)
+
+- 作成したアプリで収集(`queries = '電話 "聞き間違え"'`) -> N=80
+- 作成したアプリで収集(`queries = '電話 "聞き間違い"'`) -> N=175
+
+### Google | Business (N=?)
+
+- IgnoreのURLを指定できるように更新
+  - resourceの中にあるnot_relevant directoryにあるcsvのurlを無視する。
+- 作成したアプリで収集(`queries = 'ビジネス "聞き間違え"'`) -> N=?
+- 作成したアプリで収集(`queries = 'ビジネス "聞き間違い"'`) -> N=?
 
 ### Indivisuals
 
@@ -348,3 +390,19 @@ We thank all annotators and contributors to this project.
   - LLMで自動整形
 
 #### Kishiyama 
+
+個人的な経験
+
+## 11. Applications
+
+### Machine Learning
+
+* Evaluation of models that predict mishearing events in daily life,
+  work, or educational settings
+
+### Psycholinguistics
+
+* Phonetic and psycholinguistic research on perceptual epenthesis or dialect differences  
+  - コンテキストが単語の活性化をどの程度抑制していくか.
+  - 文脈を絞る度合いの個人差
+  - 大きなデータ・セットによる評価

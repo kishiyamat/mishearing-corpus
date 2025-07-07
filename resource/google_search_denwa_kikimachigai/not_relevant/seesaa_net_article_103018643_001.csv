@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+businessrule00_001,,,必ず復唱・言い換え・メモを取ること,(Src=NA: 具体的な発話文が本文中に記載されていない)(Tgt=NA: 具体的な誤聴形が本文中に記載されていない),True,businessrule00,http://business-rule00.seesaa.net/article/103018643.html,日本語,"['ビジネスマナー', '電話応対', '聞き間違い', '新社会人', 'コミュニケーション', '社名・名前', '復唱', 'メモ']","['オフィス', '電話', '携帯電話', '通信環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+hanabi_suota3_news_001,どんな漢字ですか？,どんな感じですか？,「漢字」と「感じ」は電話で特に注意,社員Aさんが取引先の名前の「漢字」を確認しようとしたが、相手は「感じ」と聞き間違え、Aさんの外見を説明し始めた。社内で話題となった。,True,hanabi_suota3_news,https://hanabi-stories.com/story/suota3/news/,日本語,"['仕事', 'コミュニケーション', '聞き間違い', '電話応対', '社内エピソード', '日本語', 'ビジネスマナー']","['オフィス', '電話', '平日午後', '都内中堅企業', '通信環境']"

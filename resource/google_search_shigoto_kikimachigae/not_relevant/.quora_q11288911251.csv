@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+quora_shame_mishearing_001,火打ち石,羞恥心,注意が必要,知人がキャンプの話で「火打ち石」と言ったのを「羞恥心」と聞き間違え、話がねじれた。,True,quora_shame_mishearing,https://jp.quora.com/%E3%81%A8%E3%81%A6%E3%82%82%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84%E6%80%9D%E3%81%84%E3%82%92%E3%81%97%E3%81%9F%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99,,,日本語,"['聞き間違い', '恥ずかしい体験', 'キャンプ', '日本語', '日常会話']","['会話', 'キャンプ', '屋外', '雑音（推定）']"

@@ -1,0 +1,6 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+icareer_missfusegu_fukusyo_001,相手の名前,別人の名前,復唱で確認すること,電話で相手の名前を聞き取れず、曖昧なまま取次いだ結果、名前を間違えた。,True,icareer_missfusegu_fukusyo,https://i-career.co.jp/blog/manner/missfusegu-fukusyo/,日本語,"['ビジネスマナー', '聞き間違い', '電話対応', '復唱', '新入社員研修']","['オフィス', '電話', 'ノイズ']"
+icareer_missfusegu_fukusyo_002,上司の指示内容,別の内容,復唱で確認すること,上司からの指示を理解したつもりでいたが、内容を間違えて仕事をやり直した。,True,icareer_missfusegu_fukusyo,https://i-career.co.jp/blog/manner/missfusegu-fukusyo/,日本語,"['ビジネスマナー', '聞き間違い', '復唱', '新入社員研修']","['オフィス', '対面会話']"
+icareer_missfusegu_fukusyo_003,お客様の注文内容,別の商品,復唱で確認すること,お客様からの注文を聞き間違えて、本来頼みたい商品と違うものを届けてしまった。,True,icareer_missfusegu_fukusyo,https://i-career.co.jp/blog/manner/missfusegu-fukusyo/,日本語,"['ビジネスマナー', '聞き間違い', '復唱', '新入社員研修', 'クレーム防止']","['オフィス', '対面会話', '電話']"
+icareer_missfusegu_fukusyo_004,数字（個数・電話番号等）,別の数字,数字は必ず復唱すること,数字を聞き間違えてトラブルやクレームになった。,True,icareer_missfusegu_fukusyo,https://i-career.co.jp/blog/manner/missfusegu-fukusyo/,日本語,"['ビジネスマナー', '聞き間違い', '復唱', '新入社員研修', '数字']","['オフィス', '電話', '対面会話']"
+icareer_missfusegu_fukusyo_005,緑色のボタン,グリーンのボタン,言い換えずにそのまま復唱すること,復唱時に言い換え（例：「緑色」→「グリーン」）をしてしまい、相手に違和感や不快感を与えた。,True,icareer_missfusegu_fukusyo,https://i-career.co.jp/blog/manner/missfusegu-fukusyo/,日本語,"['ビジネスマナー', '聞き間違い', '復唱', '新入社員研修', '言い換え']","['オフィス', '対面会話']"

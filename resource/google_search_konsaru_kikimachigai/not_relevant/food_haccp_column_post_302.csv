@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+foodhaccp_post302_001,上司の生産指示,別の指示（不用な製品生産）,指示は復唱・書面化,上司の生産指示を聞き間違え、不用な製品を生産した。工場現場での口頭伝達ミス。,True,foodhaccp_post302,https://food-haccp.jp/column/post-302,日本語,"['食品安全', 'ヒューマンエラー', 'HACCP', 'ISO9001', 'FSMS', '工場', '品質管理', '聞き間違い', '製造業', 'コンサルティング']","['工場', '製造現場', '上司と部下の口頭指示', 'ノイズ環境（工場内）', '通信環境（口頭伝達）']"

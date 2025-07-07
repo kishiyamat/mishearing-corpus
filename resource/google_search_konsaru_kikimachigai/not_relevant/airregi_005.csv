@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+airregi_order_005_001,,,口頭確認を徹底すること,(Src=NA: placeholder 'お客様の注文内容')(Tgt=NA: placeholder '別の注文内容') 飲食店でお客様の注文をホールスタッフが聞き間違える典型的な例。混雑やノイズ、確認不足が原因。,True,airregi_order_005,https://airregi.jp/order/column/005/,日本語,"['飲食店', 'オーダーミス', '聞き間違い', '聞き忘れ', 'コミュニケーション', '接客', 'システム導入', '業務効率化', 'マニュアル', '教育']","['飲食店', 'ホール', 'キッチン', '会話', '伝票', 'ノイズ']"
+airregi_order_005_002,,,伝達方法を電子化すること,(Src=NA: placeholder 'ホール→キッチンへの注文伝達')(Tgt=NA: placeholder '別のメニューや数量') ホールスタッフがキッチンスタッフに口頭で伝達する際の聞き間違い。伝票の読み間違いも含む。,True,airregi_order_005,https://airregi.jp/order/column/005/,日本語,"['飲食店', 'オーダーミス', '聞き間違い', '聞き忘れ', 'コミュニケーション', '接客', 'システム導入', '業務効率化', 'マニュアル', '教育']","['飲食店', 'ホール', 'キッチン', '会話', '伝票', 'ノイズ']"

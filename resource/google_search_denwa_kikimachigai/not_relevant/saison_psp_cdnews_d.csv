@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+saisonpsp_A10819458616_001,会社名・名前,別の会社名・名前,復唱・確認が重要,(Src=NA: placeholder '会社名・名前')(Tgt=NA: placeholder '別の会社名・名前'),True,saisonpsp_A10819458616,https://www.saison-psp.co.jp/saisonpsp/A10819458616/CDnews-d.htm,日本語,"['電話応対', 'ビジネスマナー', '聞き間違い', 'コミュニケーション', '仕事', 'オフィスワーク', '復唱', 'メモ']","['オフィス', '電話', '通信環境']"
+saisonpsp_A10819458616_002,担当者の名前,別の担当者の名前,復唱・確認が重要,(Src=NA: placeholder '担当者の名前')(Tgt=NA: placeholder '別の担当者の名前'),True,saisonpsp_A10819458616,https://www.saison-psp.co.jp/saisonpsp/A10819458616/CDnews-d.htm,日本語,"['電話応対', 'ビジネスマナー', '聞き間違い', 'コミュニケーション', '仕事', 'オフィスワーク', '復唱', 'メモ']","['オフィス', '電話', '通信環境']"

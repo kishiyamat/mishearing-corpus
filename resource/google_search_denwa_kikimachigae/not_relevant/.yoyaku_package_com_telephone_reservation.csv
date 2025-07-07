@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+yoyaku_package_telephone_001,1時（いちじ）,7時（しちじ）,数字の聞き間違いに注意し復唱を徹底,電話予約で「1時」と「7時」を聞き間違えて予約ミスが発生することがある。,True,yoyaku_package_telephone_reservation,https://yoyaku-package.com/useful/detail/telephone-reservation/,日本語,"['電話予約', '聞き間違い', '予約システム', 'コミュニケーション', 'ビジネスマナー', '業務効率化', '顧客対応']","['電話', '店舗・オフィス', '通信環境']"
+yoyaku_package_telephone_002,電話番号,別の番号,復唱確認を必ず行う,電話番号を聞き間違えると連絡が取れなくなるため、復唱して確認することが重要とされている。,True,yoyaku_package_telephone_reservation,https://yoyaku-package.com/useful/detail/telephone-reservation/,日本語,"['電話予約', '聞き間違い', '予約システム', 'コミュニケーション', 'ビジネスマナー', '業務効率化', '顧客対応']","['電話', '店舗・オフィス', '通信環境']"
