@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-cocolomachi_info_001,五反野,五反田,地名の発音に注意,「五反野」と「五反田」は発音・字面が似ており、電話や会話で頻繁に混同される。特に不動産業務での住所確認時に発生しやすい。,True,cocolomachi_info,https://cocolomachi.co.jp/info,日本語,"['地名', '不動産', '聞き間違い', '日本語', '仕事', 'コミュニケーション']","['不動産会社', '電話', '対面会話', 'オフィス', '日常会話']"
