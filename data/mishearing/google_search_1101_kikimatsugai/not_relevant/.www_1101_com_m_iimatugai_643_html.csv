@@ -1,0 +1,14 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+www_1101_com_m_iimatugai_643_html_001,蜜を吸ってる,血を吸ってる,「蜜」と「血」は音が似ているので注意,息子が蝶を見て「血を吸ってる」と言った。蚊に刺される経験が多いことが影響。,True,www_1101_com_m_iimatugai_643_html,N/A,son,mother,日本語,"['言い間違い', '家族', '日常']","['家庭', '屋外（花畑）']"
+www_1101_com_m_iimatugai_643_html_002,母子手帳,母子感染,医療用語の混同に注意,小児科に電話予約後、母親が「母子感染」とつぶやいてしまった。,True,www_1101_com_m_iimatugai_643_html,N/A,mother,self,日本語,"['言い間違い', '医療', '日常']","['家庭', '電話']"
+www_1101_com_m_iimatugai_643_html_003,77歳の祝い,77回忌,年齢と法事の数字の混同に注意,母が父の77歳の祝いを「77回忌」と言い間違えた。,True,www_1101_com_m_iimatugai_643_html,N/A,mother,family,日本語,"['言い間違い', '家族', '日常']",['家庭']
+www_1101_com_m_iimatugai_643_html_004,らくだの腹巻,らくだの腹わた,商品名の言い間違いに注意,妻が「らくだの腹巻」を「らくだの腹わた」と言い間違え、夫を驚かせた。,True,www_1101_com_m_iimatugai_643_html,N/A,wife,husband,日本語,"['言い間違い', '商品名', '家族']",['家庭']
+www_1101_com_m_iimatugai_643_html_005,ダークホース,ブラックホース,英語表現の混同に注意,娘が芸能人を見て「ブラックホース」と言い、母と混乱した。,True,www_1101_com_m_iimatugai_643_html,N/A,daughter,mother,日本語,"['言い間違い', '外来語', '家族']","['家庭', 'テレビ']"
+www_1101_com_m_iimatugai_643_html_006,トリュフ,マジックマッシュルーム,世界三大珍味の知識に注意,女子高生が「世界三大珍味」の一つを「マジックマッシュルーム」と叫んだ。,True,www_1101_com_m_iimatugai_643_html,N/A,student,classmates,日本語,"['言い間違い', '学校', '食べ物']","['学校', '教室']"
+www_1101_com_m_iimatugai_643_html_007,不審な人,死んだ人,アナウンスの聞き取りに注意,公園のスピーカー放送「不審な人」を「死んだ人」と聞き間違えた。,True,www_1101_com_m_iimatugai_643_html,N/A,announcer,listener,日本語,"['聞き間違い', '放送', '公園']","['公園', '屋外', 'スピーカー']"
+www_1101_com_m_iimatugai_643_html_008,富士山麓の水,富士山魔の水,漢字の見間違いに注意,コンビニのポップで「富士山麓の水」を「富士山魔の水」と見間違えた。,True,www_1101_com_m_iimatugai_643_html,N/A,pop,customer,日本語,"['見間違い', '商品名', 'コンビニ']","['コンビニ', '商品棚']"
+www_1101_com_m_iimatugai_643_html_009,蘭の香り,闇の香り,漢字の見間違いに注意,芳香剤の「蘭の香り」を「闇の香り」と見間違えた。,True,www_1101_com_m_iimatugai_643_html,N/A,product,customer,日本語,"['見間違い', '商品名', '日常']","['家庭', '店']"
+www_1101_com_m_iimatugai_643_html_010,この機械の御用,命に関するお問い合わせ,ラベルの劣化による誤読に注意,シュレッダーのラベルが日焼けで薄くなり「命に関するお問い合わせ」と読んでしまった。,True,www_1101_com_m_iimatugai_643_html,N/A,label,worker,日本語,"['見間違い', '職場', 'ラベル']","['職場', 'オフィス']"
+www_1101_com_m_iimatugai_643_html_011,NA,ご遺体,緊急時の言葉選びに注意,新幹線で倒れた人に対し、乗務員が「ご遺体はそのままに」と言い間違えた。(Src=NA: placeholder '患者さん等'),True,www_1101_com_m_iimatugai_643_html,N/A,staff,passenger,日本語,"['言い間違い', '新幹線', '緊急']","['新幹線', '車内']"
+www_1101_com_m_iimatugai_643_html_012,新年のお祝い,新年のお呪い,祝と呪の漢字の混同に注意,年賀状の印刷で「新年のお祝い」を「新年のお呪い」と誤印刷。,True,www_1101_com_m_iimatugai_643_html,N/A,printer,recipient,日本語,"['印刷ミス', '年賀状', '漢字']","['印刷物', '家庭']"
+www_1101_com_m_iimatugai_643_html_013,御多幸,御多福,幸と福の漢字の混同に注意,年賀状の印刷で「御多幸」を「御多福」と誤印刷。父は「めでたいからいい」と開き直った。,True,www_1101_com_m_iimatugai_643_html,N/A,printer,recipient,日本語,"['印刷ミス', '年賀状', '漢字']","['印刷物', '家庭']"

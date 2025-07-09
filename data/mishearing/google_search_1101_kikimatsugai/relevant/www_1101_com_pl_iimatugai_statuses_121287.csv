@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+www_1101_com_pl_iimatugai_statuses_121287_001,生コン（なまこん）,ナマコ（海鼠）,業界用語や略語は文脈で確認しよう。,法律事務所でクライアント（工場経営者）が「生コン」と言ったのを、アルバイトの投稿者が「ナマコ」と聞き間違え、海産物の話を続けてしまった。会話の齟齬はしばらくしてから気づいた。,True,www_1101_com_pl_iimatugai_statuses_121287,N/A,client,staff,日本語,"['聞き間違い', '日本語', 'ビジネス会話', '日常', '法律事務所', '業界用語']","['place:法律事務所', 'channel:対面', 'noise:静か', 'mic:肉声']"

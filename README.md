@@ -269,6 +269,7 @@ We thank all annotators and contributors to this project.
 - filestr2json2csvでcsvに変換
   - もともとのurlバージョンを微修正
   - その後の処理は同じ
+  - 目視で確認（非母語話者というタグが異常に多い気がする）
 
 ### Google
 

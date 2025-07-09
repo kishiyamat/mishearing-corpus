@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+www_1101_com_pl_iimatugai_statuses_436008_001,残高1360円です,なんだか1360円です,「残高」と「なんだか」は音が似ているので注意,スーパーのレジで店員（Speaker）が「残高1360円です」と言ったのを、客（Listener）が「なんだか1360円です」と聞き間違えた。店内の雑音や発音の曖昧さが原因と考えられる。,True,www_1101_com_pl_iimatugai_statuses_436008,N/A,店員,客,日本語,"['言い間違い', '日本語', '日常会話', 'スーパー', 'レジ', '生活']","['スーパーのレジ', '対面会話', '店内の環境音', '肉声（マイクなし）']"

@@ -42,9 +42,10 @@ save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_11
 
 if files_tobe_csv and st.button("分類を送信"):
     st.write("送信中...")
-    for f in files_tobe_csv[:3]:
+    for f in files_tobe_csv:
         # 保存先のファイルパスを作成
-        save_file_path = os.path.join(save_path, f"{f.name}.csv")
+        save_name = os.path.splitext(f.name)[0]
+        save_file_path = os.path.join(save_path, f"{save_name}.csv")
         
         # すでにファイルが存在する場合はスキップ
         if os.path.exists(save_file_path):
