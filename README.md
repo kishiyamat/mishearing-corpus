@@ -261,8 +261,14 @@ We thank all annotators and contributors to this project.
 - **Description**: See `resource/medsafe/readme.md`
 
 ### Kikimatsugai 1101 (N=9)
-- できれば加えたいデータ(かなり量がある)
-- 現状だとデータのフェッチが難しい
+
+- google_1101.py で報告をtxtに変換
+  - できれば加えたいデータ(かなり量がある)
+  - 現状だとデータのフェッチが難しい -> エンコーディングの問題
+  - textのidが同じで落とせなかったものもあったが、結局N件のページを取得
+- filestr2json2csvでcsvに変換
+  - もともとのurlバージョンを微修正
+  - その後の処理は同じ
 
 ### Google
 

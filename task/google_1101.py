@@ -48,6 +48,7 @@ import html
 from html.parser import HTMLParser
 from io import StringIO
 import re
+import time
 
 class TextExtractor(HTMLParser):
     """<script><style> を除外し、段落系タグで改行を入れる簡易パーサ"""
@@ -88,18 +89,31 @@ def html_to_text(raw_html: str) -> str:
     return text.strip()
 
 
-try:
-    i = 6
-    url = organic_results[i]["url"]
-    st.write(f"Fetching content from: {url}")
-    response = requests.get(url)
-    response.encoding = response.apparent_encoding  # Set encoding based on response content
-    fetched_text = response.text
-    st.write("Fetched content:")
-    st.text_area("Content", fetched_text, height=300)
-    fetched_txt = html_to_text(fetched_text)
-    st.text_area("Content", fetched_txt, height=300)
+for i, result in enumerate(organic_results):
+    try:
+        url = result["url"]
+        # Save the result to resource/txt_1101
+        save_dir = "resource/txt_1101"
+        file_name = url.replace("https://", "").replace("http://", "").replace("/", "_").replace(".", "_") + ".txt"
+        file_path = os.path.join(save_dir, file_name)
+        if os.path.exists(file_path):
+            st.info(f"File already exists, skipping: {file_path}")
+            continue
+        st.write(f"Fetching content from: {url}")
+        response = requests.get(url)
+        response.encoding = response.apparent_encoding  # Set encoding based on response content
+        fetched_text = response.text
+        st.write("Fetched content:")
+        # Clean up the URL for use as a file name
+        st.text_area(f"Content from {url}", fetched_text, height=300)
+        fetched_txt = html_to_text(fetched_text)
+        st.text_area(f"Processed Content from {url}", fetched_txt, height=300)
 
+        os.makedirs(save_dir, exist_ok=True)
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(fetched_txt)
+        st.success(f"Content saved to: {file_path}")
 
-except Exception as e:
-    st.error(f"Failed to fetch the URL content: {e}")
+        time.sleep(1)  # Sleep for 1 second between requests
+    except Exception as e:
+        st.error(f"Failed to fetch the URL content from {url}: {e}")
