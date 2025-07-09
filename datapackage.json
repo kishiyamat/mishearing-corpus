@@ -5,6 +5,9 @@
       "name": "mishearing",
       "profile": "tabular-data-resource",
       "path": [
+        "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more0310_html.csv",
+        "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060208_html.csv",
+        "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060811_html.csv",
         "data/mishearing/google_search_denwa_kikimachigae/1101_com_530.csv",
         "data/mishearing/google_search_denwa_kikimachigae/ameblo_bbtmba.csv",
         "data/mishearing/google_search_denwa_kikimachigae/daietu_5523.csv",
