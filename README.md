@@ -249,6 +249,12 @@ We thank all annotators and contributors to this project.
 - **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
 - **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
 
+### Yamato Sokki (N=5)
+
+- 得られたデータを元に作成
+- rule baseで文を復元
+- tagを付与
+
 ### Gendai Medi (N=8)
 - **Source**: Gendai Media
 - **URL**: [https://gendai.media/articles/-/152393?imp=0](https://gendai.media/articles/-/152393?imp=0)
