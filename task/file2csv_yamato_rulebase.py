@@ -74,6 +74,7 @@ import os
 
 test_set = [
   {
+    "Cng": ["->", "->"],
     "Src": "大きな氷河が動きつつあるように",
     "Tgt": "国の権限を地方の自主性に委ねるという方向へ、大きな評価が動きつつあるように",
     "Wnt": "国の権限を地方の自主性に委ねるという方向へ、大きな氷河が動きつつあるように",
@@ -124,6 +125,8 @@ test_set = [
     "Wnt": "エレクトロデバイスの多層基板事業は、ほとんど自動車用途向けですが",
   }
 ]
+# file:///home/kishiyamat/mishearing-corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200407.html
+# が良い例。
 
 import difflib
 
@@ -197,12 +200,11 @@ API_URL_TO_CSV_ENDPOINT = "http://localhost:7860/api/v1/run/cb20fbd9-8699-4fa1-a
 
 import json
 
+
+# file:///home/kishiyamat/mishearing-corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200407.html
+
 if html_files and st.button("送信"):
     for html_i in html_files:
-        saved_name = html_i.name.replace(".html", ".csv")
-        if os.path.exists(f"{save_path}/{saved_name}"):
-            st.warning(f"{html_i.name} はすでに存在します。スキップします。")
-            continue
         txt = html_i.getvalue().decode("utf-8")
         st.write(f"Processing file: {html_i.name}")
         st.text_area(f"Content of {html_i.name}", txt, height=300)
@@ -216,55 +218,8 @@ if html_files and st.button("送信"):
             h3_tag.decompose()
 
         # Remove all tags from the text content
-        clean_text = soup.get_text()
-
-        tgt_tag_src_list = clean_text.split("【間違い】")
-        tgt_src_list = map(lambda x: x.split("【正解】"), tgt_tag_src_list)
-        tgt_src_list = filter(lambda x: len(x)==2, tgt_src_list)
-        text = ""
-        for idx, (tgt, src) in enumerate(tgt_src_list, start=1):
-            x = f"事例 {idx}: <Src>{src.strip()}</Src><Tgt>{tgt.strip()}</Tgt></br>"
-            text += x
-        st.code(text)
-        st.write(text.replace("</br>", "\n\n").replace("</Src><Tgt>", "</Src>\n<Tgt>").replace("<S", "\n- <S").replace("<T", "- <T"))
-
-        save_name = html_i.name.replace(".html", "")
-        input_str = json.dumps({"text": text, "save_name": save_name, "save_dir": save_path}, ensure_ascii=False)
-        st.code(input_str)
-        payload = {
-            "input_value": input_str,  # The input value to be processed by the flow
-            "output_type": "chat",  # Specifies the expected output format
-            "input_type": "text"  # Specifies the input format
-        }
-        headers = { "Content-Type": "application/json" }
-        requests.request("POST", API_URL_TO_CSV_ENDPOINT, json=payload, headers=headers)
-
-# for result in organic_results:
-#     try:
-#         url = result["url"]
-#         # Save the result to resource/txt_1101
-#         save_dir = "resource/txt_1101"
-#         file_name = url.replace("https://", "").replace("http://", "").replace("/", "_").replace(".", "_") + ".txt"
-#         file_path = os.path.join(save_dir, file_name)
-#         if os.path.exists(file_path):
-#             st.info(f"File already exists, skipping: {file_path}")
-#             continue
-#         st.write(f"Fetching content from: {url}")
-#         response = requests.get(url)
-#         response.encoding = response.apparent_encoding  # Set encoding based on response content
-#         fetched_text = response.text
-#         st.write("Fetched content:")
-#         # Clean up the URL for use as a file name
-#         st.text_area(f"Content from {url}", fetched_text, height=300)
-#         fetched_txt = html_to_text(fetched_text)
-#         st.text_area(f"Processed Content from {url}", fetched_txt, height=300)
-# 
-#         os.makedirs(save_dir, exist_ok=True)
-#         with open(file_path, "w", encoding="utf-8") as f:
-#             f.write(fetched_txt)
-#         st.success(f"Content saved to: {file_path}")
-# 
-#         time.sleep(1)  # Sleep for 1 second between requests
-#     except Exception as e:
-#         st.error(f"Failed to fetch the URL content from {url}: {e}")
-# 
+        # ここで差分のタグを除去しているよがよくない
+        for tag in soup.find_all(True):
+            if tag.name != "strong":
+                tag.unwrap()
+        st.write(soup)
