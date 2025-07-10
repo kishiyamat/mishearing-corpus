@@ -262,6 +262,10 @@ We thank all annotators and contributors to this project.
 
 ### Kikimatsugai 1101 (N=9)
 
+- Googleでたまたま見つけた一つのファイル
+
+### Kikimatsugai 1101 (N=959)
+
 - google_1101.py で報告をtxtに変換
   - できれば加えたいデータ(かなり量がある)
   - 現状だとデータのフェッチが難しい -> エンコーディングの問題
@@ -270,6 +274,7 @@ We thank all annotators and contributors to this project.
   - もともとのurlバージョンを微修正
   - その後の処理は同じ
   - 目視で確認（非母語話者というタグが異常に多い気がする）
+  - タグはLLMで自動付与
 
 ### Google
 

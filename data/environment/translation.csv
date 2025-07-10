@@ -2522,7 +2522,7 @@ SPEAKER_OVER,en,over speaker
 HOME_CONVERSATION_DAILY_LIFE,ja,日常会話（自宅）
 HOME_CONVERSATION_DAILY_LIFE,en,daily conversation at home
 TV_VIEWING_HOME_LIVING_TV_AUDIO_NORMAL_NOISE,ja,テレビ視聴中（音量普通・生活音あり）
-TV_VIEWING_HOME_LIVING_TV_AUDIO_NORMAL_NOISE,en,watching TV (normal volume, daily noise)
+TV_VIEWING_HOME_LIVING_TV_AUDIO_NORMAL_NOISE,en,"watching TV (normal volume, daily noise)"
 FREEZER_FRONT,ja,冷凍庫前
 FREEZER_FRONT,en,in front of freezer
 ONSEI_MIMI,ja,音声と聴覚
@@ -2566,7 +2566,7 @@ NOISE_STUDYING_SOUND,en,noise while studying
 KATEINAI,ja,家庭内
 KATEINAI,en,within home
 RADIO_BROADCAST_HOME_AUDIO_ONLY_NO_NOISE,ja,ラジオ放送（音声のみ・雑音なし）
-RADIO_BROADCAST_HOME_AUDIO_ONLY_NO_NOISE,en,radio broadcast (audio only, no noise)
+RADIO_BROADCAST_HOME_AUDIO_ONLY_NO_NOISE,en,"radio broadcast (audio only, no noise)"
 COMPANY_COLLEAGUE_CONVERSATION,ja,同僚との会話
 COMPANY_COLLEAGUE_CONVERSATION,en,conversation with colleagues
 TENSION,ja,緊張
@@ -2700,7 +2700,7 @@ LIVE_VOICE_NO_MIC,en,live voice without microphone
 PART_TIME_JOB,ja,アルバイト先
 PART_TIME_JOB,en,part-time workplace
 BEAUTY_SALON_HAIRSTYLIST_CUSTOMER_BGM_OTHER_CONVERSATIONS,ja,美容室（美容師と客の会話、BGM、他の会話）
-BEAUTY_SALON_HAIRSTYLIST_CUSTOMER_BGM_OTHER_CONVERSATIONS,en,beauty salon (hairstylist-customer conversation, BGM, other talks)
+BEAUTY_SALON_HAIRSTYLIST_CUSTOMER_BGM_OTHER_CONVERSATIONS,en,"beauty salon (hairstylist-customer conversation, BGM, other talks)"
 STARBUCKS,ja,スターバックス
 STARBUCKS,en,Starbucks
 NIHONGO_SHA,ja,日本語話者
@@ -2708,7 +2708,7 @@ NIHONGO_SHA,en,Japanese speaker
 CAR_CLUB_ACTIVITY_PICKUP,ja,部活の送迎中の車内
 CAR_CLUB_ACTIVITY_PICKUP,en,in a car picking up from club activities
 HOME_LIVING_ROOM_TV_GAME_FAMILY_CONVERSATION,ja,居間（テレビ、ゲーム、家族の会話あり）
-HOME_LIVING_ROOM_TV_GAME_FAMILY_CONVERSATION,en,living room (TV, games, family conversation)
+HOME_LIVING_ROOM_TV_GAME_FAMILY_CONVERSATION,en,"living room (TV, games, family conversation)"
 CHANNEL_CONVERSATION,ja,音声チャンネルでの会話
 CHANNEL_CONVERSATION,en,conversation via audio channel
 IT,ja,IT関係
