@@ -74,95 +74,82 @@ import os
 
 test_set = [
   {
-    "Cng": ["->", "->"],
-    "Src": "大きな氷河が動きつつあるように",
-    "Tgt": "国の権限を地方の自主性に委ねるという方向へ、大きな評価が動きつつあるように",
-    "Wnt": "国の権限を地方の自主性に委ねるという方向へ、大きな氷河が動きつつあるように",
+    "Src": "大きな<strong>氷河</strong>が動きつつあるように",
+    "Tgt": "国の権限を地方の自主性に委ねるという方向へ、大きな<strong>評価</strong>が動きつつあるように",
+    "Wnt": "国の権限を地方の自主性に委ねるという方向へ、大きな<strong>氷河</strong>が動きつつあるように",
   },
   {
-    "Src": "大口の与信の管理体制のチェックは",
-    "Tgt": "大口の預金の管理体制のチェックは、これまでの通年・専担検査の一部に入っていたのか",
-    "Wnt": "大口の与信の管理体制のチェックは、これまでの通年・専担検査の一部に入っていたのか",
+    "Src": "大口の<strong>与信</strong>の管理体制のチェックは",
+    "Tgt": "大口の<strong>預金</strong>の管理体制のチェックは、これまでの通年・専担検査の一部に入っていたのか",
+    "Wnt": "大口の<strong>与信</strong>の管理体制のチェックは、これまでの通年・専担検査の一部に入っていたのか",
   },
   {
-    "Src": "これは公党間の約束であり",
-    "Tgt": "先般の与野党合意について、これは高等官の約束であり合意は履行していただきたい。",
-    "Wnt": "先般の与野党合意について、これは公党間の約束であり合意は履行していただきたい。"
+    "Src": "これは<strong>公党間</strong>の約束であり",
+    "Tgt": "先般の与野党合意について、これは<strong>高等官</strong>の約束であり合意は履行していただきたい。",
+    "Wnt": "先般の与野党合意について、これは<strong>公党間</strong>の約束であり合意は履行していただきたい。"
   },
   {
-    "Src": "富裕団体になるべきだとおっしゃるが",
-    "Tgt": "行革に努力し不交付団体になるべきだとおっしゃるが、",
-    "Wnt": "行革に努力し富裕団体になるべきだとおっしゃるが、",
+    "Src": "<strong>富裕団体</strong>になるべきだとおっしゃるが",
+    "Tgt": "行革に努力し<strong>不交付団体</strong>になるべきだとおっしゃるが、",
+    "Wnt": "行革に努力し<strong>富裕団体</strong>になるべきだとおっしゃるが、",
   },
   {
-    "Src": "輸出を主体とする海外への",
-    "Tgt": "国内からの輸出をしたいとする、海外への一貫輸送の問題",
-    "Wnt": "国内からの輸出を主体とする海外への一貫輸送の問題",
+    "Src": "<strong>輸出を主体</strong>とする海外への",
+    "Tgt": "国内からの<strong>輸出をしたいとする</strong>、海外への一貫輸送の問題",
+    "Wnt": "国内からの<strong>輸出を主体</strong>とする海外への一貫輸送の問題",
   },
   {
-    "Src": "私たち隗より始めて",
-    "Tgt": "部を挙げて、私たち課より始めて",
-    "Wnt": "部を挙げて、私たち隗より始めて",
+    "Src": "私たち<strong>隗より始めて</strong>",
+    "Tgt": "部を挙げて、私たち<strong>課より始めて</strong>",
+    "Wnt": "部を挙げて、私たち<strong>隗より始めて</strong>",
   },
   {
-    "Src": "後年度負担に耐えられないという",
-    "Tgt": "予算編成をし直さないと今年度負担に耐えられないという",
-    "Wnt": "予算編成をし直さないと後年度負担に耐えられないという",
+    "Src": "<strong>後年度負担</strong>に耐えられないという",
+    "Tgt": "予算編成をし直さないと<strong>今年度負担</strong>に耐えられないという",
+    "Wnt": "予算編成をし直さないと<strong>後年度負担</strong>に耐えられないという",
   },
   {
-    "Src": "中国の宝山が安売りをしなくなった",
-    "Tgt": "日本の素材産業が突然よくなったのは中国のほうが安売りをしなくなった",
-    "Wnt": "日本の素材産業が突然よくなったのは中国の宝山が安売りをしなくなった",
+    "Src": "<strong>中国の宝山</strong>が安売りをしなくなった",
+    "Tgt": "日本の素材産業が突然よくなったのは<strong>中国のほう</strong>が安売りをしなくなった",
+    "Wnt": "日本の素材産業が突然よくなったのは<strong>中国の宝山</strong>が安売りをしなくなった",
   },
   {
-    "Src": "幾つかの要点について県としてこういうスタンスで",
-    "Tgt": "幾つかの要点について検討して、こういうスタンスで臨みたいと",
-    "Wnt": "幾つかの要点について県としてこういうスタンスで臨みたいと",
+    "Src": "幾つかの要点について<strong>県として</strong>こういうスタンスで",
+    "Tgt": "幾つかの要点について<strong>検討して</strong>、こういうスタンスで臨みたいと",
+    "Wnt": "幾つかの要点について<strong>県として</strong>こういうスタンスで臨みたいと",
   },
   {
-    "Src": "ほとんど自動車用途向けですが",
-    "Tgt": "エレクトロデバイスの多層基板事業は、ほとんど自動車用と模型ですが",
-    "Wnt": "エレクトロデバイスの多層基板事業は、ほとんど自動車用途向けですが",
+    "Src": "ほとんど<strong>自動車用途向けです</strong>が",
+    "Tgt": "エレクトロデバイスの多層基板事業は、ほとんど<strong>自動車用と模型です</strong>が",
+    "Wnt": "エレクトロデバイスの多層基板事業は、ほとんど<strong>自動車用途向けです</strong>が",
   }
 ]
+
+
 # file:///home/kishiyamat/mishearing-corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200407.html
 # が良い例。
 
 import difflib
 
-def apply_structural_merge(src, tgt):
+def apply_diff(src, tgt):
     sm = difflib.SequenceMatcher(None, src, tgt)
     result = []
-    used_prefix = False
-
     for tag, i1, i2, j1, j2 in sm.get_opcodes():
         if tag == "equal":
             result.append(src[i1:i2])
         elif tag == "insert":
-            result.append(tgt[j1:j2])
+            result.append(tgt[j1:j2])  # insertはTgtから借りてくる
         elif tag == "replace":
-            # 前方（文頭）にinsertのようなreplaceが来た場合、Tgtを追加
-            if not used_prefix and i1 == 0:
-                result.append(tgt[j1:j2])
-                result.append(src[i1:i2])
-                used_prefix = True
-            else:
-                # 差が句読点だけならSrcを優先
-                tgt_text = tgt[j1:j2].replace('、', '').replace('。', '')
-                src_text = src[i1:i2].replace('、', '').replace('。', '')
-                if tgt_text == src_text:
-                    result.append(src[i1:i2])
-                else:
-                    result.append(src[i1:i2])
+            # 差し替えではSrcの語を優先する（Tgtで置換された部分は使わない）
+            result.append(src[i1:i2])
         elif tag == "delete":
-            continue
-
+            result.append("")  # 削除なら何も追加しない
     return ''.join(result)
 
 
 # 検証ループ
 for i, sample in enumerate(test_set, 1):
-    generated = apply_structural_merge(sample["Src"], sample["Tgt"])
+    generated = apply_diff(sample["Src"], sample["Tgt"])
     is_match = generated == sample["Wnt"]
     st.write(f"事例 {i}: {'✅ OK' if is_match else '❌ NG'}")
     if not is_match:
@@ -170,7 +157,6 @@ for i, sample in enumerate(test_set, 1):
         st.write(f"  Tgt : {sample['Tgt']}")
         st.write(f"  Wnt : {sample['Wnt']}")
         st.write(f"  Gen : {generated}")
-
 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
