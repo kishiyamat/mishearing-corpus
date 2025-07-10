@@ -249,14 +249,14 @@ import json
 # 全省庁が一緒になって、<strong>遺漏なきよう</strong>、議論漏れがなきように～～。
 # <br/> があるのが3例ある。
 
-st.button("ファイルを選択したら、送信ボタンを押してください。")
+st.write("### HTMLファイルの処理とCSV変換")
 
 if html_files and st.button("送信"):
     for html_i in html_files:
         saved_name = html_i.name.replace(".html", ".csv")
-        # if os.path.exists(f"{save_path}/{saved_name}"):
-        #     st.warning(f"{html_i.name} はすでに存在します。スキップします。")
-        #     continue
+        if os.path.exists(f"{save_path}/{saved_name}"):
+            st.warning(f"{html_i.name} はすでに存在します。スキップします。")
+            continue
         txt = html_i.getvalue().decode("utf-8")
         st.write(f"Processing file: {html_i.name}")
         # st.text_area(f"Content of {html_i.name}", txt, height=300)
@@ -307,3 +307,53 @@ if html_files and st.button("送信"):
         }
         headers = { "Content-Type": "application/json" }
         requests.request("POST", API_URL_TO_CSV_ENDPOINT, json=payload, headers=headers)
+
+st.write("### 内容のvalidation")
+st.write("LLMだと余計な変換を入れることがあるので検証")
+import pandas as pd
+
+if html_files and st.button("データ検証"):
+    for html_i in html_files:
+        saved_name = html_i.name.replace(".html", ".csv")
+        df_i = pd.read_csv(f"{save_path}/{saved_name}")
+
+        # <strong> と <br/> タグのみを残してtextに変換
+        soup = BeautifulSoup(html_i.getvalue().decode("utf-8"), "html.parser")
+        for h3_tag in soup.find_all("h3"):
+            h3_tag.decompose()
+        for tag in soup.find_all(True):
+            if tag.name != "strong":
+                if tag.name != "br":
+                    tag.unwrap()
+        clean_text = str(soup)
+
+        tgt_tag_src_list = clean_text.split("【間違い】")
+        tgt_src_list = map(lambda x: x.split("【正解】"), tgt_tag_src_list)
+        tgt_src_list = filter(lambda x: len(x)==2, tgt_src_list)
+        text = ""
+
+        # </br> があるケースはエラーになりうるので注意
+        for idx, (tgt, src) in enumerate(tgt_src_list, start=0):
+            tgt.replace("<br/>","")
+            src = src.strip()
+            tgt = tgt.strip()
+            src = apply_diff_protected(src, tgt)
+            src = src.replace("<strong>","").replace("</strong>","")
+            tgt = tgt.replace("<strong>","").replace("</strong>","")
+            df_src = df_i[["Src"]].values.flatten().tolist()
+            src = src.replace("<br/>","")
+            df_tgt = df_i[["Tgt"]].values.flatten().tolist()
+            if src not in df_src:
+                st.warning(f"Src mismatch at index {idx}: {src} \n\n is not in {df_src} \n\n file: {html_i.name}")
+                # このファイルを削除する
+                if os.path.exists(f"{save_path}/{saved_name}"):
+                  os.remove(f"{save_path}/{saved_name}")
+                  st.warning(f"{saved_name} has been deleted due to mismatch.")
+                  continue
+            if tgt not in df_tgt:
+                st.warning(f"Tgt mismatch at index {idx}: {tgt} \n\n is not in {df_tgt} \n\n file: {html_i.name}")
+                # このファイルを削除する
+                if os.path.exists(f"{save_path}/{saved_name}"):
+                  os.remove(f"{save_path}/{saved_name}")
+                  st.warning(f"{saved_name} has been deleted due to mismatch.")
+                  continue
