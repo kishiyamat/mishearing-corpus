@@ -234,26 +234,22 @@ API_URL_TO_CSV_ENDPOINT = "http://localhost:7860/api/v1/run/cb20fbd9-8699-4fa1-a
 import json
 
 
-# 落ちるパターン
-# 西武鉄道に対しても、国土省としては他社同様に、安全面、サービス面でのチェック、<strong>政策金融、</strong>各種補助制度の活用等を行っていきたいと……。
-# 西武鉄道に対しても、国土省としては他社同様に、安全面、サービス面でのチェック、<strong>精算金、</strong>各種補助制度の活用等を行っていきたいと……。
-# 西武鉄道に対しても、国土省としては他社同様に、安全面、サービス面でのチェック、<strong>政策金、</strong>各種補助制度の活用等を行っていきたいと……。
-# 気候変動枠組み条約第○回<strong>締結国会議、閣僚級会議</strong>への出席と～～
-# 気候変動枠組み条約第○回<strong>締結国会、閣僚会議</strong>への出席と～～
-# 気候変動枠組み条約第○回<strong>締結国会、閣僚会議</strong>への出席と～～
-
-
-
 # file:///home/kishiyamat/mishearing-corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200407.html
-# 落ちる例もだめ
-# coffee_break_parts_similar200503_007,気候変動枠組み条約第○回締結国会、閣僚会議への出席と～～,気候変動枠組み条約第○回締結国会、閣僚会議への出席と～～,なし,条約会議の出席について。SrcとTgtが同一。聞き間違いは発生していない。,True,coffee_break_parts_similar200503,N/A,発言者G,速記者,日本語,"['政策', '速記']",['文字起こし']
-# coffee_break_parts_similar200503_009,強制力がない必要請にすぎないわけで、２割に達する未回答企業に対して、今後どう対応を～～,調整力がない必要性にすぎないわけで、２割に達する未回答企業に対して、今後どう対応を～～
-# coffee_break_parts_similar200505_003,西武鉄道に対しても、国土省としては他社同様に、安全面、サービス面でのチェック、政策金、各種補助制度の活用等を行っていきたいと……。,西武鉄道に対しても、国土省としては他社同様に、安全面、サービス面でのチェック、精算金、各種補助制度の活用等を行っていきたいと……。
-# coffee_break_parts_similar200506_001,らち外にあるという,拉致被害に遭っているという,「らちがい」と「拉致被害」の音が似ているため注意。
+# トピックのみを出力させたほうが良さそう
+# Envも必要だけど
 # coffee_break_parts_similar200506_002,かんじていたか,感じていたか,「かんじて」と「かんで」の発音が近い。,報道機関の会議で、番組制作局次長らの意見についての発言。,
 # -> たぶんLLM側での余計な補足
 # offee_break_parts_similar200506_003,逐一／政治絡みだ,逐次／政治家なんだ,「ちくいち」と「ちくじ」、「からみ」と「かなんだ」の混同に注意。,政治的な事案の経緯説明中の発言。複数箇所での聞き間違
 # -> LLMが省略した
+# <strong>遺漏のない</strong>考え方
+# <strong>色のない</strong>考え方で取り組む
+# <strong>遺漏のない</strong>考え方で取り組む
+# 全省庁が一緒になって、<strong>遺漏なきよう</strong>、議論漏れがなきように～～。
+# 全省庁が一緒になって、<strong>いろんな機能</strong>、議論漏れがなきように～～。全省庁が一緒になって、<strong>異論なきよう</strong>、議論漏れがなきように～～。
+# 全省庁が一緒になって、<strong>遺漏なきよう</strong>、議論漏れがなきように～～。
+# <br/> があるのが3例ある。
+
+st.button("ファイルを選択したら、送信ボタンを押してください。")
 
 if html_files and st.button("送信"):
     for html_i in html_files:
@@ -277,7 +273,9 @@ if html_files and st.button("送信"):
         # ここで差分のタグを除去しているよがよくない
         for tag in soup.find_all(True):
             if tag.name != "strong":
-                tag.unwrap()
+                # == 他のなにか
+                if tag.name != "br":
+                    tag.unwrap()
 
         clean_text = str(soup)
         tgt_tag_src_list = clean_text.split("【間違い】")
@@ -286,22 +284,18 @@ if html_files and st.button("送信"):
         text = ""
         # </br> があるケースはエラーになりうるので注意
         for idx, (tgt, src) in enumerate(tgt_src_list, start=1):
+            if "<br/>" in tgt:
+                st.warning(f"異聴事例 {idx} に <br/> が含まれています。手動で修正してください。\n File: {html_i.name}")
+            tgt.replace("<br/>","")
             src = src.strip()
             tgt = tgt.strip()
-            st.write(src)
-            st.write(tgt)
-            # if len(tgt.split("</br>") ) == 2:
-            #     st.write(tgt)
-            #     break
             src = apply_diff_protected(src, tgt)
-            st.write(src)
             x = f"事例 {idx}: <Src>{src}</Src><Tgt>{tgt}</Tgt></br>"
             text += x
         
         # 動作を保証するまでは保留
-        # st.code(text)
-        # st.write(text.replace("</br>", "\n\n").replace("</Src><Tgt>", "</Src>\n\n<Tgt>").replace("<S", "\n- <S").replace("<T", "- <T"))
-        continue
+        st.code(text)
+        st.write(text.replace("</br>", "\n\n").replace("</Src><Tgt>", "</Src>\n\n<Tgt>").replace("<S", "\n- <S").replace("<T", "- <T"))
 
         save_name = html_i.name.replace(".html", "")
         input_str = json.dumps({"text": text, "save_name": save_name, "save_dir": save_path}, ensure_ascii=False)
