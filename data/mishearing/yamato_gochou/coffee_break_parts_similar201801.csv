@@ -1,0 +1,11 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+coffee_break_parts_similar201801_001,ま、かなり公的,真っ赤な遺構的,「公的」と「遺構的」は音が似ている,会議中の発言を速記者が記録。発話者の「ま、かなり公的」を「真っ赤な遺構的」と誤記。文脈から公的が正しい。,True,coffee_break_parts_similar201801,N/A,不明,速記者,日本語,"['行政', '速記', '聞き間違い']",['文字起こし']
+coffee_break_parts_similar201801_002,デイ・バイ・デイ,ＤＶＤ,カタカナ英語の聞き間違いに注意,英語表現「デイ・バイ・デイ」を「ＤＶＤ」と誤記。会議の中での発言。,True,coffee_break_parts_similar201801,N/A,不明,速記者,日本語,"['ビジネス', '速記', '聞き間違い']",['文字起こし']
+coffee_break_parts_similar201801_003,政府オンライン,製本ライン,「政府」と「製本」、「オンライン」と「ライン」が類似,行政関連の会議で「政府オンライン」を「製本ライン」と誤記。文脈から明らかに誤り。,True,coffee_break_parts_similar201801,N/A,不明,速記者,日本語,"['行政', '速記', '聞き間違い']",['文字起こし']
+coffee_break_parts_similar201801_004,請求人,性急に,専門用語の聞き間違いに注意,法的文脈で「請求人」を「性急に」と誤記。専門用語の認識不足が原因。,True,coffee_break_parts_similar201801,N/A,不明,速記者,日本語,"['行政', '速記', '聞き間違い']",['文字起こし']
+coffee_break_parts_similar201801_005,３階建て,桟がでかい,数字表現と音の近い語の混同に注意,住宅の階数「３階建て」を「桟がでかい」と誤記。音の連続が原因。,True,coffee_break_parts_similar201801,N/A,不明,速記者,日本語,"['ビジネス', '速記', '聞き間違い']",['文字起こし']
+coffee_break_parts_similar201801_006,毎年,ま、一都市,「毎年」と「ま、一都市」の音の連続に注意,予算の話で「毎年」を「ま、一都市」と誤記。会議の流れで聞き取りミス。,True,coffee_break_parts_similar201801,N/A,不明,速記者,日本語,"['金融', '速記', '聞き間違い']",['文字起こし']
+coffee_break_parts_similar201801_007,量、質,良質,「量、質」と「良質」の連続音に注意,金融会議で「量、質」を「良質」と誤記。複数語の連続が一語に聞こえた。,True,coffee_break_parts_similar201801,N/A,不明,速記者,日本語,"['金融', '速記', '聞き間違い']",['文字起こし']
+coffee_break_parts_similar201801_008,任意化,認可,専門用語の聞き間違いに注意,行政会議で「任意化」を「認可」と誤記。意味が大きく異なるため注意。,True,coffee_break_parts_similar201801,N/A,不明,速記者,日本語,"['行政', '速記', '聞き間違い']",['文字起こし']
+coffee_break_parts_similar201801_009,現額,減額,「現額」と「減額」の音の近さに注意,予算関連の会議で「現額」を「減額」と誤記。文脈から誤りが明らか。,True,coffee_break_parts_similar201801,N/A,不明,速記者,日本語,"['金融', '速記', '聞き間違い']",['文字起こし']
+coffee_break_parts_similar201801_010,年換算,年間じゃん,「年換算」と「年間じゃん」の音の近さに注意,会議中の確認発言で「年換算？」を「年間じゃん？」と誤記。イントネーションの違いに注意。,True,coffee_break_parts_similar201801,N/A,不明,速記者,日本語,"['ビジネス', '速記', '聞き間違い']",['文字起こし']

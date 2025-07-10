@@ -1,0 +1,11 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+coffee_break_parts_similar201004_001,歩行者動線の考慮,歩行者同士の交流,「動線」と「同士の交流」は音が似ているため、文脈に注意。,行政説明会での発言。速記者が「動線」を「同士の交流」と誤記。,True,coffee_break_parts_similar201004,N/A,不明,速記者,日本語,"['行政', '公共事業', '速記']",['文字起こし']
+coffee_break_parts_similar201004_002,温めて,暖めて,「温めて」と「暖めて」は同音異義語。,会議中の発言。漢字変換の誤りによる聞き間違い。,True,coffee_break_parts_similar201004,N/A,不明,速記者,日本語,"['ビジネス', '速記']",['文字起こし']
+coffee_break_parts_similar201004_003,トリアージをして,とりあえずとして,医療用語「トリアージ」と日常語「とりあえず」は音が似ている。,災害医療の説明。専門用語の聞き間違い。,True,coffee_break_parts_similar201004,N/A,医療関係者,速記者,日本語,"['医療', '災害', '速記']",['文字起こし']
+coffee_break_parts_similar201004_004,健福と,県と,「健福」と「県」は音が近い。,行政機関の略称（健康福祉部）と都道府県の聞き間違い。,True,coffee_break_parts_similar201004,N/A,行政担当者,速記者,日本語,"['行政', '医療', '速記']",['文字起こし']
+coffee_break_parts_similar201004_005,住民の署名の,住民、庶民の,「署名の」と「庶民の」は音が似ている。,議会での発言。速記者が「署名の」を「庶民の」と誤記。,True,coffee_break_parts_similar201004,N/A,議員,速記者,日本語,"['議会', '行政', '速記']",['文字起こし']
+coffee_break_parts_similar201004_006,身分保障的,身分保証的,「保障」と「保証」は意味が異なるので注意。,報酬制度の議論。漢字変換の誤り。,True,coffee_break_parts_similar201004,N/A,行政担当者,速記者,日本語,"['行政', 'ビジネス', '速記']",['文字起こし']
+coffee_break_parts_similar201004_007,重症患者,重傷患者,医療用語「重症」と「重傷」は意味が異なる。,医療現場での発言。専門用語の混同。,True,coffee_break_parts_similar201004,N/A,医療関係者,速記者,日本語,"['医療', '速記']",['文字起こし']
+coffee_break_parts_similar201004_008,不妊治療,国に治療,「不妊」と「国に」は音が似ている。,医療政策の説明。速記者が「不妊」を「国に」と誤記。,True,coffee_break_parts_similar201004,N/A,医療関係者,速記者,日本語,"['医療', '行政', '速記']",['文字起こし']
+coffee_break_parts_similar201004_009,地方分権意識,地方分権指揮,「意識」と「指揮」は音が似ている。,行政改革の議論。速記者が「意識」を「指揮」と誤記。,True,coffee_break_parts_similar201004,N/A,行政担当者,速記者,日本語,"['行政', '速記']",['文字起こし']
+coffee_break_parts_similar201004_010,同様に」「詰めて,どのように」「進めて,「同様に」と「どのように」、「詰めて」と「進めて」は音が似ている。,政府の方針説明。速記者が複数箇所で聞き間違い。,True,coffee_break_parts_similar201004,N/A,政府関係者,速記者,日本語,"['行政', 'ビジネス', '速記']",['文字起こし']

@@ -1,0 +1,11 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+coffee_break_parts_similar200503_001,遺志を継いで,意思を継いで,「遺志」と「意思」は意味が異なる,会見や議会での発言を速記者が記録。発話者は外交官の死を悼みつつ復興への意志を語っているが、「遺志（故人の思い）」と「意思（意志）」を混同。文脈上は「遺志」が正しい。,True,coffee_break_parts_similar200503,N/A,不明,速記者,日本語,"['政治', '行政', '速記']",['文字起こし']
+coffee_break_parts_similar200503_002,信義的に,心理的に,「信義的」と「心理的」は全く別語,行政会議での発言。信義（信頼や誠実さ）を問う文脈で「心理的（mental）」と誤記。意味が大きく異なるため注意が必要。,True,coffee_break_parts_similar200503,N/A,不明,速記者,日本語,"['行政', '速記']",['文字起こし']
+coffee_break_parts_similar200503_003,添付している,チェックしている,「添付」と「チェック」は作業が異なる,会議資料説明時の発言。資料の内容説明で「添付（付け加える）」を「チェック（確認する）」と誤記。作業内容が異なるため誤解を招く。,True,coffee_break_parts_similar200503,N/A,不明,速記者,日本語,"['ビジネス', '速記']",['文字起こし']
+coffee_break_parts_similar200503_004,を移管する,に関する,「移管する」と「に関する」は意味が違う,福祉関連の会議。業務の「移管（transfer）」を「に関する（about）」と誤記。具体的な行動と一般的な話題の違い。,True,coffee_break_parts_similar200503,N/A,不明,速記者,日本語,"['行政', '福祉', '速記']",['文字起こし']
+coffee_break_parts_similar200503_005,寄与はゼロ,費用はゼロ,「寄与」と「費用」は全く異なる意味,インフラ関連の会議。道路の「寄与（contribution）」を「費用（cost）」と誤記。数値の意味が変わるため注意。,True,coffee_break_parts_similar200503,N/A,不明,速記者,日本語,"['行政', 'インフラ', '速記']",['文字起こし']
+coffee_break_parts_similar200503_006,調査不足も,調査部局も,「調査不足」と「調査部局」は異なる,会議での説明。自社の「調査不足（lack）」を「調査部局（department）」と誤記。意味が大きく異なる。,True,coffee_break_parts_similar200503,N/A,不明,速記者,日本語,"['ビジネス', '速記']",['文字起こし']
+coffee_break_parts_similar200503_007,締結国会議、閣僚級会議,締結国会、閣僚会議,「締結国会議」と「締結国会」は異なる,国際会議の出席報告。正式名称の誤記。「締結国会議（Conference of the Parties）」が正しい。,True,coffee_break_parts_similar200503,N/A,不明,速記者,日本語,"['政治', '国際', '速記']",['文字起こし']
+coffee_break_parts_similar200503_008,経営悪化の要因,契約下の要因,「経営悪化」と「契約下」は意味が異なる,企業再生の議論。経営悪化（business deterioration）を契約下（under contract）と誤記。文脈が大きく変わる。,True,coffee_break_parts_similar200503,N/A,不明,速記者,日本語,"['ビジネス', '金融', '速記']",['文字起こし']
+coffee_break_parts_similar200503_009,強制力がない要請,調整力がない必要性,「強制力がない要請」と「調整力がない必要性」は異なる,行政指導の説明。「強制力がない要請（non-binding request）」を「調整力がない必要性（lack of coordination）」と誤記。意味が大きく異なる。,True,coffee_break_parts_similar200503,N/A,不明,速記者,日本語,"['行政', 'ビジネス', '速記']",['文字起こし']
+coffee_break_parts_similar200503_010,当該年,当概念,「当該年」と「当概念」は意味が異なる,財務関連の説明。「当該年（the year in question）」を「当概念（the concept）」と誤記。日付の意味が変わる。,True,coffee_break_parts_similar200503,N/A,不明,速記者,日本語,"['金融', '行政', '速記']",['文字起こし']
