@@ -1717,3 +1717,621 @@ YOUTH_SLANG,ja,若者スラング
 YOUTH_SLANG,en,youth slang
 MATERIAL,ja,材料
 MATERIAL,en,material
+YAKYUU,ja,野球
+YAKYUU,en,baseball
+STUDENT,ja,学生
+STUDENT,en,student
+OUTDOOR,ja,屋外
+OUTDOOR,en,outdoor
+BATHING,ja,入浴
+BATHING,en,bathing
+EKIDEN,ja,駅伝
+EKIDEN,en,ekiden
+SHOKUBAJO,ja,職場
+SHOKUBAJO,en,workplace
+BUSINESS_CONVERSATION,ja,ビジネス会話
+BUSINESS_CONVERSATION,en,business conversation
+GAICHU,ja,害虫
+GAICHU,en,pest
+SHOKUDOU,ja,食堂
+SHOKUDOU,en,dining hall
+EIGA,ja,映画
+EIGA,en,movie
+KIKIMANIGAI,ja,言い間違い
+KIKIMANIGAI,en,misstatement
+FAMOUS_PERSON,ja,有名人
+FAMOUS_PERSON,en,famous person
+GAIKOKUGO_TITLE,ja,外国語のタイトル
+GAIKOKUGO_TITLE,en,foreign language title
+SENKYO,ja,選挙
+SENKYO,en,election
+HIGH_SCHOOL_STUDENT,ja,高校生
+HIGH_SCHOOL_STUDENT,en,high school student
+AUDIO,ja,音声
+AUDIO,en,audio
+SHIMETA,ja,湿った
+SHIMETA,en,damp
+TRAFFIC_INFORMATION,ja,交通情報
+TRAFFIC_INFORMATION,en,traffic information
+HIMOBOGOSHA,ja,誤語の受け手
+HIMOBOGOSHA,en,mishearing recipient
+FUKU,ja,服
+FUKU,en,clothing
+KAIGI,ja,会議
+KAIGI,en,meeting
+NICHOH_KAIWA,ja,日常会話
+NICHOH_KAIWA,en,daily conversation
+FASHION,ja,ファッション
+FASHION,en,fashion
+SHUKUDAI,ja,宿題
+SHUKUDAI,en,homework
+CAR_INTERIOR,ja,車内
+CAR_INTERIOR,en,car interior
+EIGAKAN,ja,映画館
+EIGAKAN,en,movie theater
+BASU,ja,バス
+BASU,en,bus
+KANYU,ja,勧誘
+KANYU,en,solicitation
+DOON_IIGIGO,ja,同音異義語
+DOON_IIGIGO,en,homonym
+HOUGEN,ja,方言
+HOUGEN,en,dialect
+RYOKAN,ja,旅館
+RYOKAN,en,Japanese inn
+EXHIBITION,ja,展示会
+EXHIBITION,en,exhibition
+KURUMA,ja,車
+KURUMA,en,car
+INRYOU,ja,飲料
+INRYOU,en,beverage
+JIDAIGEKI,ja,時代劇
+JIDAIGEKI,en,period drama
+EIKAIWA,ja,英会話
+EIKAIWA,en,English conversation
+KOTOBA_ASOBI,ja,言葉遊び
+KOTOBA_ASOBI,en,word play
+REPORT,ja,報告
+REPORT,en,report
+SHOKUBAJOU,ja,職場上
+SHOKUBAJOU,en,on the job
+COMEDIAN,ja,芸人
+COMEDIAN,en,comedian
+DETO,ja,デート
+DETO,en,date
+ELEVATOR,ja,エレベーター
+ELEVATOR,en,elevator
+NENSHI,ja,年始
+NENSHI,en,New Year
+EDUCATION_SITE,ja,教育現場
+EDUCATION_SITE,en,educational setting
+PROPOSE,ja,プロポーズ
+PROPOSE,en,proposal
+NICHJO,ja,日常
+NICHJO,en,daily life
+SHIMONETA,ja,下ネタ
+SHIMONETA,en,dirty joke
+KANSAIBEN,ja,関西弁
+KANSAIBEN,en,Kansai dialect
+DAIETTO,ja,ダイエット
+DAIETTO,en,diet
+HOKEN,ja,保険
+HOKEN,en,insurance
+WORKSITE,ja,作業現場
+WORKSITE,en,worksite
+SUPA-,ja,スーパー
+SUPA-,en,supermarket
+HOUSEWIFE,ja,主婦
+HOUSEWIFE,en,housewife
+ONGAKU,ja,音楽
+ONGAKU,en,music
+LIFE,ja,生活
+LIFE,en,life
+TETSURO,ja,鉄道
+TETSURO,en,railway
+MICHIANNAI,ja,道案内
+MICHIANNAI,en,directions
+SURYOU_HYOUJUN,ja,数量・基準
+SURYOU_HYOUJUN,en,quantity/standard
+TENRAN_KAI,ja,展覧会
+TENRAN_KAI,en,art exhibition
+BODY_PART,ja,身体部位
+BODY_PART,en,body part
+SHOGAKUSEI,ja,小学生
+SHOGAKUSEI,en,elementary student
+YU-MOA,ja,ユーモア
+YU-MOA,en,humor
+ASTRONOMY,ja,天文学
+ASTRONOMY,en,astronomy
+GAKKO,ja,学校
+GAKKO,en,school
+DOBUTSU,ja,動物
+DOBUTSU,en,animal
+SEIBUTSU,ja,生物
+SEIBUTSU,en,organism
+IIMANEGAI,ja,言いま願い
+IIMANEGAI,en,wish phrased wrongly
+BENKYO,ja,勉強
+BENKYO,en,study
+WAGASHI,ja,和菓子
+WAGASHI,en,Japanese sweets
+WORLD_HERITAGE,ja,世界遺産
+WORLD_HERITAGE,en,World Heritage
+ZODIAC,ja,十二支
+ZODIAC,en,zodiac
+NYUSU,ja,ニュース
+NYUSU,en,news
+DEPARTMENT_STORE,ja,デパート
+DEPARTMENT_STORE,en,department store
+SHOHINMEI,ja,商品名
+SHOHINMEI,en,product name
+TSUKKIN,ja,通勤
+TSUKKIN,en,commuting
+EKIMEI,ja,駅名
+EKIMEI,en,station name
+KAPPURU,ja,カップル
+KAPPURU,en,couple
+BYOKI,ja,病気
+BYOKI,en,illness
+TAISO,ja,体操
+TAISO,en,gymnastics
+TSUKIN,ja,通勤
+TSUKIN,en,commute
+HONYA,ja,本屋
+HONYA,en,bookstore
+PARKING_LOT,ja,駐車場
+PARKING_LOT,en,parking lot
+DENSHA,ja,電車
+DENSHA,en,train
+KOUTSUU,ja,交通
+KOUTSUU,en,transportation
+INTERCULTURAL_COMMUNICATION,ja,異文化コミュニケーション
+INTERCULTURAL_COMMUNICATION,en,intercultural communication
+YAKYU,ja,野球
+YAKYU,en,baseball
+MAIL_ORDER,ja,通販
+MAIL_ORDER,en,mail order
+KANTUGAI,ja,勘違い
+KANTUGAI,en,misunderstanding
+HIMOGO_SPEAKER,ja,誤語話者
+HIMOGO_SPEAKER,en,mispronouncer
+KIKIMANEGAI,ja,聞き間願い
+KIKIMANEGAI,en,wish on mishearing
+STATION_TRANSPORT,ja,駅・交通
+STATION_TRANSPORT,en,station/transport
+IIMACHI,ja,言い間違い
+IIMACHI,en,misstatement
+SIBLINGS,ja,兄弟姉妹
+SIBLINGS,en,siblings
+BIYOUSHITSU,ja,美容室
+BIYOUSHITSU,en,beauty salon
+KAMIDANA,ja,神棚
+KAMIDANA,en,household altar
+SAKKAA,ja,サッカー
+SAKKAA,en,soccer
+COMPANY,ja,会社
+COMPANY,en,company
+ZASSHI,ja,雑誌
+ZASSHI,en,magazine
+TITLE,ja,タイトル
+TITLE,en,title
+JYUTAKU,ja,住宅
+JYUTAKU,en,housing
+SEIKATSU,ja,生活
+SEIKATSU,en,life
+TEACHER,ja,教師
+TEACHER,en,teacher
+BOOKSTORE,ja,書店
+BOOKSTORE,en,bookstore
+PET_SHOP,ja,ペットショップ
+PET_SHOP,en,pet shop
+QUIZ,ja,クイズ
+QUIZ,en,quiz
+DESAIN,ja,デザイン
+DESAIN,en,design
+TENJIKAI,ja,展示会
+TENJIKAI,en,exhibition
+KATAKANAGO,ja,カタカナ語
+KATAKANAGO,en,katakana word
+DAIGAKU,ja,大学
+DAIGAKU,en,university
+KASHI,ja,歌詞
+KASHI,en,lyrics
+KIKIMANAE,ja,聞きまない
+KIKIMANAE,en,failure to hear
+GEINOU,ja,芸能
+GEINOU,en,entertainment
+SYOKUTAKU,ja,食卓
+SYOKUTAKU,en,dinner table
+R_SHITEI,ja,R指定
+R_SHITEI,en,R-rated
+SHUKATSU,ja,就活
+SHUKATSU,en,job hunting
+KOUKYOUNOBA,ja,公共の場
+KOUKYOUNOBA,en,public space
+EKI,ja,駅
+EKI,en,station
+IIMANIGAI,ja,言い間違い
+IIMANIGAI,en,verbal mistake
+TENKI,ja,天気
+TENKI,en,weather
+KAKIKOMACHI,ja,書き込み待ち
+KAKIKOMACHI,en,waiting to be filled
+IIMACHIGAI,ja,言い間違い
+IIMACHIGAI,en,slip of the tongue
+BIYOIN,ja,病院
+BIYOIN,en,hospital
+SYOKUJI,ja,食事
+SYOKUJI,en,meal
+BAND_NAME,ja,バンド名
+BAND_NAME,en,band name
+CHUMON,ja,注文
+CHUMON,en,order
+CLASSROOM,ja,教室
+CLASSROOM,en,classroom
+SENMON_YOGO,ja,専門用語
+SENMON_YOGO,en,technical term
+IIMATUGAI,ja,言い間違い
+IIMATUGAI,en,verbal slip
+PROGRAM_NAME,ja,番組名
+PROGRAM_NAME,en,program name
+GEONAME_PERSONNAME,ja,地名・人名
+GEONAME_PERSONNAME,en,geographical/person name
+VALENTINE,ja,バレンタイン
+VALENTINE,en,Valentine's Day
+PERSONAL_COMPUTER,ja,パソコン
+PERSONAL_COMPUTER,en,personal computer
+KIKIMAECHIGAI,ja,聞き間違い
+KIKIMAECHIGAI,en,mishearing
+IGAKU_YOUGO,ja,医学用語
+IGAKU_YOUGO,en,medical term
+OYAKO,ja,親子
+OYAKO,en,parent and child
+ART,ja,アート
+ART,en,art
+HITORIGOTO,ja,独り言
+HITORIGOTO,en,monologue
+YAOYA,ja,八百屋
+YAOYA,en,greengrocer
+HANKAGAI,ja,繁華街
+HANKAGAI,en,shopping district
+ANNAUNSU,ja,アナウンス
+ANNAUNSU,en,announcement
+ADJECTIVE,ja,形容詞
+ADJECTIVE,en,adjective
+DRUGSTORE,ja,ドラッグストア
+DRUGSTORE,en,drugstore
+SHOSEKI,ja,書籍
+SHOSEKI,en,book
+PROGRAM_INTRODUCTION,ja,番組紹介
+PROGRAM_INTRODUCTION,en,program introduction
+RESUTORAN,ja,レストラン
+RESUTORAN,en,restaurant
+BUKATSU,ja,部活
+BUKATSU,en,club activity
+SOUND_SIMILARITY,ja,音の類似
+SOUND_SIMILARITY,en,sound similarity
+CHUGAKUSEI,ja,中学生
+CHUGAKUSEI,en,junior high student
+JAM,ja,ジャム
+JAM,en,jam
+COMMERCIAL,ja,コマーシャル
+COMMERCIAL,en,commercial
+MEDIA,ja,メディア
+MEDIA,en,media
+VIDEO_TEN,ja,映像点
+VIDEO_TEN,en,video segment
+TOMODACHI,ja,友達
+TOMODACHI,en,friend
+HIMOGO_SHAKUSHA,ja,誤語釈者
+HIMOGO_SHAKUSHA,en,misinterpretation agent
+IIIMACHIGAI,ja,言い間違い
+IIIMACHIGAI,en,slip of the tongue
+UKETSUKE,ja,受付
+UKETSUKE,en,reception
+RENAI,ja,恋愛
+RENAI,en,romance
+KOTSU,ja,コツ
+KOTSU,en,knack
+KOUKYOU_ANNOUNCE,ja,公共アナウンス
+KOUKYOU_ANNOUNCE,en,public announcement
+IIMAECHIGAI,ja,言い間違え違い
+IIMAECHIGAI,en,wrong mishearing
+NANGO,ja,難語
+NANGO,en,difficult word
+DOKUSHO,ja,読書
+DOKUSHO,en,reading
+SHOKUTAKU,ja,食卓
+SHOKUTAKU,en,dining table
+HAPPYOKAI,ja,発表会
+HAPPYOKAI,en,recital
+FOOD_BEVERAGE,ja,食べ物・飲み物
+FOOD_BEVERAGE,en,food & beverage
+KANJI,ja,漢字
+KANJI,en,kanji
+YOJI,ja,四字熟語
+YOJI,en,yoji-jukugo
+TSUUKIN,ja,通勤
+TSUUKIN,en,commuting
+MARRIED_COUPLE,ja,夫婦
+MARRIED_COUPLE,en,married couple
+GAKUSEI,ja,学生
+GAKUSEI,en,student
+TOOL,ja,道具
+TOOL,en,tool
+ASA,ja,朝
+ASA,en,morning
+INDUSTRY_JARGON,ja,業界用語
+INDUSTRY_JARGON,en,industry jargon
+DENCHI,ja,電池
+DENCHI,en,battery
+ZATSUDAN,ja,雑談
+ZATSUDAN,en,chat
+ANOUNSU,ja,アナウンス
+ANOUNSU,en,announcement
+PHILOSOPHY,ja,哲学
+PHILOSOPHY,en,philosophy
+ENGETSUBU,ja,演劇部
+ENGETSUBU,en,drama club
+HOMONYM,ja,同音異義語
+HOMONYM,en,homonym
+CLERK,ja,店員
+CLERK,en,clerk
+AKACHAN,ja,赤ちゃん
+AKACHAN,en,baby
+KOUKYOUTSUUKOU,ja,公共通行
+KOUKYOUTSUUKOU,en,public traffic
+INSHOKU,ja,飲食
+INSHOKU,en,eating and drinking
+KOKKAI,ja,国会
+KOKKAI,en,national diet
+SUGAKU,ja,数学
+SUGAKU,en,mathematics
+YUUJIN,ja,友人
+YUUJIN,en,friend
+KOIBITO,ja,恋人
+KOIBITO,en,lover
+GINKO,ja,銀行
+GINKO,en,bank
+KOKYO_KOTSU,ja,公共交通
+KOKYO_KOTSU,en,public transport
+ANNOUNCE,ja,アナウンス
+ANNOUNCE,en,announcement
+LIVE,ja,ライブ
+LIVE,en,live
+KONBINI,ja,コンビニ
+KONBINI,en,convenience store
+HIMOYO_WASESHA,ja,誤用和製者
+HIMOYO_WASESHA,en,misuser of wasei-go
+BUS_STOP,ja,バス停
+BUS_STOP,en,bus stop
+DOUWA,ja,童話
+DOUWA,en,fairy tale
+GOLF,ja,ゴルフ
+GOLF,en,golf
+GENDAIGO,ja,現代語
+GENDAIGO,en,modern Japanese
+DOUON_IIGI_GO,ja,同音異義語
+DOUON_IIGI_GO,en,homonym
+ONSEI,ja,音声
+ONSEI,en,sound
+KAZOKU_YUJIN,ja,家族・友人
+KAZOKU_YUJIN,en,family/friends
+JYUSHO,ja,住所
+JYUSHO,en,address
+DAILY,ja,日常
+DAILY,en,daily
+KITCHEN,ja,キッチン
+KITCHEN,en,kitchen
+HIMOGO_WASHA,ja,誤語話者
+HIMOGO_WASHA,en,mispronouncer
+LAW,ja,法律
+LAW,en,law
+KIMETSU_NO_YAIBA,ja,鬼滅の刃
+KIMETSU_NO_YAIBA,en,Demon Slayer
+HOME_APPLIANCE,ja,家電
+HOME_APPLIANCE,en,home appliance
+HIMOGOHAWASHA,ja,誤語派話者
+HIMOGOHAWASHA,en,variant mispronouncer
+AGRICULTURE,ja,農業
+AGRICULTURE,en,agriculture
+HISTORICAL_PROGRAM,ja,歴史番組
+HISTORICAL_PROGRAM,en,historical program
+RAJIO,ja,ラジオ
+RAJIO,en,radio
+IWATE_BEN,ja,岩手弁
+IWATE_BEN,en,Iwate dialect
+READING_MISTAKE,ja,読み間違い
+READING_MISTAKE,en,reading error
+OTONA,ja,大人
+OTONA,en,adult
+SHOKUJI,ja,食事
+SHOKUJI,en,meal
+TENPO,ja,店舗
+TENPO,en,store
+NENMATSU_NENSHI,ja,年末年始
+NENMATSU_NENSHI,en,year-end and New Year
+SHOKUBUTSU,ja,植物
+SHOKUBUTSU,en,plant
+SHUNOU,ja,収納
+SHUNOU,en,storage
+SHOUHIN,ja,商品
+SHOUHIN,en,product
+KAZOKU,ja,家族
+KAZOKU,en,family
+WEDDING,ja,結婚式
+WEDDING,en,wedding
+ECHO,ja,エコー
+ECHO,en,echo
+PARK,ja,公園
+PARK,en,park
+DRAWING,ja,絵
+DRAWING,en,drawing
+STARBUCKS,ja,スターバックス
+STARBUCKS,en,Starbucks
+UNCLEAR_PRONUNCIATION,ja,不明瞭な発音
+UNCLEAR_PRONUNCIATION,en,unclear pronunciation
+SAKEBIGOE,ja,叫び声
+SAKEBIGOE,en,scream
+JUGYOU,ja,授業
+JUGYOU,en,class
+SUIZOKUKAN,ja,水族館
+SUIZOKUKAN,en,aquarium
+BIJUTSU,ja,美術
+BIJUTSU,en,art
+RYAKUSHOU,ja,略称
+RYAKUSHOU,en,abbreviation
+NICHO- KAIWA,ja,日常会話
+NICHO- KAIWA,en,daily conversation
+GEINO,ja,芸能
+GEINO,en,entertainment
+YUJIN,ja,友人
+YUJIN,en,friend
+TENKIPYOHO,ja,天気予報
+TENKIPYOHO,en,weather forecast
+KOYUU_MEISHI,ja,固有名詞
+KOYUU_MEISHI,en,proper noun
+MISPRONUNCIATION,ja,発音ミス
+MISPRONUNCIATION,en,mispronunciation
+SACCA,ja,作家
+SACCA,en,author
+KARAOKE,ja,カラオケ
+KARAOKE,en,karaoke
+BEAUTY,ja,美
+BEAUTY,en,beauty
+HIMOBOGO_WASEISHA,ja,誤母語和製者
+HIMOBOGO_WASEISHA,en,wasei-go speaker with L1 interference
+FORMAL,ja,フォーマル
+FORMAL,en,formal
+LOVER,ja,恋人
+LOVER,en,lover
+SHINBUN,ja,新聞
+SHINBUN,en,newspaper
+RYOURI,ja,料理
+RYOURI,en,cooking
+LAW_FIRM,ja,法律事務所
+LAW_FIRM,en,law firm
+FURO,ja,風呂
+FURO,en,bath
+GARAIGO,ja,外来語
+GARAIGO,en,loanword
+IIMATSUGAI,ja,言い間違い
+IIMATSUGAI,en,verbal slip
+KARADA,ja,身体
+KARADA,en,body
+AWARD_CEREMONY,ja,授賞式
+AWARD_CEREMONY,en,award ceremony
+AISATSU,ja,挨拶
+AISATSU,en,greeting
+SHOKUHIN,ja,食品
+SHOKUHIN,en,food
+KONSATO,ja,コンサート
+KONSATO,en,concert
+NYUUSU,ja,ニュース
+NYUUSU,en,news
+NOIZU,ja,ノイズ
+NOIZU,en,noise
+TETSUDOU,ja,鉄道
+TETSUDOU,en,railway
+GYMNASIUM,ja,体育館
+GYMNASIUM,en,gymnasium
+R_RESTRICTED,ja,R指定
+R_RESTRICTED,en,R-rated
+OKUGAI,ja,屋外
+OKUGAI,en,outdoors
+ENKAI,ja,宴会
+ENKAI,en,banquet
+SUPPORT_CENTER,ja,支援センター
+SUPPORT_CENTER,en,support center
+IIMANAE,ja,言い間え
+IIMANAE,en,misutterance
+IT_YOGO,ja,IT用語
+IT_YOGO,en,IT term
+KYOSHITSU,ja,教室
+KYOSHITSU,en,classroom
+YOUTIEN,ja,幼稚園
+YOUTIEN,en,kindergarten
+TENRANKAI,ja,展覧会
+TENRANKAI,en,exhibition
+CONCERT,ja,コンサート
+CONCERT,en,concert
+TOUKOU,ja,投稿
+TOUKOU,en,submission
+CELEBRITY_NAME,ja,著名人名
+CELEBRITY_NAME,en,celebrity name
+KOKUYUMEISHI,ja,固有名詞
+KOKUYUMEISHI,en,proper noun
+DRIVING_LICENSE_CENTER,ja,運転免許センター
+DRIVING_LICENSE_CENTER,en,driving license center
+CRAM_SCHOOL,ja,塾
+CRAM_SCHOOL,en,cram school
+CALL_NAME,ja,呼び名
+CALL_NAME,en,name used
+NEBOKE,ja,寝ぼけ
+NEBOKE,en,grogginess
+HANA,ja,花
+HANA,en,flower
+SHIKITEN,ja,式典
+SHIKITEN,en,ceremony
+ONIGIRI,ja,おにぎり
+ONIGIRI,en,rice ball
+YUUMEIJIN,ja,有名人
+YUUMEIJIN,en,famous person
+CHOREI,ja,朝礼
+CHOREI,en,morning assembly
+BOOK,ja,本
+BOOK,en,book
+NICHIJO_KAIWA,ja,日常会話
+NICHIJO_KAIWA,en,daily conversation
+TELEVISION_PROGRAM,ja,テレビ番組
+TELEVISION_PROGRAM,en,TV program
+AMOUNT_OF_MONEY,ja,金額
+AMOUNT_OF_MONEY,en,amount of money
+NICHIJO,ja,日常
+NICHIJO,en,daily life
+KOUKYOU,ja,公共
+KOUKYOU,en,public
+SHIMAI,ja,姉妹
+SHIMAI,en,sisters
+ILLNESS,ja,病気
+ILLNESS,en,illness
+MORNING,ja,朝
+MORNING,en,morning
+HIMOGOHAKI,ja,誤語吐き
+HIMOGOHAKI,en,misspeaker
+ROJO,ja,路上
+ROJO,en,on the street
+SHANAI,ja,車内
+SHANAI,en,inside car
+GYOKAI_YOGO,ja,業界用語
+GYOKAI_YOGO,en,industry term
+KAIWA,ja,会話
+KAIWA,en,conversation
+TEREBI,ja,テレビ
+TEREBI,en,television
+TETSUDO,ja,鉄道
+TETSUDO,en,railroad
+TRAIN,ja,列車
+TRAIN,en,train
+MOBILE_PHONE,ja,携帯電話
+MOBILE_PHONE,en,mobile phone
+TEREBI_BANGUMI,ja,テレビ番組
+TEREBI_BANGUMI,en,TV show
+KAJI,ja,家事
+KAJI,en,housework
+HOUSOU,ja,放送
+HOUSOU,en,broadcast
+SYOKUBA,ja,職場
+SYOKUBA,en,workplace
+FOREIGN_NAME,ja,外国名
+FOREIGN_NAME,en,foreign name
+MOUNTAINEERING,ja,登山
+MOUNTAINEERING,en,mountaineering
+EXAMINATION,ja,試験
+EXAMINATION,en,examination
+SHOKUBAI,ja,職場
+SHOKUBAI,en,workplace
+KOUHAKU_UTA_GASSEN,ja,紅白歌合戦
+KOUHAKU_UTA_GASSEN,en,Kouhaku Uta Gassen
+RYOKO,ja,旅行
+RYOKO,en,travel

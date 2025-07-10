@@ -1437,3 +1437,1336 @@ ANIME,ja,アニメ
 ANIME,en,anime
 MOVIE,ja,映画
 MOVIE,en,movie
+PC_WORKING,ja,PC作業中
+PC_WORKING,en,PC working
+CONVENIENCE_STORE_REGISTER,ja,コンビニレジ
+CONVENIENCE_STORE_REGISTER,en,convenience store register
+NEW_EMPLOYEE,ja,新入社員
+NEW_EMPLOYEE,en,new employee
+NERVES,ja,神経
+NERVES,en,nerves
+TRAINING_CAMP,ja,合宿
+TRAINING_CAMP,en,training camp
+DOCUMENT,ja,文書
+DOCUMENT,en,document
+PLACE_DRUGSTORE,ja,ドラッグストア
+PLACE_DRUGSTORE,en,drugstore
+STUDENT,ja,学生
+STUDENT,en,student
+BATHING,ja,入浴
+BATHING,en,bathing
+EKIDEN,ja,駅伝
+EKIDEN,en,ekiden
+COMMUTE_SUBWAY_PLATFORM,ja,通勤地下鉄ホーム
+COMMUTE_SUBWAY_PLATFORM,en,commute subway platform
+SURROUNDING_TALKING_PRESENT,ja,周囲の会話あり
+SURROUNDING_TALKING_PRESENT,en,surrounding talking present
+STUDYING,ja,勉強中
+STUDYING,en,studying
+SOUNON,ja,騒音
+SOUNON,en,noise
+HOME_DINING_TABLE,ja,家庭の食卓
+HOME_DINING_TABLE,en,home dining table
+CONVERSATION_DISTANCE,ja,会話距離
+CONVERSATION_DISTANCE,en,conversation distance
+KYODAI_KAN,ja,兄弟間
+KYODAI_KAN,en,between siblings
+UNIVERSITY_SEMINAR,ja,大学セミナー
+UNIVERSITY_SEMINAR,en,university seminar
+HOME_TV_CONVERSATION,ja,家庭のテレビ会話
+HOME_TV_CONVERSATION,en,home TV conversation
+SCHOOL_CLASSROOM_QUIET_TEACHER_STUDENT_INTERACTION,ja,学校教室静かな教師生徒のやり取り
+SCHOOL_CLASSROOM_QUIET_TEACHER_STUDENT_INTERACTION,en,school classroom quiet teacher-student interaction
+LATE_NIGHT,ja,深夜
+LATE_NIGHT,en,late night
+SENSEI_TO_SEITO,ja,先生と生徒
+SENSEI_TO_SEITO,en,teacher and student
+HOME_KITCHEN,ja,家庭のキッチン
+HOME_KITCHEN,en,home kitchen
+RUNNING_NOISE,ja,走行ノイズ
+RUNNING_NOISE,en,running noise
+CHAPEL,ja,礼拝堂
+CHAPEL,en,chapel
+HAHA_MUSUME_NO_KAIWA,ja,母娘の会話
+HAHA_MUSUME_NO_KAIWA,en,mother-daughter conversation
+AUDIO,ja,音声
+AUDIO,en,audio
+IN_BUS_ANNOUNCEMENT,ja,バス内アナウンス
+IN_BUS_ANNOUNCEMENT,en,in-bus announcement
+SAKANA_YA,ja,魚屋
+SAKANA_YA,en,fish shop
+TRAFFIC_INFORMATION,ja,交通情報
+TRAFFIC_INFORMATION,en,traffic information
+HOME_OR_PUBLIC_SPACE,ja,家庭または公共の場所
+HOME_OR_PUBLIC_SPACE,en,home or public space
+CONSTRUCTION_SITE_OFFICE,ja,建設現場オフィス
+CONSTRUCTION_SITE_OFFICE,en,construction site office
+FM,ja,FM
+FM,en,FM
+SNOW,ja,雪
+SNOW,en,snow
+HOME_PARENT_CHILD_CONVERSATION_QUIET_ENVIRONMENT,ja,家庭親子会話静かな環境
+HOME_PARENT_CHILD_CONVERSATION_QUIET_ENVIRONMENT,en,home parent-child conversation quiet environment
+NAP,ja,昼寝
+NAP,en,nap
+ONLY_OTHER_PERSON_VOICE,ja,他人の声のみ
+ONLY_OTHER_PERSON_VOICE,en,"only other person's voice"
+COMPUTER_WORK,ja,コンピュータ作業
+COMPUTER_WORK,en,computer work
+SENMENJO,ja,洗面所
+SENMENJO,en,washroom
+PLACE_MEAL_SCENE,ja,食事シーン
+PLACE_MEAL_SCENE,en,meal scene
+BENKYO_CHU,ja,勉強中
+BENKYO_CHU,en,studying
+HOME_COUPLE_CONVERSATION_QUIET_ROOM,ja,家庭夫婦会話静かな部屋
+HOME_COUPLE_CONVERSATION_QUIET_ROOM,en,home couple conversation quiet room
+NATURAL_VOICE_NO_MIC,ja,自然な声マイクなし
+NATURAL_VOICE_NO_MIC,en,natural voice no mic
+MOVIE_CM,ja,映画CM
+MOVIE_CM,en,movie commercial
+ANNOUNCEMENT_AREA,ja,アナウンスエリア
+ANNOUNCEMENT_AREA,en,announcement area
+HOUSE,ja,家
+HOUSE,en,house
+CD_SHOP,ja,CDショップ
+CD_SHOP,en,CD shop
+WAKING_UP,ja,目覚め
+WAKING_UP,en,waking up
+QUIZ_SHOW,ja,クイズ番組
+QUIZ_SHOW,en,quiz show
+NAGOYA_DIALECT,ja,名古屋弁
+NAGOYA_DIALECT,en,Nagoya dialect
+NOISE_MEAL_SOUND,ja,ノイズ食事音
+NOISE_MEAL_SOUND,en,noise meal sound
+TV_HOME_CONVERSATION_QUIET_ROOM_TV_AUDIO,ja,テレビ家庭会話静かな部屋テレビ音声
+TV_HOME_CONVERSATION_QUIET_ROOM_TV_AUDIO,en,TV home conversation quiet room TV audio
+SISTERS,ja,姉妹
+SISTERS,en,sisters
+AFTER_BATH,ja,入浴後
+AFTER_BATH,en,after bath
+COOKING_BACKGROUND_NOISE,ja,料理背景ノイズ
+COOKING_BACKGROUND_NOISE,en,cooking background noise
+NOISE_YES_CONVERSATION,ja,ノイズあり会話
+NOISE_YES_CONVERSATION,en,noise yes conversation
+WATCHING_MOVIE,ja,映画鑑賞
+WATCHING_MOVIE,en,watching movie
+PHONE_OR_TAIMEN_KAIWA,ja,電話または対面会話
+PHONE_OR_TAIMEN_KAIWA,en,phone or face-to-face conversation
+SOUKOUCHUU,ja,走行中
+SOUKOUCHUU,en,in transit
+STAFF_ROOM,ja,スタッフルーム
+STAFF_ROOM,en,staff room
+SUPERMARKET_REGISTER,ja,スーパーマーケットレジ
+SUPERMARKET_REGISTER,en,supermarket register
+OUTDOOR_LUXURY_HOUSING_AREA_WALK,ja,屋外高級住宅地散歩
+OUTDOOR_LUXURY_HOUSING_AREA_WALK,en,outdoor luxury housing area walk
+EXHIBITION,ja,展示会
+EXHIBITION,en,exhibition
+SCHOOL_CAFETERIA,ja,学校の食堂
+SCHOOL_CAFETERIA,en,school cafeteria
+KAZOKU_KAIWA,ja,家族会話
+KAZOKU_KAIWA,en,family conversation
+NOISE_MUMBLING_IN_STORE,ja,ノイズ店内つぶやき
+NOISE_MUMBLING_IN_STORE,en,noise mumbling in store
+PAKKEJI,ja,パッケージ
+PAKKEJI,en,package
+NOISE_NOSE_BLOCKAGE,ja,ノイズ鼻づまり
+NOISE_NOSE_BLOCKAGE,en,noise nose blockage
+MICROPHONE,ja,マイク
+MICROPHONE,en,microphone
+BEFORE_LUNCH,ja,昼食前
+BEFORE_LUNCH,en,before lunch
+SLIGHT_NOISE,ja,わずかな雑音
+SLIGHT_NOISE,en,slight noise
+COOKING_SOUND_NARRATION_PRESENT,ja,料理音とナレーションあり
+COOKING_SOUND_NARRATION_PRESENT,en,cooking sound with narration
+CAR_NOISE_PRESENT,ja,車の走行音あり
+CAR_NOISE_PRESENT,en,car noise present
+EXPRESS_TRAIN_INTERIOR,ja,特急列車の車内
+EXPRESS_TRAIN_INTERIOR,en,inside express train
+HOME_COUPLE_CONVERSATION_AFTER_RETURN_HOME_FAMILY_NOISE,ja,帰宅後の夫婦の会話・家庭内の生活音
+HOME_COUPLE_CONVERSATION_AFTER_RETURN_HOME_FAMILY_NOISE,en,"conversation between couple at home after returning, with family noise"
+TEACHER,ja,教師
+TEACHER,en,teacher
+SCHOOL_LUNCH_ANNOUNCEMENT,ja,学校の給食アナウンス
+SCHOOL_LUNCH_ANNOUNCEMENT,en,school lunch announcement
+DROWSY_STATE,ja,眠気のある状態
+DROWSY_STATE,en,drowsy state
+BACKGROUND_NOISE,ja,背景雑音
+BACKGROUND_NOISE,en,background noise
+ILLNESS_RECOVERY,ja,病後の回復期
+ILLNESS_RECOVERY,en,recovery from illness
+PAMPHLET,ja,パンフレット
+PAMPHLET,en,pamphlet
+CURTAIN,ja,カーテン
+CURTAIN,en,curtain
+COMMUNICATION_NOISE,ja,通信ノイズ
+COMMUNICATION_NOISE,en,communication noise
+SHIZUKA,ja,静
+SHIZUKA,en,Shizuka
+FLYER,ja,チラシ
+FLYER,en,flyer
+WORKPLACE_OFFICE,ja,職場（オフィス）
+WORKPLACE_OFFICE,en,workplace (office)
+SPEAKER,ja,スピーカー
+SPEAKER,en,speaker
+CLASSMATE,ja,クラスメート
+CLASSMATE,en,classmate
+FIGURE_SKATING,ja,フィギュアスケート
+FIGURE_SKATING,en,figure skating
+DENGON,ja,伝言
+DENGON,en,message
+RETURN_HOME,ja,帰宅中
+RETURN_HOME,en,returning home
+YOKUSHITSU,ja,浴室
+YOKUSHITSU,en,bathroom
+PUB,ja,居酒屋
+PUB,en,izakaya (Japanese pub)
+CAR_INTERIOR_HIGHWAY_DRIVING,ja,高速道路走行中の車内
+CAR_INTERIOR_HIGHWAY_DRIVING,en,inside car during highway driving
+DENSHA_NAI,ja,電車内
+DENSHA_NAI,en,inside train
+STUDENTS,ja,学生たち
+STUDENTS,en,students
+NOISE_NONE,ja,雑音なし
+NOISE_NONE,en,no noise
+UNKNOWN_AUDIO_MEDIA_NOISY,ja,不明な音声メディア（騒がしい）
+UNKNOWN_AUDIO_MEDIA_NOISY,en,unknown audio media (noisy)
+FRIEND_CONVERSATION,ja,友人との会話
+FRIEND_CONVERSATION,en,conversation with friend
+CHUMONJI,ja,注文時
+CHUMONJI,en,at the time of ordering
+SOLEMN_PLACE,ja,厳粛な場所
+SOLEMN_PLACE,en,solemn place
+AUDIO_SCREEN,ja,音声付き画面
+AUDIO_SCREEN,en,audio screen
+SPORTS_BROADCAST,ja,スポーツ中継
+SPORTS_BROADCAST,en,sports broadcast
+HON_O_YONDE_ITA,ja,本を読んでいた
+HON_O_YONDE_ITA,en,was reading a book
+COLLEAGUE,ja,同僚
+COLLEAGUE,en,colleague
+WORKPLACE_LUNCH_BREAK,ja,職場の昼休み
+WORKPLACE_LUNCH_BREAK,en,workplace lunch break
+COMPANY_WORKPLACE,ja,会社の職場
+COMPANY_WORKPLACE,en,company workplace
+CHILDREN_TALK,ja,子供たちの会話
+CHILDREN_TALK,en,children talking
+MIC_USE,ja,マイク使用あり
+MIC_USE,en,microphone used
+CAR_INSIDE_DRIVING_RADIO_CAR_NOISE,ja,運転中の車内・ラジオと走行音あり
+CAR_INSIDE_DRIVING_RADIO_CAR_NOISE,en,inside car while driving with radio and car noise
+ANNAUNSU,ja,アナウンス
+ANNAUNSU,en,announcement
+BAITO,ja,バイト
+BAITO,en,part-time job
+NEWS_VIEWING,ja,ニュース視聴
+NEWS_VIEWING,en,watching news
+FEVER,ja,発熱
+FEVER,en,fever
+WASHOKUTEN,ja,和食店
+WASHOKUTEN,en,Japanese restaurant
+KEKKONSHIKI,ja,結婚式
+KEKKONSHIKI,en,wedding ceremony
+NOISE_YES_PHONE,ja,雑音あり・電話
+NOISE_YES_PHONE,en,noise present (phone)
+NOISE_TV_AUDIO,ja,テレビ音あり
+NOISE_TV_AUDIO,en,TV audio present
+GETTING_READY,ja,準備中
+GETTING_READY,en,getting ready
+NOISE_PROGRAM_AUDIO,ja,番組音声の雑音
+NOISE_PROGRAM_AUDIO,en,noise from program audio
+KAISEN,ja,回線
+KAISEN,en,line (connection)
+ATTENDANCE,ja,出席
+ATTENDANCE,en,attendance
+SURROUNDING_NOISE_PRESENT,ja,周囲に雑音あり
+SURROUNDING_NOISE_PRESENT,en,surrounding noise present
+RYOKAN_FRONT_CHECKIN_CONVERSATION,ja,旅館のフロントでのチェックイン会話
+RYOKAN_FRONT_CHECKIN_CONVERSATION,en,check-in conversation at ryokan front desk
+MAKEUP,ja,化粧
+MAKEUP,en,makeup
+BUS_INNER_ANNOUNCEMENT_PASSENGER,ja,バス車内アナウンスと乗客の声
+BUS_INNER_ANNOUNCEMENT_PASSENGER,en,bus announcement and passenger voice
+MEAL_TIME,ja,食事の時間
+MEAL_TIME,en,meal time
+TRAIN_PUBLIC_TRANSPORTATION_SURROUNDING_NOISE,ja,公共交通機関（電車）・周囲の雑音あり
+TRAIN_PUBLIC_TRANSPORTATION_SURROUNDING_NOISE,en,train public transportation with surrounding noise
+SEIKATU_ON_ARI,ja,生活音あり
+SEIKATU_ON_ARI,en,living noise present
+CAR_NAI,ja,車内
+CAR_NAI,en,inside car
+NOISE_TELEVISION_AUDIO,ja,テレビの音
+NOISE_TELEVISION_AUDIO,en,television audio
+NOISE_CONVERSATION,ja,会話の雑音
+NOISE_CONVERSATION,en,conversation noise
+MENKYO_CENTER,ja,免許センター
+MENKYO_CENTER,en,licensing center
+COUPLE,ja,カップル
+COUPLE,en,couple
+VENUE,ja,会場
+VENUE,en,venue
+BUS_STOP,ja,バス停
+BUS_STOP,en,bus stop
+TRAIN_INDOOR_ANNOUNCEMENT_NOISE,ja,車内アナウンスと雑音
+TRAIN_INDOOR_ANNOUNCEMENT_NOISE,en,indoor train announcement with noise
+WAREHOUSE,ja,倉庫
+WAREHOUSE,en,warehouse
+HOME_OR_KARAOKE,ja,自宅またはカラオケ
+HOME_OR_KARAOKE,en,home or karaoke
+HEADPHONES,ja,ヘッドホン
+HEADPHONES,en,headphones
+DAIGAKU,ja,大学
+DAIGAKU,en,university
+CHANGING_ROOM,ja,更衣室
+CHANGING_ROOM,en,changing room
+COLLEAGUE_CONVERSATION,ja,同僚との会話
+COLLEAGUE_CONVERSATION,en,conversation with colleague
+CAFE_ETC,ja,カフェなど
+CAFE_ETC,en,cafe etc.
+NOIZU_ARI,ja,ノイズあり
+NOIZU_ARI,en,noise present
+DISTRACTED,ja,注意散漫
+DISTRACTED,en,distracted
+MIC_SPECS_NONE,ja,マイク仕様なし
+MIC_SPECS_NONE,en,no mic specs
+ONSEI_NOMI,ja,音声のみ
+ONSEI_NOMI,en,voice only
+MULTITASKING_LISTENING,ja,ながら聞き
+MULTITASKING_LISTENING,en,listening while multitasking
+SEASON_CHRISTMAS,ja,季節：クリスマス
+SEASON_CHRISTMAS,en,season: Christmas
+AWARD_CEREMONY,ja,表彰式
+AWARD_CEREMONY,en,award ceremony
+CIRCLE_EVENT,ja,サークルのイベント
+CIRCLE_EVENT,en,circle event
+TAIMEN_KAIWA,ja,対面会話
+TAIMEN_KAIWA,en,face-to-face conversation
+BOXING,ja,ボクシング
+BOXING,en,boxing
+INU,ja,犬
+INU,en,dog
+NOUKYOU,ja,農協
+NOUKYOU,en,agricultural cooperative
+CHUUMONJI,ja,注文時
+CHUUMONJI,en,at time of ordering
+ENGLISH_CONVERSATION_CLASS,ja,英会話教室
+ENGLISH_CONVERSATION_CLASS,en,English conversation class
+SHOKUBAN,ja,職場の晩
+SHOKUBAN,en,evening at workplace
+DRAMA,ja,ドラマ
+DRAMA,en,drama
+KOUHOU_MUSEN_NO_SPEAKER_ONSHITSU,ja,広報無線のスピーカー音質
+KOUHOU_MUSEN_NO_SPEAKER_ONSHITSU,en,public announcement speaker sound quality
+CONVERSATION_WITH_FRIENDS,ja,友人との会話
+CONVERSATION_WITH_FRIENDS,en,conversation with friends
+HOME_PHONE,ja,家庭用電話
+HOME_PHONE,en,home phone
+HIGHWAY,ja,高速道路
+HIGHWAY,en,highway
+SHIKEN_KAIJO,ja,試験会場
+SHIKEN_KAIJO,en,exam venue
+CEREMONY,ja,式典
+CEREMONY,en,ceremony
+AUDIENCE_SEATING,ja,観客席
+AUDIENCE_SEATING,en,audience seating
+SHUSHOKU_ORIENTATION,ja,就職説明会
+SHUSHOKU_ORIENTATION,en,job hunting orientation
+IWATE_BEN,ja,岩手弁
+IWATE_BEN,en,Iwate dialect
+GENERAL_RADIO,ja,一般的なラジオ
+GENERAL_RADIO,en,general radio
+SCHOOL_CORRIDOR_CONVERSATION_NOISE,ja,学校の廊下での会話・雑音
+SCHOOL_CORRIDOR_CONVERSATION_NOISE,en,school corridor conversation with noise
+BUS_INTERIOR,ja,バスの車内
+BUS_INTERIOR,en,bus interior
+SEJUTSUCHU,ja,施術中
+SEJUTSUCHU,en,during treatment
+HOT_SPRING,ja,温泉
+HOT_SPRING,en,hot spring
+SLEEPING,ja,就寝中
+SLEEPING,en,sleeping
+SEIKATSU_ON_ESTIMATED,ja,生活音（推定）
+SEIKATSU_ON_ESTIMATED,en,estimated living noise
+DURING_MEAL,ja,食事中
+DURING_MEAL,en,during meal
+OFFICE_PHONE_OR_FACE_TO_FACE_QUIET_ENVIRONMENT,ja,静かな環境での電話・対面
+OFFICE_PHONE_OR_FACE_TO_FACE_QUIET_ENVIRONMENT,en,quiet environment (phone or face-to-face)
+CD,ja,CD
+CD,en,CD
+YUJIN_DOUSHI,ja,友人同士
+YUJIN_DOUSHI,en,friends
+STAFF_AND_CUSTOMERS,ja,店員と客
+STAFF_AND_CUSTOMERS,en,staff and customers
+CHILD_VOICE,ja,子どもの声
+CHILD_VOICE,en,child voice
+SCHOOL_CLASSROOM,ja,学校の教室
+SCHOOL_CLASSROOM,en,school classroom
+LOCAL_NEWS,ja,ローカルニュース
+LOCAL_NEWS,en,local news
+PARTY_VENUE_CONSIDERATION,ja,パーティー会場・配慮あり
+PARTY_VENUE_CONSIDERATION,en,party venue with consideration
+NOISE_TRAFFIC_SOUND,ja,交通騒音
+NOISE_TRAFFIC_SOUND,en,traffic noise
+BUS_INTERIOR_CONVERSATION_BACKGROUND_TALK,ja,バス内の会話と周囲の話し声
+BUS_INTERIOR_CONVERSATION_BACKGROUND_TALK,en,conversation and background talk in bus
+WATCHING_LIPS,ja,口元を見ている
+WATCHING_LIPS,en,watching lips
+HANDICRAFT_IN_PROGRESS_ATTENTION_DIVERTED,ja,手作業中で注意が散漫
+HANDICRAFT_IN_PROGRESS_ATTENTION_DIVERTED,en,handicraft in progress with attention diverted
+SEPARATE_PLACE,ja,別の場所
+SEPARATE_PLACE,en,separate place
+MOUNTAINEERING,ja,登山
+MOUNTAINEERING,en,mountaineering
+MIC_USED,ja,マイク使用
+MIC_USED,en,mic used
+GYMNASIUM,ja,体育館
+GYMNASIUM,en,gymnasium
+LOW_NOISE,ja,雑音が少ない
+LOW_NOISE,en,low noise
+GAKUSEI_DOUSHI_NO_KAIWA,ja,学生同士の会話
+GAKUSEI_DOUSHI_NO_KAIWA,en,conversation among students
+WORKPLACE_PHONE_OFFICE,ja,職場の電話（オフィス）
+WORKPLACE_PHONE_OFFICE,en,workplace phone (office)
+WORK_YAOYAMA_FRONT,ja,職場（八百屋の店頭）
+WORK_YAOYAMA_FRONT,en,workplace (vegetable store front)
+NEWSPAPER,ja,新聞
+NEWSPAPER,en,newspaper
+DROWSY,ja,眠い
+DROWSY,en,drowsy
+LUNCH,ja,昼食
+LUNCH,en,lunch
+WEEDING,ja,草取り
+WEEDING,en,weeding
+MIC_NONE,ja,マイクなし
+MIC_NONE,en,no mic
+JUGYO,ja,授業
+JUGYO,en,class
+SUBWAY_PLATFORM,ja,地下鉄のホーム
+SUBWAY_PLATFORM,en,subway platform
+KATEI_YO_PHONE_ESTIMATED,ja,家庭用電話（推定）
+KATEI_YO_PHONE_ESTIMATED,en,home phone (estimated)
+MANSION,ja,マンション
+MANSION,en,apartment building
+SNACK_CORNER,ja,スナックコーナー
+SNACK_CORNER,en,snack corner
+FIXED_PHONE_RECEIVER,ja,固定電話の受話器
+FIXED_PHONE_RECEIVER,en,fixed phone receiver
+SEIKATSU_SHIDOU,ja,生活指導
+SEIKATSU_SHIDOU,en,life guidance
+WORK_CLOTHES,ja,作業着
+WORK_CLOTHES,en,work clothes
+MOBILE_VENDING_ANNOUNCEMENT,ja,移動販売のアナウンス
+MOBILE_VENDING_ANNOUNCEMENT,en,mobile vending announcement
+KAIMONO,ja,買い物
+KAIMONO,en,shopping
+AFTER_SCHOOL,ja,放課後
+AFTER_SCHOOL,en,after school
+NOISE_QUIET,ja,静か
+NOISE_QUIET,en,quiet
+DAIDOKORO,ja,台所
+DAIDOKORO,en,kitchen
+RELATIVES,ja,親戚
+RELATIVES,en,relatives
+WORKPLACE_MOBILE_PHONE_SETTINGS,ja,職場の携帯設定
+WORKPLACE_MOBILE_PHONE_SETTINGS,en,workplace mobile phone settings
+MIC_VOICE,ja,マイクの音声
+MIC_VOICE,en,mic voice
+IN_HOUSE_BROADCAST_MICROPHONE,ja,館内放送のマイク
+IN_HOUSE_BROADCAST_MICROPHONE,en,in-house broadcast microphone
+INSIDE_TRAIN,ja,電車内
+INSIDE_TRAIN,en,inside train
+GAKKO_MATAWA_NICHIJO,ja,学校または日常
+GAKKO_MATAWA_NICHIJO,en,school or daily life
+COIN_CAR_WASH,ja,コイン洗車場
+COIN_CAR_WASH,en,coin car wash
+TV_VIEWING_BOXING_BROADCAST_HOME_TV_AUDIO,ja,ボクシング中継視聴中・家庭のテレビ音
+TV_VIEWING_BOXING_BROADCAST_HOME_TV_AUDIO,en,watching boxing broadcast at home with TV audio
+CAR_RADIO,ja,車のラジオ
+CAR_RADIO,en,car radio
+CONVERSATION_FRIENDS,ja,友人との会話
+CONVERSATION_FRIENDS,en,conversation with friends
+DEPARTMENT_STORE_ANNOUNCEMENT_NOISY_INDOOR_BROADCAST_MIC,ja,デパートのアナウンス・屋内で雑音あり
+DEPARTMENT_STORE_ANNOUNCEMENT_NOISY_INDOOR_BROADCAST_MIC,en,"department store announcement, noisy indoor broadcast mic"
+TAKUSHI_NAI,ja,タクシー内
+TAKUSHI_NAI,en,inside taxi
+LOCAL,ja,ローカル
+LOCAL,en,local
+STUDY,ja,勉強
+STUDY,en,study
+CNN,ja,CNN
+CNN,en,CNN
+KATADUKECHU,ja,片付け中
+KATADUKECHU,en,cleaning up
+YUSHOKU,ja,夕食
+YUSHOKU,en,dinner
+WASHROOM,ja,洗面所
+WASHROOM,en,washroom
+SEMINAR_CAMP,ja,セミナー合宿
+SEMINAR_CAMP,en,seminar camp
+PUBLIC_TRANSPORT,ja,公共交通機関
+PUBLIC_TRANSPORT,en,public transportation
+COMPANY_OFFICE_CONVERSATION_QUIET_ENVIRONMENT,ja,会社のオフィス・静かな環境での会話
+COMPANY_OFFICE_CONVERSATION_QUIET_ENVIRONMENT,en,company office conversation in a quiet environment
+VALENTINE,ja,バレンタイン
+VALENTINE,en,Valentine
+HOME_OR_FRIENDS_HOUSE,ja,自宅または友人宅
+HOME_OR_FRIENDS_HOUSE,en,home or friend's house
+HOME_MEAL,ja,家庭での食事
+HOME_MEAL,en,meal at home
+NOISE_TV_SOUND,ja,テレビの音
+NOISE_TV_SOUND,en,TV sound
+TRAFFIC_JAM,ja,渋滞
+TRAFFIC_JAM,en,traffic jam
+FAST_FOOD_RESTAURANT,ja,ファストフード店
+FAST_FOOD_RESTAURANT,en,fast food restaurant
+RADIO_BROADCAST_NEWS_QUIET_ROOM_STANDARD_MIC,ja,ラジオニュース（静かな部屋・標準マイク）
+RADIO_BROADCAST_NEWS_QUIET_ROOM_STANDARD_MIC,en,"radio news (quiet room, standard mic)"
+CHILDREN,ja,子どもたち
+CHILDREN,en,children
+DOING_HOUSEWORK,ja,家事中
+DOING_HOUSEWORK,en,doing housework
+CHANGING_CLOTHES,ja,着替え中
+CHANGING_CLOTHES,en,changing clothes
+TALK,ja,会話
+TALK,en,talk
+THEATER_PHONE,ja,劇場での電話
+THEATER_PHONE,en,phone in theater
+NOISE_NORMAL_IN_STORE,ja,店内の通常の雑音
+NOISE_NORMAL_IN_STORE,en,normal in-store noise
+SLIGHTLY_NOISY,ja,やや騒がしい
+SLIGHTLY_NOISY,en,slightly noisy
+OUTDOOR_CONCERT,ja,屋外コンサート
+OUTDOOR_CONCERT,en,outdoor concert
+DEPARTMENT_STORE_PARKING_LOT,ja,デパートの駐車場
+DEPARTMENT_STORE_PARKING_LOT,en,department store parking lot
+OFFICE_ROOM,ja,オフィスの部屋
+OFFICE_ROOM,en,office room
+ONSEI_KANKYO,ja,音声環境
+ONSEI_KANKYO,en,audio environment
+SHI_NO_KOUHOU_MUSEN,ja,市の広報無線
+SHI_NO_KOUHOU_MUSEN,en,municipal public announcement
+INSIDE_ANNOUNCEMENT,ja,館内アナウンス
+INSIDE_ANNOUNCEMENT,en,inside announcement
+NOISY_LOADING_WORK,ja,荷下ろし作業の騒音
+NOISY_LOADING_WORK,en,noisy loading work
+LIVING_SOUND,ja,生活音
+LIVING_SOUND,en,living sound
+MIC_BROADCAST,ja,マイクによる放送
+MIC_BROADCAST,en,mic broadcast
+GROUP_HEALTH_CHECKUP,ja,集団健康診断
+GROUP_HEALTH_CHECKUP,en,group health checkup
+TRAIN_TOZAI_LINE,ja,東西線の電車
+TRAIN_TOZAI_LINE,en,Tozai line train
+YAKINIKU_RESTAURANT_FOOD_SERVICE_STAFF_CUSTOMER_INDOOR_NOISE,ja,焼肉店・店員と客・店内騒音
+YAKINIKU_RESTAURANT_FOOD_SERVICE_STAFF_CUSTOMER_INDOOR_NOISE,en,"yakiniku restaurant, staff and customer, indoor noise"
+LOCAL_PEOPLE,ja,地元の人々
+LOCAL_PEOPLE,en,local people
+SHOKUBA,ja,職場
+SHOKUBA,en,workplace
+UNIVERSITY,ja,大学
+UNIVERSITY,en,university
+LIFE_NOISE,ja,生活雑音
+LIFE_NOISE,en,life noise
+NORMAL_SPEECH,ja,通常の会話
+NORMAL_SPEECH,en,normal speech
+MUSIC_PLAYING,ja,音楽再生中
+MUSIC_PLAYING,en,music playing
+AUDIO_VIDEO,ja,音声・映像
+AUDIO_VIDEO,en,audio/video
+BABY,ja,赤ちゃん
+BABY,en,baby
+TV_CM_BGM,ja,テレビCMのBGM
+TV_CM_BGM,en,TV commercial BGM
+SHOKUJI_CHUU,ja,食事中
+SHOKUJI_CHUU,en,during meal
+QUIET_CLASSROOM,ja,静かな教室
+QUIET_CLASSROOM,en,quiet classroom
+LOVER,ja,恋人
+LOVER,en,lover
+TRAIN_ANNOUNCEMENT,ja,電車内アナウンス
+TRAIN_ANNOUNCEMENT,en,train announcement
+NOISY_CROWD,ja,騒がしい群衆
+NOISY_CROWD,en,noisy crowd
+DRIVING_NOISE,ja,運転中の騒音
+DRIVING_NOISE,en,driving noise
+MOM_FRIEND_HOME,ja,母親とその友人の家
+MOM_FRIEND_HOME,en,mother and friend’s home
+BREAKFAST,ja,朝食
+BREAKFAST,en,breakfast
+STORE_FRONT,ja,店舗前
+STORE_FRONT,en,store front
+JOHO_BANGUMI,ja,情報番組
+JOHO_BANGUMI,en,information program
+EVERYDAY,ja,日常
+EVERYDAY,en,everyday
+MULTIPLE_PEOPLE_NOISE,ja,複数人の雑音
+MULTIPLE_PEOPLE_NOISE,en,multiple people noise
+COMPANY_LUNCH_CONVERSATION,ja,会社の昼食中の会話
+COMPANY_LUNCH_CONVERSATION,en,company lunch conversation
+NOISY_CROWD_ESTIMATED,ja,騒がしい群衆（推定）
+NOISY_CROWD_ESTIMATED,en,noisy crowd (estimated)
+EIGO_STYLE_MISHEAR,ja,英語風の聞き間違い
+EIGO_STYLE_MISHEAR,en,mishearing in English style
+COLLEAGUES,ja,同僚たち
+COLLEAGUES,en,colleagues
+CD_SHOP_FRONT,ja,CDショップ前
+CD_SHOP_FRONT,en,in front of CD shop
+DINING_TABLE,ja,食卓
+DINING_TABLE,en,dining table
+NOISE_CLASSROOM_SOUND,ja,教室の雑音
+NOISE_CLASSROOM_SOUND,en,classroom noise
+KITCHEN_HOME_CONVERSATION,ja,家庭の台所での会話
+KITCHEN_HOME_CONVERSATION,en,conversation in home kitchen
+HEALTH_LAND,ja,ヘルスランド
+HEALTH_LAND,en,health spa
+WORKPLACE_PARTY_NOISY_MULTIPLE_PEOPLE_CONVERSATION_CHEERS,ja,職場の飲み会・騒がしい会話・乾杯
+WORKPLACE_PARTY_NOISY_MULTIPLE_PEOPLE_CONVERSATION_CHEERS,en,workplace party with noisy conversation and cheers
+LOW_VOICE,ja,小さい声
+LOW_VOICE,en,low voice
+WALK,ja,徒歩
+WALK,en,walking
+JOB_HUNTING,ja,就職活動
+JOB_HUNTING,en,job hunting
+HOME_PARENT_CHILD_CONVERSATION_QUIET_ROOM,ja,自宅・親子の会話・静かな部屋
+HOME_PARENT_CHILD_CONVERSATION_QUIET_ROOM,en,home - parent-child conversation - quiet room
+TV_AUDIO,ja,テレビ音声
+TV_AUDIO,en,TV audio
+PLACE_LAW_OFFICE,ja,法律事務所
+PLACE_LAW_OFFICE,en,law office
+ART_MUSEUM,ja,美術館
+ART_MUSEUM,en,art museum
+GAKKO,ja,学校
+GAKKO,en,school
+FAST_FOOD_RESTAURANT_NOISY_ORDER_COUNTER,ja,ファストフード店・騒がしい注文カウンター
+FAST_FOOD_RESTAURANT_NOISY_ORDER_COUNTER,en,fast food restaurant - noisy order counter
+TEREVI,ja,テレビ
+TEREVI,en,TV
+KANSAIBEN,ja,関西弁
+KANSAIBEN,en,Kansai dialect
+BATHTUB,ja,浴槽
+BATHTUB,en,bathtub
+TOKYO_METRO_BUS_INSIDE,ja,都バス車内
+TOKYO_METRO_BUS_INSIDE,en,Tokyo metro bus - inside
+KAWA,ja,川
+KAWA,en,river
+IN_FRONT_OF_TV,ja,テレビの前
+IN_FRONT_OF_TV,en,in front of TV
+EIGA_YOKOKUHEN,ja,映画予告編
+EIGA_YOKOKUHEN,en,movie trailer
+PUBLIC_SPACE,ja,公共空間
+PUBLIC_SPACE,en,public space
+GREETING,ja,あいさつ
+GREETING,en,greeting
+ORDERING,ja,注文
+ORDERING,en,ordering
+NOISE_PHONE_AUDIO,ja,ノイズ・電話音声
+NOISE_PHONE_AUDIO,en,noise - phone audio
+IN_FRONT_OF_EYEGLASS_SHOP,ja,メガネ屋の前
+IN_FRONT_OF_EYEGLASS_SHOP,en,in front of eyeglass shop
+WATCHING_NEWS,ja,ニュース視聴
+WATCHING_NEWS,en,watching news
+TV_SPEAKER,ja,テレビスピーカー
+TV_SPEAKER,en,TV speaker
+TSUJO_SEIKATSU_ON,ja,通常の生活音
+TSUJO_SEIKATSU_ON,en,usual household noise
+VIEWING,ja,視聴
+VIEWING,en,viewing
+GOVERNMENT_OFFICE,ja,役所
+GOVERNMENT_OFFICE,en,government office
+IN_TRAIN_ANNOUNCEMENT,ja,電車内アナウンス
+IN_TRAIN_ANNOUNCEMENT,en,in-train announcement
+KOHAKU_UTA_GASSEN,ja,紅白歌合戦
+KOHAKU_UTA_GASSEN,en,Kohaku Uta Gassen
+IZAKAYA_ORDERING_INDOOR_NOISE,ja,居酒屋・注文・店内騒音
+IZAKAYA_ORDERING_INDOOR_NOISE,en,izakaya - ordering - indoor noise
+LIVE_VOICE,ja,生の声
+LIVE_VOICE,en,live voice
+CONVERSATION_MIXED,ja,複数の会話が混ざった状態
+CONVERSATION_MIXED,en,mixed conversations
+HOME_COUPLE_CONVERSATION,ja,自宅・夫婦の会話
+HOME_COUPLE_CONVERSATION,en,home - couple conversation
+HOME_KITCHEN_LIVING_ROOM,ja,自宅・キッチン・リビング
+HOME_KITCHEN_LIVING_ROOM,en,home - kitchen/living room
+THROUGH_DOOR,ja,ドア越し
+THROUGH_DOOR,en,through the door
+ARUBAIT,ja,アルバイト
+ARUBAIT,en,part-time job
+MOVIE_TALK,ja,映画の話
+MOVIE_TALK,en,movie talk
+EKI_NO_MADOGUCHI,ja,駅の窓口
+EKI_NO_MADOGUCHI,en,station counter
+TRAIN_RUNNING_NOISE_PASSENGER_VOICE,ja,走行音と乗客の声（電車）
+TRAIN_RUNNING_NOISE_PASSENGER_VOICE,en,train running noise and passenger voice
+PUBLIC_ANNOUNCEMENT,ja,公共アナウンス
+PUBLIC_ANNOUNCEMENT,en,public announcement
+IE,ja,家
+IE,en,house
+COMMUTING_BY_BICYCLE,ja,自転車通勤
+COMMUTING_BY_BICYCLE,en,commuting by bicycle
+PARKING_LOT_ENVIRONMENTAL_SOUND,ja,駐車場の環境音
+PARKING_LOT_ENVIRONMENTAL_SOUND,en,parking lot environmental sound
+NYUUSU,ja,ニュース
+NYUUSU,en,news
+BUS_INSIDE,ja,バス車内
+BUS_INSIDE,en,inside a bus
+FRONT_DESK,ja,受付
+FRONT_DESK,en,front desk
+PHONE_HOME_AUDIO_ONLY_COMMUNICATION_NOISE,ja,電話（自宅）・音声のみ・通信ノイズあり
+PHONE_HOME_AUDIO_ONLY_COMMUNICATION_NOISE,en,phone (home) - audio only - communication noise
+TV_LIVING_BGM,ja,テレビ・リビング・BGM
+TV_LIVING_BGM,en,TV - living room - BGM
+STAIRS,ja,階段
+STAIRS,en,stairs
+NIKUSEI,ja,肉声
+NIKUSEI,en,human voice
+TV_AUDIO_ONLY,ja,テレビ音声のみ
+TV_AUDIO_ONLY,en,TV audio only
+SHIZUKANA_BASHO,ja,静かな場所
+SHIZUKANA_BASHO,en,quiet place
+LONG_DISTANCE,ja,遠距離
+LONG_DISTANCE,en,long distance
+CAR_EXHAUST_NOISE,ja,車の排気音
+CAR_EXHAUST_NOISE,en,car exhaust noise
+KUKO,ja,空港
+KUKO,en,airport
+LUNCH_BREAK,ja,昼休み
+LUNCH_BREAK,en,lunch break
+CLEANING,ja,掃除中
+CLEANING,en,cleaning
+WALKING,ja,歩行中
+WALKING,en,walking
+NORMAL_HOME_NOISE,ja,普通の家庭内の音
+NORMAL_HOME_NOISE,en,normal home noise
+SUPERMARKET_FOOD_SECTION_IN_STORE_NOISE,ja,スーパー・食品売り場・店内騒音
+SUPERMARKET_FOOD_SECTION_IN_STORE_NOISE,en,supermarket - food section - in-store noise
+PHONE_DEVICE,ja,電話機
+PHONE_DEVICE,en,phone device
+JUST_WOKEN_UP,ja,起きたばかり
+JUST_WOKEN_UP,en,just woken up
+NEXT_TO_EACH_OTHER_CONVERSATION,ja,隣同士の会話
+NEXT_TO_EACH_OTHER_CONVERSATION,en,conversation next to each other
+PIZZA_DELIVERY,ja,ピザ配達
+PIZZA_DELIVERY,en,pizza delivery
+RADIO_LISTENING,ja,ラジオを聴いている
+RADIO_LISTENING,en,listening to the radio
+CONCERT_KAIJO,ja,コンサート会場
+CONCERT_KAIJO,en,concert venue
+COMMERCIAL,ja,CM
+COMMERCIAL,en,commercial
+EXHIBITION_SITE,ja,展示会場
+EXHIBITION_SITE,en,exhibition site
+PARK,ja,公園
+PARK,en,park
+HOSOU,ja,放送
+HOSOU,en,broadcast
+QUIET_VENUE,ja,静かな会場
+QUIET_VENUE,en,quiet venue
+COMPUTER_WORKING,ja,パソコン作業中
+COMPUTER_WORKING,en,computer work
+NOISY_HOUSEWORK,ja,騒がしい家事中
+NOISY_HOUSEWORK,en,noisy housework
+REGISTER,ja,レジ
+REGISTER,en,cash register
+TV_AUDIO_NEWSPAPER,ja,テレビ・音声・新聞
+TV_AUDIO_NEWSPAPER,en,"TV, audio, and newspaper"
+RETAIL,ja,小売店
+RETAIL,en,retail store
+MOVIE_THEATER_ANNOUNCEMENT_FRIENDS,ja,映画館・アナウンス・友人との会話
+MOVIE_THEATER_ANNOUNCEMENT_FRIENDS,en,movie theater announcement with friends
+BUSINESS_USE,ja,業務利用
+BUSINESS_USE,en,business use
+UNKNOWN_CONVERSATION_DAILY_LIFE,ja,不明な日常会話
+UNKNOWN_CONVERSATION_DAILY_LIFE,en,unknown daily conversation
+DEPAATO,ja,デパート
+DEPAATO,en,department store
+SCHOOL_YARD,ja,校庭
+SCHOOL_YARD,en,schoolyard
+RADIO_HOSO,ja,ラジオ放送
+RADIO_HOSO,en,radio broadcast
+TAICHO_FUROU,ja,体調不良
+TAICHO_FUROU,en,feeling unwell
+YUJIN_DOSHI_NO_KAIWA,ja,友人同士の会話
+YUJIN_DOSHI_NO_KAIWA,en,conversation between friends
+SPEAKER_AUDIO,ja,スピーカー音声
+SPEAKER_AUDIO,en,speaker audio
+SAKESAKI,ja,酒席
+SAKESAKI,en,drinking party
+QUIET_AFTERNOON,ja,静かな午後
+QUIET_AFTERNOON,en,quiet afternoon
+BREAK_TIME,ja,休憩時間
+BREAK_TIME,en,break time
+GESEKI,ja,下席
+GESEKI,en,lower seat (possibly humble seating)
+MEDICAL_WORKPLACE,ja,医療現場
+MEDICAL_WORKPLACE,en,medical workplace
+PLACE_MOTHER_TO_MOTHER_CONVERSATION,ja,母親同士の会話
+PLACE_MOTHER_TO_MOTHER_CONVERSATION,en,conversation between mothers
+COOKING_SHOW,ja,料理番組
+COOKING_SHOW,en,cooking show
+ZATSUON_SHO,ja,雑音あり
+ZATSUON_SHO,en,with background noise
+BGM,ja,BGM
+BGM,en,background music
+PEDESTRIANS,ja,歩行者
+PEDESTRIANS,en,pedestrians
+KAZOKU_NO_KAIWA,ja,家族の会話
+KAZOKU_NO_KAIWA,en,family conversation
+CHEERING,ja,歓声
+CHEERING,en,cheering
+MUSIC_SOUND_EFFECTS_PRESENT,ja,音楽・効果音あり
+MUSIC_SOUND_EFFECTS_PRESENT,en,music and sound effects present
+IN_HOUSE_ANNOUNCEMENT,ja,館内放送
+IN_HOUSE_ANNOUNCEMENT,en,in-house announcement
+COLD,ja,風邪
+COLD,en,cold
+MORNING_MEETING,ja,朝礼
+MORNING_MEETING,en,morning meeting
+HOME_BREAKFAST_TIME_CONVERSATION_QUIET_ENVIRONMENT,ja,家庭内の朝食時・静かな会話
+HOME_BREAKFAST_TIME_CONVERSATION_QUIET_ENVIRONMENT,en,quiet breakfast-time conversation at home
+PEDESTRIAN_CROSSING,ja,横断歩道
+PEDESTRIAN_CROSSING,en,pedestrian crossing
+NOISE_INDOOR_NOISE,ja,屋内の騒音
+NOISE_INDOOR_NOISE,en,indoor noise
+FUFU,ja,夫婦
+FUFU,en,married couple
+MOBILE_OPERATION,ja,携帯操作中
+MOBILE_OPERATION,en,using mobile phone
+LOW_VOLUME,ja,小音量
+LOW_VOLUME,en,low volume
+UNKNOWN_OFFICE_ENVIRONMENT,ja,不明なオフィス環境
+UNKNOWN_OFFICE_ENVIRONMENT,en,unknown office environment
+BUSY_STREET_OUTDOOR_WALKING_SURROUNDING_NOISE,ja,混雑した通り・屋外・歩行・周囲の騒音
+BUSY_STREET_OUTDOOR_WALKING_SURROUNDING_NOISE,en,busy street outdoor walking with surrounding noise
+OFFICE_NOISE,ja,オフィスの騒音
+OFFICE_NOISE,en,office noise
+WORKSITE_CONSTRUCTION_COMPANY_RECEIPT_ISSUANCE_OFFICE,ja,工事会社・受付・事務所
+WORKSITE_CONSTRUCTION_COMPANY_RECEIPT_ISSUANCE_OFFICE,en,construction company office for receipt issuance
+IN_STORE_AMBIENT_NOISE,ja,店内の環境音
+IN_STORE_AMBIENT_NOISE,en,in-store ambient noise
+BEAUTY_SALON_INDOOR_CONVERSATION_BGM_DRYER_NOISE,ja,美容室・室内会話・BGM・ドライヤー音
+BEAUTY_SALON_INDOOR_CONVERSATION_BGM_DRYER_NOISE,en,beauty salon conversation with BGM and dryer noise
+CONCERT_DAY,ja,コンサートの日
+CONCERT_DAY,en,concert day
+MIC_TV_SPEAKER_LISTENER_EAR,ja,マイク・テレビ・スピーカー・聞き手の耳
+MIC_TV_SPEAKER_LISTENER_EAR,en,"mic, TV, speaker, and listener's ear"
+HOME_TV_WATCHING_NIGHT_HOME_TV_SPEAKER,ja,夜の家庭内テレビ視聴・スピーカー音
+HOME_TV_WATCHING_NIGHT_HOME_TV_SPEAKER,en,watching TV at night at home with speaker sound
+MULTIPLE_STUDENTS,ja,複数の学生
+MULTIPLE_STUDENTS,en,multiple students
+STAFF_CUSTOMER_CONVERSATION,ja,店員と客の会話
+STAFF_CUSTOMER_CONVERSATION,en,staff-customer conversation
+NO_BACKGROUND_NOISE,ja,背景雑音なし
+NO_BACKGROUND_NOISE,en,no background noise
+NOISE_IN_STORE,ja,店内騒音
+NOISE_IN_STORE,en,noise in store
+WITH_DRIVING_NOISE,ja,運転中の騒音あり
+WITH_DRIVING_NOISE,en,with driving noise
+LECTURE,ja,講義
+LECTURE,en,lecture
+IN_TRAIN_MIC,ja,電車内・マイク使用
+IN_TRAIN_MIC,en,in-train with microphone
+FUTON,ja,布団
+FUTON,en,futon
+WORKPLACE_OFFICE_COLLEAGUE_CONVERSATION_QUIET_ENVIRONMENT,ja,職場・同僚との会話・静かな環境
+WORKPLACE_OFFICE_COLLEAGUE_CONVERSATION_QUIET_ENVIRONMENT,en,quiet workplace conversation with colleague
+PARENT_AND_CHILD,ja,親子
+PARENT_AND_CHILD,en,parent and child
+MEMORIAL_SERVICE,ja,法事
+MEMORIAL_SERVICE,en,memorial service
+SITE_CARPENTER,ja,現場・大工
+SITE_CARPENTER,en,site carpenter
+MIC_SPECS_VOICE,ja,マイク・仕様・音声
+MIC_SPECS_VOICE,en,mic specs and voice
+BOOKSTORE,ja,書店
+BOOKSTORE,en,bookstore
+MIC,ja,マイク
+MIC,en,mic
+TV_CM_VIEWING,ja,テレビCM視聴
+TV_CM_VIEWING,en,watching TV commercials
+SHUUREI,ja,修礼（しゅうれい）
+SHUUREI,en,closing ceremony
+PLATFORM,ja,ホーム（駅）
+PLATFORM,en,platform
+HOME_OR_STUDY_ENVIRONMENT,ja,家庭または学習環境
+HOME_OR_STUDY_ENVIRONMENT,en,home or study environment
+WEATHER_FORECAST,ja,天気予報
+WEATHER_FORECAST,en,weather forecast
+INTERCOM_PHONE,ja,インターホン・電話
+INTERCOM_PHONE,en,intercom or phone
+HOME_OR_OUTDOOR,ja,自宅または屋外
+HOME_OR_OUTDOOR,en,home or outdoor
+ONSEI,ja,音声
+ONSEI,en,voice
+TALK_WITH_FRIENDS,ja,友人との会話
+TALK_WITH_FRIENDS,en,talking with friends
+SEMINAR_TRIP_LODGE_MOUNTAIN,ja,合宿・山小屋・セミナー
+SEMINAR_TRIP_LODGE_MOUNTAIN,en,seminar/trip/lodge/mountain
+YU_JIN_DOSHI_NO_KAIWA,ja,友人同士の会話
+YU_JIN_DOSHI_NO_KAIWA,en,conversation among friends
+TRAIN_INTERIOR,ja,電車内
+TRAIN_INTERIOR,en,inside train
+WAITING_FOR_TRAIN,ja,電車待ち
+WAITING_FOR_TRAIN,en,waiting for train
+NOISE_ARI,ja,騒音あり
+NOISE_ARI,en,with noise
+ELEMENTARY_SCHOOL,ja,小学校
+ELEMENTARY_SCHOOL,en,elementary school
+ESCALATOR,ja,エスカレーター
+ESCALATOR,en,escalator
+NOISE_AIRPORT,ja,空港の騒音
+NOISE_AIRPORT,en,airport noise
+NOISE_ARU,ja,ノイズあり
+NOISE_ARU,en,noise present
+FRIENDS_HOUSE,ja,友達の家
+FRIENDS_HOUSE,en,friend's house
+WEDDING_HALL,ja,結婚式場
+WEDDING_HALL,en,wedding hall
+CHUUMONSHO,ja,注文書
+CHUUMONSHO,en,order form
+TRAIN_PLATFORM,ja,電車のホーム
+TRAIN_PLATFORM,en,train platform
+FRANCE,ja,フランス
+FRANCE,en,France
+COMMUTER_TRAIN,ja,通勤電車
+COMMUTER_TRAIN,en,commuter train
+NOISE_NEWS_AUDIO,ja,ニュース音声のノイズ
+NOISE_NEWS_AUDIO,en,news audio noise
+GENERAL_TV,ja,一般的なテレビ
+GENERAL_TV,en,general TV
+BGM_NARRATION_PRESENT,ja,BGM・ナレーションあり
+BGM_NARRATION_PRESENT,en,background music/narration present
+KAISHA_NO_OFFICE,ja,会社のオフィス
+KAISHA_NO_OFFICE,en,office at company
+ZANGYOJI,ja,残業時
+ZANGYOJI,en,during overtime
+KOUSOKU_DOURO_SOUKOUCHUU,ja,高速道路走行中
+KOUSOKU_DOURO_SOUKOUCHUU,en,driving on highway
+SLIGHTLY_DIFFICULT_VOLUME,ja,やや聞き取りにくい音量
+SLIGHTLY_DIFFICULT_VOLUME,en,slightly difficult volume
+FOREIGNER,ja,外国人
+FOREIGNER,en,foreigner
+UNIVERSITY_CLASSROOM_BREAK_TIME_NOISY_FRIENDS_CONVERSATION,ja,大学教室・休み時間・友人同士の騒がしい会話
+UNIVERSITY_CLASSROOM_BREAK_TIME_NOISY_FRIENDS_CONVERSATION,en,university classroom break time noisy conversation
+SURROUNDING_TALKING,ja,周囲の会話
+SURROUNDING_TALKING,en,surrounding talking
+NOISE_RADIO_AUDIO,ja,ラジオ音声のノイズ
+NOISE_RADIO_AUDIO,en,radio audio noise
+INSIDE_STORE_NOISE,ja,店内の雑音
+INSIDE_STORE_NOISE,en,in-store noise
+BACKGROUND_MUSIC,ja,バックグラウンドミュージック
+BACKGROUND_MUSIC,en,background music
+KARAOKE_BAR,ja,カラオケバー
+KARAOKE_BAR,en,karaoke bar
+SURROUNDING_NOISE,ja,周囲の雑音
+SURROUNDING_NOISE,en,surrounding noise
+SIBLING,ja,兄弟姉妹
+SIBLING,en,sibling
+NICHIJOUSEIKATSUON,ja,日常生活音
+NICHIJOUSEIKATSUON,en,daily life sounds
+PENSION_FRONT,ja,ペンションのフロント
+PENSION_FRONT,en,pension front desk
+KOKYO_KOTSU_KIKAN,ja,公共交通機関
+KOKYO_KOTSU_KIKAN,en,public transportation
+AUDIO_MEDIA,ja,音声メディア
+AUDIO_MEDIA,en,audio media
+PLACE_CONVENIENCE_STORE,ja,コンビニ
+PLACE_CONVENIENCE_STORE,en,convenience store
+PLACE_HOME,ja,自宅
+PLACE_HOME,en,home
+QUIET,ja,静か
+QUIET,en,quiet
+OUTDOOR_FRIEND_STREET_WALKING,ja,屋外・友人・道を歩いている
+OUTDOOR_FRIEND_STREET_WALKING,en,outdoor with friend walking on street
+NOISE_COOKING_SOUND,ja,調理音あり
+NOISE_COOKING_SOUND,en,cooking noise present
+TENNAI_ANNOUNCE,ja,店内アナウンス
+TENNAI_ANNOUNCE,en,in-store announcement
+TEACHER_PRONUNCIATION,ja,教師の発音
+TEACHER_PRONUNCIATION,en,teacher pronunciation
+SHUUI_NI_HITO_ARI,ja,周囲に人あり
+SHUUI_NI_HITO_ARI,en,people around
+BOSS_AND_SUBORDINATE,ja,上司と部下
+BOSS_AND_SUBORDINATE,en,boss and subordinate
+PHONE_INQUIRY_COURIER_COMPANY,ja,宅配会社への電話問い合わせ
+PHONE_INQUIRY_COURIER_COMPANY,en,phone inquiry to courier company
+PRESENTATION_MEETING,ja,発表・会議
+PRESENTATION_MEETING,en,presentation/meeting
+UNKNOWN_HOME_ENVIRONMENT,ja,不明な家庭環境
+UNKNOWN_HOME_ENVIRONMENT,en,unknown home environment
+ENGLISH_SCHOOL,ja,英会話教室
+ENGLISH_SCHOOL,en,English conversation school
+CHUUSHOKU_JUNBI_CHUU,ja,昼食準備中
+CHUUSHOKU_JUNBI_CHUU,en,preparing lunch
+EATING,ja,食事中
+EATING,en,eating
+MESSAGE,ja,メッセージ
+MESSAGE,en,message
+RUNNING_SOUND_TRAIN_NOISE,ja,走行音・電車の騒音
+RUNNING_SOUND_TRAIN_NOISE,en,running sound and train noise
+DINING_OUT,ja,外食
+DINING_OUT,en,dining out
+LIVE_VENUE,ja,ライブ会場
+LIVE_VENUE,en,live venue
+CRAM_SCHOOL_TEACHER_STUDENT,ja,塾・教師と生徒
+CRAM_SCHOOL_TEACHER_STUDENT,en,cram school teacher and student
+TV_ON,ja,テレビがついている
+TV_ON,en,TV on
+NOISE_CALL_SOUND,ja,通話音ノイズ
+NOISE_CALL_SOUND,en,call sound noise
+OYAKO,ja,親子
+OYAKO,en,parent and child
+SILENT,ja,無音
+SILENT,en,silent
+OFFICIAL_COMMENT,ja,公式コメント
+OFFICIAL_COMMENT,en,official comment
+SHOKUDO,ja,食堂
+SHOKUDO,en,dining hall
+PLACE_NAME_CONVERSATION_CONVERSATION_PLACE_NAME_MISHEARING,ja,地名・会話・地名の聞き間違い
+PLACE_NAME_CONVERSATION_CONVERSATION_PLACE_NAME_MISHEARING,en,place name / conversation / place name mishearing
+RAMEN_SHOP,ja,ラーメン屋
+RAMEN_SHOP,en,ramen shop
+ELECTION_CAR_OUTDOOR_LOUDSPEAKER_NOISE,ja,選挙カー・屋外・拡声器の音
+ELECTION_CAR_OUTDOOR_LOUDSPEAKER_NOISE,en,election car / outdoor / loudspeaker noise
+ANNOUNCE,ja,アナウンス
+ANNOUNCE,en,announcement
+OKUGAI,ja,屋外
+OKUGAI,en,outdoor
+FINANCIAL_INSTITUTION,ja,金融機関
+FINANCIAL_INSTITUTION,en,financial institution
+SEKKYAKU,ja,接客
+SEKKYAKU,en,customer service
+HONYA,ja,本屋
+HONYA,en,bookstore
+APARTMENT,ja,アパート
+APARTMENT,en,apartment
+SUPPORT_CENTER,ja,支援センター
+SUPPORT_CENTER,en,support center
+BALCONY,ja,ベランダ
+BALCONY,en,balcony
+DAILY_CONVERSATION_FRIENDS_QUIET_ENVIRONMENT,ja,日常会話・友人・静かな環境
+DAILY_CONVERSATION_FRIENDS_QUIET_ENVIRONMENT,en,daily conversation with friends in quiet environment
+WITH_MUSIC,ja,音楽あり
+WITH_MUSIC,en,with music
+TV_NEWS_VIEWING,ja,テレビニュース視聴中
+TV_NEWS_VIEWING,en,watching TV news
+ASA,ja,朝
+ASA,en,morning
+TV_SOUND,ja,テレビの音
+TV_SOUND,en,TV sound
+ZASSHI,ja,雑誌
+ZASSHI,en,magazine
+CHINESE_SPEAKER_CONVERSATION_CROSS_CULTURAL_COMMUNICATION,ja,中国語話者との会話・異文化間コミュニケーション
+CHINESE_SPEAKER_CONVERSATION_CROSS_CULTURAL_COMMUNICATION,en,conversation with Chinese speaker / cross-cultural communication
+MUSIC_PLAYBACK_ENVIRONMENT,ja,音楽再生環境
+MUSIC_PLAYBACK_ENVIRONMENT,en,music playback environment
+CM,ja,コマーシャル
+CM,en,commercial
+SHOKUTAKU,ja,食卓
+SHOKUTAKU,en,dining table
+ROOM_TO_ROOM_CONVERSATION,ja,部屋間の会話
+ROOM_TO_ROOM_CONVERSATION,en,conversation across rooms
+PART_TIME_WORKPLACE_STORE_COUNTER,ja,バイト先のレジ
+PART_TIME_WORKPLACE_STORE_COUNTER,en,part-time store counter
+MAGAZINE,ja,雑誌
+MAGAZINE,en,magazine
+FRIENDSHIP,ja,友情
+FRIENDSHIP,en,friendship
+COMPANY_OFFICE,ja,会社のオフィス
+COMPANY_OFFICE,en,company office
+TV_AUDIO_ADJACENT_ROOM,ja,隣の部屋のテレビ音
+TV_AUDIO_ADJACENT_ROOM,en,tv sound from adjacent room
+CHANNEL_TV,ja,テレビ番組
+CHANNEL_TV,en,television program
+COMMUTE,ja,通勤
+COMMUTE,en,commuting
+NOISE_STORE_INDOOR_LIFE_SOUND,ja,店舗内の生活音
+NOISE_STORE_INDOOR_LIFE_SOUND,en,indoor life noise in store
+HIKOUKIKUNAI,ja,飛行機内
+HIKOUKIKUNAI,en,inside airplane
+EVENT_VENUE,ja,イベント会場
+EVENT_VENUE,en,event venue
+TICKET_INFORMATION,ja,チケット案内
+TICKET_INFORMATION,en,ticket information
+HOME_MOTHER_DAUGHTER_CONVERSATION,ja,母娘の会話
+HOME_MOTHER_DAUGHTER_CONVERSATION,en,conversation between mother and daughter
+HOME_LIVING_ROOM,ja,自宅の居間
+HOME_LIVING_ROOM,en,home living room
+HOME_ENTRANCE,ja,玄関
+HOME_ENTRANCE,en,entrance of home
+BGM_AND_CONVERSATION,ja,BGMと会話
+BGM_AND_CONVERSATION,en,BGM and conversation
+CONSTRUCTION_INDUSTRY,ja,建設業
+CONSTRUCTION_INDUSTRY,en,construction industry
+SEIKATSU_ON_GA_ARU_KANOUSEI,ja,生活音がある可能性
+SEIKATSU_ON_GA_ARU_KANOUSEI,en,possible presence of life sound
+ECHO,ja,反響
+ECHO,en,echo
+IN_CAR,ja,車内
+IN_CAR,en,in a car
+IN_STORE_ANNOUNCEMENT,ja,店内アナウンス
+IN_STORE_ANNOUNCEMENT,en,in-store announcement
+WATCHING_TV_PROGRAM,ja,テレビ番組を視聴中
+WATCHING_TV_PROGRAM,en,watching TV program
+ELEVATOR,ja,エレベーター
+ELEVATOR,en,elevator
+SUNDAY_AFTERNOON,ja,日曜の午後
+SUNDAY_AFTERNOON,en,sunday afternoon
+MIC_HUMAN_VOICE,ja,マイクを通した人の声
+MIC_HUMAN_VOICE,en,human voice via microphone
+IN_STORE_NOISE_YES,ja,店内騒音あり
+IN_STORE_NOISE_YES,en,store noise present
+SPEAKER_OVER,ja,スピーカー越し
+SPEAKER_OVER,en,over speaker
+HOME_CONVERSATION_DAILY_LIFE,ja,日常会話（自宅）
+HOME_CONVERSATION_DAILY_LIFE,en,daily conversation at home
+TV_VIEWING_HOME_LIVING_TV_AUDIO_NORMAL_NOISE,ja,テレビ視聴中（音量普通・生活音あり）
+TV_VIEWING_HOME_LIVING_TV_AUDIO_NORMAL_NOISE,en,"watching TV (normal volume, daily noise)"
+FREEZER_FRONT,ja,冷凍庫前
+FREEZER_FRONT,en,in front of freezer
+ONSEI_MIMI,ja,音声と聴覚
+ONSEI_MIMI,en,sound and hearing
+GRAND_BGM_NARRATION_PRESENT,ja,壮大なBGMとナレーションあり
+GRAND_BGM_NARRATION_PRESENT,en,grand BGM and narration present
+MICROPHONE_AUDIO,ja,マイク音声
+MICROPHONE_AUDIO,en,microphone audio
+SOBU_LINE_CAR,ja,総武線車内
+SOBU_LINE_CAR,en,inside Sobu line train
+HOUSEWORK,ja,家事
+HOUSEWORK,en,housework
+CHUO_LINE,ja,中央線
+CHUO_LINE,en,Chuo line
+TV_BROADCAST,ja,テレビ放送
+TV_BROADCAST,en,TV broadcast
+PARENT_CHILD,ja,親子
+PARENT_CHILD,en,parent and child
+MOVING,ja,引っ越し
+MOVING,en,moving
+LIVING_NOISE,ja,生活音
+LIVING_NOISE,en,living noise
+CHANNEL_FACE_TO_FACE_CONVERSATION,ja,対面会話（チャンネル）
+CHANNEL_FACE_TO_FACE_CONVERSATION,en,face-to-face conversation (channel)
+HOME_SCHOOL,ja,家庭学習
+HOME_SCHOOL,en,home schooling
+SLIGHT_NOISY,ja,やや騒がしい
+SLIGHT_NOISY,en,slightly noisy
+PRESENTATION_ROOM,ja,発表会場
+PRESENTATION_ROOM,en,presentation room
+BICYCLE,ja,自転車
+BICYCLE,en,bicycle
+KINDERGARTEN,ja,幼稚園
+KINDERGARTEN,en,kindergarten
+HOME_RADIO_SICKNESS,ja,体調不良時の自宅ラジオ
+HOME_RADIO_SICKNESS,en,home radio while sick
+KISSA_TEN,ja,喫茶店
+KISSA_TEN,en,cafe
+NOISE_STUDYING_SOUND,ja,学習時の雑音
+NOISE_STUDYING_SOUND,en,noise while studying
+KATEINAI,ja,家庭内
+KATEINAI,en,within home
+RADIO_BROADCAST_HOME_AUDIO_ONLY_NO_NOISE,ja,ラジオ放送（音声のみ・雑音なし）
+RADIO_BROADCAST_HOME_AUDIO_ONLY_NO_NOISE,en,"radio broadcast (audio only, no noise)"
+COMPANY_COLLEAGUE_CONVERSATION,ja,同僚との会話
+COMPANY_COLLEAGUE_CONVERSATION,en,conversation with colleagues
+TENSION,ja,緊張
+TENSION,en,tension
+CM_AUDIO,ja,CM音声
+CM_AUDIO,en,commercial audio
+TV_NEWS,ja,テレビニュース
+TV_NEWS,en,TV news
+HOME_GRANDMOTHER_HOME_SCHOOL_TALK,ja,祖母との家庭学習の会話
+HOME_GRANDMOTHER_HOME_SCHOOL_TALK,en,conversation with grandmother during home schooling
+AFTERNOON,ja,午後
+AFTERNOON,en,afternoon
+MONITOR,ja,モニター
+MONITOR,en,monitor
+NORMAL_LIFE_NOISE,ja,通常の生活音
+NORMAL_LIFE_NOISE,en,normal living noise
+NOISE_OUTDOOR,ja,屋外の騒音
+NOISE_OUTDOOR,en,outdoor noise
+DISTANCE_LIVING_SOUND,ja,遠くの生活音
+DISTANCE_LIVING_SOUND,en,distant living sound
+DAILY_NOISE,ja,日常の騒音
+DAILY_NOISE,en,daily noise
+TRAIN_ANNOUNCEMENT_NOISY_SURROUNDINGS,ja,電車内アナウンス（騒がしい環境）
+TRAIN_ANNOUNCEMENT_NOISY_SURROUNDINGS,en,train announcement with noisy surroundings
+TV_VIEWING_CLEANING,ja,掃除中のテレビ視聴
+TV_VIEWING_CLEANING,en,watching TV while cleaning
+ENVIRONMENTAL_NOISE,ja,環境音
+ENVIRONMENTAL_NOISE,en,environmental noise
+KAERIMICHI,ja,帰り道
+KAERIMICHI,en,on the way home
+KYORI,ja,距離
+KYORI,en,distance
+FURO,ja,風呂
+FURO,en,bath
+PLACE_WAROYA,ja,笑和屋（店舗名）
+PLACE_WAROYA,en,WAROYA (store name)
+BIYOSHITSU,ja,美容室
+BIYOSHITSU,en,beauty salon
+STORE_SUPERMARKET,ja,スーパーマーケット
+STORE_SUPERMARKET,en,supermarket
+BEDROOM,ja,寝室
+BEDROOM,en,bedroom
+GARDENING_PROGRAM,ja,園芸番組
+GARDENING_PROGRAM,en,gardening program
+QUIET_OFFICE,ja,静かなオフィス
+QUIET_OFFICE,en,quiet office
+SAKEBIGOE,ja,叫び声
+SAKEBIGOE,en,screaming voice
+SILENT_ENVIRONMENT,ja,静かな環境
+SILENT_ENVIRONMENT,en,silent environment
+CHUUSHOKU,ja,昼食
+CHUUSHOKU,en,lunch
+IN_STORE_BGM,ja,店内BGM
+IN_STORE_BGM,en,in-store BGM
+SPORTS_CHUKEI,ja,スポーツ中継
+SPORTS_CHUKEI,en,sports broadcast
+HOME_TV,ja,自宅のテレビ
+HOME_TV,en,home TV
+DATE,ja,デート
+DATE,en,date
+DAILY,ja,日常
+DAILY,en,daily
+CLERK_AND_CUSTOMER,ja,店員と客
+CLERK_AND_CUSTOMER,en,clerk and customer
+PLACE_NAME,ja,地名
+PLACE_NAME,en,place name
+HOSO,ja,放送
+HOSO,en,broadcast
+WORK,ja,仕事
+WORK,en,work
+REIZOUKO_SEIRI,ja,冷蔵庫整理
+REIZOUKO_SEIRI,en,refrigerator cleaning
+SINGING_PROGRAM,ja,歌番組
+SINGING_PROGRAM,en,singing program
+VIDEO_STORE,ja,ビデオショップ
+VIDEO_STORE,en,video rental store
+SUUPAA,ja,スーパー
+SUUPAA,en,supermarket (kana)
+SEIZANA_KANKYO,ja,静寂な環境
+SEIZANA_KANKYO,en,quiet environment
+TRAIN_INDOOR_ANNOUNCEMENT_INFANT_NOISE,ja,車内アナウンスと乳児の泣き声
+TRAIN_INDOOR_ANNOUNCEMENT_INFANT_NOISE,en,in-train announcement and infant crying
+TRAIN_IN_CAR_ANNOUNCEMENT,ja,車内アナウンス
+TRAIN_IN_CAR_ANNOUNCEMENT,en,in-train announcement
+HOME_OR_SCHOOL,ja,家庭または学校
+HOME_OR_SCHOOL,en,home or school
+FUKUSUUNIN,ja,複数人
+FUKUSUUNIN,en,multiple people
+BROADCAST,ja,放送
+BROADCAST,en,broadcast
+SURROUNDING_CONVERSATION,ja,周囲の会話
+SURROUNDING_CONVERSATION,en,surrounding conversation
+ANOTHER_ROOM,ja,別室
+ANOTHER_ROOM,en,another room
+NOISE_DOZING_ANNOUNCEMENT,ja,うたた寝中の雑音とアナウンス
+NOISE_DOZING_ANNOUNCEMENT,en,dozing with background noise and announcement
+RENTAL_VIDEO_STORE,ja,レンタルビデオ店
+RENTAL_VIDEO_STORE,en,rental video store
+NOISE_EATING,ja,食事中の雑音
+NOISE_EATING,en,eating noise
+SHANAI,ja,車内
+SHANAI,en,inside vehicle
+OTHER_PEOPLE_CONVERSATION,ja,他人の会話
+OTHER_PEOPLE_CONVERSATION,en,other people's conversation
+HAMIGAKI,ja,歯磨き
+HAMIGAKI,en,brushing teeth
+BASEBALL_BROADCAST,ja,野球中継
+BASEBALL_BROADCAST,en,baseball broadcast
+WIND_AND_ENVIRONMENTAL_NOISE_PRESENT,ja,風や環境音あり
+WIND_AND_ENVIRONMENTAL_NOISE_PRESENT,en,wind and environmental noise present
+NOISE_SEARCHING_DOCUMENTS,ja,書類を探す音
+NOISE_SEARCHING_DOCUMENTS,en,noise of searching documents
+PARENTS_KITCHEN,ja,親が台所にいる
+PARENTS_KITCHEN,en,parents in the kitchen
+NOISE_PHONE_LINE,ja,電話回線の雑音
+NOISE_PHONE_LINE,en,phone line noise
+COOKING,ja,調理中
+COOKING,en,cooking
+NOISE_CLASSROOM,ja,教室内の雑音
+NOISE_CLASSROOM,en,classroom noise
+MOBILE,ja,携帯電話
+MOBILE,en,mobile phone
+EXHIBITION_HALL,ja,展示会場
+EXHIBITION_HALL,en,exhibition hall
+KOKYO_KUKAN,ja,公共空間
+KOKYO_KUKAN,en,public space
+CHANNEL_FACE_TO_FACE,ja,対面会話（音声チャンネル）
+CHANNEL_FACE_TO_FACE,en,face-to-face conversation (audio channel)
+LIVE_VOICE_NO_MIC,ja,マイクなしの生声
+LIVE_VOICE_NO_MIC,en,live voice without microphone
+PART_TIME_JOB,ja,アルバイト先
+PART_TIME_JOB,en,part-time workplace
+BEAUTY_SALON_HAIRSTYLIST_CUSTOMER_BGM_OTHER_CONVERSATIONS,ja,美容室（美容師と客の会話、BGM、他の会話）
+BEAUTY_SALON_HAIRSTYLIST_CUSTOMER_BGM_OTHER_CONVERSATIONS,en,"beauty salon (hairstylist-customer conversation, BGM, other talks)"
+STARBUCKS,ja,スターバックス
+STARBUCKS,en,Starbucks
+NIHONGO_SHA,ja,日本語話者
+NIHONGO_SHA,en,Japanese speaker
+CAR_CLUB_ACTIVITY_PICKUP,ja,部活の送迎中の車内
+CAR_CLUB_ACTIVITY_PICKUP,en,in a car picking up from club activities
+HOME_LIVING_ROOM_TV_GAME_FAMILY_CONVERSATION,ja,居間（テレビ、ゲーム、家族の会話あり）
+HOME_LIVING_ROOM_TV_GAME_FAMILY_CONVERSATION,en,"living room (TV, games, family conversation)"
+CHANNEL_CONVERSATION,ja,音声チャンネルでの会話
+CHANNEL_CONVERSATION,en,conversation via audio channel
+IT,ja,IT関係
+IT,en,IT
+IDOCHU,ja,移動中
+IDOCHU,en,in transit
+STORE_FISH_SHOP,ja,鮮魚店
+STORE_FISH_SHOP,en,fish shop
+CHOU_SHOKUJI,ja,朝食中
+CHOU_SHOKUJI,en,during breakfast
+INSIDE_TAXI,ja,タクシー内
+INSIDE_TAXI,en,inside a taxi
+IN_TRAIN_ANNOUNCEMENT_MIC,ja,車内アナウンス（マイク使用）
+IN_TRAIN_ANNOUNCEMENT_MIC,en,in-train announcement (with mic)
+READING_A_BOOK,ja,読書中
+READING_A_BOOK,en,reading a book
+IN_FRONT_OF_STATION,ja,駅前
+IN_FRONT_OF_STATION,en,in front of station
+CAKE_SHOP_NOISY_CLERK_CUSTOMER,ja,騒がしいケーキ屋（店員と客の会話）
+CAKE_SHOP_NOISY_CLERK_CUSTOMER,en,noisy cake shop (clerk and customer conversation)
+SUPPORT,ja,支援
+SUPPORT,en,support
+LIVING_SOUND_PRESENT,ja,生活音あり
+LIVING_SOUND_PRESENT,en,living sounds present
+CHILD_HOMEWORK,ja,子どもの宿題中
+CHILD_HOMEWORK,en,child doing homework
+SOCIAL_GATHERING,ja,懇親会
+SOCIAL_GATHERING,en,social gathering
+KEROSENE_SALES_VEHICLE,ja,灯油販売車
+KEROSENE_SALES_VEHICLE,en,kerosene sales vehicle
+HIRYOU,ja,肥料販売
+HIRYOU,en,fertilizer sales
+TALK_WITH_CLASSMATES,ja,クラスメートとの会話
+TALK_WITH_CLASSMATES,en,talking with classmates
+PC_WORK_TV_BGM,ja,PC作業中にテレビとBGM
+PC_WORK_TV_BGM,en,PC work with TV and BGM
+EKI,ja,駅
+EKI,en,station
+FACILITY_OPENING,ja,施設の開所式
+FACILITY_OPENING,en,facility opening ceremony
+AMERICAN_JAPANESE_SCHOOL_PHONE,ja,日米学校間の電話
+AMERICAN_JAPANESE_SCHOOL_PHONE,en,phone call between American and Japanese schools
+TV_SHOPPING_PROGRAM_VIEWING,ja,テレビの通販番組視聴
+TV_SHOPPING_PROGRAM_VIEWING,en,watching TV shopping program
+PET_SHOP,ja,ペットショップ
+PET_SHOP,en,pet shop
+HOME_CHILDCARE_RADIO_CONVERSATION,ja,子育て中の家庭（ラジオと会話あり）
+HOME_CHILDCARE_RADIO_CONVERSATION,en,home with childcare (radio and conversation)
+HANDSET,ja,受話器
+HANDSET,en,handset
+CUSTOMER_SERVICE,ja,カスタマーサービス
+CUSTOMER_SERVICE,en,customer service
+IN_STORE_ENVIRONMENTAL_NOISE,ja,店内の環境音
+IN_STORE_ENVIRONMENTAL_NOISE,en,environmental noise in store
+NOISE_NONE_ESTIMATED,ja,特定されない雑音
+NOISE_NONE_ESTIMATED,en,unidentified noise
+NYUGAKUSHIKI,ja,入学式
+NYUGAKUSHIKI,en,school entrance ceremony
+LAUNDRY,ja,洗濯中
+LAUNDRY,en,doing laundry
+

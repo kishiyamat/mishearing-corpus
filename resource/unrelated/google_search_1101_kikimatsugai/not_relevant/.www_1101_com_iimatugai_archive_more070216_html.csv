@@ -1,0 +1,11 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+www1101com_iimatugai_archive_more070216_001,安心しました,暗殺しました,「ん」と「さ」の発音に注意。,職場で上司に母の快方を報告する際、緊張や早口で言い間違えた。,True,www1101com_iimatugai_archive_more070216,N/A,投稿者,上司,日本語,"['言い間違い', '仕事', '家族']","['職場', '会話', '日常']"
+www1101com_iimatugai_archive_more070216_002,踏み切り事故防止にご協力お願いします,踏み切り事故にご協力お願いします,省略された単語に注意。,電車内アナウンスで「防止」が抜けて聞こえ、大惨事に聞こえた。,True,www1101com_iimatugai_archive_more070216,N/A,車掌,乗客,日本語,"['聞き間違い', '鉄道', '公共交通']","['電車内', 'アナウンス', 'ノイズ']"
+www1101com_iimatugai_archive_more070216_003,基（もとい）,墓,送り仮名や漢字の誤認に注意。,ダイレクトメールで名前が「墓」と誤記されて届いた。,True,www1101com_iimatugai_archive_more070216,N/A,DM作成者,基さん,日本語,"['書き間違い', '名前', '家族']","['郵便', '事務', '日常']"
+www1101com_iimatugai_archive_more070216_004,New kids on the Block,New Child in the Box,英語の聞き取り・書き取りに注意。,ビデオテープのラベルを間違えて書いた。再生して気づいた。,True,www1101com_iimatugai_archive_more070216,N/A,ラベラー,投稿者,英語,"['書き間違い', 'メディア', '非母語話者']","['家庭', 'ビデオ', '英語']"
+www1101com_iimatugai_archive_more070216_005,記憶力が良い,記憶喪失,似た言葉の混同に注意。,姉が妹を友達に自慢しようとして言い間違え、母が保護者会で心配された。,True,www1101com_iimatugai_archive_more070216,N/A,姉,友達,日本語,"['言い間違い', '家族', '学校']","['家庭', '学校', '会話']"
+www1101com_iimatugai_archive_more070216_006,ミニツナサラダうどん,不吉なサラダうどん,早口や語尾の聞き取りに注意。,コンビニバイト中、商品名を聞き間違えた。,True,www1101com_iimatugai_archive_more070216,N/A,Mさん,投稿者,日本語,"['聞き間違い', 'バイト', '食事']","['コンビニ', '店舗', '会話']"
+www1101com_iimatugai_archive_more070216_007,なめこ汁,ナメクジ,食材名の聞き間違いに注意。,夕食時、長男が「なめこ汁で腹いっぱい」と言ったのを「ナメクジ」と聞き間違えた。,True,www1101com_iimatugai_archive_more070216,N/A,長男,家族,日本語,"['聞き間違い', '家族', '食事']","['家庭', '食事', '会話']"
+www1101com_iimatugai_archive_more070216_008,党員で予備選挙とか,トイレに呼び出すとか,似た音の言葉の聞き間違いに注意。,テレビで国会議員の発言を聞き間違え、物騒な内容に聞こえた。,True,www1101com_iimatugai_archive_more070216,N/A,国会議員,視聴者,日本語,"['聞き間違い', 'メディア', '政治']","['家庭', 'テレビ', 'ノイズ']"
+www1101com_iimatugai_archive_more070216_009,エクスキュルシオン（遠足・小旅行）,エグゼキュシオン（死刑）,フランス語の発音に注意。,フランス在住の投稿者が旅行会社で言い間違え、場が凍った。,True,www1101com_iimatugai_archive_more070216,N/A,投稿者,旅行会社,フランス語,"['言い間違い', '外国語', '非母語話者']","['フランス', '旅行会社', '会話', '非母語話者']"
+www1101com_iimatugai_archive_more070216_010,サル・ダタント（待合室）,サル・ダタンタ（テロの部屋）,フランス語の発音に注意。,フランス在住の投稿者が待合室の場所を尋ねる際、恐ろしい意味に言い間違えた。,True,www1101com_iimatugai_archive_more070216,N/A,投稿者,受付,フランス語,"['言い間違い', '外国語', '非母語話者']","['フランス', '旅行会社', '会話', '非母語話者']"
