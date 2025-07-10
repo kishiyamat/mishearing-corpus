@@ -1,0 +1,10 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+www_1101_com_iimatugai_archive_more061011_001,七度七分（ななどななぶ）,ドナドナ鍋（どなどななべ）,数字や体温の言い回しは子供には難しいことがある。,子供が熱を出して体温を伝えた際、親が聞き間違えた。家庭内、洗濯物を干している時の会話。,True,www_1101_com_iimatugai_archive_more061011,,child,parent,ja
+www_1101_com_iimatugai_archive_more061011_002,佐川急便（さがわきゅうびん）,相武紗季（さいぶさき）,聞き慣れない固有名詞や早口は混同しやすい。,八百屋前で運送業者の声を聞き間違えた。通行中、搬入作業の騒音も影響。,True,www_1101_com_iimatugai_archive_more061011,,配送員,通行人,ja
+www_1101_com_iimatugai_archive_more061011_003,役所広司さん（やくしょこうじさん）,約束おじさん（やくそくおじさん）,ニュースの音声は注意して聞かないと固有名詞が変に聞こえることがある。,テレビニュースを音だけで聞いていた際の聞き間違い。アナウンサーの発音や音質も影響。,True,www_1101_com_iimatugai_archive_more061011,,announcer,視聴者,ja
+www_1101_com_iimatugai_archive_more061011_004,役所広司さん（やくしょこうじさん）,役職おじさん（やくしょくおじさん）,寝起きや集中力が低い時は聞き間違いが起きやすい。,朝起きてすぐテレビをつけた時の芸能ニュースでの聞き間違い。寝起きで注意力が低下していた。,True,www_1101_com_iimatugai_archive_more061011,,reporter,視聴者,ja
+www_1101_com_iimatugai_archive_more061011_005,役所、5時まで（やくしょ、ごじまで）,役所広司まで（やくしょこうじまで）,数字や固有名詞が混同しやすい。文脈で判断を。,職場でFAXの指示を受けた際の聞き間違い。時間指定と人名が似ていたため混同。,True,www_1101_com_iimatugai_archive_more061011,,部長,Tさん/第三者,ja
+www_1101_com_iimatugai_archive_more061011_006,散乱（さんらん）,産卵（さんらん）,同音異義語は文脈で判断を。,テレビニュースを音だけで聞いていた際、「カツオが田んぼに産卵」と誤解。実際はトラック事故で散乱。,True,www_1101_com_iimatugai_archive_more061011,,announcer,視聴者,ja
+www_1101_com_iimatugai_archive_more061011_007,電報センター（でんぽうせんたー）,電光石火（でんこうせっか）,電話越しの聞き取りは誤解が生じやすい。,職場で電話を取り次いだ際の聞き間違い。電話越しの音質や緊張感が影響。,True,www_1101_com_iimatugai_archive_more061011,,電話,職場の人,ja
+www_1101_com_iimatugai_archive_more061011_008,私的な懇談会（してきなこんだんかい）,素敵な懇談会（すてきなこんだんかい）,難しい言葉やニュース用語は聞き間違いが起きやすい。,家事をしながらテレビニュースを聞いていた際の聞き間違い。政治ニュースの専門用語が原因。,True,www_1101_com_iimatugai_archive_more061011,,announcer,視聴者,ja
+www_1101_com_iimatugai_archive_more061011_009,次、行こう（つぎ、いこう）,ふみこ,聞き取りにくい発音や独り言は誤解しやすい。,職場で課長の独り言を「ふみこ」と聞き間違えた。周囲の状況や発話者の癖も影響。,True,www_1101_com_iimatugai_archive_more061011,,課長,部下,ja

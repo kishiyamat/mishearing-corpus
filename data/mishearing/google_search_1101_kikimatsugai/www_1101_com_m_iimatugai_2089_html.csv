@@ -1,0 +1,8 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+www_1101_com_m_iimatugai_2089_html_001,原田医師が,パラダイスが,ニュースの文脈を意識して聞くと良い,ラジオのニュースでアナウンサーの発話をリスナーが聞き間違えた。医療ニュースの文脈。,True,www_1101_com_m_iimatugai_2089_html,,announcer,listener1,ja
+www_1101_com_m_iimatugai_2089_html_002,伊那国際カントリー倶楽部,田舎臭いカントリー倶楽部,地名や固有名詞は注意して聞く,社長からゴルフ場の予約を頼まれた際、電話や口頭でのやりとりで聞き間違えた。,True,www_1101_com_m_iimatugai_2089_html,,社長,listener2,ja
+www_1101_com_m_iimatugai_2089_html_003,第四駐車場,ライオン駐車場,館内アナウンスは雑音で聞き取りにくいことも,デパートの館内アナウンスで駐車場名を動物名と聞き間違えた。周囲が騒がしい環境。,True,www_1101_com_m_iimatugai_2089_html,,announcer,listener3,ja
+www_1101_com_m_iimatugai_2089_html_004,釣り堀,釣り針,職業や趣味の話題は文脈で判断,女子中学生の会話を通行人が聞き間違えた。繁華街で歩行中、周囲の雑音あり。,True,www_1101_com_m_iimatugai_2089_html,,女子中学生A,"女子中学生B, listener4",ja
+www_1101_com_m_iimatugai_2089_html_005,各マシン、順調な滑り出しです,宅麻伸、順調な滑り出しです,専門用語や人名は注意して聞く,F1テレビ実況でアナウンサーの発話を視聴者が聞き間違えた。夜間の自宅でテレビ視聴。,True,www_1101_com_m_iimatugai_2089_html,,announcer,listener5,ja
+www_1101_com_m_iimatugai_2089_html_006,ど派手に！,土鍋に！,イントネーションや発音に注意,美容院での会話。美容師の質問に対し、知人女性の返答を聞き間違えた。BGMやドライヤー音が影響。,True,www_1101_com_m_iimatugai_2089_html,,知人女性,listener6,ja
+www_1101_com_m_iimatugai_2089_html_007,甘えんぼ,マンボ,音の響きが似ている単語は注意,夫婦の会話で妻の発言を夫が聞き間違えた。静かな自宅での会話。,True,www_1101_com_m_iimatugai_2089_html,,妻,"夫, listener7",ja

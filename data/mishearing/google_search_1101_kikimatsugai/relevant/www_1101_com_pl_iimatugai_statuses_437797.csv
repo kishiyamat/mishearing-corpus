@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-www_1101_com_pl_iimatugai_statuses_437797_001,センネンキュウ（せんねん灸）,洗面器（せんめんき）,商品名や用途を補足して伝えると誤解が減る。,年配のお客さんが「センネンキュウ（せんねん灸）」を探していたが、店員が「洗面器（せんめんき）」と聞き間違えて案内。最終的に「お灸の」と補足して誤解が解けた。,True,www_1101_com_pl_iimatugai_statuses_437797,N/A,customer,clerk,日本語,"['言い間違い', '聞き間違い', 'ドラッグストア', '日本語', '高齢者', '店員', '商品名']","['place:ドラッグストア', 'channel:対面会話', 'noise:店内の雑音', 'mic specs:肉声']"

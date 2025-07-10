@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
-www_1101_com_m_pl_iimatugai_439867_001,ぎょうにんべん,棒人間,部首の呼び方は独特なので注意。,小学生の娘が母親に漢字の部首「ぎょうにんべん」を「棒人間」と聞き間違えて質問した。家庭内での会話。,True,www_1101_com_m_pl_iimatugai_439867,N/A,daughter,mother,日本語,"['日本語', '言い間違い', '小学生', '漢字', '家庭', '教育']","['place:家庭', 'channel:対面', 'noise:静か', 'mic:肉声']"
