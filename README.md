@@ -271,6 +271,7 @@ We thank all annotators and contributors to this project.
   - 現状だとデータのフェッチが難しい -> エンコーディングの問題
   - textのidが同じで落とせなかったものもあったが、結局N件のページを取得
 - filestr2json2csvでcsvに変換
+  - file2csv_llm.py でLLMベース。yamatoはルールベース
   - もともとのurlバージョンを微修正
   - その後の処理は同じ
   - 目視で確認（非母語話者というタグが異常に多い気がする）
