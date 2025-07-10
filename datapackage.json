@@ -516,7 +516,21 @@
         "data/mishearing/medsafe/2025-06-10_medsafe.csv",
         "data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv",
         "data/mishearing/taxi_media/2025-06-09_taximedia.csv",
-        "data/mishearing/yamato/2019-01-15_yamato.csv"
+        "data/mishearing/yamato/2019-01-15_yamato.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200404.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200405.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200406.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200407.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200408.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200409.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200410.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200411.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200412.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200501.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200502.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200503.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200504.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200505.csv"
       ],
       "schema": "schema/mishearing.schema.json"
     }
