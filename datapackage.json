@@ -516,7 +516,11 @@
         "data/mishearing/medsafe/2025-06-10_medsafe.csv",
         "data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv",
         "data/mishearing/taxi_media/2025-06-09_taximedia.csv",
-        "data/mishearing/yamato/2019-01-15_yamato.csv"
+        "data/mishearing/yamato/2019-01-15_yamato.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200404.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200405.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar200406.csv",
+        "data/mishearing/yamato_gochou/coffee_break_parts_similar201607.csv"
       ],
       "schema": "schema/mishearing.schema.json"
     }
