@@ -1,5 +1,6 @@
 import os
 import csv
+import re
 from scripts.utils import get_csv_files
 from loguru import logger
 
@@ -34,6 +35,33 @@ ENVIRONMENT_DIR = os.path.join(SCRIPT_DIR, '../data/environment')
 MISHEARING_FILES = get_csv_files(MISHEARING_DIR)
 ENV_TRANSLATION_PATH = os.path.join(ENVIRONMENT_DIR, 'translation.csv')
 TAG_TRANSLATION_PATH = os.path.join(TAG_DIR, 'translation.csv')
+
+
+def test_envid_tagid_format():
+    """
+    Test to ensure that all EnvIDs and TagIDs in the translation.csv files
+    conform to the [A-Z], [0-9], _, and - character range.
+    """
+    invalid_ids = []
+
+    # Check EnvID in environment/translation.csv
+    with open(ENV_TRANSLATION_PATH, 'r', encoding='utf-8') as env_file:
+        reader = csv.DictReader(env_file)
+        for row in reader:
+            if not re.match(r'^[A-Z0-9_-]+$', row['EnvID']):
+                invalid_ids.append(("EnvID", row['EnvID'], ENV_TRANSLATION_PATH))
+
+    # Check TagID in tag/translation.csv
+    with open(TAG_TRANSLATION_PATH, 'r', encoding='utf-8') as tag_file:
+        reader = csv.DictReader(tag_file)
+        for row in reader:
+            if not re.match(r'^[A-Z0-9_-]+$', row['TagID']):
+                invalid_ids.append(("TagID", row['TagID'], TAG_TRANSLATION_PATH))
+
+    if invalid_ids:
+        for id_type, invalid_id, file_path in invalid_ids:
+            logger.error(f"Invalid {id_type} '{invalid_id}' found in file: {file_path}")
+    assert not invalid_ids, f"Invalid IDs found: {invalid_ids}"
 
 def test_tag_environment_exist():
     """
