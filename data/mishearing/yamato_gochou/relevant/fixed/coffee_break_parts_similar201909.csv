@@ -1,0 +1,6 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+coffee_break_parts_similar201909_001,やっとこさ不採算の案件等もコントロールできたと～,やっとこさ不採算のアンケートもコントロールできたと～,「案件等」と「アンケート」は音が似ている,会議中の発言を速記者が文字起こしする際に発生。ビジネス用語の聞き間違い。,True,coffee_break_parts_similar201909,,発言者,速記者,ja
+coffee_break_parts_similar201909_002,ポストマージャーインテグレーションプランの策定も進めて～,ポスト麻雀インテグレーションプランの策定も進めて～,カタカナ語の発音に注意,会議中の発言を速記者が文字起こしする際に発生。M&A用語の「マージャー」と娯楽の「麻雀」を混同。,True,coffee_break_parts_similar201909,,発言者,速記者,ja
+coffee_break_parts_similar201909_003,今、検討が進んでおりますが、司法界における議論も待たれる～,今、検討が進んでおりますが、紹介における議論も待たれる～,「司法界」と「紹介」は音が似ている,会議中の発言を速記者が文字起こしする際に発生。法務関連の専門用語の聞き間違い。,True,coffee_break_parts_similar201909,,発言者,速記者,ja
+coffee_break_parts_similar201909_004,我々としても一体感の醸成の面でも貢献を～,我々としても立体感の醸成の面でも貢献を～,「一体感」と「立体感」は発音が似ている,会議中の発言を速記者が文字起こしする際に発生。抽象的な表現の聞き間違い。,True,coffee_break_parts_similar201909,,発言者,速記者,ja
+coffee_break_parts_similar201909_005,この場合って、手続的には禁足のはずだよね～,この場合って、手続的には禁則のはずだよね～,専門用語の聞き取りに注意,会議中の発言を速記者が文字起こしする際に発生。法律・規則に関する専門用語の聞き間違い。,True,coffee_break_parts_similar201909,,発言者,速記者,ja

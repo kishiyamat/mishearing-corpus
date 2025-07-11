@@ -1,0 +1,11 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+coffee_break_parts_similar201812_001,経年劣化の数値のあれ、何だっけ、オートデジタイジング（Auto-Digitizing）だっけ？～,経年劣化の数値のあれ、何だっけ、嘔吐で辞退したんだっけ？～,技術用語と日常語の音の類似に注意,会議中の技術用語の発話を速記者が日常語に誤認。専門用語の知識不足や音の類似が原因。,True,coffee_break_parts_similar201812,,不明,速記者,ja
+coffee_break_parts_similar201812_002,いや、それはさすがに今回の制度論の中ではまずいんじゃ～,いや、それはさすがに今回の一斉ドロンの中ではまずいんじゃ～,専門用語と俗語の音の類似に注意,会議中の制度論（制度に関する議論）を速記者が「一斉ドロン」（俗語）と誤認。音の類似が原因。,True,coffee_break_parts_similar201812,,不明,速記者,ja
+coffee_break_parts_similar201812_003,ＰＴＳＤ、心的外傷の証明は、医療機関での心理検査が必要～,ＰＴＳＤ、心的外傷の証明は、医療機関でのＣＴ検査が必要～,医療用語同士の音の類似に注意,医療関係の会議で「心理検査」を「CT検査」と誤認。医療用語の知識不足や音の類似が原因。,True,coffee_break_parts_similar201812,,不明,速記者,ja
+coffee_break_parts_similar201812_004,地域の公共交通のスキームとしてのゾーン制だとか～,地域の公共交通のスキームとしての造成だとか～,交通用語と建設用語の音の類似に注意,交通政策の会議で「ゾーン制」を「造成」と誤認。分野横断的な用語の音の類似が原因。,True,coffee_break_parts_similar201812,,不明,速記者,ja
+coffee_break_parts_similar201812_005,何分、５年前の話ですんで記憶があいまいで～,何分、語弊のある話ですんで記憶があいまいで～,数字と語句の音の類似に注意,会議中の発話で「５年前の話」を「語弊のある話」と誤認。数字と語句の音の類似が原因。,True,coffee_break_parts_similar201812,,不明,速記者,ja
+coffee_break_parts_similar201812_006,個人株主への議決権行使機会の提供も～,個人株主への議決権公式会議の提供も～,ビジネス用語同士の音の類似に注意,株主総会等の会議で「行使機会」を「公式会議」と誤認。ビジネス用語の音の類似が原因。,True,coffee_break_parts_similar201812,,不明,速記者,ja
+coffee_break_parts_similar201812_007,個人消費も設備投資もあまり強いとは～,個人商品も設備投資もあまり強いとは～,経済用語同士の音の類似に注意,経済会議で「消費」を「商品」と誤認。経済用語の音の類似が原因。,True,coffee_break_parts_similar201812,,不明,速記者,ja
+coffee_break_parts_similar201812_008,業界全体で取り組まねば、削減につながりません～,業界全体で取り組まねば、昨年につながりません～,時期と行動の音の類似に注意,業界会議で「削減」を「昨年」と誤認。時期と行動の音の類似が原因。,True,coffee_break_parts_similar201812,,不明,速記者,ja
+coffee_break_parts_similar201812_009,県内の会員会社のうちですね～,県内の簡易会社のうちですね～,会社の形態に関する用語の音の類似に注意,地方行政の会議で「会員会社」を「簡易会社」と誤認。会社形態用語の音の類似が原因。,True,coffee_break_parts_similar201812,,不明,速記者,ja
+coffee_break_parts_similar201812_010,女性の取締役の比率を有価証券報告書に～,女性の取締役の規律を有価証券報告書に～,報告書記載事項の音の類似に注意,金融・企業会議で「比率」を「規律」と誤認。報告書記載事項の音の類似が原因。,True,coffee_break_parts_similar201812,,不明,速記者,ja

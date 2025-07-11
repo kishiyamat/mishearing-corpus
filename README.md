@@ -254,6 +254,9 @@ We thank all annotators and contributors to this project.
 - 得られたデータを元に作成
 - rule baseで文を復元
 - tagを付与
+- 誤りを修正: `心理的にには` -> `心理的には`
+- ルールベースで余計な編集がLLMによって加えられていないかをテスト
+- Tagの分割
 
 ### Gendai Medi (N=8)
 - **Source**: Gendai Media
