@@ -1,0 +1,6 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+coffee_break_parts_similar202304_001,そんな昔の発言を引き合いに出して変節と言われても～,そんな昔の発言を引き合いに出して言説と言われても～,文脈でどちらも使われることがあるので注意,会議や討論の速記記録。発話者の意図を速記者が誤認。音が似ているため発生。,True,coffee_break_parts_similar202304,,不明,速記者,ja
+coffee_break_parts_similar202304_002,こうした設定によってコーディングのゲインを稼げる～,こうした設定によってコーディングの原因を稼げる～,技術用語のカタカナ語は特に注意,技術的な説明の速記記録。カタカナ語と漢字語で音が近く、専門用語の誤認。,True,coffee_break_parts_similar202304,,不明,速記者,ja
+coffee_break_parts_similar202304_003,これらの概念を使い分けるシーンがあるかというと～,これらの概念を使い分ける真意があるかというと～,シーンと真意は音が似ている,概念説明の速記記録。文脈から速記者が誤認。,True,coffee_break_parts_similar202304,,不明,速記者,ja
+coffee_break_parts_similar202304_004,少しでも労働者の利益になるような改革を～,少しでも労働者の励起になるような改革を～,利益と励起は音が似ている,労働改革に関する速記記録。専門用語の混同。,True,coffee_break_parts_similar202304,,不明,速記者,ja
+coffee_break_parts_similar202304_005,調達のほうは預超構造ですので～,調達のほうは予兆構造ですので～,経済用語は特に注意,調達構造の説明の速記記録。どちらも経済用語でありうるため誤認。,True,coffee_break_parts_similar202304,,不明,速記者,ja

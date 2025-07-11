@@ -1,5 +1,6 @@
 import os
 import csv
+import re
 from scripts.utils import get_csv_files
 from loguru import logger
 
@@ -34,6 +35,61 @@ ENVIRONMENT_DIR = os.path.join(SCRIPT_DIR, '../data/environment')
 MISHEARING_FILES = get_csv_files(MISHEARING_DIR)
 ENV_TRANSLATION_PATH = os.path.join(ENVIRONMENT_DIR, 'translation.csv')
 TAG_TRANSLATION_PATH = os.path.join(TAG_DIR, 'translation.csv')
+
+
+def test_envid_tagid_format():
+    """
+    Test to ensure that all EnvIDs and TagIDs in the translation.csv files
+    conform to the [A-Z], [0-9], _, and - character range.
+    """
+    invalid_ids = []
+
+    # Check EnvID in environment/translation.csv
+    with open(ENV_TRANSLATION_PATH, 'r', encoding='utf-8') as env_file:
+        reader = csv.DictReader(env_file)
+        for row in reader:
+            if not re.match(r'^[A-Z0-9_-]+$', row['EnvID']):
+                invalid_ids.append(("EnvID", row['EnvID'], ENV_TRANSLATION_PATH))
+
+    # Check TagID in tag/translation.csv
+    with open(TAG_TRANSLATION_PATH, 'r', encoding='utf-8') as tag_file:
+        reader = csv.DictReader(tag_file)
+        for row in reader:
+            if not re.match(r'^[A-Z0-9_-]+$', row['TagID']):
+                invalid_ids.append(("TagID", row['TagID'], TAG_TRANSLATION_PATH))
+
+    if invalid_ids:
+        for id_type, invalid_id, file_path in invalid_ids:
+            logger.error(f"Invalid {id_type} '{invalid_id}' found in file: {file_path}")
+
+        # Additional step: List files in environment/ or tag/ containing invalid IDs
+        files_with_invalid_ids = []
+        for root, _, files in os.walk(ENVIRONMENT_DIR):
+            for file in files:
+                if file.endswith('.csv') and file != 'translation.csv':
+                    file_path = os.path.join(root, file)
+                    with open(file_path, 'r', encoding='utf-8') as csv_file:
+                        reader = csv.DictReader(csv_file)
+                        for row in reader:
+                            if row.get('EnvID') in [invalid_id for id_type, invalid_id, _ in invalid_ids if id_type == "EnvID"]:
+                                files_with_invalid_ids.append(file_path)
+                                break
+
+        for root, _, files in os.walk(TAG_DIR):
+            for file in files:
+                if file.endswith('.csv') and file != 'translation.csv':
+                    file_path = os.path.join(root, file)
+                    with open(file_path, 'r', encoding='utf-8') as csv_file:
+                        reader = csv.DictReader(csv_file)
+                        for row in reader:
+                            if row.get('TagID') in [invalid_id for id_type, invalid_id, _ in invalid_ids if id_type == "TagID"]:
+                                files_with_invalid_ids.append(file_path)
+                                break
+
+        if files_with_invalid_ids:
+            logger.error(f"Files in environment/ or tag/ containing invalid IDs: {files_with_invalid_ids}")
+
+    assert not invalid_ids, f"Invalid IDs found: {invalid_ids}"
 
 def test_tag_environment_exist():
     """
@@ -157,3 +213,40 @@ def test_translation_exists():
 
     assert not missing_env_ids, f"The following EnvIDs are missing in environment translation.csv: {missing_env_ids}"
     assert not missing_tag_ids, f"The following TagIDs are missing in tag translation.csv: {missing_tag_ids}"
+
+def test_no_japanese_in_csv():
+    """
+    Test to ensure that no Japanese characters exist in any CSV files
+    under TAG_DIR and ENVIRONMENT_DIR, excluding translation.csv files.
+    """
+    invalid_files = []
+
+    # Define a regex pattern to detect Japanese characters
+    japanese_pattern = re.compile(r'[\u3040-\u30FF\u4E00-\u9FFF]+')
+
+    # Check all CSV files in TAG_DIR
+    for root, _, files in os.walk(TAG_DIR):
+        for file in files:
+            if file.endswith('.csv') and file != 'translation.csv':
+                file_path = os.path.join(root, file)
+                with open(file_path, 'r', encoding='utf-8') as csv_file:
+                    for line in csv_file:
+                        if japanese_pattern.search(line):
+                            invalid_files.append(file_path)
+                            break
+
+    # Check all CSV files in ENVIRONMENT_DIR
+    for root, _, files in os.walk(ENVIRONMENT_DIR):
+        for file in files:
+            if file.endswith('.csv') and file != 'translation.csv':
+                file_path = os.path.join(root, file)
+                with open(file_path, 'r', encoding='utf-8') as csv_file:
+                    for line in csv_file:
+                        if japanese_pattern.search(line):
+                            invalid_files.append(file_path)
+                            break
+
+    if invalid_files:
+        for file_path in invalid_files:
+            logger.error(f"Japanese characters found in file: {file_path}")
+    assert not invalid_files, f"Japanese characters found in the following files: {invalid_files}"
