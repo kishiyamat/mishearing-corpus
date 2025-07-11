@@ -14,16 +14,16 @@ To expand the dataset, it will be necessary at some point
 to implement a procedure for predicting and presenting potential mishearings.
 The extent of such data available on the web is currently unknown.
 
-| Phase                    |    Size    | Estimated Period | Main Tasks                                                                 | Quick Checkpoint            |
-|--------------------------|------------|------------------|----------------------------------------------------------------------------|-----------------------------|
-| **Schema Design**        | → 100     | 1 week   06.10   | Transfer samples from existing papers/reports/URLs, finalize columns       | *Is Frictionless CI green?* |
-| **Data Mining**          | → 4,000   | 1 month  07.10   | Extract explicit mishearing cases from available sources using LLMs        | *Search queries/LLMs setup* |
-| **Cleaning/Application** | → 5,000   | 1 month  07.28   | Expand the CSV dataset and apply it to psycholinguistics.                  | *Utilize LLMs and Fix tags* |
-| **Cleaning/Design**      | → 6,000   | 1 month  08.31   | Keep expanding the data and design make the UI more usable                 | *Make an MVP, get feedback* |
-| **Crowdsourcing (2)**    | → 7,000   | 1 month  09.30   | Develop a prediction model to generate stimuli for commonly misheard pairs.| *Is Frictionless CI green?* |
-| **Crowdsourcing (3)**    | → 8,000   | 1 month  10.31   | Optimize the process to complete the remaining data collection.            | *Is Frictionless CI green?* |
-| **Crowdsourcing (3)**    | → 9,000   | 1 month  11.30   | Optimize the process to complete the remaining data collection.            | *Is Frictionless CI green?* |
-| **Crowdsourcing (3)**    | → 10,000  | 1 month  12.31   | Optimize the process to complete the remaining data collection.            | *Is Frictionless CI green?* |
+| Phase                    | Size       | Estimated Period | Main Tasks                                                                  | Quick Checkpoint            |
+|--------------------------|------------|------------------|-----------------------------------------------------------------------------|-----------------------------|
+| **Schema Design**        | → 100     | 1 week   06.10   | Transfer samples from existing papers/reports/URLs, finalize columns.       | *Is Frictionless CI green?* |
+| **Data Mining**          | → 4,000   | 1 month  07.10   | Extract explicit mishearing cases from available sources using LLMs.        | *Search queries/LLMs setup* |
+| **Cleaning/Application** | → 5,000   | 1 month  07.28   | Expand the CSV dataset and apply it to psycholinguistics.                   | *Utilize LLMs and fix tags* |
+| **Cleaning/Design**      | → 6,000   | 1 month  08.31   | Keep expanding the data and design to make the UI more usable.              | *Make an MVP, get feedback* |
+| **Crowdsourcing (2)**    | → 7,000   | 1 month  09.30   | Develop a prediction model to generate stimuli for commonly misheard pairs. | *Is Frictionless CI green?* |
+| **Crowdsourcing (3)**    | → 8,000   | 1 month  10.31   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
+| **Crowdsourcing (3)**    | → 9,000   | 1 month  11.30   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
+| **Crowdsourcing (3)**    | → 10,000  | 1 month  12.31   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
 
 Crowdsourcing for data collection has been excluded due to concerns 
 about the potential introduction of fabricated examples,
