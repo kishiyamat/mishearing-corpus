@@ -13,17 +13,22 @@ You can see the data [here](https://mishearing-corpus-dev.streamlit.app/).
 To expand the dataset, it will be necessary at some point
 to implement a procedure for predicting and presenting potential mishearings.
 The extent of such data available on the web is currently unknown.
-Collecting 20 items from 100~200 participants would yield 2,000~4,000 instances,
-which seems to be the practical limit. 
 
-| Phase                       |   Target Size    | Estimated Period | Main Tasks                                                                 | Quick Checkpoint            |
-|-----------------------------|------------------|------------------|----------------------------------------------------------------------------|-----------------------------|
-| **0. Schema Design**        | 0 → 100         | 1 week           | Transfer samples from existing papers/reports/URLs, finalize columns       | *Is Frictionless CI green?* |
-| **1. Data Mining (1)**      | 100 → 1,000     | 1 month          | Extract explicit mishearing cases from available sources using LLMs        | *Search queries/LLMs setup* |
-| **2. Data Mining (2)**      | 1,000 → 3,000   | 1 month          | Continue expanding the CSV dataset.                                        | *Utilize LLMs and Fix tags* |
-| **3. Crowdsourcing (1)**    | 3,000 → 5,000   | 2 months         | Collect approximately 2,000 cases by recruiting 100 participants online.   | *Make an MVP, get feedback* |
-| **4. Crowdsourcing (2)**    | 5,000 → 6,000   | 1 month          | Develop a prediction model to generate stimuli for commonly misheard pairs.| *Is Frictionless CI green?* |
-| **5. Crowdsourcing (3)**    | 6,000 → 10,000  | 1 month          | Optimize the process to complete the remaining data collection.            | *Is Frictionless CI green?* |
+| Phase                    | Size       | Estimated Period | Main Tasks                                                                  | Quick Checkpoint            |
+|--------------------------|------------|------------------|-----------------------------------------------------------------------------|-----------------------------|
+| **Schema Design**        | → 100     | 1 week   06.10   | Transfer samples from existing papers/reports/URLs, finalize columns.       | *Is Frictionless CI green?* |
+| **Data Mining**          | → 4,000   | 1 month  07.10   | Extract explicit mishearing cases from available sources using LLMs.        | *Search queries/LLMs setup* |
+| **Cleaning/Application** | → 5,000   | 1 month  07.28   | Expand the CSV dataset and apply it to psycholinguistics.                   | *Utilize LLMs and fix tags* |
+| **Cleaning/Design**      | → 6,000   | 1 month  08.31   | Keep expanding the data and design to make the UI more usable.              | *Make an MVP, get feedback* |
+| **Crowdsourcing (2)**    | → 7,000   | 1 month  09.30   | Develop a prediction model to generate stimuli for commonly misheard pairs. | *Is Frictionless CI green?* |
+| **Crowdsourcing (3)**    | → 8,000   | 1 month  10.31   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
+| **Crowdsourcing (3)**    | → 9,000   | 1 month  11.30   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
+| **Crowdsourcing (3)**    | → 10,000  | 1 month  12.31   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
+
+Crowdsourcing for data collection has been excluded due to concerns 
+about the potential introduction of fabricated examples,
+which could compromise data integrity and lead to unreliable results.
+Ensuring the authenticity and quality of the dataset is paramount for its scientific validity.
 
 ---
 
@@ -249,7 +254,7 @@ We thank all annotators and contributors to this project.
 - **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
 - **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
 
-### Yamato Sokki (N=5)
+### Yamato Sokki (N=2026)
 
 - 得られたデータを元に作成
 - rule baseで文を復元
