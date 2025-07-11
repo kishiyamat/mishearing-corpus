@@ -2541,3 +2541,357 @@ KANJI_GO,ja,漢字語
 KANJI_GO,en,kanji words
 HYOUJUN,ja,標準
 HYOUJUN,en,standard
+KOUWAN,ja,港湾
+KOUWAN,en,port
+SCENERY,ja,風景
+SCENERY,en,scenery
+SEIFU_KANKOUBUTSU,ja,政府刊行物
+SEIFU_KANKOUBUTSU,en,government publications
+LEGAL_SCIENCE,ja,法学
+LEGAL_SCIENCE,en,legal science
+ZOUSEN,ja,造船
+ZOUSEN,en,shipbuilding
+BUDGET,ja,予算
+BUDGET,en,budget
+KENKYU,ja,研究
+KENKYU,en,research
+SOKIKI,ja,速記
+SOKIKI,en,stenography
+PUBLIC_SERVICE,ja,公共サービス
+PUBLIC_SERVICE,en,public service
+SYSTEM_REFORM,ja,制度改革
+SYSTEM_REFORM,en,system reform
+KANJIGO,ja,漢字語
+KANJIGO,en,kanji word
+TOWN_DEVELOPMENT,ja,町づくり
+TOWN_DEVELOPMENT,en,town development
+HIGU,ja,被具
+HIGU,en,equipment
+KIN_YU,ja,金融
+KIN_YU,en,finance
+ZAISAN,ja,財産
+ZAISAN,en,assets
+SAIGAI_TAIOU,ja,災害対応
+SAIGAI_TAIOU,en,disaster response
+POLITICAL_PARTY,ja,政党
+POLITICAL_PARTY,en,political party
+BUNKA,ja,文化
+BUNKA,en,culture
+BUTSURYU,ja,物流
+BUTSURYU,en,logistics
+KOUTSU,ja,交通
+KOUTSU,en,transportation
+LEGAL_AFFAIRS,ja,法務
+LEGAL_AFFAIRS,en,legal affairs
+RIKA,ja,理科
+RIKA,en,science
+TOSHI,ja,都市
+TOSHI,en,city
+KIN_YUU,ja,金融
+KIN_YUU,en,finance
+INTERNATIONAL_CONFERENCE,ja,国際会議
+INTERNATIONAL_CONFERENCE,en,international conference
+TOSHIKAIKAKU,ja,都市改革
+TOSHIKAIKAKU,en,urban reform
+GOVERNMENT,ja,政府
+GOVERNMENT,en,government
+ZAISAI,ja,財政
+ZAISAI,en,public finance
+SYAKAI_MONDai,ja,社会問題
+SYAKAI_MONDai,en,social issues
+CORPORATE_ACTIVITY,ja,企業活動
+CORPORATE_ACTIVITY,en,corporate activity
+YOSAN,ja,予算
+YOSAN,en,budget
+GAKUJUTSU,ja,学術
+GAKUJUTSU,en,academia
+SEIJI,ja,政治
+SEIJI,en,politics
+RESEARCH,ja,研究
+RESEARCH,en,research
+ACADEMIC_FIELD,ja,学問分野
+ACADEMIC_FIELD,en,academic field
+TPP,ja,TPP
+TPP,en,TPP
+SOSHIKI_MEI,ja,組織名
+SOSHIKI_MEI,en,organization name
+GIJIROKU,ja,議事録
+GIJIROKU,en,meeting record
+LOGISTICS,ja,物流
+LOGISTICS,en,logistics
+SHINGIKAI,ja,審議会
+SHINGIKAI,en,council
+HOMU,ja,法務
+HOMU,en,legal affairs
+MOJIOKOSHI,ja,文字起こし
+MOJIOKOSHI,en,transcription
+MATERIALS,ja,資料
+MATERIALS,en,materials
+SHIRYO,ja,資料
+SHIRYO,en,documents
+ECONOMICS,ja,経済学
+ECONOMICS,en,economics
+ACTIVITY,ja,活動
+ACTIVITY,en,activity
+SHUKYO,ja,宗教
+SHUKYO,en,religion
+KANKYOU,ja,環境
+KANKYOU,en,environment
+INTERNATIONAL_SITUATION,ja,国際情勢
+INTERNATIONAL_SITUATION,en,international situation
+RELIGION,ja,宗教
+RELIGION,en,religion
+JUDICIARY,ja,司法
+JUDICIARY,en,judiciary
+GAIKOU,ja,外交
+GAIKOU,en,diplomacy
+LOCAL_GOVERNMENT,ja,地方自治体
+LOCAL_GOVERNMENT,en,local government
+ENERGY_POLICY,ja,エネルギー政策
+ENERGY_POLICY,en,energy policy
+FUTURE,ja,未来
+FUTURE,en,future
+SHAKAIMONDai,ja,社会問題
+SHAKAIMONDai,en,social problem
+GAKKAI,ja,学会
+GAKKAI,en,academic society
+MEETING_RECORD,ja,会議録
+MEETING_RECORD,en,meeting record
+KANKYO,ja,環境
+KANKYO,en,environment
+KAGAKU_GIJUTSU,ja,科学技術
+KAGAKU_GIJUTSU,en,science and technology
+RODOKU,ja,朗読
+RODOKU,en,reading aloud
+DIPLOMACY,ja,外交
+DIPLOMACY,en,diplomacy
+ELECTRICITY,ja,電力
+ELECTRICITY,en,electricity
+CRITICISM,ja,批評
+CRITICISM,en,criticism
+POLITICS,ja,政治
+POLITICS,en,politics
+GEOGRAPHY,ja,地理
+GEOGRAPHY,en,geography
+SAIGAI_TAIYOU,ja,災害対応
+SAIGAI_TAIYOU,en,disaster response
+STAFF_ASSIGNMENT,ja,人員配置
+STAFF_ASSIGNMENT,en,staff assignment
+HOUSING,ja,住宅
+HOUSING,en,housing
+PRODUCT_DESCRIPTION,ja,製品説明
+PRODUCT_DESCRIPTION,en,product description
+HOUHOU,ja,方法
+HOUHOU,en,method
+LECTURE,ja,講演
+LECTURE,en,lecture
+DISASTER,ja,災害
+DISASTER,en,disaster
+CHITEKIZAISAN,ja,知的財産
+CHITEKIZAISAN,en,intellectual property
+CYBER,ja,サイバー
+CYBER,en,cyber
+CHIIKI_SHINKO,ja,地域振興
+CHIIKI_SHINKO,en,regional promotion
+TRIAL,ja,裁判
+TRIAL,en,trial
+CLASSIFICATION,ja,分類
+CLASSIFICATION,en,classification
+KENCHIKU,ja,建築
+KENCHIKU,en,architecture
+NUCLEAR_ENERGY,ja,原子力
+NUCLEAR_ENERGY,en,nuclear energy
+KEIEI,ja,経営
+KEIEI,en,management
+ACCIDENT,ja,事故
+ACCIDENT,en,accident
+CIVIL_ENGINEERING,ja,土木
+CIVIL_ENGINEERING,en,civil engineering
+OBSTETRICS,ja,産科
+OBSTETRICS,en,obstetrics
+REPORTING,ja,報告
+REPORTING,en,reporting
+HORITSU,ja,法律
+HORITSU,en,law
+DISASTER_RESPONSE,ja,災害対応
+DISASTER_RESPONSE,en,disaster response
+LOCAL_AUTONOMY,ja,地方自治
+LOCAL_AUTONOMY,en,local autonomy
+SHAKAI_HOSHOU,ja,社会保障
+SHAKAI_HOSHOU,en,social security
+HOU_KAISEI,ja,法改正
+HOU_KAISEI,en,legal revision
+ARTS,ja,芸術
+ARTS,en,arts
+GAIKYOU,ja,概況
+GAIKYOU,en,overview
+STANDARD,ja,基準
+STANDARD,en,standard
+RECONSTRUCTION,ja,復興
+RECONSTRUCTION,en,reconstruction
+KENKYUU,ja,研究
+KENKYUU,en,research
+LEGAL,ja,法務
+LEGAL,en,legal
+HODO,ja,報道
+HODO,en,news reporting
+COPYRIGHT,ja,著作権
+COPYRIGHT,en,copyright
+ROUMU,ja,労務
+ROUMU,en,labor affairs
+KAGAKU,ja,科学
+KAGAKU,en,science
+COMPENSATION,ja,補償
+COMPENSATION,en,compensation
+SOCIAL_SECURITY,ja,社会保障
+SOCIAL_SECURITY,en,social security
+ICT,ja,ICT
+ICT,en,ICT
+DATA_PUBLICATION,ja,データ公開
+DATA_PUBLICATION,en,data publication
+YAKUSHOKU,ja,役職
+YAKUSHOKU,en,position
+KIJUN,ja,基準
+KIJUN,en,criteria
+KOUKYOUSEISAKU,ja,公共政策
+KOUKYOUSEISAKU,en,public policy
+KOKOKU,ja,広告
+KOKOKU,en,advertisement
+PUBLIC_OPINION_SURVEY,ja,世論調査
+PUBLIC_OPINION_SURVEY,en,public opinion survey
+INTERNATIONAL,ja,国際
+INTERNATIONAL,en,international
+FAIRNESS,ja,公正
+FAIRNESS,en,fairness
+TAX_SYSTEM,ja,税制
+TAX_SYSTEM,en,tax system
+ENVIRONMENT,ja,環境
+ENVIRONMENT,en,environment
+DISASTER_RECOVERY,ja,災害復旧
+DISASTER_RECOVERY,en,disaster recovery
+STENOGRAPHY,ja,速記
+STENOGRAPHY,en,stenography
+INDUSTRY,ja,産業
+INDUSTRY,en,industry
+CHIIKI_KATSUDO,ja,地域活動
+CHIIKI_KATSUDO,en,community activities
+INFRASTRUCTURE,ja,インフラ
+INFRASTRUCTURE,en,infrastructure
+QUESTION_AND_ANSWER,ja,質疑応答
+QUESTION_AND_ANSWER,en,question and answer
+ACCIDENT_INVESTIGATION,ja,事故調査
+ACCIDENT_INVESTIGATION,en,accident investigation
+PROCEDURE,ja,手続き
+PROCEDURE,en,procedure
+MOJIIKOSHI,ja,文字起こし
+MOJIIKOSHI,en,transcription
+COMMUNITY_ACTIVITY,ja,地域活動
+COMMUNITY_ACTIVITY,en,community activity
+REGION,ja,地域
+REGION,en,region
+HOU_RITSU,ja,法律
+HOU_RITSU,en,law
+DISASTER_RECONSTRUCTION,ja,災害復興
+DISASTER_RECONSTRUCTION,en,disaster reconstruction
+KAIDAN,ja,会談
+KAIDAN,en,talks
+KOKUSAI_JOUSEI,ja,国際情勢
+KOKUSAI_JOUSEI,en,international affairs
+HOU-GAKU,ja,法学
+HOU-GAKU,en,jurisprudence
+SAIGAI_TAISAKU,ja,災害対策
+SAIGAI_TAISAKU,en,disaster countermeasures
+INSURANCE,ja,保険
+INSURANCE,en,insurance
+MEETINGS,ja,会議
+MEETINGS,en,meetings
+EARTH_SCIENCE,ja,地球科学
+EARTH_SCIENCE,en,earth science
+HOUZOU,ja,法蔵
+HOUZOU,en,legal archive
+ZAISEN,ja,財政
+ZAISEN,en,finance
+HOURITSU,ja,法律
+HOURITSU,en,law
+DISASTER_COUNTERMEASURES,ja,災害対策
+DISASTER_COUNTERMEASURES,en,disaster countermeasures
+MACHIZUKURI,ja,まちづくり
+MACHIZUKURI,en,community development
+ENERGY,ja,エネルギー
+ENERGY,en,energy
+INDUSTRY_TERMS,ja,産業用語
+INDUSTRY_TERMS,en,industry terms
+GYOSEI,ja,行政
+GYOSEI,en,administration
+HOKOKU,ja,報告
+HOKOKU,en,report
+KANYOUKU,ja,慣用句
+KANYOUKU,en,idiom
+DISASTER_COUNTERMEASURE,ja,災害対策
+DISASTER_COUNTERMEASURE,en,disaster countermeasure
+JINJI,ja,人事
+JINJI,en,personnel
+INSATSU,ja,印刷
+INSATSU,en,printing
+TOURISM,ja,観光
+TOURISM,en,tourism
+CRIME_PREVENTION,ja,防犯
+CRIME_PREVENTION,en,crime prevention
+KENSETSU,ja,建設
+KENSETSU,en,construction
+PARLIAMENT,ja,国会
+PARLIAMENT,en,parliament
+HOUSO,ja,放送
+HOUSO,en,broadcasting
+ENERUGII,ja,エネルギー
+ENERUGII,en,energy
+QUALITY_CONTROL,ja,品質管理
+QUALITY_CONTROL,en,quality control
+KEIZAI,ja,経済
+KEIZAI,en,economy
+COMMITTEE,ja,委員会
+COMMITTEE,en,committee
+KABUSHIKI,ja,株式
+KABUSHIKI,en,stock
+KATAKANA_WORDS,ja,カタカナ語
+KATAKANA_WORDS,en,katakana words
+NEWS_REPORTING,ja,ニュース報道
+NEWS_REPORTING,en,news reporting
+DOUON_IGIGO,ja,同音異義語
+DOUON_IGIGO,en,homonym
+PENSION,ja,年金
+PENSION,en,pension
+ROUDOU,ja,労働
+ROUDOU,en,labor
+HOUMU,ja,法務
+HOUMU,en,legal affairs
+SHAKAI_FUKUSHI,ja,社会福祉
+SHAKAI_FUKUSHI,en,social welfare
+USA,ja,アメリカ
+USA,en,USA
+AIRPORT,ja,空港
+AIRPORT,en,airport
+KOKUSAI,ja,国際
+KOKUSAI,en,international
+SENMON_YOUGO,ja,専門用語
+SENMON_YOUGO,en,technical term
+JINZAI_IKUSEI,ja,人材育成
+JINZAI_IKUSEI,en,human resource development
+PUBLIC_WORKS,ja,公共事業
+PUBLIC_WORKS,en,public works
+PUBLISHING,ja,出版
+PUBLISHING,en,publishing
+RIREKISHO,ja,履歴書
+RIREKISHO,en,resume
+SYAKAI_FUKUSI,ja,社会福祉
+SYAKAI_FUKUSI,en,social welfare
+SAIGAI_TAIO,ja,災害対応
+SAIGAI_TAIO,en,disaster response
+SMALL_MEDIUM_ENTERPRISE,ja,中小企業
+SMALL_MEDIUM_ENTERPRISE,en,small and medium enterprise
+BROADCASTING,ja,放送
+BROADCASTING,en,broadcasting
+BOUSHUU,ja,募集
+BOUSHUU,en,recruitment
+MEDICAL_CARE,ja,医療
+MEDICAL_CARE,en,medical care
