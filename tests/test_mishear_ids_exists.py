@@ -185,3 +185,40 @@ def test_translation_exists():
 
     assert not missing_env_ids, f"The following EnvIDs are missing in environment translation.csv: {missing_env_ids}"
     assert not missing_tag_ids, f"The following TagIDs are missing in tag translation.csv: {missing_tag_ids}"
+
+def test_no_japanese_in_csv():
+    """
+    Test to ensure that no Japanese characters exist in any CSV files
+    under TAG_DIR and ENVIRONMENT_DIR, excluding translation.csv files.
+    """
+    invalid_files = []
+
+    # Define a regex pattern to detect Japanese characters
+    japanese_pattern = re.compile(r'[\u3040-\u30FF\u4E00-\u9FFF]+')
+
+    # Check all CSV files in TAG_DIR
+    for root, _, files in os.walk(TAG_DIR):
+        for file in files:
+            if file.endswith('.csv') and file != 'translation.csv':
+                file_path = os.path.join(root, file)
+                with open(file_path, 'r', encoding='utf-8') as csv_file:
+                    for line in csv_file:
+                        if japanese_pattern.search(line):
+                            invalid_files.append(file_path)
+                            break
+
+    # Check all CSV files in ENVIRONMENT_DIR
+    for root, _, files in os.walk(ENVIRONMENT_DIR):
+        for file in files:
+            if file.endswith('.csv') and file != 'translation.csv':
+                file_path = os.path.join(root, file)
+                with open(file_path, 'r', encoding='utf-8') as csv_file:
+                    for line in csv_file:
+                        if japanese_pattern.search(line):
+                            invalid_files.append(file_path)
+                            break
+
+    if invalid_files:
+        for file_path in invalid_files:
+            logger.error(f"Japanese characters found in file: {file_path}")
+    assert not invalid_files, f"Japanese characters found in the following files: {invalid_files}"
