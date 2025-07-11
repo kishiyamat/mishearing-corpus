@@ -2333,3 +2333,211 @@ KOUHAKU_UTA_GASSEN,ja,紅白歌合戦
 KOUHAKU_UTA_GASSEN,en,Kouhaku Uta Gassen
 RYOKO,ja,旅行
 RYOKO,en,travel
+SPEED_WRITING,ja,速記
+SPEED_WRITING,en,speed writing
+PRESS_CONFERENCE,ja,記者会見
+PRESS_CONFERENCE,en,press conference
+SOKKI,ja,速記
+SOKKI,en,shorthand
+SPECIALIZED_TERMS,ja,専門用語
+SPECIALIZED_TERMS,en,specialized terms
+COMPLIANCE,ja,コンプライアンス
+COMPLIANCE,en,compliance
+GOVERNANCE,ja,ガバナンス
+GOVERNANCE,en,governance
+BIJINESU,ja,ビジネス
+BIJINESU,en,business
+KANYOKU,ja,慣用句
+KANYOKU,en,idiom
+LOANWORDS,ja,外来語
+LOANWORDS,en,loanwords
+KENKOU,ja,健康
+KENKOU,en,health
+FUKKOU,ja,復興
+FUKKOU,en,reconstruction
+LEGISLATURE,ja,立法府
+LEGISLATURE,en,legislature
+ACADEMIC,ja,学術
+ACADEMIC,en,academic
+SOKI,ja,速記
+SOKI,en,shorthand
+TOKUBETSU_SHIEN,ja,特別支援
+TOKUBETSU_SHIEN,en,special support
+JUKUGO,ja,熟語
+JUKUGO,en,compound word
+NATIONAL_DIET,ja,国会
+NATIONAL_DIET,en,national diet
+KANKOU,ja,観光
+KANKOU,en,tourism
+DISASTER_MEASURES,ja,災害対策
+DISASTER_MEASURES,en,disaster measures
+BUTSURYUU,ja,物流
+BUTSURYUU,en,logistics
+RUIJION,ja,類義語
+RUIJION,en,synonyms
+MEDICINE,ja,医学
+MEDICINE,en,medicine
+GIJUTSU,ja,技術
+GIJUTSU,en,technology
+CHIZAI,ja,知財
+CHIZAI,en,intellectual property
+STATISTICS,ja,統計
+STATISTICS,en,statistics
+TOSHI_KAIHATSU,ja,都市開発
+TOSHI_KAIHATSU,en,urban development
+PERSONNEL,ja,人事
+PERSONNEL,en,personnel
+BOUEI,ja,防衛
+BOUEI,en,defense
+GYOUSEI,ja,行政
+GYOUSEI,en,administration
+ARCHITECTURE,ja,建築
+ARCHITECTURE,en,architecture
+KANJI_WORDS,ja,漢字語
+KANJI_WORDS,en,kanji words
+KYOIKU,ja,教育
+KYOIKU,en,education
+SURVEY,ja,調査
+SURVEY,en,survey
+LABOR_ACCIDENT,ja,労働災害
+LABOR_ACCIDENT,en,labor accident
+NEWS_MEDIA,ja,報道機関
+NEWS_MEDIA,en,news media
+KIGYOU,ja,企業
+KIGYOU,en,enterprise
+ROUDOU_ANZEN,ja,労働安全
+ROUDOU_ANZEN,en,occupational safety
+SAIGAI,ja,災害
+SAIGAI,en,disaster
+TECHNICAL,ja,技術的
+TECHNICAL,en,technical
+SEISAKU,ja,政策
+SEISAKU,en,policy
+SHORTHAND,ja,速記
+SHORTHAND,en,shorthand
+GIGIROKU,ja,議事録
+GIGIROKU,en,meeting record
+JIKEN,ja,事件
+JIKEN,en,incident
+NICHOUGO,ja,日朝語
+NICHOUGO,en,Japanese-Korean
+SHIRYOU,ja,資料
+SHIRYOU,en,materials
+SEIDO,ja,制度
+SEIDO,en,system
+RISKU,ja,リスク
+RISKU,en,risk
+KAKEI,ja,家計
+KAKEI,en,household budget
+GUNJI,ja,軍事
+GUNJI,en,military
+KENSAA,ja,検査
+KENSAA,en,inspection
+OKINAWA_MONDai,ja,沖縄問題
+OKINAWA_MONDai,en,Okinawa issue
+DISASTER_PREVENTION,ja,防災
+DISASTER_PREVENTION,en,disaster prevention
+BIZINESU,ja,ビジネス
+BIZINESU,en,business
+DEFENSE,ja,防衛
+DEFENSE,en,defense
+NANDOKU_GO,ja,難読語
+NANDOKU_GO,en,difficult words
+KINYU,ja,金融
+KINYU,en,finance
+SOCIAL_ISSUES,ja,社会問題
+SOCIAL_ISSUES,en,social issues
+INTERNATIONAL_RELATIONS,ja,国際関係
+INTERNATIONAL_RELATIONS,en,international relations
+SHUPPAN,ja,出版
+SHUPPAN,en,publishing
+TRANSCRIPTION,ja,書き起こし
+TRANSCRIPTION,en,transcription
+ACADEMIC_SOCIETY,ja,学会
+ACADEMIC_SOCIETY,en,academic society
+URBAN_PLANNING,ja,都市計画
+URBAN_PLANNING,en,urban planning
+URBAN_POLICY,ja,都市政策
+URBAN_POLICY,en,urban policy
+NATION,ja,国家
+NATION,en,nation
+SOHKI,ja,速記
+SOHKI,en,shorthand
+TERRITORIAL_ISSUE,ja,領土問題
+TERRITORIAL_ISSUE,en,territorial issue
+REGIONAL_DEVELOPMENT,ja,地域振興
+REGIONAL_DEVELOPMENT,en,regional development
+SYNONYMS,ja,同義語
+SYNONYMS,en,synonyms
+SALES,ja,営業
+SALES,en,sales
+JOB_CATEGORY,ja,職種
+JOB_CATEGORY,en,job category
+TOUKEI,ja,統計
+TOUKEI,en,statistics
+SOCIAL_WELFARE,ja,社会福祉
+SOCIAL_WELFARE,en,social welfare
+SHIHOU,ja,司法
+SHIHOU,en,judiciary
+SEIZOU_GYOU,ja,製造業
+SEIZOU_GYOU,en,manufacturing industry
+EVALUATION,ja,評価
+EVALUATION,en,evaluation
+SEIZOU,ja,製造
+SEIZOU,en,manufacturing
+KUMIAI,ja,組合
+KUMIAI,en,union
+CHOSAKUKEN,ja,著作権
+CHOSAKUKEN,en, copyright
+CULTURE,ja,文化
+CULTURE,en,culture
+SHINCHOKU_KANRI,ja,進捗管理
+SHINCHOKU_KANRI,en,progress management
+CHIHOU,ja,地方
+CHIHOU,en,local
+SUBSIDY,ja,補助金
+SUBSIDY,en,subsidy
+POLICY,ja,政策
+POLICY,en,policy
+TAXATION,ja,課税
+TAXATION,en,taxation
+GIJUTSU_YOGO,ja,技術用語
+GIJUTSU_YOGO,en,technical term
+LOGIC,ja,論理
+LOGIC,en,logic
+NENKIN,ja,年金
+NENKIN,en,pension
+TRADE,ja,貿易
+TRADE,en,trade
+MANUFACTURING,ja,製造
+MANUFACTURING,en,manufacturing
+DOBOKU,ja,土木
+DOBOKU,en,civil engineering
+REPORTING_MEDIA,ja,報道媒体
+REPORTING_MEDIA,en,reporting media
+KANSA,ja,監査
+KANSA,en,audit
+KINYOU,ja,金融
+KINYOU,en,finance
+GIKAI,ja,議会
+GIKAI,en,assembly
+HOUDOU,ja,報道
+HOUDOU,en,reporting
+PUBLIC_OFFICIAL,ja,公務員
+PUBLIC_OFFICIAL,en,public official
+SHOBO,ja,消防
+SHOBO,en,firefighting
+PSYCHOLOGY,ja,心理学
+PSYCHOLOGY,en,psychology
+ZEISEI,ja,税制
+ZEISEI,en,tax system
+SCIENCE_TECHNOLOGY,ja,科学技術
+SCIENCE_TECHNOLOGY,en,science and technology
+RYOKOUGYO,ja,旅行業
+RYOKOUGYO,en,travel industry
+NUCLEAR_POWER,ja,原子力
+NUCLEAR_POWER,en,nuclear power
+KANJI_GO,ja,漢字語
+KANJI_GO,en,kanji words
+HYOUJUN,ja,標準
+HYOUJUN,en,standard
