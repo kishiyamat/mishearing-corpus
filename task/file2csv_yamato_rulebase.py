@@ -312,6 +312,8 @@ st.write("### 内容のvalidation")
 st.write("LLMだと余計な変換を入れることがあるので検証")
 import pandas as pd
 
+delete_file = st.checkbox("検証に失敗したファイルを削除する", value=True)
+
 if html_files and st.button("データ検証"):
     for html_i in html_files:
         saved_name = html_i.name.replace(".html", ".csv")
@@ -346,14 +348,14 @@ if html_files and st.button("データ検証"):
             if src not in df_src:
                 st.warning(f"Src mismatch at index {idx}: {src} \n\n is not in {df_src} \n\n file: {html_i.name}")
                 # このファイルを削除する
-                if os.path.exists(f"{save_path}/{saved_name}"):
+                if os.path.exists(f"{save_path}/{saved_name}") and delete_file:
                   os.remove(f"{save_path}/{saved_name}")
                   st.warning(f"{saved_name} has been deleted due to mismatch.")
                   continue
             if tgt not in df_tgt:
                 st.warning(f"Tgt mismatch at index {idx}: {tgt} \n\n is not in {df_tgt} \n\n file: {html_i.name}")
                 # このファイルを削除する
-                if os.path.exists(f"{save_path}/{saved_name}"):
+                if os.path.exists(f"{save_path}/{saved_name}") and delete_file:
                   os.remove(f"{save_path}/{saved_name}")
                   st.warning(f"{saved_name} has been deleted due to mismatch.")
                   continue
