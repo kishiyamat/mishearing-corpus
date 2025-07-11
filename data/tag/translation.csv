@@ -2433,8 +2433,8 @@ GUNJI,ja,軍事
 GUNJI,en,military
 KENSAA,ja,検査
 KENSAA,en,inspection
-OKINAWA_MONDai,ja,沖縄問題
-OKINAWA_MONDai,en,Okinawa issue
+OKINAWA_MONDAI,ja,沖縄問題
+OKINAWA_MONDAI,en,Okinawa issue
 DISASTER_PREVENTION,ja,防災
 DISASTER_PREVENTION,en,disaster prevention
 BIZINESU,ja,ビジネス
@@ -2597,8 +2597,8 @@ GOVERNMENT,ja,政府
 GOVERNMENT,en,government
 ZAISAI,ja,財政
 ZAISAI,en,public finance
-SYAKAI_MONDai,ja,社会問題
-SYAKAI_MONDai,en,social issues
+SYAKAI_MONDAI,ja,社会問題
+SYAKAI_MONDAI,en,social issues
 CORPORATE_ACTIVITY,ja,企業活動
 CORPORATE_ACTIVITY,en,corporate activity
 YOSAN,ja,予算
@@ -2651,8 +2651,8 @@ ENERGY_POLICY,ja,エネルギー政策
 ENERGY_POLICY,en,energy policy
 FUTURE,ja,未来
 FUTURE,en,future
-SHAKAIMONDai,ja,社会問題
-SHAKAIMONDai,en,social problem
+SHAKAIMONDAI,ja,社会問題
+SHAKAIMONDAI,en,social problem
 GAKKAI,ja,学会
 GAKKAI,en,academic society
 MEETING_RECORD,ja,会議録
