@@ -61,6 +61,34 @@ def test_envid_tagid_format():
     if invalid_ids:
         for id_type, invalid_id, file_path in invalid_ids:
             logger.error(f"Invalid {id_type} '{invalid_id}' found in file: {file_path}")
+
+        # Additional step: List files in environment/ or tag/ containing invalid IDs
+        files_with_invalid_ids = []
+        for root, _, files in os.walk(ENVIRONMENT_DIR):
+            for file in files:
+                if file.endswith('.csv') and file != 'translation.csv':
+                    file_path = os.path.join(root, file)
+                    with open(file_path, 'r', encoding='utf-8') as csv_file:
+                        reader = csv.DictReader(csv_file)
+                        for row in reader:
+                            if row.get('EnvID') in [invalid_id for id_type, invalid_id, _ in invalid_ids if id_type == "EnvID"]:
+                                files_with_invalid_ids.append(file_path)
+                                break
+
+        for root, _, files in os.walk(TAG_DIR):
+            for file in files:
+                if file.endswith('.csv') and file != 'translation.csv':
+                    file_path = os.path.join(root, file)
+                    with open(file_path, 'r', encoding='utf-8') as csv_file:
+                        reader = csv.DictReader(csv_file)
+                        for row in reader:
+                            if row.get('TagID') in [invalid_id for id_type, invalid_id, _ in invalid_ids if id_type == "TagID"]:
+                                files_with_invalid_ids.append(file_path)
+                                break
+
+        if files_with_invalid_ids:
+            logger.error(f"Files in environment/ or tag/ containing invalid IDs: {files_with_invalid_ids}")
+
     assert not invalid_ids, f"Invalid IDs found: {invalid_ids}"
 
 def test_tag_environment_exist():

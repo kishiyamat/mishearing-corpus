@@ -705,8 +705,6 @@ THEATER,ja,劇場
 THEATER,en,theater
 HIKOUKI,ja,飛行機
 HIKOUKI,en,airplane
-null,ja,不明
-null,en,unknown
 NOISY_ENVIRONMENT,ja,騒がしい環境
 NOISY_ENVIRONMENT,en,noisy environment
 INSIDE_CAR,ja,車内
