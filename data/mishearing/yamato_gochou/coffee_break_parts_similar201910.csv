@@ -1,0 +1,6 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+coffee_break_parts_similar201910_001,既定の条件ですので、ユーザー様側からの拡縮は不可能～,既定の条件ですので、ユーザー様側からの喀出は不可能～,「拡縮」と「喀出」は音が似ているが意味が全く異なる。,ユーザー操作の可否について説明している場面での聞き間違い。速記者が専門用語に不慣れだった可能性。,True,coffee_break_parts_similar201910,,不明,速記者,ja
+coffee_break_parts_similar201910_002,ベースロード電源を担う火力発電所の～,ベース労働電源を担う火力発電所の～,「ロード（load）」と「労働」は発音が似ている。,電力供給の説明中での聞き間違い。エネルギー分野の専門用語に対する認識不足が原因。,True,coffee_break_parts_similar201910,,不明,速記者,ja
+coffee_break_parts_similar201910_003,強風時の湾内の走錨を減らしたい～,強風時の湾内の操業を減らしたい～,「走錨」と「操業」は音が似ている。,港湾や海運の専門用語「走錨（そうびょう）」を「操業」と誤記。専門用語の知識不足によるもの。,True,coffee_break_parts_similar201910,,不明,速記者,ja
+coffee_break_parts_similar201910_004,この枠組みは所与のものですので～,この枠組みは主要のものですので～,「所与」と「主要」は語感が似ている。,制度や枠組みの説明中での聞き間違い。抽象的な語彙の聞き取りミス。,True,coffee_break_parts_similar201910,,不明,速記者,ja
+coffee_break_parts_similar201910_005,実際に搭載した降雨レーダーというのが～,実際に搭載した高レーダーというのが～,「降雨」と「高」は発音が似ている。,レーダー装置の説明中での聞き間違い。専門用語の一部が省略されてしまった事例。,True,coffee_break_parts_similar201910,,不明,速記者,ja

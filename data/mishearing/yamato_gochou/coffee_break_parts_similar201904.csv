@@ -1,0 +1,6 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+coffee_break_parts_similar201904_001,システム的にも正副２台で冗長化構成ものであり～,システム的にも正副２台で上長がこうせえ、と言うものであり～,専門用語は文脈で再確認すること,会議中のITシステム説明で、専門用語「冗長化構成」が日常会話風に誤記録された。発音の類似と文脈理解不足が原因。,True,coffee_break_parts_similar201904,,不明,速記者,ja
+coffee_break_parts_similar201904_002,利点はあるけど、このままではガラパゴスになるのは目に見えているんで～,利点はあるけど、このままでは空っぽコースになるのは目に見えているんで～,カタカナ語は明瞭に発音すること,会議中の発言で、カタカナ語「ガラパゴス」が「空っぽコース」と誤記録された。音の連なりが似ているため発生。,True,coffee_break_parts_similar201904,,不明,速記者,ja
+coffee_break_parts_similar201904_003,そのシステムを用いることで一意に特定ができるもので～,そのシステムを用いることで１位に特定ができるもので～,数字と漢字の違いに注意,ITシステムの説明で「一意（unique）」が「１位（first）」と誤記録された。発音が同じで意味が異なるため混同。,True,coffee_break_parts_similar201904,,不明,速記者,ja
+coffee_break_parts_similar201904_004,デメリットと申しますか、区分地上権による制約として～,デメリットと申しますか、区分地条件による制約として～,法律用語は正確に確認すること,法律関連の会議で「区分地上権」が「区分地条件」と誤記録された。専門用語の類似性による誤認。,True,coffee_break_parts_similar201904,,不明,速記者,ja
+coffee_break_parts_similar201904_005,現状、辞書的なものを業者さんのほうで蓄積～,現状、事象的なものを業者さんのほうで蓄積～,発音の近い語は文脈で再確認,会議中の発言で「辞書」が「事象」と誤記録された。発音が似ているため、文脈確認が重要。,True,coffee_break_parts_similar201904,,不明,速記者,ja

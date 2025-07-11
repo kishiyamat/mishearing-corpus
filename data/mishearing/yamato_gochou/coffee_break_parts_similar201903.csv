@@ -1,0 +1,6 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+coffee_break_parts_similar201903_001,嫌な例えだけど、オペレーション・シジフォス、みたいなのは勘弁～,嫌な例えだけど、オペレーション、指示を欲す、みたいなのは勘弁～,カタカナ語と日本語の音の類似に注意,会議中の発言。カタカナ語「シジフォス」と日本語「指示を欲す」の音が似ていたため発生。発言者→速記者。,True,coffee_break_parts_similar201903,,unknown,速記者,ja
+coffee_break_parts_similar201903_002,前回お配りしたフォーマットをまた持ってくればわかりやすかったのですが～,前回お配りした法案等をまた持ってくればわかりやすかったのですが～,音が似ている単語の区別に注意,会議中の発言。「フォーマット」と「法案等」の音が似ていたため発生。発言者→速記者。,True,coffee_break_parts_similar201903,,unknown,速記者,ja
+coffee_break_parts_similar201903_003,資料を見るまでは、増加傾向にあればと期待していたんですが～,資料を見るまでは、どうか結構にあればと期待していたんですが～,音が似ている単語の区別に注意,会議中の発言。「増加傾向」と「どうか結構」の音が似ていたため発生。発言者→速記者。,True,coffee_break_parts_similar201903,,unknown,速記者,ja
+coffee_break_parts_similar201903_004,共同調達であれば、コストが上昇しても透明にはなるかと～,共同調達であれば、コストが上昇しても遠目にはなるかと～,音が似ている単語の区別に注意,会議中の発言。「透明」と「遠目」の音が似ていたため発生。発言者→速記者。,True,coffee_break_parts_similar201903,,unknown,速記者,ja
+coffee_break_parts_similar201903_005,証拠調べ手続で顕出された真実というものが～,証拠調べ手続で検出された真実というものが～,専門用語の聞き取りに注意,法的手続き中の発言。「顕出」と「検出」は意味も異なるが音が似ているため発生。発言者→速記者。,True,coffee_break_parts_similar201903,,unknown,速記者,ja

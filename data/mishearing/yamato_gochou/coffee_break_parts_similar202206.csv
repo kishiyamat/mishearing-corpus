@@ -1,0 +1,6 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+coffee_break_parts_similar202206_001,こういったことは既にもう全てdoneであったはず～,こういったことは既にもう全て断であったはず～,英語のカタカナ発音と漢字語の聞き間違いに注意,会議中の発言で「done（ダン）」を「断（だん）」と聞き間違えた。音が似ており、文脈によってはどちらも成立しうるため発生。発言者→速記者。,True,coffee_break_parts_similar202206,,unknown,速記者,ja
+coffee_break_parts_similar202206_002,セクションごとに、こういう名称を使用したいと～,セクションごとに、固有名詞を使用したいと～,「こういう名称」と「固有名詞」は音が似ている,セクション分けの説明時に「こういう名称」を「固有名詞」と聞き間違えた。意味も通るため誤認識しやすい。発言者→速記者。,True,coffee_break_parts_similar202206,,unknown,速記者,ja
+coffee_break_parts_similar202206_003,うちも当然内燃機関の仕事もやりますが～,うちも当然来年、幾何の仕事もやりますが～,専門用語の連続音が別の意味に分解されやすい,会社の業務説明時に「内燃機関」を「来年、幾何」と聞き間違えた。音が連続して聞こえたため、意味のある別の言葉に分解された。発言者→速記者。,True,coffee_break_parts_similar202206,,unknown,速記者,ja
+coffee_break_parts_similar202206_004,もちろん、帯域換算係数も留意～,もちろん、待機換算係数も留意～,技術用語の同音異義語に注意,技術的な説明時に「帯域」を「待機」と聞き間違えた。音が非常に似ているため発生。発言者→速記者。,True,coffee_break_parts_similar202206,,unknown,速記者,ja
+coffee_break_parts_similar202206_005,自動運転車の社会受容性の確保に努め～,自動運転車の社会需要性の確保に努め～,専門用語の類似音に注意,自動運転車の社会的説明時に「受容性」を「需要性」と聞き間違えた。専門用語同士で音が似ているため発生。発言者→速記者。,True,coffee_break_parts_similar202206,,unknown,速記者,ja

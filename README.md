@@ -249,6 +249,15 @@ We thank all annotators and contributors to this project.
 - **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
 - **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
 
+### Yamato Sokki (N=5)
+
+- 得られたデータを元に作成
+- rule baseで文を復元
+- tagを付与
+- 誤りを修正: `心理的にには` -> `心理的には`
+- ルールベースで余計な編集がLLMによって加えられていないかをテスト
+- Tagの分割
+
 ### Gendai Medi (N=8)
 - **Source**: Gendai Media
 - **URL**: [https://gendai.media/articles/-/152393?imp=0](https://gendai.media/articles/-/152393?imp=0)
@@ -271,6 +280,7 @@ We thank all annotators and contributors to this project.
   - 現状だとデータのフェッチが難しい -> エンコーディングの問題
   - textのidが同じで落とせなかったものもあったが、結局N件のページを取得
 - filestr2json2csvでcsvに変換
+  - file2csv_llm.py でLLMベース。yamatoはルールベース
   - もともとのurlバージョンを微修正
   - その後の処理は同じ
   - 目視で確認（非母語話者というタグが異常に多い気がする）
