@@ -150,6 +150,7 @@ st.write("### Scrape URLs from Search Results")
 if st.button("Run Scrape and Save"):
     for result in organic_results:
         url_tgt = result.get("url")
+        st.write(f"Start checking URL: {url_tgt}")
         description_tgt = result.get("description")
         if url_tgt in URL_SET:
             st.warning(f"URL `{url_tgt}` はすでに存在します。スキップします。")

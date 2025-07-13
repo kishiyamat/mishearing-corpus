@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kango_roo_image_1500_001,,,注意が必要,(Src=NA: placeholder '他の患者の名前')(Tgt=NA: placeholder '自分の名前') 待合室で他の患者の名前を自分の名前と聞き間違えて返事をしてしまう例。,True,kango_roo_image_1500,https://www.kango-roo.com/ki/image_1500/,日本語,"['医療', '病院', '待合室', '聞き間違い', 'コミュニケーション', '日本語']","['病院', '待合室', '外来', '検査室', '周囲に他の患者', '雑音あり']"

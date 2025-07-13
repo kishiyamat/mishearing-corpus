@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+asahi_DA3S15826483_001,,,会議では確認を,学園祭実行委員会でゲスト芸能人の名前を聞き間違えたが、具体的な名前は記事から判別できない。(Src=NA: 芸能人名不明)(Tgt=NA: 芸能人名不明),True,asahi_DA3S15826483,https://www.asahi.com/articles/DA3S15826483.html,日本語,"['聞き間違い', '学園祭', '実行委員会', '芸能人', '学生生活', 'コミュニケーション']","['学校', '会議室', '複数人会話', '雑音']"
