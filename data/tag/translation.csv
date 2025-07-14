@@ -3035,3 +3035,43 @@ SPANISH,ja,スペイン語
 SPANISH,en,Spanish
 INFANT_LANGUAGE,ja,幼児語
 INFANT_LANGUAGE,en,infant language
+IDENTITY_VERIFICATION,ja,本人確認
+IDENTITY_VERIFICATION,en,identity verification
+COLOR,ja,色
+COLOR,en,color
+INDUSTRY_TERMINOLOGY,ja,業界用語
+INDUSTRY_TERMINOLOGY,en,industry terminology
+NET_SHOP,ja,ネットショップ
+NET_SHOP,en,online shop
+OPERATOR,ja,オペレーター
+OPERATOR,en,operator
+ORDER_ACCEPTANCE,ja,注文受付
+ORDER_ACCEPTANCE,en,order acceptance
+SHIP,ja,出荷
+SHIP,en,shipping
+LAST_NAME,ja,姓
+LAST_NAME,en,last name
+CUSTOMER_SUPPORT,ja,カスタマーサポート
+CUSTOMER_SUPPORT,en,customer support
+BUSINESS_PHONE,ja,業務用電話
+BUSINESS_PHONE,en,business phone
+AUDITORY_INFORMATION_PROCESSING,ja,聴覚情報処理
+AUDITORY_INFORMATION_PROCESSING,en,auditory information processing
+KANJI_NOTATION,ja,漢字表記
+KANJI_NOTATION,en,kanji notation
+DEVELOPMENTAL_DISORDER,ja,発達障害
+DEVELOPMENTAL_DISORDER,en,developmental disorder
+PARAPHRASE,ja,言い換え
+PARAPHRASE,en,paraphrase
+CUSTOMER_INFORMATION,ja,顧客情報
+CUSTOMER_INFORMATION,en,customer information
+COUNTERMEASURES,ja,対策
+COUNTERMEASURES,en,countermeasures
+WORK_CONCERNS,ja,業務上の懸念
+WORK_CONCERNS,en,work concerns
+CONTACT_CENTER,ja,コンタクトセンター
+CONTACT_CENTER,en,contact center
+PERSONAL_INFORMATION,ja,個人情報
+PERSONAL_INFORMATION,en,personal information
+SPEAKING_STYLE,ja,話し方のスタイル
+SPEAKING_STYLE,en,speaking style

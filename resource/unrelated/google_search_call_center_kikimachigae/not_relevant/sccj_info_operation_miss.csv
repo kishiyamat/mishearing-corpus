@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,DocID,URL,Note
+sccj_callcenter_001,,,sccj_callcenter_operationmiss,http://sccj.info/call-center-yougo/operation-miss.html,(Src=NA: placeholder '顧客情報')(Tgt=NA: placeholder '別の顧客情報')
+sccj_callcenter_002,,,sccj_callcenter_operationmiss,http://sccj.info/call-center-yougo/operation-miss.html,(Src=NA: placeholder '注文内容')(Tgt=NA: placeholder '別の注文内容')

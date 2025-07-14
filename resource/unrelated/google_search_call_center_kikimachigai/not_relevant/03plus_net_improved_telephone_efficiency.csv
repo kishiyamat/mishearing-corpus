@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+03plusnet_improvedtel_001,氏名や折り返し連絡先,,電話での聞き間違いや伝達ミスが発生しやすい。通話録音やマニュアル整備で防止できる。,(Tgt=NA: 誤聴形が具体的に記載されていない),True,03plusnet_improvedtel,https://03plus.net/enterprise/column/improved-telephone-efficiency/,日本語,"['電話業務', '聞き間違い', '伝達ミス', '業務効率化']","['オフィス', 'コールセンター', '電話']"

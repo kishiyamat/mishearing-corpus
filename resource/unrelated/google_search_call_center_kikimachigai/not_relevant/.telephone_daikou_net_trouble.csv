@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+telephone_daikou_trouble_001,1（いち）,7（しち）,数字の復唱・確認を徹底すること,電話で数字を伝える際、1と7の聞き間違いが発生しやすい。特に騒がしい環境や急いでいる時に多い。,True,telephone_daikou_trouble,https://www.telephone-daikou.net/tel_point/trouble.html,日本語,"['コールセンター', '電話対応', '聞き間違い', '数字', 'トラブル防止', 'ビジネス']","['コールセンター', '電話', '騒がしい環境', '通信環境']"
+telephone_daikou_trouble_002,7時,19時,午前・午後の区別を明確に伝えること,時間帯の伝達で7時と19時（午前・午後）の聞き間違いが発生しやすい。復唱や24時間表記が有効。,True,telephone_daikou_trouble,https://www.telephone-daikou.net/tel_point/trouble.html,日本語,"['コールセンター', '電話対応', '聞き間違い', '時間', 'トラブル防止', 'ビジネス']","['コールセンター', '電話', '騒がしい環境', '通信環境']"
+telephone_daikou_trouble_003,会社名/名前/日時,別の会社名/名前/日時,復唱・確認を徹底すること,会社名や名前、日時など重要情報での聞き間違いがトラブルの原因となる。復唱や確認が推奨される。,True,telephone_daikou_trouble,https://www.telephone-daikou.net/tel_point/trouble.html,日本語,"['コールセンター', '電話対応', '聞き間違い', '会社名', '名前', '日時', 'トラブル防止', 'ビジネス']","['コールセンター', '電話', '騒がしい環境', '通信環境']"

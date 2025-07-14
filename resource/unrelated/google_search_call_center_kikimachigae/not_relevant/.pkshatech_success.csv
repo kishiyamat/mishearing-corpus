@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+sumitomolife_001,S,F,電話でアルファベットを伝える際は、フォネティックコード（例：Sは「シエラ」、Fは「フォックストロット」など）を使うと誤聴防止になる。,電話でメールアドレスを一文字ずつ確認する際、『S』と『F』など発音が似ている文字を聞き間違えてしまうことがあった。,True,sumitomolife,https://aisaas.pkshatech.com/success/sumitomolife/,日本語,"['コールセンター', '電話対応', 'メールアドレス', 'アルファベット', '聞き間違い', 'ボイスボット', 'DX', '保険', 'シニア', 'フォネティックコード']","['コールセンター', '電話']"

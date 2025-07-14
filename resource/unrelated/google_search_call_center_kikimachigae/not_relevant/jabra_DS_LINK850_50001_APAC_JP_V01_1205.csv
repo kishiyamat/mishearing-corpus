@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,DocID,URL,Note,Tags,Envs
+NA_dummy_001,,,jabra_link850_datasheet,https://www.jabra.com/_/media/Jabra_VXi_Product-Documentation/Jabra-Link-850/Datasheets/DS_LINK850_50001_APAC_JP_V01_1205.pdf,NO_INCIDENT: no explicit mishearing found,"['電話', 'コールセンター', 'ノイズキャンセリング', '音声品質', '聞き間違い防止', '補聴支援', '機器', '日本語']","['コールセンター', 'オフィス', '電話回線', '雑音環境', 'ヘッドセット', '有線/無線マイク']"

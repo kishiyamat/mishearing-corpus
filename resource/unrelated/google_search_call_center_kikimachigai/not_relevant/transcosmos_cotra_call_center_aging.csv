@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+transcosmoscotra_callcenter_001,カ行、サ行、タ行、パ行の音,,高齢者対応に注意,(Tgt=NA: 具体的な誤聴語が記事内に明記されていない),True,transcosmoscotra_callcenter,https://www.transcosmos-cotra.jp/call-center-aging,日本語,"['コールセンター', '高齢化', '聞き間違い', '聴力低下', '電話対応', '顧客対応', 'シニア採用', 'コミュニケーション', '日本語']","['電話', 'コールセンター']"

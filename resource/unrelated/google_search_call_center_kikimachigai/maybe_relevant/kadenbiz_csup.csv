@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kadenbiz_denwaoutai_001,1時,7時,「しちじ」を「ななじ」と言い換えることで数字の聞き間違いを防ぐ。,数字の聞き間違いが多いため、復唱や言い換えで防止する。,True,kadenbiz_denwaoutai,https://kadenbiz.com/2017/03/30/denwaoutai_csup/,日本語,"['電話応対', 'コールセンター', '家電量販店', '新人研修', '聞き間違い', '復唱', 'メモ', '接客', 'CS（顧客満足）']","['店舗', 'コールセンター', '電話', '通信環境']"
+kadenbiz_denwaoutai_002,来週の火曜日,14日の火曜日,日付や曜日は具体的に復唱することで曖昧さを防ぐ。,曖昧な表現を具体的な日付で復唱し、聞き間違いを防ぐ。,True,kadenbiz_denwaoutai,https://kadenbiz.com/2017/03/30/denwaoutai_csup/,日本語,"['電話応対', 'コールセンター', '家電量販店', '新人研修', '聞き間違い', '復唱', 'メモ', '接客', 'CS（顧客満足）']","['店舗', 'コールセンター', '電話', '通信環境']"

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+karaden_2023032203_001,,,電話よりSMSでミス減,NO_INCIDENT: コールセンター業務で『言い間違い・聞き間違い』が発生しやすいが、具体的な誤聴事例は記載なし。(Src=NA: 具体語なし)(Tgt=NA: 具体語なし),True,karaden_2023032203,https://www.karaden.jp/column/2023032203.html,日本語,"['コールセンター', '業務効率化', 'SMS', '聞き間違い', '言い間違い', '電話対応', 'コミュニケーション', '業務改善']","['コールセンター', '電話', 'SMS', 'オフィス', '通信環境']"

@@ -22,13 +22,11 @@ MISHEARING_SCRAPE_AND_SAVER_ENDPOINT = "http://127.0.0.1:7860/api/v1/run/cbda4a0
 API_URL_CATEGORIZE_CSV_ENDPOINT = "http://localhost:7860/api/v1/run/8e66efed-1840-42e0-9778-9ced64bf978d"
 API_URL_FIX_CSV_ENDPOINT = "http://127.0.0.1:7860/api/v1/run/688463f5-255f-4368-88f9-e3fb5ed17a50"
 
-"""
-空のセット(URL_SET )を 作成します。
-./data/mishearing
-/home/kishiyamat/mishearing-corpus/resource
-これらディレクトリの下にあるcsvをすべて読み込みます
-大文字でURLという列がある場合、セットに追加します .
-"""
+# 空のセット(URL_SET )を 作成します。
+# ./data/mishearing
+# ./resource
+# これらディレクトリの下にあるcsvをすべて読み込みます
+# 大文字でURLという列がある場合、セットに追加します .
 # misher
 URL_SET = set()
 
@@ -89,8 +87,8 @@ st.warning("results_per_pageとmax_pages_per_queryも適宜変更してくださ
 # 一旦、「え」をすすめる
 # queries = '仕事 "聞き間違い"'
 # save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_shigoto_kikimachigai"
-queries = '"名前" "聞き間違え"'
-save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_name_kikimachigae"
+queries = '"コールセンター" "聞き間違い"'
+save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_call_center_kikimachigai"
 results_per_page = 20
 max_pages_per_query = 30
 # 設定をwrite

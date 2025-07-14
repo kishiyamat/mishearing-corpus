@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ke87c97e84477_001,,,ゆっくりはっきり話す,(Src=NA: placeholder '名前（早口）')(Tgt=NA: placeholder '別の名前') コールセンターで早口に名乗られた際、オペレーターが名前を聞き間違える事例。,True,ke87c97e84477,https://note.com/keigo_kyousitsu/n/ne87c97e84477,日本語,"['コールセンター', '聞き間違い', '早口', '電話対応', '名前', '情報伝達', '仕事', '日本語']","['電話', 'コールセンター', '通信環境', 'オフィス']"
+ke87c97e84477_002,,,ゆっくりはっきり話す,(Src=NA: placeholder '内容（早口）')(Tgt=NA: placeholder '別の内容') コールセンターで早口に要件を伝えられた際、内容を聞き間違える事例。,True,ke87c97e84477,https://note.com/keigo_kyousitsu/n/ne87c97e84477,日本語,"['コールセンター', '聞き間違い', '早口', '電話対応', '名前', '情報伝達', '仕事', '日本語']","['電話', 'コールセンター', '通信環境', 'オフィス']"

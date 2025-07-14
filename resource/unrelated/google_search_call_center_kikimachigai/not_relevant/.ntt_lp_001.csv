@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nttcom_aitelephone_column31_001,1時（いちじ）,7時（しちじ）,数字の聞き取りに注意,電話予約時に「1時」と「7時」を聞き間違えて予約ミスが発生することがある。,True,nttcom_aitelephone_column31,https://www.ntt.com/business/services/aitelephone/lp/column-31.html,日本語,"['コールセンター', '電話対応', '予約システム', 'AI', '聞き間違い', '情報伝達ミス', '業務効率化', '法人向けサービス']","['電話', 'コールセンター', '店舗受付', '通信環境']"

@@ -403,6 +403,14 @@ Denwa (Telephone)
 _ google_search_name_kikimachigae	52
 _ google_search_name_kikimachigai	71
 
+### Google | Call center (N=41)
+
+そろそろ、phonetic code系は無効にしようかな...。
+結構、もう見たって感じのデータが多くなってきた。
+
+- google_search_call_center_kikimachigae	36
+- google_search_call_center_kikimachigai	5
+
 ### Google | Business (N=?)
 
 - IgnoreのURLを指定できるように更新

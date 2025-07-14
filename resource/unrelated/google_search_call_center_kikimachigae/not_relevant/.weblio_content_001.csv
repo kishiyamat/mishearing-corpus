@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+weblio_tsuwa_001,9,Q,数字の「9」とアルファベットの「Q」は形や音が似ており、電話や無線での情報伝達時に聞き間違いが発生しやすい。,,True,weblio_tsuwa,https://www.weblio.jp/content/%E7%8F%BE%E4%BB%A3%E7%A4%BE%E4%BC%9A%E3%81%A7%E3%81%AE%E3%80%8C%E9%80%9A%E8%A9%B1%E8%A1%A8%E3%80%8D,日本語,"['通話表', 'コールセンター', '電話対応', '聞き間違い', 'フォネティックコード', '情報伝達', '現代社会']","['電話', 'コールセンター', '無線通信', 'オフィス', '通信環境']"

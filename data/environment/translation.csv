@@ -2999,3 +2999,15 @@ ENTRANCE,ja,玄関
 ENTRANCE,en,entrance
 NICHIJOU,ja,日常
 NICHIJOU,en,ordinary life
+NETSHOPPING_WORK,ja,ネットショッピング業務
+NETSHOPPING_WORK,en,online shopping operations
+SHIP_YARD,ja,造船所
+SHIP_YARD,en,shipyard
+STORE_RECEPTION,ja,店舗受付
+STORE_RECEPTION,en,store reception
+ORDER_COUNTER,ja,注文カウンター
+ORDER_COUNTER,en,order counter
+CONTACT_CENTER,ja,コンタクトセンター
+CONTACT_CENTER,en,contact center
+HEADSET_ESTIMATED,ja,ヘッドセット使用想定
+HEADSET_ESTIMATED,en,headset estimated usage

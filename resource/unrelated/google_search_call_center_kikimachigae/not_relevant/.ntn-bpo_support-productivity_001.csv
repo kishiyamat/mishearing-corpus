@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ntnbpo_supportproductivity_001,L・M・N,,アルファベットはSMSで伝える,電話口で「L」「M」「N」などのアルファベットは聞き間違いが発生しやすい。SMSなら視認できるため防げる。(Tgt=NA: 他のアルファベットの具体例不明),True,ntnbpo_supportproductivity,https://ntn-bpo.jp/column/customer-support/support-productivity/,日本語,"['コールセンター', 'カスタマーサポート', '電話対応', 'SMS', '業務効率化', '聞き間違い', 'アルファベット', '数字', 'BPO']","['コールセンター', '電話', '通信環境']"
+ntnbpo_supportproductivity_002,Q,9.0,アルファベット・数字はSMSで,電話口で「Q」と「9」など、アルファベットと数字の聞き間違いが発生しやすい。SMSなら防げる。,True,ntnbpo_supportproductivity,https://ntn-bpo.jp/column/customer-support/support-productivity/,日本語,"['コールセンター', 'カスタマーサポート', '電話対応', 'SMS', '業務効率化', '聞き間違い', 'アルファベット', '数字', 'BPO']","['コールセンター', '電話', '通信環境']"

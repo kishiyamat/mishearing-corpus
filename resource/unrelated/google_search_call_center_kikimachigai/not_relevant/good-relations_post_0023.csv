@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+goodrelations_post0023_001,予約内容,別の予約内容,録音・履歴機能で内容確認を徹底することで防止可能,コールセンターでの電話予約時、内容の聞き間違いが発生しやすい。クラウドCTIの録音・履歴機能で防止可能。,True,goodrelations_post0023,https://media.good-relations.jp/callcenter/post_0023/,日本語,"['コールセンター', '電話応対', '業務効率化', 'クラウドCTI', '録音', '顧客管理', '聞き間違い', '予約', 'ビジネス', 'IT']","['コールセンター', 'オフィス', '電話', 'クラウドシステム', '録音・履歴管理']"

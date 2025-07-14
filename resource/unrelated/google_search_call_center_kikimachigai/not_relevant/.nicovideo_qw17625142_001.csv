@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nw17625142_001,大神 絶景版,狼 絶景版,カタカナ語や同音異義語は文脈で判断を,『大神』と『狼』は同音で混同しやすい,True,nw17625142,https://news.nicovideo.jp/watch/nw17625142?news_ref=watch_60_nw4329021,ja,"['ゲーム', 'カタカナ', '同音異義語']","['オンラインニュース', '店頭アナウンス']"
+nw17625142_002,68%オフ,60%オフ,数字の聞き取りは明瞭に発音すること,割引率の数字は聞き間違いやすい,True,nw17625142,https://news.nicovideo.jp/watch/nw17625142?news_ref=watch_60_nw4329021,ja,"['数字', '割引', '聞き間違い']","['オンラインニュース', '店頭アナウンス']"
+nw17625142_003,974円,940円,価格の数字は繰り返して確認する,価格の数字も聞き間違いが発生しやすい,True,nw17625142,https://news.nicovideo.jp/watch/nw17625142?news_ref=watch_60_nw4329021,ja,"['数字', '価格', '聞き間違い']","['オンラインニュース', '店頭アナウンス']"

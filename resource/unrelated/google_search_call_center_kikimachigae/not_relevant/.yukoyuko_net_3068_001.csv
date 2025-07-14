@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+yukoyuko_3068_005_001,グラス2個,お酒2本,ゆっくり・はっきり伝える,夕食時に「グラス2個」と注文したが「お酒2本」と聞き間違えられた。宿泊施設のレストランでの出来事。,True,yukoyuko_3068_005,https://www.yukoyuko.net/3068/kuchikomi?accommodationDate=20171103&adult_count=2&goto_discount=1&hotelAccommodationDate.startDate=20171103&numberOfGuests=2&page=5&room_count=1&stay_count=1,日本語,"['旅行', '宿泊', 'レストラン', '聞き間違い', '日本酒', '接客']","['レストラン', '夕食時', '宿泊施設', '会話（対面）', 'ノイズ（食事中の環境音）']"

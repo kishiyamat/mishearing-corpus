@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+jumblecabinet_phonetic_001,C,E,電話で区別しづらい,電話口でCとEの区別が難しく、伝達ミスが起こりやすい。,True,jumblecabinet_phonetic,https://jumble-cabinet.com/phonetic-code/,日本語,"['電話応対', 'アルファベット', 'フォネティックコード', 'コミュニケーション', '仕事', '聞き間違い']","['電話', 'オフィス', '通信環境']"
+jumblecabinet_phonetic_002,P,B,電話で区別しづらい,Pは「駐車場のP」と言うことで伝わったが、BやD、Vと混同しやすい。,True,jumblecabinet_phonetic,https://jumble-cabinet.com/phonetic-code/,日本語,"['電話応対', 'アルファベット', 'フォネティックコード', 'コミュニケーション', '仕事', '聞き間違い']","['電話', 'オフィス', '通信環境']"
+jumblecabinet_phonetic_003,W,Whiskey,フォネティックコードの単語が伝わりづらい,「WhiskeyのW」と言われて混乱。「ダブリュー」や「ワリオ」のWの方が分かりやすいと感じた。,True,jumblecabinet_phonetic,https://jumble-cabinet.com/phonetic-code/,日本語,"['電話応対', 'アルファベット', 'フォネティックコード', 'コミュニケーション', '仕事', '聞き間違い', '非母語話者']","['電話', 'オフィス', '通信環境']"
