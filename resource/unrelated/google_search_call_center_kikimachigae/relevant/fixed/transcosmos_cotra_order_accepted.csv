@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+transcosmos_cotra_order_001,渡辺,渡部,漢字表記の確認を必ず復唱すること,電話注文受付で「渡辺」と「渡部」など、漢字表記のバリエーションを聞き間違えるリスクがある。,True,transcosmos_cotra_order,https://www.transcosmos-cotra.jp/order-accepted,渡辺,オペレーター,ja
+transcosmos_cotra_order_002,斉藤,斎藤,漢字表記の確認を必ず復唱すること,電話注文受付で「斉藤」と「斎藤」など、漢字表記のバリエーションを聞き間違えるリスクがある。,True,transcosmos_cotra_order,https://www.transcosmos-cotra.jp/order-accepted,斉藤,オペレーター,ja
+transcosmos_cotra_order_003,武田,竹田,漢字表記の確認を必ず復唱すること,電話注文受付で「武田」と「竹田」など、漢字表記のバリエーションを聞き間違えるリスクがある。,True,transcosmos_cotra_order,https://www.transcosmos-cotra.jp/order-accepted,武田,オペレーター,ja

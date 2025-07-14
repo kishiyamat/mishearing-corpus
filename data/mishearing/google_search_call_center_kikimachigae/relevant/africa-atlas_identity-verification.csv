@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-africa_atlas_callcenter_001,伊藤,伊東,部首や画数を確認しよう,名前や住所の漢字を電話で聞き間違えて誤登録してしまう。復唱や部首・画数確認が推奨される。,True,africa_atlas_callcenter/identity-verification,https://africa-atlas.com/call-center/identity-verification/,日本語,"['コールセンター', '本人確認', '聞き間違い', '漢字', '電話対応', 'ビジネススキル', '顧客対応']","['電話', 'コールセンター', '通信環境']"

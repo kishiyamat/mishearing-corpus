@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-callcenternews_p803zw1rp_001,ホットココア,ホットコーヒー,注文時は明確に伝え、復唱時に訂正すること,カフェで「ホットココア」を注文したが、店員が「ホットですね」と復唱し、ホットコーヒーと誤認。,True,callcenternews_p803zw1rp,https://callcenter-news.com/sales/p803zw-1rp/,日本語,"['コールセンター', '営業', '聞き間違い', '接客', 'ヒューマンエラー']","['カフェ', '注文カウンター', '店内ノイズ']"
-callcenternews_p803zw1rp_002,ホットコーヒー,ホットラテ,思い込みで変更せず、必ず確認すること,別の店員が「いつもホットラテだから」と思い込みで注文をホットラテに変更。,True,callcenternews_p803zw1rp,https://callcenter-news.com/sales/p803zw-1rp/,日本語,"['コールセンター', '営業', '聞き間違い', '接客', 'ヒューマンエラー']","['カフェ', '注文カウンター', '店内ノイズ']"
