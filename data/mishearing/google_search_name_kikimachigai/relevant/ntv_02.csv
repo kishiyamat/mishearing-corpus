@@ -1,3 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-megaten_bn13_02_001,りょうこ,ようこ,注意が必要,名前の「りょうこ」が「ようこ」と聞き間違えられることがある。,True,megaten_bn13_02,https://www.ntv.co.jp/megaten/archive/omake/bn/13/02.html,日本語,"['名前', '聞き間違い', '日本語', 'コミュニケーション']",['日常会話']
-megaten_bn13_02_002,,かとうようこ,注意が必要,姓名全体が「かとうようこ」と大変身してしまうことがある。(Src=NA: 本来の名前が明示されていない),True,megaten_bn13_02,https://www.ntv.co.jp/megaten/archive/omake/bn/13/02.html,日本語,"['名前', '聞き間違い', '日本語', 'コミュニケーション']",['日常会話']

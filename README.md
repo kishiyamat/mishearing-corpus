@@ -398,6 +398,11 @@ Denwa (Telephone)
 - 作成したアプリで収集(`queries = '電話 "聞き間違え"'`) -> N=80
 - 作成したアプリで収集(`queries = '電話 "聞き間違い"'`) -> N=175
 
+### Google | Name (N=123)
+
+_ google_search_name_kikimachigae	52
+_ google_search_name_kikimachigai	71
+
 ### Google | Business (N=?)
 
 - IgnoreのURLを指定できるように更新
