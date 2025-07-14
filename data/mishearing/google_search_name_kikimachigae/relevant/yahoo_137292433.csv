@@ -1,2 +1,0 @@
-MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-jobcatalog_137292433_001,サカグチ様,サワグチ様,2文字ずつ区切って確認、違う方をあえて言ってみる、フォネティックコードも有効,電話で人名を聞き間違えやすい。例として「サカグチ」と「サワグチ」など2文字違いの苗字で発生しやすい。,True,jobcatalog_137292433,https://contents.jobcatalog.yahoo.co.jp/qa/list/137292433/,日本語,"['仕事', '電話対応', '聞き間違い', 'コミュニケーション', '人名', 'フォネティックコード']","['電話', 'オフィス', '通信環境']"
