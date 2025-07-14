@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,DocID,URL,Note,OriginalFlag,Language,Tags,Envs
+telcopolo_seeds2_001,,,telcopolo_seeds2,http://www.seeds2.co.jp/telcopolo/,(Src=NA: placeholder '顧客の名前')(Tgt=NA: placeholder '別の名前') コールセンターで顧客の名前を聞き間違えるリスクについて記載。具体的な語句は明示されていない。,True,日本語,"['コールセンター', '電話応対', 'CTI', '聞き間違い', '通話録音', '顧客管理']","['コールセンター', '事務所', '電話回線', '録音', 'データベース']"
+telcopolo_seeds2_002,,,telcopolo_seeds2,http://www.seeds2.co.jp/telcopolo/,(Src=NA: placeholder '商品内容')(Tgt=NA: placeholder '別の商品名') 商品注文時に内容を聞き間違えるリスクについて記載。具体的な語句は明示されていない。,True,日本語,"['コールセンター', '電話応対', 'CTI', '聞き間違い', '通話録音', '顧客管理']","['コールセンター', '事務所', '電話回線', '録音', 'データベース']"

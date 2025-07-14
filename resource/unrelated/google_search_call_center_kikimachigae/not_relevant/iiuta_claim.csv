@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,DocID,URL,Note,OriginalFlag,Language,Tags,Envs
+iiuta_claim_001,,,iiuta_claim,https://iiuta.jp/claim/,(Src=NA: 具体的な発話文・単語が記載されていないため)(Tgt=NA: 具体的な誤聴語が記載されていないため),True,日本語,"['コールセンター', 'クレーム対応', '接客業', '聞き間違い', 'コミュニケーション', '電話対応', '飲食店', '顧客対応']","['コールセンター', '飲食店', '接客現場']"

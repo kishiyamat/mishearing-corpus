@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kasuhara_jireishu_001,,,聞き返し・確認を徹底,(Src=NA: 具体的な発話内容不明)(Tgt=NA: 具体的な誤聴内容不明) コールセンターで顧客との電話中、どちらかの言い間違え・聞き間違いで業務ミスが発生し、過度な謝罪や値引きを罵倒されながら要求された。,True,kasuhara_jireishu,https://live-publishing.jp/kasuhara-solution/kasuhara/jireishu/,日本語,"['カスタマーハラスメント', 'コールセンター', '聞き間違い', '電話対応', 'クレーム', '業務ミス', '企業研修', '日本語']","['電話', 'コールセンター', '顧客対応', 'ノイズ(推定)', 'マイク仕様不明']"

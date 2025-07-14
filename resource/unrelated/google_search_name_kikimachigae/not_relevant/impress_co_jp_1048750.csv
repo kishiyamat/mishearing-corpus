@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+travel_watch_1048750_001,苗字のみで呼ぶ,他の同姓の人と間違える,フルネームで呼ぶことで聞き間違いを防げる,(Src=NA: '苗字のみ'は具体的な語句ではない)(Tgt=NA: '他の同姓の人'は具体的な語句ではない),True,travel_watch_1048750,https://travel.watch.impress.co.jp/docs/news/1048750.html,日本語,"['聞き間違い', 'コミュニケーション', '名前', 'フルネーム', '講義', 'ビジネス', '非母語話者']","['会議室', '講義室', 'ビジネス現場', '雑音あり', '複数人がいる環境']"

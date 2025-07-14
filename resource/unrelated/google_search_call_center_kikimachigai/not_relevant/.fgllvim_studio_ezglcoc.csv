@@ -1,0 +1,5 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+fgllvim_studio_001,B,D,アルファベットは明瞭に発音,電話予約受付でBとDの聞き間違いが発生しやすい。,True,fgllvim_studio,https://fgllvim.studio/&12kx8s/fhjknla/ezglcoc.asp,日本語,"['コールセンター', '新入社員研修', '電話対応', '聞き間違い', 'アルファベット', '仕事']","['コールセンター', '電話', '通信環境']"
+fgllvim_studio_002,M,N,アルファベットは明瞭に発音,電話予約受付でMとNの聞き間違いが発生しやすい。,True,fgllvim_studio,https://fgllvim.studio/&12kx8s/fhjknla/ezglcoc.asp,日本語,"['コールセンター', '新入社員研修', '電話対応', '聞き間違い', 'アルファベット', '仕事']","['コールセンター', '電話', '通信環境']"
+fgllvim_studio_003,1,7,数字はゆっくりはっきり発音,電話予約受付で1と7の聞き間違いが発生しやすい。,True,fgllvim_studio,https://fgllvim.studio/&12kx8s/fhjknla/ezglcoc.asp,日本語,"['コールセンター', '新入社員研修', '電話対応', '聞き間違い', '数字', '仕事']","['コールセンター', '電話', '通信環境']"
+fgllvim_studio_004,田中,タナカワ,名前は復唱・確認が重要,電話予約受付で田中とタナカワの聞き間違いが発生しやすい。,True,fgllvim_studio,https://fgllvim.studio/&12kx8s/fhjknla/ezglcoc.asp,日本語,"['コールセンター', '新入社員研修', '電話対応', '聞き間違い', '名前', '仕事']","['コールセンター', '電話', '通信環境']"

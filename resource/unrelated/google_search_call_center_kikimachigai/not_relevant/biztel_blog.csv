@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+biztel_11492_001,,,ゆっくり丁寧に話すことを心がけましょう,(Src=NA: 顧客の依頼内容や用語が具体的に記載されていない)(Tgt=NA: 聞き間違えた語句が具体的に記載されていない),True,biztel_11492,https://biztel.jp/blog/2023/04/11/11492/,日本語,"['コールセンター', '聞き間違い', '電話対応', 'エスカレーション', 'BIZTEL', '4コマ漫画', '仕事', '応対品質']","['コールセンター', '電話', 'オフィス', '通信環境']"

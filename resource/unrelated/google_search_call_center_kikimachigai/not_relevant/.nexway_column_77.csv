@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+smslink_nexway_77_001,Q,9,発音が似ているので注意,電話でアルファベット「Q」と数字「9」を伝える際、発音が似ているため聞き間違いが発生しやすい。SMSなら防げる。,True,smslink_nexway_77,https://smslink.nexway.co.jp/column/77,日本語,"['コールセンター', 'SMS', '聞き間違い', '電話対応', 'アルファベット', '情報伝達']","['コールセンター', '電話', '通信環境']"
+smslink_nexway_77_002,:（コロン）,/（スラッシュ）,記号の読み方に注意,記号の読み方が分からず、電話で正確に伝わらないことがある。SMSならテキストで正確に伝達できる。,True,smslink_nexway_77,https://smslink.nexway.co.jp/column/77,日本語,"['コールセンター', 'SMS', '聞き間違い', '電話対応', '記号', '情報伝達']","['コールセンター', '電話', '通信環境']"
+smslink_nexway_77_003,メールアドレス/URL,メールアドレス/URL,口頭伝達は避ける,メールアドレスやURLを電話で伝えると聞き間違いが生じやすい。SMSで送れば正確に伝わる。,True,smslink_nexway_77,https://smslink.nexway.co.jp/column/77,日本語,"['コールセンター', 'SMS', '聞き間違い', '電話対応', 'メールアドレス', 'URL', '情報伝達']","['コールセンター', '電話', '通信環境']"

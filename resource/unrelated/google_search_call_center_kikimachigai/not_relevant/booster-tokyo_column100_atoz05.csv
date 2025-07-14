@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+booster_tokyo_atoz05_001,引っ越しによる住所変更,通信先変更,お客様の言葉を社内用語に置き換えず、両方伝えると安心感につながる,お客様が「引っ越しをしたのでお電話しました」と伝えた際、社内用語「通信先変更」で復唱すると誤解が生じる,True,booster_tokyo_atoz05,https://www.booster-tokyo.co.jp/column/training/column100_atoz05/,日本語,"['コールセンター', '電話応対', '復唱確認', '聞き間違い', '顧客対応', '社内用語', '研修', '日本語']","['コールセンター', '電話', '顧客対応現場']"

@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+nippku_08column_001,みかん,りんご,注意が必要,失語症の症状で、言いたい単語と違う単語を言ってしまう（単語の言い間違い）。,True,nippku_08column,https://www.nippku.ac.jp/faculty/08/column/?p=28,日本語,"['失語症', '言語障害', '医療', 'リハビリ', 'コミュニケーション']","['医療機関', 'リハビリ施設', '日常生活']"
+nippku_08column_002,トイレ,トレイ,注意が必要,失語症の症状で、音が似ている単語を言い間違える（音の聞き間違い・言い間違い）。,True,nippku_08column,https://www.nippku.ac.jp/faculty/08/column/?p=28,日本語,"['失語症', '言語障害', '医療', 'リハビリ', 'コミュニケーション']","['医療機関', 'リハビリ施設', '日常生活']"
+nippku_08column_003,数字,別の数字,注意が必要,失語症の症状で、電話番号や金額、日付、時間などの数字を聞き間違えたり言い間違えたりする。,True,nippku_08column,https://www.nippku.ac.jp/faculty/08/column/?p=28,日本語,"['失語症', '言語障害', '医療', 'リハビリ', 'コミュニケーション', '数字']","['医療機関', 'リハビリ施設', '日常生活']"

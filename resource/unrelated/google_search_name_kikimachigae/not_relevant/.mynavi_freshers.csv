@@ -1,0 +1,6 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+gakumado48776_001,釈迦野（しゃかの）,坂野（さかの）,電話で名前を復唱するなど確認を徹底する,電話で「釈迦野」さんを「坂野」さんと聞き間違えた事例,True,gakumado48776,https://gakumado.mynavi.jp/freshers/articles/48776,日本語,"['職場', 'ビジネスマナー', '電話対応', '名前', '聞き間違い', '社会人']","['オフィス', '電話', '取引先', 'ノイズ']"
+gakumado48776_002,タブチ,ノグチ,似た音の名前はフルネームで確認する,タブチ、ノグチ、マブチと3人いて名前を聞き間違えやすい（例:タブチ→ノグチ）,True,gakumado48776,https://gakumado.mynavi.jp/freshers/articles/48776,日本語,"['職場', 'ビジネスマナー', '名前', '聞き間違い', '社会人']","['オフィス', '社内', 'ノイズ']"
+gakumado48776_003,さいとう,,漢字の確認も怠らない,「さいとう」という名字の漢字を間違えた（Tgt=NA: 音ではなく表記の誤認）,True,gakumado48776,https://gakumado.mynavi.jp/freshers/articles/48776,日本語,"['職場', 'ビジネスマナー', '名前', '表記間違い', '社会人']","['オフィス', '取引先']"
+gakumado48776_004,小林,,同姓が複数いる場合は下の名前も確認する,同じ名字の人が複数いて混同した（Tgt=NA: 具体的な聞き間違い先が不明）,True,gakumado48776,https://gakumado.mynavi.jp/freshers/articles/48776,日本語,"['職場', 'ビジネスマナー', '名前', '聞き間違い', '社会人']","['オフィス', '社内']"
+gakumado48776_005,担当者の名前,,電話口で担当者名は復唱する,営業所の担当者の名前を毎回間違えて電話対応で読み間違えた（Tgt=NA: 具体的な誤聴形不明）,True,gakumado48776,https://gakumado.mynavi.jp/freshers/articles/48776,日本語,"['職場', 'ビジネスマナー', '電話対応', '名前', '聞き間違い']","['オフィス', '電話']"

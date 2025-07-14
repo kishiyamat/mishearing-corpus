@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+telephone_daikou_weak_001,約束の日時,別の日時,復唱して確認すること,電話の聞き取りにくさから、約束の日時を聞き間違えるリスクがある。,True,telephone_daikou_weak,https://www.telephone-daikou.net/tel_point/weak.html,日本語,"['電話対応', 'コールセンター', '聞き間違い', 'ビジネスマナー', '電話代行', '仕事']","['電話', 'オフィス', 'コールセンター', '通信環境']"
+telephone_daikou_weak_002,相手の電話番号,別の番号,復唱して確認すること,電話の聞き取りにくさから、電話番号を聞き間違えるリスクがある。,True,telephone_daikou_weak,https://www.telephone-daikou.net/tel_point/weak.html,日本語,"['電話対応', 'コールセンター', '聞き間違い', 'ビジネスマナー', '電話代行', '仕事']","['電話', 'オフィス', 'コールセンター', '通信環境']"
+telephone_daikou_weak_003,名前や会社名,別の名前や会社名,復唱して確認すること,電話の聞き取りにくさから、名前や会社名を聞き間違えるリスクがある。,True,telephone_daikou_weak,https://www.telephone-daikou.net/tel_point/weak.html,日本語,"['電話対応', 'コールセンター', '聞き間違い', 'ビジネスマナー', '電話代行', '仕事']","['電話', 'オフィス', 'コールセンター', '通信環境']"

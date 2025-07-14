@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+rionet_communication_001,７（しち）,１（いち）,「７時」なら「夜の７時」や「なな時」など言い換えを推奨,難聴者や補聴器利用者との会話で「７」と「１」を聞き間違えることが多い。数字は特に注意が必要。,True,rionet_communication,https://www.rionet.jp/family/communication/,日本語,"['聴力', '難聴', '補聴器', 'コミュニケーション', '聞き間違い', '数字', '地名', '名前', '家庭', '介護']","['家庭', '補聴器利用者との会話', '静かな場所', '騒がしい場所', '電話', '日常生活']"

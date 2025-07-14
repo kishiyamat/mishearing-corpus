@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+iwate_med_safety_uchimaru_001,,,フルネームで患者確認を徹底し、リストバンドで再確認することで聞き間違い・取り違えを防止。,(Src=NA: 具体的な発話例・氏名が記載されていない)(Tgt=NA: 具体的な誤聴形が記載されていない),True,iwate_med_safety_uchimaru,https://www.hosp.iwate-med.ac.jp/uchimaru/safety-uchimaru/sf03/,日本語,"['医療安全', '聞き間違い', '患者確認', '病院', 'フルネーム', 'リストバンド', '入院', 'コミュニケーション']","['病院', '病棟', '外来', '検査室', '手術室', '医療現場']"

@@ -1,0 +1,11 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+naosound_pb2sel7p_001,キーボード（楽器）,キーボード（パソコン）,音声のみの場面では「鍵盤」と言い換える,「キーボード」と言うとパソコンのキーボードと誤解されやすい。音声配信や電話で特に注意。,True,naosound_pb2sel7p,https://listen.style/p/naosound/pb2sel7p,日本語,"['音声配信', 'コミュニケーション', '聞き間違い', '同音異義語', '電話対応', '日本語']","['音声配信', '電話', 'コールセンター', '通信環境']"
+naosound_pb2sel7p_002,4月（しがつ）,7月（しちがつ）,「4月」「7月」と明確に発音する,「しがつ」と「しちがつ」が聞き取りにくい場合がある。,True,naosound_pb2sel7p,https://listen.style/p/naosound/pb2sel7p,日本語,"['音声配信', '聞き間違い', '数字', '電話対応']","['音声配信', '電話', 'コールセンター', '通信環境']"
+naosound_pb2sel7p_003,7月（しちがつ）,1月（いちがつ）,「7月」「1月」と明確に発音する,「しちがつ」と「いちがつ」が音声で混同されやすい。,True,naosound_pb2sel7p,https://listen.style/p/naosound/pb2sel7p,日本語,"['音声配信', '聞き間違い', '数字', '電話対応']","['音声配信', '電話', 'コールセンター', '通信環境']"
+naosound_pb2sel7p_004,1（いち）,7（しち）,数字は明確に発音する,「いち」と「しち」が聞き間違えられることがある。,True,naosound_pb2sel7p,https://listen.style/p/naosound/pb2sel7p,日本語,"['音声配信', '聞き間違い', '数字', '電話対応']","['音声配信', '電話', 'コールセンター', '通信環境']"
+naosound_pb2sel7p_005,4（し）,7（しち）,数字は明確に発音する,「し」と「しち」が聞き間違えられることがある。,True,naosound_pb2sel7p,https://listen.style/p/naosound/pb2sel7p,日本語,"['音声配信', '聞き間違い', '数字', '電話対応']","['音声配信', '電話', 'コールセンター', '通信環境']"
+naosound_pb2sel7p_006,T,C,アルファベットは明確に発音する,「T」と「C」が音声で混同されやすい。,True,naosound_pb2sel7p,https://listen.style/p/naosound/pb2sel7p,日本語,"['音声配信', '聞き間違い', 'アルファベット', '電話対応']","['音声配信', '電話', 'コールセンター', '通信環境']"
+naosound_pb2sel7p_007,D,T,アルファベットは明確に発音する,「D」と「T」が音声で混同されやすい。,True,naosound_pb2sel7p,https://listen.style/p/naosound/pb2sel7p,日本語,"['音声配信', '聞き間違い', 'アルファベット', '電話対応']","['音声配信', '電話', 'コールセンター', '通信環境']"
+naosound_pb2sel7p_008,箸（はし：食事用）,橋（はし：ブリッジ）,文脈や説明を加える,同音異義語の例。,True,naosound_pb2sel7p,https://listen.style/p/naosound/pb2sel7p,日本語,"['同音異義語', '日本語', '聞き間違い']",['音声配信']
+naosound_pb2sel7p_009,洗濯（せんたく：洗う）,選択（せんたく：チョイス）,文脈や説明を加える,同音異義語の例。,True,naosound_pb2sel7p,https://listen.style/p/naosound/pb2sel7p,日本語,"['同音異義語', '日本語', '聞き間違い']",['音声配信']
+naosound_pb2sel7p_010,柿（かき：果物）,牡蠣（かき：貝）,文脈や説明を加える,同音異義語の例。,True,naosound_pb2sel7p,https://listen.style/p/naosound/pb2sel7p,日本語,"['同音異義語', '日本語', '聞き間違い']",['音声配信']

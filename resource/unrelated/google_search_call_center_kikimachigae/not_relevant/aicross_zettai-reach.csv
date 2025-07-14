@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+aicross_sms_001,電話注文内容（商品名・数量・住所等）,別の商品・数量・住所等,SMSで内容確認を推奨,電話注文時にオペレーターと顧客の間で聞き間違いが発生し、誤発注となるケース。SMSで内容確認することで防止。,True,aicross_sms,https://aicross.co.jp/zettai-reach/the-smart-sales/sms_how_to_use-2/,日本語,"['コールセンター', '電話対応', 'SMS', 'IVR', 'DX', '聞き間違い', '業務効率化', '顧客対応', '日本語']","['コールセンター', '電話回線', 'IVRシステム', 'SMS送信システム', '顧客']"

@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ivry_response_reception_001,電話番号,別の電話番号,重要情報は復唱すること,電話番号や日時などの重要情報は聞き間違いがトラブルの原因になりやすい。復唱で確認を徹底することが推奨されている。,True,ivry_response_reception,https://ivry.jp/column/response-reception/,日本語,"['電話応対', 'ビジネスマナー', 'コールセンター', '電話対応', '聞き間違い', '社会人基礎', '新卒', '企業研修']","['オフィス', 'コールセンター', '電話', '通信環境']"
+ivry_response_reception_002,名前・日時等,別の名前・日時,重要情報は復唱すること,名前や日時なども聞き間違いが発生しやすい。復唱やメモで確認することが推奨されている。,True,ivry_response_reception,https://ivry.jp/column/response-reception/,日本語,"['電話応対', 'ビジネスマナー', 'コールセンター', '電話対応', '聞き間違い', '社会人基礎', '新卒', '企業研修']","['オフィス', 'コールセンター', '電話', '通信環境']"

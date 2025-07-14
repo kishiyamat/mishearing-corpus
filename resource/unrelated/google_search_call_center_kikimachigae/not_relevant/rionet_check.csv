@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+rionet_deafness_check_001,小さな声の会話,,聞き返すこと,(Tgt=NA: 聞き間違いの具体的な誤聴語句が記載されていない),True,rionet_deafness_check,https://www.rionet.jp/deafness/check/,日本語,"['聴力', '難聴', '聞き間違い', 'コミュニケーション', '補聴器', 'セルフチェック', '医療', '高齢者']","['日常生活', '会議', '病院', '家庭', '電話', 'テレビ視聴', '公共の場']"
+rionet_deafness_check_002,普通の大きさの声の会話,,聞き返すこと,(Tgt=NA: 聞き間違いの具体的な誤聴語句が記載されていない),True,rionet_deafness_check,https://www.rionet.jp/deafness/check/,日本語,"['聴力', '難聴', '聞き間違い', 'コミュニケーション', '補聴器', 'セルフチェック', '医療', '高齢者']","['日常生活', '会議', '病院', '家庭', '電話', 'テレビ視聴', '公共の場']"

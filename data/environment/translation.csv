@@ -2877,3 +2877,137 @@ WELFARE,ja,福祉
 WELFARE,en,welfare
 MOJYIIKOSHI,ja,文字起こし
 MOJYIIKOSHI,en,transcription
+YOJIKI,ja,幼児期
+YOJIKI,en,childhood
+NON_NATIVE_PRONUNCIATION,ja,非母語話者の発音
+NON_NATIVE_PRONUNCIATION,en,non-native pronunciation
+TENSION_EMERGENCY,ja,緊急時の緊張
+TENSION_EMERGENCY,en,tension in emergencies
+LISTENER_REQUEST,ja,聞き手からのリクエスト
+LISTENER_REQUEST,en,listener request
+KOUTEI,ja,校庭
+KOUTEI,en,schoolyard
+CHINESE_RESTAURANT,ja,中華料理店
+CHINESE_RESTAURANT,en,Chinese restaurant
+MEAL,ja,食事
+MEAL,en,meal
+ENGLISH_CONVERSATION_LESSON,ja,英会話レッスン
+ENGLISH_CONVERSATION_LESSON,en,English conversation lesson
+INSIDE_STORE_QUIET_ENVIRONMENT,ja,店内（静かな環境）
+INSIDE_STORE_QUIET_ENVIRONMENT,en,inside store (quiet environment)
+BGM_ARI,ja,BGMあり
+BGM_ARI,en,with BGM
+EVERYDAY_CONVERSATION,ja,日常会話
+EVERYDAY_CONVERSATION,en,everyday conversation
+KODOMO_DOSHI_NO_KAIWA,ja,子ども同士の会話
+KODOMO_DOSHI_NO_KAIWA,en,conversation between children
+TENSE_SITUATION,ja,緊迫した状況
+TENSE_SITUATION,en,tense situation
+HOIKUSHITSU,ja,保育室
+HOIKUSHITSU,en,nursery room
+HIGH_SCHOOL_CLASSROOM,ja,高校の教室
+HIGH_SCHOOL_CLASSROOM,en,high school classroom
+POLICE_INTERACTION,ja,警察とのやり取り
+POLICE_INTERACTION,en,interaction with police
+WHITEBOARD,ja,ホワイトボード
+WHITEBOARD,en,whiteboard
+CROWDING,ja,混雑
+CROWDING,en,crowding
+HOIKUSHI,ja,保育士
+HOIKUSHI,en,nursery teacher
+DELIVERY_PERSON_VISIT,ja,配達員の訪問
+DELIVERY_PERSON_VISIT,en,delivery person visit
+ANIME_VIEWING,ja,アニメ視聴
+ANIME_VIEWING,en,watching anime
+EKIMADOGUCHI,ja,駅窓口
+EKIMADOGUCHI,en,station ticket office
+PEDIATRICS,ja,小児科
+PEDIATRICS,en,pediatrics
+LESSON_ROOM,ja,レッスン室
+LESSON_ROOM,en,lesson room
+CALLING,ja,呼びかけ
+CALLING,en,calling
+ASA_NO_ASOBI_JIKAN,ja,朝の遊び時間
+ASA_NO_ASOBI_JIKAN,en,morning playtime
+COMMUTING_TIME,ja,通勤時間
+COMMUTING_TIME,en,commuting time
+NOISE_EMERGENCY_SCENE,ja,騒音のある緊急現場
+NOISE_EMERGENCY_SCENE,en,noisy emergency scene
+DENTISTRY,ja,歯科
+DENTISTRY,en,dentistry
+TV_NOCHIKU,ja,テレビのノイズ
+TV_NOCHIKU,en,TV static noise
+BUILT_IN_MIC,ja,内蔵マイク
+BUILT_IN_MIC,en,built-in microphone
+LANGUAGE_SCHOOL,ja,語学学校
+LANGUAGE_SCHOOL,en,language school
+NON_NATIVE_SPEAKER_INTERACTION,ja,非母語話者同士のやりとり
+NON_NATIVE_SPEAKER_INTERACTION,en,interaction between non-native speakers
+MUSIC_CLASSROOM,ja,音楽教室
+MUSIC_CLASSROOM,en,music classroom
+INTERVIEW_ROOM,ja,面接室
+INTERVIEW_ROOM,en,interview room
+INFANT,ja,乳児
+INFANT,en,infant
+FAMIRESU,ja,ファミレス
+FAMIRESU,en,family restaurant
+MICROPHONE_USE,ja,マイクの使用
+MICROPHONE_USE,en,microphone use
+BYOUIN,ja,病院
+BYOUIN,en,hospital
+LANGUAGE_CLASSROOM,ja,語学教室
+LANGUAGE_CLASSROOM,en,language classroom
+UKETSUKE,ja,受付
+UKETSUKE,en,reception
+TABLET_PC_USE,ja,タブレットPCの使用
+TABLET_PC_USE,en,tablet PC use
+KOUKYOUTSUUKOUKIKAN,ja,公共交通機関
+KOUKYOUTSUUKOUKIKAN,en,public transportation
+TAIIKU,ja,体育
+TAIIKU,en,physical education
+KINDERGARTEN_SCHOOL,ja,幼稚園
+KINDERGARTEN_SCHOOL,en,kindergarten
+DISTANT_SEAT,ja,離れた席
+DISTANT_SEAT,en,distant seat
+CHORUS,ja,合唱
+CHORUS,en,chorus
+HEADSET,ja,ヘッドセット
+HEADSET,en,headset
+ATTENDANCE_CONFIRMATION,ja,出席確認
+ATTENDANCE_CONFIRMATION,en,attendance confirmation
+ENGLISH_JAPANESE_MIXED_ENVIRONMENT,ja,英語と日本語の混在環境
+ENGLISH_JAPANESE_MIXED_ENVIRONMENT,en,English-Japanese mixed environment
+DIALECT,ja,方言
+DIALECT,en,dialect
+SPANISH_LEARNING_ENVIRONMENT,ja,スペイン語学習環境
+SPANISH_LEARNING_ENVIRONMENT,en,Spanish learning environment
+LEARNING_SUPPORT_CENTER,ja,学習支援センター
+LEARNING_SUPPORT_CENTER,en,learning support center
+OVERSEAS_CAFE,ja,海外のカフェ
+OVERSEAS_CAFE,en,overseas café
+NICHOSEIKATSU,ja,日常生活
+NICHOSEIKATSU,en,daily life
+ENGLISH_SPEAKER,ja,英語話者
+ENGLISH_SPEAKER,en,English speaker
+ONE_ON_ONE,ja,一対一のやりとり
+ONE_ON_ONE,en,one-on-one interaction
+SOBA_RESTAURANT,ja,そば屋
+SOBA_RESTAURANT,en,soba restaurant
+MUSIC_PRODUCTION_SITE,ja,音楽制作現場
+MUSIC_PRODUCTION_SITE,en,music production site
+ENTRANCE,ja,玄関
+ENTRANCE,en,entrance
+NICHIJOU,ja,日常
+NICHIJOU,en,ordinary life
+NETSHOPPING_WORK,ja,ネットショッピング業務
+NETSHOPPING_WORK,en,online shopping operations
+SHIP_YARD,ja,造船所
+SHIP_YARD,en,shipyard
+STORE_RECEPTION,ja,店舗受付
+STORE_RECEPTION,en,store reception
+ORDER_COUNTER,ja,注文カウンター
+ORDER_COUNTER,en,order counter
+CONTACT_CENTER,ja,コンタクトセンター
+CONTACT_CENTER,en,contact center
+HEADSET_ESTIMATED,ja,ヘッドセット使用想定
+HEADSET_ESTIMATED,en,headset estimated usage

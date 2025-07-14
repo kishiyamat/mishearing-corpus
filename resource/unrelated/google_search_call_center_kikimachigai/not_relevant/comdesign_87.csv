@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+comdesign_202107_001,,,数量など数字は復唱・確認することでミスを防げる,(Src=NA: 具体的な数量の発話例が記載されていない)(Tgt=NA: 具体的な誤聴形が記載されていない),True,comdesign_202107_87,https://comdesign.co.jp/blog/202107/87/,日本語,"['コールセンター', '通信販売', '電話注文', '聞き間違い', '数量', '通話録音', 'トラブル防止', '証拠', '業務改善']","['電話', 'コールセンター', '通信販売業', '録音システム']"

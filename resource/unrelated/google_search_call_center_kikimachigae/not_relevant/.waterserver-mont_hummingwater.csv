@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+waterservermont_hummingwater_phonecall_001,佐（にんべんに左）,左,漢字の説明は部首や例を使って明確に伝えるとよい。,電話で「佐藤」の「佐」を説明する際、「左」と聞き間違えられる可能性がある。,True,waterservermont_hummingwater_phonecall,https://waterserver-mont.com/hummingwater/phone-call/,日本語,"['申込', 'コールセンター', '電話対応', '聞き間違い', '個人情報', '住所', '名前', '日本語']","['電話', 'コールセンター', '申込受付']"

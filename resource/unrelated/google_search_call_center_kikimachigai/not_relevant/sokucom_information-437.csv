@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+sokucomcloud_437_001,会社名・氏名・用件,別の会社名・氏名・用件,復唱・確認を徹底する,電話越しで聞き取りづらい場合や復唱しない場合に発生しやすい。IVR導入でミス削減も推奨。,True,sokucomcloud_437,https://sokucom.cloud/information/information-437/,日本語,"['ビジネスマナー', '電話対応', 'コールセンター', '聞き間違い', 'IVR', 'マニュアル', '社内教育', '業務効率化']","['オフィス', 'コールセンター', '電話', 'ノイズ（通信状況による）']"

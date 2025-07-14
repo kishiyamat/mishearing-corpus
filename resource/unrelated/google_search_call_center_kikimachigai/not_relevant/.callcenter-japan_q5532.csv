@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+callcenterjapan_5532_001,S,F,注意が必要,電話でのメールアドレス読み上げ時、「S」と「F」の聞き間違いが発生しやすい。,True,callcenterjapan_5532,https://callcenter-japan.com/article/5532/1/,日本語,"['コールセンター', '電話対応', 'メールアドレス', '聞き間違い', 'アルファベット', 'IT導入事例', '業務効率化', 'フォネティックコード']","['コールセンター', '電話', '顧客対応', '通信環境']"
+callcenterjapan_5532_002,M,N,注意が必要,電話でのメールアドレス読み上げ時、「M」と「N」の聞き間違いが発生しやすい。,True,callcenterjapan_5532,https://callcenter-japan.com/article/5532/1/,日本語,"['コールセンター', '電話対応', 'メールアドレス', '聞き間違い', 'アルファベット', 'IT導入事例', '業務効率化', 'フォネティックコード']","['コールセンター', '電話', '顧客対応', '通信環境']"
+callcenterjapan_5532_003,C,E,注意が必要,電話でのメールアドレス読み上げ時、「C」と「E」の聞き間違いが発生しやすい。,True,callcenterjapan_5532,https://callcenter-japan.com/article/5532/1/,日本語,"['コールセンター', '電話対応', 'メールアドレス', '聞き間違い', 'アルファベット', 'IT導入事例', '業務効率化', 'フォネティックコード']","['コールセンター', '電話', '顧客対応', '通信環境']"

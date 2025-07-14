@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+youtube_pNLzRShsu5E_001,,,聞き返すことが大切,5:50付近で「聞き間違いです」と発言があるが、具体的な語句が不明なため(Src=NA: 発話内容不明)(Tgt=NA: 聞き間違えた内容不明),True,youtube_pNLzRShsu5E,https://www.youtube.com/watch?v=pNLzRShsu5E,日本語,"['ゲーム実況', 'APEX', 'コーチング', '聞き間違い', 'eスポーツ']","['オンラインゲーム', 'ボイスチャット', '実況配信']"

@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+rarejob_20200708_001,you said “E.T”,you said “P.T”,聞き返すと良い,相手の発言を「E.T」と聞き間違えた例。,True,rarejob_20200708,https://www.rarejob.com/englishlab/column/20200708/,日本語,"['英語学習', '聞き間違い', '非母語話者']","['日常会話', 'オンライン英会話']"
+rarejob_20200708_002,I mistook you for my friend.,I mistook you for my boss.,確認を取る,相手を自分の友達と間違えた例。,True,rarejob_20200708,https://www.rarejob.com/englishlab/column/20200708/,日本語,"['英語学習', '聞き間違い', '非母語話者']","['日常会話', 'オンライン英会話']"
+rarejob_20200708_003,I am sorry that I mistook your name.,,名前の確認をする,相手の名前を別の名前と間違えた（Tgt=NA: 具体的な誤聴名が記載されていない）,True,rarejob_20200708,https://www.rarejob.com/englishlab/column/20200708/,日本語,"['英語学習', '聞き間違い', '非母語話者', '謝罪表現']","['日常会話', 'ビジネスメール']"

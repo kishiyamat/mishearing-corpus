@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kddimessagecast_aiivr_240902_001,1時,7時,数字の発音に注意,電話で時刻を伝える際、「1時」と「7時」を聞き間違えることがある。SMSなら文字で正確に伝達可能。,True,kddimessagecast_aiivr_240902,https://kddimessagecast.jp/blog/ai_ivr_automation/240902/,日本語,"['コールセンター', '業務効率化', 'SMS', '聞き間違い', '電話対応', 'AI・IVR', 'DX', '企業事例', 'コミュニケーション', '非母語話者']","['コールセンター', '電話', '通信環境', 'ノイズ']"
+kddimessagecast_aiivr_240902_002,URL,別のURLや誤情報,口頭伝達は誤りやすい,電話でURLや重要情報を口頭で伝えると聞き間違いが発生しやすい。SMSなら正確に伝達できる。,True,kddimessagecast_aiivr_240902,https://kddimessagecast.jp/blog/ai_ivr_automation/240902/,日本語,"['コールセンター', '業務効率化', 'SMS', '聞き間違い', '電話対応', 'AI・IVR', 'DX', '企業事例', 'コミュニケーション', '非母語話者']","['コールセンター', '電話', '通信環境', 'ノイズ']"
