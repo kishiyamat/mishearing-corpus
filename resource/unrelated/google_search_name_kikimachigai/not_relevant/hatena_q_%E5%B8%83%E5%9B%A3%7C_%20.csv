@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,DocID,URL,Note,OriginalFlag,Language,Tags,Envs
+hatena_b_hatena_futon_001,,,hatena_b_hatena_futon,https://b.hatena.ne.jp/q/%E5%B8%83%E5%9B%A3%7C%20?date_begin=2011-05-28&target=all&sort=recent&date_end=2012-10-08&users=3&safe=on,(Src=NA: descriptionに具体的な発話文がない)(Tgt=NA: descriptionに具体的な聞き間違え形がない),True,日本語,"['聞き間違い', '家族', '会話', '名前', '日常生活']","['家庭', '会話', '日常生活']"

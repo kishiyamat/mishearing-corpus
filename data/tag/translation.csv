@@ -2895,3 +2895,143 @@ BOUSHUU,ja,募集
 BOUSHUU,en,recruitment
 MEDICAL_CARE,ja,医療
 MEDICAL_CARE,en,medical care
+1980S,ja,1980年代
+1980S,en,1980s
+ARTICULATION,ja,構音
+ARTICULATION,en,articulation
+ATP_TOUR,ja,ATPツアー
+ATP_TOUR,en,ATP Tour
+AUDITORY,ja,聴覚
+AUDITORY,en,auditory
+BOOK_TITLE,ja,書籍タイトル
+BOOK_TITLE,en,book title
+CHILDREN_SONG,ja,童謡
+CHILDREN_SONG,en,children's song
+COGNITION,ja,認知
+COGNITION,en,cognition
+COMMAND,ja,命令
+COMMAND,en,command
+COMMUTING,ja,通勤
+COMMUTING,en,commuting
+CULTURAL_DIFFERENCE,ja,文化的差異
+CULTURAL_DIFFERENCE,en,cultural difference
+DELIVERY,ja,配達
+DELIVERY,en,delivery
+DMM_EIKAIWA,ja,DMM英会話
+DMM_EIKAIWA,en,DMM Eikaiwa
+ENGLISH_SPEAKING_COUNTRY,ja,英語圏の国
+ENGLISH_SPEAKING_COUNTRY,en,English-speaking country
+ENGLISH_SPEAKING_REGION,ja,英語圏
+ENGLISH_SPEAKING_REGION,en,English-speaking region
+GAKUSHU_SHIEN,ja,学習支援
+GAKUSHU_SHIEN,en,learning support
+GERMAN,ja,ドイツ語
+GERMAN,en,German
+GOOGLE_HOME,ja,Google Home
+GOOGLE_HOME,en,Google Home
+HATON,ja,ハッと音
+HATON,en,startling sound
+HIMOBOGOHASHASHA,ja,ひも母語話者
+HIMOBOGOHASHASHA,en,rope-native speaker
+HIMOBOGO_WASHA,ja,ひも母語話者
+HIMOBOGO_WASHA,en,rope-native speaker
+HIMOTOBA_WAKASHA,ja,ひも言葉話者
+HIMOTOBA_WAKASHA,en,rope-language speaker
+HOIKU,ja,保育
+HOIKU,en,childcare
+IHCWAY,ja,IHCWAY
+IHCWAY,en,IHCWAY
+IDENTITY,ja,アイデンティティ
+IDENTITY,en,identity
+ICT_UTILIZATION,ja,ICT活用
+ICT_UTILIZATION,en,ICT utilization
+INTERNATIONAL_EXCHANGE,ja,国際交流
+INTERNATIONAL_EXCHANGE,en,international exchange
+JAPANESE_NAME,ja,日本人の名前
+JAPANESE_NAME,en,Japanese name
+JAPANESE_NATIVE_SPEAKER,ja,日本語母語話者
+JAPANESE_NATIVE_SPEAKER,en,Japanese native speaker
+JIKO_SHOKAI,ja,自己紹介
+JIKO_SHOKAI,en,self-introduction
+KANSAI_DIALECT,ja,関西弁
+KANSAI_DIALECT,en,Kansai dialect
+KAISHOKU,ja,会食
+KAISHOKU,en,dining together
+KENDO,ja,剣道
+KENDO,en,kendo
+KINCHOU,ja,緊張
+KINCHOU,en,nervousness
+LESSON_EXPERIENCE,ja,授業経験
+LESSON_EXPERIENCE,en,lesson experience
+MISHEARING_ERROR,ja,聞き間違いエラー
+MISHEARING_ERROR,en,mishearing error
+MISWRITING,ja,書き間違い
+MISWRITING,en,miswriting
+MULTICULTURAL,ja,多文化
+MULTICULTURAL,en,multicultural
+MULTILINGUAL,ja,多言語
+MULTILINGUAL,en,multilingual
+MYOUJI,ja,名字
+MYOUJI,en,surname
+MYOJI,ja,苗字
+MYOJI,en,surname
+MOTOHARU_SANO,ja,佐野元春
+MOTOHARU_SANO,en,Motoharu Sano
+NATIONAL_PHENOMENON,ja,国民的現象
+NATIONAL_PHENOMENON,en,national phenomenon
+NICHIJO_SEIKATSU,ja,日常生活
+NICHIJO_SEIKATSU,en,daily life
+NICHIJOKAIWA,ja,日常会話
+NICHIJOKAIWA,en,daily conversation
+NUMBER_OF_PEOPLE,ja,人数
+NUMBER_OF_PEOPLE,en,number of people
+ONIN_NINCHI,ja,音韻認知
+ONIN_NINCHI,en,phonological awareness
+ONLINE_ENGLISH_CONVERSATION,ja,オンライン英会話
+ONLINE_ENGLISH_CONVERSATION,en,online English conversation
+ORDER_MISTAKE,ja,注文間違い
+ORDER_MISTAKE,en,order mistake
+OVERSEAS,ja,海外
+OVERSEAS,en,overseas
+PEN_NAME,ja,ペンネーム
+PEN_NAME,en,pen name
+SCIENCE_TERM,ja,科学用語
+SCIENCE_TERM,en,scientific term
+SEIKO_MATSUD,ja,松田聖子
+SEIKO_MATSUD,en,Seiko Matsuda
+SHODO,ja,書道
+SHODO,en,calligraphy
+SHUFU,ja,主婦
+SHUFU,en,housewife
+SIRI,ja,Siri
+SIRI,en,Siri
+SMART_SPEAKER,ja,スマートスピーカー
+SMART_SPEAKER,en,smart speaker
+SNACK,ja,スナック
+SNACK,en,snack
+SPECIAL_SUPPORT_EDUCATION,ja,特別支援教育
+SPECIAL_SUPPORT_EDUCATION,en,special needs education
+STAFF_BLOG,ja,スタッフブログ
+STAFF_BLOG,en,staff blog
+SUPPORT_MEASURES,ja,支援策
+SUPPORT_MEASURES,en,support measures
+TENNIS,ja,テニス
+TENNIS,en,tennis
+WAITING_ROOM,ja,待合室
+WAITING_ROOM,en,waiting room
+WEATHER_FORECAST,ja,天気予報
+WEATHER_FORECAST,en,weather forecast
+WORD_MISUNDERSTANDING,ja,語の誤解
+WORD_MISUNDERSTANDING,en,word misunderstanding
+YOMIKATA,ja,読み方
+YOMIKATA,en,reading
+YOMIMACHIGAI,ja,読み間違い
+YOMIMACHIGAI,en,misreading
+YOJIGO,ja,四字語
+YOJIGO,en,four-character idiom
+YUMEIJIN,ja,有名人
+YUMEIJIN,en,celebrity
+SPANISH,ja,スペイン語
+SPANISH,en,Spanish
+INFANT_LANGUAGE,ja,幼児語
+INFANT_LANGUAGE,en,infant language

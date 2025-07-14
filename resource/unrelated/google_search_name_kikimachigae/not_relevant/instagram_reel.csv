@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+instagram_DIko4hMhs3o_001,,,名前ははっきり確認,(Src=NA: placeholder '患者の名前')(Tgt=NA: placeholder '別の患者の名前') 医療現場で患者の名前を聞き間違え、他の患者が診察に来てしまうことがある。,True,instagram_DIko4hMhs3o,https://www.instagram.com/reel/DIko4hMhs3o/,日本語,"['医療', '病院', '聞き間違い', '患者確認', 'コミュニケーション', '日本語']","['病院', '診察室', '医療現場', '会話中', 'ノイズ']"

@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kuribayashi_1054_001,ぶぶ（漬け）,おぶぅ,方言の伝播時は注意,京都弁の「ぶぶ漬け」の「ぶぶ」が「おぶぅ」や「おゆう」と伝わる過程で曖昧に変化。旅先での聞き間違い・うろ覚えが地元で新たな言葉として定着する仮説。,True,kuribayashi_1054,https://kuribayashi-shobo.jp/archives/1054,日本語,"['方言', '聞き間違い', 'うろ覚え', '言語変化', '日本語']","['日常会話', '旅先', '地元']"
+kuribayashi_1054_002,アイスクリーム,アイスクリン,地域差に注意,西日本で「アイスクリーム」が「アイスクリン」となった例。うろ覚え・聞き間違い説。,True,kuribayashi_1054,https://kuribayashi-shobo.jp/archives/1054,日本語,"['方言', '聞き間違い', 'うろ覚え', '言語変化', '日本語']","['日常会話', '旅先', '地元']"

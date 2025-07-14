@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,,,http://girlsreport.net/archives/54203005.html,TECH_FAIL: unable to retrieve content due to decoding error ('utf-8' codec can't decode byte 0xa4 in position 89896: invalid start byte)

@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+amazoncom_wikipedia_001,Cadabra,cadaver,英語の発音に注意,Amazon創業時、会社名「Cadabra」を弁護士が「cadaver」と聞き間違えた。,True,amazoncom_wikipedia,https://ja.wikipedia.org/wiki/Amazon.com,英語,"['企業名', '英語', '聞き間違い', 'ブランドネーミング']","['会話', '法律事務所', '静かな室内', '口頭']"

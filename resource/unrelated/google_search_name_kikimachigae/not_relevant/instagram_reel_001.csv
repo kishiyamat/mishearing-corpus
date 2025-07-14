@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+insta_DIko4hMhs3o_001,,,名前を呼ばれた際は自分の名前かどうかしっかり確認すること,(Src=NA: placeholder '患者Aの名前')(Tgt=NA: placeholder '患者Bの名前') 患者呼び出し時に名前を聞き間違え、別の患者が診察室に入ってしまう事例。,True,insta_DIko4hMhs3o,https://www.instagram.com/reel/DIko4hMhs3o/,日本語,"['医療', '病院', '聞き間違い', '患者確認', 'コミュニケーション', '日本語']","['病院', '診察室前', '待合室', '雑音']"

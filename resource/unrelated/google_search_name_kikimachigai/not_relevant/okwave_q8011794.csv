@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+okwave_q8011794_001,,,集中して聞く、呼ばれたか不安な時は一度無視して再度呼ばれるのを待つ,(Src=NA: placeholder '自分の苗字')(Tgt=NA: placeholder '他人の苗字'),True,okwave_q8011794,https://okwave.jp/qa/q8011794.html,日本語,"['苗字', '聞き間違い', '学校', '病院', '出席', '呼名', 'コミュニケーション', '日本語']","['学校', '病院', '待合室', '呼名']"

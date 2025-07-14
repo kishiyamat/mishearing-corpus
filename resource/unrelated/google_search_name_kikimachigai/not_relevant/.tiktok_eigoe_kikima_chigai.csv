@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+tiktok_001,Sato,Saddle,日本人名の発音は英語話者に別の単語に聞こえやすいので、ゆっくり・はっきり発音すること。,日本人の名前が英語話者に正しく伝わらず、別の単語に聞き間違えられる事例。,True,tiktok_eigo_mishear,https://www.tiktok.com/discover/%E8%8B%B1%E8%AA%9E-%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84-%E9%9D%A2%E7%99%BD%E3%81%84,ja,"['英語', '聞き間違い', '面白い', '名前', '発音']","['海外', 'SNS', '動画']"
+tiktok_002,Can I have a sheet?,Can I have a shit?,母音の長短に注意して発音・リスニングすること。,英語学習者が「sheet」と「shit」を聞き間違えやすい。,True,tiktok_eigo_mishear,https://www.tiktok.com/discover/%E8%8B%B1%E8%AA%9E-%E8%81%9E%E3%81%8D%E9%96%93%E9%81%95%E3%81%84-%E9%9D%A2%E7%99%BD%E3%81%84,ja,"['英語', '聞き間違い', '面白い', '発音']","['海外', 'SNS', '動画']"
