@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+bewith_omnialink_gr27_001,S,F,アルファベットの発音は明瞭に伝える。,コールセンターで『S』と『F』の聞き間違いが発生しやすい。STTで抑止可能。,True,bewith_omnialink_gr27,https://www.bewith.net/service/omnialink/wp-content/uploads/2022/09/gr27_220922.pdf,日本語,"['コールセンター', 'STT', '音声認識', '聞き間違い', '業務効率化', '応対品質']","['コールセンター', '電話回線', 'オフィス', 'ヘッドセット', 'ノイズ']"
+bewith_omnialink_gr27_002,1,7,数字はゆっくり・はっきり伝える。,『1』と『7』など数字の聞き間違いも多い。STTで抑止可能。,True,bewith_omnialink_gr27,https://www.bewith.net/service/omnialink/wp-content/uploads/2022/09/gr27_220922.pdf,日本語,"['コールセンター', 'STT', '音声認識', '聞き間違い', '業務効率化', '応対品質']","['コールセンター', '電話回線', 'オフィス', 'ヘッドセット', 'ノイズ']"
+bewith_omnialink_gr27_003,田中,タナカ,名前は漢字・カタカナを確認する。,漢字名とカタカナ名の聞き間違いも発生しやすい。STTで抑止可能。,True,bewith_omnialink_gr27,https://www.bewith.net/service/omnialink/wp-content/uploads/2022/09/gr27_220922.pdf,日本語,"['コールセンター', 'STT', '音声認識', '聞き間違い', '業務効率化', '応対品質']","['コールセンター', '電話回線', 'オフィス', 'ヘッドセット', 'ノイズ']"

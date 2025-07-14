@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+calltips_callcenterrecite_001,6636,6366,数字は復唱必須,電話で数字を伝える際、「6636」と伝えたつもりが「6366」と聞き間違えることが多い。,True,calltips_callcenterrecite,https://calltips.net/callcenter-recite/,日本語,"['コールセンター', '電話対応', '復唱', '聞き間違い', '数字', 'ビジネススキル', '仕事', '日本語', '電話番号', '顧客対応']","['コールセンター', '電話', 'オフィス', '通信環境']"

@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+jobole_gandg_19647302_01,氏名,別の氏名,氏名は復唱確認,(Src=NA: placeholder '氏名')(Tgt=NA: placeholder '別の氏名'),True,jobole_gandg_19647302,https://job-ole.com/recruit/gandg/jobs/19647302,日本語,"['コールセンター', '聞き間違い', '電話対応', '仕事', '派遣', '内容確認']","['コールセンター', '電話', 'オフィス雑音', 'ヘッドセット']"
+jobole_gandg_19647302_02,数字,別の数字,数字は一語ずつ確認,(Src=NA: placeholder '数字')(Tgt=NA: placeholder '別の数字'),True,jobole_gandg_19647302,https://job-ole.com/recruit/gandg/jobs/19647302,日本語,"['コールセンター', '聞き間違い', '電話対応', '仕事', '派遣', '内容確認']","['コールセンター', '電話', 'オフィス雑音', 'ヘッドセット']"
+jobole_gandg_19647302_03,アルファベット,別のアルファベット,フォネティックコード推奨,(Src=NA: placeholder 'アルファベット')(Tgt=NA: placeholder '別のアルファベット'),True,jobole_gandg_19647302,https://job-ole.com/recruit/gandg/jobs/19647302,日本語,"['コールセンター', '聞き間違い', '電話対応', '仕事', '派遣', '内容確認', 'フォネティックコード']","['コールセンター', '電話', 'オフィス雑音', 'ヘッドセット']"
