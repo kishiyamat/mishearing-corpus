@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,DocID,URL,Note,OriginalFlag,Language,Tags,Envs
+todaysrunrun_4638_001,,,todaysrunrun_4638,https://todaysrunrun.com/?p=4638,(Src=NA: 犬が人間の言葉を聞き間違えたような反応だが、具体的な発話文・単語が明記されていない)(Tgt=NA: 聞き間違えた語句が特定できない),True,日本語,"['ペット', '犬', 'グレートピレニーズ', '聞き間違い', '動画', '日常', '非母語話者']","['家庭', '屋内', '飼い主とペットの会話', 'ノイズなし', 'スマホカメラ']"

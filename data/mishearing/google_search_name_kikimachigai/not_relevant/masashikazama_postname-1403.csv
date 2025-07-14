@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+masashikazama_1403_001,,,2回目以降は訂正推奨,(Src=NA: placeholder 'お客様の名前（正）')(Tgt=NA: placeholder 'お客様の名前（誤）') 美容師が客の名前の読み方を間違えて呼ぶ。1回目は仕方ないが、2回目以降は訂正した方が良い。,True,masashikazama_1403,http://masashikazama.com/postname-1403/,日本語,"['美容室', '名前', '読み間違い', '聞き間違い', '接客', 'コミュニケーション', '仕事']","['美容室', '対面接客']"

@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+mamamoco_1139_001,じいじ,きゃりーぱみゅぱみゅ,プレイリスト名は分かりやすく,アレクサが「じいじ」を「きゃりーぱみゅぱみゅ」と誤認識して再生してしまう。,True,mamamoco_1139,https://mamamoco.blog.fc2.com/blog-entry-1139.html?sp,日本語,"['スマートスピーカー', 'アレクサ', '聞き間違い', 'プレイリスト', '家庭', '音声認識', '高齢者', '非母語話者（機械）']","['家庭', 'Amazon Echo Dot（画面なし）', '音声コマンド', '高齢者利用']"
+mamamoco_1139_002,じいじ,じーじ,プレイリスト名は分かりやすく,「じいじ」を「じーじ」と認識し「ありません」と返すことが多かった。,True,mamamoco_1139,https://mamamoco.blog.fc2.com/blog-entry-1139.html?sp,日本語,"['スマートスピーカー', 'アレクサ', '聞き間違い', 'プレイリスト', '家庭', '音声認識', '高齢者', '非母語話者（機械）']","['家庭', 'Amazon Echo Dot（画面なし）', '音声コマンド', '高齢者利用']"

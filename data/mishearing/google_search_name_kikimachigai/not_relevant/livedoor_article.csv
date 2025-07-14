@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,URL,Note
+NA_fail_001,,,https://news.livedoor.com/article/detail/10083137/,TECH_FAIL: unable to retrieve content due to encoding error ('euc_jp' codec can't decode byte 0xad in position 162704: illegal multibyte sequence)

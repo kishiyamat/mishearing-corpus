@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+kidsnifty_220821244520_001,タオル取って,オウン取って,注意が必要,投稿者が「タオル取って」を「オウン取って」と聞き間違えた実例。,True,kidsnifty_220821244520,https://kids.nifty.com/cs/kuchikomi/kids_soudan/list/aid_220821244520/1.htm,日本語,"['聞き間違い', '子ども', '学校', 'コミュニケーション', 'APD', '相談']","['学校', '友人との会話', '日常生活']"
+kidsnifty_220821244520_002,シャーペン貸して,,聞き返しても聞き取れなかった場合は再確認を。,(Tgt=NA: 聞き取れず誤聴語が不明) 回答者が「シャーペン貸して」と言われたが2回聞き返しても聞き取れなかった体験。,True,kidsnifty_220821244520,https://kids.nifty.com/cs/kuchikomi/kids_soudan/list/aid_220821244520/1.htm,日本語,"['聞き間違い', '子ども', '学校', 'コミュニケーション', 'APD', '相談']","['学校', '友人との会話', '日常生活']"

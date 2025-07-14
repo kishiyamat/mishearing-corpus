@@ -89,8 +89,8 @@ st.warning("results_per_pageとmax_pages_per_queryも適宜変更してくださ
 # 一旦、「え」をすすめる
 # queries = '仕事 "聞き間違い"'
 # save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_shigoto_kikimachigai"
-queries = '"名前" "聞き間違え"'
-save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_name_kikimachigae"
+queries = '"名前" "聞き間違い"'
+save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_name_kikimachigai"
 results_per_page = 20
 max_pages_per_query = 30
 # 設定をwrite
