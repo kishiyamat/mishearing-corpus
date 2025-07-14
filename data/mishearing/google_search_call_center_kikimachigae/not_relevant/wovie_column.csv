@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+wovie_column_134094_001,,,メモを徹底的に取る、要約して聞き返す、丁寧な言葉遣いを心がけること,(Src=NA: 'お客様の発話'が具体語でない)(Tgt=NA: '別の内容・誤解'が具体語でない),True,wovie_column_134094,https://wovie.me/contents-5/column/?p=134094,日本語,"['コールセンター', '聞き間違い', '電話対応', '仕事', 'メンタルヘルス']","['電話', 'コールセンター', 'オフィス', '通信環境']"

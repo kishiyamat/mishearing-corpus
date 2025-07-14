@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+weblio_tsuuwahyou_001,9,Q,電話や音声通話で数字の「9」とアルファベットの「Q」を聞き間違えることがある。コールセンター等で注意される。,電話での数字とアルファベットの聞き間違い事例。,True,weblio_tsuuwahyou,https://www.weblio.jp/content/%E7%8F%BE%E4%BB%A3%E7%A4%BE%E4%BC%9A%E3%81%A7%E3%81%AE%E3%80%8C%E9%80%9A%E8%A9%B1%E8%A1%A8%E3%80%8D,日本語,"['コールセンター', '電話対応', '通話表', 'フォネティックコード', '聞き間違い', '情報伝達', 'ユーザーID', '認証コード', '現代社会']","['電話', 'コールセンター', '通信環境', 'オフィス']"

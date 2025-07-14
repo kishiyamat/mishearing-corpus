@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+anna_media_68942_001,名前,別の名前,フルネームや具体例で確認すること,電話で相手の名前を聞き間違えやすい。フルネームや漢字の例で確認することで防止できる。(Src=NA: placeholder '名前')(Tgt=NA: placeholder '別の名前'),True,anna_media_68942,https://anna-media.jp/archives/68942,日本語,"['ビジネスマナー', '電話対応', '聞き間違い', 'コミュニケーション', '漢字', '社会人']","['オフィス', '電話', '通信環境']"
+anna_media_68942_002,アルファベット,別のアルファベット,具体的な単語（例：アップルのA）で確認すること,メールアドレスやIDのアルファベットを聞き間違えやすい。具体的な単語で確認することで防止できる。(Src=NA: placeholder 'アルファベット')(Tgt=NA: placeholder '別のアルファベット'),True,anna_media_68942,https://anna-media.jp/archives/68942,日本語,"['ビジネスマナー', '電話対応', '聞き間違い', 'コミュニケーション', 'アルファベット', 'メールアドレス', '社会人']","['オフィス', '電話', '通信環境']"
+anna_media_68942_003,漢字,別の漢字,例示（例：「淑女の“淑”」）で確認すること,名前の漢字を聞き間違えやすい。例示で確認することで防止できる。(Src=NA: placeholder '漢字')(Tgt=NA: placeholder '別の漢字'),True,anna_media_68942,https://anna-media.jp/archives/68942,日本語,"['ビジネスマナー', '電話対応', '聞き間違い', 'コミュニケーション', '漢字', '社会人']","['オフィス', '電話', '通信環境']"

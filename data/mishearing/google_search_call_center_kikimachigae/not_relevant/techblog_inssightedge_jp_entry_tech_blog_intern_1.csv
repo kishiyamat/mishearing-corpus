@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+insightedge_techblog_intern1_001,,,音声認識精度に注意,NO_INCIDENT: no explicit mishearing found,True,insightedge_techblog_intern1,https://techblog.insightedge.jp/entry/tech-blog-intern-1,日本語,"['AIエージェント', 'コールセンター', '音声認識', '音声合成', '聞き間違い', '言い間違い', 'マルチエージェント', 'Python', 'OpenAI', 'SDK', 'デモ', 'インターン', '非母語話者']","['コールセンター想定', '音声対話システム', 'Pythonアプリケーション', 'PCマイク', '通信環境']"

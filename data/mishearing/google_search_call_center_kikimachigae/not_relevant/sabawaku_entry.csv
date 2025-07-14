@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+sabawaku_serverworks_001,,,電話で相手の名前や企業名、番号は特に注意して聞く。聞き取れなかった場合は必ず復唱や確認を行う。,(Src=NA: 具体的な発話文・単語が記載されていない)(Tgt=NA: 具体的な誤聴形が記載されていない) 入社直後、電話で相手の名前や企業名、番号を何度も聞き間違えたと記載。Amazon Connect導入で改善。,True,sabawaku_serverworks,https://sabawaku.serverworks.co.jp/entry/dennwatoban-amazon-connect,日本語,"['コールセンター', '電話対応', 'リモートワーク', 'クラウドサービス', 'Amazon Connect', 'バックオフィス', '聞き間違い', '業務効率化', 'ITツール']","['自宅', 'リモートワーク', 'Amazon Connect', 'Slack']"
