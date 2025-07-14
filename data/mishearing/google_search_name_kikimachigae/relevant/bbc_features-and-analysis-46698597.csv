@@ -1,10 +1,2 @@
 MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
-bbcjp_46698597_001,Dhruti,Dorito,オートコレクトに注意,オートコレクトでスナック菓子名に変換された,True,bbcjp_46698597,https://www.bbc.com/japanese/features-and-analysis-46698597,英語/日本語,"['職場', '名前', '聞き間違い', 'オートコレクト', '多文化', 'アイデンティティ', '英語圏', '非母語話者']","['オフィス', 'メール']"
-bbcjp_46698597_002,Dhruti,ダーティ,発音に注意,発音が「汚い」と聞き間違えられた,True,bbcjp_46698597,https://www.bbc.com/japanese/features-and-analysis-46698597,英語/日本語,"['職場', '名前', '聞き間違い', '多文化', 'アイデンティティ', '英語圏', '非母語話者']",['オフィス']
-bbcjp_46698597_003,Dhruti,Druhti,スペルに注意,書き間違い,True,bbcjp_46698597,https://www.bbc.com/japanese/features-and-analysis-46698597,英語/日本語,"['職場', '名前', '書き間違い', '多文化', 'アイデンティティ', '英語圏', '非母語話者']","['オフィス', 'メール']"
-bbcjp_46698597_004,Nana,Nandos,発音・連想に注意,イギリスの鶏肉チェーン名で呼ばれた,True,bbcjp_46698597,https://www.bbc.com/japanese/features-and-analysis-46698597,英語/日本語,"['職場', '名前', '聞き間違い', '多文化', 'アイデンティティ', '英語圏', '非母語話者']",['オフィス']
-bbcjp_46698597_005,Binna Kandola,ピニャ・コラーダ,発音・ユーモアで返す,会議でカクテル名で紹介された,True,bbcjp_46698597,https://www.bbc.com/japanese/features-and-analysis-46698597,英語/日本語,"['職場', '名前', '聞き間違い', '多文化', 'アイデンティティ', '英語圏', '非母語話者']",['会議']
-bbcjp_46698597_006,Binna Kandola,ベンジー、フレッド、ミスター・タンドーリ,別人名や料理名に注意,さまざまな誤称で呼ばれた,True,bbcjp_46698597,https://www.bbc.com/japanese/features-and-analysis-46698597,英語/日本語,"['職場', '名前', '聞き間違い', '多文化', 'アイデンティティ', '英語圏', '非母語話者']",['オフィス']
 bbcjp_46698597_007,Sorel,Sorry,発音に注意,自己紹介時に「ソーリー」と聞き間違えられる,True,bbcjp_46698597,https://www.bbc.com/japanese/features-and-analysis-46698597,英語/日本語,"['職場', '名前', '聞き間違い', '多文化', 'アイデンティティ', '英語圏', '非母語話者']",['オフィス']
-bbcjp_46698597_008,Montserrat,Monster Rat,発音に注意,アメリカ人顧客に「モンスター・ラット」と呼ばれた,True,bbcjp_46698597,https://www.bbc.com/japanese/features-and-analysis-46698597,英語/日本語,"['職場', '名前', '聞き間違い', '多文化', 'アイデンティティ', '英語圏', '非母語話者']","['オフィス', '顧客対応']"
-bbcjp_46698597_009,Simon,Steve,名前の記憶に注意,同僚が5年間間違えて呼び続けた,True,bbcjp_46698597,https://www.bbc.com/japanese/features-and-analysis-46698597,英語/日本語,"['職場', '名前', '聞き間違い', '多文化', 'アイデンティティ', '英語圏']",['オフィス']
