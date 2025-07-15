@@ -14,16 +14,16 @@ To expand the dataset, it will be necessary at some point
 to implement a procedure for predicting and presenting potential mishearings.
 The extent of such data available on the web is currently unknown.
 
-| Phase                    | Size       | Estimated Period | Main Tasks                                                                  | Quick Checkpoint            |
-|--------------------------|------------|------------------|-----------------------------------------------------------------------------|-----------------------------|
-| **Schema Design**        | → 100     | 1 week   06.10   | Transfer samples from existing papers/reports/URLs, finalize columns.       | *Is Frictionless CI green?* |
-| **Data Mining**          | → 4,000   | 1 month  07.10   | Extract explicit mishearing cases from available sources using LLMs.        | *Search queries/LLMs setup* |
-| **Cleaning/Application** | → 5,000   | 1 month  07.28   | Expand the CSV dataset and apply it to psycholinguistics.                   | *Utilize LLMs and fix tags* |
-| **Cleaning/Design**      | → 6,000   | 1 month  08.31   | Keep expanding the data and design to make the UI more usable.              | *Make an MVP, get feedback* |
-| **Crowdsourcing (2)**    | → 7,000   | 1 month  09.30   | Develop a prediction model to generate stimuli for commonly misheard pairs. | *Is Frictionless CI green?* |
-| **Crowdsourcing (3)**    | → 8,000   | 1 month  10.31   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
-| **Crowdsourcing (3)**    | → 9,000   | 1 month  11.30   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
-| **Crowdsourcing (3)**    | → 10,000  | 1 month  12.31   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
+| Phase             | Size    | Date  | Main Tasks                                                                  | Quick Checkpoint     |
+|-------------------|---------|-------|-----------------------------------------------------------------------------|-----------------------------|
+| **Schema Design** |    100  | 06.10 | Transfer samples from existing papers/reports/URLs, finalize columns.       | *Frictionless CI green*     |
+| **Data Mining**   |  4,000  | 07.10 | Extract explicit mishearing cases from available sources using LLMs.        | *Utilize LLMs and fix tags* |
+| **Application**   |  4,500  | 07.28 | Expand the CSV dataset and apply it to psycholinguistics.                   | *Rule-based Validation* |
+| **ML Design**     |  5,000  | 08.31 | Develop a prediction model to generate stimuli for commonly misheard pairs. | *Make an MVP, Get feedback* |
+| **Crowdsourcing** |  6,000  | 09.30 | Optimize the process to complete the remaining data collection.             | *Validating Gathered Data* |
+| **Crowdsourcing** |  8,000  | 10.31 | Optimize the process to complete the remaining data collection.             | *Validating Gathered Data* |
+| **Crowdsourcing** | 10,000  | 11.30 | Optimize the process to complete the remaining data collection.             | *Validating Gathered Data* |
+| **Crowdsourcing** | 10,000  | 12.31 | Optimize the process to complete the remaining data collection.             | *Validating Gathered Data* |
 
 Crowdsourcing for data collection has been excluded due to concerns 
 about the potential introduction of fabricated examples,
@@ -410,13 +410,6 @@ _ google_search_name_kikimachigai	71
 
 - google_search_call_center_kikimachigae	36
 - google_search_call_center_kikimachigai	5
-
-### Google | Business (N=?)
-
-- IgnoreのURLを指定できるように更新
-  - resourceの中にあるnot_relevant directoryにあるcsvのurlを無視する。
-- 作成したアプリで収集(`queries = 'ビジネス "聞き間違え"'`) -> N=?
-- 作成したアプリで収集(`queries = 'ビジネス "聞き間違い"'`) -> N=?
 
 ### Indivisuals
 
