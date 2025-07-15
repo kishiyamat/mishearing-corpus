@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+callcenterjapan_osaka_001,1,7,数字の発音に注意,電話越しで「1」と「7」を聞き間違え、クレジットカード番号入力ミスが発生。,True,callcenterjapan_osaka,https://www.callcenter-japan.com/osaka/online_seminar/,日本語,"['コールセンター', '決済', 'クレジットカード', '数字', '聞き間違い', '電話対応', '通販', '仕事']","['コールセンター', '電話', '通信環境', '不明']"
+callcenterjapan_osaka_002,2,5,数字の発音に注意,電話越しで「2」と「5」を聞き間違え、クレジットカード番号入力ミスが発生。,True,callcenterjapan_osaka,https://www.callcenter-japan.com/osaka/online_seminar/,日本語,"['コールセンター', '決済', 'クレジットカード', '数字', '聞き間違い', '電話対応', '通販', '仕事']","['コールセンター', '電話', '通信環境', '不明']"
+callcenterjapan_osaka_003,3,8,数字の発音に注意,電話越しで「3」と「8」を聞き間違え、クレジットカード番号入力ミスが発生。,True,callcenterjapan_osaka,https://www.callcenter-japan.com/osaka/online_seminar/,日本語,"['コールセンター', '決済', 'クレジットカード', '数字', '聞き間違い', '電話対応', '通販', '仕事']","['コールセンター', '電話', '通信環境', '不明']"

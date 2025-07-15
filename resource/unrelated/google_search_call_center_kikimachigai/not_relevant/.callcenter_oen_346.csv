@@ -1,0 +1,9 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+callcenter_oen_346_001,多田,おおた,名前の読みは必ず確認する,「多田」と書かれた名前を「おおた」と読んでしまい、本人から訂正された。,True,callcenter_oen_346,https://callcenter-oen.net/archives/346,日本語,"['コールセンター', '聞き間違い', '名前', '電話対応']","['コールセンター', '電話', 'オフィス']"
+callcenter_oen_346_002,八戸市,はっとし,地名の読みは事前に調べておく,「八戸市」を「はっとし」と読んでしまい、顧客から「はちのへです」と訂正された。,True,callcenter_oen_346,https://callcenter-oen.net/archives/346,日本語,"['コールセンター', '聞き間違い', '地名', '電話対応']","['コールセンター', '電話', 'オフィス']"
+callcenter_oen_346_003,0,O,フォネティックコードを活用する,数字の「0」とアルファベットの「O」を聞き間違えやすい。,True,callcenter_oen_346,https://callcenter-oen.net/archives/346,日本語,"['コールセンター', '聞き間違い', 'アルファベット', '電話対応', 'フォネティックコード']","['コールセンター', '電話', 'オフィス']"
+callcenter_oen_346_004,1,l,フォネティックコードを活用する,数字の「1」とアルファベットの「l（エル）」を聞き間違えやすい。,True,callcenter_oen_346,https://callcenter-oen.net/archives/346,日本語,"['コールセンター', '聞き間違い', 'アルファベット', '電話対応', 'フォネティックコード']","['コールセンター', '電話', 'オフィス']"
+callcenter_oen_346_005,b,d,フォネティックコードを活用する,「b」と「d」の発音が似ていて聞き間違えやすい。,True,callcenter_oen_346,https://callcenter-oen.net/archives/346,日本語,"['コールセンター', '聞き間違い', 'アルファベット', '電話対応', 'フォネティックコード']","['コールセンター', '電話', 'オフィス']"
+callcenter_oen_346_006,m,n,フォネティックコードを活用する,「m」と「n」の発音が似ていて聞き間違えやすい。,True,callcenter_oen_346,https://callcenter-oen.net/archives/346,日本語,"['コールセンター', '聞き間違い', 'アルファベット', '電話対応', 'フォネティックコード']","['コールセンター', '電話', 'オフィス']"
+callcenter_oen_346_007,p,t,フォネティックコードを活用する,「p」と「t」の発音が似ていて聞き間違えやすい。,True,callcenter_oen_346,https://callcenter-oen.net/archives/346,日本語,"['コールセンター', '聞き間違い', 'アルファベット', '電話対応', 'フォネティックコード']","['コールセンター', '電話', 'オフィス']"
+callcenter_oen_346_008,i,y,フォネティックコードを活用する,「i」と「y」の発音が似ていて聞き間違えやすい。,True,callcenter_oen_346,https://callcenter-oen.net/archives/346,日本語,"['コールセンター', '聞き間違い', 'アルファベット', '電話対応', 'フォネティックコード']","['コールセンター', '電話', 'オフィス']"

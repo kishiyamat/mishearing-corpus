@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+os_qa_each_67262_001,,,電話は注意,NO_INCIDENT: no explicit mishearing found (Src=NA: no concrete phrase given)(Tgt=NA: no concrete phrase given),True,os_qa_each_67262,https://4travel.jp/os_qa_each-67262.html,日本語,"['旅行', '電話', '聞き間違い', 'コミュニケーション', '非母語話者（推定）']","['電話', '旅行予約', '通信環境']"

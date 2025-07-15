@@ -1,0 +1,7 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+yorimotto_name_001,佐藤さん,斎藤さん,注意が必要,「佐藤さん」と呼ぶべきところを「斎藤さん」と間違える典型例。,True,yorimotto_name_machigae_spiritual,https://yorimotto-life.com/name-machigae-spiritual/,日本語,"['スピリチュアル', '名前', '聞き間違い', '人間関係', 'コミュニケーション', '職場', '恋愛', '日本語']","['職場', '学校', '日常生活']"
+yorimotto_name_002,佐藤さん,鈴木さん,注意が必要,「佐藤さん」と呼ぶべきところを「鈴木さん」と間違える例。,True,yorimotto_name_machigae_spiritual,https://yorimotto-life.com/name-machigae-spiritual/,日本語,"['スピリチュアル', '名前', '聞き間違い', '人間関係', 'コミュニケーション', '職場', '恋愛', '日本語']","['職場', '学校', '日常生活']"
+yorimotto_name_003,二木,仁木,注意が必要,漢字の似ている名字での聞き間違い。,True,yorimotto_name_machigae_spiritual,https://yorimotto-life.com/name-machigae-spiritual/,日本語,"['スピリチュアル', '名前', '聞き間違い', '人間関係', 'コミュニケーション', '職場', '恋愛', '日本語']","['職場', '学校', '日常生活']"
+yorimotto_name_004,吉田,田,注意が必要,漢字の一部が省略されてしまう聞き間違い。,True,yorimotto_name_machigae_spiritual,https://yorimotto-life.com/name-machigae-spiritual/,日本語,"['スピリチュアル', '名前', '聞き間違い', '人間関係', 'コミュニケーション', '職場', '恋愛', '日本語']","['職場', '学校', '日常生活']"
+yorimotto_name_005,富岡,冨岡,注意が必要,似た漢字の名字での聞き間違い。,True,yorimotto_name_machigae_spiritual,https://yorimotto-life.com/name-machigae-spiritual/,日本語,"['スピリチュアル', '名前', '聞き間違い', '人間関係', 'コミュニケーション', '職場', '恋愛', '日本語']","['職場', '学校', '日常生活']"
+yorimotto_name_006,ミキ,ミカ,注意が必要,似た読みの名前での聞き間違い。,True,yorimotto_name_machigae_spiritual,https://yorimotto-life.com/name-machigae-spiritual/,日本語,"['スピリチュアル', '名前', '聞き間違い', '人間関係', 'コミュニケーション', '職場', '恋愛', '日本語']","['職場', '学校', '日常生活']"

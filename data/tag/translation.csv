@@ -1717,3 +1717,1361 @@ YOUTH_SLANG,ja,若者スラング
 YOUTH_SLANG,en,youth slang
 MATERIAL,ja,材料
 MATERIAL,en,material
+YAKYUU,ja,野球
+YAKYUU,en,baseball
+STUDENT,ja,学生
+STUDENT,en,student
+OUTDOOR,ja,屋外
+OUTDOOR,en,outdoor
+BATHING,ja,入浴
+BATHING,en,bathing
+EKIDEN,ja,駅伝
+EKIDEN,en,ekiden
+SHOKUBAJO,ja,職場
+SHOKUBAJO,en,workplace
+BUSINESS_CONVERSATION,ja,ビジネス会話
+BUSINESS_CONVERSATION,en,business conversation
+GAICHU,ja,害虫
+GAICHU,en,pest
+SHOKUDOU,ja,食堂
+SHOKUDOU,en,dining hall
+EIGA,ja,映画
+EIGA,en,movie
+KIKIMANIGAI,ja,言い間違い
+KIKIMANIGAI,en,misstatement
+FAMOUS_PERSON,ja,有名人
+FAMOUS_PERSON,en,famous person
+GAIKOKUGO_TITLE,ja,外国語のタイトル
+GAIKOKUGO_TITLE,en,foreign language title
+SENKYO,ja,選挙
+SENKYO,en,election
+HIGH_SCHOOL_STUDENT,ja,高校生
+HIGH_SCHOOL_STUDENT,en,high school student
+AUDIO,ja,音声
+AUDIO,en,audio
+SHIMETA,ja,湿った
+SHIMETA,en,damp
+TRAFFIC_INFORMATION,ja,交通情報
+TRAFFIC_INFORMATION,en,traffic information
+HIMOBOGOSHA,ja,誤語の受け手
+HIMOBOGOSHA,en,mishearing recipient
+FUKU,ja,服
+FUKU,en,clothing
+KAIGI,ja,会議
+KAIGI,en,meeting
+NICHOH_KAIWA,ja,日常会話
+NICHOH_KAIWA,en,daily conversation
+FASHION,ja,ファッション
+FASHION,en,fashion
+SHUKUDAI,ja,宿題
+SHUKUDAI,en,homework
+CAR_INTERIOR,ja,車内
+CAR_INTERIOR,en,car interior
+EIGAKAN,ja,映画館
+EIGAKAN,en,movie theater
+BASU,ja,バス
+BASU,en,bus
+KANYU,ja,勧誘
+KANYU,en,solicitation
+DOON_IIGIGO,ja,同音異義語
+DOON_IIGIGO,en,homonym
+HOUGEN,ja,方言
+HOUGEN,en,dialect
+RYOKAN,ja,旅館
+RYOKAN,en,Japanese inn
+EXHIBITION,ja,展示会
+EXHIBITION,en,exhibition
+KURUMA,ja,車
+KURUMA,en,car
+INRYOU,ja,飲料
+INRYOU,en,beverage
+JIDAIGEKI,ja,時代劇
+JIDAIGEKI,en,period drama
+EIKAIWA,ja,英会話
+EIKAIWA,en,English conversation
+KOTOBA_ASOBI,ja,言葉遊び
+KOTOBA_ASOBI,en,word play
+REPORT,ja,報告
+REPORT,en,report
+SHOKUBAJOU,ja,職場上
+SHOKUBAJOU,en,on the job
+COMEDIAN,ja,芸人
+COMEDIAN,en,comedian
+DETO,ja,デート
+DETO,en,date
+ELEVATOR,ja,エレベーター
+ELEVATOR,en,elevator
+NENSHI,ja,年始
+NENSHI,en,New Year
+EDUCATION_SITE,ja,教育現場
+EDUCATION_SITE,en,educational setting
+PROPOSE,ja,プロポーズ
+PROPOSE,en,proposal
+NICHJO,ja,日常
+NICHJO,en,daily life
+SHIMONETA,ja,下ネタ
+SHIMONETA,en,dirty joke
+KANSAIBEN,ja,関西弁
+KANSAIBEN,en,Kansai dialect
+DAIETTO,ja,ダイエット
+DAIETTO,en,diet
+HOKEN,ja,保険
+HOKEN,en,insurance
+WORKSITE,ja,作業現場
+WORKSITE,en,worksite
+SUPA-,ja,スーパー
+SUPA-,en,supermarket
+HOUSEWIFE,ja,主婦
+HOUSEWIFE,en,housewife
+ONGAKU,ja,音楽
+ONGAKU,en,music
+LIFE,ja,生活
+LIFE,en,life
+TETSURO,ja,鉄道
+TETSURO,en,railway
+MICHIANNAI,ja,道案内
+MICHIANNAI,en,directions
+SURYOU_HYOUJUN,ja,数量・基準
+SURYOU_HYOUJUN,en,quantity/standard
+TENRAN_KAI,ja,展覧会
+TENRAN_KAI,en,art exhibition
+BODY_PART,ja,身体部位
+BODY_PART,en,body part
+SHOGAKUSEI,ja,小学生
+SHOGAKUSEI,en,elementary student
+YU-MOA,ja,ユーモア
+YU-MOA,en,humor
+ASTRONOMY,ja,天文学
+ASTRONOMY,en,astronomy
+GAKKO,ja,学校
+GAKKO,en,school
+DOBUTSU,ja,動物
+DOBUTSU,en,animal
+SEIBUTSU,ja,生物
+SEIBUTSU,en,organism
+IIMANEGAI,ja,言いま願い
+IIMANEGAI,en,wish phrased wrongly
+BENKYO,ja,勉強
+BENKYO,en,study
+WAGASHI,ja,和菓子
+WAGASHI,en,Japanese sweets
+WORLD_HERITAGE,ja,世界遺産
+WORLD_HERITAGE,en,World Heritage
+ZODIAC,ja,十二支
+ZODIAC,en,zodiac
+NYUSU,ja,ニュース
+NYUSU,en,news
+DEPARTMENT_STORE,ja,デパート
+DEPARTMENT_STORE,en,department store
+SHOHINMEI,ja,商品名
+SHOHINMEI,en,product name
+TSUKKIN,ja,通勤
+TSUKKIN,en,commuting
+EKIMEI,ja,駅名
+EKIMEI,en,station name
+KAPPURU,ja,カップル
+KAPPURU,en,couple
+BYOKI,ja,病気
+BYOKI,en,illness
+TAISO,ja,体操
+TAISO,en,gymnastics
+TSUKIN,ja,通勤
+TSUKIN,en,commute
+HONYA,ja,本屋
+HONYA,en,bookstore
+PARKING_LOT,ja,駐車場
+PARKING_LOT,en,parking lot
+DENSHA,ja,電車
+DENSHA,en,train
+KOUTSUU,ja,交通
+KOUTSUU,en,transportation
+INTERCULTURAL_COMMUNICATION,ja,異文化コミュニケーション
+INTERCULTURAL_COMMUNICATION,en,intercultural communication
+YAKYU,ja,野球
+YAKYU,en,baseball
+MAIL_ORDER,ja,通販
+MAIL_ORDER,en,mail order
+KANTUGAI,ja,勘違い
+KANTUGAI,en,misunderstanding
+HIMOGO_SPEAKER,ja,誤語話者
+HIMOGO_SPEAKER,en,mispronouncer
+KIKIMANEGAI,ja,聞き間願い
+KIKIMANEGAI,en,wish on mishearing
+STATION_TRANSPORT,ja,駅・交通
+STATION_TRANSPORT,en,station/transport
+IIMACHI,ja,言い間違い
+IIMACHI,en,misstatement
+SIBLINGS,ja,兄弟姉妹
+SIBLINGS,en,siblings
+BIYOUSHITSU,ja,美容室
+BIYOUSHITSU,en,beauty salon
+KAMIDANA,ja,神棚
+KAMIDANA,en,household altar
+SAKKAA,ja,サッカー
+SAKKAA,en,soccer
+COMPANY,ja,会社
+COMPANY,en,company
+ZASSHI,ja,雑誌
+ZASSHI,en,magazine
+TITLE,ja,タイトル
+TITLE,en,title
+JYUTAKU,ja,住宅
+JYUTAKU,en,housing
+SEIKATSU,ja,生活
+SEIKATSU,en,life
+TEACHER,ja,教師
+TEACHER,en,teacher
+BOOKSTORE,ja,書店
+BOOKSTORE,en,bookstore
+PET_SHOP,ja,ペットショップ
+PET_SHOP,en,pet shop
+QUIZ,ja,クイズ
+QUIZ,en,quiz
+DESAIN,ja,デザイン
+DESAIN,en,design
+TENJIKAI,ja,展示会
+TENJIKAI,en,exhibition
+KATAKANAGO,ja,カタカナ語
+KATAKANAGO,en,katakana word
+DAIGAKU,ja,大学
+DAIGAKU,en,university
+KASHI,ja,歌詞
+KASHI,en,lyrics
+KIKIMANAE,ja,聞きまない
+KIKIMANAE,en,failure to hear
+GEINOU,ja,芸能
+GEINOU,en,entertainment
+SYOKUTAKU,ja,食卓
+SYOKUTAKU,en,dinner table
+R_SHITEI,ja,R指定
+R_SHITEI,en,R-rated
+SHUKATSU,ja,就活
+SHUKATSU,en,job hunting
+KOUKYOUNOBA,ja,公共の場
+KOUKYOUNOBA,en,public space
+EKI,ja,駅
+EKI,en,station
+IIMANIGAI,ja,言い間違い
+IIMANIGAI,en,verbal mistake
+TENKI,ja,天気
+TENKI,en,weather
+KAKIKOMACHI,ja,書き込み待ち
+KAKIKOMACHI,en,waiting to be filled
+IIMACHIGAI,ja,言い間違い
+IIMACHIGAI,en,slip of the tongue
+BIYOIN,ja,病院
+BIYOIN,en,hospital
+SYOKUJI,ja,食事
+SYOKUJI,en,meal
+BAND_NAME,ja,バンド名
+BAND_NAME,en,band name
+CHUMON,ja,注文
+CHUMON,en,order
+CLASSROOM,ja,教室
+CLASSROOM,en,classroom
+SENMON_YOGO,ja,専門用語
+SENMON_YOGO,en,technical term
+IIMATUGAI,ja,言い間違い
+IIMATUGAI,en,verbal slip
+PROGRAM_NAME,ja,番組名
+PROGRAM_NAME,en,program name
+GEONAME_PERSONNAME,ja,地名・人名
+GEONAME_PERSONNAME,en,geographical/person name
+VALENTINE,ja,バレンタイン
+VALENTINE,en,Valentine's Day
+PERSONAL_COMPUTER,ja,パソコン
+PERSONAL_COMPUTER,en,personal computer
+KIKIMAECHIGAI,ja,聞き間違い
+KIKIMAECHIGAI,en,mishearing
+IGAKU_YOUGO,ja,医学用語
+IGAKU_YOUGO,en,medical term
+OYAKO,ja,親子
+OYAKO,en,parent and child
+ART,ja,アート
+ART,en,art
+HITORIGOTO,ja,独り言
+HITORIGOTO,en,monologue
+YAOYA,ja,八百屋
+YAOYA,en,greengrocer
+HANKAGAI,ja,繁華街
+HANKAGAI,en,shopping district
+ANNAUNSU,ja,アナウンス
+ANNAUNSU,en,announcement
+ADJECTIVE,ja,形容詞
+ADJECTIVE,en,adjective
+DRUGSTORE,ja,ドラッグストア
+DRUGSTORE,en,drugstore
+SHOSEKI,ja,書籍
+SHOSEKI,en,book
+PROGRAM_INTRODUCTION,ja,番組紹介
+PROGRAM_INTRODUCTION,en,program introduction
+RESUTORAN,ja,レストラン
+RESUTORAN,en,restaurant
+BUKATSU,ja,部活
+BUKATSU,en,club activity
+SOUND_SIMILARITY,ja,音の類似
+SOUND_SIMILARITY,en,sound similarity
+CHUGAKUSEI,ja,中学生
+CHUGAKUSEI,en,junior high student
+JAM,ja,ジャム
+JAM,en,jam
+COMMERCIAL,ja,コマーシャル
+COMMERCIAL,en,commercial
+MEDIA,ja,メディア
+MEDIA,en,media
+VIDEO_TEN,ja,映像点
+VIDEO_TEN,en,video segment
+TOMODACHI,ja,友達
+TOMODACHI,en,friend
+HIMOGO_SHAKUSHA,ja,誤語釈者
+HIMOGO_SHAKUSHA,en,misinterpretation agent
+IIIMACHIGAI,ja,言い間違い
+IIIMACHIGAI,en,slip of the tongue
+UKETSUKE,ja,受付
+UKETSUKE,en,reception
+RENAI,ja,恋愛
+RENAI,en,romance
+KOTSU,ja,コツ
+KOTSU,en,knack
+KOUKYOU_ANNOUNCE,ja,公共アナウンス
+KOUKYOU_ANNOUNCE,en,public announcement
+IIMAECHIGAI,ja,言い間違え違い
+IIMAECHIGAI,en,wrong mishearing
+NANGO,ja,難語
+NANGO,en,difficult word
+DOKUSHO,ja,読書
+DOKUSHO,en,reading
+SHOKUTAKU,ja,食卓
+SHOKUTAKU,en,dining table
+HAPPYOKAI,ja,発表会
+HAPPYOKAI,en,recital
+FOOD_BEVERAGE,ja,食べ物・飲み物
+FOOD_BEVERAGE,en,food & beverage
+KANJI,ja,漢字
+KANJI,en,kanji
+YOJI,ja,四字熟語
+YOJI,en,yoji-jukugo
+TSUUKIN,ja,通勤
+TSUUKIN,en,commuting
+MARRIED_COUPLE,ja,夫婦
+MARRIED_COUPLE,en,married couple
+GAKUSEI,ja,学生
+GAKUSEI,en,student
+TOOL,ja,道具
+TOOL,en,tool
+ASA,ja,朝
+ASA,en,morning
+INDUSTRY_JARGON,ja,業界用語
+INDUSTRY_JARGON,en,industry jargon
+DENCHI,ja,電池
+DENCHI,en,battery
+ZATSUDAN,ja,雑談
+ZATSUDAN,en,chat
+ANOUNSU,ja,アナウンス
+ANOUNSU,en,announcement
+PHILOSOPHY,ja,哲学
+PHILOSOPHY,en,philosophy
+ENGETSUBU,ja,演劇部
+ENGETSUBU,en,drama club
+HOMONYM,ja,同音異義語
+HOMONYM,en,homonym
+CLERK,ja,店員
+CLERK,en,clerk
+AKACHAN,ja,赤ちゃん
+AKACHAN,en,baby
+KOUKYOUTSUUKOU,ja,公共通行
+KOUKYOUTSUUKOU,en,public traffic
+INSHOKU,ja,飲食
+INSHOKU,en,eating and drinking
+KOKKAI,ja,国会
+KOKKAI,en,national diet
+SUGAKU,ja,数学
+SUGAKU,en,mathematics
+YUUJIN,ja,友人
+YUUJIN,en,friend
+KOIBITO,ja,恋人
+KOIBITO,en,lover
+GINKO,ja,銀行
+GINKO,en,bank
+KOKYO_KOTSU,ja,公共交通
+KOKYO_KOTSU,en,public transport
+ANNOUNCE,ja,アナウンス
+ANNOUNCE,en,announcement
+LIVE,ja,ライブ
+LIVE,en,live
+KONBINI,ja,コンビニ
+KONBINI,en,convenience store
+HIMOYO_WASESHA,ja,誤用和製者
+HIMOYO_WASESHA,en,misuser of wasei-go
+BUS_STOP,ja,バス停
+BUS_STOP,en,bus stop
+DOUWA,ja,童話
+DOUWA,en,fairy tale
+GOLF,ja,ゴルフ
+GOLF,en,golf
+GENDAIGO,ja,現代語
+GENDAIGO,en,modern Japanese
+DOUON_IIGI_GO,ja,同音異義語
+DOUON_IIGI_GO,en,homonym
+ONSEI,ja,音声
+ONSEI,en,sound
+KAZOKU_YUJIN,ja,家族・友人
+KAZOKU_YUJIN,en,family/friends
+JYUSHO,ja,住所
+JYUSHO,en,address
+DAILY,ja,日常
+DAILY,en,daily
+KITCHEN,ja,キッチン
+KITCHEN,en,kitchen
+HIMOGO_WASHA,ja,誤語話者
+HIMOGO_WASHA,en,mispronouncer
+LAW,ja,法律
+LAW,en,law
+KIMETSU_NO_YAIBA,ja,鬼滅の刃
+KIMETSU_NO_YAIBA,en,Demon Slayer
+HOME_APPLIANCE,ja,家電
+HOME_APPLIANCE,en,home appliance
+HIMOGOHAWASHA,ja,誤語派話者
+HIMOGOHAWASHA,en,variant mispronouncer
+AGRICULTURE,ja,農業
+AGRICULTURE,en,agriculture
+HISTORICAL_PROGRAM,ja,歴史番組
+HISTORICAL_PROGRAM,en,historical program
+RAJIO,ja,ラジオ
+RAJIO,en,radio
+IWATE_BEN,ja,岩手弁
+IWATE_BEN,en,Iwate dialect
+READING_MISTAKE,ja,読み間違い
+READING_MISTAKE,en,reading error
+OTONA,ja,大人
+OTONA,en,adult
+SHOKUJI,ja,食事
+SHOKUJI,en,meal
+TENPO,ja,店舗
+TENPO,en,store
+NENMATSU_NENSHI,ja,年末年始
+NENMATSU_NENSHI,en,year-end and New Year
+SHOKUBUTSU,ja,植物
+SHOKUBUTSU,en,plant
+SHUNOU,ja,収納
+SHUNOU,en,storage
+SHOUHIN,ja,商品
+SHOUHIN,en,product
+KAZOKU,ja,家族
+KAZOKU,en,family
+WEDDING,ja,結婚式
+WEDDING,en,wedding
+ECHO,ja,エコー
+ECHO,en,echo
+PARK,ja,公園
+PARK,en,park
+DRAWING,ja,絵
+DRAWING,en,drawing
+STARBUCKS,ja,スターバックス
+STARBUCKS,en,Starbucks
+UNCLEAR_PRONUNCIATION,ja,不明瞭な発音
+UNCLEAR_PRONUNCIATION,en,unclear pronunciation
+SAKEBIGOE,ja,叫び声
+SAKEBIGOE,en,scream
+JUGYOU,ja,授業
+JUGYOU,en,class
+SUIZOKUKAN,ja,水族館
+SUIZOKUKAN,en,aquarium
+BIJUTSU,ja,美術
+BIJUTSU,en,art
+RYAKUSHOU,ja,略称
+RYAKUSHOU,en,abbreviation
+GEINO,ja,芸能
+GEINO,en,entertainment
+YUJIN,ja,友人
+YUJIN,en,friend
+TENKIPYOHO,ja,天気予報
+TENKIPYOHO,en,weather forecast
+KOYUU_MEISHI,ja,固有名詞
+KOYUU_MEISHI,en,proper noun
+MISPRONUNCIATION,ja,発音ミス
+MISPRONUNCIATION,en,mispronunciation
+SACCA,ja,作家
+SACCA,en,author
+KARAOKE,ja,カラオケ
+KARAOKE,en,karaoke
+BEAUTY,ja,美
+BEAUTY,en,beauty
+HIMOBOGO_WASEISHA,ja,誤母語和製者
+HIMOBOGO_WASEISHA,en,wasei-go speaker with L1 interference
+FORMAL,ja,フォーマル
+FORMAL,en,formal
+LOVER,ja,恋人
+LOVER,en,lover
+SHINBUN,ja,新聞
+SHINBUN,en,newspaper
+RYOURI,ja,料理
+RYOURI,en,cooking
+LAW_FIRM,ja,法律事務所
+LAW_FIRM,en,law firm
+FURO,ja,風呂
+FURO,en,bath
+GARAIGO,ja,外来語
+GARAIGO,en,loanword
+IIMATSUGAI,ja,言い間違い
+IIMATSUGAI,en,verbal slip
+KARADA,ja,身体
+KARADA,en,body
+AWARD_CEREMONY,ja,授賞式
+AWARD_CEREMONY,en,award ceremony
+AISATSU,ja,挨拶
+AISATSU,en,greeting
+SHOKUHIN,ja,食品
+SHOKUHIN,en,food
+KONSATO,ja,コンサート
+KONSATO,en,concert
+NYUUSU,ja,ニュース
+NYUUSU,en,news
+NOIZU,ja,ノイズ
+NOIZU,en,noise
+TETSUDOU,ja,鉄道
+TETSUDOU,en,railway
+GYMNASIUM,ja,体育館
+GYMNASIUM,en,gymnasium
+R_RESTRICTED,ja,R指定
+R_RESTRICTED,en,R-rated
+OKUGAI,ja,屋外
+OKUGAI,en,outdoors
+ENKAI,ja,宴会
+ENKAI,en,banquet
+SUPPORT_CENTER,ja,支援センター
+SUPPORT_CENTER,en,support center
+IIMANAE,ja,言い間え
+IIMANAE,en,misutterance
+IT_YOGO,ja,IT用語
+IT_YOGO,en,IT term
+KYOSHITSU,ja,教室
+KYOSHITSU,en,classroom
+YOUTIEN,ja,幼稚園
+YOUTIEN,en,kindergarten
+TENRANKAI,ja,展覧会
+TENRANKAI,en,exhibition
+CONCERT,ja,コンサート
+CONCERT,en,concert
+TOUKOU,ja,投稿
+TOUKOU,en,submission
+CELEBRITY_NAME,ja,著名人名
+CELEBRITY_NAME,en,celebrity name
+KOKUYUMEISHI,ja,固有名詞
+KOKUYUMEISHI,en,proper noun
+DRIVING_LICENSE_CENTER,ja,運転免許センター
+DRIVING_LICENSE_CENTER,en,driving license center
+CRAM_SCHOOL,ja,塾
+CRAM_SCHOOL,en,cram school
+CALL_NAME,ja,呼び名
+CALL_NAME,en,name used
+NEBOKE,ja,寝ぼけ
+NEBOKE,en,grogginess
+HANA,ja,花
+HANA,en,flower
+SHIKITEN,ja,式典
+SHIKITEN,en,ceremony
+ONIGIRI,ja,おにぎり
+ONIGIRI,en,rice ball
+YUUMEIJIN,ja,有名人
+YUUMEIJIN,en,famous person
+CHOREI,ja,朝礼
+CHOREI,en,morning assembly
+BOOK,ja,本
+BOOK,en,book
+NICHIJO_KAIWA,ja,日常会話
+NICHIJO_KAIWA,en,daily conversation
+TELEVISION_PROGRAM,ja,テレビ番組
+TELEVISION_PROGRAM,en,TV program
+AMOUNT_OF_MONEY,ja,金額
+AMOUNT_OF_MONEY,en,amount of money
+NICHIJO,ja,日常
+NICHIJO,en,daily life
+KOUKYOU,ja,公共
+KOUKYOU,en,public
+SHIMAI,ja,姉妹
+SHIMAI,en,sisters
+ILLNESS,ja,病気
+ILLNESS,en,illness
+MORNING,ja,朝
+MORNING,en,morning
+HIMOGOHAKI,ja,誤語吐き
+HIMOGOHAKI,en,misspeaker
+ROJO,ja,路上
+ROJO,en,on the street
+SHANAI,ja,車内
+SHANAI,en,inside car
+GYOKAI_YOGO,ja,業界用語
+GYOKAI_YOGO,en,industry term
+KAIWA,ja,会話
+KAIWA,en,conversation
+TEREBI,ja,テレビ
+TEREBI,en,television
+TETSUDO,ja,鉄道
+TETSUDO,en,railroad
+TRAIN,ja,列車
+TRAIN,en,train
+MOBILE_PHONE,ja,携帯電話
+MOBILE_PHONE,en,mobile phone
+TEREBI_BANGUMI,ja,テレビ番組
+TEREBI_BANGUMI,en,TV show
+KAJI,ja,家事
+KAJI,en,housework
+HOUSOU,ja,放送
+HOUSOU,en,broadcast
+SYOKUBA,ja,職場
+SYOKUBA,en,workplace
+FOREIGN_NAME,ja,外国名
+FOREIGN_NAME,en,foreign name
+MOUNTAINEERING,ja,登山
+MOUNTAINEERING,en,mountaineering
+EXAMINATION,ja,試験
+EXAMINATION,en,examination
+SHOKUBAI,ja,職場
+SHOKUBAI,en,workplace
+KOUHAKU_UTA_GASSEN,ja,紅白歌合戦
+KOUHAKU_UTA_GASSEN,en,Kouhaku Uta Gassen
+RYOKO,ja,旅行
+RYOKO,en,travel
+SPEED_WRITING,ja,速記
+SPEED_WRITING,en,speed writing
+PRESS_CONFERENCE,ja,記者会見
+PRESS_CONFERENCE,en,press conference
+SOKKI,ja,速記
+SOKKI,en,shorthand
+SPECIALIZED_TERMS,ja,専門用語
+SPECIALIZED_TERMS,en,specialized terms
+COMPLIANCE,ja,コンプライアンス
+COMPLIANCE,en,compliance
+GOVERNANCE,ja,ガバナンス
+GOVERNANCE,en,governance
+BIJINESU,ja,ビジネス
+BIJINESU,en,business
+KANYOKU,ja,慣用句
+KANYOKU,en,idiom
+LOANWORDS,ja,外来語
+LOANWORDS,en,loanwords
+KENKOU,ja,健康
+KENKOU,en,health
+FUKKOU,ja,復興
+FUKKOU,en,reconstruction
+LEGISLATURE,ja,立法府
+LEGISLATURE,en,legislature
+ACADEMIC,ja,学術
+ACADEMIC,en,academic
+SOKI,ja,速記
+SOKI,en,shorthand
+TOKUBETSU_SHIEN,ja,特別支援
+TOKUBETSU_SHIEN,en,special support
+JUKUGO,ja,熟語
+JUKUGO,en,compound word
+NATIONAL_DIET,ja,国会
+NATIONAL_DIET,en,national diet
+KANKOU,ja,観光
+KANKOU,en,tourism
+DISASTER_MEASURES,ja,災害対策
+DISASTER_MEASURES,en,disaster measures
+BUTSURYUU,ja,物流
+BUTSURYUU,en,logistics
+RUIJION,ja,類義語
+RUIJION,en,synonyms
+MEDICINE,ja,医学
+MEDICINE,en,medicine
+GIJUTSU,ja,技術
+GIJUTSU,en,technology
+CHIZAI,ja,知財
+CHIZAI,en,intellectual property
+STATISTICS,ja,統計
+STATISTICS,en,statistics
+TOSHI_KAIHATSU,ja,都市開発
+TOSHI_KAIHATSU,en,urban development
+PERSONNEL,ja,人事
+PERSONNEL,en,personnel
+BOUEI,ja,防衛
+BOUEI,en,defense
+GYOUSEI,ja,行政
+GYOUSEI,en,administration
+ARCHITECTURE,ja,建築
+ARCHITECTURE,en,architecture
+KANJI_WORDS,ja,漢字語
+KANJI_WORDS,en,kanji words
+KYOIKU,ja,教育
+KYOIKU,en,education
+SURVEY,ja,調査
+SURVEY,en,survey
+LABOR_ACCIDENT,ja,労働災害
+LABOR_ACCIDENT,en,labor accident
+NEWS_MEDIA,ja,報道機関
+NEWS_MEDIA,en,news media
+KIGYOU,ja,企業
+KIGYOU,en,enterprise
+ROUDOU_ANZEN,ja,労働安全
+ROUDOU_ANZEN,en,occupational safety
+SAIGAI,ja,災害
+SAIGAI,en,disaster
+TECHNICAL,ja,技術的
+TECHNICAL,en,technical
+SEISAKU,ja,政策
+SEISAKU,en,policy
+SHORTHAND,ja,速記
+SHORTHAND,en,shorthand
+GIGIROKU,ja,議事録
+GIGIROKU,en,meeting record
+JIKEN,ja,事件
+JIKEN,en,incident
+NICHOUGO,ja,日朝語
+NICHOUGO,en,Japanese-Korean
+SHIRYOU,ja,資料
+SHIRYOU,en,materials
+SEIDO,ja,制度
+SEIDO,en,system
+RISKU,ja,リスク
+RISKU,en,risk
+KAKEI,ja,家計
+KAKEI,en,household budget
+GUNJI,ja,軍事
+GUNJI,en,military
+KENSAA,ja,検査
+KENSAA,en,inspection
+OKINAWA_MONDAI,ja,沖縄問題
+OKINAWA_MONDAI,en,Okinawa issue
+DISASTER_PREVENTION,ja,防災
+DISASTER_PREVENTION,en,disaster prevention
+BIZINESU,ja,ビジネス
+BIZINESU,en,business
+DEFENSE,ja,防衛
+DEFENSE,en,defense
+NANDOKU_GO,ja,難読語
+NANDOKU_GO,en,difficult words
+KINYU,ja,金融
+KINYU,en,finance
+SOCIAL_ISSUES,ja,社会問題
+SOCIAL_ISSUES,en,social issues
+INTERNATIONAL_RELATIONS,ja,国際関係
+INTERNATIONAL_RELATIONS,en,international relations
+SHUPPAN,ja,出版
+SHUPPAN,en,publishing
+TRANSCRIPTION,ja,書き起こし
+TRANSCRIPTION,en,transcription
+ACADEMIC_SOCIETY,ja,学会
+ACADEMIC_SOCIETY,en,academic society
+URBAN_PLANNING,ja,都市計画
+URBAN_PLANNING,en,urban planning
+URBAN_POLICY,ja,都市政策
+URBAN_POLICY,en,urban policy
+NATION,ja,国家
+NATION,en,nation
+SOHKI,ja,速記
+SOHKI,en,shorthand
+TERRITORIAL_ISSUE,ja,領土問題
+TERRITORIAL_ISSUE,en,territorial issue
+REGIONAL_DEVELOPMENT,ja,地域振興
+REGIONAL_DEVELOPMENT,en,regional development
+SYNONYMS,ja,同義語
+SYNONYMS,en,synonyms
+SALES,ja,営業
+SALES,en,sales
+JOB_CATEGORY,ja,職種
+JOB_CATEGORY,en,job category
+TOUKEI,ja,統計
+TOUKEI,en,statistics
+SOCIAL_WELFARE,ja,社会福祉
+SOCIAL_WELFARE,en,social welfare
+SHIHOU,ja,司法
+SHIHOU,en,judiciary
+SEIZOU_GYOU,ja,製造業
+SEIZOU_GYOU,en,manufacturing industry
+EVALUATION,ja,評価
+EVALUATION,en,evaluation
+SEIZOU,ja,製造
+SEIZOU,en,manufacturing
+KUMIAI,ja,組合
+KUMIAI,en,union
+CHOSAKUKEN,ja,著作権
+CHOSAKUKEN,en, copyright
+CULTURE,ja,文化
+CULTURE,en,culture
+SHINCHOKU_KANRI,ja,進捗管理
+SHINCHOKU_KANRI,en,progress management
+CHIHOU,ja,地方
+CHIHOU,en,local
+SUBSIDY,ja,補助金
+SUBSIDY,en,subsidy
+POLICY,ja,政策
+POLICY,en,policy
+TAXATION,ja,課税
+TAXATION,en,taxation
+GIJUTSU_YOGO,ja,技術用語
+GIJUTSU_YOGO,en,technical term
+LOGIC,ja,論理
+LOGIC,en,logic
+NENKIN,ja,年金
+NENKIN,en,pension
+TRADE,ja,貿易
+TRADE,en,trade
+MANUFACTURING,ja,製造
+MANUFACTURING,en,manufacturing
+DOBOKU,ja,土木
+DOBOKU,en,civil engineering
+REPORTING_MEDIA,ja,報道媒体
+REPORTING_MEDIA,en,reporting media
+KANSA,ja,監査
+KANSA,en,audit
+KINYOU,ja,金融
+KINYOU,en,finance
+GIKAI,ja,議会
+GIKAI,en,assembly
+HOUDOU,ja,報道
+HOUDOU,en,reporting
+PUBLIC_OFFICIAL,ja,公務員
+PUBLIC_OFFICIAL,en,public official
+SHOBO,ja,消防
+SHOBO,en,firefighting
+PSYCHOLOGY,ja,心理学
+PSYCHOLOGY,en,psychology
+ZEISEI,ja,税制
+ZEISEI,en,tax system
+SCIENCE_TECHNOLOGY,ja,科学技術
+SCIENCE_TECHNOLOGY,en,science and technology
+RYOKOUGYO,ja,旅行業
+RYOKOUGYO,en,travel industry
+NUCLEAR_POWER,ja,原子力
+NUCLEAR_POWER,en,nuclear power
+KANJI_GO,ja,漢字語
+KANJI_GO,en,kanji words
+HYOUJUN,ja,標準
+HYOUJUN,en,standard
+KOUWAN,ja,港湾
+KOUWAN,en,port
+SCENERY,ja,風景
+SCENERY,en,scenery
+SEIFU_KANKOUBUTSU,ja,政府刊行物
+SEIFU_KANKOUBUTSU,en,government publications
+LEGAL_SCIENCE,ja,法学
+LEGAL_SCIENCE,en,legal science
+ZOUSEN,ja,造船
+ZOUSEN,en,shipbuilding
+BUDGET,ja,予算
+BUDGET,en,budget
+KENKYU,ja,研究
+KENKYU,en,research
+SOKIKI,ja,速記
+SOKIKI,en,stenography
+PUBLIC_SERVICE,ja,公共サービス
+PUBLIC_SERVICE,en,public service
+SYSTEM_REFORM,ja,制度改革
+SYSTEM_REFORM,en,system reform
+KANJIGO,ja,漢字語
+KANJIGO,en,kanji word
+TOWN_DEVELOPMENT,ja,町づくり
+TOWN_DEVELOPMENT,en,town development
+HIGU,ja,被具
+HIGU,en,equipment
+KIN_YU,ja,金融
+KIN_YU,en,finance
+ZAISAN,ja,財産
+ZAISAN,en,assets
+SAIGAI_TAIOU,ja,災害対応
+SAIGAI_TAIOU,en,disaster response
+POLITICAL_PARTY,ja,政党
+POLITICAL_PARTY,en,political party
+BUNKA,ja,文化
+BUNKA,en,culture
+BUTSURYU,ja,物流
+BUTSURYU,en,logistics
+KOUTSU,ja,交通
+KOUTSU,en,transportation
+LEGAL_AFFAIRS,ja,法務
+LEGAL_AFFAIRS,en,legal affairs
+RIKA,ja,理科
+RIKA,en,science
+TOSHI,ja,都市
+TOSHI,en,city
+KIN_YUU,ja,金融
+KIN_YUU,en,finance
+INTERNATIONAL_CONFERENCE,ja,国際会議
+INTERNATIONAL_CONFERENCE,en,international conference
+TOSHIKAIKAKU,ja,都市改革
+TOSHIKAIKAKU,en,urban reform
+GOVERNMENT,ja,政府
+GOVERNMENT,en,government
+ZAISAI,ja,財政
+ZAISAI,en,public finance
+SYAKAI_MONDAI,ja,社会問題
+SYAKAI_MONDAI,en,social issues
+CORPORATE_ACTIVITY,ja,企業活動
+CORPORATE_ACTIVITY,en,corporate activity
+YOSAN,ja,予算
+YOSAN,en,budget
+GAKUJUTSU,ja,学術
+GAKUJUTSU,en,academia
+SEIJI,ja,政治
+SEIJI,en,politics
+RESEARCH,ja,研究
+RESEARCH,en,research
+ACADEMIC_FIELD,ja,学問分野
+ACADEMIC_FIELD,en,academic field
+TPP,ja,TPP
+TPP,en,TPP
+SOSHIKI_MEI,ja,組織名
+SOSHIKI_MEI,en,organization name
+GIJIROKU,ja,議事録
+GIJIROKU,en,meeting record
+LOGISTICS,ja,物流
+LOGISTICS,en,logistics
+SHINGIKAI,ja,審議会
+SHINGIKAI,en,council
+HOMU,ja,法務
+HOMU,en,legal affairs
+MOJIOKOSHI,ja,文字起こし
+MOJIOKOSHI,en,transcription
+MATERIALS,ja,資料
+MATERIALS,en,materials
+SHIRYO,ja,資料
+SHIRYO,en,documents
+ECONOMICS,ja,経済学
+ECONOMICS,en,economics
+ACTIVITY,ja,活動
+ACTIVITY,en,activity
+SHUKYO,ja,宗教
+SHUKYO,en,religion
+KANKYOU,ja,環境
+KANKYOU,en,environment
+INTERNATIONAL_SITUATION,ja,国際情勢
+INTERNATIONAL_SITUATION,en,international situation
+RELIGION,ja,宗教
+RELIGION,en,religion
+JUDICIARY,ja,司法
+JUDICIARY,en,judiciary
+GAIKOU,ja,外交
+GAIKOU,en,diplomacy
+LOCAL_GOVERNMENT,ja,地方自治体
+LOCAL_GOVERNMENT,en,local government
+ENERGY_POLICY,ja,エネルギー政策
+ENERGY_POLICY,en,energy policy
+FUTURE,ja,未来
+FUTURE,en,future
+SHAKAIMONDAI,ja,社会問題
+SHAKAIMONDAI,en,social problem
+GAKKAI,ja,学会
+GAKKAI,en,academic society
+MEETING_RECORD,ja,会議録
+MEETING_RECORD,en,meeting record
+KANKYO,ja,環境
+KANKYO,en,environment
+KAGAKU_GIJUTSU,ja,科学技術
+KAGAKU_GIJUTSU,en,science and technology
+RODOKU,ja,朗読
+RODOKU,en,reading aloud
+DIPLOMACY,ja,外交
+DIPLOMACY,en,diplomacy
+ELECTRICITY,ja,電力
+ELECTRICITY,en,electricity
+CRITICISM,ja,批評
+CRITICISM,en,criticism
+POLITICS,ja,政治
+POLITICS,en,politics
+GEOGRAPHY,ja,地理
+GEOGRAPHY,en,geography
+SAIGAI_TAIYOU,ja,災害対応
+SAIGAI_TAIYOU,en,disaster response
+STAFF_ASSIGNMENT,ja,人員配置
+STAFF_ASSIGNMENT,en,staff assignment
+HOUSING,ja,住宅
+HOUSING,en,housing
+PRODUCT_DESCRIPTION,ja,製品説明
+PRODUCT_DESCRIPTION,en,product description
+HOUHOU,ja,方法
+HOUHOU,en,method
+LECTURE,ja,講演
+LECTURE,en,lecture
+DISASTER,ja,災害
+DISASTER,en,disaster
+CHITEKIZAISAN,ja,知的財産
+CHITEKIZAISAN,en,intellectual property
+CYBER,ja,サイバー
+CYBER,en,cyber
+CHIIKI_SHINKO,ja,地域振興
+CHIIKI_SHINKO,en,regional promotion
+TRIAL,ja,裁判
+TRIAL,en,trial
+CLASSIFICATION,ja,分類
+CLASSIFICATION,en,classification
+KENCHIKU,ja,建築
+KENCHIKU,en,architecture
+NUCLEAR_ENERGY,ja,原子力
+NUCLEAR_ENERGY,en,nuclear energy
+KEIEI,ja,経営
+KEIEI,en,management
+ACCIDENT,ja,事故
+ACCIDENT,en,accident
+CIVIL_ENGINEERING,ja,土木
+CIVIL_ENGINEERING,en,civil engineering
+OBSTETRICS,ja,産科
+OBSTETRICS,en,obstetrics
+REPORTING,ja,報告
+REPORTING,en,reporting
+HORITSU,ja,法律
+HORITSU,en,law
+DISASTER_RESPONSE,ja,災害対応
+DISASTER_RESPONSE,en,disaster response
+LOCAL_AUTONOMY,ja,地方自治
+LOCAL_AUTONOMY,en,local autonomy
+SHAKAI_HOSHOU,ja,社会保障
+SHAKAI_HOSHOU,en,social security
+HOU_KAISEI,ja,法改正
+HOU_KAISEI,en,legal revision
+ARTS,ja,芸術
+ARTS,en,arts
+GAIKYOU,ja,概況
+GAIKYOU,en,overview
+STANDARD,ja,基準
+STANDARD,en,standard
+RECONSTRUCTION,ja,復興
+RECONSTRUCTION,en,reconstruction
+KENKYUU,ja,研究
+KENKYUU,en,research
+LEGAL,ja,法務
+LEGAL,en,legal
+HODO,ja,報道
+HODO,en,news reporting
+COPYRIGHT,ja,著作権
+COPYRIGHT,en,copyright
+ROUMU,ja,労務
+ROUMU,en,labor affairs
+KAGAKU,ja,科学
+KAGAKU,en,science
+COMPENSATION,ja,補償
+COMPENSATION,en,compensation
+SOCIAL_SECURITY,ja,社会保障
+SOCIAL_SECURITY,en,social security
+ICT,ja,ICT
+ICT,en,ICT
+DATA_PUBLICATION,ja,データ公開
+DATA_PUBLICATION,en,data publication
+YAKUSHOKU,ja,役職
+YAKUSHOKU,en,position
+KIJUN,ja,基準
+KIJUN,en,criteria
+KOUKYOUSEISAKU,ja,公共政策
+KOUKYOUSEISAKU,en,public policy
+KOKOKU,ja,広告
+KOKOKU,en,advertisement
+PUBLIC_OPINION_SURVEY,ja,世論調査
+PUBLIC_OPINION_SURVEY,en,public opinion survey
+INTERNATIONAL,ja,国際
+INTERNATIONAL,en,international
+FAIRNESS,ja,公正
+FAIRNESS,en,fairness
+TAX_SYSTEM,ja,税制
+TAX_SYSTEM,en,tax system
+ENVIRONMENT,ja,環境
+ENVIRONMENT,en,environment
+DISASTER_RECOVERY,ja,災害復旧
+DISASTER_RECOVERY,en,disaster recovery
+STENOGRAPHY,ja,速記
+STENOGRAPHY,en,stenography
+INDUSTRY,ja,産業
+INDUSTRY,en,industry
+CHIIKI_KATSUDO,ja,地域活動
+CHIIKI_KATSUDO,en,community activities
+INFRASTRUCTURE,ja,インフラ
+INFRASTRUCTURE,en,infrastructure
+QUESTION_AND_ANSWER,ja,質疑応答
+QUESTION_AND_ANSWER,en,question and answer
+ACCIDENT_INVESTIGATION,ja,事故調査
+ACCIDENT_INVESTIGATION,en,accident investigation
+PROCEDURE,ja,手続き
+PROCEDURE,en,procedure
+MOJIIKOSHI,ja,文字起こし
+MOJIIKOSHI,en,transcription
+COMMUNITY_ACTIVITY,ja,地域活動
+COMMUNITY_ACTIVITY,en,community activity
+REGION,ja,地域
+REGION,en,region
+HOU_RITSU,ja,法律
+HOU_RITSU,en,law
+DISASTER_RECONSTRUCTION,ja,災害復興
+DISASTER_RECONSTRUCTION,en,disaster reconstruction
+KAIDAN,ja,会談
+KAIDAN,en,talks
+KOKUSAI_JOUSEI,ja,国際情勢
+KOKUSAI_JOUSEI,en,international affairs
+HOU-GAKU,ja,法学
+HOU-GAKU,en,jurisprudence
+SAIGAI_TAISAKU,ja,災害対策
+SAIGAI_TAISAKU,en,disaster countermeasures
+INSURANCE,ja,保険
+INSURANCE,en,insurance
+MEETINGS,ja,会議
+MEETINGS,en,meetings
+EARTH_SCIENCE,ja,地球科学
+EARTH_SCIENCE,en,earth science
+HOUZOU,ja,法蔵
+HOUZOU,en,legal archive
+ZAISEN,ja,財政
+ZAISEN,en,finance
+HOURITSU,ja,法律
+HOURITSU,en,law
+DISASTER_COUNTERMEASURES,ja,災害対策
+DISASTER_COUNTERMEASURES,en,disaster countermeasures
+MACHIZUKURI,ja,まちづくり
+MACHIZUKURI,en,community development
+ENERGY,ja,エネルギー
+ENERGY,en,energy
+INDUSTRY_TERMS,ja,産業用語
+INDUSTRY_TERMS,en,industry terms
+GYOSEI,ja,行政
+GYOSEI,en,administration
+HOKOKU,ja,報告
+HOKOKU,en,report
+KANYOUKU,ja,慣用句
+KANYOUKU,en,idiom
+DISASTER_COUNTERMEASURE,ja,災害対策
+DISASTER_COUNTERMEASURE,en,disaster countermeasure
+JINJI,ja,人事
+JINJI,en,personnel
+INSATSU,ja,印刷
+INSATSU,en,printing
+TOURISM,ja,観光
+TOURISM,en,tourism
+CRIME_PREVENTION,ja,防犯
+CRIME_PREVENTION,en,crime prevention
+KENSETSU,ja,建設
+KENSETSU,en,construction
+PARLIAMENT,ja,国会
+PARLIAMENT,en,parliament
+HOUSO,ja,放送
+HOUSO,en,broadcasting
+ENERUGII,ja,エネルギー
+ENERUGII,en,energy
+QUALITY_CONTROL,ja,品質管理
+QUALITY_CONTROL,en,quality control
+KEIZAI,ja,経済
+KEIZAI,en,economy
+COMMITTEE,ja,委員会
+COMMITTEE,en,committee
+KABUSHIKI,ja,株式
+KABUSHIKI,en,stock
+KATAKANA_WORDS,ja,カタカナ語
+KATAKANA_WORDS,en,katakana words
+NEWS_REPORTING,ja,ニュース報道
+NEWS_REPORTING,en,news reporting
+DOUON_IGIGO,ja,同音異義語
+DOUON_IGIGO,en,homonym
+PENSION,ja,年金
+PENSION,en,pension
+ROUDOU,ja,労働
+ROUDOU,en,labor
+HOUMU,ja,法務
+HOUMU,en,legal affairs
+SHAKAI_FUKUSHI,ja,社会福祉
+SHAKAI_FUKUSHI,en,social welfare
+USA,ja,アメリカ
+USA,en,USA
+AIRPORT,ja,空港
+AIRPORT,en,airport
+KOKUSAI,ja,国際
+KOKUSAI,en,international
+SENMON_YOUGO,ja,専門用語
+SENMON_YOUGO,en,technical term
+JINZAI_IKUSEI,ja,人材育成
+JINZAI_IKUSEI,en,human resource development
+PUBLIC_WORKS,ja,公共事業
+PUBLIC_WORKS,en,public works
+PUBLISHING,ja,出版
+PUBLISHING,en,publishing
+RIREKISHO,ja,履歴書
+RIREKISHO,en,resume
+SYAKAI_FUKUSI,ja,社会福祉
+SYAKAI_FUKUSI,en,social welfare
+SAIGAI_TAIO,ja,災害対応
+SAIGAI_TAIO,en,disaster response
+SMALL_MEDIUM_ENTERPRISE,ja,中小企業
+SMALL_MEDIUM_ENTERPRISE,en,small and medium enterprise
+BROADCASTING,ja,放送
+BROADCASTING,en,broadcasting
+BOUSHUU,ja,募集
+BOUSHUU,en,recruitment
+MEDICAL_CARE,ja,医療
+MEDICAL_CARE,en,medical care
+1980S,ja,1980年代
+1980S,en,1980s
+ARTICULATION,ja,構音
+ARTICULATION,en,articulation
+ATP_TOUR,ja,ATPツアー
+ATP_TOUR,en,ATP Tour
+AUDITORY,ja,聴覚
+AUDITORY,en,auditory
+BOOK_TITLE,ja,書籍タイトル
+BOOK_TITLE,en,book title
+CHILDREN_SONG,ja,童謡
+CHILDREN_SONG,en,children's song
+COGNITION,ja,認知
+COGNITION,en,cognition
+COMMAND,ja,命令
+COMMAND,en,command
+COMMUTING,ja,通勤
+COMMUTING,en,commuting
+CULTURAL_DIFFERENCE,ja,文化的差異
+CULTURAL_DIFFERENCE,en,cultural difference
+DELIVERY,ja,配達
+DELIVERY,en,delivery
+DMM_EIKAIWA,ja,DMM英会話
+DMM_EIKAIWA,en,DMM Eikaiwa
+ENGLISH_SPEAKING_COUNTRY,ja,英語圏の国
+ENGLISH_SPEAKING_COUNTRY,en,English-speaking country
+ENGLISH_SPEAKING_REGION,ja,英語圏
+ENGLISH_SPEAKING_REGION,en,English-speaking region
+GAKUSHU_SHIEN,ja,学習支援
+GAKUSHU_SHIEN,en,learning support
+GERMAN,ja,ドイツ語
+GERMAN,en,German
+GOOGLE_HOME,ja,Google Home
+GOOGLE_HOME,en,Google Home
+HATON,ja,ハッと音
+HATON,en,startling sound
+HIMOBOGOHASHASHA,ja,ひも母語話者
+HIMOBOGOHASHASHA,en,rope-native speaker
+HIMOBOGO_WASHA,ja,ひも母語話者
+HIMOBOGO_WASHA,en,rope-native speaker
+HIMOTOBA_WAKASHA,ja,ひも言葉話者
+HIMOTOBA_WAKASHA,en,rope-language speaker
+HOIKU,ja,保育
+HOIKU,en,childcare
+IHCWAY,ja,IHCWAY
+IHCWAY,en,IHCWAY
+IDENTITY,ja,アイデンティティ
+IDENTITY,en,identity
+ICT_UTILIZATION,ja,ICT活用
+ICT_UTILIZATION,en,ICT utilization
+INTERNATIONAL_EXCHANGE,ja,国際交流
+INTERNATIONAL_EXCHANGE,en,international exchange
+JAPANESE_NAME,ja,日本人の名前
+JAPANESE_NAME,en,Japanese name
+JAPANESE_NATIVE_SPEAKER,ja,日本語母語話者
+JAPANESE_NATIVE_SPEAKER,en,Japanese native speaker
+JIKO_SHOKAI,ja,自己紹介
+JIKO_SHOKAI,en,self-introduction
+KANSAI_DIALECT,ja,関西弁
+KANSAI_DIALECT,en,Kansai dialect
+KAISHOKU,ja,会食
+KAISHOKU,en,dining together
+KENDO,ja,剣道
+KENDO,en,kendo
+KINCHOU,ja,緊張
+KINCHOU,en,nervousness
+LESSON_EXPERIENCE,ja,授業経験
+LESSON_EXPERIENCE,en,lesson experience
+MISHEARING_ERROR,ja,聞き間違いエラー
+MISHEARING_ERROR,en,mishearing error
+MISWRITING,ja,書き間違い
+MISWRITING,en,miswriting
+MULTICULTURAL,ja,多文化
+MULTICULTURAL,en,multicultural
+MULTILINGUAL,ja,多言語
+MULTILINGUAL,en,multilingual
+MYOUJI,ja,名字
+MYOUJI,en,surname
+MYOJI,ja,苗字
+MYOJI,en,surname
+MOTOHARU_SANO,ja,佐野元春
+MOTOHARU_SANO,en,Motoharu Sano
+NATIONAL_PHENOMENON,ja,国民的現象
+NATIONAL_PHENOMENON,en,national phenomenon
+NICHIJO_SEIKATSU,ja,日常生活
+NICHIJO_SEIKATSU,en,daily life
+NICHIJOKAIWA,ja,日常会話
+NICHIJOKAIWA,en,daily conversation
+NUMBER_OF_PEOPLE,ja,人数
+NUMBER_OF_PEOPLE,en,number of people
+ONIN_NINCHI,ja,音韻認知
+ONIN_NINCHI,en,phonological awareness
+ONLINE_ENGLISH_CONVERSATION,ja,オンライン英会話
+ONLINE_ENGLISH_CONVERSATION,en,online English conversation
+ORDER_MISTAKE,ja,注文間違い
+ORDER_MISTAKE,en,order mistake
+OVERSEAS,ja,海外
+OVERSEAS,en,overseas
+PEN_NAME,ja,ペンネーム
+PEN_NAME,en,pen name
+SCIENCE_TERM,ja,科学用語
+SCIENCE_TERM,en,scientific term
+SEIKO_MATSUD,ja,松田聖子
+SEIKO_MATSUD,en,Seiko Matsuda
+SHODO,ja,書道
+SHODO,en,calligraphy
+SHUFU,ja,主婦
+SHUFU,en,housewife
+SIRI,ja,Siri
+SIRI,en,Siri
+SMART_SPEAKER,ja,スマートスピーカー
+SMART_SPEAKER,en,smart speaker
+SNACK,ja,スナック
+SNACK,en,snack
+SPECIAL_SUPPORT_EDUCATION,ja,特別支援教育
+SPECIAL_SUPPORT_EDUCATION,en,special needs education
+STAFF_BLOG,ja,スタッフブログ
+STAFF_BLOG,en,staff blog
+SUPPORT_MEASURES,ja,支援策
+SUPPORT_MEASURES,en,support measures
+TENNIS,ja,テニス
+TENNIS,en,tennis
+WAITING_ROOM,ja,待合室
+WAITING_ROOM,en,waiting room
+WEATHER_FORECAST,ja,天気予報
+WEATHER_FORECAST,en,weather forecast
+WORD_MISUNDERSTANDING,ja,語の誤解
+WORD_MISUNDERSTANDING,en,word misunderstanding
+YOMIKATA,ja,読み方
+YOMIKATA,en,reading
+YOMIMACHIGAI,ja,読み間違い
+YOMIMACHIGAI,en,misreading
+YOJIGO,ja,四字語
+YOJIGO,en,four-character idiom
+YUMEIJIN,ja,有名人
+YUMEIJIN,en,celebrity
+SPANISH,ja,スペイン語
+SPANISH,en,Spanish
+INFANT_LANGUAGE,ja,幼児語
+INFANT_LANGUAGE,en,infant language
+IDENTITY_VERIFICATION,ja,本人確認
+IDENTITY_VERIFICATION,en,identity verification
+COLOR,ja,色
+COLOR,en,color
+INDUSTRY_TERMINOLOGY,ja,業界用語
+INDUSTRY_TERMINOLOGY,en,industry terminology
+NET_SHOP,ja,ネットショップ
+NET_SHOP,en,online shop
+OPERATOR,ja,オペレーター
+OPERATOR,en,operator
+ORDER_ACCEPTANCE,ja,注文受付
+ORDER_ACCEPTANCE,en,order acceptance
+SHIP,ja,出荷
+SHIP,en,shipping
+LAST_NAME,ja,姓
+LAST_NAME,en,last name
+CUSTOMER_SUPPORT,ja,カスタマーサポート
+CUSTOMER_SUPPORT,en,customer support
+BUSINESS_PHONE,ja,業務用電話
+BUSINESS_PHONE,en,business phone
+AUDITORY_INFORMATION_PROCESSING,ja,聴覚情報処理
+AUDITORY_INFORMATION_PROCESSING,en,auditory information processing
+KANJI_NOTATION,ja,漢字表記
+KANJI_NOTATION,en,kanji notation
+DEVELOPMENTAL_DISORDER,ja,発達障害
+DEVELOPMENTAL_DISORDER,en,developmental disorder
+PARAPHRASE,ja,言い換え
+PARAPHRASE,en,paraphrase
+CUSTOMER_INFORMATION,ja,顧客情報
+CUSTOMER_INFORMATION,en,customer information
+COUNTERMEASURES,ja,対策
+COUNTERMEASURES,en,countermeasures
+WORK_CONCERNS,ja,業務上の懸念
+WORK_CONCERNS,en,work concerns
+CONTACT_CENTER,ja,コンタクトセンター
+CONTACT_CENTER,en,contact center
+PERSONAL_INFORMATION,ja,個人情報
+PERSONAL_INFORMATION,en,personal information
+SPEAKING_STYLE,ja,話し方のスタイル
+SPEAKING_STYLE,en,speaking style

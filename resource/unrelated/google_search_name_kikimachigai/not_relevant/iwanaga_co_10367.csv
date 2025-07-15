@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+iwanaga_10367_001,き,,難聴初期は要注意,(Tgt=NA: 脳が補正して別の音に聞こえるが具体的な誤聴形が明示されていない),True,iwanaga_10367,https://www.iwanaga-co.com/blog/fukuoka/10367,日本語,"['聞き間違い', '難聴', '補聴器', 'コミュニケーション', '脳の補正', '高齢者', '医療・福祉']","['家庭', '日常生活', '補聴器販売店']"
+iwanaga_10367_002,登場人物の名前（誤読）,正しい名前の読み,音声で気づく,小説や漫画で名前を誤読し、ドラマやアニメの音声で正しい読みを知ることがある,True,iwanaga_10367,https://www.iwanaga-co.com/blog/fukuoka/10367,日本語,"['聞き間違い', '読書', 'アニメ', 'コミュニケーション', '脳の補正']","['家庭', 'テレビ・アニメ・読書']"

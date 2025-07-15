@@ -1,0 +1,7 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+echohikakuguide_20200821_001,unacceptable,Alexa,ウェイクワード注意,Amazon Echoが「unacceptable」を「Alexa」と誤認識し反応した。,True,echohikakuguide_20200821,https://echohikakuguide.com/2020/08/21/post-4934/,Amazon Echo,,en
+echohikakuguide_20200821_002,election,Alexa,ウェイクワード注意,Amazon Echoが「election」を「Alexa」と誤認識し反応した。,True,echohikakuguide_20200821,https://echohikakuguide.com/2020/08/21/post-4934/,Amazon Echo,,en
+echohikakuguide_20200821_003,"OK, cool",OK Google,ウェイクワード注意,"Google Homeが「OK, cool」を「OK Google」と誤認識し反応した。",True,echohikakuguide_20200821,https://echohikakuguide.com/2020/08/21/post-4934/,Google Home,,en
+echohikakuguide_20200821_004,a city,Siri,ウェイクワード注意,Apple Siriが「a city」を「Siri」と誤認識し反応した。,True,echohikakuguide_20200821,https://echohikakuguide.com/2020/08/21/post-4934/,Apple Siri,,en
+echohikakuguide_20200821_005,Peter,Computer,ウェイクワード注意,Amazon Echoのウェイクワードを「Computer」に設定時、「Peter」を「Computer」と誤認識した。,True,echohikakuguide_20200821,https://echohikakuguide.com/2020/08/21/post-4934/,Amazon Echo,,en
+echohikakuguide_20200821_006,and the zone,Amazon,ウェイクワード注意,Amazon Echoのウェイクワードを「Amazon」に設定時、「and the zone」を「Amazon」と誤認識した。,True,echohikakuguide_20200821,https://echohikakuguide.com/2020/08/21/post-4934/,Amazon Echo,,en

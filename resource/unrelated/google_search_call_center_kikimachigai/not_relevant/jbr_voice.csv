@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+jbr_voice_001,物件名,別の物件名,注意が必要,電話で物件名を聞き間違え、対応や手配に遅延が発生していた。 (Tgt=NA: placeholder '別の物件名'),True,jbr_voice,https://www.jbr.co.jp/voice/,日本語,"['コールセンター', '不動産', '電話対応', '聞き間違い', '物件名', '事務', '業務効率化']","['電話', 'コールセンター', '事務所', '通信環境']"
+jbr_voice_002,連絡先,別の連絡先,注意が必要,電話で連絡先を聞き間違え、連絡ミスや遅延が発生していた。 (Tgt=NA: placeholder '別の連絡先'),True,jbr_voice,https://www.jbr.co.jp/voice/,日本語,"['コールセンター', '不動産', '電話対応', '聞き間違い', '連絡先', '事務', '業務効率化']","['電話', 'コールセンター', '事務所', '通信環境']"

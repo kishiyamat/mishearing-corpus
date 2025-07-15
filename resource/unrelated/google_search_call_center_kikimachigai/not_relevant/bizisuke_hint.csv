@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+bizisuke_20220420_5301_001,,,復唱・録音で防止,(Src=NA: placeholder '顧客の発言内容')(Tgt=NA: placeholder '別の内容') コールセンターで顧客の発言を聞き間違えるリスクがあり、録音や復唱で防止しているが、具体的な誤聴例は記載されていない。,True,bizisuke_20220420_5301,https://bizisuke.jp/hint/20220420_5301/,日本語,"['コールセンター', '通話録音', '聞き間違い', 'ヒューマンエラー', 'クレーム', '業務改善', '顧客対応', '法人向け', '電話対応']","['コールセンター', '電話', '通信環境']"

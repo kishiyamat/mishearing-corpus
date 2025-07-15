@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+calltree_p80rf3-7xd_001,,,復唱して確認すること,(Src=NA: placeholder '名前')(Tgt=NA: placeholder '別の名前') コールセンターの電話対応で、聞き取りにくい・聞き間違えやすい名前は復唱して確認することが推奨されている。,True,calltree_p80rf3-7xd,https://calltree.jp/knowledge/skill/p80rf3-7xd/,日本語,"['コールセンター', '電話対応', '名前', '聞き間違い']","['オフィス', '電話', '通信環境']"

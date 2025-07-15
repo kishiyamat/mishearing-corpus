@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+allwatchnews_202407_001,S,F,アルファベットは一音ずつ、フォネティックコード（エス、エフなど）を併用して伝えると良い,コールセンターでメールアドレスのSとFの聞き間違いが発生しやすい,True,allwatchnews_202407,http://www.allwatch.jp/ALLwatchNews/ALLwatchNews_202407.pdf,日本語,"['コールセンター', '電話対応', 'メールアドレス', '聞き間違い', 'アルファベット', '仕事', 'フォネティックコード']","['電話', 'コールセンター']"
+allwatchnews_202407_002,M,N,アルファベットは一音ずつ、フォネティックコード（エム、エヌなど）を併用して伝えると良い,コールセンターでメールアドレスのMとNの聞き間違いが発生しやすい,True,allwatchnews_202407,http://www.allwatch.jp/ALLwatchNews/ALLwatchNews_202407.pdf,日本語,"['コールセンター', '電話対応', 'メールアドレス', '聞き間違い', 'アルファベット', '仕事', 'フォネティックコード']","['電話', 'コールセンター']"
+allwatchnews_202407_003,C,E,アルファベットは一音ずつ、フォネティックコード（シー、イーなど）を併用して伝えると良い,コールセンターでメールアドレスのCとEの聞き間違いが発生しやすい,True,allwatchnews_202407,http://www.allwatch.jp/ALLwatchNews/ALLwatchNews_202407.pdf,日本語,"['コールセンター', '電話対応', 'メールアドレス', '聞き間違い', 'アルファベット', '仕事', 'フォネティックコード']","['電話', 'コールセンター']"

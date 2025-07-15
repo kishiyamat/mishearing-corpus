@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+businesscall_2101_001,,,電話対応時はお客様の名前を復唱するなどして確認を徹底することが重要。,(Src=NA: placeholder 'お客様の名前')(Tgt=NA: placeholder '別のお客様の名前'),True,businesscall_2101,https://businesscall.jp/info/archives/2101,日本語,"['仕事', '電話対応', 'コールセンター', '伝言ミス', '名前の聞き間違い', '業務効率化', '電話代行', 'ビジネスコミュニケーション']","['オフィス', '電話', 'コールセンター', 'リモートワーク', '通信環境']"

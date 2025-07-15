@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+itreview_kaiwacloud_189560_001,,,録音機能で防止可能,NO_INCIDENT: no explicit mishearing found (Src=NA: 具体的な聞き間違い事例なし)(Tgt=NA: 具体的な聞き間違い事例なし),True,itreview_kaiwacloud_189560,https://www.itreview.jp/products/kaiwacloud/reviews/189560,日本語,"['電話業務', 'クラウドCTI', '録音', '聞き間違い', 'DX', 'コールセンター', 'メモ機能', '業務効率化']","['オフィス', 'コールセンター', '電話', 'PC（Webブラウザ）', '録音機能あり/なし']"

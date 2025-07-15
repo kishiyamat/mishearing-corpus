@@ -13,17 +13,22 @@ You can see the data [here](https://mishearing-corpus-dev.streamlit.app/).
 To expand the dataset, it will be necessary at some point
 to implement a procedure for predicting and presenting potential mishearings.
 The extent of such data available on the web is currently unknown.
-Collecting 20 items from 100~200 participants would yield 2,000~4,000 instances,
-which seems to be the practical limit. 
 
-| Phase                       |   Target Size    | Estimated Period | Main Tasks                                                                 | Quick Checkpoint            |
-|-----------------------------|------------------|------------------|----------------------------------------------------------------------------|-----------------------------|
-| **0. Schema Design**        | 0 → 100         | 1 week           | Transfer samples from existing papers/reports/URLs, finalize columns       | *Is Frictionless CI green?* |
-| **1. Data Mining (1)**      | 100 → 1,000     | 1 month          | Extract explicit mishearing cases from available sources using LLMs        | *Search queries/LLMs setup* |
-| **2. Data Mining (2)**      | 1,000 → 3,000   | 1 month          | Continue expanding the CSV dataset.                                        | *Utilize LLMs and Fix tags* |
-| **3. Crowdsourcing (1)**    | 3,000 → 5,000   | 2 months         | Collect approximately 2,000 cases by recruiting 100 participants online.   | *Make an MVP, get feedback* |
-| **4. Crowdsourcing (2)**    | 5,000 → 6,000   | 1 month          | Develop a prediction model to generate stimuli for commonly misheard pairs.| *Is Frictionless CI green?* |
-| **5. Crowdsourcing (3)**    | 6,000 → 10,000  | 1 month          | Optimize the process to complete the remaining data collection.            | *Is Frictionless CI green?* |
+| Phase                    | Size       | Estimated Period | Main Tasks                                                                  | Quick Checkpoint            |
+|--------------------------|------------|------------------|-----------------------------------------------------------------------------|-----------------------------|
+| **Schema Design**        | → 100     | 1 week   06.10   | Transfer samples from existing papers/reports/URLs, finalize columns.       | *Is Frictionless CI green?* |
+| **Data Mining**          | → 4,000   | 1 month  07.10   | Extract explicit mishearing cases from available sources using LLMs.        | *Search queries/LLMs setup* |
+| **Cleaning/Application** | → 5,000   | 1 month  07.28   | Expand the CSV dataset and apply it to psycholinguistics.                   | *Utilize LLMs and fix tags* |
+| **Cleaning/Design**      | → 6,000   | 1 month  08.31   | Keep expanding the data and design to make the UI more usable.              | *Make an MVP, get feedback* |
+| **Crowdsourcing (2)**    | → 7,000   | 1 month  09.30   | Develop a prediction model to generate stimuli for commonly misheard pairs. | *Is Frictionless CI green?* |
+| **Crowdsourcing (3)**    | → 8,000   | 1 month  10.31   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
+| **Crowdsourcing (3)**    | → 9,000   | 1 month  11.30   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
+| **Crowdsourcing (3)**    | → 10,000  | 1 month  12.31   | Optimize the process to complete the remaining data collection.             | *Is Frictionless CI green?* |
+
+Crowdsourcing for data collection has been excluded due to concerns 
+about the potential introduction of fabricated examples,
+which could compromise data integrity and lead to unreliable results.
+Ensuring the authenticity and quality of the dataset is paramount for its scientific validity.
 
 ---
 
@@ -249,6 +254,15 @@ We thank all annotators and contributors to this project.
 - **URL**: [https://www.yamatosokki.co.jp/mistake/similar201901](https://www.yamatosokki.co.jp/mistake/similar201901)
 - **Description**: Mishearing data extracted from reports and articles provided by Yamato Sokki Co., Ltd.
 
+### Yamato Sokki (N=2026)
+
+- 得られたデータを元に作成
+- rule baseで文を復元
+- tagを付与
+- 誤りを修正: `心理的にには` -> `心理的には`
+- ルールベースで余計な編集がLLMによって加えられていないかをテスト
+- Tagの分割
+
 ### Gendai Medi (N=8)
 - **Source**: Gendai Media
 - **URL**: [https://gendai.media/articles/-/152393?imp=0](https://gendai.media/articles/-/152393?imp=0)
@@ -261,8 +275,21 @@ We thank all annotators and contributors to this project.
 - **Description**: See `resource/medsafe/readme.md`
 
 ### Kikimatsugai 1101 (N=9)
-- できれば加えたいデータ(かなり量がある)
-- 現状だとデータのフェッチが難しい
+
+- Googleでたまたま見つけた一つのファイル
+
+### Kikimatsugai 1101 (N=959)
+
+- google_1101.py で報告をtxtに変換
+  - できれば加えたいデータ(かなり量がある)
+  - 現状だとデータのフェッチが難しい -> エンコーディングの問題
+  - textのidが同じで落とせなかったものもあったが、結局N件のページを取得
+- filestr2json2csvでcsvに変換
+  - file2csv_llm.py でLLMベース。yamatoはルールベース
+  - もともとのurlバージョンを微修正
+  - その後の処理は同じ
+  - 目視で確認（非母語話者というタグが異常に多い気がする）
+  - タグはLLMで自動付与
 
 ### Google
 
@@ -370,6 +397,19 @@ Denwa (Telephone)
 
 - 作成したアプリで収集(`queries = '電話 "聞き間違え"'`) -> N=80
 - 作成したアプリで収集(`queries = '電話 "聞き間違い"'`) -> N=175
+
+### Google | Name (N=123)
+
+_ google_search_name_kikimachigae	52
+_ google_search_name_kikimachigai	71
+
+### Google | Call center (N=41)
+
+そろそろ、phonetic code系は無効にしようかな...。
+結構、もう見たって感じのデータが多くなってきた。
+
+- google_search_call_center_kikimachigae	36
+- google_search_call_center_kikimachigai	5
 
 ### Google | Business (N=?)
 

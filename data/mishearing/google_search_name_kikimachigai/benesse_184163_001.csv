@@ -1,0 +1,7 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+benesse_ikuji_184163_001,帰省中ですか？,寄生虫ですか？,医療現場での聞き間違いに注意,小児科で医師が「帰省中かな？」と聞いたのを「寄生虫」と聞き間違えた,True,benesse_ikuji_184163,https://st.benesse.ne.jp/ikuji/content/?id=184163,医師,,ja
+benesse_ikuji_184163_002,サインを下さい,ラインを下さい,店舗でのやりとりは明瞭に,店員が「サインを」と言ったのを「ライン（LINE）」と聞き間違えた,True,benesse_ikuji_184163,https://st.benesse.ne.jp/ikuji/content/?id=184163,店員,,ja
+benesse_ikuji_184163_003,まぶしいんで,ラブシーンで,外での会話は周囲の音に注意,バス停のベンチで隣の男性が「まぶしいんで」と言ったのを「ラブシーンで」と聞き間違えた,True,benesse_ikuji_184163,https://st.benesse.ne.jp/ikuji/content/?id=184163,隣の男性,,ja
+benesse_ikuji_184163_004,戦争についてどう思いますか？,清掃についてどう思いますか？,面接では落ち着いて聞き返す,面接官の質問を聞き間違えた,True,benesse_ikuji_184163,https://st.benesse.ne.jp/ikuji/content/?id=184163,面接官,,ja
+benesse_ikuji_184163_005,持てるでしょ？,モテるでしょ？,店員の言葉は文脈で判断,蕎麦屋で「持てる（テイクアウトできる）」を「モテる（人気がある）」と聞き間違えた,True,benesse_ikuji_184163,https://st.benesse.ne.jp/ikuji/content/?id=184163,店員,,ja
+benesse_ikuji_184163_006,イオン行った？,美容院いった？,先生の発話は文脈で判断,歯医者で「イオン行った？」を「美容院行った？」と聞き間違えた,True,benesse_ikuji_184163,https://st.benesse.ne.jp/ikuji/content/?id=184163,先生,,ja

@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+vofficebloom_column_4234_1,相手の名前（例：山田）,別の名前や誤った漢字表記,名前はひらがなで記載し、復唱することで聞き間違いを防ぐ,電話で相手の名前を聞き間違えると、伝言ミスや信頼損失につながる。,True,vofficebloom_column_4234,https://www.voffice-bloom.com/column/column_4234/,日本語,"['ビジネス', '電話対応', 'コミュニケーション', '聞き間違い', '伝言メモ', 'バーチャルオフィス']","['オフィス', '電話', '通信環境']"
+vofficebloom_column_4234_2,用件内容,別の内容や曖昧な伝達,要点を箇条書きで簡潔に、復唱しながらメモを取る,用件を正確に聞き取れず曖昧に伝えると、業務トラブルや誤解の原因になる。,True,vofficebloom_column_4234,https://www.voffice-bloom.com/column/column_4234/,日本語,"['ビジネス', '電話対応', 'コミュニケーション', '聞き間違い', '伝言メモ', 'バーチャルオフィス']","['オフィス', '電話', '通信環境']"
+vofficebloom_column_4234_3,折り返し連絡の有無,折り返し希望の有無を誤伝達,聞き取れなかった場合は必ず聞き返し、復唱で確認する,折り返し希望の有無を間違えると、相手や社内の信頼を損なう場合がある。,True,vofficebloom_column_4234,https://www.voffice-bloom.com/column/column_4234/,日本語,"['ビジネス', '電話対応', 'コミュニケーション', '聞き間違い', '伝言メモ', 'バーチャルオフィス']","['オフィス', '電話', '通信環境']"

@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language,Tags,Envs
+callcenternews_p803zw1rp_001,ホットココア,ホットコーヒー,復唱時は必ず商品名まで明確に確認する,カフェで「ホットココア」を注文したが、店員が「ホットコーヒー」と聞き間違えた。電話や対面での典型的な聞き間違い。,True,callcenternews_p803zw1rp,https://callcenter-news.com/sales/p803zw-1rp/,,,日本語,"['コールセンター', '営業', '電話対応', '接客', '聞き間違い', '復唱', 'ヒューマンエラー', '顧客対応', 'トーク術', '飲食店']","['カフェ', '飲食店', '電話', '対面接客', 'ノイズ']"
+callcenternews_p803zw1rp_002,ホットコーヒー,ホットラテ,思い込みで注文を変えないこと,店員が「ホットコーヒー」と思い込んだが、別の店員が「いつもホットラテだから」と勝手に変更し「ホットラテ」になった。,True,callcenternews_p803zw1rp,https://callcenter-news.com/sales/p803zw-1rp/,,,日本語,"['コールセンター', '営業', '電話対応', '接客', '聞き間違い', '復唱', 'ヒューマンエラー', '顧客対応', 'トーク術', '飲食店']","['カフェ', '飲食店', '電話', '対面接客', 'ノイズ']"

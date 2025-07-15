@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+ivry_goodtelephone_operator_001,社名,別の社名,注意が必要,(Src=NA: placeholder '社名')(Tgt=NA: placeholder '別の社名') 電話対応時に相手の社名を聞き間違えることがある。,True,ivry_goodtelephone_operator,https://ivry.jp/column/good-telephone-operator/,日本語,"['電話対応', 'コールセンター', 'ビジネスマナー', '聞き間違い', '顧客対応']","['オフィス', 'コールセンター', '電話回線']"
+ivry_goodtelephone_operator_002,名前,別の名前,注意が必要,(Src=NA: placeholder '名前')(Tgt=NA: placeholder '別の名前') 電話対応時に相手の名前を聞き間違えることがある。,True,ivry_goodtelephone_operator,https://ivry.jp/column/good-telephone-operator/,日本語,"['電話対応', 'コールセンター', 'ビジネスマナー', '聞き間違い', '顧客対応']","['オフィス', 'コールセンター', '電話回線']"

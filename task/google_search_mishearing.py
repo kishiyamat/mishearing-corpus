@@ -9,59 +9,54 @@ from joblib import Memory
 # parent directoryもpathに追加
 import sys
 import os
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from app import MishearingApp
+from task.google_search import google_search
+
 
 # TODO
 # 1. 以下のEndpointが機能しているか確かめる
 # 2. Rerunしたときでも再度おなじURLを検索しないよう修正
-GOOGLE_SEARCH_ENDPOINT = "https://api.apify.com/v2/acts/apify~google-search-scraper/run-sync-get-dataset-items"
 MISHEARING_SCRAPE_AND_SAVER_ENDPOINT = "http://127.0.0.1:7860/api/v1/run/cbda4a09-af9d-41b7-8376-232e50b75e3f"  # The complete API endpoint URL for this flow
 API_URL_CATEGORIZE_CSV_ENDPOINT = "http://localhost:7860/api/v1/run/8e66efed-1840-42e0-9778-9ced64bf978d"
 API_URL_FIX_CSV_ENDPOINT = "http://127.0.0.1:7860/api/v1/run/688463f5-255f-4368-88f9-e3fb5ed17a50"
-URL_SET = set(MishearingApp().urls)
 
+# 空のセット(URL_SET )を 作成します。
+# ./data/mishearing
+# ./resource
+# これらディレクトリの下にあるcsvをすべて読み込みます
+# 大文字でURLという列がある場合、セットに追加します .
+# misher
+URL_SET = set()
+
+# Directories to search for CSV files
+directories = [
+    "./data/mishearing",
+    "./resource"
+]
+
+# Iterate through the directories
+for directory in directories:
+    dir_path = Path(directory)
+    if dir_path.exists() and dir_path.is_dir():
+        # Recursively find all CSV files in the directory
+        for csv_file in dir_path.rglob("*.csv"):
+            try:
+                # Read the CSV file
+                df = pd.read_csv(csv_file)
+                # Check if 'URL' column exists (case-insensitive)
+                for col in df.columns:
+                    if col.strip().upper() == "URL":
+                        # Add URLs to the set
+                        URL_SET.update(df[col].dropna().astype(str))
+            except Exception as e:
+                st.warning(f"Error reading {csv_file}: {e}")
+
+st.write(len(URL_SET))
 
 # 1. Google Search
 memory = Memory(location=Path(".cache"), verbose=0)
-
-@memory.cache
-def google_search(
-    queries: str,
-    results_per_page: int,
-    max_pages_per_query: int,
-):
-    payload = {
-        "queries": queries,
-        "resultsPerPage": results_per_page,
-        "maxPagesPerQuery": max_pages_per_query,
-        "countryCode": "jp",
-        "searchLanguage": "ja",
-        "languageCode": "ja"
-    }
-    headers = {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-        "Authorization": f'Bearer {st.secrets["apify"]["token"]}'
-    }
-    try:
-        # Send API request
-        response = requests.request("POST", GOOGLE_SEARCH_ENDPOINT, json=payload, headers=headers)
-        response.raise_for_status()  # Raise exception for bad status codes
-
-        # Print response
-        try:
-            response_text = response.text  # Get response text
-            response_json_pages = json.loads(response_text)  # Parse text as JSON
-            return response_json_pages
-        except json.JSONDecodeError as e:
-            st.error(f"Error parsing response text as JSON: {e}")
-
-    except requests.exceptions.RequestException as e:
-        st.error(f"Error making API request: {e}")
-    except ValueError as e:
-        st.error(f"Error parsing response: {e}")
 
 st.write("## 異聴データ収集 (Google Search Scraper)")
 
@@ -92,8 +87,8 @@ st.warning("results_per_pageとmax_pages_per_queryも適宜変更してくださ
 # 一旦、「え」をすすめる
 # queries = '仕事 "聞き間違い"'
 # save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_shigoto_kikimachigai"
-queries = '"電話" "聞き間違え"'
-save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_denwa_kikimachigae"
+queries = '"コールセンター" "聞き間違い"'
+save_path = "/home/kishiyamat/mishearing-corpus/data/mishearing/google_search_call_center_kikimachigai"
 results_per_page = 20
 max_pages_per_query = 30
 # 設定をwrite
@@ -153,6 +148,7 @@ st.write("### Scrape URLs from Search Results")
 if st.button("Run Scrape and Save"):
     for result in organic_results:
         url_tgt = result.get("url")
+        st.write(f"Start checking URL: {url_tgt}")
         description_tgt = result.get("description")
         if url_tgt in URL_SET:
             st.warning(f"URL `{url_tgt}` はすでに存在します。スキップします。")

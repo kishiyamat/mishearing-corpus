@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+boxil_4551reviews_001,,,名前の復唱推奨,コールセンターで電話の相手の名前を何度か聞き間違えたというレビュー。具体的な名前は不明。(Src=NA: '電話の相手の名前'が具体語でない)(Tgt=NA: '別の名前'が具体語でない),True,boxil_4551reviews,https://boxil.jp/service/4551/reviews/,日本語,"['コールセンター', 'アウトソーシング', '電話対応', '聞き間違い', '名前', '仕事', '非母語話者']","['コールセンター', '電話', 'オフィス', '通信環境', 'ヘッドセットマイク（推定）']"

@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,SpeakerID,ListenerID,Language
+matsumotonaoko_1425_001,つがわ,すがわ,「たちつてとのつのつがわです」と例示,「つのつがわ」さんが「すがわ」さんと間違われることが多い。電話での名前伝達時の典型的な誤聴。,True,matsumotonaoko_1425,https://matsumoto-naoko.com/archives/1425,,,ja
+matsumotonaoko_1425_002,し,ひ,聞き間違いやすい音に注意,「し」と「ひ」などの音は日本語話者でも電話越しで混同しやすい。,True,matsumotonaoko_1425,https://matsumoto-naoko.com/archives/1425,,,ja
+matsumotonaoko_1425_003,つ,す,聞き間違いやすい音に注意,「つ」と「す」も電話越しで混同しやすい。,True,matsumotonaoko_1425,https://matsumoto-naoko.com/archives/1425,,,ja

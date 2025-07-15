@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+callcentercode20210610_001,ち,ちくわの“ち”,想定外の単語に注意,「ち」を「ちくわの“ち”」で確認され、地球や千葉県を想定していたため一瞬混乱した。,True,callcentercode20210610,https://home.kingsoft.jp/news/amusing/byokan/callcentercode20210610.html,日本語,"['コールセンター', 'フォネティックコード', '電話', '通話表', '聞き間違い', 'アルファベット', 'カタカナ', 'ビジネス', 'NGワード', '非母語話者']","['電話', 'コールセンター']"
+callcentercode20210610_002,ん,おしまいの“ん”,「ん」の確認に注意,「ん」の確認方法として「おしまいの“ん”」が使われるが、他の例（パンダの“ン”など）もあり混乱。,True,callcentercode20210610,https://home.kingsoft.jp/news/amusing/byokan/callcentercode20210610.html,日本語,"['コールセンター', 'フォネティックコード', '電話', '通話表', '聞き間違い', 'アルファベット', 'カタカナ', 'ビジネス', 'NGワード', '非母語話者']","['電話', 'コールセンター']"

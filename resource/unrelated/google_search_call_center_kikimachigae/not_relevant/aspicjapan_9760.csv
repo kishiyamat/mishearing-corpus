@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+aspicjapan_9760_001,"カード番号（例: 1,2,3...）",別の数字・桁・アルファベット,数字・アルファベットの聞き取りに注意,コールセンターでカード番号を音声で伝える際、聞き間違いや入力ミスが発生しやすい。IVR導入でリスク低減。,True,aspicjapan_9760,https://www.aspicjapan.org/asu/service/9760,日本語,"['コールセンター', 'IVR', 'クレジットカード', '情報セキュリティ', '聞き間違い', '入力ミス', '自動音声', '電話対応']","['コールセンター', '電話回線', '音声通話', 'ノイズあり']"

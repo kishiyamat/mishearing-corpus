@@ -1,0 +1,2 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+cloudtelecom_20211001_001,,,CRM連携で防止可能,(Src=NA: 具体的な発話文・語句が本文に記載されていない)(Tgt=NA: 具体的な誤聴形が本文に記載されていない),True,cloudtelecom_20211001,https://www.cloudtelecom.co.jp/release/20211001.html,日本語,"['コールセンター', 'CRM', '聞き間違い', '電話対応', 'テレワーク', '在宅ワーク', 'ITシステム', '顧客管理', '非母語話者']","['コールセンター', 'テレワーク', 'Windows10+Chrome', 'VoIP']"

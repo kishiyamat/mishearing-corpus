@@ -1,0 +1,4 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+optsp_blog_5879_001,,,復唱・聞き返しを徹底,(Src=NA: placeholder '相手の名前')(Tgt=NA: placeholder '別の名前・不明'),True,optsp_blog_5879,https://www.optsp.co.jp/blog/blog-5879/,日本語,"['電話対応', '新入社員', 'ビジネスマナー', '聞き間違い', 'コミュニケーション', 'コールセンター', '研修']","['オフィス', '電話', '通信環境', '新入社員研修']"
+optsp_blog_5879_002,,,復唱・録音・メモを活用,(Src=NA: placeholder '会社名・要件')(Tgt=NA: placeholder '別の会社名・要件'),True,optsp_blog_5879,https://www.optsp.co.jp/blog/blog-5879/,日本語,"['電話対応', '新入社員', 'ビジネスマナー', '聞き間違い', 'コミュニケーション', 'コールセンター', '研修']","['オフィス', '電話', '通信環境', '新入社員研修']"
+optsp_blog_5879_003,,,丁寧に確認・説明を求める,(Src=NA: placeholder '専門用語・略語')(Tgt=NA: placeholder '別の単語・意味不明'),True,optsp_blog_5879,https://www.optsp.co.jp/blog/blog-5879/,日本語,"['電話対応', '新入社員', 'ビジネスマナー', '聞き間違い', 'コミュニケーション', 'コールセンター', '研修']","['オフィス', '電話', '通信環境', '新入社員研修']"

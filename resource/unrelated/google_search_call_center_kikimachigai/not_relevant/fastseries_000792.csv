@@ -1,0 +1,3 @@
+MishearID,Src,Tgt,Tips,Note,OriginalFlag,DocID,URL,Language,Tags,Envs
+fastseries_000792_001,カ行・サ行・タ行・ハ行,,無声子音の発音に注意,(Tgt=NA: 記事中に具体的な誤聴語形の記載なし) シニア世代は無声子音（カ行、サ行、タ行、ハ行）が聞き取りづらく、聞き間違いが増える。,True,fastseries_000792,https://fastseries.jp/blog/000792.html,日本語,"['コールセンター', 'シニア', '電話応対', '聞き間違い', '加齢性難聴', '顧客対応']","['電話', 'コールセンター']"
+fastseries_000792_002,早口の発話,,ゆっくり話すこと,(Tgt=NA: 具体的な誤聴内容の記載なし) 早口だと聞き取りづらく、内容を誤解することがある。,True,fastseries_000792,https://fastseries.jp/blog/000792.html,日本語,"['コールセンター', 'シニア', '電話応対', '聞き間違い', '加齢性難聴', '顧客対応']","['電話', 'コールセンター']"
