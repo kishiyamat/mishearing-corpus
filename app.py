@@ -242,5 +242,5 @@ with progress_tab:
 
 with extractor_tab:
     st.subheader("Extractor")
-    sample_df = df.head(20)
+    sample_df = df
     extract_word_mishear_pairs(sample_df)
