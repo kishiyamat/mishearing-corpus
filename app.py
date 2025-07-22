@@ -4,6 +4,8 @@ import os, glob, pandas as pd, streamlit as st
 import pathlib
 import git
 
+from scripts.asa2025.extract_word_pairs import extract_word_mishear_pairs
+
 def extract_dir(path_str: str) -> str:
     """
     data/mishearing/<DIR_NAME>/file.csv から <DIR_NAME> を取り出す。
@@ -238,10 +240,7 @@ with progress_tab:
     st.line_chart(daily.set_index("date")["rows"], height=300)
     st.dataframe(daily, height=250, hide_index=True)
 
-
 with extractor_tab:
     st.subheader("Extractor")
     sample_df = df.head(20)
-    st.write(sample_df)
-    # ここで単語レベルの異聴を抽出
-    # 形態素レベルの差分を取ればいい
+    extract_word_mishear_pairs(sample_df)

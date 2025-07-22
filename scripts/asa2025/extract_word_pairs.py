@@ -1,7 +1,12 @@
+import os
 import MeCab
 
 
 import difflib
+
+import pandas as pd
+import streamlit as st
+
 
 
 def extract_mishear_pairs(src: str, tgt: str):
@@ -9,6 +14,9 @@ def extract_mishear_pairs(src: str, tgt: str):
     MeCabで分かち書きし、LCS（最長共通部分列）以外の部分を「前→後」のペアで返す
     例: 右中間, 宇宙間 → [('右中間', '宇宙間')]
     """
+    import os
+    os.environ["MECABRC"] = "/etc/mecabrc"
+
     # MeCabのTaggerを初期化（-Owakatiオプションで分かち書き）
     tagger = MeCab.Tagger('-Owakati')
 
@@ -50,3 +58,21 @@ def extract_mishear_pairs(src: str, tgt: str):
     pairs = [p for p in pairs if p != ('', '')]
 
     return pairs
+
+
+def extract_word_mishear_pairs_from_df(input_df):
+    expanded = []
+    for idx, row in input_df.iterrows():
+        pairs = extract_mishear_pairs(str(row['Src']), str(row['Tgt']))
+        for src, tgt in pairs:
+            expanded.append({'index': idx, 'Src': src, 'Tgt': tgt})
+    expanded_df = pd.DataFrame(expanded)
+    return expanded_df
+
+def extract_word_mishear_pairs(input_df):
+    st.write(input_df)
+    # ここで単語レベルの異聴を抽出
+    # 	export MECABRC=/etc/mecabrc が必要
+    expanded_df = extract_word_mishear_pairs_from_df(input_df)
+    st.write("抽出結果 (1行が0行やN行になる):")
+    st.dataframe(expanded_df)
