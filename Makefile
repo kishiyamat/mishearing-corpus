@@ -21,6 +21,12 @@ friction:
 
 test:
 	pytest
+
+asa2025:
+	sudo apt-get install mecab libmecab-dev mecab-ipadic-utf8
+	pip install mecab-python3
+	export MECABRC=/etc/mecabrc
+
 # test
 # lint
 # mypy
