@@ -109,18 +109,42 @@ def add_in_word_vector_vocab_column(df):
     df['in_word_vector_vocab'] = df.apply(in_vocab, axis=1)
     return df
 
+# （）や()内の文字を削除する
+def remove_parentheses(df, columns):
+    for col in columns:
+        df[col] = df[col].str.replace(r'[（(][^）)]*[）)]', '', regex=True)
+    return df
 
 def extract_word_mishear_pairs(input_df):
+    # 入力DataFrameの行数を表示
     st.write(len(input_df))
+    # 単語レベルの誤聴ペアを展開
     expanded_df = extract_word_mishear_pairs_from_df(input_df)  # expand word-level mishear pairs
-    # （）や()を落とす
+    # （）や()内の文字を削除
+    expanded_df = remove_parentheses(expanded_df, ['Src', 'Tgt'])
     st.write(len(expanded_df))
+
+    # 重複を削除
     expanded_df = expanded_df.drop_duplicates(subset=['Src', 'Tgt'])  # Src と Tgt で 重複を削除
     assert set(expanded_df.columns) == {'Src', 'Tgt', 'index'}, "Input DataFrame must contain only 'Src', 'Tgt', and 'index' columns"
     st.write(len(expanded_df))
+
+    # 単語にromaji列を追加
+    expanded_df_with_romaji = add_romaji_columns(expanded_df)
+    st.dataframe(expanded_df_with_romaji)
+
+    # romaji_edit_distance列があることを確認しromaji_edit_distance列の値が1未満の行を抽出
+    assert 'romaji_edit_distance'  in expanded_df_with_romaji.columns
+    df_with_similar_romaji = expanded_df_with_romaji[expanded_df_with_romaji['romaji_edit_distance'] < 1]
+    st.dataframe(df_with_similar_romaji)
+    st.write(len(df_with_similar_romaji))
+
+    # _romaji の両方が [a-z] で構成されている行のみを抽出
+    df_with_similar_romaji = df_with_similar_romaji[df_with_similar_romaji['Src_romaji'].str.isalpha() & df_with_similar_romaji['Tgt_romaji'].str.isalpha()]
+    st.dataframe(df_with_similar_romaji)
+    st.write(len(df_with_similar_romaji))
+
     # 単語が語彙にあることを保証
     # expanded_df = add_in_word_vector_vocab_column(input_df)
     # to romaji
-    expanded_df_with_romaji = add_romaji_columns(expanded_df)
     st.write("抽出結果 (1行が0行やN行になる):")
-    st.dataframe(expanded_df_with_romaji)
