@@ -162,7 +162,7 @@ def main():
 
 st.set_page_config(page_title="Mishearing Corpus")
 
-main_tab, stats_tab, progress_tab = st.tabs(["main", "stats", "progress"])
+main_tab, stats_tab, progress_tab, extractor_tab = st.tabs(["main", "stats", "progress", "extractor"])
 
 with main_tab:
     main()
@@ -237,3 +237,11 @@ with progress_tab:
 
     st.line_chart(daily.set_index("date")["rows"], height=300)
     st.dataframe(daily, height=250, hide_index=True)
+
+
+with extractor_tab:
+    st.subheader("Extractor")
+    sample_df = df.head(20)
+    st.write(sample_df)
+    # ここで単語レベルの異聴を抽出
+    # 形態素レベルの差分を取ればいい
