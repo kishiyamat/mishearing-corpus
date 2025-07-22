@@ -2,6 +2,7 @@ import csv
 import os
 import pytest
 import MeCab
+import difflib  # 追加
 
 # テスト用データのパス
 data_path = os.path.join(os.path.dirname(__file__), 'data', 'word_diff.csv')
@@ -24,54 +25,25 @@ def extract_mishear_pairs(src: str, tgt: str):
     tagger = MeCab.Tagger('-Owakati')
     src_words = tagger.parse(src).strip().split()
     tgt_words = tagger.parse(tgt).strip().split()
-    # LCSテーブル作成
-    import numpy as np
-    m, n = len(src_words), len(tgt_words)
-    dp = np.zeros((m+1, n+1), dtype=int)
-    for i in range(m):
-        for j in range(n):
-            if src_words[i] == tgt_words[j]:
-                dp[i+1][j+1] = dp[i][j] + 1
-            else:
-                dp[i+1][j+1] = max(dp[i][j+1], dp[i+1][j])
-    # LCS復元
-    i, j = m, n
-    lcs_idx_src = []
-    lcs_idx_tgt = []
-    while i > 0 and j > 0:
-        if src_words[i-1] == tgt_words[j-1]:
-            lcs_idx_src.append(i-1)
-            lcs_idx_tgt.append(j-1)
-            i -= 1
-            j -= 1
-        elif dp[i-1][j] >= dp[i][j-1]:
-            i -= 1
-        else:
-            j -= 1
-    lcs_idx_src = set(lcs_idx_src)
-    lcs_idx_tgt = set(lcs_idx_tgt)
-    # 差分部分を抽出
     pairs = []
     s_buf, t_buf = [], []
-    i = j = 0
-    while i < m or j < n:
-        in_lcs_src = i in lcs_idx_src
-        in_lcs_tgt = j in lcs_idx_tgt
-        if in_lcs_src and in_lcs_tgt:
+    matcher = difflib.SequenceMatcher(None, src_words, tgt_words)
+    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+        if tag == 'equal':
             if s_buf or t_buf:
                 pairs.append((''.join(s_buf), ''.join(t_buf)))
                 s_buf, t_buf = [], []
-            i += 1
-            j += 1
         else:
-            if not in_lcs_src and i < m:
-                s_buf.append(src_words[i])
-                i += 1
-            if not in_lcs_tgt and j < n:
-                t_buf.append(tgt_words[j])
-                j += 1
+            s_buf.extend(src_words[i1:i2])
+            t_buf.extend(tgt_words[j1:j2])
+            # 'replace', 'insert', 'delete' いずれもここでまとめて処理
+        if tag == 'equal' and (s_buf or t_buf):
+            pairs.append((''.join(s_buf), ''.join(t_buf)))
+            s_buf, t_buf = [], []
     if s_buf or t_buf:
         pairs.append((''.join(s_buf), ''.join(t_buf)))
+    # 完全一致の場合は空リスト
+    pairs = [p for p in pairs if p != ('', '')]
     return pairs
 
 
