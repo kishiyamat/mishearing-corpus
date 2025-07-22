@@ -26,6 +26,7 @@ asa2025:
 	sudo apt-get install mecab libmecab-dev mecab-ipadic-utf8
 	pip install mecab-python3
 	export MECABRC=/etc/mecabrc
+	pip install pykakasi
 
 # test
 # lint

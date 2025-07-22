@@ -1,13 +1,9 @@
 import os
 import MeCab
-
-
 import difflib
-
 import pandas as pd
 import streamlit as st
-
-
+import pykakasi
 
 def extract_mishear_pairs(src: str, tgt: str):
     """
@@ -69,10 +65,22 @@ def extract_word_mishear_pairs_from_df(input_df):
     expanded_df = pd.DataFrame(expanded)
     return expanded_df
 
+
+def add_romaji_columns(df):
+    kks = pykakasi.kakasi()
+    def to_romaji(text):
+        return ''.join([item['hepburn'] for item in kks.convert(str(text))])
+    df = df.copy()
+    df['Src_romaji'] = df['Src'].apply(to_romaji)
+    df['Tgt_romaji'] = df['Tgt'].apply(to_romaji)
+    return df
+
+
 def extract_word_mishear_pairs(input_df):
     st.write(input_df)
-    # ここで単語レベルの異聴を抽出
-    # 	export MECABRC=/etc/mecabrc が必要
+    # expand word-level mishear pairs
     expanded_df = extract_word_mishear_pairs_from_df(input_df)
+    # to romaji
+    expanded_df_with_romaji = add_romaji_columns(expanded_df)
     st.write("抽出結果 (1行が0行やN行になる):")
-    st.dataframe(expanded_df)
+    st.dataframe(expanded_df_with_romaji)
