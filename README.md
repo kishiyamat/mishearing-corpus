@@ -439,3 +439,30 @@ _ google_search_name_kikimachigai	71
   - コンテキストが単語の活性化をどの程度抑制していくか.
   - 文脈を絞る度合いの個人差
   - 大きなデータ・セットによる評価
+
+## Research
+
+1. janome/ginzaで単語単位のdiffを実装
+
+#### one-wordsの抽出を実行し、kikoepredプロジェクトに送る
+
+Extracted 1908 errors from 4490 errors following the processing steps:
+
+1. Displays the number of rows in the input DataFrame.
+2. Expands word-level mishearing pairs using `extract_word_mishear_pairs_from_df`.
+3. Removes parentheses and their contents from the 'Src' and 'Tgt' columns.
+4. Removes duplicate rows based on 'Src' and 'Tgt' columns.
+5. Adds romaji representations for the words in 'Src' and 'Tgt' columns.
+6. Filters rows where the romaji edit distance is less than 1.
+7. Ensures that both 'Src_romaji' and 'Tgt_romaji' consist of only alphabetic characters.
+8. Adds a column indicating whether the words are present in the word vector vocabulary.
+9. Filters rows where both words are in the word vector vocabulary.
+10. Calculates the similarity between 'Src' and 'Tgt' using the word vector model and adds it as a new column.
+
+Read `Makefile` to build the environment.
+
+```sh
+sudo apt-get install mecab libmecab-dev mecab-ipadic-utf8
+pip install mecab-python3
+export MECABRC=/etc/mecabrc
+```
