@@ -63,7 +63,7 @@ def extract_word_mishear_pairs_from_df(input_df):
     for idx, row in input_df.iterrows():
         pairs = extract_mishear_pairs(str(row['Src']), str(row['Tgt']))
         for src, tgt in pairs:
-            expanded.append({'index': idx, 'Src': src, 'Tgt': tgt})
+            expanded.append({'index': idx, "MishearID": row["MishearID"],'Src': src, 'Tgt': tgt})
     expanded_df = pd.DataFrame(expanded)
     return expanded_df
 
@@ -97,17 +97,6 @@ def load_word_vectors():
     return model
 
 
-def add_in_word_vector_vocab_column(df):
-    # https://stackoverflow.com/questions/78279136/importerror-cannot-import-name-triu-from-scipy-linalg-when-importing-gens
-    # pip install scipy==1.10.1
-    # pip install numpy==1.26.4
-    # pip install gensim==4.3.2
-    model = load_word_vectors()
-    def in_vocab(row):
-        return (row['Src'] in model.key_to_index) and (row['Tgt'] in model.key_to_index)
-    df = df.copy()
-    df['in_word_vector_vocab'] = df.apply(in_vocab, axis=1)
-    return df
 
 # （）や()内の文字を削除する
 def remove_parentheses(df, columns):
@@ -116,6 +105,19 @@ def remove_parentheses(df, columns):
     return df
 
 def extract_word_mishear_pairs(input_df):
+    model = load_word_vectors()  # localで定義
+
+    def add_in_word_vector_vocab_column(df):
+        # https://stackoverflow.com/questions/78279136/importerror-cannot-import-name-triu-from-scipy-linalg-when-importing-gens
+        # pip install scipy==1.10.1
+        # pip install numpy==1.26.4
+        # pip install gensim==4.3.2
+        def in_vocab(row):
+            return (row['Src'] in model.key_to_index) and (row['Tgt'] in model.key_to_index)
+        df = df.copy()
+        df['in_word_vector_vocab'] = df.apply(in_vocab, axis=1)
+        return df
+     
     # 入力DataFrameの行数を表示
     st.write(len(input_df))
     # 単語レベルの誤聴ペアを展開
@@ -126,7 +128,7 @@ def extract_word_mishear_pairs(input_df):
 
     # 重複を削除
     expanded_df = expanded_df.drop_duplicates(subset=['Src', 'Tgt'])  # Src と Tgt で 重複を削除
-    assert set(expanded_df.columns) == {'Src', 'Tgt', 'index'}, "Input DataFrame must contain only 'Src', 'Tgt', and 'index' columns"
+    assert set(expanded_df.columns) == {'Src', 'Tgt', 'index', 'MishearID'}, "Input DataFrame must contain only 'Src', 'Tgt', and 'index' columns"
     st.write(len(expanded_df))
 
     # 単語にromaji列を追加
@@ -145,6 +147,17 @@ def extract_word_mishear_pairs(input_df):
     st.write(len(df_with_similar_romaji))
 
     # 単語が語彙にあることを保証
-    # expanded_df = add_in_word_vector_vocab_column(input_df)
+    df_with_similar_romaji_in_vocab = add_in_word_vector_vocab_column(df_with_similar_romaji)
+    df_with_similar_romaji_in_vocab = df_with_similar_romaji_in_vocab[df_with_similar_romaji_in_vocab['in_word_vector_vocab']]
+    def calculate_similarity(row):
+        if row['Src'] in model.key_to_index and row['Tgt'] in model.key_to_index:
+            return model.similarity(row['Src'], row['Tgt'])
+        return None  # Return None if either word is not in the vocabulary
+
+    df_with_similar_romaji_in_vocab['similarity'] = df_with_similar_romaji_in_vocab.apply(calculate_similarity, axis=1)
+    st.dataframe(df_with_similar_romaji_in_vocab)
+    st.write(len(df_with_similar_romaji_in_vocab))
+    # similarityという列を追加
     # to romaji
     st.write("抽出結果 (1行が0行やN行になる):")
+    return df_with_similar_romaji_in_vocab
