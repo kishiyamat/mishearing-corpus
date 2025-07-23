@@ -446,19 +446,20 @@ _ google_search_name_kikimachigai	71
 
 #### one-wordsの抽出を実行し、kikoepredプロジェクトに送る
 
-そのためには いくつかの方法を採って。 単語から単語への聞きまちが起こっているデータのみを抽出する必要がある。 
-想定しているのは,編集距離 が異常に遠くないもののみを扱うこと。
-あまりにも異常な例を削っている。 
-、また 、入力と出力の両方が 、語彙ベクトルのボキャブラリーに収まっていることを保証する。 。
-ただし、これだと部分的にマッチする 単語を落としてしまう可能性がある 。
-たとえば、プロタミン	ドブタミンの２つの違いは
-「プロ」と「どぶ」になる。
-ただ、本来ここで扱いたい違いはプロタミン	ドブタミンだ。 
-詐欺にひっかかりそうになった	猿に引っ掻かれそうになった
-も同様で、詐欺→猿と　引っかかりそう→引っ掻かれそう
-の２つを抽出したい。
+Extracted 1908 errors from 4490 errors following the processing steps:
 
-まずはテストセットを作成する。
+1. Displays the number of rows in the input DataFrame.
+2. Expands word-level mishearing pairs using `extract_word_mishear_pairs_from_df`.
+3. Removes parentheses and their contents from the 'Src' and 'Tgt' columns.
+4. Removes duplicate rows based on 'Src' and 'Tgt' columns.
+5. Adds romaji representations for the words in 'Src' and 'Tgt' columns.
+6. Filters rows where the romaji edit distance is less than 1.
+7. Ensures that both 'Src_romaji' and 'Tgt_romaji' consist of only alphabetic characters.
+8. Adds a column indicating whether the words are present in the word vector vocabulary.
+9. Filters rows where both words are in the word vector vocabulary.
+10. Calculates the similarity between 'Src' and 'Tgt' using the word vector model and adds it as a new column.
+
+Read `Makefile` to build the environment.
 
 ```sh
 sudo apt-get install mecab libmecab-dev mecab-ipadic-utf8

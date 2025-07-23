@@ -105,6 +105,37 @@ def remove_parentheses(df, columns):
     return df
 
 def extract_word_mishear_pairs(input_df):
+    """
+    Extracts word mishearing pairs from the input DataFrame and performs various processing steps 
+    to filter and enhance the data.
+    Args:
+        input_df (pd.DataFrame): Input DataFrame containing mishearing data. 
+                                 Expected columns include 'Src', 'Tgt', 'index', and 'MishearID'.
+    Returns:
+        pd.DataFrame: A processed DataFrame containing word mishearing pairs with additional 
+                      columns such as 'Src_romaji', 'Tgt_romaji', 'romaji_edit_distance', 
+                      'in_word_vector_vocab', and 'similarity'.
+    Processing Steps:
+        1. Displays the number of rows in the input DataFrame.
+        2. Expands word-level mishearing pairs using `extract_word_mishear_pairs_from_df`.
+        3. Removes parentheses and their contents from the 'Src' and 'Tgt' columns.
+        4. Removes duplicate rows based on 'Src' and 'Tgt' columns.
+        5. Adds romaji representations for the words in 'Src' and 'Tgt' columns.
+        6. Filters rows where the romaji edit distance is less than 1.
+        7. Ensures that both 'Src_romaji' and 'Tgt_romaji' consist of only alphabetic characters.
+        8. Adds a column indicating whether the words are present in the word vector vocabulary.
+        9. Filters rows where both words are in the word vector vocabulary.
+       10. Calculates the similarity between 'Src' and 'Tgt' using the word vector model and adds 
+           it as a new column.
+    Notes:
+        - The function relies on external helper functions such as `load_word_vectors`, 
+          `extract_word_mishear_pairs_from_df`, `remove_parentheses`, and `add_romaji_columns`.
+        - The word vector model is expected to be loaded using `load_word_vectors`.
+        - The function uses Streamlit (`st`) for displaying intermediate results and debugging 
+          information.
+        - The input DataFrame must contain specific columns ('Src', 'Tgt', 'index', 'MishearID') 
+          for the function to work correctly.
+    """
     model = load_word_vectors()  # localで定義
 
     def add_in_word_vector_vocab_column(df):

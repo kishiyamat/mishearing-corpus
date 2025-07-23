@@ -242,7 +242,7 @@ with progress_tab:
 
 with extractor_tab:
     st.subheader("Extractor")
-    sample_df = df.head(1000)
+    sample_df = df
     df = extract_word_mishear_pairs(sample_df)
     # save to resource directory
     output_path = "resource/extracted_word_pairs.csv"
