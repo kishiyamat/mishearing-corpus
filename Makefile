@@ -30,7 +30,7 @@ asa2025:
 	pip install python-Levenshtein
 	pip install numpy==1.26.4
 	pip install gensim==4.3.2
-    pip install scipy==1.10.1
+	pip install scipy==1.10.1
 
 # test
 # lint
