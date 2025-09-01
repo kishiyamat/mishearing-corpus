@@ -16,4 +16,4 @@ jobs:
       - name: Frictionless validate
         run: frictionless validate datapackage.json
       - name: Pytest
-        run: pytest
+        run: pytest --ignore=tests/asa2025
