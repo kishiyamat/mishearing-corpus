@@ -439,3 +439,32 @@ _ google_search_name_kikimachigai	71
   - コンテキストが単語の活性化をどの程度抑制していくか.
   - 文脈を絞る度合いの個人差
   - 大きなデータ・セットによる評価
+
+
+## Appendix
+
+### How to Fix Tags
+
+First, review `translation.csv` to check for any duplicate tags that need correction.  
+Next, use `grep` recursively to find all files containing the tags you want to replace.
+
+```sh
+(venv) kishiyamat:~/mishearing-corpus/data/tag (main *=) $ grep -r -E ",(IRYO$|IRYOU)$" .
+
+> ./google_search_denwa_kikimachigai/resoundjp_wisdom.csv:resoundjp_kikimachigai_001,IRYO
+> ./google_search_denwa_kikimachigai/resoundjp_wisdom.csv:resoundjp_kikimachigai_002,IRYO
+> ./google_search_denwa_kikimachigai/resoundjp_wisdom.csv:resoundjp_kikimachigai_003,IRYO
+...
+> ./google_search_shigoto_kikimachigae/kaigo-postseven_196023.csv:kaigo_postseven_196023_001,IRYOU
+> ./google_search_shigoto_kikimachigae/kaigo-postseven_196023.csv:kaigo_postseven_196023_002,IRYOU
+...
+```
+
+Use `grep` to locate all matching lines.  
+To replace these tags with a new value, use `sed` in combination with `find` and the `-exec` option to apply the replacement across all relevant files:
+
+```
+$ find . -type f -name "*.csv" -exec sed -i -E 's/,(IRYO|IRYOU)$/,MEDICAL/' {} +
+```
+
+If your match pattern includes a comma, make sure to include the comma in the replacement string as well.
