@@ -375,8 +375,6 @@ JAPANESE_LANGUAGE,ja,日本語
 JAPANESE_LANGUAGE,en,Japanese language
 KENKO_JOHO,ja,健康情報
 KENKO_JOHO,en,health information
-IRYO,ja,医療
-IRYO,en,medical
 FOOD_WASTE,ja,食品ロス
 FOOD_WASTE,en,food waste
 GAKKAMEI,ja,学科名
@@ -1353,8 +1351,6 @@ FISH,ja,魚
 FISH,en,fish
 SPEECH_BANANA,ja,スピーチバナナ
 SPEECH_BANANA,en,speech banana
-IRYOU,ja,医療
-IRYOU,en,medical
 LANGUAGE_DEVELOPMENT,ja,言語発達
 LANGUAGE_DEVELOPMENT,en,language development
 WORK_EMPLOYMENT,ja,仕事・雇用
