@@ -129,14 +129,12 @@ ANNOUNCER,ja,アナウンサー
 ANNOUNCER,en,announcer
 DIGITS,ja,桁
 DIGITS,en,digits
-NON_NATIVE_SPEAKER,ja,非ネイティブスピーカー
+NON_NATIVE_SPEAKER,ja,非母語話者
 NON_NATIVE_SPEAKER,en,non-native speaker
 MANZAI,ja,漫才
 MANZAI,en,manzai
 TRAVEL,ja,旅行
 TRAVEL,en,travel
-HIBO_GO_WASHA,ja,非母語話者
-HIBO_GO_WASHA,en,non-native speaker
 SPEECH_RECOGNITION,ja,音声認識
 SPEECH_RECOGNITION,en,speech recognition
 DAILY_LIFE,ja,日常生活
@@ -449,8 +447,6 @@ ALEXA,ja,アレクサ
 ALEXA,en,Alexa
 ARTIFICIAL_INTELLIGENCE,ja,人工知能
 ARTIFICIAL_INTELLIGENCE,en,artificial intelligence
-HIBOOGOWASHA,ja,非母語話者
-HIBOOGOWASHA,en,non-native speaker
 DANGER,ja,危険
 DANGER,en,danger
 NYUSHA_SHA,ja,入社者
@@ -499,8 +495,6 @@ TH_SOUND,ja,TH音
 TH_SOUND,en,TH sound
 S_SOUND,ja,S音
 S_SOUND,en,S sound
-NON_NATIVE_SPEAKER_EN_TO_JP,ja,非ネイティブスピーカー英日
-NON_NATIVE_SPEAKER_EN_TO_JP,en,non-native speaker EN to JP
 ANIME_TOKUSATSU,ja,アニメ特撮
 ANIME_TOKUSATSU,en,anime tokusatsu
 MOCHITSUKI,ja,餅つき
@@ -1049,8 +1043,6 @@ HEARING_INFORMATION_PROCESSING_DISORDER,ja,聴覚情報処理障害
 HEARING_INFORMATION_PROCESSING_DISORDER,en,hearing information processing disorder
 REPEAT,ja,繰り返し
 REPEAT,en,repeat
-NON_NATIVE_SPEAKER_INTERNATIONAL_CALL,ja,非ネイティブスピーカー国際電話
-NON_NATIVE_SPEAKER_INTERNATIONAL_CALL,en,non-native speaker international call
 TIME_NOTATION,ja,時間表記
 TIME_NOTATION,en,time notation
 ELEMENTARY_SCHOOL_STUDENT,ja,小学生
@@ -1117,8 +1109,6 @@ SAGA,ja,佐賀
 SAGA,en,Saga
 FRENCH_PERSON,ja,フランス人
 FRENCH_PERSON,en,French person
-HIBOGO_WASHA,ja,非母語話者
-HIBOGO_WASHA,en,non-native speaker
 BRAIN_HEALTH,ja,脳の健康
 BRAIN_HEALTH,en,brain health
 SHINNYU_SHAIN,ja,新入社員
@@ -2817,10 +2807,6 @@ GOOGLE_HOME,ja,Google Home
 GOOGLE_HOME,en,Google Home
 HATON,ja,ハッと音
 HATON,en,startling sound
-HIMOBOGOHASHASHA,ja,ひも母語話者
-HIMOBOGOHASHASHA,en,rope-native speaker
-HIMOBOGO_WASHA,ja,ひも母語話者
-HIMOBOGO_WASHA,en,rope-native speaker
 HIMOTOBA_WAKASHA,ja,ひも言葉話者
 HIMOTOBA_WAKASHA,en,rope-language speaker
 HOIKU,ja,保育
