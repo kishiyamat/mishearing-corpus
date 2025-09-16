@@ -2359,8 +2359,6 @@ PERSONNEL,ja,人事
 PERSONNEL,en,personnel
 BOUEI,ja,防衛
 BOUEI,en,defense
-GYOUSEI,ja,行政
-GYOUSEI,en,administration
 ARCHITECTURE,ja,建築
 ARCHITECTURE,en,architecture
 KANJI_WORDS,ja,漢字語
@@ -2785,8 +2783,6 @@ ENERGY,ja,エネルギー
 ENERGY,en,energy
 INDUSTRY_TERMS,ja,産業用語
 INDUSTRY_TERMS,en,industry terms
-GYOSEI,ja,行政
-GYOSEI,en,administration
 HOKOKU,ja,報告
 HOKOKU,en,report
 KANYOUKU,ja,慣用句
