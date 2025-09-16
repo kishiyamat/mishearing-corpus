@@ -2305,8 +2305,6 @@ DEFENSE,ja,防衛
 DEFENSE,en,defense
 NANDOKU_GO,ja,難読語
 NANDOKU_GO,en,difficult words
-KINYU,ja,金融
-KINYU,en,finance
 SOCIAL_ISSUES,ja,社会問題
 SOCIAL_ISSUES,en,social issues
 INTERNATIONAL_RELATIONS,ja,国際関係
@@ -2377,8 +2375,6 @@ REPORTING_MEDIA,ja,報道媒体
 REPORTING_MEDIA,en,reporting media
 KANSA,ja,監査
 KANSA,en,audit
-KINYOU,ja,金融
-KINYOU,en,finance
 GIKAI,ja,議会
 GIKAI,en,assembly
 HOUDOU,ja,報道
@@ -2425,8 +2421,6 @@ TOWN_DEVELOPMENT,ja,町づくり
 TOWN_DEVELOPMENT,en,town development
 HIGU,ja,被具
 HIGU,en,equipment
-KIN_YU,ja,金融
-KIN_YU,en,finance
 ZAISAN,ja,財産
 ZAISAN,en,assets
 SAIGAI_TAIOU,ja,災害対応
@@ -2443,16 +2437,12 @@ RIKA,ja,理科
 RIKA,en,science
 TOSHI,ja,都市
 TOSHI,en,city
-KIN_YUU,ja,金融
-KIN_YUU,en,finance
 INTERNATIONAL_CONFERENCE,ja,国際会議
 INTERNATIONAL_CONFERENCE,en,international conference
 TOSHIKAIKAKU,ja,都市改革
 TOSHIKAIKAKU,en,urban reform
 GOVERNMENT,ja,政府
 GOVERNMENT,en,government
-ZAISAI,ja,財政
-ZAISAI,en,public finance
 SYAKAI_MONDAI,ja,社会問題
 SYAKAI_MONDAI,en,social issues
 CORPORATE_ACTIVITY,ja,企業活動
@@ -2663,8 +2653,6 @@ EARTH_SCIENCE,ja,地球科学
 EARTH_SCIENCE,en,earth science
 HOUZOU,ja,法蔵
 HOUZOU,en,legal archive
-ZAISEN,ja,財政
-ZAISEN,en,finance
 HOURITSU,ja,法律
 HOURITSU,en,law
 DISASTER_COUNTERMEASURES,ja,災害対策
