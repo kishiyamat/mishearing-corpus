@@ -235,8 +235,6 @@ STORE,ja,店
 STORE,en,store
 TAIKENDAN,ja,体験談
 TAIKENDAN,en,experience
-JAPANESE,ja,日本語
-JAPANESE,en,Japanese
 DENWA,ja,電話
 DENWA,en,telephone
 WESTERN_MUSIC,ja,洋楽
@@ -305,8 +303,6 @@ GAME_STREAMING,ja,ゲーム配信
 GAME_STREAMING,en,game streaming
 MINEO,ja,マイネオ
 MINEO,en,Mineo
-NIHON_GO,ja,日本語
-NIHON_GO,en,Japanese language
 UNIFORM,ja,制服
 UNIFORM,en,uniform
 CHARACTER,ja,キャラクター
@@ -623,8 +619,6 @@ WIRELESS_COMMUNICATION,ja,無線通信
 WIRELESS_COMMUNICATION,en,wireless communication
 GUNMA_TOYOTA,ja,群馬トヨタ
 GUNMA_TOYOTA,en,Gunma Toyota
-NIHONGO,ja,日本語
-NIHONGO,en,Japanese
 CLUB_ACTIVITY,ja,クラブ活動
 CLUB_ACTIVITY,en,club activity
 ITALY,ja,イタリア

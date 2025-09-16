@@ -1039,6 +1039,8 @@ COMPANY_ESTABLISHMENT_PROCEDURE,ja,会社設立手続き
 COMPANY_ESTABLISHMENT_PROCEDURE,en,company establishment procedure
 JAPANESE,ja,日本語
 JAPANESE,en,Japanese
+JAPANESE_LANGUAGE,ja,日本語
+JAPANESE_LANGUAGE,en,Japanese
 PC_WORK,ja,PC作業
 PC_WORK,en,PC work
 WORKING,ja,仕事中
