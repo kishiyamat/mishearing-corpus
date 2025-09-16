@@ -1089,8 +1089,6 @@ CHILDHOOD,ja,幼少期
 CHILDHOOD,en,childhood
 SHAKAIJIN,ja,社会人
 SHAKAIJIN,en,working adult
-HOMOPHONES,ja,同音異義語
-HOMOPHONES,en,homophones
 HEALTH,ja,健康
 HEALTH,en,health
 CONTRACT,ja,契約
@@ -1327,8 +1325,6 @@ KOUKYUUSHA,ja,高級車
 KOUKYUUSHA,en,luxury car
 SELF_ORDER,ja,セルフ注文
 SELF_ORDER,en,self-order
-DOONIGIGO,ja,同音異義語
-DOONIGIGO,en,homophones
 INDIGENOUS_PEOPLE,ja,先住民
 INDIGENOUS_PEOPLE,en,indigenous people
 NURSING_CARE,ja,介護
@@ -1679,8 +1675,6 @@ BASU,ja,バス
 BASU,en,bus
 KANYU,ja,勧誘
 KANYU,en,solicitation
-DOON_IIGIGO,ja,同音異義語
-DOON_IIGIGO,en,homonym
 RYOKAN,ja,旅館
 RYOKAN,en,Japanese inn
 EXHIBITION,ja,展示会
@@ -1953,8 +1947,6 @@ PHILOSOPHY,ja,哲学
 PHILOSOPHY,en,philosophy
 ENGETSUBU,ja,演劇部
 ENGETSUBU,en,drama club
-HOMONYM,ja,同音異義語
-HOMONYM,en,homonym
 CLERK,ja,店員
 CLERK,en,clerk
 AKACHAN,ja,赤ちゃん
@@ -1989,8 +1981,6 @@ GOLF,ja,ゴルフ
 GOLF,en,golf
 GENDAIGO,ja,現代語
 GENDAIGO,en,modern Japanese
-DOUON_IIGI_GO,ja,同音異義語
-DOUON_IIGI_GO,en,homonym
 ONSEI,ja,音声
 ONSEI,en,sound
 KAZOKU_YUJIN,ja,家族・友人
@@ -2691,8 +2681,6 @@ KATAKANA_WORDS,ja,カタカナ語
 KATAKANA_WORDS,en,katakana words
 NEWS_REPORTING,ja,ニュース報道
 NEWS_REPORTING,en,news reporting
-DOUON_IGIGO,ja,同音異義語
-DOUON_IGIGO,en,homonym
 PENSION,ja,年金
 PENSION,en,pension
 ROUDOU,ja,労働
