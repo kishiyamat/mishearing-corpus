@@ -215,8 +215,6 @@ PREMIERE_SCREENING,ja,プレミア上映
 PREMIERE_SCREENING,en,premiere screening
 JAPANESE_SPEAKER,ja,日本語話者
 JAPANESE_SPEAKER,en,Japanese speaker
-JIDOU_MOJI_OKOSHI,ja,自動文字起こし
-JIDOU_MOJI_OKOSHI,en,automatic transcription
 MIC_PA_SYSTEM,ja,マイクPAシステム
 MIC_PA_SYSTEM,en,mic PA system
 HARD_OF_HEARING_PERSON,ja,難聴者
@@ -2717,34 +2715,16 @@ NYUGAKUSHIKI,ja,入学式
 NYUGAKUSHIKI,en,school entrance ceremony
 LAUNDRY,ja,洗濯中
 LAUNDRY,en,doing laundry
-MOJIOKOSHI,ja,文字起こし
-MOJIOKOSHI,en,transcription
 FOREIGN_MINISTRY,ja,外務省
 FOREIGN_MINISTRY,en,Ministry of Foreign Affairs
-MOJII_OKOSHI,ja,文字起こし
-MOJII_OKOSHI,en,transcription
-MOJIKIOKOSHI,ja,文字起こし
-MOJIKIOKOSHI,en,transcription
 TRANSCRIPTION,ja,文字起こし
 TRANSCRIPTION,en,transcription
 TAYOU,ja,多様
 TAYOU,en,diversity
 MOCHIYOUSEI,ja,持ち要請
 MOCHIYOUSEI,en,request for holding
-MOJIOKOUSHI,ja,文字起こし
-MOJIOKOUSHI,en,transcription
-MOJYAKUOKOSHI,ja,文字起こし
-MOJYAKUOKOSHI,en,transcription
-MOJIRIOKOSHI,ja,文字起こし
-MOJIRIOKOSHI,en,transcription
-MOJIN_OROKOSHI,ja,文字起こし
-MOJIN_OROKOSHI,en,transcription
 TOUSHI,ja,投資
 TOUSHI,en,investment
-MOJIKOKOSHI,ja,文字起こし
-MOJIKOKOSHI,en,transcription
-MOJ,ja,文字起こし
-MOJ,en,transcription
 MEIREI,ja,命令
 MEIREI,en,command
 SPECIAL_MEASURES_LAW,ja,特別措置法
@@ -2759,14 +2739,6 @@ SHINKANSEN,ja,新幹線
 SHINKANSEN,en,Shinkansen
 NATIONAL_DIET,ja,国会
 NATIONAL_DIET,en,National Diet
-MOJIOKI,ja,文字起こし
-MOJIOKI,en,transcription
-MOJYO,ja,文字起こし
-MOJYO,en,transcription
-MOJOKI,ja,文字起こし
-MOJOKI,en,transcription
-MOJIIKOKOUSHI,ja,文字起こし
-MOJIIKOKOUSHI,en,transcription
 MITI,ja,道
 MITI,en,road
 KAKU_CHIHOU_JICHITAI,ja,各地方自治体
@@ -2775,30 +2747,16 @@ KAIHAI,ja,会派
 KAIHAI,en,parliamentary group
 ECONOMIC_POLICY,ja,経済政策
 ECONOMIC_POLICY,en,economic policy
-MOJ_KOORDINATE,ja,文字起こし調整
-MOJ_KOORDINATE,en,transcription coordination
 HEIIKI,ja,兵器
 HEIIKI,en,weapon
 EUROPEAN_ISSUE,ja,欧州問題
 EUROPEAN_ISSUE,en,European issue
-MOE_TRANSCRIPTION,ja,文字起こし（文科省）
-MOE_TRANSCRIPTION,en,transcription (Ministry of Education)
-MOJIKIKOSHI,ja,文字起こし
-MOJIKIKOSHI,en,transcription
-MOJIIKOSHI,ja,文字起こし
-MOJIIKOSHI,en,transcription
 MOJINO_TOWN,ja,文字野町
 MOJINO_TOWN,en,Mojino Town
 EASTERN_DISTRICT_COMMUNITY,ja,東地区コミュニティ
 EASTERN_DISTRICT_COMMUNITY,en,Eastern District Community
-MOJISOKOSHI,ja,文字起こし
-MOJISOKOSHI,en,transcription
 EDUCATION,ja,教育
 EDUCATION,en,education
-MOJISHI_OKOSHI,ja,文字起こし
-MOJISHI_OKOSHI,en,transcription
-MOJI_OKOSHI,ja,文字起こし
-MOJI_OKOSHI,en,transcription
 ELECTRICITY_SUPPLY_DEMAND,ja,電力需給
 ELECTRICITY_SUPPLY_DEMAND,en,electricity supply-demand
 SHASHOU,ja,車掌
@@ -2809,24 +2767,16 @@ HEALTH,ja,健康
 HEALTH,en,health
 ECONOMY,ja,経済
 ECONOMY,en,economy
-MOJIO_KUSO,ja,文字起こし構想
-MOJIO_KUSO,en,transcription concept
 AVIATION_UNIVERSITY,ja,航空大学校
 AVIATION_UNIVERSITY,en,Aviation University
 LABOR,ja,労働
 LABOR,en,labor
-MOJIIKOKOSHI,ja,文字起こし
-MOJIIKOKOSHI,en,transcription
-MOJISEOKOSHI,ja,文字起こし
-MOJISEOKOSHI,en,transcription
 MOZANNE,ja,モザンヌ
 MOZANNE,en,Mozanne
 ENVIRONMENT,ja,環境
 ENVIRONMENT,en,environment
 WELFARE,ja,福祉
 WELFARE,en,welfare
-MOJYIIKOSHI,ja,文字起こし
-MOJYIIKOSHI,en,transcription
 YOJIKI,ja,幼児期
 YOJIKI,en,childhood
 NON_NATIVE_PRONUNCIATION,ja,非母語話者の発音
