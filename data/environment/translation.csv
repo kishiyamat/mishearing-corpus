@@ -573,8 +573,6 @@ HEADSET_MIC,ja,ヘッドセットマイク
 HEADSET_MIC,en,headset mic
 CHIHOU_YAMANASHI,ja,地方山梨
 CHIHOU_YAMANASHI,en,rural Yamanashi
-NOISE_CAR_PHONE,ja,車内電話ノイズ
-NOISE_CAR_PHONE,en,car phone noise
 ROAD_DRIVING_NOISE,ja,道路運転ノイズ
 ROAD_DRIVING_NOISE,en,road driving noise
 PASSENGER_COMPANY_EMPLOYEE,ja,乗客会社員
@@ -599,8 +597,6 @@ DRUNK_PASSENGER,ja,酔った乗客
 DRUNK_PASSENGER,en,drunk passenger
 GEOGRAPHIC_KNOWLEDGE_GAP,ja,地理知識のギャップ
 GEOGRAPHIC_KNOWLEDGE_GAP,en,geographic knowledge gap
-PHONE_RESERVATION,ja,電話予約
-PHONE_RESERVATION,en,phone reservation
 FOREIGN_LANGUAGE_ENVIRONMENT,ja,外国語環境
 FOREIGN_LANGUAGE_ENVIRONMENT,en,foreign language environment
 TRANSPORTATION,ja,交通
@@ -893,8 +889,6 @@ SHINNYU_SHAIN_KENSHU,ja,新入社員研修
 SHINNYU_SHAIN_KENSHU,en,new employee training
 FOREIGN_AUDIENCE,ja,外国人観客
 FOREIGN_AUDIENCE,en,foreign audience
-KOKUSAI_PHONE_JAPAN_NETHERLANDS_FAMILY,ja,国際電話日本オランダ家族
-KOKUSAI_PHONE_JAPAN_NETHERLANDS_FAMILY,en,international call Japan-Netherlands family
 COUNTER_SEAT,ja,カウンター席
 COUNTER_SEAT,en,counter seat
 LIVE_HOUSE,ja,ライブハウス
@@ -1115,8 +1109,6 @@ WRITER_HOME,ja,作家の家
 WRITER_HOME,en,writer's home
 SHUUGOU_SHASHIN_SATSUEI,ja,集合写真撮影
 SHUUGOU_SHASHIN_SATSUEI,en,group photo shooting
-LANDLINE_PHONE,ja,固定電話
-LANDLINE_PHONE,en,landline phone
 STATION_CITY,ja,駅都市
 STATION_CITY,en,station city
 BUSINESS_SITE,ja,ビジネス現場
@@ -1185,8 +1177,6 @@ MOVIE_DRAMA_VIEWING,ja,映画ドラマ鑑賞
 MOVIE_DRAMA_VIEWING,en,movie drama viewing
 ONLINE_ENGLISH_CONVERSATION,ja,オンライン英会話
 ONLINE_ENGLISH_CONVERSATION,en,online English conversation
-FIXED_PHONE,ja,固定電話
-FIXED_PHONE,en,fixed phone
 JAPANESE_SPEAKER_FOREIGN_COMPANY_NAME_LISTENING,ja,日本語話者外国会社名聞き取り
 JAPANESE_SPEAKER_FOREIGN_COMPANY_NAME_LISTENING,en,Japanese speaker foreign company name listening
 SEARCH_ENGINE,ja,検索エンジン
@@ -1231,8 +1221,6 @@ ZOOLOGY,ja,動物学
 ZOOLOGY,en,zoology
 TAIMEN_SEKKYAKU,ja,対面接客
 TAIMEN_SEKKYAKU,en,face-to-face customer service
-PHONE_FACE_TO_FACE,ja,電話対面
-PHONE_FACE_TO_FACE,en,phone face-to-face
 MEDICATION_ADMINISTRATION_SITE,ja,薬剤投与現場
 MEDICATION_ADMINISTRATION_SITE,en,medication administration site
 ELDERLY_PEOPLE,ja,高齢者
@@ -1249,8 +1237,6 @@ FAST_SPEECH_NERVOUS,ja,早口緊張
 FAST_SPEECH_NERVOUS,en,fast speech nervous
 CORPORATE_SALES_SITE,ja,企業販売現場
 CORPORATE_SALES_SITE,en,corporate sales site
-TELEPHONE,ja,電話
-TELEPHONE,en,telephone
 NOISE_ESTIMATION,ja,ノイズ推定
 NOISE_ESTIMATION,en,noise estimation
 ZATSUDAN,ja,雑談
@@ -1311,8 +1297,6 @@ NON_NATIVE_SPEAKER_CONVERSATION,ja,非ネイティブ話者の会話
 NON_NATIVE_SPEAKER_CONVERSATION,en,non-native speaker conversation
 MEDICAL_WELFARE_FACILITY,ja,医療福祉施設
 MEDICAL_WELFARE_FACILITY,en,medical welfare facility
-BUSINESS_PHONE,ja,ビジネス電話
-BUSINESS_PHONE,en,business phone
 CHUUMON_COUNTER,ja,注文カウンター
 CHUUMON_COUNTER,en,order counter
 INDOOR,ja,室内
@@ -1339,22 +1323,16 @@ KOREISHASHA,ja,高齢者車
 KOREISHASHA,en,elderly vehicle
 IT_WORKPLACE,ja,IT職場
 IT_WORKPLACE,en,IT workplace
-AI_PHONE,ja,AI電話
-AI_PHONE,en,AI phone
 YUJIN,ja,友人
 YUJIN,en,friend
 MASK,ja,マスク
 MASK,en,mask
-WIRELESS_PHONE,ja,無線電話
-WIRELESS_PHONE,en,wireless phone
 IN_STORE_BROADCAST,ja,店内放送
 IN_STORE_BROADCAST,en,in-store broadcast
 KAIGAI_BUSINESS,ja,海外ビジネス
 KAIGAI_BUSINESS,en,overseas business
 FACE_TO_FACE_MEETING,ja,対面会議
 FACE_TO_FACE_MEETING,en,face-to-face meeting
-IP_PHONE,ja,IP電話
-IP_PHONE,en,IP phone
 HEARING_CHARACTERISTICS_DIFFERENCE,ja,聴覚特性の違い
 HEARING_CHARACTERISTICS_DIFFERENCE,en,hearing characteristics difference
 REFRIGERATOR,ja,冷蔵庫
@@ -1365,8 +1343,6 @@ NUMBER_TRANSMISSION,ja,番号送信
 NUMBER_TRANSMISSION,en,number transmission
 HOSPITAL_CLINIC,ja,病院・診療所
 HOSPITAL_CLINIC,en,hospital/clinic
-PHONE_LINE,ja,電話回線
-PHONE_LINE,en,phone line
 ONLINE_MEETING,ja,オンライン会議
 ONLINE_MEETING,en,online meeting
 NEWCOMER_UNFAMILIAR_WORKPLACE,ja,新人の慣れない職場
@@ -1667,8 +1643,6 @@ WASHOKUTEN,ja,和食店
 WASHOKUTEN,en,Japanese restaurant
 KEKKONSHIKI,ja,結婚式
 KEKKONSHIKI,en,wedding ceremony
-NOISE_YES_PHONE,ja,雑音あり・電話
-NOISE_YES_PHONE,en,noise present (phone)
 NOISE_TV_AUDIO,ja,テレビ音あり
 NOISE_TV_AUDIO,en,TV audio present
 GETTING_READY,ja,準備中
@@ -1759,8 +1733,6 @@ KOUHOU_MUSEN_NO_SPEAKER_ONSHITSU,ja,広報無線のスピーカー音質
 KOUHOU_MUSEN_NO_SPEAKER_ONSHITSU,en,public announcement speaker sound quality
 CONVERSATION_WITH_FRIENDS,ja,友人との会話
 CONVERSATION_WITH_FRIENDS,en,conversation with friends
-HOME_PHONE,ja,家庭用電話
-HOME_PHONE,en,home phone
 HIGHWAY,ja,高速道路
 HIGHWAY,en,highway
 SHIKEN_KAIJO,ja,試験会場
@@ -1825,8 +1797,6 @@ LOW_NOISE,ja,雑音が少ない
 LOW_NOISE,en,low noise
 GAKUSEI_DOUSHI_NO_KAIWA,ja,学生同士の会話
 GAKUSEI_DOUSHI_NO_KAIWA,en,conversation among students
-WORKPLACE_PHONE_OFFICE,ja,職場の電話（オフィス）
-WORKPLACE_PHONE_OFFICE,en,workplace phone (office)
 WORK_YAOYAMA_FRONT,ja,職場（八百屋の店頭）
 WORK_YAOYAMA_FRONT,en,workplace (vegetable store front)
 NEWSPAPER,ja,新聞
@@ -1843,14 +1813,10 @@ JUGYO,ja,授業
 JUGYO,en,class
 SUBWAY_PLATFORM,ja,地下鉄のホーム
 SUBWAY_PLATFORM,en,subway platform
-KATEI_YO_PHONE_ESTIMATED,ja,家庭用電話（推定）
-KATEI_YO_PHONE_ESTIMATED,en,home phone (estimated)
 MANSION,ja,マンション
 MANSION,en,apartment building
 SNACK_CORNER,ja,スナックコーナー
 SNACK_CORNER,en,snack corner
-FIXED_PHONE_RECEIVER,ja,固定電話の受話器
-FIXED_PHONE_RECEIVER,en,fixed phone receiver
 SEIKATSU_SHIDOU,ja,生活指導
 SEIKATSU_SHIDOU,en,life guidance
 WORK_CLOTHES,ja,作業着
@@ -1929,8 +1895,6 @@ CHANGING_CLOTHES,ja,着替え中
 CHANGING_CLOTHES,en,changing clothes
 TALK,ja,会話
 TALK,en,talk
-THEATER_PHONE,ja,劇場での電話
-THEATER_PHONE,en,phone in theater
 NOISE_NORMAL_IN_STORE,ja,店内の通常の雑音
 NOISE_NORMAL_IN_STORE,en,normal in-store noise
 SLIGHTLY_NOISY,ja,やや騒がしい
@@ -2059,8 +2023,6 @@ GREETING,ja,あいさつ
 GREETING,en,greeting
 ORDERING,ja,注文
 ORDERING,en,ordering
-NOISE_PHONE_AUDIO,ja,ノイズ・電話音声
-NOISE_PHONE_AUDIO,en,noise - phone audio
 IN_FRONT_OF_EYEGLASS_SHOP,ja,メガネ屋の前
 IN_FRONT_OF_EYEGLASS_SHOP,en,in front of eyeglass shop
 WATCHING_NEWS,ja,ニュース視聴
@@ -2111,8 +2073,6 @@ BUS_INSIDE,ja,バス車内
 BUS_INSIDE,en,inside a bus
 FRONT_DESK,ja,受付
 FRONT_DESK,en,front desk
-PHONE_HOME_AUDIO_ONLY_COMMUNICATION_NOISE,ja,電話（自宅）・音声のみ・通信ノイズあり
-PHONE_HOME_AUDIO_ONLY_COMMUNICATION_NOISE,en,phone (home) - audio only - communication noise
 TV_LIVING_BGM,ja,テレビ・リビング・BGM
 TV_LIVING_BGM,en,TV - living room - BGM
 STAIRS,ja,階段
@@ -2139,8 +2099,6 @@ NORMAL_HOME_NOISE,ja,普通の家庭内の音
 NORMAL_HOME_NOISE,en,normal home noise
 SUPERMARKET_FOOD_SECTION_IN_STORE_NOISE,ja,スーパー・食品売り場・店内騒音
 SUPERMARKET_FOOD_SECTION_IN_STORE_NOISE,en,supermarket - food section - in-store noise
-PHONE_DEVICE,ja,電話機
-PHONE_DEVICE,en,phone device
 JUST_WOKEN_UP,ja,起きたばかり
 JUST_WOKEN_UP,en,just woken up
 NEXT_TO_EACH_OTHER_CONVERSATION,ja,隣同士の会話
@@ -2387,8 +2345,6 @@ SHUUI_NI_HITO_ARI,ja,周囲に人あり
 SHUUI_NI_HITO_ARI,en,people around
 BOSS_AND_SUBORDINATE,ja,上司と部下
 BOSS_AND_SUBORDINATE,en,boss and subordinate
-PHONE_INQUIRY_COURIER_COMPANY,ja,宅配会社への電話問い合わせ
-PHONE_INQUIRY_COURIER_COMPANY,en,phone inquiry to courier company
 PRESENTATION_MEETING,ja,発表・会議
 PRESENTATION_MEETING,en,presentation/meeting
 UNKNOWN_HOME_ENVIRONMENT,ja,不明な家庭環境
@@ -2679,14 +2635,10 @@ NOISE_SEARCHING_DOCUMENTS,ja,書類を探す音
 NOISE_SEARCHING_DOCUMENTS,en,noise of searching documents
 PARENTS_KITCHEN,ja,親が台所にいる
 PARENTS_KITCHEN,en,parents in the kitchen
-NOISE_PHONE_LINE,ja,電話回線の雑音
-NOISE_PHONE_LINE,en,phone line noise
 COOKING,ja,調理中
 COOKING,en,cooking
 NOISE_CLASSROOM,ja,教室内の雑音
 NOISE_CLASSROOM,en,classroom noise
-MOBILE,ja,携帯電話
-MOBILE,en,mobile phone
 EXHIBITION_HALL,ja,展示会場
 EXHIBITION_HALL,en,exhibition hall
 KOKYO_KUKAN,ja,公共空間
@@ -2747,8 +2699,6 @@ EKI,ja,駅
 EKI,en,station
 FACILITY_OPENING,ja,施設の開所式
 FACILITY_OPENING,en,facility opening ceremony
-AMERICAN_JAPANESE_SCHOOL_PHONE,ja,日米学校間の電話
-AMERICAN_JAPANESE_SCHOOL_PHONE,en,phone call between American and Japanese schools
 TV_SHOPPING_PROGRAM_VIEWING,ja,テレビの通販番組視聴
 TV_SHOPPING_PROGRAM_VIEWING,en,watching TV shopping program
 PET_SHOP,ja,ペットショップ
