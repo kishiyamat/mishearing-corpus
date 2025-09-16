@@ -281,8 +281,6 @@ BARRIER_FREE,ja,バリアフリー
 BARRIER_FREE,en,barrier-free
 SHOKUGYOUMEI,ja,職業名
 SHOKUGYOUMEI,en,occupation name
-KIKIMACHI,ja,聞き待ち
-KIKIMACHI,en,listening wait
 UDON,ja,うどん
 UDON,en,udon
 CELEBRITY,ja,有名人
@@ -1225,8 +1223,6 @@ MEAL,ja,食事
 MEAL,en,meal
 CHORYOKU,ja,聴力
 CHORYOKU,en,hearing ability
-KIKI_MACHI,ja,聞き待ち
-KIKI_MACHI,en,listening wait
 AGE_RELATED_HEARING_LOSS,ja,加齢性難聴
 AGE_RELATED_HEARING_LOSS,en,age-related hearing loss
 ASPERGER_SYNDROME,ja,アスペルガー症候群
@@ -1807,8 +1803,6 @@ KANTUGAI,ja,勘違い
 KANTUGAI,en,misunderstanding
 HIMOGO_SPEAKER,ja,誤語話者
 HIMOGO_SPEAKER,en,mispronouncer
-KIKIMANEGAI,ja,聞き間願い
-KIKIMANEGAI,en,wish on mishearing
 IIMACHI,ja,言い間違い
 IIMACHI,en,misstatement
 SIBLINGS,ja,兄弟姉妹
@@ -1847,8 +1841,6 @@ DAIGAKU,ja,大学
 DAIGAKU,en,university
 KASHI,ja,歌詞
 KASHI,en,lyrics
-KIKIMANAE,ja,聞きまない
-KIKIMANAE,en,failure to hear
 GEINOU,ja,芸能
 GEINOU,en,entertainment
 SYOKUTAKU,ja,食卓
