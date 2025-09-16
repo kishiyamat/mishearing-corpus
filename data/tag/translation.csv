@@ -893,8 +893,6 @@ FACE_TO_FACE,ja,対面
 FACE_TO_FACE,en,face-to-face
 WORDS,ja,単語
 WORDS,en,words
-EAST_KANTO_DIALECT,ja,東関東方言
-EAST_KANTO_DIALECT,en,East Kanto dialect
 OVERSEAS_LIFE,ja,海外生活
 OVERSEAS_LIFE,en,overseas life
 MAGAZINE_NAME,ja,雑誌名
@@ -1715,8 +1713,6 @@ KANYU,ja,勧誘
 KANYU,en,solicitation
 DOON_IIGIGO,ja,同音異義語
 DOON_IIGIGO,en,homonym
-HOUGEN,ja,方言
-HOUGEN,en,dialect
 RYOKAN,ja,旅館
 RYOKAN,en,Japanese inn
 EXHIBITION,ja,展示会
