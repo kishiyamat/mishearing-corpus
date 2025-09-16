@@ -115,8 +115,6 @@ ALPHABET,ja,アルファベット
 ALPHABET,en,alphabet
 COMIC_ESSAY,ja,コミックエッセイ
 COMIC_ESSAY,en,comic essay
-NICHJO_SEIKATSU,ja,日常生活
-NICHJO_SEIKATSU,en,daily life
 HOME,ja,家
 HOME,en,home
 PRODUCT_NUMBER,ja,品番
@@ -627,8 +625,6 @@ MATSUYAMA,ja,松山
 MATSUYAMA,en,Matsuyama
 TAXI,ja,タクシー
 TAXI,en,taxi
-DAILY_CONVERSATION,ja,日常会話
-DAILY_CONVERSATION,en,daily conversation
 HEARING_DISABILITY,ja,聴覚障害
 HEARING_DISABILITY,en,hearing disability
 UTA,ja,歌
@@ -651,8 +647,6 @@ OCCUPATION,ja,職業
 OCCUPATION,en,occupation
 KATSUZETSU,ja,滑舌
 KATSUZETSU,en,articulation
-DAILY_ENGLISH_CONVERSATION,ja,日常英会話
-DAILY_ENGLISH_CONVERSATION,en,daily English conversation
 KAIGAI_SHUCCHO,ja,海外出張
 KAIGAI_SHUCCHO,en,overseas business trip
 GEONAME_MADEIRA,ja,地名マデイラ
@@ -761,8 +755,6 @@ TAXI_DRIVER,ja,タクシー運転手
 TAXI_DRIVER,en,taxi driver
 CAPITAL_REGION,ja,首都圏
 CAPITAL_REGION,en,capital region
-NICHIJOU_KAIWA,ja,日常会話
-NICHIJOU_KAIWA,en,daily conversation
 PUBLIC_TRANSPORT,ja,公共交通機関
 PUBLIC_TRANSPORT,en,public transport
 TOKYO,ja,東京
@@ -887,8 +879,6 @@ WORKING_ADULT,ja,社会人
 WORKING_ADULT,en,working adult
 ORGANIZATION,ja,組織
 ORGANIZATION,en,organization
-NICHIJOU,ja,日常
-NICHIJOU,en,daily life
 COMEDY_IMPROV,ja,即興コメディ
 COMEDY_IMPROV,en,comedy improv
 MISREADING,ja,読み間違い
@@ -1005,8 +995,6 @@ ILLUSTRATION_ESSAY,ja,イラストエッセイ
 ILLUSTRATION_ESSAY,en,illustration essay
 SUUJI,ja,数字
 SUUJI,en,numbers
-NICHOSEIKATSU,ja,日常生活
-NICHOSEIKATSU,en,daily life
 TABEMONO,ja,食べ物
 TABEMONO,en,food
 KIGYO,ja,企業
@@ -1037,8 +1025,6 @@ BUSINESS_MANNERS,ja,ビジネスマナー
 BUSINESS_MANNERS,en,business manners
 SCHEDULE_ADJUSTMENT,ja,スケジュール調整
 SCHEDULE_ADJUSTMENT,en,schedule adjustment
-NICHOJISEIKATSU,ja,日常生活
-NICHOJISEIKATSU,en,daily life
 MUSICAL,ja,ミュージカル
 MUSICAL,en,musical
 KIRAKIRA_REGISTER_DIARY,ja,キラキラレジ日記
@@ -1177,8 +1163,6 @@ KATEI,ja,家庭
 KATEI,en,home
 BASEBALL,ja,野球
 BASEBALL,en,baseball
-NICJOU,ja,日常
-NICJOU,en,daily life
 KENSHU,ja,研修
 KENSHU,en,training
 YOUTUBE,ja,YouTube
@@ -1299,8 +1283,6 @@ EATING_OUT,ja,外食
 EATING_OUT,en,eating out
 NAIJI,ja,内耳
 NAIJI,en,inner ear
-NICHOJIKAIWA,ja,日常会話
-NICHOJIKAIWA,en,daily conversation
 NICKNAME,ja,ニックネーム
 NICKNAME,en,nickname
 DAIGAKU_JUKEN,ja,大学受験
@@ -1689,8 +1671,6 @@ RISK_AVOIDANCE,ja,リスク回避
 RISK_AVOIDANCE,en,risk avoidance
 CHOURYOKU,ja,聴力
 CHOURYOKU,en,hearing ability
-DAILY_GROUP,ja,日常グループ
-DAILY_GROUP,en,daily group
 YOUTH_SLANG,ja,若者スラング
 YOUTH_SLANG,en,youth slang
 MATERIAL,ja,材料
@@ -1737,8 +1717,6 @@ FUKU,ja,服
 FUKU,en,clothing
 KAIGI,ja,会議
 KAIGI,en,meeting
-NICHOH_KAIWA,ja,日常会話
-NICHOH_KAIWA,en,daily conversation
 FASHION,ja,ファッション
 FASHION,en,fashion
 SHUKUDAI,ja,宿題
@@ -1785,8 +1763,6 @@ EDUCATION_SITE,ja,教育現場
 EDUCATION_SITE,en,educational setting
 PROPOSE,ja,プロポーズ
 PROPOSE,en,proposal
-NICHJO,ja,日常
-NICHJO,en,daily life
 SHIMONETA,ja,下ネタ
 SHIMONETA,en,dirty joke
 KANSAIBEN,ja,関西弁
@@ -2093,8 +2069,6 @@ KAZOKU_YUJIN,ja,家族・友人
 KAZOKU_YUJIN,en,family/friends
 JYUSHO,ja,住所
 JYUSHO,en,address
-DAILY,ja,日常
-DAILY,en,daily
 KITCHEN,ja,キッチン
 KITCHEN,en,kitchen
 HIMOGO_WASHA,ja,誤語話者
@@ -2251,14 +2225,10 @@ CHOREI,ja,朝礼
 CHOREI,en,morning assembly
 BOOK,ja,本
 BOOK,en,book
-NICHIJO_KAIWA,ja,日常会話
-NICHIJO_KAIWA,en,daily conversation
 TELEVISION_PROGRAM,ja,テレビ番組
 TELEVISION_PROGRAM,en,TV program
 AMOUNT_OF_MONEY,ja,金額
 AMOUNT_OF_MONEY,en,amount of money
-NICHIJO,ja,日常
-NICHIJO,en,daily life
 KOUKYOU,ja,公共
 KOUKYOU,en,public
 SHIMAI,ja,姉妹
@@ -2931,10 +2901,6 @@ MOTOHARU_SANO,ja,佐野元春
 MOTOHARU_SANO,en,Motoharu Sano
 NATIONAL_PHENOMENON,ja,国民的現象
 NATIONAL_PHENOMENON,en,national phenomenon
-NICHIJO_SEIKATSU,ja,日常生活
-NICHIJO_SEIKATSU,en,daily life
-NICHIJOKAIWA,ja,日常会話
-NICHIJOKAIWA,en,daily conversation
 NUMBER_OF_PEOPLE,ja,人数
 NUMBER_OF_PEOPLE,en,number of people
 ONIN_NINCHI,ja,音韻認知
