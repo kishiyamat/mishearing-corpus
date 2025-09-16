@@ -483,3 +483,7 @@ cd data/
 grep -r "行政" | grep trans
 ```
 
+そもそもの重複を見つける
+```sh
+grep ',ja,' tag/translation.csv   | cut -d',' -f3   | sort   | uniq -c   | sort -nr | head -50
+```
