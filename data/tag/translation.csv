@@ -2309,12 +2309,8 @@ KOUHAKU_UTA_GASSEN,ja,紅白歌合戦
 KOUHAKU_UTA_GASSEN,en,Kouhaku Uta Gassen
 RYOKO,ja,旅行
 RYOKO,en,travel
-SPEED_WRITING,ja,速記
-SPEED_WRITING,en,speed writing
 PRESS_CONFERENCE,ja,記者会見
 PRESS_CONFERENCE,en,press conference
-SOKKI,ja,速記
-SOKKI,en,shorthand
 SPECIALIZED_TERMS,ja,専門用語
 SPECIALIZED_TERMS,en,specialized terms
 COMPLIANCE,ja,コンプライアンス
@@ -2335,8 +2331,6 @@ LEGISLATURE,ja,立法府
 LEGISLATURE,en,legislature
 ACADEMIC,ja,学術
 ACADEMIC,en,academic
-SOKI,ja,速記
-SOKI,en,shorthand
 TOKUBETSU_SHIEN,ja,特別支援
 TOKUBETSU_SHIEN,en,special support
 JUKUGO,ja,熟語
@@ -2437,8 +2431,6 @@ URBAN_POLICY,ja,都市政策
 URBAN_POLICY,en,urban policy
 NATION,ja,国家
 NATION,en,nation
-SOHKI,ja,速記
-SOHKI,en,shorthand
 TERRITORIAL_ISSUE,ja,領土問題
 TERRITORIAL_ISSUE,en,territorial issue
 REGIONAL_DEVELOPMENT,ja,地域振興
@@ -2531,8 +2523,6 @@ BUDGET,ja,予算
 BUDGET,en,budget
 KENKYU,ja,研究
 KENKYU,en,research
-SOKIKI,ja,速記
-SOKIKI,en,stenography
 PUBLIC_SERVICE,ja,公共サービス
 PUBLIC_SERVICE,en,public service
 SYSTEM_REFORM,ja,制度改革
@@ -2745,8 +2735,6 @@ ENVIRONMENT,ja,環境
 ENVIRONMENT,en,environment
 DISASTER_RECOVERY,ja,災害復旧
 DISASTER_RECOVERY,en,disaster recovery
-STENOGRAPHY,ja,速記
-STENOGRAPHY,en,stenography
 INDUSTRY,ja,産業
 INDUSTRY,en,industry
 CHIIKI_KATSUDO,ja,地域活動
