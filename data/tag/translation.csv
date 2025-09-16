@@ -629,8 +629,6 @@ SORAUMI,ja,空海
 SORAUMI,en,sky and sea
 WIRELESS_COMMUNICATION,ja,無線通信
 WIRELESS_COMMUNICATION,en,wireless communication
-TRAFFIC_GUIDANCE,ja,交通案内
-TRAFFIC_GUIDANCE,en,traffic guidance
 GUNMA_TOYOTA,ja,群馬トヨタ
 GUNMA_TOYOTA,en,Gunma Toyota
 NIHONGO,ja,日本語
@@ -751,8 +749,6 @@ TAXI_DRIVER,ja,タクシー運転手
 TAXI_DRIVER,en,taxi driver
 CAPITAL_REGION,ja,首都圏
 CAPITAL_REGION,en,capital region
-PUBLIC_TRANSPORT,ja,公共交通機関
-PUBLIC_TRANSPORT,en,public transport
 TOKYO,ja,東京
 TOKYO,en,Tokyo
 TIME,ja,時間
@@ -833,8 +829,6 @@ SELF_DEFENSE_FORCE,ja,自衛隊
 SELF_DEFENSE_FORCE,en,self-defense force
 ANNOUNCEMENT,ja,アナウンス
 ANNOUNCEMENT,en,announcement
-TRANSPORTATION_TROUBLE,ja,交通トラブル
-TRANSPORTATION_TROUBLE,en,transportation trouble
 MANUSCRIPT,ja,原稿
 MANUSCRIPT,en,manuscript
 SELF_INTRODUCTION,ja,自己紹介
@@ -1691,8 +1685,6 @@ AUDIO,ja,音声
 AUDIO,en,audio
 SHIMETA,ja,湿った
 SHIMETA,en,damp
-TRAFFIC_INFORMATION,ja,交通情報
-TRAFFIC_INFORMATION,en,traffic information
 HIMOBOGOSHA,ja,誤語の受け手
 HIMOBOGOSHA,en,mishearing recipient
 FUKU,ja,服
@@ -1815,8 +1807,6 @@ PARKING_LOT,ja,駐車場
 PARKING_LOT,en,parking lot
 DENSHA,ja,電車
 DENSHA,en,train
-KOUTSUU,ja,交通
-KOUTSUU,en,transportation
 INTERCULTURAL_COMMUNICATION,ja,異文化コミュニケーション
 INTERCULTURAL_COMMUNICATION,en,intercultural communication
 YAKYU,ja,野球
@@ -1829,8 +1819,6 @@ HIMOGO_SPEAKER,ja,誤語話者
 HIMOGO_SPEAKER,en,mispronouncer
 KIKIMANEGAI,ja,聞き間願い
 KIKIMANEGAI,en,wish on mishearing
-STATION_TRANSPORT,ja,駅・交通
-STATION_TRANSPORT,en,station/transport
 IIMACHI,ja,言い間違い
 IIMACHI,en,misstatement
 SIBLINGS,ja,兄弟姉妹
@@ -2023,8 +2011,6 @@ KOIBITO,ja,恋人
 KOIBITO,en,lover
 GINKO,ja,銀行
 GINKO,en,bank
-KOKYO_KOTSU,ja,公共交通
-KOKYO_KOTSU,en,public transport
 ANNOUNCE,ja,アナウンス
 ANNOUNCE,en,announcement
 LIVE,ja,ライブ
@@ -2485,8 +2471,6 @@ BUNKA,ja,文化
 BUNKA,en,culture
 BUTSURYU,ja,物流
 BUTSURYU,en,logistics
-KOUTSU,ja,交通
-KOUTSU,en,transportation
 LEGAL_AFFAIRS,ja,法務
 LEGAL_AFFAIRS,en,legal affairs
 RIKA,ja,理科
