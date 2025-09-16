@@ -470,8 +470,16 @@ $ find . -type f -name "*.csv" -exec sed -i -E 's/,(IRYO|IRYOU)$/,MEDICAL/' {} +
 If your match pattern includes a comma, make sure to include the comma in the replacement string as well.
 
 To find duplicates, you can use this to find the Japanese tags,
-and then feed them to GPT 5.
+and then feed them to GPT 5. (Semantic)
 
 ```sh
 grep ',ja,' translation.csv | cut -d',' -f3
 ```
+
+Find the duplicates in tags by: (matching)
+
+```sh
+cd data/
+grep -r "行政" | grep trans
+```
+
