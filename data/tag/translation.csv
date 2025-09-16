@@ -1305,8 +1305,6 @@ NICKNAME,ja,ニックネーム
 NICKNAME,en,nickname
 DAIGAKU_JUKEN,ja,大学受験
 DAIGAKU_JUKEN,en,university entrance exam
-YUMOA,ja,ユーモア
-YUMOA,en,humor
 FALSE_ACCUSATION,ja,冤罪
 FALSE_ACCUSATION,en,false accusation
 TV,ja,テレビ
@@ -1819,8 +1817,6 @@ BODY_PART,ja,身体部位
 BODY_PART,en,body part
 SHOGAKUSEI,ja,小学生
 SHOGAKUSEI,en,elementary student
-YU-MOA,ja,ユーモア
-YU-MOA,en,humor
 ASTRONOMY,ja,天文学
 ASTRONOMY,en,astronomy
 GAKKO,ja,学校
