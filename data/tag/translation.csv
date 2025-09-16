@@ -1135,8 +1135,6 @@ MOM,ja,母親
 MOM,en,mom
 DENWA_TAIOU,ja,電話対応
 DENWA_TAIOU,en,phone support
-IT_TOOL,ja,ITツール
-IT_TOOL,en,IT tool
 IKUJI,ja,育児
 IKUJI,en,childcare
 ILLUSTRATION,ja,イラスト
@@ -1605,8 +1603,6 @@ LESSON,ja,授業
 LESSON,en,lesson
 RYOKOU,ja,旅行
 RYOKOU,en,travel
-IT_RELATED,ja,IT関連
-IT_RELATED,en,IT related
 EMPLOYMENT,ja,雇用
 EMPLOYMENT,en,employment
 REGISTERED_DIETITIAN,ja,管理栄養士
@@ -2239,8 +2235,6 @@ SUPPORT_CENTER,ja,支援センター
 SUPPORT_CENTER,en,support center
 IIMANAE,ja,言い間え
 IIMANAE,en,misutterance
-IT_YOGO,ja,IT用語
-IT_YOGO,en,IT term
 KYOSHITSU,ja,教室
 KYOSHITSU,en,classroom
 YOUTIEN,ja,幼稚園
