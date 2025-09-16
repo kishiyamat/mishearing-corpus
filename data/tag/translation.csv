@@ -333,8 +333,6 @@ PAYMENT,ja,支払い
 PAYMENT,en,payment
 CHILD,ja,子ども
 CHILD,en,child
-BUSINESS_TERM,ja,ビジネス用語
-BUSINESS_TERM,en,business term
 CM,ja,コマーシャル
 CM,en,commercial
 WIND_ORCHESTRA_CLUB,ja,吹奏楽部
@@ -571,8 +569,6 @@ OFFICIAL_NOTATION,ja,公式表記
 OFFICIAL_NOTATION,en,official notation
 AVIATION,ja,航空
 AVIATION,en,aviation
-BUSINESS_ENGLISH,ja,ビジネス英語
-BUSINESS_ENGLISH,en,business English
 KAGAWA_PREFECTURE,ja,香川県
 KAGAWA_PREFECTURE,en,Kagawa Prefecture
 PHRASE_EXPLANATION,ja,フレーズの説明
@@ -1123,8 +1119,6 @@ HOMOPHONES,ja,同音異義語
 HOMOPHONES,en,homophones
 HEALTH,ja,健康
 HEALTH,en,health
-BUSINESS_MANNER,ja,ビジネスマナー
-BUSINESS_MANNER,en,business manner
 CONTRACT,ja,契約
 CONTRACT,en,contract
 SAGA,ja,佐賀
@@ -1367,8 +1361,6 @@ DOONIGIGO,ja,同音異義語
 DOONIGIGO,en,homophones
 INDIGENOUS_PEOPLE,ja,先住民
 INDIGENOUS_PEOPLE,en,indigenous people
-BUSINESS_SKILL,ja,ビジネススキル
-BUSINESS_SKILL,en,business skill
 NURSING_CARE,ja,介護
 NURSING_CARE,en,nursing care
 DIRTY_JOKE,ja,下ネタ
@@ -1547,8 +1539,6 @@ WINE,ja,ワイン
 WINE,en,wine
 ENGINEERING,ja,工学
 ENGINEERING,en,engineering
-BUSINESS_TERMS,ja,ビジネス用語
-BUSINESS_TERMS,en,business terms
 CRISIS_MANAGEMENT,ja,危機管理
 CRISIS_MANAGEMENT,en,crisis management
 PRODUCT_DEVELOPMENT,ja,製品開発
@@ -1639,8 +1629,6 @@ JIMUSHOKU,ja,事務職
 JIMUSHOKU,en,clerical work
 KAISHA_MEI,ja,会社名
 KAISHA_MEI,en,company name
-BUSINESS_COMMUNICATION,ja,ビジネスコミュニケーション
-BUSINESS_COMMUNICATION,en,business communication
 RULE,ja,ルール
 RULE,en,rule
 MILITARY,ja,軍隊
@@ -1685,8 +1673,6 @@ EKIDEN,ja,駅伝
 EKIDEN,en,ekiden
 SHOKUBAJO,ja,職場
 SHOKUBAJO,en,workplace
-BUSINESS_CONVERSATION,ja,ビジネス会話
-BUSINESS_CONVERSATION,en,business conversation
 GAICHU,ja,害虫
 GAICHU,en,pest
 SHOKUDOU,ja,食堂
@@ -2281,8 +2267,6 @@ COMPLIANCE,ja,コンプライアンス
 COMPLIANCE,en,compliance
 GOVERNANCE,ja,ガバナンス
 GOVERNANCE,en,governance
-BIJINESU,ja,ビジネス
-BIJINESU,en,business
 KANYOKU,ja,慣用句
 KANYOKU,en,idiom
 LOANWORDS,ja,外来語
@@ -2369,8 +2353,6 @@ OKINAWA_MONDAI,ja,沖縄問題
 OKINAWA_MONDAI,en,Okinawa issue
 DISASTER_PREVENTION,ja,防災
 DISASTER_PREVENTION,en,disaster prevention
-BIZINESU,ja,ビジネス
-BIZINESU,en,business
 DEFENSE,ja,防衛
 DEFENSE,en,defense
 NANDOKU_GO,ja,難読語
