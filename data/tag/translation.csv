@@ -1657,8 +1657,6 @@ SHOKUDOU,ja,食堂
 SHOKUDOU,en,dining hall
 EIGA,ja,映画
 EIGA,en,movie
-KIKIMANIGAI,ja,言い間違い
-KIKIMANIGAI,en,misstatement
 FAMOUS_PERSON,ja,有名人
 FAMOUS_PERSON,en,famous person
 GAIKOKUGO_TITLE,ja,外国語のタイトル
@@ -1803,8 +1801,6 @@ KANTUGAI,ja,勘違い
 KANTUGAI,en,misunderstanding
 HIMOGO_SPEAKER,ja,誤語話者
 HIMOGO_SPEAKER,en,mispronouncer
-IIMACHI,ja,言い間違い
-IIMACHI,en,misstatement
 SIBLINGS,ja,兄弟姉妹
 SIBLINGS,en,siblings
 BIYOUSHITSU,ja,美容室
@@ -1853,14 +1849,10 @@ KOUKYOUNOBA,ja,公共の場
 KOUKYOUNOBA,en,public space
 EKI,ja,駅
 EKI,en,station
-IIMANIGAI,ja,言い間違い
-IIMANIGAI,en,verbal mistake
 TENKI,ja,天気
 TENKI,en,weather
 KAKIKOMACHI,ja,書き込み待ち
 KAKIKOMACHI,en,waiting to be filled
-IIMACHIGAI,ja,言い間違い
-IIMACHIGAI,en,slip of the tongue
 BIYOIN,ja,病院
 BIYOIN,en,hospital
 SYOKUJI,ja,食事
@@ -1873,8 +1865,6 @@ CLASSROOM,ja,教室
 CLASSROOM,en,classroom
 SENMON_YOGO,ja,専門用語
 SENMON_YOGO,en,technical term
-IIMATUGAI,ja,言い間違い
-IIMATUGAI,en,verbal slip
 PROGRAM_NAME,ja,番組名
 PROGRAM_NAME,en,program name
 GEONAME_PERSONNAME,ja,地名・人名
@@ -1925,8 +1915,6 @@ TOMODACHI,ja,友達
 TOMODACHI,en,friend
 HIMOGO_SHAKUSHA,ja,誤語釈者
 HIMOGO_SHAKUSHA,en,misinterpretation agent
-IIIMACHIGAI,ja,言い間違い
-IIIMACHIGAI,en,slip of the tongue
 UKETSUKE,ja,受付
 UKETSUKE,en,reception
 RENAI,ja,恋愛
@@ -2109,8 +2097,6 @@ FURO,ja,風呂
 FURO,en,bath
 GARAIGO,ja,外来語
 GARAIGO,en,loanword
-IIMATSUGAI,ja,言い間違い
-IIMATSUGAI,en,verbal slip
 KARADA,ja,身体
 KARADA,en,body
 AWARD_CEREMONY,ja,授賞式
