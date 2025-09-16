@@ -163,8 +163,6 @@ BLOG,ja,ブログ
 BLOG,en,blog
 PILOTAGE,ja,操縦
 PILOTAGE,en,pilotage
-KIKIMACHIGAI,ja,聞き間違い
-KIKIMACHIGAI,en,mishearing
 R_B,ja,R&B
 R_B,en,R&B
 CAR_ACTION,ja,カーアクション
@@ -683,8 +681,6 @@ KANCHIGAI,ja,勘違い
 KANCHIGAI,en,misunderstanding
 NUMBER_PLATE,ja,ナンバープレート
 NUMBER_PLATE,en,number plate
-KIKIMACHI_GAI,ja,聞き間違い
-KIKIMACHI_GAI,en,mishearing
 INTERVIEW,ja,インタビュー
 INTERVIEW,en,interview
 TROUBLE_PREVENTION,ja,トラブル防止
@@ -903,8 +899,6 @@ FOREIGNER,ja,外国人
 FOREIGNER,en,foreigner
 COUNTER,ja,カウンター
 COUNTER,en,counter
-MISHEARING_SOUND,ja,聞き間違い音
-MISHEARING_SOUND,en,mishearing sound
 RECEIPT,ja,領収書
 RECEIPT,en,receipt
 FRENCH,ja,フランス語
@@ -1079,8 +1073,6 @@ PART_TIME_JOB,ja,アルバイト
 PART_TIME_JOB,en,part-time job
 CORONA_CRISIS,ja,コロナ禍
 CORONA_CRISIS,en,corona crisis
-MIMACHIGAI,ja,聞き間違い
-MIMACHIGAI,en,mishearing
 HEARING_INFORMATION_PROCESSING_DISORDER,ja,聴覚情報処理障害
 HEARING_INFORMATION_PROCESSING_DISORDER,en,hearing information processing disorder
 REPEAT,ja,繰り返し
@@ -1151,8 +1143,6 @@ BUSINESS_MANNER,ja,ビジネスマナー
 BUSINESS_MANNER,en,business manner
 CONTRACT,ja,契約
 CONTRACT,en,contract
-MISHEARD_WORDS,ja,聞き間違い単語
-MISHEARD_WORDS,en,misheard words
 SAGA,ja,佐賀
 SAGA,en,Saga
 FRENCH_PERSON,ja,フランス人
@@ -1543,8 +1533,6 @@ REAL_ESTATE,ja,不動産
 REAL_ESTATE,en,real estate
 LINKEDIN,ja,LinkedIn
 LINKEDIN,en,LinkedIn
-KIKIMACHI-GAI,ja,聞き間違い
-KIKIMACHI-GAI,en,mishearing
 JAPANESE_COMPANY,ja,日本企業
 JAPANESE_COMPANY,en,Japanese company
 PROJECT_MANAGEMENT,ja,プロジェクト管理
@@ -1973,8 +1961,6 @@ VALENTINE,ja,バレンタイン
 VALENTINE,en,Valentine's Day
 PERSONAL_COMPUTER,ja,パソコン
 PERSONAL_COMPUTER,en,personal computer
-KIKIMAECHIGAI,ja,聞き間違い
-KIKIMAECHIGAI,en,mishearing
 IGAKU_YOUGO,ja,医学用語
 IGAKU_YOUGO,en,medical term
 OYAKO,ja,親子
@@ -2951,8 +2937,6 @@ KINCHOU,ja,緊張
 KINCHOU,en,nervousness
 LESSON_EXPERIENCE,ja,授業経験
 LESSON_EXPERIENCE,en,lesson experience
-MISHEARING_ERROR,ja,聞き間違いエラー
-MISHEARING_ERROR,en,mishearing error
 MISWRITING,ja,書き間違い
 MISWRITING,en,miswriting
 MULTICULTURAL,ja,多文化
