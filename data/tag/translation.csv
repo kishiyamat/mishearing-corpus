@@ -1683,8 +1683,6 @@ DOBUTSU,ja,動物
 DOBUTSU,en,animal
 SEIBUTSU,ja,生物
 SEIBUTSU,en,organism
-IIMANEGAI,ja,言いま願い
-IIMANEGAI,en,wish phrased wrongly
 BENKYO,ja,勉強
 BENKYO,en,study
 WAGASHI,ja,和菓子
@@ -2009,8 +2007,6 @@ ENKAI,ja,宴会
 ENKAI,en,banquet
 SUPPORT_CENTER,ja,支援センター
 SUPPORT_CENTER,en,support center
-IIMANAE,ja,言い間え
-IIMANAE,en,misutterance
 KYOSHITSU,ja,教室
 KYOSHITSU,en,classroom
 YOUTIEN,ja,幼稚園
@@ -2685,8 +2681,6 @@ KANJI_NOTATION,ja,漢字表記
 KANJI_NOTATION,en,kanji notation
 DEVELOPMENTAL_DISORDER,ja,発達障害
 DEVELOPMENTAL_DISORDER,en,developmental disorder
-PARAPHRASE,ja,言い換え
-PARAPHRASE,en,paraphrase
 CUSTOMER_INFORMATION,ja,顧客情報
 CUSTOMER_INFORMATION,en,customer information
 COUNTERMEASURES,ja,対策
