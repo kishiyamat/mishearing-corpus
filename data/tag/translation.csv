@@ -1629,8 +1629,6 @@ SHOKUDOU,ja,食堂
 SHOKUDOU,en,dining hall
 EIGA,ja,映画
 EIGA,en,movie
-FAMOUS_PERSON,ja,有名人
-FAMOUS_PERSON,en,famous person
 GAIKOKUGO_TITLE,ja,外国語のタイトル
 GAIKOKUGO_TITLE,en,foreign language title
 SENKYO,ja,選挙
@@ -2117,8 +2115,6 @@ SHIKITEN,ja,式典
 SHIKITEN,en,ceremony
 ONIGIRI,ja,おにぎり
 ONIGIRI,en,rice ball
-YUUMEIJIN,ja,有名人
-YUUMEIJIN,en,famous person
 CHOREI,ja,朝礼
 CHOREI,en,morning assembly
 BOOK,ja,本
@@ -2817,8 +2813,6 @@ YOMIMACHIGAI,ja,読み間違い
 YOMIMACHIGAI,en,misreading
 YOJIGO,ja,四字語
 YOJIGO,en,four-character idiom
-YUMEIJIN,ja,有名人
-YUMEIJIN,en,celebrity
 SPANISH,ja,スペイン語
 SPANISH,en,Spanish
 INFANT_LANGUAGE,ja,幼児語
