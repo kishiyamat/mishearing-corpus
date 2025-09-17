@@ -1613,8 +1613,6 @@ HIMOBOGOSHA,ja,誤語の受け手
 HIMOBOGOSHA,en,mishearing recipient
 FUKU,ja,服
 FUKU,en,clothing
-KAIGI,ja,会議
-KAIGI,en,meeting
 FASHION,ja,ファッション
 FASHION,en,fashion
 SHUKUDAI,ja,宿題
@@ -2301,8 +2299,6 @@ RIKA,ja,理科
 RIKA,en,science
 TOSHI,ja,都市
 TOSHI,en,city
-INTERNATIONAL_CONFERENCE,ja,国際会議
-INTERNATIONAL_CONFERENCE,en,international conference
 TOSHIKAIKAKU,ja,都市改革
 TOSHIKAIKAKU,en,urban reform
 GOVERNMENT,ja,政府
@@ -2359,8 +2355,6 @@ FUTURE,ja,未来
 FUTURE,en,future
 GAKKAI,ja,学会
 GAKKAI,en,academic society
-MEETING_RECORD,ja,会議録
-MEETING_RECORD,en,meeting record
 KANKYO,ja,環境
 KANKYO,en,environment
 KAGAKU_GIJUTSU,ja,科学技術
@@ -2487,8 +2481,6 @@ HOU-GAKU,ja,法学
 HOU-GAKU,en,jurisprudence
 INSURANCE,ja,保険
 INSURANCE,en,insurance
-MEETINGS,ja,会議
-MEETINGS,en,meetings
 EARTH_SCIENCE,ja,地球科学
 EARTH_SCIENCE,en,earth science
 MACHIZUKURI,ja,まちづくり
