@@ -35,6 +35,7 @@ Ensuring the authenticity and quality of the dataset is paramount for its scient
 ## Contents
 - [1. What's inside?](#1-whats-inside)
 - [2. Quick start](#2-quick-start)
+- [2.5. Viewer (Streamlit app)](#25-viewer-streamlit-app)
 - [3. Directory layout](#3-directory-layout)
 - [4. Data model](#4-data-model)
 - [5. Validation workflow](#5-validation-workflow)
@@ -87,6 +88,64 @@ pre-commit install                       # auto-validation on commit
 ```
 
 VS Code users: install **Edit CSV** + **Rainbow CSV** for spreadsheet-like editing.
+
+---
+
+## 2.5. Viewer (Streamlit app)
+
+You can browse and filter the corpus with the built-in Streamlit app.
+
+Run locally:
+
+```bash
+# from the repo root
+python -m venv venv
+. venv/bin/activate
+pip install -r requirements.txt
+
+# start the app
+streamlit run app.py
+# or:
+make run
+```
+
+### How to use
+
+1) Language selector
+- Choose English or 日本語 (Chinese/Korean will fall back to Japanese for now).
+
+2) Select filters
+- Tags: choose one or more tag labels.
+- Tag rule: AND = must include all, OR = include any.
+- Environments: choose one or more environment labels.
+- Env rule: AND = must include all, OR = include any.
+
+3) Diff emphasis (optional)
+- Toggle “Emphasize diff” to highlight differences between Src and Tgt.
+- Only the replaced segments are emphasized; the app uses difflib under the hood.
+- Note: Diff emphasis is slower on large result sets. If it feels sluggish, turn it off or narrow your filters.
+
+4) Apply
+- Click “Apply filters” to update the results.
+
+### Results table
+- Shows rows whose `MishearID` matches both the Tag and Environment conditions.
+- Important columns:
+  - `Src`: intended word/utterance by the speaker
+  - `Tgt`: listener’s interpretation
+  - `MishearID`, `URL`, plus other metadata columns
+- With Diff ON, replaced segments in `Src`/`Tgt` are wrapped in `** bold **` for quick visual scanning.
+- Long text is wrapped; columns `Src` and `Tgt` are shown with a wider width by default.
+
+### Other tabs
+- Stats: counts by source directory and a total row count.
+- Progress: corpus row count over time (derived from Git history of `data/mishearing`).
+
+### Tips / troubleshooting
+- Slow rendering: Diff mode performs per-row text comparison and Markdown rendering; disable the toggle or apply stricter filters.
+- No difference shown: Diff only highlights replace operations; if strings are identical, nothing is emphasized.
+- Cache freshness: File loads are cached; if you add new CSVs locally and don’t see them, try restarting the app.
+- Column widths: `Src` / `Tgt` use larger width and wrapping by default; adjust in `app.py` via `st.column_config.*Column(width=..., wrap_text=True)` if you prefer a fixed pixel width.
 
 ---
 

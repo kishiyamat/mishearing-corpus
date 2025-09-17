@@ -3,6 +3,65 @@ from datetime import datetime, timezone
 import os, glob, pandas as pd, streamlit as st
 import pathlib
 import git
+import difflib
+
+# 言語別UIテキスト
+UI_STR = {
+    "ja": {
+        "tags": "タグ",
+        "tag_rule": "タグの条件",
+        "tag_rule_opts": {"AND": "すべて含む (AND)", "OR": "いずれか含む (OR)"},
+        "envs": "環境",
+        "env_rule": "環境の条件",
+        "env_rule_opts": {"AND": "すべて含む (AND)", "OR": "いずれか含む (OR)"},
+        "apply_filters": "フィルタを適用",
+        "diff_toggle": "差分を強調",
+        "diff_slow_notice": "Diff を強調すると表示に時間がかかる場合があります。",
+        "info_select_filters": "左のサイドバーでフィルタを選んで「フィルタを適用」を押してください。",
+        "results": "結果 – {n} 件",
+        "dup_warning": "重複した MishearID が見つかりました:",
+        "help_title": "使い方",
+        "help_usage": (
+            "- 言語を選択します。\n"
+            "- タグと環境を選び、AND/OR ルールを設定します。\n"
+            "- Diff を強調を ON にすると、Src/Tgt の置換部分だけを **** で強調します（表示が遅くなる場合があります）。\n"
+            "- フィルタを適用 を押して結果を更新します。\n"
+            "- 表では `Src`=話し手の意図、`Tgt`=聞き手の解釈 を示します。長いテキストは折り返して表示されます。"
+        ),
+        "stats_dir": "ディレクトリ別件数",
+        "stats_total": "合計",
+        "stats_total_metric": "総件数",
+        "progress_header": "Corpus 行数の推移",
+        "src_tgt_desc": "src は話し手が意図した言葉、tgt は聞き手の解釈です。",
+    },
+    "en": {
+        "tags": "Tags",
+        "tag_rule": "Tag rule",
+        "tag_rule_opts": {"AND": "Must include all (AND)", "OR": "Include any (OR)"},
+        "envs": "Environments",
+        "env_rule": "Env rule",
+        "env_rule_opts": {"AND": "Must include all (AND)", "OR": "Include any (OR)"},
+        "apply_filters": "Apply filters",
+        "diff_toggle": "Emphasize diff",
+        "diff_slow_notice": "Enabling diff emphasis may slow down rendering.",
+        "info_select_filters": "Select filters on the left and press Apply filters.",
+        "results": "Results – {n} rows",
+        "dup_warning": "Duplicate MishearIDs found:",
+        "help_title": "How to use",
+        "help_usage": (
+            "- Choose your language.\n"
+            "- Pick Tags and Environments, then set the AND/OR rule.\n"
+            "- Turn on Emphasize diff to highlight only the replaced parts in Src/Tgt (may be slower).\n"
+            "- Press Apply filters to update the results.\n"
+            "- In the table, `Src` is the intended utterance; `Tgt` is the listener’s interpretation. Long text wraps."
+        ),
+        "stats_dir": "Counts by directory",
+        "stats_total": "Total",
+        "stats_total_metric": "Total rows",
+        "progress_header": "Corpus row count over time",
+        "src_tgt_desc": "src is the intended word/utterance; tgt is the listener's interpretation.",
+    },
+}
 
 def extract_dir(path_str: str) -> str:
     """
@@ -56,30 +115,38 @@ def label_to_id(labels, trans_df, lang):
     )
     return [mapping[lbl] for lbl in labels if lbl in mapping]
 
-def make_mask(link_df, key_col, picked_ids, logic) -> set[str]:
+def make_mask(link_df, key_col, picked_ids, logic_key) -> set[str]:
     """
-    Generate a set of IDs based on filtering logic applied to a DataFrame.
-
-    Args:
-        link_df (pd.DataFrame): The input DataFrame containing the data to filter.
-        key_col (str): The column name in the DataFrame to apply the filtering logic on.
-        picked_ids (Iterable): A collection of IDs to filter against.
-        logic (str): A string specifying the filtering logic. If it starts with "すべて",
-                     the function checks if all `picked_ids` are a subset of the values
-                     in `key_col` grouped by "MishearID". Otherwise, it filters rows
-                     where `key_col` contains any of the `picked_ids`.
-
-    Returns:
-        set[str]: A set of "MishearID" values that match the filtering criteria.
+    logic_key: "AND" or "OR"
     """
     if not picked_ids:
         return set(link_df["MishearID"])
-    if logic.startswith("すべて"):
-        # FIXME: 「すべて」というのはradioに依存している
+    if logic_key == "AND":
         ok = link_df.groupby("MishearID")[key_col].apply(lambda s: set(picked_ids).issubset(s))
         return set(ok[ok].index)
     return set(link_df[link_df[key_col].isin(picked_ids)]["MishearID"])
 
+
+def _mark_replace_only(src: str, tgt: str) -> tuple[str, str]:
+    if pd.isna(src) or pd.isna(tgt):
+        s0 = "" if pd.isna(src) else str(src).replace("\n", " ⏎ ")
+        t0 = "" if pd.isna(tgt) else str(tgt).replace("\n", " ⏎ ")
+        return s0, t0
+    s, t = str(src), str(tgt)
+    sm = difflib.SequenceMatcher(a=s, b=t)
+    out_s, out_t = [], []
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if tag == "equal":
+            out_s.append(s[i1:i2])
+            out_t.append(t[j1:j2])
+        elif tag == "replace":
+            out_s.append(f" **{s[i1:i2]}** ")
+            out_t.append(f" **{t[j1:j2]}** ")
+        elif tag == "delete":
+            out_s.append(s[i1:i2])
+        elif tag == "insert":
+            out_t.append(t[j1:j2])
+    return "".join(out_s).replace("\n", " ⏎ "), "".join(out_t).replace("\n", " ⏎ ")
 
 # ──────────────────────── Core application class ─────────────────────── #
 class MishearingApp:
@@ -111,38 +178,119 @@ class MishearingApp:
 
     # ------------- UI ------------ #
     def form(self):
-        lang = st.radio("Language", ("en", "ja"), horizontal=True, index=1)
+        lang_options = ["en", "ja", "zh", "ko"]
+        lang_labels = {
+            "en": "English",
+            "ja": "日本語",
+            "zh": "中文 (Not implemented)",
+            "ko": "한국어 (Not implemented)",
+        }
+        lang = st.radio(
+            "Language",
+            options=lang_options,
+            format_func=lambda x: lang_labels[x],
+            index=1,
+            horizontal=True,
+        )
+        if lang in ("zh", "ko"):
+            st.warning("This language is not supported yet. Displaying in English.")
+            lang = "en"
+
+        # 現在の言語を共有
+        st.session_state["lang"] = lang
+        ui = UI_STR.get(lang, UI_STR["ja"])
+
         with st.form(key="filter_form"):
-            tag_lbls = id_to_label(self.tag_counts.index, self.tag_trans, lang)
+            # 使い方 (アプリ内ヘルプ) をフォーム内の先頭に配置
+            with st.expander(ui.get("help_title", ""), expanded=True):
+                st.markdown(ui.get("help_usage", ""))
+            # Tag "mishearing" は選択肢から除外
+            allowed_tag_ids = [tid for tid in self.tag_counts.index if str(tid) != "MISHEARING"]
+            tag_lbls = id_to_label(allowed_tag_ids, self.tag_trans, lang)
             env_lbls = id_to_label(self.env_counts.index, self.env_trans, lang)
 
-            picked_tags = st.multiselect("Tags", tag_lbls)
-            tag_logic   = st.radio("Tag rule", ["すべて含む (AND)", "いずれか含む (OR)"])
+            picked_tags = st.multiselect(ui["tags"], tag_lbls)
 
-            picked_envs = st.multiselect("Environments", env_lbls)
-            env_logic   = st.radio("Env rule", ["すべて含む (AND)", "いずれか含む (OR)"])
+            tag_logic_key = st.radio(
+                ui["tag_rule"],
+                options=["AND", "OR"],
+                format_func=lambda k: ui["tag_rule_opts"][k],
+                horizontal=True,
+            )
 
-            submitted = st.form_submit_button("Apply filters")
+            picked_envs = st.multiselect(ui["envs"], env_lbls)
 
-        return submitted, lang, picked_tags, tag_logic, picked_envs, env_logic
+            env_logic_key = st.radio(
+                ui["env_rule"],
+                options=["AND", "OR"],
+                format_func=lambda k: ui["env_rule_opts"][k],
+                horizontal=True,
+            )
+
+            # Apply と Diff トグルを横並びに配置
+            c2 = st.empty()
+            c1 = st.empty()
+            with c1:
+                submitted = st.form_submit_button(ui["apply_filters"])
+            with c2:
+                # st.toggle が無いバージョンでも動くようにフォールバック
+                _toggle = getattr(st, "toggle", st.checkbox)
+                emphasize_diff = _toggle(ui["diff_toggle"], help=ui["diff_slow_notice"])
+
+        return submitted, lang, picked_tags, tag_logic_key, picked_envs, env_logic_key, emphasize_diff
 
     def run(self):
-        submitted, lang, p_tag_lbl, tag_logic, p_env_lbl, env_logic = self.form()
+        submitted, lang, p_tag_lbl, tag_logic_key, p_env_lbl, env_logic_key, emphasize_diff = self.form()
         if not submitted:
-            st.info("左のサイドバーでフィルタを選んで **Apply filters** を押してください。")
+            st.info(UI_STR.get(lang, UI_STR["ja"])["info_select_filters"])
             return
 
         # --- translate back to IDs --- #
         p_tag_ids = label_to_id(p_tag_lbl, self.tag_trans, lang)
         p_env_ids = label_to_id(p_env_lbl, self.env_trans, lang)
 
-        keep_tag = make_mask(self.tag_link, "TagID", p_tag_ids, tag_logic)
-        keep_env = make_mask(self.env_link, "EnvID", p_env_ids, env_logic)
+        keep_tag = make_mask(self.tag_link, "TagID", p_tag_ids, tag_logic_key)
+        keep_env = make_mask(self.env_link, "EnvID", p_env_ids, env_logic_key)
         final_ids = keep_tag & keep_env
 
         # --- main pane --- #
-        st.header(f"Results – {len(final_ids)} rows")
-        st.dataframe(self.corpus[self.corpus["MishearID"].isin(final_ids)])
+        ui = UI_STR.get(lang, UI_STR["ja"])
+        st.header(ui["results"].format(n=len(final_ids)))
+        # Show explanation of src/tgt
+        if "src_tgt_desc" in ui:
+            st.caption(ui["src_tgt_desc"])
+
+        result_df = self.corpus[self.corpus["MishearID"].isin(final_ids)].copy()
+
+        # 常に DataFrame を使用。Diff ON の場合のみ Src/Tgt テキストに ** を埋め込む
+        if emphasize_diff:
+            src_col, tgt_col = "Src", "Tgt"
+
+            # 変換したテキストを反映
+            marked_src = []
+            marked_tgt = []
+            for _, row in result_df[[src_col, tgt_col]].iterrows():
+                s_mark, t_mark = _mark_replace_only(row[src_col], row[tgt_col])
+                marked_src.append(s_mark)
+                marked_tgt.append(t_mark)
+            result_df[src_col] = marked_src
+            result_df[tgt_col] = marked_tgt
+
+            # Markdown として解釈してもらう（サポートが無い場合は自動フォールバック）
+            src_cfg = st.column_config.TextColumn(width="large", help="Src")
+            tgt_cfg = st.column_config.TextColumn(width="large", help="Tgt")
+            st.dataframe(
+                result_df,
+                hide_index=True,
+                use_container_width=True,
+                column_config={src_col: src_cfg, tgt_col: tgt_cfg},
+            )
+        else:
+            # Diff OFF 時も Src/Tgt の幅と折返しを指定
+            cfg = {}
+            cfg["Src"] = st.column_config.TextColumn(width="large", help="Src")
+            cfg["Tgt"] = st.column_config.TextColumn(width="large", help="Tgt")
+            st.dataframe(result_df, hide_index=True, use_container_width=True, column_config=cfg)
 
     def check(self):
         # MishearIDが2つ以上の行を抽出
@@ -150,24 +298,33 @@ class MishearingApp:
         dup_ids = dup_ids[dup_ids > 1].index.tolist()
         if dup_ids:
             dup_paths = self.corpus[self.corpus["MishearID"].isin(dup_ids)][["MishearID", "path"]]
-            st.warning("Duplicate MishearIDs found:")
+            lang = st.session_state.get("lang", "ja")
+            st.warning(UI_STR.get(lang, UI_STR["ja"])["dup_warning"])
             st.dataframe(dup_paths)
 
-# ──────────────────────────── Bootstrap ────────────────────────── #
+# ──────────────────────────── Bootstrap ───────────────────────── #
 
 def main():
     st.title("Mishearing Corpus Viewer")
     MishearingApp().check()
     MishearingApp().run()
 
-st.set_page_config(page_title="Mishearing Corpus")
+st.set_page_config(
+    page_title="Mishearing Corpus",
+    layout="wide",
+    page_icon="📂",
+)
 
-main_tab, stats_tab, progress_tab = st.tabs(["main", "stats", "progress"])
+# CSS によるフォント指定は不要（デフォルトでサンセリフ）。追加の表スタイルも撤去。
+
+main_tab, stats_tab, progress_tab = st.tabs(["Viewer", "Stats", "Progress"])
 
 with main_tab:
     main()
 
 with stats_tab:
+    lang = st.session_state.get("lang", "ja")
+    ui = UI_STR.get(lang, UI_STR["ja"])
     df = MishearingApp().corpus
     df["dir"] = df["path"].apply(extract_dir)
     counts = df["dir"].value_counts(dropna=False).reset_index()
@@ -175,11 +332,11 @@ with stats_tab:
     total = len(df)
 
     # ─── 表示 ──────────────────────────────────────────
-    st.subheader("ディレクトリ別件数")
+    st.subheader(ui["stats_dir"])
     st.dataframe(counts)
 
-    st.subheader("合計")
-    st.metric(label="総件数", value=total)
+    st.subheader(ui["stats_total"])
+    st.metric(label=ui["stats_total_metric"], value=total)
 
 
 @st.cache_data(show_spinner="Git 履歴を解析中 …")
@@ -232,7 +389,9 @@ def build_history() -> pd.DataFrame:
     return daily.reset_index(names="date")
 
 with progress_tab:
-    st.subheader("Corpus 行数の推移")
+    lang = st.session_state.get("lang", "ja")
+    ui = UI_STR.get(lang, UI_STR["ja"])
+    st.subheader(ui["progress_header"])
     daily = build_history()
 
     st.line_chart(daily.set_index("date")["rows"], height=300)
