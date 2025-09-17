@@ -111,7 +111,23 @@ class MishearingApp:
 
     # ------------- UI ------------ #
     def form(self):
-        lang = st.radio("Language", ("en", "ja"), horizontal=True, index=1)
+        lang_options = ["en", "ja", "zh", "ko"]
+        lang_labels = {
+            "en": "English",
+            "ja": "日本語",
+            "zh": "中文 (準備中)",
+            "ko": "한국어 (준備中)"
+        }
+        lang = st.radio(
+            "Language",
+            options=lang_options,
+            format_func=lambda x: lang_labels[x],
+            index=1,
+            horizontal=True,
+        )
+        if lang in ("zh", "ko"):
+            st.warning("この言語は現在準備中です。日本語で表示します。")
+            lang = "ja"
         with st.form(key="filter_form"):
             tag_lbls = id_to_label(self.tag_counts.index, self.tag_trans, lang)
             env_lbls = id_to_label(self.env_counts.index, self.env_trans, lang)
