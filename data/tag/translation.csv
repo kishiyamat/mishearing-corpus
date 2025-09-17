@@ -963,8 +963,6 @@ FUFU,ja,夫婦
 FUFU,en,spouses
 ILLUSTRATION_ESSAY,ja,イラストエッセイ
 ILLUSTRATION_ESSAY,en,illustration essay
-SUUJI,ja,数字
-SUUJI,en,numbers
 TABEMONO,ja,食べ物
 TABEMONO,en,food
 KIGYO,ja,企業
@@ -1133,8 +1131,6 @@ ECONOMY,ja,経済
 ECONOMY,en,economy
 IZAKAYA,ja,居酒屋
 IZAKAYA,en,izakaya
-NUMERALS,ja,数字
-NUMERALS,en,numerals
 KATAKANA_GO,ja,カタカナ語
 KATAKANA_GO,en,katakana word
 SHIGA,ja,滋賀
@@ -1303,8 +1299,6 @@ SIZE_ORDER,ja,サイズ順
 SIZE_ORDER,en,size order
 NICHIZI_KAKUNIN,ja,日次確認
 NICHIZI_KAKUNIN,en,daily confirmation
-SUURYOU,ja,数量
-SUURYOU,en,quantity
 INSTRUCTION,ja,指示
 INSTRUCTION,en,instruction
 FACTORY_AUTOMATION,ja,工場自動化
@@ -1501,8 +1495,6 @@ ERROR_PREVENTION,ja,エラー防止
 ERROR_PREVENTION,en,error prevention
 SHOP,ja,店舗
 SHOP,en,shop
-QUANTITY,ja,数量
-QUANTITY,en,quantity
 IINKAE_FUKUSHO,ja,委員会復唱
 IINKAE_FUKUSHO,en,committee repetition
 DRIVE,ja,運転
@@ -1567,8 +1559,6 @@ CHATBOT,ja,チャットボット
 CHATBOT,en,chatbot
 NOISE,ja,ノイズ
 NOISE,en,noise
-NUMBERS,ja,数字
-NUMBERS,en,numbers
 LANGUAGE_LEARNING,ja,言語学習
 LANGUAGE_LEARNING,en,language learning
 TSUUSHIN,ja,通信
@@ -1705,8 +1695,6 @@ LIFE,ja,生活
 LIFE,en,life
 MICHIANNAI,ja,道案内
 MICHIANNAI,en,directions
-SURYOU_HYOUJUN,ja,数量・基準
-SURYOU_HYOUJUN,en,quantity/standard
 TENRAN_KAI,ja,展覧会
 TENRAN_KAI,en,art exhibition
 BODY_PART,ja,身体部位
@@ -2723,8 +2711,6 @@ MOTOHARU_SANO,ja,佐野元春
 MOTOHARU_SANO,en,Motoharu Sano
 NATIONAL_PHENOMENON,ja,国民的現象
 NATIONAL_PHENOMENON,en,national phenomenon
-NUMBER_OF_PEOPLE,ja,人数
-NUMBER_OF_PEOPLE,en,number of people
 ONIN_NINCHI,ja,音韻認知
 ONIN_NINCHI,en,phonological awareness
 ONLINE_ENGLISH_CONVERSATION,ja,オンライン英会話
