@@ -1703,8 +1703,6 @@ ONGAKU,ja,音楽
 ONGAKU,en,music
 LIFE,ja,生活
 LIFE,en,life
-TETSURO,ja,鉄道
-TETSURO,en,railway
 MICHIANNAI,ja,道案内
 MICHIANNAI,en,directions
 SURYOU_HYOUJUN,ja,数量・基準
@@ -1755,8 +1753,6 @@ HONYA,ja,本屋
 HONYA,en,bookstore
 PARKING_LOT,ja,駐車場
 PARKING_LOT,en,parking lot
-DENSHA,ja,電車
-DENSHA,en,train
 INTERCULTURAL_COMMUNICATION,ja,異文化コミュニケーション
 INTERCULTURAL_COMMUNICATION,en,intercultural communication
 YAKYU,ja,野球
@@ -2071,8 +2067,6 @@ NYUUSU,ja,ニュース
 NYUUSU,en,news
 NOIZU,ja,ノイズ
 NOIZU,en,noise
-TETSUDOU,ja,鉄道
-TETSUDOU,en,railway
 GYMNASIUM,ja,体育館
 GYMNASIUM,en,gymnasium
 R_RESTRICTED,ja,R指定
@@ -2141,10 +2135,6 @@ KAIWA,ja,会話
 KAIWA,en,conversation
 TEREBI,ja,テレビ
 TEREBI,en,television
-TETSUDO,ja,鉄道
-TETSUDO,en,railroad
-TRAIN,ja,列車
-TRAIN,en,train
 MOBILE_PHONE,ja,携帯電話
 MOBILE_PHONE,en,mobile phone
 TEREBI_BANGUMI,ja,テレビ番組
