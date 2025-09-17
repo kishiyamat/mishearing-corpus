@@ -299,8 +299,6 @@ SPORTS,ja,スポーツ
 SPORTS,en,sports
 OFFICE,ja,オフィス
 OFFICE,en,office
-NANCHOU,ja,難聴
-NANCHOU,en,hearing loss
 PRODUCT_NAME,ja,商品名
 PRODUCT_NAME,en,product name
 POSITION_NAME,ja,役職名
@@ -589,8 +587,6 @@ MATSUYAMA,ja,松山
 MATSUYAMA,en,Matsuyama
 TAXI,ja,タクシー
 TAXI,en,taxi
-HEARING_DISABILITY,ja,聴覚障害
-HEARING_DISABILITY,en,hearing disability
 UTA,ja,歌
 UTA,en,song
 SORAUMI,ja,空海
@@ -997,8 +993,6 @@ PART_TIME_JOB,ja,アルバイト
 PART_TIME_JOB,en,part-time job
 CORONA_CRISIS,ja,コロナ禍
 CORONA_CRISIS,en,corona crisis
-HEARING_INFORMATION_PROCESSING_DISORDER,ja,聴覚情報処理障害
-HEARING_INFORMATION_PROCESSING_DISORDER,en,hearing information processing disorder
 REPEAT,ja,繰り返し
 REPEAT,en,repeat
 TIME_NOTATION,ja,時間表記
@@ -1013,8 +1007,6 @@ BLOOD_DRAW,ja,採血
 BLOOD_DRAW,en,blood draw
 MINUTES,ja,議事録
 MINUTES,en,minutes
-HARD_OF_HEARING,ja,難聴
-HARD_OF_HEARING,en,hard of hearing
 KAIGO_MANGA,ja,介護漫画
 KAIGO_MANGA,en,care manga
 TENSYOKU,ja,転職
@@ -1023,8 +1015,6 @@ MANGA,ja,漫画
 MANGA,en,manga
 OMOIKOMI,ja,思い込み
 OMOIKOMI,en,preconception
-APD,ja,聴覚処理障害
-APD,en,auditory processing disorder
 MANAGEMENT,ja,管理
 MANAGEMENT,en,management
 SOCIETY,ja,社会
@@ -1113,8 +1103,6 @@ REKISHI,ja,歴史
 REKISHI,en,history
 GOYGEN,ja,語源
 GOYGEN,en,word origin
-NANCHO,ja,難聴
-NANCHO,en,hearing loss
 SAFETY,ja,安全
 SAFETY,en,safety
 CS_KOJO,ja,CS向上
@@ -1165,8 +1153,6 @@ MEAL,ja,食事
 MEAL,en,meal
 CHORYOKU,ja,聴力
 CHORYOKU,en,hearing ability
-AGE_RELATED_HEARING_LOSS,ja,加齢性難聴
-AGE_RELATED_HEARING_LOSS,en,age-related hearing loss
 ASPERGER_SYNDROME,ja,アスペルガー症候群
 ASPERGER_SYNDROME,en,Asperger syndrome
 BTS,ja,BTS
@@ -1519,8 +1505,6 @@ LANGUAGE_LEARNING,ja,言語学習
 LANGUAGE_LEARNING,en,language learning
 TSUUSHIN,ja,通信
 TSUUSHIN,en,communication
-KAREISEI_NANCHO,ja,加齢性難聴
-KAREISEI_NANCHO,en,age-related hearing loss
 FUKUSHO,ja,復唱
 FUKUSHO,en,repetition
 JIMUSHOKU,ja,事務職
