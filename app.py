@@ -355,7 +355,7 @@ st.set_page_config(
 
 # CSS によるフォント指定は不要（デフォルトでサンセリフ）。追加の表スタイルも撤去。
 
-main_tab, stats_tab, progress_tab = st.tabs(["Viewer", "Stats", "Progress"])
+main_tab, stats_tab, progress_tab, disclaimer_tab = st.tabs(["Viewer", "Stats", "Progress", "Disclaimer"])
 
 with main_tab:
     main()
@@ -434,3 +434,69 @@ with progress_tab:
 
     st.line_chart(daily.set_index("date")["rows"], height=300)
     st.dataframe(daily, height=250, hide_index=True)
+
+with disclaimer_tab:
+    # Language-aware disclaimer page
+    lang = st.session_state.get("lang", "ja")
+    if lang == "en":
+        st.header("Disclaimer")
+        st.subheader("Usage notes")
+        st.markdown(
+            "\n".join(
+                [
+                    "- This corpus is provided primarily for research and educational purposes.",
+                    "- Listed URLs and external contents reflect the state at the time of collection and may have changed or been removed since then.",
+                    "- Minor inconsistencies or errors may remain. Contributions and fixes are welcome — please use GitHub Issues.",
+                ]
+            )
+        )
+        st.subheader("Disclaimer of warranty and liability")
+        st.markdown(
+            "\n".join(
+                [
+                    "- The authors make no warranties regarding accuracy, completeness, or fitness for a particular purpose.",
+                    "- The authors shall not be liable for any damages arising from the use of this corpus or viewer.",
+                    "- Please comply with the terms of use and copyright laws of any referenced/linked sites when using the data.",
+                ]
+            )
+        )
+        st.subheader("Contact")
+        st.markdown(
+            "\n".join(
+                [
+                    "- For bug reports, improvement proposals, and questions, please open an Issue on GitHub.",
+                    "- Issues: https://github.com/kishiyamat/mishearing-corpus/issues",
+                ]
+            )
+        )
+    else:
+        st.header("免責事項 / 利用上の注意")
+        st.subheader("利用上の注意")
+        st.markdown(
+            "\n".join(
+                [
+                    "- 本コーパスは主に研究・教育目的で公開しています。",
+                    "- 記載された URL や外部サイトの内容は収集時点のものであり、現在は変更・削除されている可能性があります。",
+                    "- 表記ゆれや誤りが残っている場合があります。修正や改善の提案は GitHub の Issue へお寄せください。",
+                ]
+            )
+        )
+        st.subheader("免責事項")
+        st.markdown(
+            "\n".join(
+                [
+                    "- 本コーパスおよびビューアの内容について、正確性・完全性・有用性等を保証するものではありません。",
+                    "- 本コーパスの利用により生じたいかなる損害についても、作成者は一切の責任を負いません。",
+                    "- 参照・収集対象サイトの利用規約・著作権法等を遵守のうえ、適切にご利用ください。",
+                ]
+            )
+        )
+        st.subheader("連絡先")
+        st.markdown(
+            "\n".join(
+                [
+                    "- 不具合報告、改善提案、質問などは GitHub の Issues にて受け付けています。",
+                    "- Issues: https://github.com/kishiyamat/mishearing-corpus/issues",
+                ]
+            )
+        )
