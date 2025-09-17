@@ -1,6 +1,7 @@
 [theme]
 base="light"
-primaryColor="#0d8de9ff"
+primaryColor="#161fc7ff"
 backgroundColor="#fffaf4"
 textColor="#292931ff"
-font="san serif"
+font = "sans-serif"
+codeFont = "monospace"

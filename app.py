@@ -20,6 +20,14 @@ UI_STR = {
         "info_select_filters": "左のサイドバーでフィルタを選んで「フィルタを適用」を押してください。",
         "results": "結果 – {n} 件",
         "dup_warning": "重複した MishearID が見つかりました:",
+        "help_title": "使い方",
+        "help_usage": (
+            "- 言語を選択します。\n"
+            "- タグと環境を選び、AND/OR ルールを設定します。\n"
+            "- Diff を強調を ON にすると、Src/Tgt の置換部分だけを **** で強調します（表示が遅くなる場合があります）。\n"
+            "- フィルタを適用 を押して結果を更新します。\n"
+            "- 表では `Src`=話し手の意図、`Tgt`=聞き手の解釈 を示します。長いテキストは折り返して表示されます。"
+        ),
         "stats_dir": "ディレクトリ別件数",
         "stats_total": "合計",
         "stats_total_metric": "総件数",
@@ -39,6 +47,14 @@ UI_STR = {
         "info_select_filters": "Select filters on the left and press Apply filters.",
         "results": "Results – {n} rows",
         "dup_warning": "Duplicate MishearIDs found:",
+        "help_title": "How to use",
+        "help_usage": (
+            "- Choose your language.\n"
+            "- Pick Tags and Environments, then set the AND/OR rule.\n"
+            "- Turn on Emphasize diff to highlight only the replaced parts in Src/Tgt (may be slower).\n"
+            "- Press Apply filters to update the results.\n"
+            "- In the table, `Src` is the intended utterance; `Tgt` is the listener’s interpretation. Long text wraps."
+        ),
         "stats_dir": "Counts by directory",
         "stats_total": "Total",
         "stats_total_metric": "Total rows",
@@ -166,8 +182,8 @@ class MishearingApp:
         lang_labels = {
             "en": "English",
             "ja": "日本語",
-            "zh": "中文 (対応未定)",
-            "ko": "한국어 (対応未정)"
+            "zh": "中文 (Not implemented)",
+            "ko": "한국어 (Not implemented)",
         }
         lang = st.radio(
             "Language",
@@ -177,14 +193,17 @@ class MishearingApp:
             horizontal=True,
         )
         if lang in ("zh", "ko"):
-            st.warning("この言語の対応は未定です。日本語で表示します。")
-            lang = "ja"
+            st.warning("This language is not supported yet. Displaying in English.")
+            lang = "en"
 
         # 現在の言語を共有
         st.session_state["lang"] = lang
         ui = UI_STR.get(lang, UI_STR["ja"])
 
         with st.form(key="filter_form"):
+            # 使い方 (アプリ内ヘルプ) をフォーム内の先頭に配置
+            with st.expander(ui.get("help_title", ""), expanded=True):
+                st.markdown(ui.get("help_usage", ""))
             # Tag "mishearing" は選択肢から除外
             allowed_tag_ids = [tid for tid in self.tag_counts.index if str(tid) != "MISHEARING"]
             tag_lbls = id_to_label(allowed_tag_ids, self.tag_trans, lang)
@@ -209,7 +228,8 @@ class MishearingApp:
             )
 
             # Apply と Diff トグルを横並びに配置
-            c1, c2 = st.columns([1, 1])
+            c2 = st.empty()
+            c1 = st.empty()
             with c1:
                 submitted = st.form_submit_button(ui["apply_filters"])
             with c2:
