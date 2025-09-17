@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 import os, glob, pandas as pd, streamlit as st
 import pathlib
 import git
+import difflib
 
 # 言語別UIテキスト
 UI_STR = {
@@ -14,6 +15,8 @@ UI_STR = {
         "env_rule": "環境の条件",
         "env_rule_opts": {"AND": "すべて含む (AND)", "OR": "いずれか含む (OR)"},
         "apply_filters": "フィルタを適用",
+        "diff_toggle": "差分を強調",
+        "diff_slow_notice": "Diff を強調すると表示に時間がかかる場合があります。",
         "info_select_filters": "左のサイドバーでフィルタを選んで「フィルタを適用」を押してください。",
         "results": "結果 – {n} 件",
         "dup_warning": "重複した MishearID が見つかりました:",
@@ -31,6 +34,8 @@ UI_STR = {
         "env_rule": "Env rule",
         "env_rule_opts": {"AND": "Must include all (AND)", "OR": "Include any (OR)"},
         "apply_filters": "Apply filters",
+        "diff_toggle": "Emphasize diff",
+        "diff_slow_notice": "Enabling diff emphasis may slow down rendering.",
         "info_select_filters": "Select filters on the left and press Apply filters.",
         "results": "Results – {n} rows",
         "dup_warning": "Duplicate MishearIDs found:",
@@ -105,6 +110,27 @@ def make_mask(link_df, key_col, picked_ids, logic_key) -> set[str]:
         return set(ok[ok].index)
     return set(link_df[link_df[key_col].isin(picked_ids)]["MishearID"])
 
+
+def _mark_replace_only(src: str, tgt: str) -> tuple[str, str]:
+    if pd.isna(src) or pd.isna(tgt):
+        s0 = "" if pd.isna(src) else str(src).replace("\n", " ⏎ ")
+        t0 = "" if pd.isna(tgt) else str(tgt).replace("\n", " ⏎ ")
+        return s0, t0
+    s, t = str(src), str(tgt)
+    sm = difflib.SequenceMatcher(a=s, b=t)
+    out_s, out_t = [], []
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if tag == "equal":
+            out_s.append(s[i1:i2])
+            out_t.append(t[j1:j2])
+        elif tag == "replace":
+            out_s.append(f" **{s[i1:i2]}** ")
+            out_t.append(f" **{t[j1:j2]}** ")
+        elif tag == "delete":
+            out_s.append(s[i1:i2])
+        elif tag == "insert":
+            out_t.append(t[j1:j2])
+    return "".join(out_s).replace("\n", " ⏎ "), "".join(out_t).replace("\n", " ⏎ ")
 
 # ──────────────────────── Core application class ─────────────────────── #
 class MishearingApp:
@@ -182,12 +208,19 @@ class MishearingApp:
                 horizontal=True,
             )
 
-            submitted = st.form_submit_button(ui["apply_filters"])
+            # Apply と Diff トグルを横並びに配置
+            c1, c2 = st.columns([1, 1])
+            with c1:
+                submitted = st.form_submit_button(ui["apply_filters"])
+            with c2:
+                # st.toggle が無いバージョンでも動くようにフォールバック
+                _toggle = getattr(st, "toggle", st.checkbox)
+                emphasize_diff = _toggle(ui["diff_toggle"], help=ui["diff_slow_notice"])
 
-        return submitted, lang, picked_tags, tag_logic_key, picked_envs, env_logic_key
+        return submitted, lang, picked_tags, tag_logic_key, picked_envs, env_logic_key, emphasize_diff
 
     def run(self):
-        submitted, lang, p_tag_lbl, tag_logic_key, p_env_lbl, env_logic_key = self.form()
+        submitted, lang, p_tag_lbl, tag_logic_key, p_env_lbl, env_logic_key, emphasize_diff = self.form()
         if not submitted:
             st.info(UI_STR.get(lang, UI_STR["ja"])["info_select_filters"])
             return
@@ -206,7 +239,38 @@ class MishearingApp:
         # Show explanation of src/tgt
         if "src_tgt_desc" in ui:
             st.caption(ui["src_tgt_desc"])
-        st.dataframe(self.corpus[self.corpus["MishearID"].isin(final_ids)])
+
+        result_df = self.corpus[self.corpus["MishearID"].isin(final_ids)].copy()
+
+        # 常に DataFrame を使用。Diff ON の場合のみ Src/Tgt テキストに ** を埋め込む
+        if emphasize_diff:
+            src_col, tgt_col = "Src", "Tgt"
+
+            # 変換したテキストを反映
+            marked_src = []
+            marked_tgt = []
+            for _, row in result_df[[src_col, tgt_col]].iterrows():
+                s_mark, t_mark = _mark_replace_only(row[src_col], row[tgt_col])
+                marked_src.append(s_mark)
+                marked_tgt.append(t_mark)
+            result_df[src_col] = marked_src
+            result_df[tgt_col] = marked_tgt
+
+            # Markdown として解釈してもらう（サポートが無い場合は自動フォールバック）
+            src_cfg = st.column_config.TextColumn(width="large", help="Src")
+            tgt_cfg = st.column_config.TextColumn(width="large", help="Tgt")
+            st.dataframe(
+                result_df,
+                hide_index=True,
+                use_container_width=True,
+                column_config={src_col: src_cfg, tgt_col: tgt_cfg},
+            )
+        else:
+            # Diff OFF 時も Src/Tgt の幅と折返しを指定
+            cfg = {}
+            cfg["Src"] = st.column_config.TextColumn(width="large", help="Src")
+            cfg["Tgt"] = st.column_config.TextColumn(width="large", help="Tgt")
+            st.dataframe(result_df, hide_index=True, use_container_width=True, column_config=cfg)
 
     def check(self):
         # MishearIDが2つ以上の行を抽出
@@ -230,6 +294,8 @@ st.set_page_config(
     layout="wide",
     page_icon="📂",
 )
+
+# CSS によるフォント指定は不要（デフォルトでサンセリフ）。追加の表スタイルも撤去。
 
 main_tab, stats_tab, progress_tab = st.tabs(["Viewer", "Stats", "Progress"])
 
