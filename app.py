@@ -27,6 +27,10 @@ UI_STR = {
             "- フィルタを適用 を押して結果を更新します。\n"
             "- 表では `Src`=話し手の意図、`Tgt`=聞き手の解釈 を示します。長いテキストは折り返して表示されます。"
         ),
+    "src_width_label": "Src列の幅",
+    "tgt_width_label": "Tgt列の幅",
+    "width_label": "列の幅",
+        "width_help": "small / medium / large を選択",
         "stats_dir": "ディレクトリ別件数",
         "stats_total": "合計",
         "stats_total_metric": "総件数",
@@ -53,6 +57,10 @@ UI_STR = {
             "- Press Apply filters to update the results.\n"
             "- In the table, `Src` is the intended utterance; `Tgt` is the listener’s interpretation. Long text wraps."
         ),
+    "src_width_label": "Src width",
+    "tgt_width_label": "Tgt width",
+    "width_label": "Column width",
+        "width_help": "Choose small / medium / large",
         "stats_dir": "Counts by directory",
         "stats_total": "Total",
         "stats_total_metric": "Total rows",
@@ -225,42 +233,71 @@ class MishearingApp:
                 horizontal=True,
             )
 
-            # Apply と Diff トグルを横並びに配置
-            c2 = st.empty()
-            c1 = st.empty()
-            with c1:
-                submitted = st.form_submit_button(ui["apply_filters"])
-            with c2:
-                # st.toggle が無いバージョンでも動くようにフォールバック
-                _toggle = getattr(st, "toggle", st.checkbox)
-                emphasize_diff = _toggle(ui["diff_toggle"], help=ui["diff_slow_notice"])
+            # フィルタ適用ボタンのみ（差分/列幅は結果エリアで指定）
+            submitted = st.form_submit_button(ui["apply_filters"])
 
-        return submitted, lang, picked_tags, tag_logic_key, picked_envs, env_logic_key, emphasize_diff
+        return submitted, lang, picked_tags, tag_logic_key, picked_envs, env_logic_key
 
     def run(self):
-        submitted, lang, p_tag_lbl, tag_logic_key, p_env_lbl, env_logic_key, emphasize_diff = self.form()
-        if not submitted:
-            st.info(UI_STR.get(lang, UI_STR["ja"])["info_select_filters"])
+        submitted, lang, p_tag_lbl, tag_logic_key, p_env_lbl, env_logic_key = self.form()
+
+        # フィルタの状態をセッションに保持（初回は適用ボタンが必要）
+        if submitted:
+            p_tag_ids = label_to_id(p_tag_lbl, self.tag_trans, lang)
+            p_env_ids = label_to_id(p_env_lbl, self.env_trans, lang)
+            st.session_state["filters"] = {
+                "tag_ids": p_tag_ids,
+                "env_ids": p_env_ids,
+                "tag_logic": tag_logic_key,
+                "env_logic": env_logic_key,
+                "lang": lang,
+            }
+
+        filters = st.session_state.get("filters")
+        if not filters:
+            st.info(UI_STR.get(lang, UI_STR["ja"]) ["info_select_filters"])
             return
 
-        # --- translate back to IDs --- #
-        p_tag_ids = label_to_id(p_tag_lbl, self.tag_trans, lang)
-        p_env_ids = label_to_id(p_env_lbl, self.env_trans, lang)
-
-        keep_tag = make_mask(self.tag_link, "TagID", p_tag_ids, tag_logic_key)
-        keep_env = make_mask(self.env_link, "EnvID", p_env_ids, env_logic_key)
+        # --- translate back to IDs (from stored filters) --- #
+        p_tag_ids = filters["tag_ids"]
+        p_env_ids = filters["env_ids"]
+        keep_tag = make_mask(self.tag_link, "TagID", p_tag_ids, filters["tag_logic"])
+        keep_env = make_mask(self.env_link, "EnvID", p_env_ids, filters["env_logic"])
         final_ids = keep_tag & keep_env
 
         # --- main pane --- #
-        ui = UI_STR.get(lang, UI_STR["ja"])
+        ui = UI_STR.get(st.session_state.get("lang", lang), UI_STR["ja"])
         st.header(ui["results"].format(n=len(final_ids)))
         # Show explanation of src/tgt
         if "src_tgt_desc" in ui:
             st.caption(ui["src_tgt_desc"])
 
+        # 結果セクションの表示オプション（差分と列幅）
+
+        col_opt1, col_opt2 = st.columns([1, 2])
+        with col_opt1:
+            # st.toggle が無い環境に配慮
+            _toggle = getattr(st, "toggle", st.checkbox)
+            emphasize_diff = _toggle(
+                ui["diff_toggle"],
+                help=ui["diff_slow_notice"],
+                key="emphasize_diff",
+            )
+        width_opts = ["small", "medium", "large"]
+        with col_opt2:
+            col_width = st.radio(
+                ui.get("width_label", "Column width"),
+                options=width_opts,
+                index=2,
+                horizontal=True,
+                key="col_width",
+            )
+
         result_df = self.corpus[self.corpus["MishearID"].isin(final_ids)].copy()
 
         # 常に DataFrame を使用。Diff ON の場合のみ Src/Tgt テキストに ** を埋め込む
+        src_width = col_width
+        tgt_width = col_width
         if emphasize_diff:
             src_col, tgt_col = "Src", "Tgt"
 
@@ -275,8 +312,8 @@ class MishearingApp:
             result_df[tgt_col] = marked_tgt
 
             # Markdown として解釈してもらう（サポートが無い場合は自動フォールバック）
-            src_cfg = st.column_config.TextColumn(width="large", help="Src")
-            tgt_cfg = st.column_config.TextColumn(width="large", help="Tgt")
+            src_cfg = st.column_config.TextColumn(width=src_width, help="Src")
+            tgt_cfg = st.column_config.TextColumn(width=tgt_width, help="Tgt")
             st.dataframe(
                 result_df,
                 hide_index=True,
@@ -286,8 +323,8 @@ class MishearingApp:
         else:
             # Diff OFF 時も Src/Tgt の幅と折返しを指定
             cfg = {}
-            cfg["Src"] = st.column_config.TextColumn(width="large", help="Src")
-            cfg["Tgt"] = st.column_config.TextColumn(width="large", help="Tgt")
+            cfg["Src"] = st.column_config.TextColumn(width=src_width, help="Src")
+            cfg["Tgt"] = st.column_config.TextColumn(width=tgt_width, help="Tgt")
             st.dataframe(result_df, hide_index=True, use_container_width=True, column_config=cfg)
 
     def check(self):
