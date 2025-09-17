@@ -463,8 +463,29 @@ Next, use `grep` recursively to find all files containing the tags you want to r
 Use `grep` to locate all matching lines.  
 To replace these tags with a new value, use `sed` in combination with `find` and the `-exec` option to apply the replacement across all relevant files:
 
-```
+```sh
 $ find . -type f -name "*.csv" -exec sed -i -E 's/,(IRYO|IRYOU)$/,MEDICAL/' {} +
 ```
 
 If your match pattern includes a comma, make sure to include the comma in the replacement string as well.
+
+To find duplicates, you can use this to find the Japanese tags,
+and then feed them to GPT 5. (Semantic)
+
+```sh
+grep ',ja,' translation.csv | cut -d',' -f3
+```
+
+Find the duplicates in tags by: (matching)
+
+編集するtranslation.csvと同じ配下で編集は実行する。
+
+```sh
+cd data/
+grep -r "行政" | grep trans
+```
+
+そもそもの重複を見つける
+```sh
+grep ',ja,' tag/translation.csv   | cut -d',' -f3   | sort   | uniq -c   | sort -nr | head -50
+```
