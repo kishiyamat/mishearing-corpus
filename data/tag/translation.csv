@@ -2209,16 +2209,12 @@ GUNJI,ja,軍事
 GUNJI,en,military
 KENSAA,ja,検査
 KENSAA,en,inspection
-OKINAWA_MONDAI,ja,沖縄問題
-OKINAWA_MONDAI,en,Okinawa issue
 DISASTER_PREVENTION,ja,防災
 DISASTER_PREVENTION,en,disaster prevention
 DEFENSE,ja,防衛
 DEFENSE,en,defense
 NANDOKU_GO,ja,難読語
 NANDOKU_GO,en,difficult words
-SOCIAL_ISSUES,ja,社会問題
-SOCIAL_ISSUES,en,social issues
 INTERNATIONAL_RELATIONS,ja,国際関係
 INTERNATIONAL_RELATIONS,en,international relations
 SHUPPAN,ja,出版
@@ -2233,8 +2229,6 @@ URBAN_POLICY,ja,都市政策
 URBAN_POLICY,en,urban policy
 NATION,ja,国家
 NATION,en,nation
-TERRITORIAL_ISSUE,ja,領土問題
-TERRITORIAL_ISSUE,en,territorial issue
 REGIONAL_DEVELOPMENT,ja,地域振興
 REGIONAL_DEVELOPMENT,en,regional development
 SYNONYMS,ja,同義語
@@ -2351,8 +2345,6 @@ TOSHIKAIKAKU,ja,都市改革
 TOSHIKAIKAKU,en,urban reform
 GOVERNMENT,ja,政府
 GOVERNMENT,en,government
-SYAKAI_MONDAI,ja,社会問題
-SYAKAI_MONDAI,en,social issues
 CORPORATE_ACTIVITY,ja,企業活動
 CORPORATE_ACTIVITY,en,corporate activity
 YOSAN,ja,予算
@@ -2403,8 +2395,6 @@ ENERGY_POLICY,ja,エネルギー政策
 ENERGY_POLICY,en,energy policy
 FUTURE,ja,未来
 FUTURE,en,future
-SHAKAIMONDAI,ja,社会問題
-SHAKAIMONDAI,en,social problem
 GAKKAI,ja,学会
 GAKKAI,en,academic society
 MEETING_RECORD,ja,会議録
