@@ -222,7 +222,7 @@ def main():
 
 st.set_page_config(page_title="Mishearing Corpus")
 
-main_tab, stats_tab, progress_tab = st.tabs(["main", "stats", "progress"])
+main_tab, stats_tab, progress_tab = st.tabs(["Viewer", "Stats", "Progress"])
 
 with main_tab:
     main()
