@@ -478,6 +478,8 @@ grep ',ja,' translation.csv | cut -d',' -f3
 
 Find the duplicates in tags by: (matching)
 
+編集するtranslation.csvと同じ配下で編集は実行する。
+
 ```sh
 cd data/
 grep -r "行政" | grep trans
