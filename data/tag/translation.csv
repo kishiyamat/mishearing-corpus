@@ -1821,8 +1821,6 @@ CHUMON,ja,注文
 CHUMON,en,order
 CLASSROOM,ja,教室
 CLASSROOM,en,classroom
-SENMON_YOGO,ja,専門用語
-SENMON_YOGO,en,technical term
 PROGRAM_NAME,ja,番組名
 PROGRAM_NAME,en,program name
 GEONAME_PERSONNAME,ja,地名・人名
@@ -2149,8 +2147,6 @@ RYOKO,ja,旅行
 RYOKO,en,travel
 PRESS_CONFERENCE,ja,記者会見
 PRESS_CONFERENCE,en,press conference
-SPECIALIZED_TERMS,ja,専門用語
-SPECIALIZED_TERMS,en,specialized terms
 COMPLIANCE,ja,コンプライアンス
 COMPLIANCE,en,compliance
 GOVERNANCE,ja,ガバナンス
@@ -2631,8 +2627,6 @@ AIRPORT,ja,空港
 AIRPORT,en,airport
 KOKUSAI,ja,国際
 KOKUSAI,en,international
-SENMON_YOUGO,ja,専門用語
-SENMON_YOUGO,en,technical term
 JINZAI_IKUSEI,ja,人材育成
 JINZAI_IKUSEI,en,human resource development
 PUBLIC_WORKS,ja,公共事業
