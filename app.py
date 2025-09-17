@@ -139,7 +139,7 @@ class MishearingApp:
             "en": "English",
             "ja": "日本語",
             "zh": "中文 (対応未定)",
-            "ko": "한국어 (対応未定)"
+            "ko": "한국어 (対応未정)"
         }
         lang = st.radio(
             "Language",
@@ -157,7 +157,9 @@ class MishearingApp:
         ui = UI_STR.get(lang, UI_STR["ja"])
 
         with st.form(key="filter_form"):
-            tag_lbls = id_to_label(self.tag_counts.index, self.tag_trans, lang)
+            # Tag "mishearing" は選択肢から除外
+            allowed_tag_ids = [tid for tid in self.tag_counts.index if str(tid) != "MISHEARING"]
+            tag_lbls = id_to_label(allowed_tag_ids, self.tag_trans, lang)
             env_lbls = id_to_label(self.env_counts.index, self.env_trans, lang)
 
             picked_tags = st.multiselect(ui["tags"], tag_lbls)
