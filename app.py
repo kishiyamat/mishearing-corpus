@@ -4,6 +4,42 @@ import os, glob, pandas as pd, streamlit as st
 import pathlib
 import git
 
+# 言語別UIテキスト
+UI_STR = {
+    "ja": {
+        "tags": "タグ",
+        "tag_rule": "タグの条件",
+        "tag_rule_opts": {"AND": "すべて含む (AND)", "OR": "いずれか含む (OR)"},
+        "envs": "環境",
+        "env_rule": "環境の条件",
+        "env_rule_opts": {"AND": "すべて含む (AND)", "OR": "いずれか含む (OR)"},
+        "apply_filters": "フィルタを適用",
+        "info_select_filters": "左のサイドバーでフィルタを選んで「フィルタを適用」を押してください。",
+        "results": "結果 – {n} 件",
+        "dup_warning": "重複した MishearID が見つかりました:",
+        "stats_dir": "ディレクトリ別件数",
+        "stats_total": "合計",
+        "stats_total_metric": "総件数",
+        "progress_header": "Corpus 行数の推移",
+    },
+    "en": {
+        "tags": "Tags",
+        "tag_rule": "Tag rule",
+        "tag_rule_opts": {"AND": "Must include all (AND)", "OR": "Include any (OR)"},
+        "envs": "Environments",
+        "env_rule": "Env rule",
+        "env_rule_opts": {"AND": "Must include all (AND)", "OR": "Include any (OR)"},
+        "apply_filters": "Apply filters",
+        "info_select_filters": "Select filters on the left and press Apply filters.",
+        "results": "Results – {n} rows",
+        "dup_warning": "Duplicate MishearIDs found:",
+        "stats_dir": "Counts by directory",
+        "stats_total": "Total",
+        "stats_total_metric": "Total rows",
+        "progress_header": "Corpus row count over time",
+    },
+}
+
 def extract_dir(path_str: str) -> str:
     """
     data/mishearing/<DIR_NAME>/file.csv から <DIR_NAME> を取り出す。
@@ -56,26 +92,13 @@ def label_to_id(labels, trans_df, lang):
     )
     return [mapping[lbl] for lbl in labels if lbl in mapping]
 
-def make_mask(link_df, key_col, picked_ids, logic) -> set[str]:
+def make_mask(link_df, key_col, picked_ids, logic_key) -> set[str]:
     """
-    Generate a set of IDs based on filtering logic applied to a DataFrame.
-
-    Args:
-        link_df (pd.DataFrame): The input DataFrame containing the data to filter.
-        key_col (str): The column name in the DataFrame to apply the filtering logic on.
-        picked_ids (Iterable): A collection of IDs to filter against.
-        logic (str): A string specifying the filtering logic. If it starts with "すべて",
-                     the function checks if all `picked_ids` are a subset of the values
-                     in `key_col` grouped by "MishearID". Otherwise, it filters rows
-                     where `key_col` contains any of the `picked_ids`.
-
-    Returns:
-        set[str]: A set of "MishearID" values that match the filtering criteria.
+    logic_key: "AND" or "OR"
     """
     if not picked_ids:
         return set(link_df["MishearID"])
-    if logic.startswith("すべて"):
-        # FIXME: 「すべて」というのはradioに依存している
+    if logic_key == "AND":
         ok = link_df.groupby("MishearID")[key_col].apply(lambda s: set(picked_ids).issubset(s))
         return set(ok[ok].index)
     return set(link_df[link_df[key_col].isin(picked_ids)]["MishearID"])
@@ -115,8 +138,8 @@ class MishearingApp:
         lang_labels = {
             "en": "English",
             "ja": "日本語",
-            "zh": "中文 (準備中)",
-            "ko": "한국어 (준備中)"
+            "zh": "中文 (対応未定)",
+            "ko": "한국어 (対応未定)"
         }
         lang = st.radio(
             "Language",
@@ -126,38 +149,56 @@ class MishearingApp:
             horizontal=True,
         )
         if lang in ("zh", "ko"):
-            st.warning("この言語は現在準備中です。日本語で表示します。")
+            st.warning("この言語の対応は未定です。日本語で表示します。")
             lang = "ja"
+
+        # 現在の言語を共有
+        st.session_state["lang"] = lang
+        ui = UI_STR.get(lang, UI_STR["ja"])
+
         with st.form(key="filter_form"):
             tag_lbls = id_to_label(self.tag_counts.index, self.tag_trans, lang)
             env_lbls = id_to_label(self.env_counts.index, self.env_trans, lang)
 
-            picked_tags = st.multiselect("Tags", tag_lbls)
-            tag_logic   = st.radio("Tag rule", ["すべて含む (AND)", "いずれか含む (OR)"])
+            picked_tags = st.multiselect(ui["tags"], tag_lbls)
 
-            picked_envs = st.multiselect("Environments", env_lbls)
-            env_logic   = st.radio("Env rule", ["すべて含む (AND)", "いずれか含む (OR)"])
+            tag_logic_key = st.radio(
+                ui["tag_rule"],
+                options=["AND", "OR"],
+                format_func=lambda k: ui["tag_rule_opts"][k],
+                horizontal=True,
+            )
 
-            submitted = st.form_submit_button("Apply filters")
+            picked_envs = st.multiselect(ui["envs"], env_lbls)
 
-        return submitted, lang, picked_tags, tag_logic, picked_envs, env_logic
+            env_logic_key = st.radio(
+                ui["env_rule"],
+                options=["AND", "OR"],
+                format_func=lambda k: ui["env_rule_opts"][k],
+                horizontal=True,
+            )
+
+            submitted = st.form_submit_button(ui["apply_filters"])
+
+        return submitted, lang, picked_tags, tag_logic_key, picked_envs, env_logic_key
 
     def run(self):
-        submitted, lang, p_tag_lbl, tag_logic, p_env_lbl, env_logic = self.form()
+        submitted, lang, p_tag_lbl, tag_logic_key, p_env_lbl, env_logic_key = self.form()
         if not submitted:
-            st.info("左のサイドバーでフィルタを選んで **Apply filters** を押してください。")
+            st.info(UI_STR.get(lang, UI_STR["ja"])["info_select_filters"])
             return
 
         # --- translate back to IDs --- #
         p_tag_ids = label_to_id(p_tag_lbl, self.tag_trans, lang)
         p_env_ids = label_to_id(p_env_lbl, self.env_trans, lang)
 
-        keep_tag = make_mask(self.tag_link, "TagID", p_tag_ids, tag_logic)
-        keep_env = make_mask(self.env_link, "EnvID", p_env_ids, env_logic)
+        keep_tag = make_mask(self.tag_link, "TagID", p_tag_ids, tag_logic_key)
+        keep_env = make_mask(self.env_link, "EnvID", p_env_ids, env_logic_key)
         final_ids = keep_tag & keep_env
 
         # --- main pane --- #
-        st.header(f"Results – {len(final_ids)} rows")
+        ui = UI_STR.get(lang, UI_STR["ja"])
+        st.header(ui["results"].format(n=len(final_ids)))
         st.dataframe(self.corpus[self.corpus["MishearID"].isin(final_ids)])
 
     def check(self):
@@ -166,10 +207,11 @@ class MishearingApp:
         dup_ids = dup_ids[dup_ids > 1].index.tolist()
         if dup_ids:
             dup_paths = self.corpus[self.corpus["MishearID"].isin(dup_ids)][["MishearID", "path"]]
-            st.warning("Duplicate MishearIDs found:")
+            lang = st.session_state.get("lang", "ja")
+            st.warning(UI_STR.get(lang, UI_STR["ja"])["dup_warning"])
             st.dataframe(dup_paths)
 
-# ──────────────────────────── Bootstrap ────────────────────────── #
+# ──────────────────────────── Bootstrap ───────────────────────── #
 
 def main():
     st.title("Mishearing Corpus Viewer")
@@ -184,6 +226,8 @@ with main_tab:
     main()
 
 with stats_tab:
+    lang = st.session_state.get("lang", "ja")
+    ui = UI_STR.get(lang, UI_STR["ja"])
     df = MishearingApp().corpus
     df["dir"] = df["path"].apply(extract_dir)
     counts = df["dir"].value_counts(dropna=False).reset_index()
@@ -191,11 +235,11 @@ with stats_tab:
     total = len(df)
 
     # ─── 表示 ──────────────────────────────────────────
-    st.subheader("ディレクトリ別件数")
+    st.subheader(ui["stats_dir"])
     st.dataframe(counts)
 
-    st.subheader("合計")
-    st.metric(label="総件数", value=total)
+    st.subheader(ui["stats_total"])
+    st.metric(label=ui["stats_total_metric"], value=total)
 
 
 @st.cache_data(show_spinner="Git 履歴を解析中 …")
@@ -248,7 +292,9 @@ def build_history() -> pd.DataFrame:
     return daily.reset_index(names="date")
 
 with progress_tab:
-    st.subheader("Corpus 行数の推移")
+    lang = st.session_state.get("lang", "ja")
+    ui = UI_STR.get(lang, UI_STR["ja"])
+    st.subheader(ui["progress_header"])
     daily = build_history()
 
     st.line_chart(daily.set_index("date")["rows"], height=300)
