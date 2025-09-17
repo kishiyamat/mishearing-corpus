@@ -1901,8 +1901,6 @@ YUJIN,ja,友人
 YUJIN,en,friend
 TENKIPYOHO,ja,天気予報
 TENKIPYOHO,en,weather forecast
-KOYUU_MEISHI,ja,固有名詞
-KOYUU_MEISHI,en,proper noun
 MISPRONUNCIATION,ja,発音ミス
 MISPRONUNCIATION,en,mispronunciation
 SACCA,ja,作家
@@ -1957,8 +1955,6 @@ TOUKOU,ja,投稿
 TOUKOU,en,submission
 CELEBRITY_NAME,ja,著名人名
 CELEBRITY_NAME,en,celebrity name
-KOKUYUMEISHI,ja,固有名詞
-KOKUYUMEISHI,en,proper noun
 DRIVING_LICENSE_CENTER,ja,運転免許センター
 DRIVING_LICENSE_CENTER,en,driving license center
 CRAM_SCHOOL,ja,塾
