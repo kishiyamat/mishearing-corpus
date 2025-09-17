@@ -220,7 +220,11 @@ def main():
     MishearingApp().check()
     MishearingApp().run()
 
-st.set_page_config(page_title="Mishearing Corpus")
+st.set_page_config(
+    page_title="Mishearing Corpus",
+    layout="wide",
+    page_icon="📂",
+)
 
 main_tab, stats_tab, progress_tab = st.tabs(["Viewer", "Stats", "Progress"])
 
