@@ -124,8 +124,8 @@ make run
 - Click “Apply filters” to update the results table.
 
 4) Adjust Results (optional)
-- Emphasize diff: toggle to highlight differences between `Src` and `Tgt`.
-  - Only replaced segments are emphasized; the app uses difflib.
+- Emphasize diff: toggle to mark differences between `Src` and `Tgt`.
+  - Only replaced segments are surrounded by `**` markers (Markdown is NOT rendered in the table).
   - Computation is cached; still, rendering may feel slower on very large tables.
 - Column width: choose `small` / `medium` / `large` (applies to both `Src` and `Tgt`).
 - Changes in this section apply immediately; no need to re-apply filters.
@@ -136,15 +136,15 @@ make run
   - `Src`: intended word/utterance by the speaker
   - `Tgt`: listener’s interpretation
   - `MishearID`, `URL`, and other metadata columns
-- With Diff ON, replaced segments in `Src`/`Tgt` are wrapped in `** bold **` for quick visual scanning.
-- Long text wraps; `Src` and `Tgt` column width can be adjusted via the radio.
+- With Diff ON, replaced segments in `Src`/`Tgt` are marked by surrounding `**` (displayed literally; no bold styling in the table).
+- Text wrapping is not supported by the table; use horizontal scroll and/or the column-width radio to adjust visibility.
 
 ### Other tabs
 - Stats: counts by source directory and a total row count.
 - Progress: corpus row count over time (derived from Git history of `data/mishearing`).
 
 ### Tips / troubleshooting
-- Slow rendering: Diff mode computes and renders marked text; the diff computation is cached, but very large tables can still be slower.
+- Slow rendering: Diff mode computes marked text; the diff computation is cached, but very large tables can still be slower.
 - No difference shown: Diff only highlights replace operations; if strings are identical, nothing is emphasized.
 - Cache freshness: CSV loads and diff results are cached; if you add new CSVs locally and don’t see updates, restart the app.
 - Column width: Use the radio in Results to switch between `small`/`medium`/`large` for `Src`/`Tgt`.
