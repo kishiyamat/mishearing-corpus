@@ -1737,8 +1737,6 @@ DEPARTMENT_STORE,ja,デパート
 DEPARTMENT_STORE,en,department store
 SHOHINMEI,ja,商品名
 SHOHINMEI,en,product name
-TSUKKIN,ja,通勤
-TSUKKIN,en,commuting
 EKIMEI,ja,駅名
 EKIMEI,en,station name
 KAPPURU,ja,カップル
@@ -1747,8 +1745,6 @@ BYOKI,ja,病気
 BYOKI,en,illness
 TAISO,ja,体操
 TAISO,en,gymnastics
-TSUKIN,ja,通勤
-TSUKIN,en,commute
 HONYA,ja,本屋
 HONYA,en,bookstore
 PARKING_LOT,ja,駐車場
@@ -1901,8 +1897,6 @@ KANJI,ja,漢字
 KANJI,en,kanji
 YOJI,ja,四字熟語
 YOJI,en,yoji-jukugo
-TSUUKIN,ja,通勤
-TSUUKIN,en,commuting
 MARRIED_COUPLE,ja,夫婦
 MARRIED_COUPLE,en,married couple
 GAKUSEI,ja,学生
