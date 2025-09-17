@@ -1609,8 +1609,6 @@ AUDIO,ja,音声
 AUDIO,en,audio
 SHIMETA,ja,湿った
 SHIMETA,en,damp
-HIMOBOGOSHA,ja,誤語の受け手
-HIMOBOGOSHA,en,mishearing recipient
 FUKU,ja,服
 FUKU,en,clothing
 FASHION,ja,ファッション
@@ -1723,8 +1721,6 @@ MAIL_ORDER,ja,通販
 MAIL_ORDER,en,mail order
 KANTUGAI,ja,勘違い
 KANTUGAI,en,misunderstanding
-HIMOGO_SPEAKER,ja,誤語話者
-HIMOGO_SPEAKER,en,mispronouncer
 SIBLINGS,ja,兄弟姉妹
 SIBLINGS,en,siblings
 BIYOUSHITSU,ja,美容室
@@ -1911,16 +1907,12 @@ JYUSHO,ja,住所
 JYUSHO,en,address
 KITCHEN,ja,キッチン
 KITCHEN,en,kitchen
-HIMOGO_WASHA,ja,誤語話者
-HIMOGO_WASHA,en,mispronouncer
 LAW,ja,法律
 LAW,en,law
 KIMETSU_NO_YAIBA,ja,鬼滅の刃
 KIMETSU_NO_YAIBA,en,Demon Slayer
 HOME_APPLIANCE,ja,家電
 HOME_APPLIANCE,en,home appliance
-HIMOGOHAWASHA,ja,誤語派話者
-HIMOGOHAWASHA,en,variant mispronouncer
 AGRICULTURE,ja,農業
 AGRICULTURE,en,agriculture
 HISTORICAL_PROGRAM,ja,歴史番組
@@ -1985,8 +1977,6 @@ KARAOKE,ja,カラオケ
 KARAOKE,en,karaoke
 BEAUTY,ja,美
 BEAUTY,en,beauty
-HIMOBOGO_WASEISHA,ja,誤母語和製者
-HIMOBOGO_WASEISHA,en,wasei-go speaker with L1 interference
 FORMAL,ja,フォーマル
 FORMAL,en,formal
 LOVER,ja,恋人
@@ -2585,8 +2575,6 @@ GOOGLE_HOME,ja,Google Home
 GOOGLE_HOME,en,Google Home
 HATON,ja,ハッと音
 HATON,en,startling sound
-HIMOTOBA_WAKASHA,ja,ひも言葉話者
-HIMOTOBA_WAKASHA,en,rope-language speaker
 HOIKU,ja,保育
 HOIKU,en,childcare
 IHCWAY,ja,IHCWAY
