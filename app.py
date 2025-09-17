@@ -22,10 +22,11 @@ UI_STR = {
         "dup_warning": "重複した MishearID が見つかりました:",
         "help_title": "使い方",
         "help_usage": (
-            "- 目的に応じてタグと環境を選び、AND/OR ルールを設定します。未選択のままにすると全件にマッチします。\n"
-            "- **差分を強調** を ON にすると、Src/Tgt の置換部分だけを **太字** で強調します（表示が遅くなる場合があります）。\n"
-            "- フィルタを適用 を押して結果を更新します。\n"
-            "- 表では `Src`=話し手の意図、`Tgt`=聞き手の解釈 を示します。長いテキストは折り返して表示されます。"
+            "- タグ/環境を選び、AND/OR ルールを設定します（未選択は全件ヒット）。\n"
+            "- 『フィルタを適用』を押して結果を更新します。\n"
+            "- Results では『差分を強調』のトグルと『列の幅』ラジオ（small/medium/large, Src/Tgt 共通）を変更できます。\n"
+            "- 差分強調は Src/Tgt の置換部分のみを **** で強調します（一部環境で表示が遅くなる場合がありますが、計算はキャッシュされます）。\n"
+            "- 表では `Src`=話し手の意図、`Tgt`=聞き手の解釈 を示します。"
         ),
     "src_width_label": "Src列の幅",
     "tgt_width_label": "Tgt列の幅",
@@ -52,10 +53,11 @@ UI_STR = {
         "dup_warning": "Duplicate MishearIDs found:",
         "help_title": "How to use",
         "help_usage": (
-            "- Pick Tags and Environments, then set the AND/OR rule. Leaving them empty matches all rows.\n"
-            "- Turn on Emphasize diff to highlight only the replaced parts in Src/Tgt (may be slower).\n"
+            "- Pick Tags and Environments, then set the AND/OR rule (leaving them empty matches all rows).\n"
             "- Press Apply filters to update the results.\n"
-            "- In the table, `Src` is the intended utterance; `Tgt` is the listener’s interpretation. Long text wraps."
+            "- In Results you can toggle Emphasize diff and choose Column width (small/medium/large; common for Src/Tgt).\n"
+            "- Diff highlights only replaced segments in Src/Tgt. It may be slower on big tables, but the computation is cached.\n"
+            "- In the table, `Src` is the intended utterance; `Tgt` is the listener’s interpretation."
         ),
     "src_width_label": "Src width",
     "tgt_width_label": "Tgt width",

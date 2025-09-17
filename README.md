@@ -120,32 +120,34 @@ make run
 - Environments: choose one or more environment labels.
 - Env rule: AND = must include all, OR = include any.
 
-3) Diff emphasis (optional)
-- Toggle “Emphasize diff” to highlight differences between Src and Tgt.
-- Only the replaced segments are emphasized; the app uses difflib under the hood.
-- Note: Diff emphasis is slower on large result sets. If it feels sluggish, turn it off or narrow your filters.
+3) Apply
+- Click “Apply filters” to update the results table.
 
-4) Apply
-- Click “Apply filters” to update the results.
+4) Adjust Results (optional)
+- Emphasize diff: toggle to highlight differences between `Src` and `Tgt`.
+  - Only replaced segments are emphasized; the app uses difflib.
+  - Computation is cached; still, rendering may feel slower on very large tables.
+- Column width: choose `small` / `medium` / `large` (applies to both `Src` and `Tgt`).
+- Changes in this section apply immediately; no need to re-apply filters.
 
 ### Results table
-- Shows rows whose `MishearID` matches both the Tag and Environment conditions.
+- Shows rows whose `MishearID` matches both Tag and Environment conditions under the selected AND/OR rules.
 - Important columns:
   - `Src`: intended word/utterance by the speaker
   - `Tgt`: listener’s interpretation
-  - `MishearID`, `URL`, plus other metadata columns
+  - `MishearID`, `URL`, and other metadata columns
 - With Diff ON, replaced segments in `Src`/`Tgt` are wrapped in `** bold **` for quick visual scanning.
-- Long text is wrapped; columns `Src` and `Tgt` are shown with a wider width by default.
+- Long text wraps; `Src` and `Tgt` column width can be adjusted via the radio.
 
 ### Other tabs
 - Stats: counts by source directory and a total row count.
 - Progress: corpus row count over time (derived from Git history of `data/mishearing`).
 
 ### Tips / troubleshooting
-- Slow rendering: Diff mode performs per-row text comparison and Markdown rendering; disable the toggle or apply stricter filters.
+- Slow rendering: Diff mode computes and renders marked text; the diff computation is cached, but very large tables can still be slower.
 - No difference shown: Diff only highlights replace operations; if strings are identical, nothing is emphasized.
-- Cache freshness: File loads are cached; if you add new CSVs locally and don’t see them, try restarting the app.
-- Column widths: `Src` / `Tgt` use larger width and wrapping by default; adjust in `app.py` via `st.column_config.*Column(width=..., wrap_text=True)` if you prefer a fixed pixel width.
+- Cache freshness: CSV loads and diff results are cached; if you add new CSVs locally and don’t see updates, restart the app.
+- Column width: Use the radio in Results to switch between `small`/`medium`/`large` for `Src`/`Tgt`.
 
 ---
 
