@@ -1587,8 +1587,6 @@ BEAUTY_SALON,ja,美容院
 BEAUTY_SALON,en,beauty salon
 MEDICATION_GUIDANCE,ja,薬剤指導
 MEDICATION_GUIDANCE,en,medication guidance
-IN_STORE_ANNOUNCEMENT,ja,店内アナウンス
-IN_STORE_ANNOUNCEMENT,en,in-store announcement
 SPELL_CHECK,ja,スペルチェック
 SPELL_CHECK,en,spell check
 BRAND,ja,ブランド
@@ -1829,8 +1827,6 @@ YAOYA,ja,八百屋
 YAOYA,en,greengrocer
 HANKAGAI,ja,繁華街
 HANKAGAI,en,shopping district
-ANNAUNSU,ja,アナウンス
-ANNAUNSU,en,announcement
 ADJECTIVE,ja,形容詞
 ADJECTIVE,en,adjective
 DRUGSTORE,ja,ドラッグストア
@@ -1865,8 +1861,6 @@ RENAI,ja,恋愛
 RENAI,en,romance
 KOTSU,ja,コツ
 KOTSU,en,knack
-KOUKYOU_ANNOUNCE,ja,公共アナウンス
-KOUKYOU_ANNOUNCE,en,public announcement
 NANGO,ja,難語
 NANGO,en,difficult word
 DOKUSHO,ja,読書
@@ -1895,8 +1889,6 @@ DENCHI,ja,電池
 DENCHI,en,battery
 ZATSUDAN,ja,雑談
 ZATSUDAN,en,chat
-ANOUNSU,ja,アナウンス
-ANOUNSU,en,announcement
 PHILOSOPHY,ja,哲学
 PHILOSOPHY,en,philosophy
 ENGETSUBU,ja,演劇部
@@ -1919,8 +1911,6 @@ KOIBITO,ja,恋人
 KOIBITO,en,lover
 GINKO,ja,銀行
 GINKO,en,bank
-ANNOUNCE,ja,アナウンス
-ANNOUNCE,en,announcement
 LIVE,ja,ライブ
 LIVE,en,live
 KONBINI,ja,コンビニ
