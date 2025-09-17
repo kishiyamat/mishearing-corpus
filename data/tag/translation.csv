@@ -1179,8 +1179,6 @@ PROGRAMMING,ja,プログラミング
 PROGRAMMING,en,programming
 INFECTIOUS_DISEASE,ja,感染症
 INFECTIOUS_DISEASE,en,infectious disease
-SHOKUBAN,ja,職場
-SHOKUBAN,en,workplace
 TENIN,ja,店員
 TENIN,en,store clerk
 KAIMONO,ja,買い物
@@ -1447,8 +1445,6 @@ MEDICAL_SAFETY,ja,医療安全
 MEDICAL_SAFETY,en,medical safety
 ORDER_MISS,ja,注文ミス
 ORDER_MISS,en,order mistake
-SHOKUBA,ja,職場
-SHOKUBA,en,workplace
 YOUTUBER,ja,ユーチューバー
 YOUTUBER,en,YouTuber
 TABLE_NUMBER,ja,テーブル番号
@@ -1461,8 +1457,6 @@ MEDICAL_ACCIDENT,ja,医療事故
 MEDICAL_ACCIDENT,en,medical accident
 SCIENCE,ja,科学
 SCIENCE,en,science
-WORKPLACE_COMMUNICATION,ja,職場コミュニケーション
-WORKPLACE_COMMUNICATION,en,workplace communication
 MANSION,ja,マンション
 MANSION,en,mansion
 REAL_ESTATE,ja,不動産
@@ -1637,8 +1631,6 @@ BATHING,ja,入浴
 BATHING,en,bathing
 EKIDEN,ja,駅伝
 EKIDEN,en,ekiden
-SHOKUBAJO,ja,職場
-SHOKUBAJO,en,workplace
 GAICHU,ja,害虫
 GAICHU,en,pest
 SHOKUDOU,ja,食堂
@@ -1691,8 +1683,6 @@ KOTOBA_ASOBI,ja,言葉遊び
 KOTOBA_ASOBI,en,word play
 REPORT,ja,報告
 REPORT,en,report
-SHOKUBAJOU,ja,職場上
-SHOKUBAJOU,en,on the job
 COMEDIAN,ja,芸人
 COMEDIAN,en,comedian
 DETO,ja,デート
@@ -2177,16 +2167,12 @@ KAJI,ja,家事
 KAJI,en,housework
 HOUSOU,ja,放送
 HOUSOU,en,broadcast
-SYOKUBA,ja,職場
-SYOKUBA,en,workplace
 FOREIGN_NAME,ja,外国名
 FOREIGN_NAME,en,foreign name
 MOUNTAINEERING,ja,登山
 MOUNTAINEERING,en,mountaineering
 EXAMINATION,ja,試験
 EXAMINATION,en,examination
-SHOKUBAI,ja,職場
-SHOKUBAI,en,workplace
 KOUHAKU_UTA_GASSEN,ja,紅白歌合戦
 KOUHAKU_UTA_GASSEN,en,Kouhaku Uta Gassen
 RYOKO,ja,旅行
