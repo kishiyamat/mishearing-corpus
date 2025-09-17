@@ -2053,8 +2053,6 @@ SHINBUN,ja,新聞
 SHINBUN,en,newspaper
 RYOURI,ja,料理
 RYOURI,en,cooking
-LAW_FIRM,ja,法律事務所
-LAW_FIRM,en,law firm
 FURO,ja,風呂
 FURO,en,bath
 GARAIGO,ja,外来語
@@ -2361,8 +2359,6 @@ SCENERY,ja,風景
 SCENERY,en,scenery
 SEIFU_KANKOUBUTSU,ja,政府刊行物
 SEIFU_KANKOUBUTSU,en,government publications
-LEGAL_SCIENCE,ja,法学
-LEGAL_SCIENCE,en,legal science
 ZOUSEN,ja,造船
 ZOUSEN,en,shipbuilding
 BUDGET,ja,予算
@@ -2389,8 +2385,6 @@ BUNKA,ja,文化
 BUNKA,en,culture
 BUTSURYU,ja,物流
 BUTSURYU,en,logistics
-LEGAL_AFFAIRS,ja,法務
-LEGAL_AFFAIRS,en,legal affairs
 RIKA,ja,理科
 RIKA,en,science
 TOSHI,ja,都市
@@ -2425,8 +2419,6 @@ LOGISTICS,ja,物流
 LOGISTICS,en,logistics
 SHINGIKAI,ja,審議会
 SHINGIKAI,en,council
-HOMU,ja,法務
-HOMU,en,legal affairs
 MOJIOKOSHI,ja,文字起こし
 MOJIOKOSHI,en,transcription
 MATERIALS,ja,資料
@@ -2515,16 +2507,12 @@ OBSTETRICS,ja,産科
 OBSTETRICS,en,obstetrics
 REPORTING,ja,報告
 REPORTING,en,reporting
-HORITSU,ja,法律
-HORITSU,en,law
 DISASTER_RESPONSE,ja,災害対応
 DISASTER_RESPONSE,en,disaster response
 LOCAL_AUTONOMY,ja,地方自治
 LOCAL_AUTONOMY,en,local autonomy
 SHAKAI_HOSHOU,ja,社会保障
 SHAKAI_HOSHOU,en,social security
-HOU_KAISEI,ja,法改正
-HOU_KAISEI,en,legal revision
 ARTS,ja,芸術
 ARTS,en,arts
 GAIKYOU,ja,概況
@@ -2535,8 +2523,6 @@ RECONSTRUCTION,ja,復興
 RECONSTRUCTION,en,reconstruction
 KENKYUU,ja,研究
 KENKYUU,en,research
-LEGAL,ja,法務
-LEGAL,en,legal
 HODO,ja,報道
 HODO,en,news reporting
 COPYRIGHT,ja,著作権
@@ -2591,8 +2577,6 @@ COMMUNITY_ACTIVITY,ja,地域活動
 COMMUNITY_ACTIVITY,en,community activity
 REGION,ja,地域
 REGION,en,region
-HOU_RITSU,ja,法律
-HOU_RITSU,en,law
 DISASTER_RECONSTRUCTION,ja,災害復興
 DISASTER_RECONSTRUCTION,en,disaster reconstruction
 KAIDAN,ja,会談
@@ -2609,10 +2593,6 @@ MEETINGS,ja,会議
 MEETINGS,en,meetings
 EARTH_SCIENCE,ja,地球科学
 EARTH_SCIENCE,en,earth science
-HOUZOU,ja,法蔵
-HOUZOU,en,legal archive
-HOURITSU,ja,法律
-HOURITSU,en,law
 DISASTER_COUNTERMEASURES,ja,災害対策
 DISASTER_COUNTERMEASURES,en,disaster countermeasures
 MACHIZUKURI,ja,まちづくり
@@ -2659,8 +2639,6 @@ PENSION,ja,年金
 PENSION,en,pension
 ROUDOU,ja,労働
 ROUDOU,en,labor
-HOUMU,ja,法務
-HOUMU,en,legal affairs
 SHAKAI_FUKUSHI,ja,社会福祉
 SHAKAI_FUKUSHI,en,social welfare
 USA,ja,アメリカ
