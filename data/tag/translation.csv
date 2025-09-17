@@ -329,8 +329,6 @@ SOCCER,ja,サッカー
 SOCCER,en,soccer
 ELDERLY,ja,高齢者
 ELDERLY,en,elderly
-KATAKANA_WORD,ja,カタカナ語
-KATAKANA_WORD,en,katakana word
 TWITCH,ja,ツイッチ
 TWITCH,en,Twitch
 KOKUGO_JITEN,ja,国語辞典
@@ -897,8 +895,6 @@ ENGLISH_CLASS,ja,英語クラス
 ENGLISH_CLASS,en,English class
 HOBO_NICHI,ja,ほぼ日
 HOBO_NICHI,en,Hobo Nichi
-KATAKANA_EIGO,ja,カタカナ英語
-KATAKANA_EIGO,en,katakana English
 NEWSPAPER,ja,新聞
 NEWSPAPER,en,newspaper
 FOREIGN_LANGUAGE,ja,外国語
@@ -1125,8 +1121,6 @@ ECONOMY,ja,経済
 ECONOMY,en,economy
 IZAKAYA,ja,居酒屋
 IZAKAYA,en,izakaya
-KATAKANA_GO,ja,カタカナ語
-KATAKANA_GO,en,katakana word
 SHIGA,ja,滋賀
 SHIGA,en,Shiga
 FUKUSYOU,ja,復唱
@@ -1231,8 +1225,6 @@ FALSE_ACCUSATION,ja,冤罪
 FALSE_ACCUSATION,en,false accusation
 KOKOUSEI,ja,高校生
 KOKOUSEI,en,high school student
-KATAKANA,ja,カタカナ
-KATAKANA,en,katakana
 SEKIKUGYO,ja,接客業
 SEKIKUGYO,en,customer service
 AMERICAN_LIFE,ja,アメリカ生活
@@ -1279,8 +1271,6 @@ OPERATOR_TRAINING,ja,オペレーター研修
 OPERATOR_TRAINING,en,operator training
 MCKINSEY,ja,マッキンゼー
 MCKINSEY,en,McKinsey
-KATAKANA_ENGLISH,ja,カタカナ英語
-KATAKANA_ENGLISH,en,katakana English
 SAFETY_MANAGEMENT,ja,安全管理
 SAFETY_MANAGEMENT,en,safety management
 DIGITALIZATION,ja,デジタル化
@@ -1767,8 +1757,6 @@ DESAIN,ja,デザイン
 DESAIN,en,design
 TENJIKAI,ja,展示会
 TENJIKAI,en,exhibition
-KATAKANAGO,ja,カタカナ語
-KATAKANAGO,en,katakana word
 DAIGAKU,ja,大学
 DAIGAKU,en,university
 KASHI,ja,歌詞
@@ -2011,8 +1999,6 @@ RYOURI,ja,料理
 RYOURI,en,cooking
 FURO,ja,風呂
 FURO,en,bath
-GARAIGO,ja,外来語
-GARAIGO,en,loanword
 KARADA,ja,身体
 KARADA,en,body
 AWARD_CEREMONY,ja,授賞式
@@ -2115,8 +2101,6 @@ GOVERNANCE,ja,ガバナンス
 GOVERNANCE,en,governance
 KANYOKU,ja,慣用句
 KANYOKU,en,idiom
-LOANWORDS,ja,外来語
-LOANWORDS,en,loanwords
 KENKOU,ja,健康
 KENKOU,en,health
 FUKKOU,ja,復興
@@ -2541,8 +2525,6 @@ COMMITTEE,ja,委員会
 COMMITTEE,en,committee
 KABUSHIKI,ja,株式
 KABUSHIKI,en,stock
-KATAKANA_WORDS,ja,カタカナ語
-KATAKANA_WORDS,en,katakana words
 NEWS_REPORTING,ja,ニュース報道
 NEWS_REPORTING,en,news reporting
 PENSION,ja,年金
