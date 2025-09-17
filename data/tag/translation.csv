@@ -673,8 +673,6 @@ YOSHIZAWAKAYOKO,ja,吉沢京子
 YOSHIZAWAKAYOKO,en,Yoshizawa Kyoko
 CREATION,ja,創作
 CREATION,en,creation
-SURNAME,ja,姓
-SURNAME,en,surname
 GYOMU_KAIZEN,ja,業務改善
 GYOMU_KAIZEN,en,work improvement
 IR,ja,IR
@@ -1063,8 +1061,6 @@ SHUSHOKU_KATSUDO,ja,就職活動
 SHUSHOKU_KATSUDO,en,job hunting
 NEAR_MISS,ja,ヒヤリハット
 NEAR_MISS,en,near miss
-FAMILY_NAME,ja,姓
-FAMILY_NAME,en,family name
 POSTER,ja,ポスター
 POSTER,en,poster
 IDIOM,ja,慣用句
@@ -2555,10 +2551,6 @@ MULTICULTURAL,ja,多文化
 MULTICULTURAL,en,multicultural
 MULTILINGUAL,ja,多言語
 MULTILINGUAL,en,multilingual
-MYOUJI,ja,名字
-MYOUJI,en,surname
-MYOJI,ja,苗字
-MYOJI,en,surname
 MOTOHARU_SANO,ja,佐野元春
 MOTOHARU_SANO,en,Motoharu Sano
 NATIONAL_PHENOMENON,ja,国民的現象
@@ -2623,7 +2615,7 @@ ORDER_ACCEPTANCE,ja,注文受付
 ORDER_ACCEPTANCE,en,order acceptance
 SHIP,ja,出荷
 SHIP,en,shipping
-LAST_NAME,ja,姓
+LAST_NAME,ja,名字
 LAST_NAME,en,last name
 CUSTOMER_SUPPORT,ja,カスタマーサポート
 CUSTOMER_SUPPORT,en,customer support
