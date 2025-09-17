@@ -117,8 +117,6 @@ HOME,ja,家
 HOME,en,home
 PRODUCT_NUMBER,ja,品番
 PRODUCT_NUMBER,en,product number
-EARLY_CHILDHOOD,ja,幼児期
-EARLY_CHILDHOOD,en,early childhood
 NAVIGATION,ja,ナビゲーション
 NAVIGATION,en,navigation
 NUMBER,ja,数字
@@ -211,8 +209,6 @@ EMAIL_ADDRESS,ja,メールアドレス
 EMAIL_ADDRESS,en,email address
 ACTION,ja,アクション
 ACTION,en,action
-CHILDCARE,ja,育児
-CHILDCARE,en,childcare
 POPS,ja,ポップス
 POPS,en,pops
 DISABILITY_WELFARE,ja,障害福祉
@@ -283,8 +279,6 @@ TYPOGRAPHY,ja,タイポグラフィ
 TYPOGRAPHY,en,typography
 GAME,ja,ゲーム
 GAME,en,game
-CHILDREN,ja,子供
-CHILDREN,en,children
 SCHOOL_LIFE,ja,学校生活
 SCHOOL_LIFE,en,school life
 HIGH_FREQUENCY,ja,高周波
@@ -413,8 +407,6 @@ KORENSHA_SHISSETSU,ja,高齢者施設
 KORENSHA_SHISSETSU,en,elderly facility
 RECREATION,ja,レクリエーション
 RECREATION,en,recreation
-BILINGUAL_CHILD_REARING,ja,バイリンガル子育て
-BILINGUAL_CHILD_REARING,en,bilingual child rearing
 PROGRAM_COMMENTARY,ja,番組解説
 PROGRAM_COMMENTARY,en,program commentary
 PARTY,ja,パーティー
@@ -587,8 +579,6 @@ BAITO,ja,バイト
 BAITO,en,part-time job
 KAIGO_TAKUSHI,ja,介護タクシー
 KAIGO_TAKUSHI,en,care taxi
-KODOMO,ja,子ども
-KODOMO,en,child
 MENKYO,ja,免許
 MENKYO,en,license
 FACILITY,ja,施設
@@ -995,16 +985,12 @@ NEW_EMPLOYEE,ja,新入社員
 NEW_EMPLOYEE,en,new employee
 CHEER_UP,ja,応援
 CHEER_UP,en,cheer up
-KODOMU,ja,子ども
-KODOMU,en,child
 NORTH_AMERICAN_LIFE,ja,北米生活
 NORTH_AMERICAN_LIFE,en,North American life
 COMIC,ja,コミック
 COMIC,en,comic
 REPEAT_CONFIRMATION,ja,繰り返し確認
 REPEAT_CONFIRMATION,en,repeat confirmation
-CHILD_REARING,ja,子育て
-CHILD_REARING,en,child rearing
 KOKYAKU_TAIOU,ja,顧客対応
 KOKYAKU_TAIOU,en,customer service
 WORD_PLAY,ja,言葉遊び
@@ -1063,8 +1049,6 @@ MOM,ja,母親
 MOM,en,mom
 DENWA_TAIOU,ja,電話対応
 DENWA_TAIOU,en,phone support
-IKUJI,ja,育児
-IKUJI,en,childcare
 ILLUSTRATION,ja,イラスト
 ILLUSTRATION,en,illustration
 CHILDHOOD,ja,幼少期
@@ -1123,8 +1107,6 @@ SHIGA,ja,滋賀
 SHIGA,en,Shiga
 FUKUSYOU,ja,復唱
 FUKUSYOU,en,repeat
-KOSODATE,ja,子育て
-KOSODATE,en,child rearing
 HEALTH_CHECKUP,ja,健康診断
 HEALTH_CHECKUP,en,health checkup
 FOOD_AND_DRINK,ja,飲食
@@ -1207,8 +1189,6 @@ L_AND_R,ja,LとR
 L_AND_R,en,L and R
 POLICE,ja,警察
 POLICE,en,police
-INFANT,ja,乳児
-INFANT,en,infant
 CONSONANT,ja,子音
 CONSONANT,en,consonant
 EATING_OUT,ja,外食
@@ -1499,8 +1479,6 @@ CONSTRUCTION,ja,建設
 CONSTRUCTION,en,construction
 TECHNICAL_TERM,ja,専門用語
 TECHNICAL_TERM,en,technical term
-PARENT_CHILD,ja,親子
-PARENT_CHILD,en,parent-child
 SEKIKYAKU,ja,接客
 SEKIKYAKU,en,customer service
 EXPLANATION,ja,説明
@@ -1787,8 +1765,6 @@ PERSONAL_COMPUTER,ja,パソコン
 PERSONAL_COMPUTER,en,personal computer
 IGAKU_YOUGO,ja,医学用語
 IGAKU_YOUGO,en,medical term
-OYAKO,ja,親子
-OYAKO,en,parent and child
 ART,ja,アート
 ART,en,art
 HITORIGOTO,ja,独り言
@@ -2653,8 +2629,6 @@ YOJIGO,ja,四字語
 YOJIGO,en,four-character idiom
 SPANISH,ja,スペイン語
 SPANISH,en,Spanish
-INFANT_LANGUAGE,ja,幼児語
-INFANT_LANGUAGE,en,infant language
 IDENTITY_VERIFICATION,ja,本人確認
 IDENTITY_VERIFICATION,en,identity verification
 COLOR,ja,色
