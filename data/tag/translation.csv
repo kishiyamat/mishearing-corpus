@@ -2147,8 +2147,6 @@ NATIONAL_DIET,ja,国会
 NATIONAL_DIET,en,national diet
 KANKOU,ja,観光
 KANKOU,en,tourism
-DISASTER_MEASURES,ja,災害対策
-DISASTER_MEASURES,en,disaster measures
 BUTSURYUU,ja,物流
 BUTSURYUU,en,logistics
 RUIJION,ja,類義語
@@ -2183,8 +2181,6 @@ KIGYOU,ja,企業
 KIGYOU,en,enterprise
 ROUDOU_ANZEN,ja,労働安全
 ROUDOU_ANZEN,en,occupational safety
-SAIGAI,ja,災害
-SAIGAI,en,disaster
 TECHNICAL,ja,技術的
 TECHNICAL,en,technical
 SEISAKU,ja,政策
@@ -2209,8 +2205,6 @@ GUNJI,ja,軍事
 GUNJI,en,military
 KENSAA,ja,検査
 KENSAA,en,inspection
-DISASTER_PREVENTION,ja,防災
-DISASTER_PREVENTION,en,disaster prevention
 DEFENSE,ja,防衛
 DEFENSE,en,defense
 NANDOKU_GO,ja,難読語
@@ -2327,8 +2321,6 @@ HIGU,ja,被具
 HIGU,en,equipment
 ZAISAN,ja,財産
 ZAISAN,en,assets
-SAIGAI_TAIOU,ja,災害対応
-SAIGAI_TAIOU,en,disaster response
 POLITICAL_PARTY,ja,政党
 POLITICAL_PARTY,en,political party
 BUNKA,ja,文化
@@ -2415,8 +2407,6 @@ POLITICS,ja,政治
 POLITICS,en,politics
 GEOGRAPHY,ja,地理
 GEOGRAPHY,en,geography
-SAIGAI_TAIYOU,ja,災害対応
-SAIGAI_TAIYOU,en,disaster response
 STAFF_ASSIGNMENT,ja,人員配置
 STAFF_ASSIGNMENT,en,staff assignment
 HOUSING,ja,住宅
@@ -2453,8 +2443,6 @@ OBSTETRICS,ja,産科
 OBSTETRICS,en,obstetrics
 REPORTING,ja,報告
 REPORTING,en,reporting
-DISASTER_RESPONSE,ja,災害対応
-DISASTER_RESPONSE,en,disaster response
 LOCAL_AUTONOMY,ja,地方自治
 LOCAL_AUTONOMY,en,local autonomy
 SHAKAI_HOSHOU,ja,社会保障
@@ -2503,8 +2491,6 @@ TAX_SYSTEM,ja,税制
 TAX_SYSTEM,en,tax system
 ENVIRONMENT,ja,環境
 ENVIRONMENT,en,environment
-DISASTER_RECOVERY,ja,災害復旧
-DISASTER_RECOVERY,en,disaster recovery
 INDUSTRY,ja,産業
 INDUSTRY,en,industry
 CHIIKI_KATSUDO,ja,地域活動
@@ -2523,24 +2509,18 @@ COMMUNITY_ACTIVITY,ja,地域活動
 COMMUNITY_ACTIVITY,en,community activity
 REGION,ja,地域
 REGION,en,region
-DISASTER_RECONSTRUCTION,ja,災害復興
-DISASTER_RECONSTRUCTION,en,disaster reconstruction
 KAIDAN,ja,会談
 KAIDAN,en,talks
 KOKUSAI_JOUSEI,ja,国際情勢
 KOKUSAI_JOUSEI,en,international affairs
 HOU-GAKU,ja,法学
 HOU-GAKU,en,jurisprudence
-SAIGAI_TAISAKU,ja,災害対策
-SAIGAI_TAISAKU,en,disaster countermeasures
 INSURANCE,ja,保険
 INSURANCE,en,insurance
 MEETINGS,ja,会議
 MEETINGS,en,meetings
 EARTH_SCIENCE,ja,地球科学
 EARTH_SCIENCE,en,earth science
-DISASTER_COUNTERMEASURES,ja,災害対策
-DISASTER_COUNTERMEASURES,en,disaster countermeasures
 MACHIZUKURI,ja,まちづくり
 MACHIZUKURI,en,community development
 ENERGY,ja,エネルギー
@@ -2551,8 +2531,6 @@ HOKOKU,ja,報告
 HOKOKU,en,report
 KANYOUKU,ja,慣用句
 KANYOUKU,en,idiom
-DISASTER_COUNTERMEASURE,ja,災害対策
-DISASTER_COUNTERMEASURE,en,disaster countermeasure
 JINJI,ja,人事
 JINJI,en,personnel
 INSATSU,ja,印刷
@@ -2603,8 +2581,6 @@ RIREKISHO,ja,履歴書
 RIREKISHO,en,resume
 SYAKAI_FUKUSI,ja,社会福祉
 SYAKAI_FUKUSI,en,social welfare
-SAIGAI_TAIO,ja,災害対応
-SAIGAI_TAIO,en,disaster response
 SMALL_MEDIUM_ENTERPRISE,ja,中小企業
 SMALL_MEDIUM_ENTERPRISE,en,small and medium enterprise
 BROADCASTING,ja,放送
