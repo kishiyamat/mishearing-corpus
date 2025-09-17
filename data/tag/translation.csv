@@ -39,8 +39,6 @@ DATE,ja,日付
 DATE,en,date
 ROCK,ja,ロック
 ROCK,en,rock
-TELEVISION_TOKYO,ja,テレビ東京
-TELEVISION_TOKYO,en,Television Tokyo
 PROPER_NOUN,ja,固有名詞
 PROPER_NOUN,en,proper noun
 HIRAGANA,ja,ひらがな
@@ -289,8 +287,6 @@ CHILDREN,ja,子供
 CHILDREN,en,children
 SCHOOL_LIFE,ja,学校生活
 SCHOOL_LIFE,en,school life
-TV_BANGUMI,ja,テレビ番組
-TV_BANGUMI,en,TV program
 HIGH_FREQUENCY,ja,高周波
 HIGH_FREQUENCY,en,high frequency
 TEAM_ACTIVITY,ja,チーム活動
@@ -595,8 +591,6 @@ KAIGO_TAKUSHI,ja,介護タクシー
 KAIGO_TAKUSHI,en,care taxi
 KODOMO,ja,子ども
 KODOMO,en,child
-TV_PROGRAM,ja,テレビ番組
-TV_PROGRAM,en,TV program
 MENKYO,ja,免許
 MENKYO,en,license
 FACILITY,ja,施設
@@ -1235,8 +1229,6 @@ DAIGAKU_JUKEN,ja,大学受験
 DAIGAKU_JUKEN,en,university entrance exam
 FALSE_ACCUSATION,ja,冤罪
 FALSE_ACCUSATION,en,false accusation
-TV,ja,テレビ
-TV,en,TV
 KOKOUSEI,ja,高校生
 KOKOUSEI,en,high school student
 KATAKANA,ja,カタカナ
@@ -2079,8 +2071,6 @@ CHOREI,ja,朝礼
 CHOREI,en,morning assembly
 BOOK,ja,本
 BOOK,en,book
-TELEVISION_PROGRAM,ja,テレビ番組
-TELEVISION_PROGRAM,en,TV program
 AMOUNT_OF_MONEY,ja,金額
 AMOUNT_OF_MONEY,en,amount of money
 KOUKYOU,ja,公共
@@ -2101,12 +2091,8 @@ GYOKAI_YOGO,ja,業界用語
 GYOKAI_YOGO,en,industry term
 KAIWA,ja,会話
 KAIWA,en,conversation
-TEREBI,ja,テレビ
-TEREBI,en,television
 MOBILE_PHONE,ja,携帯電話
 MOBILE_PHONE,en,mobile phone
-TEREBI_BANGUMI,ja,テレビ番組
-TEREBI_BANGUMI,en,TV show
 KAJI,ja,家事
 KAJI,en,housework
 HOUSOU,ja,放送
