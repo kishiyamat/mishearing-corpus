@@ -1759,8 +1759,6 @@ MEDIA,ja,メディア
 MEDIA,en,media
 VIDEO_TEN,ja,映像点
 VIDEO_TEN,en,video segment
-TOMODACHI,ja,友達
-TOMODACHI,en,friend
 HIMOGO_SHAKUSHA,ja,誤語釈者
 HIMOGO_SHAKUSHA,en,misinterpretation agent
 UKETSUKE,ja,受付
@@ -1813,8 +1811,6 @@ KOKKAI,ja,国会
 KOKKAI,en,national diet
 SUGAKU,ja,数学
 SUGAKU,en,mathematics
-YUUJIN,ja,友人
-YUUJIN,en,friend
 KOIBITO,ja,恋人
 KOIBITO,en,lover
 GINKO,ja,銀行
@@ -1835,8 +1831,6 @@ GENDAIGO,ja,現代語
 GENDAIGO,en,modern Japanese
 ONSEI,ja,音声
 ONSEI,en,sound
-KAZOKU_YUJIN,ja,家族・友人
-KAZOKU_YUJIN,en,family/friends
 JYUSHO,ja,住所
 JYUSHO,en,address
 KITCHEN,ja,キッチン
@@ -1897,8 +1891,6 @@ RYAKUSHOU,ja,略称
 RYAKUSHOU,en,abbreviation
 GEINO,ja,芸能
 GEINO,en,entertainment
-YUJIN,ja,友人
-YUJIN,en,friend
 TENKIPYOHO,ja,天気予報
 TENKIPYOHO,en,weather forecast
 MISPRONUNCIATION,ja,発音ミス
