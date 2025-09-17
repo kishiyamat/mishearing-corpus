@@ -175,13 +175,11 @@ LYRICS,ja,歌詞
 LYRICS,en,lyrics
 OTA_WARD,ja,大田区
 OTA_WARD,en,Ota Ward
-SEKKAKUGYO,ja,接客業
-SEKKAKUGYO,en,customer service
 ID,ja,iD（電子カード）
 ID,en,iD (electronic card)
 NAME_ORIGIN,ja,名前の由来
 NAME_ORIGIN,en,name origin
-CUSTOMER_SERVICE,ja,顧客サービス
+CUSTOMER_SERVICE,ja,カスタマーサービス
 CUSTOMER_SERVICE,en,customer service
 PRESENTATION,ja,プレゼンテーション
 PRESENTATION,en,presentation
@@ -983,8 +981,6 @@ COMIC,ja,コミック
 COMIC,en,comic
 REPEAT_CONFIRMATION,ja,繰り返し確認
 REPEAT_CONFIRMATION,en,repeat confirmation
-KOKYAKU_TAIOU,ja,顧客対応
-KOKYAKU_TAIOU,en,customer service
 WORD_PLAY,ja,言葉遊び
 WORD_PLAY,en,word play
 PART_TIME_JOB,ja,アルバイト
@@ -1101,8 +1097,6 @@ GOYGEN,ja,語源
 GOYGEN,en,word origin
 SAFETY,ja,安全
 SAFETY,en,safety
-CS_KOJO,ja,CS向上
-CS_KOJO,en,customer satisfaction improvement
 ADHD,ja,注意欠陥・多動性障害
 ADHD,en,ADHD
 KADEN,ja,家電
@@ -1111,8 +1105,6 @@ VOWEL,ja,母音
 VOWEL,en,vowel
 CHOURYOKU_KENSA,ja,聴力検査
 CHOURYOKU_KENSA,en,hearing test
-KYAKU,ja,客
-KYAKU,en,customer
 TOEIC,ja,TOEIC
 TOEIC,en,TOEIC
 PROGRAMMING,ja,プログラミング
@@ -1183,8 +1175,6 @@ FALSE_ACCUSATION,ja,冤罪
 FALSE_ACCUSATION,en,false accusation
 KOKOUSEI,ja,高校生
 KOKOUSEI,en,high school student
-SEKIKUGYO,ja,接客業
-SEKIKUGYO,en,customer service
 AMERICAN_LIFE,ja,アメリカ生活
 AMERICAN_LIFE,en,American life
 ETF,ja,ETF
@@ -1285,8 +1275,6 @@ WORK_EFFICIENCY,ja,業務効率
 WORK_EFFICIENCY,en,work efficiency
 GLOBAL_ISSUE,ja,グローバル課題
 GLOBAL_ISSUE,en,global issue
-SEKKYAKU,ja,接客
-SEKKYAKU,en,customer service
 INTERNATIONAL_FLIGHT,ja,国際便
 INTERNATIONAL_FLIGHT,en,international flight
 HUMAN_SKILL,ja,ヒューマンスキル
@@ -1459,8 +1447,6 @@ CONSTRUCTION,ja,建設
 CONSTRUCTION,en,construction
 TECHNICAL_TERM,ja,専門用語
 TECHNICAL_TERM,en,technical term
-SEKIKYAKU,ja,接客
-SEKIKYAKU,en,customer service
 EXPLANATION,ja,説明
 EXPLANATION,en,explanation
 GROWTH,ja,成長
@@ -2617,8 +2603,6 @@ SHIP,ja,出荷
 SHIP,en,shipping
 LAST_NAME,ja,名字
 LAST_NAME,en,last name
-CUSTOMER_SUPPORT,ja,カスタマーサポート
-CUSTOMER_SUPPORT,en,customer support
 BUSINESS_PHONE,ja,業務用電話
 BUSINESS_PHONE,en,business phone
 AUDITORY_INFORMATION_PROCESSING,ja,聴覚情報処理
@@ -2627,8 +2611,6 @@ KANJI_NOTATION,ja,漢字表記
 KANJI_NOTATION,en,kanji notation
 DEVELOPMENTAL_DISORDER,ja,発達障害
 DEVELOPMENTAL_DISORDER,en,developmental disorder
-CUSTOMER_INFORMATION,ja,顧客情報
-CUSTOMER_INFORMATION,en,customer information
 COUNTERMEASURES,ja,対策
 COUNTERMEASURES,en,countermeasures
 WORK_CONCERNS,ja,業務上の懸念
