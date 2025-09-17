@@ -133,6 +133,7 @@ def make_mask(link_df, key_col, picked_ids, logic_key) -> set[str]:
     return set(link_df[link_df[key_col].isin(picked_ids)]["MishearID"])
 
 
+@st.cache_resource(show_spinner=False)
 def _mark_replace_only(src: str, tgt: str) -> tuple[str, str]:
     if pd.isna(src) or pd.isna(tgt):
         s0 = "" if pd.isna(src) else str(src).replace("\n", " ⏎ ")
@@ -288,7 +289,7 @@ class MishearingApp:
             col_width = st.radio(
                 ui.get("width_label", "Column width"),
                 options=width_opts,
-                index=2,
+                index=1,
                 horizontal=True,
                 key="col_width",
             )
