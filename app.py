@@ -22,9 +22,8 @@ UI_STR = {
         "dup_warning": "重複した MishearID が見つかりました:",
         "help_title": "使い方",
         "help_usage": (
-            "- 言語を選択します。\n"
-            "- タグと環境を選び、AND/OR ルールを設定します。\n"
-            "- Diff を強調を ON にすると、Src/Tgt の置換部分だけを **** で強調します（表示が遅くなる場合があります）。\n"
+            "- 目的に応じてタグと環境を選び、AND/OR ルールを設定します。未選択のままにすると全件にマッチします。\n"
+            "- **差分を強調** を ON にすると、Src/Tgt の置換部分だけを **太字** で強調します（表示が遅くなる場合があります）。\n"
             "- フィルタを適用 を押して結果を更新します。\n"
             "- 表では `Src`=話し手の意図、`Tgt`=聞き手の解釈 を示します。長いテキストは折り返して表示されます。"
         ),
@@ -49,8 +48,7 @@ UI_STR = {
         "dup_warning": "Duplicate MishearIDs found:",
         "help_title": "How to use",
         "help_usage": (
-            "- Choose your language.\n"
-            "- Pick Tags and Environments, then set the AND/OR rule.\n"
+            "- Pick Tags and Environments, then set the AND/OR rule. Leaving them empty matches all rows.\n"
             "- Turn on Emphasize diff to highlight only the replaced parts in Src/Tgt (may be slower).\n"
             "- Press Apply filters to update the results.\n"
             "- In the table, `Src` is the intended utterance; `Tgt` is the listener’s interpretation. Long text wraps."
