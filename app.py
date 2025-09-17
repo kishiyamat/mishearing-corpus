@@ -21,6 +21,7 @@ UI_STR = {
         "stats_total": "合計",
         "stats_total_metric": "総件数",
         "progress_header": "Corpus 行数の推移",
+        "src_tgt_desc": "src は話し手が意図した言葉、tgt は聞き手の解釈です。",
     },
     "en": {
         "tags": "Tags",
@@ -37,6 +38,7 @@ UI_STR = {
         "stats_total": "Total",
         "stats_total_metric": "Total rows",
         "progress_header": "Corpus row count over time",
+        "src_tgt_desc": "src is the intended word/utterance; tgt is the listener's interpretation.",
     },
 }
 
@@ -201,6 +203,9 @@ class MishearingApp:
         # --- main pane --- #
         ui = UI_STR.get(lang, UI_STR["ja"])
         st.header(ui["results"].format(n=len(final_ids)))
+        # Show explanation of src/tgt
+        if "src_tgt_desc" in ui:
+            st.caption(ui["src_tgt_desc"])
         st.dataframe(self.corpus[self.corpus["MishearID"].isin(final_ids)])
 
     def check(self):
