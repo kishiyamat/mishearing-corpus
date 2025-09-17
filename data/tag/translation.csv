@@ -189,8 +189,6 @@ CUSTOMER_SERVICE,ja,顧客サービス
 CUSTOMER_SERVICE,en,customer service
 PRESENTATION,ja,プレゼンテーション
 PRESENTATION,en,presentation
-HOCHOOKI,ja,補聴器
-HOCHOOKI,en,hearing aid
 SORA-MIMI,ja,空耳
 SORA-MIMI,en,soramimi
 HIGH_SCHOOL,ja,高校
@@ -1073,8 +1071,6 @@ NYUSHA_SETSUMEIKAI,ja,入社説明会
 NYUSHA_SETSUMEIKAI,en,company orientation
 STAGE,ja,舞台
 STAGE,en,stage
-HOCHOKI,ja,補聴器
-HOCHOKI,en,hearing aid
 ANIMAL_BEHAVIOR,ja,動物行動
 ANIMAL_BEHAVIOR,en,animal behavior
 MOM,ja,母親
@@ -1163,8 +1159,6 @@ CS_KOJO,ja,CS向上
 CS_KOJO,en,customer satisfaction improvement
 ADHD,ja,注意欠陥・多動性障害
 ADHD,en,ADHD
-HOCHOUKI,ja,補聴器
-HOCHOUKI,en,hearing aid
 KADEN,ja,家電
 KADEN,en,home appliances
 VOWEL,ja,母音
@@ -1203,8 +1197,6 @@ MODEL,ja,モデル
 MODEL,en,model
 HIRYOU,ja,肥料
 HIRYOU,en,fertilizer
-HOCHOU_KI,ja,補聴器
-HOCHOU_KI,en,hearing aid
 GENGO_SHOGAI,ja,言語障害
 GENGO_SHOGAI,en,language disorder
 MEAL,ja,食事
