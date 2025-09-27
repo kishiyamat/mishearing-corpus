@@ -33,6 +33,8 @@ datapackage.json
 
 .streamlit/secrets.toml
 
-resource/chive-1.3-mc5_gensim/
-scripts/asa2025/
+# asa205で使う辞書
+resource/chive-1.3-mc5_gensim
 
+# asa2025で使うスクリプト
+scripts/asa2025/

@@ -71,6 +71,8 @@ UI_STR = {
     },
 }
 
+from scripts.asa2025.extract_word_pairs import extract_word_mishear_pairs
+
 def extract_dir(path_str: str) -> str:
     """
     data/mishearing/<DIR_NAME>/file.csv から <DIR_NAME> を取り出す。
@@ -353,9 +355,7 @@ st.set_page_config(
     page_icon="📂",
 )
 
-# CSS によるフォント指定は不要（デフォルトでサンセリフ）。追加の表スタイルも撤去。
-
-main_tab, stats_tab, progress_tab, disclaimer_tab = st.tabs(["Viewer", "Stats", "Progress", "Disclaimer"])
+main_tab, stats_tab, progress_tab, disclaimer_tab, extractor_tab = st.tabs(["Viewer", "Stats", "Progress", "Disclaimer", "Extractor"])
 
 with main_tab:
     main()
@@ -500,3 +500,11 @@ with disclaimer_tab:
                 ]
             )
         )
+
+with extractor_tab:
+    st.subheader("Extractor")
+    sample_df = df
+    df = extract_word_mishear_pairs(sample_df)
+    # save to resource directory
+    output_path = "resource/extracted_word_pairs.csv"
+    df.to_csv(output_path, index=False)
