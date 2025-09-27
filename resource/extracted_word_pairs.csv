@@ -1718,7 +1718,7 @@ index,MishearID,Src,Tgt,Src_romaji,Tgt_romaji,romaji_edit_distance,in_word_vecto
 3671,www_1101_com_m_iimatugai_2762_html_002,谷,種,tani,tane,0.25,True,0.1033813
 3672,www_1101_com_m_iimatugai_2762_html_003,ガンガン,顔面,gangan,ganmen,0.3333333333333333,True,0.16936852
 3677,www_1101_com_iimatugai_archive_more071024_002,忙しい,勇ましい,isogashii,isamashii,0.2222222222222222,True,0.098767824
-3683,www_1101_com_iimatugai_archive_more071024_008,北朝鮮,草津温泉,kitachousen,kusatsuonsen,0.5217391304347826,True,0.063534975
+3683,www_1101_com_iimatugai_archive_more071024_008,草津温泉,北朝鮮,kusatsuonsen,kitachousen,0.5217391304347826,True,0.063534975
 3684,www_1101_com_iimatugai_archive_more071024_009,視力,シロク,shiryoku,shiroku,0.13333333333333333,True,0.058010668
 3686,www_1101_com_iimatugai_archive_more070724_002,大手町,ポーツマス,ootemachi,pootsumasu,0.631578947368421,True,0.12187923
 3687,www_1101_com_iimatugai_archive_more070724_003,兄,ワニ,ani,wani,0.2857142857142857,True,0.15178522
