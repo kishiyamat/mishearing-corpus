@@ -35,6 +35,7 @@ Ensuring the authenticity and quality of the dataset is paramount for its scient
 ## Contents
 - [1. What's inside?](#1-whats-inside)
 - [2. Quick start](#2-quick-start)
+- [2.5. Viewer (Streamlit app)](#25-viewer-streamlit-app)
 - [3. Directory layout](#3-directory-layout)
 - [4. Data model](#4-data-model)
 - [5. Validation workflow](#5-validation-workflow)
@@ -87,6 +88,66 @@ pre-commit install                       # auto-validation on commit
 ```
 
 VS Code users: install **Edit CSV** + **Rainbow CSV** for spreadsheet-like editing.
+
+---
+
+## 2.5. Viewer (Streamlit app)
+
+You can browse and filter the corpus with the built-in Streamlit app.
+
+Run locally:
+
+```bash
+# from the repo root
+python -m venv venv
+. venv/bin/activate
+pip install -r requirements.txt
+
+# start the app
+streamlit run app.py
+# or:
+make run
+```
+
+### How to use
+
+1) Language selector
+- Choose English or 日本語 (Chinese/Korean will fall back to Japanese for now).
+
+2) Select filters
+- Tags: choose one or more tag labels.
+- Tag rule: AND = must include all, OR = include any.
+- Environments: choose one or more environment labels.
+- Env rule: AND = must include all, OR = include any.
+
+3) Apply
+- Click “Apply filters” to update the results table.
+
+4) Adjust Results (optional)
+- Emphasize diff: toggle to mark differences between `Src` and `Tgt`.
+  - Only replaced segments are surrounded by `**` markers (Markdown is NOT rendered in the table).
+  - Computation is cached; still, rendering may feel slower on very large tables.
+- Column width: choose `small` / `medium` / `large` (applies to both `Src` and `Tgt`).
+- Changes in this section apply immediately; no need to re-apply filters.
+
+### Results table
+- Shows rows whose `MishearID` matches both Tag and Environment conditions under the selected AND/OR rules.
+- Important columns:
+  - `Src`: intended word/utterance by the speaker
+  - `Tgt`: listener’s interpretation
+  - `MishearID`, `URL`, and other metadata columns
+- With Diff ON, replaced segments in `Src`/`Tgt` are marked by surrounding `**` (displayed literally; no bold styling in the table).
+- Text wrapping is not supported by the table; use horizontal scroll and/or the column-width radio to adjust visibility.
+
+### Other tabs
+- Stats: counts by source directory and a total row count.
+- Progress: corpus row count over time (derived from Git history of `data/mishearing`).
+
+### Tips / troubleshooting
+- Slow rendering: Diff mode computes marked text; the diff computation is cached, but very large tables can still be slower.
+- No difference shown: Diff only highlights replace operations; if strings are identical, nothing is emphasized.
+- Cache freshness: CSV loads and diff results are cached; if you add new CSVs locally and don’t see updates, restart the app.
+- Column width: Use the radio in Results to switch between `small`/`medium`/`large` for `Src`/`Tgt`.
 
 ---
 
@@ -465,4 +526,53 @@ Read `Makefile` to build the environment.
 sudo apt-get install mecab libmecab-dev mecab-ipadic-utf8
 pip install mecab-python3
 export MECABRC=/etc/mecabrc
+```
+
+## Appendix
+
+### How to Fix Tags
+
+First, review `translation.csv` to check for any duplicate tags that need correction.  
+Next, use `grep` recursively to find all files containing the tags you want to replace.
+
+```sh
+(venv) kishiyamat:~/mishearing-corpus/data/tag (main *=) $ grep -r -E ",(IRYO$|IRYOU)$" .
+
+> ./google_search_denwa_kikimachigai/resoundjp_wisdom.csv:resoundjp_kikimachigai_001,IRYO
+> ./google_search_denwa_kikimachigai/resoundjp_wisdom.csv:resoundjp_kikimachigai_002,IRYO
+> ./google_search_denwa_kikimachigai/resoundjp_wisdom.csv:resoundjp_kikimachigai_003,IRYO
+...
+> ./google_search_shigoto_kikimachigae/kaigo-postseven_196023.csv:kaigo_postseven_196023_001,IRYOU
+> ./google_search_shigoto_kikimachigae/kaigo-postseven_196023.csv:kaigo_postseven_196023_002,IRYOU
+...
+```
+
+Use `grep` to locate all matching lines.  
+To replace these tags with a new value, use `sed` in combination with `find` and the `-exec` option to apply the replacement across all relevant files:
+
+```sh
+$ find . -type f -name "*.csv" -exec sed -i -E 's/,(IRYO|IRYOU)$/,MEDICAL/' {} +
+```
+
+If your match pattern includes a comma, make sure to include the comma in the replacement string as well.
+
+To find duplicates, you can use this to find the Japanese tags,
+and then feed them to GPT 5. (Semantic)
+
+```sh
+grep ',ja,' translation.csv | cut -d',' -f3
+```
+
+Find the duplicates in tags by: (matching)
+
+編集するtranslation.csvと同じ配下で編集は実行する。
+
+```sh
+cd data/
+grep -r "行政" | grep trans
+```
+
+そもそもの重複を見つける
+```sh
+grep ',ja,' tag/translation.csv   | cut -d',' -f3   | sort   | uniq -c   | sort -nr | head -50
 ```

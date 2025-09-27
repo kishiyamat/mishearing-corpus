@@ -39,8 +39,6 @@ DATE,ja,日付
 DATE,en,date
 ROCK,ja,ロック
 ROCK,en,rock
-TELEVISION_TOKYO,ja,テレビ東京
-TELEVISION_TOKYO,en,Television Tokyo
 PROPER_NOUN,ja,固有名詞
 PROPER_NOUN,en,proper noun
 HIRAGANA,ja,ひらがな
@@ -115,14 +113,10 @@ ALPHABET,ja,アルファベット
 ALPHABET,en,alphabet
 COMIC_ESSAY,ja,コミックエッセイ
 COMIC_ESSAY,en,comic essay
-NICHJO_SEIKATSU,ja,日常生活
-NICHJO_SEIKATSU,en,daily life
 HOME,ja,家
 HOME,en,home
 PRODUCT_NUMBER,ja,品番
 PRODUCT_NUMBER,en,product number
-EARLY_CHILDHOOD,ja,幼児期
-EARLY_CHILDHOOD,en,early childhood
 NAVIGATION,ja,ナビゲーション
 NAVIGATION,en,navigation
 NUMBER,ja,数字
@@ -131,14 +125,12 @@ ANNOUNCER,ja,アナウンサー
 ANNOUNCER,en,announcer
 DIGITS,ja,桁
 DIGITS,en,digits
-NON_NATIVE_SPEAKER,ja,非ネイティブスピーカー
+NON_NATIVE_SPEAKER,ja,非母語話者
 NON_NATIVE_SPEAKER,en,non-native speaker
 MANZAI,ja,漫才
 MANZAI,en,manzai
 TRAVEL,ja,旅行
 TRAVEL,en,travel
-HIBO_GO_WASHA,ja,非母語話者
-HIBO_GO_WASHA,en,non-native speaker
 SPEECH_RECOGNITION,ja,音声認識
 SPEECH_RECOGNITION,en,speech recognition
 DAILY_LIFE,ja,日常生活
@@ -163,8 +155,6 @@ BLOG,ja,ブログ
 BLOG,en,blog
 PILOTAGE,ja,操縦
 PILOTAGE,en,pilotage
-KIKIMACHIGAI,ja,聞き間違い
-KIKIMACHIGAI,en,mishearing
 R_B,ja,R&B
 R_B,en,R&B
 CAR_ACTION,ja,カーアクション
@@ -185,18 +175,14 @@ LYRICS,ja,歌詞
 LYRICS,en,lyrics
 OTA_WARD,ja,大田区
 OTA_WARD,en,Ota Ward
-SEKKAKUGYO,ja,接客業
-SEKKAKUGYO,en,customer service
 ID,ja,iD（電子カード）
 ID,en,iD (electronic card)
 NAME_ORIGIN,ja,名前の由来
 NAME_ORIGIN,en,name origin
-CUSTOMER_SERVICE,ja,顧客サービス
+CUSTOMER_SERVICE,ja,カスタマーサービス
 CUSTOMER_SERVICE,en,customer service
 PRESENTATION,ja,プレゼンテーション
 PRESENTATION,en,presentation
-HOCHOOKI,ja,補聴器
-HOCHOOKI,en,hearing aid
 SORA-MIMI,ja,空耳
 SORA-MIMI,en,soramimi
 HIGH_SCHOOL,ja,高校
@@ -221,8 +207,6 @@ EMAIL_ADDRESS,ja,メールアドレス
 EMAIL_ADDRESS,en,email address
 ACTION,ja,アクション
 ACTION,en,action
-CHILDCARE,ja,育児
-CHILDCARE,en,childcare
 POPS,ja,ポップス
 POPS,en,pops
 DISABILITY_WELFARE,ja,障害福祉
@@ -241,8 +225,6 @@ STORE,ja,店
 STORE,en,store
 TAIKENDAN,ja,体験談
 TAIKENDAN,en,experience
-JAPANESE,ja,日本語
-JAPANESE,en,Japanese
 DENWA,ja,電話
 DENWA,en,telephone
 WESTERN_MUSIC,ja,洋楽
@@ -287,8 +269,6 @@ BARRIER_FREE,ja,バリアフリー
 BARRIER_FREE,en,barrier-free
 SHOKUGYOUMEI,ja,職業名
 SHOKUGYOUMEI,en,occupation name
-KIKIMACHI,ja,聞き待ち
-KIKIMACHI,en,listening wait
 UDON,ja,うどん
 UDON,en,udon
 CELEBRITY,ja,有名人
@@ -297,12 +277,8 @@ TYPOGRAPHY,ja,タイポグラフィ
 TYPOGRAPHY,en,typography
 GAME,ja,ゲーム
 GAME,en,game
-CHILDREN,ja,子供
-CHILDREN,en,children
 SCHOOL_LIFE,ja,学校生活
 SCHOOL_LIFE,en,school life
-TV_BANGUMI,ja,テレビ番組
-TV_BANGUMI,en,TV program
 HIGH_FREQUENCY,ja,高周波
 HIGH_FREQUENCY,en,high frequency
 TEAM_ACTIVITY,ja,チーム活動
@@ -313,8 +289,6 @@ GAME_STREAMING,ja,ゲーム配信
 GAME_STREAMING,en,game streaming
 MINEO,ja,マイネオ
 MINEO,en,Mineo
-NIHON_GO,ja,日本語
-NIHON_GO,en,Japanese language
 UNIFORM,ja,制服
 UNIFORM,en,uniform
 CHARACTER,ja,キャラクター
@@ -323,8 +297,6 @@ SPORTS,ja,スポーツ
 SPORTS,en,sports
 OFFICE,ja,オフィス
 OFFICE,en,office
-NANCHOU,ja,難聴
-NANCHOU,en,hearing loss
 PRODUCT_NAME,ja,商品名
 PRODUCT_NAME,en,product name
 POSITION_NAME,ja,役職名
@@ -337,8 +309,6 @@ PAYMENT,ja,支払い
 PAYMENT,en,payment
 CHILD,ja,子ども
 CHILD,en,child
-BUSINESS_TERM,ja,ビジネス用語
-BUSINESS_TERM,en,business term
 CM,ja,コマーシャル
 CM,en,commercial
 WIND_ORCHESTRA_CLUB,ja,吹奏楽部
@@ -349,8 +319,6 @@ SOCCER,ja,サッカー
 SOCCER,en,soccer
 ELDERLY,ja,高齢者
 ELDERLY,en,elderly
-KATAKANA_WORD,ja,カタカナ語
-KATAKANA_WORD,en,katakana word
 TWITCH,ja,ツイッチ
 TWITCH,en,Twitch
 KOKUGO_JITEN,ja,国語辞典
@@ -375,8 +343,6 @@ JAPANESE_LANGUAGE,ja,日本語
 JAPANESE_LANGUAGE,en,Japanese language
 KENKO_JOHO,ja,健康情報
 KENKO_JOHO,en,health information
-IRYO,ja,医療
-IRYO,en,medical
 FOOD_WASTE,ja,食品ロス
 FOOD_WASTE,en,food waste
 GAKKAMEI,ja,学科名
@@ -437,8 +403,6 @@ KORENSHA_SHISSETSU,ja,高齢者施設
 KORENSHA_SHISSETSU,en,elderly facility
 RECREATION,ja,レクリエーション
 RECREATION,en,recreation
-BILINGUAL_CHILD_REARING,ja,バイリンガル子育て
-BILINGUAL_CHILD_REARING,en,bilingual child rearing
 PROGRAM_COMMENTARY,ja,番組解説
 PROGRAM_COMMENTARY,en,program commentary
 PARTY,ja,パーティー
@@ -457,8 +421,6 @@ ALEXA,ja,アレクサ
 ALEXA,en,Alexa
 ARTIFICIAL_INTELLIGENCE,ja,人工知能
 ARTIFICIAL_INTELLIGENCE,en,artificial intelligence
-HIBOOGOWASHA,ja,非母語話者
-HIBOOGOWASHA,en,non-native speaker
 DANGER,ja,危険
 DANGER,en,danger
 NYUSHA_SHA,ja,入社者
@@ -483,7 +445,7 @@ ALCOHOL,ja,アルコール
 ALCOHOL,en,alcohol
 DIALECT,ja,方言
 DIALECT,en,dialect
-IT,ja,情報技術
+IT,ja,IT(情報技術)
 IT,en,IT
 LIFESTYLE,ja,ライフスタイル
 LIFESTYLE,en,lifestyle
@@ -507,8 +469,6 @@ TH_SOUND,ja,TH音
 TH_SOUND,en,TH sound
 S_SOUND,ja,S音
 S_SOUND,en,S sound
-NON_NATIVE_SPEAKER_EN_TO_JP,ja,非ネイティブスピーカー英日
-NON_NATIVE_SPEAKER_EN_TO_JP,en,non-native speaker EN to JP
 ANIME_TOKUSATSU,ja,アニメ特撮
 ANIME_TOKUSATSU,en,anime tokusatsu
 MOCHITSUKI,ja,餅つき
@@ -577,8 +537,6 @@ OFFICIAL_NOTATION,ja,公式表記
 OFFICIAL_NOTATION,en,official notation
 AVIATION,ja,航空
 AVIATION,en,aviation
-BUSINESS_ENGLISH,ja,ビジネス英語
-BUSINESS_ENGLISH,en,business English
 KAGAWA_PREFECTURE,ja,香川県
 KAGAWA_PREFECTURE,en,Kagawa Prefecture
 PHRASE_EXPLANATION,ja,フレーズの説明
@@ -617,10 +575,6 @@ BAITO,ja,バイト
 BAITO,en,part-time job
 KAIGO_TAKUSHI,ja,介護タクシー
 KAIGO_TAKUSHI,en,care taxi
-KODOMO,ja,子ども
-KODOMO,en,child
-TV_PROGRAM,ja,テレビ番組
-TV_PROGRAM,en,TV program
 MENKYO,ja,免許
 MENKYO,en,license
 FACILITY,ja,施設
@@ -631,22 +585,14 @@ MATSUYAMA,ja,松山
 MATSUYAMA,en,Matsuyama
 TAXI,ja,タクシー
 TAXI,en,taxi
-DAILY_CONVERSATION,ja,日常会話
-DAILY_CONVERSATION,en,daily conversation
-HEARING_DISABILITY,ja,聴覚障害
-HEARING_DISABILITY,en,hearing disability
 UTA,ja,歌
 UTA,en,song
 SORAUMI,ja,空海
 SORAUMI,en,sky and sea
 WIRELESS_COMMUNICATION,ja,無線通信
 WIRELESS_COMMUNICATION,en,wireless communication
-TRAFFIC_GUIDANCE,ja,交通案内
-TRAFFIC_GUIDANCE,en,traffic guidance
 GUNMA_TOYOTA,ja,群馬トヨタ
 GUNMA_TOYOTA,en,Gunma Toyota
-NIHONGO,ja,日本語
-NIHONGO,en,Japanese
 CLUB_ACTIVITY,ja,クラブ活動
 CLUB_ACTIVITY,en,club activity
 ITALY,ja,イタリア
@@ -655,8 +601,6 @@ OCCUPATION,ja,職業
 OCCUPATION,en,occupation
 KATSUZETSU,ja,滑舌
 KATSUZETSU,en,articulation
-DAILY_ENGLISH_CONVERSATION,ja,日常英会話
-DAILY_ENGLISH_CONVERSATION,en,daily English conversation
 KAIGAI_SHUCCHO,ja,海外出張
 KAIGAI_SHUCCHO,en,overseas business trip
 GEONAME_MADEIRA,ja,地名マデイラ
@@ -685,8 +629,6 @@ KANCHIGAI,ja,勘違い
 KANCHIGAI,en,misunderstanding
 NUMBER_PLATE,ja,ナンバープレート
 NUMBER_PLATE,en,number plate
-KIKIMACHI_GAI,ja,聞き間違い
-KIKIMACHI_GAI,en,mishearing
 INTERVIEW,ja,インタビュー
 INTERVIEW,en,interview
 TROUBLE_PREVENTION,ja,トラブル防止
@@ -729,8 +671,6 @@ YOSHIZAWAKAYOKO,ja,吉沢京子
 YOSHIZAWAKAYOKO,en,Yoshizawa Kyoko
 CREATION,ja,創作
 CREATION,en,creation
-SURNAME,ja,姓
-SURNAME,en,surname
 GYOMU_KAIZEN,ja,業務改善
 GYOMU_KAIZEN,en,work improvement
 IR,ja,IR
@@ -767,10 +707,6 @@ TAXI_DRIVER,ja,タクシー運転手
 TAXI_DRIVER,en,taxi driver
 CAPITAL_REGION,ja,首都圏
 CAPITAL_REGION,en,capital region
-NICHIJOU_KAIWA,ja,日常会話
-NICHIJOU_KAIWA,en,daily conversation
-PUBLIC_TRANSPORT,ja,公共交通機関
-PUBLIC_TRANSPORT,en,public transport
 TOKYO,ja,東京
 TOKYO,en,Tokyo
 TIME,ja,時間
@@ -787,8 +723,6 @@ PROFESSIONALISM,ja,プロ意識
 PROFESSIONALISM,en,professionalism
 CHAT,ja,チャット
 CHAT,en,chat
-JOKE,ja,ジョーク
-JOKE,en,joke
 DRAGON_QUEST_X,ja,ドラゴンクエストX
 DRAGON_QUEST_X,en,Dragon Quest X
 SONG,ja,歌
@@ -851,8 +785,6 @@ SELF_DEFENSE_FORCE,ja,自衛隊
 SELF_DEFENSE_FORCE,en,self-defense force
 ANNOUNCEMENT,ja,アナウンス
 ANNOUNCEMENT,en,announcement
-TRANSPORTATION_TROUBLE,ja,交通トラブル
-TRANSPORTATION_TROUBLE,en,transportation trouble
 MANUSCRIPT,ja,原稿
 MANUSCRIPT,en,manuscript
 SELF_INTRODUCTION,ja,自己紹介
@@ -893,20 +825,14 @@ WORKING_ADULT,ja,社会人
 WORKING_ADULT,en,working adult
 ORGANIZATION,ja,組織
 ORGANIZATION,en,organization
-NICHIJOU,ja,日常
-NICHIJOU,en,daily life
 COMEDY_IMPROV,ja,即興コメディ
 COMEDY_IMPROV,en,comedy improv
 MISREADING,ja,読み間違い
 MISREADING,en,misreading
-GENGOGAKU,ja,言語学
-GENGOGAKU,en,linguistics
 FOREIGNER,ja,外国人
 FOREIGNER,en,foreigner
 COUNTER,ja,カウンター
 COUNTER,en,counter
-MISHEARING_SOUND,ja,聞き間違い音
-MISHEARING_SOUND,en,mishearing sound
 RECEIPT,ja,領収書
 RECEIPT,en,receipt
 FRENCH,ja,フランス語
@@ -915,8 +841,6 @@ FACE_TO_FACE,ja,対面
 FACE_TO_FACE,en,face-to-face
 WORDS,ja,単語
 WORDS,en,words
-EAST_KANTO_DIALECT,ja,東関東方言
-EAST_KANTO_DIALECT,en,East Kanto dialect
 OVERSEAS_LIFE,ja,海外生活
 OVERSEAS_LIFE,en,overseas life
 MAGAZINE_NAME,ja,雑誌名
@@ -949,8 +873,6 @@ ENGLISH_CLASS,ja,英語クラス
 ENGLISH_CLASS,en,English class
 HOBO_NICHI,ja,ほぼ日
 HOBO_NICHI,en,Hobo Nichi
-KATAKANA_EIGO,ja,カタカナ英語
-KATAKANA_EIGO,en,katakana English
 NEWSPAPER,ja,新聞
 NEWSPAPER,en,newspaper
 FOREIGN_LANGUAGE,ja,外国語
@@ -981,8 +903,6 @@ DEPARTMENT_NAME,ja,部署名
 DEPARTMENT_NAME,en,department name
 MISUNDERSTANDING,ja,誤解
 MISUNDERSTANDING,en,misunderstanding
-MISSTATEMENT,ja,言い間違い
-MISSTATEMENT,en,misstatement
 BATHHOUSE,ja,銭湯
 BATHHOUSE,en,bathhouse
 DESTINATION,ja,目的地
@@ -1011,10 +931,6 @@ FUFU,ja,夫婦
 FUFU,en,spouses
 ILLUSTRATION_ESSAY,ja,イラストエッセイ
 ILLUSTRATION_ESSAY,en,illustration essay
-SUUJI,ja,数字
-SUUJI,en,numbers
-NICHOSEIKATSU,ja,日常生活
-NICHOSEIKATSU,en,daily life
 TABEMONO,ja,食べ物
 TABEMONO,en,food
 KIGYO,ja,企業
@@ -1041,12 +957,8 @@ ELECTION,ja,選挙
 ELECTION,en,election
 GAME_JIKKYOU,ja,ゲーム実況
 GAME_JIKKYOU,en,game commentary
-BUSINESS_MANNERS,ja,ビジネスマナー
-BUSINESS_MANNERS,en,business manners
 SCHEDULE_ADJUSTMENT,ja,スケジュール調整
 SCHEDULE_ADJUSTMENT,en,schedule adjustment
-NICHOJISEIKATSU,ja,日常生活
-NICHOJISEIKATSU,en,daily life
 MUSICAL,ja,ミュージカル
 MUSICAL,en,musical
 KIRAKIRA_REGISTER_DIARY,ja,キラキラレジ日記
@@ -1063,32 +975,20 @@ NEW_EMPLOYEE,ja,新入社員
 NEW_EMPLOYEE,en,new employee
 CHEER_UP,ja,応援
 CHEER_UP,en,cheer up
-KODOMU,ja,子ども
-KODOMU,en,child
 NORTH_AMERICAN_LIFE,ja,北米生活
 NORTH_AMERICAN_LIFE,en,North American life
 COMIC,ja,コミック
 COMIC,en,comic
 REPEAT_CONFIRMATION,ja,繰り返し確認
 REPEAT_CONFIRMATION,en,repeat confirmation
-CHILD_REARING,ja,子育て
-CHILD_REARING,en,child rearing
-KOKYAKU_TAIOU,ja,顧客対応
-KOKYAKU_TAIOU,en,customer service
 WORD_PLAY,ja,言葉遊び
 WORD_PLAY,en,word play
 PART_TIME_JOB,ja,アルバイト
 PART_TIME_JOB,en,part-time job
 CORONA_CRISIS,ja,コロナ禍
 CORONA_CRISIS,en,corona crisis
-MIMACHIGAI,ja,聞き間違い
-MIMACHIGAI,en,mishearing
-HEARING_INFORMATION_PROCESSING_DISORDER,ja,聴覚情報処理障害
-HEARING_INFORMATION_PROCESSING_DISORDER,en,hearing information processing disorder
 REPEAT,ja,繰り返し
 REPEAT,en,repeat
-NON_NATIVE_SPEAKER_INTERNATIONAL_CALL,ja,非ネイティブスピーカー国際電話
-NON_NATIVE_SPEAKER_INTERNATIONAL_CALL,en,non-native speaker international call
 TIME_NOTATION,ja,時間表記
 TIME_NOTATION,en,time notation
 ELEMENTARY_SCHOOL_STUDENT,ja,小学生
@@ -1101,8 +1001,6 @@ BLOOD_DRAW,ja,採血
 BLOOD_DRAW,en,blood draw
 MINUTES,ja,議事録
 MINUTES,en,minutes
-HARD_OF_HEARING,ja,難聴
-HARD_OF_HEARING,en,hard of hearing
 KAIGO_MANGA,ja,介護漫画
 KAIGO_MANGA,en,care manga
 TENSYOKU,ja,転職
@@ -1111,8 +1009,6 @@ MANGA,ja,漫画
 MANGA,en,manga
 OMOIKOMI,ja,思い込み
 OMOIKOMI,en,preconception
-APD,ja,聴覚処理障害
-APD,en,auditory processing disorder
 MANAGEMENT,ja,管理
 MANAGEMENT,en,management
 SOCIETY,ja,社会
@@ -1129,40 +1025,26 @@ NYUSHA_SETSUMEIKAI,ja,入社説明会
 NYUSHA_SETSUMEIKAI,en,company orientation
 STAGE,ja,舞台
 STAGE,en,stage
-HOCHOKI,ja,補聴器
-HOCHOKI,en,hearing aid
 ANIMAL_BEHAVIOR,ja,動物行動
 ANIMAL_BEHAVIOR,en,animal behavior
 MOM,ja,母親
 MOM,en,mom
 DENWA_TAIOU,ja,電話対応
 DENWA_TAIOU,en,phone support
-IT_TOOL,ja,ITツール
-IT_TOOL,en,IT tool
-IKUJI,ja,育児
-IKUJI,en,childcare
 ILLUSTRATION,ja,イラスト
 ILLUSTRATION,en,illustration
 CHILDHOOD,ja,幼少期
 CHILDHOOD,en,childhood
 SHAKAIJIN,ja,社会人
 SHAKAIJIN,en,working adult
-HOMOPHONES,ja,同音異義語
-HOMOPHONES,en,homophones
 HEALTH,ja,健康
 HEALTH,en,health
-BUSINESS_MANNER,ja,ビジネスマナー
-BUSINESS_MANNER,en,business manner
 CONTRACT,ja,契約
 CONTRACT,en,contract
-MISHEARD_WORDS,ja,聞き間違い単語
-MISHEARD_WORDS,en,misheard words
 SAGA,ja,佐賀
 SAGA,en,Saga
 FRENCH_PERSON,ja,フランス人
 FRENCH_PERSON,en,French person
-HIBOGO_WASHA,ja,非母語話者
-HIBOGO_WASHA,en,non-native speaker
 BRAIN_HEALTH,ja,脳の健康
 BRAIN_HEALTH,en,brain health
 SHINNYU_SHAIN,ja,新入社員
@@ -1175,8 +1057,6 @@ SHUSHOKU_KATSUDO,ja,就職活動
 SHUSHOKU_KATSUDO,en,job hunting
 NEAR_MISS,ja,ヒヤリハット
 NEAR_MISS,en,near miss
-FAMILY_NAME,ja,姓
-FAMILY_NAME,en,family name
 POSTER,ja,ポスター
 POSTER,en,poster
 IDIOM,ja,慣用句
@@ -1191,8 +1071,6 @@ KATEI,ja,家庭
 KATEI,en,home
 BASEBALL,ja,野球
 BASEBALL,en,baseball
-NICJOU,ja,日常
-NICJOU,en,daily life
 KENSHU,ja,研修
 KENSHU,en,training
 YOUTUBE,ja,YouTube
@@ -1205,16 +1083,10 @@ ECONOMY,ja,経済
 ECONOMY,en,economy
 IZAKAYA,ja,居酒屋
 IZAKAYA,en,izakaya
-NUMERALS,ja,数字
-NUMERALS,en,numerals
-KATAKANA_GO,ja,カタカナ語
-KATAKANA_GO,en,katakana word
 SHIGA,ja,滋賀
 SHIGA,en,Shiga
 FUKUSYOU,ja,復唱
 FUKUSYOU,en,repeat
-KOSODATE,ja,子育て
-KOSODATE,en,child rearing
 HEALTH_CHECKUP,ja,健康診断
 HEALTH_CHECKUP,en,health checkup
 FOOD_AND_DRINK,ja,飲食
@@ -1223,32 +1095,22 @@ REKISHI,ja,歴史
 REKISHI,en,history
 GOYGEN,ja,語源
 GOYGEN,en,word origin
-NANCHO,ja,難聴
-NANCHO,en,hearing loss
 SAFETY,ja,安全
 SAFETY,en,safety
-CS_KOJO,ja,CS向上
-CS_KOJO,en,customer satisfaction improvement
 ADHD,ja,注意欠陥・多動性障害
 ADHD,en,ADHD
-HOCHOUKI,ja,補聴器
-HOCHOUKI,en,hearing aid
 KADEN,ja,家電
 KADEN,en,home appliances
 VOWEL,ja,母音
 VOWEL,en,vowel
 CHOURYOKU_KENSA,ja,聴力検査
 CHOURYOKU_KENSA,en,hearing test
-KYAKU,ja,客
-KYAKU,en,customer
 TOEIC,ja,TOEIC
 TOEIC,en,TOEIC
 PROGRAMMING,ja,プログラミング
 PROGRAMMING,en,programming
 INFECTIOUS_DISEASE,ja,感染症
 INFECTIOUS_DISEASE,en,infectious disease
-SHOKUBAN,ja,職場
-SHOKUBAN,en,workplace
 TENIN,ja,店員
 TENIN,en,store clerk
 KAIMONO,ja,買い物
@@ -1273,18 +1135,12 @@ MODEL,ja,モデル
 MODEL,en,model
 HIRYOU,ja,肥料
 HIRYOU,en,fertilizer
-HOCHOU_KI,ja,補聴器
-HOCHOU_KI,en,hearing aid
 GENGO_SHOGAI,ja,言語障害
 GENGO_SHOGAI,en,language disorder
 MEAL,ja,食事
 MEAL,en,meal
 CHORYOKU,ja,聴力
 CHORYOKU,en,hearing ability
-KIKI_MACHI,ja,聞き待ち
-KIKI_MACHI,en,listening wait
-AGE_RELATED_HEARING_LOSS,ja,加齢性難聴
-AGE_RELATED_HEARING_LOSS,en,age-related hearing loss
 ASPERGER_SYNDROME,ja,アスペルガー症候群
 ASPERGER_SYNDROME,en,Asperger syndrome
 BTS,ja,BTS
@@ -1305,32 +1161,20 @@ L_AND_R,ja,LとR
 L_AND_R,en,L and R
 POLICE,ja,警察
 POLICE,en,police
-INFANT,ja,乳児
-INFANT,en,infant
 CONSONANT,ja,子音
 CONSONANT,en,consonant
 EATING_OUT,ja,外食
 EATING_OUT,en,eating out
 NAIJI,ja,内耳
 NAIJI,en,inner ear
-NICHOJIKAIWA,ja,日常会話
-NICHOJIKAIWA,en,daily conversation
 NICKNAME,ja,ニックネーム
 NICKNAME,en,nickname
 DAIGAKU_JUKEN,ja,大学受験
 DAIGAKU_JUKEN,en,university entrance exam
-YUMOA,ja,ユーモア
-YUMOA,en,humor
 FALSE_ACCUSATION,ja,冤罪
 FALSE_ACCUSATION,en,false accusation
-TV,ja,テレビ
-TV,en,TV
 KOKOUSEI,ja,高校生
 KOKOUSEI,en,high school student
-KATAKANA,ja,カタカナ
-KATAKANA,en,katakana
-SEKIKUGYO,ja,接客業
-SEKIKUGYO,en,customer service
 AMERICAN_LIFE,ja,アメリカ生活
 AMERICAN_LIFE,en,American life
 ETF,ja,ETF
@@ -1353,8 +1197,6 @@ FISH,ja,魚
 FISH,en,fish
 SPEECH_BANANA,ja,スピーチバナナ
 SPEECH_BANANA,en,speech banana
-IRYOU,ja,医療
-IRYOU,en,medical
 LANGUAGE_DEVELOPMENT,ja,言語発達
 LANGUAGE_DEVELOPMENT,en,language development
 WORK_EMPLOYMENT,ja,仕事・雇用
@@ -1377,8 +1219,6 @@ OPERATOR_TRAINING,ja,オペレーター研修
 OPERATOR_TRAINING,en,operator training
 MCKINSEY,ja,マッキンゼー
 MCKINSEY,en,McKinsey
-KATAKANA_ENGLISH,ja,カタカナ英語
-KATAKANA_ENGLISH,en,katakana English
 SAFETY_MANAGEMENT,ja,安全管理
 SAFETY_MANAGEMENT,en,safety management
 DIGITALIZATION,ja,デジタル化
@@ -1389,8 +1229,6 @@ SIZE_ORDER,ja,サイズ順
 SIZE_ORDER,en,size order
 NICHIZI_KAKUNIN,ja,日次確認
 NICHIZI_KAKUNIN,en,daily confirmation
-SUURYOU,ja,数量
-SUURYOU,en,quantity
 INSTRUCTION,ja,指示
 INSTRUCTION,en,instruction
 FACTORY_AUTOMATION,ja,工場自動化
@@ -1401,12 +1239,8 @@ KOUKYUUSHA,ja,高級車
 KOUKYUUSHA,en,luxury car
 SELF_ORDER,ja,セルフ注文
 SELF_ORDER,en,self-order
-DOONIGIGO,ja,同音異義語
-DOONIGIGO,en,homophones
 INDIGENOUS_PEOPLE,ja,先住民
 INDIGENOUS_PEOPLE,en,indigenous people
-BUSINESS_SKILL,ja,ビジネススキル
-BUSINESS_SKILL,en,business skill
 NURSING_CARE,ja,介護
 NURSING_CARE,en,nursing care
 DIRTY_JOKE,ja,下ネタ
@@ -1441,8 +1275,6 @@ WORK_EFFICIENCY,ja,業務効率
 WORK_EFFICIENCY,en,work efficiency
 GLOBAL_ISSUE,ja,グローバル課題
 GLOBAL_ISSUE,en,global issue
-SEKKYAKU,ja,接客
-SEKKYAKU,en,customer service
 INTERNATIONAL_FLIGHT,ja,国際便
 INTERNATIONAL_FLIGHT,en,international flight
 HUMAN_SKILL,ja,ヒューマンスキル
@@ -1527,8 +1359,6 @@ MEDICAL_SAFETY,ja,医療安全
 MEDICAL_SAFETY,en,medical safety
 ORDER_MISS,ja,注文ミス
 ORDER_MISS,en,order mistake
-SHOKUBA,ja,職場
-SHOKUBA,en,workplace
 YOUTUBER,ja,ユーチューバー
 YOUTUBER,en,YouTuber
 TABLE_NUMBER,ja,テーブル番号
@@ -1541,16 +1371,12 @@ MEDICAL_ACCIDENT,ja,医療事故
 MEDICAL_ACCIDENT,en,medical accident
 SCIENCE,ja,科学
 SCIENCE,en,science
-WORKPLACE_COMMUNICATION,ja,職場コミュニケーション
-WORKPLACE_COMMUNICATION,en,workplace communication
 MANSION,ja,マンション
 MANSION,en,mansion
 REAL_ESTATE,ja,不動産
 REAL_ESTATE,en,real estate
 LINKEDIN,ja,LinkedIn
 LINKEDIN,en,LinkedIn
-KIKIMACHI-GAI,ja,聞き間違い
-KIKIMACHI-GAI,en,mishearing
 JAPANESE_COMPANY,ja,日本企業
 JAPANESE_COMPANY,en,Japanese company
 PROJECT_MANAGEMENT,ja,プロジェクト管理
@@ -1587,8 +1413,6 @@ WINE,ja,ワイン
 WINE,en,wine
 ENGINEERING,ja,工学
 ENGINEERING,en,engineering
-BUSINESS_TERMS,ja,ビジネス用語
-BUSINESS_TERMS,en,business terms
 CRISIS_MANAGEMENT,ja,危機管理
 CRISIS_MANAGEMENT,en,crisis management
 PRODUCT_DEVELOPMENT,ja,製品開発
@@ -1599,8 +1423,6 @@ ERROR_PREVENTION,ja,エラー防止
 ERROR_PREVENTION,en,error prevention
 SHOP,ja,店舗
 SHOP,en,shop
-QUANTITY,ja,数量
-QUANTITY,en,quantity
 IINKAE_FUKUSHO,ja,委員会復唱
 IINKAE_FUKUSHO,en,committee repetition
 DRIVE,ja,運転
@@ -1609,8 +1431,6 @@ LESSON,ja,授業
 LESSON,en,lesson
 RYOKOU,ja,旅行
 RYOKOU,en,travel
-IT_RELATED,ja,IT関連
-IT_RELATED,en,IT related
 EMPLOYMENT,ja,雇用
 EMPLOYMENT,en,employment
 REGISTERED_DIETITIAN,ja,管理栄養士
@@ -1627,10 +1447,6 @@ CONSTRUCTION,ja,建設
 CONSTRUCTION,en,construction
 TECHNICAL_TERM,ja,専門用語
 TECHNICAL_TERM,en,technical term
-PARENT_CHILD,ja,親子
-PARENT_CHILD,en,parent-child
-SEKIKYAKU,ja,接客
-SEKIKYAKU,en,customer service
 EXPLANATION,ja,説明
 EXPLANATION,en,explanation
 GROWTH,ja,成長
@@ -1667,22 +1483,16 @@ CHATBOT,ja,チャットボット
 CHATBOT,en,chatbot
 NOISE,ja,ノイズ
 NOISE,en,noise
-NUMBERS,ja,数字
-NUMBERS,en,numbers
 LANGUAGE_LEARNING,ja,言語学習
 LANGUAGE_LEARNING,en,language learning
 TSUUSHIN,ja,通信
 TSUUSHIN,en,communication
-KAREISEI_NANCHO,ja,加齢性難聴
-KAREISEI_NANCHO,en,age-related hearing loss
 FUKUSHO,ja,復唱
 FUKUSHO,en,repetition
 JIMUSHOKU,ja,事務職
 JIMUSHOKU,en,clerical work
 KAISHA_MEI,ja,会社名
 KAISHA_MEI,en,company name
-BUSINESS_COMMUNICATION,ja,ビジネスコミュニケーション
-BUSINESS_COMMUNICATION,en,business communication
 RULE,ja,ルール
 RULE,en,rule
 MILITARY,ja,軍隊
@@ -1699,8 +1509,6 @@ BEAUTY_SALON,ja,美容院
 BEAUTY_SALON,en,beauty salon
 MEDICATION_GUIDANCE,ja,薬剤指導
 MEDICATION_GUIDANCE,en,medication guidance
-IN_STORE_ANNOUNCEMENT,ja,店内アナウンス
-IN_STORE_ANNOUNCEMENT,en,in-store announcement
 SPELL_CHECK,ja,スペルチェック
 SPELL_CHECK,en,spell check
 BRAND,ja,ブランド
@@ -1711,8 +1519,6 @@ RISK_AVOIDANCE,ja,リスク回避
 RISK_AVOIDANCE,en,risk avoidance
 CHOURYOKU,ja,聴力
 CHOURYOKU,en,hearing ability
-DAILY_GROUP,ja,日常グループ
-DAILY_GROUP,en,daily group
 YOUTH_SLANG,ja,若者スラング
 YOUTH_SLANG,en,youth slang
 MATERIAL,ja,材料
@@ -1727,20 +1533,12 @@ BATHING,ja,入浴
 BATHING,en,bathing
 EKIDEN,ja,駅伝
 EKIDEN,en,ekiden
-SHOKUBAJO,ja,職場
-SHOKUBAJO,en,workplace
-BUSINESS_CONVERSATION,ja,ビジネス会話
-BUSINESS_CONVERSATION,en,business conversation
 GAICHU,ja,害虫
 GAICHU,en,pest
 SHOKUDOU,ja,食堂
 SHOKUDOU,en,dining hall
 EIGA,ja,映画
 EIGA,en,movie
-KIKIMANIGAI,ja,言い間違い
-KIKIMANIGAI,en,misstatement
-FAMOUS_PERSON,ja,有名人
-FAMOUS_PERSON,en,famous person
 GAIKOKUGO_TITLE,ja,外国語のタイトル
 GAIKOKUGO_TITLE,en,foreign language title
 SENKYO,ja,選挙
@@ -1751,16 +1549,8 @@ AUDIO,ja,音声
 AUDIO,en,audio
 SHIMETA,ja,湿った
 SHIMETA,en,damp
-TRAFFIC_INFORMATION,ja,交通情報
-TRAFFIC_INFORMATION,en,traffic information
-HIMOBOGOSHA,ja,誤語の受け手
-HIMOBOGOSHA,en,mishearing recipient
 FUKU,ja,服
 FUKU,en,clothing
-KAIGI,ja,会議
-KAIGI,en,meeting
-NICHOH_KAIWA,ja,日常会話
-NICHOH_KAIWA,en,daily conversation
 FASHION,ja,ファッション
 FASHION,en,fashion
 SHUKUDAI,ja,宿題
@@ -1773,10 +1563,6 @@ BASU,ja,バス
 BASU,en,bus
 KANYU,ja,勧誘
 KANYU,en,solicitation
-DOON_IIGIGO,ja,同音異義語
-DOON_IIGIGO,en,homonym
-HOUGEN,ja,方言
-HOUGEN,en,dialect
 RYOKAN,ja,旅館
 RYOKAN,en,Japanese inn
 EXHIBITION,ja,展示会
@@ -1793,8 +1579,6 @@ KOTOBA_ASOBI,ja,言葉遊び
 KOTOBA_ASOBI,en,word play
 REPORT,ja,報告
 REPORT,en,report
-SHOKUBAJOU,ja,職場上
-SHOKUBAJOU,en,on the job
 COMEDIAN,ja,芸人
 COMEDIAN,en,comedian
 DETO,ja,デート
@@ -1807,10 +1591,6 @@ EDUCATION_SITE,ja,教育現場
 EDUCATION_SITE,en,educational setting
 PROPOSE,ja,プロポーズ
 PROPOSE,en,proposal
-NICHJO,ja,日常
-NICHJO,en,daily life
-SHIMONETA,ja,下ネタ
-SHIMONETA,en,dirty joke
 KANSAIBEN,ja,関西弁
 KANSAIBEN,en,Kansai dialect
 DAIETTO,ja,ダイエット
@@ -1827,20 +1607,14 @@ ONGAKU,ja,音楽
 ONGAKU,en,music
 LIFE,ja,生活
 LIFE,en,life
-TETSURO,ja,鉄道
-TETSURO,en,railway
 MICHIANNAI,ja,道案内
 MICHIANNAI,en,directions
-SURYOU_HYOUJUN,ja,数量・基準
-SURYOU_HYOUJUN,en,quantity/standard
 TENRAN_KAI,ja,展覧会
 TENRAN_KAI,en,art exhibition
 BODY_PART,ja,身体部位
 BODY_PART,en,body part
 SHOGAKUSEI,ja,小学生
 SHOGAKUSEI,en,elementary student
-YU-MOA,ja,ユーモア
-YU-MOA,en,humor
 ASTRONOMY,ja,天文学
 ASTRONOMY,en,astronomy
 GAKKO,ja,学校
@@ -1849,8 +1623,6 @@ DOBUTSU,ja,動物
 DOBUTSU,en,animal
 SEIBUTSU,ja,生物
 SEIBUTSU,en,organism
-IIMANEGAI,ja,言いま願い
-IIMANEGAI,en,wish phrased wrongly
 BENKYO,ja,勉強
 BENKYO,en,study
 WAGASHI,ja,和菓子
@@ -1865,8 +1637,6 @@ DEPARTMENT_STORE,ja,デパート
 DEPARTMENT_STORE,en,department store
 SHOHINMEI,ja,商品名
 SHOHINMEI,en,product name
-TSUKKIN,ja,通勤
-TSUKKIN,en,commuting
 EKIMEI,ja,駅名
 EKIMEI,en,station name
 KAPPURU,ja,カップル
@@ -1875,16 +1645,10 @@ BYOKI,ja,病気
 BYOKI,en,illness
 TAISO,ja,体操
 TAISO,en,gymnastics
-TSUKIN,ja,通勤
-TSUKIN,en,commute
 HONYA,ja,本屋
 HONYA,en,bookstore
 PARKING_LOT,ja,駐車場
 PARKING_LOT,en,parking lot
-DENSHA,ja,電車
-DENSHA,en,train
-KOUTSUU,ja,交通
-KOUTSUU,en,transportation
 INTERCULTURAL_COMMUNICATION,ja,異文化コミュニケーション
 INTERCULTURAL_COMMUNICATION,en,intercultural communication
 YAKYU,ja,野球
@@ -1893,14 +1657,6 @@ MAIL_ORDER,ja,通販
 MAIL_ORDER,en,mail order
 KANTUGAI,ja,勘違い
 KANTUGAI,en,misunderstanding
-HIMOGO_SPEAKER,ja,誤語話者
-HIMOGO_SPEAKER,en,mispronouncer
-KIKIMANEGAI,ja,聞き間願い
-KIKIMANEGAI,en,wish on mishearing
-STATION_TRANSPORT,ja,駅・交通
-STATION_TRANSPORT,en,station/transport
-IIMACHI,ja,言い間違い
-IIMACHI,en,misstatement
 SIBLINGS,ja,兄弟姉妹
 SIBLINGS,en,siblings
 BIYOUSHITSU,ja,美容室
@@ -1931,14 +1687,10 @@ DESAIN,ja,デザイン
 DESAIN,en,design
 TENJIKAI,ja,展示会
 TENJIKAI,en,exhibition
-KATAKANAGO,ja,カタカナ語
-KATAKANAGO,en,katakana word
 DAIGAKU,ja,大学
 DAIGAKU,en,university
 KASHI,ja,歌詞
 KASHI,en,lyrics
-KIKIMANAE,ja,聞きまない
-KIKIMANAE,en,failure to hear
 GEINOU,ja,芸能
 GEINOU,en,entertainment
 SYOKUTAKU,ja,食卓
@@ -1951,14 +1703,10 @@ KOUKYOUNOBA,ja,公共の場
 KOUKYOUNOBA,en,public space
 EKI,ja,駅
 EKI,en,station
-IIMANIGAI,ja,言い間違い
-IIMANIGAI,en,verbal mistake
 TENKI,ja,天気
 TENKI,en,weather
 KAKIKOMACHI,ja,書き込み待ち
 KAKIKOMACHI,en,waiting to be filled
-IIMACHIGAI,ja,言い間違い
-IIMACHIGAI,en,slip of the tongue
 BIYOIN,ja,病院
 BIYOIN,en,hospital
 SYOKUJI,ja,食事
@@ -1969,10 +1717,6 @@ CHUMON,ja,注文
 CHUMON,en,order
 CLASSROOM,ja,教室
 CLASSROOM,en,classroom
-SENMON_YOGO,ja,専門用語
-SENMON_YOGO,en,technical term
-IIMATUGAI,ja,言い間違い
-IIMATUGAI,en,verbal slip
 PROGRAM_NAME,ja,番組名
 PROGRAM_NAME,en,program name
 GEONAME_PERSONNAME,ja,地名・人名
@@ -1981,12 +1725,8 @@ VALENTINE,ja,バレンタイン
 VALENTINE,en,Valentine's Day
 PERSONAL_COMPUTER,ja,パソコン
 PERSONAL_COMPUTER,en,personal computer
-KIKIMAECHIGAI,ja,聞き間違い
-KIKIMAECHIGAI,en,mishearing
 IGAKU_YOUGO,ja,医学用語
 IGAKU_YOUGO,en,medical term
-OYAKO,ja,親子
-OYAKO,en,parent and child
 ART,ja,アート
 ART,en,art
 HITORIGOTO,ja,独り言
@@ -1995,8 +1735,6 @@ YAOYA,ja,八百屋
 YAOYA,en,greengrocer
 HANKAGAI,ja,繁華街
 HANKAGAI,en,shopping district
-ANNAUNSU,ja,アナウンス
-ANNAUNSU,en,announcement
 ADJECTIVE,ja,形容詞
 ADJECTIVE,en,adjective
 DRUGSTORE,ja,ドラッグストア
@@ -2021,22 +1759,14 @@ MEDIA,ja,メディア
 MEDIA,en,media
 VIDEO_TEN,ja,映像点
 VIDEO_TEN,en,video segment
-TOMODACHI,ja,友達
-TOMODACHI,en,friend
 HIMOGO_SHAKUSHA,ja,誤語釈者
 HIMOGO_SHAKUSHA,en,misinterpretation agent
-IIIMACHIGAI,ja,言い間違い
-IIIMACHIGAI,en,slip of the tongue
 UKETSUKE,ja,受付
 UKETSUKE,en,reception
 RENAI,ja,恋愛
 RENAI,en,romance
 KOTSU,ja,コツ
 KOTSU,en,knack
-KOUKYOU_ANNOUNCE,ja,公共アナウンス
-KOUKYOU_ANNOUNCE,en,public announcement
-IIMAECHIGAI,ja,言い間違え違い
-IIMAECHIGAI,en,wrong mishearing
 NANGO,ja,難語
 NANGO,en,difficult word
 DOKUSHO,ja,読書
@@ -2051,8 +1781,6 @@ KANJI,ja,漢字
 KANJI,en,kanji
 YOJI,ja,四字熟語
 YOJI,en,yoji-jukugo
-TSUUKIN,ja,通勤
-TSUUKIN,en,commuting
 MARRIED_COUPLE,ja,夫婦
 MARRIED_COUPLE,en,married couple
 GAKUSEI,ja,学生
@@ -2067,14 +1795,10 @@ DENCHI,ja,電池
 DENCHI,en,battery
 ZATSUDAN,ja,雑談
 ZATSUDAN,en,chat
-ANOUNSU,ja,アナウンス
-ANOUNSU,en,announcement
 PHILOSOPHY,ja,哲学
 PHILOSOPHY,en,philosophy
 ENGETSUBU,ja,演劇部
 ENGETSUBU,en,drama club
-HOMONYM,ja,同音異義語
-HOMONYM,en,homonym
 CLERK,ja,店員
 CLERK,en,clerk
 AKACHAN,ja,赤ちゃん
@@ -2087,16 +1811,10 @@ KOKKAI,ja,国会
 KOKKAI,en,national diet
 SUGAKU,ja,数学
 SUGAKU,en,mathematics
-YUUJIN,ja,友人
-YUUJIN,en,friend
 KOIBITO,ja,恋人
 KOIBITO,en,lover
 GINKO,ja,銀行
 GINKO,en,bank
-KOKYO_KOTSU,ja,公共交通
-KOKYO_KOTSU,en,public transport
-ANNOUNCE,ja,アナウンス
-ANNOUNCE,en,announcement
 LIVE,ja,ライブ
 LIVE,en,live
 KONBINI,ja,コンビニ
@@ -2111,28 +1829,18 @@ GOLF,ja,ゴルフ
 GOLF,en,golf
 GENDAIGO,ja,現代語
 GENDAIGO,en,modern Japanese
-DOUON_IIGI_GO,ja,同音異義語
-DOUON_IIGI_GO,en,homonym
 ONSEI,ja,音声
 ONSEI,en,sound
-KAZOKU_YUJIN,ja,家族・友人
-KAZOKU_YUJIN,en,family/friends
 JYUSHO,ja,住所
 JYUSHO,en,address
-DAILY,ja,日常
-DAILY,en,daily
 KITCHEN,ja,キッチン
 KITCHEN,en,kitchen
-HIMOGO_WASHA,ja,誤語話者
-HIMOGO_WASHA,en,mispronouncer
 LAW,ja,法律
 LAW,en,law
 KIMETSU_NO_YAIBA,ja,鬼滅の刃
 KIMETSU_NO_YAIBA,en,Demon Slayer
 HOME_APPLIANCE,ja,家電
 HOME_APPLIANCE,en,home appliance
-HIMOGOHAWASHA,ja,誤語派話者
-HIMOGOHAWASHA,en,variant mispronouncer
 AGRICULTURE,ja,農業
 AGRICULTURE,en,agriculture
 HISTORICAL_PROGRAM,ja,歴史番組
@@ -2183,12 +1891,8 @@ RYAKUSHOU,ja,略称
 RYAKUSHOU,en,abbreviation
 GEINO,ja,芸能
 GEINO,en,entertainment
-YUJIN,ja,友人
-YUJIN,en,friend
 TENKIPYOHO,ja,天気予報
 TENKIPYOHO,en,weather forecast
-KOYUU_MEISHI,ja,固有名詞
-KOYUU_MEISHI,en,proper noun
 MISPRONUNCIATION,ja,発音ミス
 MISPRONUNCIATION,en,mispronunciation
 SACCA,ja,作家
@@ -2197,8 +1901,6 @@ KARAOKE,ja,カラオケ
 KARAOKE,en,karaoke
 BEAUTY,ja,美
 BEAUTY,en,beauty
-HIMOBOGO_WASEISHA,ja,誤母語和製者
-HIMOBOGO_WASEISHA,en,wasei-go speaker with L1 interference
 FORMAL,ja,フォーマル
 FORMAL,en,formal
 LOVER,ja,恋人
@@ -2207,14 +1909,8 @@ SHINBUN,ja,新聞
 SHINBUN,en,newspaper
 RYOURI,ja,料理
 RYOURI,en,cooking
-LAW_FIRM,ja,法律事務所
-LAW_FIRM,en,law firm
 FURO,ja,風呂
 FURO,en,bath
-GARAIGO,ja,外来語
-GARAIGO,en,loanword
-IIMATSUGAI,ja,言い間違い
-IIMATSUGAI,en,verbal slip
 KARADA,ja,身体
 KARADA,en,body
 AWARD_CEREMONY,ja,授賞式
@@ -2229,8 +1925,6 @@ NYUUSU,ja,ニュース
 NYUUSU,en,news
 NOIZU,ja,ノイズ
 NOIZU,en,noise
-TETSUDOU,ja,鉄道
-TETSUDOU,en,railway
 GYMNASIUM,ja,体育館
 GYMNASIUM,en,gymnasium
 R_RESTRICTED,ja,R指定
@@ -2241,10 +1935,6 @@ ENKAI,ja,宴会
 ENKAI,en,banquet
 SUPPORT_CENTER,ja,支援センター
 SUPPORT_CENTER,en,support center
-IIMANAE,ja,言い間え
-IIMANAE,en,misutterance
-IT_YOGO,ja,IT用語
-IT_YOGO,en,IT term
 KYOSHITSU,ja,教室
 KYOSHITSU,en,classroom
 YOUTIEN,ja,幼稚園
@@ -2257,8 +1947,6 @@ TOUKOU,ja,投稿
 TOUKOU,en,submission
 CELEBRITY_NAME,ja,著名人名
 CELEBRITY_NAME,en,celebrity name
-KOKUYUMEISHI,ja,固有名詞
-KOKUYUMEISHI,en,proper noun
 DRIVING_LICENSE_CENTER,ja,運転免許センター
 DRIVING_LICENSE_CENTER,en,driving license center
 CRAM_SCHOOL,ja,塾
@@ -2273,20 +1961,12 @@ SHIKITEN,ja,式典
 SHIKITEN,en,ceremony
 ONIGIRI,ja,おにぎり
 ONIGIRI,en,rice ball
-YUUMEIJIN,ja,有名人
-YUUMEIJIN,en,famous person
 CHOREI,ja,朝礼
 CHOREI,en,morning assembly
 BOOK,ja,本
 BOOK,en,book
-NICHIJO_KAIWA,ja,日常会話
-NICHIJO_KAIWA,en,daily conversation
-TELEVISION_PROGRAM,ja,テレビ番組
-TELEVISION_PROGRAM,en,TV program
 AMOUNT_OF_MONEY,ja,金額
 AMOUNT_OF_MONEY,en,amount of money
-NICHIJO,ja,日常
-NICHIJO,en,daily life
 KOUKYOU,ja,公共
 KOUKYOU,en,public
 SHIMAI,ja,姉妹
@@ -2305,52 +1985,30 @@ GYOKAI_YOGO,ja,業界用語
 GYOKAI_YOGO,en,industry term
 KAIWA,ja,会話
 KAIWA,en,conversation
-TEREBI,ja,テレビ
-TEREBI,en,television
-TETSUDO,ja,鉄道
-TETSUDO,en,railroad
-TRAIN,ja,列車
-TRAIN,en,train
 MOBILE_PHONE,ja,携帯電話
 MOBILE_PHONE,en,mobile phone
-TEREBI_BANGUMI,ja,テレビ番組
-TEREBI_BANGUMI,en,TV show
 KAJI,ja,家事
 KAJI,en,housework
 HOUSOU,ja,放送
 HOUSOU,en,broadcast
-SYOKUBA,ja,職場
-SYOKUBA,en,workplace
 FOREIGN_NAME,ja,外国名
 FOREIGN_NAME,en,foreign name
 MOUNTAINEERING,ja,登山
 MOUNTAINEERING,en,mountaineering
 EXAMINATION,ja,試験
 EXAMINATION,en,examination
-SHOKUBAI,ja,職場
-SHOKUBAI,en,workplace
 KOUHAKU_UTA_GASSEN,ja,紅白歌合戦
 KOUHAKU_UTA_GASSEN,en,Kouhaku Uta Gassen
 RYOKO,ja,旅行
 RYOKO,en,travel
-SPEED_WRITING,ja,速記
-SPEED_WRITING,en,speed writing
 PRESS_CONFERENCE,ja,記者会見
 PRESS_CONFERENCE,en,press conference
-SOKKI,ja,速記
-SOKKI,en,shorthand
-SPECIALIZED_TERMS,ja,専門用語
-SPECIALIZED_TERMS,en,specialized terms
 COMPLIANCE,ja,コンプライアンス
 COMPLIANCE,en,compliance
 GOVERNANCE,ja,ガバナンス
 GOVERNANCE,en,governance
-BIJINESU,ja,ビジネス
-BIJINESU,en,business
 KANYOKU,ja,慣用句
 KANYOKU,en,idiom
-LOANWORDS,ja,外来語
-LOANWORDS,en,loanwords
 KENKOU,ja,健康
 KENKOU,en,health
 FUKKOU,ja,復興
@@ -2359,8 +2017,6 @@ LEGISLATURE,ja,立法府
 LEGISLATURE,en,legislature
 ACADEMIC,ja,学術
 ACADEMIC,en,academic
-SOKI,ja,速記
-SOKI,en,shorthand
 TOKUBETSU_SHIEN,ja,特別支援
 TOKUBETSU_SHIEN,en,special support
 JUKUGO,ja,熟語
@@ -2369,8 +2025,6 @@ NATIONAL_DIET,ja,国会
 NATIONAL_DIET,en,national diet
 KANKOU,ja,観光
 KANKOU,en,tourism
-DISASTER_MEASURES,ja,災害対策
-DISASTER_MEASURES,en,disaster measures
 BUTSURYUU,ja,物流
 BUTSURYUU,en,logistics
 RUIJION,ja,類義語
@@ -2389,8 +2043,6 @@ PERSONNEL,ja,人事
 PERSONNEL,en,personnel
 BOUEI,ja,防衛
 BOUEI,en,defense
-GYOUSEI,ja,行政
-GYOUSEI,en,administration
 ARCHITECTURE,ja,建築
 ARCHITECTURE,en,architecture
 KANJI_WORDS,ja,漢字語
@@ -2407,8 +2059,6 @@ KIGYOU,ja,企業
 KIGYOU,en,enterprise
 ROUDOU_ANZEN,ja,労働安全
 ROUDOU_ANZEN,en,occupational safety
-SAIGAI,ja,災害
-SAIGAI,en,disaster
 TECHNICAL,ja,技術的
 TECHNICAL,en,technical
 SEISAKU,ja,政策
@@ -2433,20 +2083,10 @@ GUNJI,ja,軍事
 GUNJI,en,military
 KENSAA,ja,検査
 KENSAA,en,inspection
-OKINAWA_MONDAI,ja,沖縄問題
-OKINAWA_MONDAI,en,Okinawa issue
-DISASTER_PREVENTION,ja,防災
-DISASTER_PREVENTION,en,disaster prevention
-BIZINESU,ja,ビジネス
-BIZINESU,en,business
 DEFENSE,ja,防衛
 DEFENSE,en,defense
 NANDOKU_GO,ja,難読語
 NANDOKU_GO,en,difficult words
-KINYU,ja,金融
-KINYU,en,finance
-SOCIAL_ISSUES,ja,社会問題
-SOCIAL_ISSUES,en,social issues
 INTERNATIONAL_RELATIONS,ja,国際関係
 INTERNATIONAL_RELATIONS,en,international relations
 SHUPPAN,ja,出版
@@ -2461,10 +2101,6 @@ URBAN_POLICY,ja,都市政策
 URBAN_POLICY,en,urban policy
 NATION,ja,国家
 NATION,en,nation
-SOHKI,ja,速記
-SOHKI,en,shorthand
-TERRITORIAL_ISSUE,ja,領土問題
-TERRITORIAL_ISSUE,en,territorial issue
 REGIONAL_DEVELOPMENT,ja,地域振興
 REGIONAL_DEVELOPMENT,en,regional development
 SYNONYMS,ja,同義語
@@ -2517,8 +2153,6 @@ REPORTING_MEDIA,ja,報道媒体
 REPORTING_MEDIA,en,reporting media
 KANSA,ja,監査
 KANSA,en,audit
-KINYOU,ja,金融
-KINYOU,en,finance
 GIKAI,ja,議会
 GIKAI,en,assembly
 HOUDOU,ja,報道
@@ -2547,16 +2181,12 @@ SCENERY,ja,風景
 SCENERY,en,scenery
 SEIFU_KANKOUBUTSU,ja,政府刊行物
 SEIFU_KANKOUBUTSU,en,government publications
-LEGAL_SCIENCE,ja,法学
-LEGAL_SCIENCE,en,legal science
 ZOUSEN,ja,造船
 ZOUSEN,en,shipbuilding
 BUDGET,ja,予算
 BUDGET,en,budget
 KENKYU,ja,研究
 KENKYU,en,research
-SOKIKI,ja,速記
-SOKIKI,en,stenography
 PUBLIC_SERVICE,ja,公共サービス
 PUBLIC_SERVICE,en,public service
 SYSTEM_REFORM,ja,制度改革
@@ -2567,38 +2197,22 @@ TOWN_DEVELOPMENT,ja,町づくり
 TOWN_DEVELOPMENT,en,town development
 HIGU,ja,被具
 HIGU,en,equipment
-KIN_YU,ja,金融
-KIN_YU,en,finance
 ZAISAN,ja,財産
 ZAISAN,en,assets
-SAIGAI_TAIOU,ja,災害対応
-SAIGAI_TAIOU,en,disaster response
 POLITICAL_PARTY,ja,政党
 POLITICAL_PARTY,en,political party
 BUNKA,ja,文化
 BUNKA,en,culture
 BUTSURYU,ja,物流
 BUTSURYU,en,logistics
-KOUTSU,ja,交通
-KOUTSU,en,transportation
-LEGAL_AFFAIRS,ja,法務
-LEGAL_AFFAIRS,en,legal affairs
 RIKA,ja,理科
 RIKA,en,science
 TOSHI,ja,都市
 TOSHI,en,city
-KIN_YUU,ja,金融
-KIN_YUU,en,finance
-INTERNATIONAL_CONFERENCE,ja,国際会議
-INTERNATIONAL_CONFERENCE,en,international conference
 TOSHIKAIKAKU,ja,都市改革
 TOSHIKAIKAKU,en,urban reform
 GOVERNMENT,ja,政府
 GOVERNMENT,en,government
-ZAISAI,ja,財政
-ZAISAI,en,public finance
-SYAKAI_MONDAI,ja,社会問題
-SYAKAI_MONDAI,en,social issues
 CORPORATE_ACTIVITY,ja,企業活動
 CORPORATE_ACTIVITY,en,corporate activity
 YOSAN,ja,予算
@@ -2621,8 +2235,6 @@ LOGISTICS,ja,物流
 LOGISTICS,en,logistics
 SHINGIKAI,ja,審議会
 SHINGIKAI,en,council
-HOMU,ja,法務
-HOMU,en,legal affairs
 MOJIOKOSHI,ja,文字起こし
 MOJIOKOSHI,en,transcription
 MATERIALS,ja,資料
@@ -2651,12 +2263,8 @@ ENERGY_POLICY,ja,エネルギー政策
 ENERGY_POLICY,en,energy policy
 FUTURE,ja,未来
 FUTURE,en,future
-SHAKAIMONDAI,ja,社会問題
-SHAKAIMONDAI,en,social problem
 GAKKAI,ja,学会
 GAKKAI,en,academic society
-MEETING_RECORD,ja,会議録
-MEETING_RECORD,en,meeting record
 KANKYO,ja,環境
 KANKYO,en,environment
 KAGAKU_GIJUTSU,ja,科学技術
@@ -2673,8 +2281,6 @@ POLITICS,ja,政治
 POLITICS,en,politics
 GEOGRAPHY,ja,地理
 GEOGRAPHY,en,geography
-SAIGAI_TAIYOU,ja,災害対応
-SAIGAI_TAIYOU,en,disaster response
 STAFF_ASSIGNMENT,ja,人員配置
 STAFF_ASSIGNMENT,en,staff assignment
 HOUSING,ja,住宅
@@ -2711,16 +2317,10 @@ OBSTETRICS,ja,産科
 OBSTETRICS,en,obstetrics
 REPORTING,ja,報告
 REPORTING,en,reporting
-HORITSU,ja,法律
-HORITSU,en,law
-DISASTER_RESPONSE,ja,災害対応
-DISASTER_RESPONSE,en,disaster response
 LOCAL_AUTONOMY,ja,地方自治
 LOCAL_AUTONOMY,en,local autonomy
 SHAKAI_HOSHOU,ja,社会保障
 SHAKAI_HOSHOU,en,social security
-HOU_KAISEI,ja,法改正
-HOU_KAISEI,en,legal revision
 ARTS,ja,芸術
 ARTS,en,arts
 GAIKYOU,ja,概況
@@ -2731,8 +2331,6 @@ RECONSTRUCTION,ja,復興
 RECONSTRUCTION,en,reconstruction
 KENKYUU,ja,研究
 KENKYUU,en,research
-LEGAL,ja,法務
-LEGAL,en,legal
 HODO,ja,報道
 HODO,en,news reporting
 COPYRIGHT,ja,著作権
@@ -2767,10 +2365,6 @@ TAX_SYSTEM,ja,税制
 TAX_SYSTEM,en,tax system
 ENVIRONMENT,ja,環境
 ENVIRONMENT,en,environment
-DISASTER_RECOVERY,ja,災害復旧
-DISASTER_RECOVERY,en,disaster recovery
-STENOGRAPHY,ja,速記
-STENOGRAPHY,en,stenography
 INDUSTRY,ja,産業
 INDUSTRY,en,industry
 CHIIKI_KATSUDO,ja,地域活動
@@ -2789,46 +2383,26 @@ COMMUNITY_ACTIVITY,ja,地域活動
 COMMUNITY_ACTIVITY,en,community activity
 REGION,ja,地域
 REGION,en,region
-HOU_RITSU,ja,法律
-HOU_RITSU,en,law
-DISASTER_RECONSTRUCTION,ja,災害復興
-DISASTER_RECONSTRUCTION,en,disaster reconstruction
 KAIDAN,ja,会談
 KAIDAN,en,talks
 KOKUSAI_JOUSEI,ja,国際情勢
 KOKUSAI_JOUSEI,en,international affairs
 HOU-GAKU,ja,法学
 HOU-GAKU,en,jurisprudence
-SAIGAI_TAISAKU,ja,災害対策
-SAIGAI_TAISAKU,en,disaster countermeasures
 INSURANCE,ja,保険
 INSURANCE,en,insurance
-MEETINGS,ja,会議
-MEETINGS,en,meetings
 EARTH_SCIENCE,ja,地球科学
 EARTH_SCIENCE,en,earth science
-HOUZOU,ja,法蔵
-HOUZOU,en,legal archive
-ZAISEN,ja,財政
-ZAISEN,en,finance
-HOURITSU,ja,法律
-HOURITSU,en,law
-DISASTER_COUNTERMEASURES,ja,災害対策
-DISASTER_COUNTERMEASURES,en,disaster countermeasures
 MACHIZUKURI,ja,まちづくり
 MACHIZUKURI,en,community development
 ENERGY,ja,エネルギー
 ENERGY,en,energy
 INDUSTRY_TERMS,ja,産業用語
 INDUSTRY_TERMS,en,industry terms
-GYOSEI,ja,行政
-GYOSEI,en,administration
 HOKOKU,ja,報告
 HOKOKU,en,report
 KANYOUKU,ja,慣用句
 KANYOUKU,en,idiom
-DISASTER_COUNTERMEASURE,ja,災害対策
-DISASTER_COUNTERMEASURE,en,disaster countermeasure
 JINJI,ja,人事
 JINJI,en,personnel
 INSATSU,ja,印刷
@@ -2853,18 +2427,12 @@ COMMITTEE,ja,委員会
 COMMITTEE,en,committee
 KABUSHIKI,ja,株式
 KABUSHIKI,en,stock
-KATAKANA_WORDS,ja,カタカナ語
-KATAKANA_WORDS,en,katakana words
 NEWS_REPORTING,ja,ニュース報道
 NEWS_REPORTING,en,news reporting
-DOUON_IGIGO,ja,同音異義語
-DOUON_IGIGO,en,homonym
 PENSION,ja,年金
 PENSION,en,pension
 ROUDOU,ja,労働
 ROUDOU,en,labor
-HOUMU,ja,法務
-HOUMU,en,legal affairs
 SHAKAI_FUKUSHI,ja,社会福祉
 SHAKAI_FUKUSHI,en,social welfare
 USA,ja,アメリカ
@@ -2873,8 +2441,6 @@ AIRPORT,ja,空港
 AIRPORT,en,airport
 KOKUSAI,ja,国際
 KOKUSAI,en,international
-SENMON_YOUGO,ja,専門用語
-SENMON_YOUGO,en,technical term
 JINZAI_IKUSEI,ja,人材育成
 JINZAI_IKUSEI,en,human resource development
 PUBLIC_WORKS,ja,公共事業
@@ -2885,15 +2451,13 @@ RIREKISHO,ja,履歴書
 RIREKISHO,en,resume
 SYAKAI_FUKUSI,ja,社会福祉
 SYAKAI_FUKUSI,en,social welfare
-SAIGAI_TAIO,ja,災害対応
-SAIGAI_TAIO,en,disaster response
 SMALL_MEDIUM_ENTERPRISE,ja,中小企業
 SMALL_MEDIUM_ENTERPRISE,en,small and medium enterprise
 BROADCASTING,ja,放送
 BROADCASTING,en,broadcasting
 BOUSHUU,ja,募集
 BOUSHUU,en,recruitment
-MEDICAL_CARE,ja,医療
+MEDICAL_CARE,ja,医療ケア
 MEDICAL_CARE,en,medical care
 1980S,ja,1980年代
 1980S,en,1980s
@@ -2931,20 +2495,12 @@ GOOGLE_HOME,ja,Google Home
 GOOGLE_HOME,en,Google Home
 HATON,ja,ハッと音
 HATON,en,startling sound
-HIMOBOGOHASHASHA,ja,ひも母語話者
-HIMOBOGOHASHASHA,en,rope-native speaker
-HIMOBOGO_WASHA,ja,ひも母語話者
-HIMOBOGO_WASHA,en,rope-native speaker
-HIMOTOBA_WAKASHA,ja,ひも言葉話者
-HIMOTOBA_WAKASHA,en,rope-language speaker
 HOIKU,ja,保育
 HOIKU,en,childcare
 IHCWAY,ja,IHCWAY
 IHCWAY,en,IHCWAY
 IDENTITY,ja,アイデンティティ
 IDENTITY,en,identity
-ICT_UTILIZATION,ja,ICT活用
-ICT_UTILIZATION,en,ICT utilization
 INTERNATIONAL_EXCHANGE,ja,国際交流
 INTERNATIONAL_EXCHANGE,en,international exchange
 JAPANESE_NAME,ja,日本人の名前
@@ -2963,28 +2519,16 @@ KINCHOU,ja,緊張
 KINCHOU,en,nervousness
 LESSON_EXPERIENCE,ja,授業経験
 LESSON_EXPERIENCE,en,lesson experience
-MISHEARING_ERROR,ja,聞き間違いエラー
-MISHEARING_ERROR,en,mishearing error
 MISWRITING,ja,書き間違い
 MISWRITING,en,miswriting
 MULTICULTURAL,ja,多文化
 MULTICULTURAL,en,multicultural
 MULTILINGUAL,ja,多言語
 MULTILINGUAL,en,multilingual
-MYOUJI,ja,名字
-MYOUJI,en,surname
-MYOJI,ja,苗字
-MYOJI,en,surname
 MOTOHARU_SANO,ja,佐野元春
 MOTOHARU_SANO,en,Motoharu Sano
 NATIONAL_PHENOMENON,ja,国民的現象
 NATIONAL_PHENOMENON,en,national phenomenon
-NICHIJO_SEIKATSU,ja,日常生活
-NICHIJO_SEIKATSU,en,daily life
-NICHIJOKAIWA,ja,日常会話
-NICHIJOKAIWA,en,daily conversation
-NUMBER_OF_PEOPLE,ja,人数
-NUMBER_OF_PEOPLE,en,number of people
 ONIN_NINCHI,ja,音韻認知
 ONIN_NINCHI,en,phonological awareness
 ONLINE_ENGLISH_CONVERSATION,ja,オンライン英会話
@@ -3029,12 +2573,8 @@ YOMIMACHIGAI,ja,読み間違い
 YOMIMACHIGAI,en,misreading
 YOJIGO,ja,四字語
 YOJIGO,en,four-character idiom
-YUMEIJIN,ja,有名人
-YUMEIJIN,en,celebrity
 SPANISH,ja,スペイン語
 SPANISH,en,Spanish
-INFANT_LANGUAGE,ja,幼児語
-INFANT_LANGUAGE,en,infant language
 IDENTITY_VERIFICATION,ja,本人確認
 IDENTITY_VERIFICATION,en,identity verification
 COLOR,ja,色
@@ -3049,10 +2589,8 @@ ORDER_ACCEPTANCE,ja,注文受付
 ORDER_ACCEPTANCE,en,order acceptance
 SHIP,ja,出荷
 SHIP,en,shipping
-LAST_NAME,ja,姓
+LAST_NAME,ja,名字
 LAST_NAME,en,last name
-CUSTOMER_SUPPORT,ja,カスタマーサポート
-CUSTOMER_SUPPORT,en,customer support
 BUSINESS_PHONE,ja,業務用電話
 BUSINESS_PHONE,en,business phone
 AUDITORY_INFORMATION_PROCESSING,ja,聴覚情報処理
@@ -3061,10 +2599,6 @@ KANJI_NOTATION,ja,漢字表記
 KANJI_NOTATION,en,kanji notation
 DEVELOPMENTAL_DISORDER,ja,発達障害
 DEVELOPMENTAL_DISORDER,en,developmental disorder
-PARAPHRASE,ja,言い換え
-PARAPHRASE,en,paraphrase
-CUSTOMER_INFORMATION,ja,顧客情報
-CUSTOMER_INFORMATION,en,customer information
 COUNTERMEASURES,ja,対策
 COUNTERMEASURES,en,countermeasures
 WORK_CONCERNS,ja,業務上の懸念
