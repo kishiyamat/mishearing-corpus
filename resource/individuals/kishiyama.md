@@ -48,10 +48,7 @@
 - 字幕のエラーとして見つけた、成年後見人→成年後継人
 - きよしこの夜
 - 「ハウリング」→「ハウジング」  https://www.rion-east.co.jp/blog/2018/09/12/【船橋店】あれっ、聞き間違い？/
-- 
-
-[エアプ乙・AirPods　教えぬOCN　胃炎・言えん ](https://togetter.com/li/2533180?page=2 "‌") （[https://togetter.com/li/2533180?page=2](https://togetter.com/li/2533180?page=2 "smartCard-inline") ）
-
-アプローチしてんの？」って言われて、 急に変なこというなって思ってたらApple Watch
-
+- [M&A](https://togetter.com/li/2634866)
+- [エアプ乙・AirPods　教えぬOCN　胃炎・言えん ](https://togetter.com/li/2533180?page=2 "‌") （[https://togetter.com/li/2533180?page=2](https://togetter.com/li/2533180?page=2 "smartCard-inline") ）
+- アプローチしてんの？」って言われて、 急に変なこというなって思ってたらApple Watch
 - 牛がいる→虫がいる https://togetter.com/li/2565916
