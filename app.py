@@ -503,8 +503,17 @@ with disclaimer_tab:
 
 with extractor_tab:
     st.subheader("Extractor")
-    sample_df = df
-    df = extract_word_mishear_pairs(sample_df)
-    # save to resource directory
-    output_path = "resource/extracted_word_pairs.csv"
-    df.to_csv(output_path, index=False)
+    st.markdown(
+        """
+抽出処理は Streamlit から切り離され、スクリプトとして実行できます。
+
+次のコマンドをリポジトリのルートで実行してください:
+
+```bash
+source .venv/bin/activate
+python scripts/asa2025/extract_word_pairs.py
+```
+
+これにより `resource/extracted_word_pairs.csv` が生成 / 上書きされます。
+"""
+    )
