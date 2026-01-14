@@ -159,7 +159,7 @@ def extract_word_mishear_pairs(input_df):
 
     # 重複を削除
     expanded_df = expanded_df.drop_duplicates(subset=['Src', 'Tgt'])  # Src と Tgt で 重複を削除
-    assert set(expanded_df.columns) == {'Src', 'Tgt', 'index', 'MishearID'}, "Input DataFrame must contain only 'Src', 'Tgt', and 'index' columns"
+    assert set(expanded_df.columns) == {'Src', 'Tgt', 'index', 'MishearID'}, "Input DataFrame must contain only 'Src', 'Tgt', 'index', and 'MishearID' columns"
     st.write(len(expanded_df))
 
     # 単語にromaji列を追加
