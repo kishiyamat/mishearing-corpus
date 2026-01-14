@@ -167,7 +167,7 @@ def extract_word_mishear_pairs(input_df):
     st.dataframe(expanded_df_with_romaji)
 
     # romaji_edit_distance列があることを確認しromaji_edit_distance列の値が1未満の行を抽出
-    assert 'romaji_edit_distance'  in expanded_df_with_romaji.columns
+    assert 'romaji_edit_distance' in expanded_df_with_romaji.columns
     df_with_similar_romaji = expanded_df_with_romaji[expanded_df_with_romaji['romaji_edit_distance'] < 1]
     st.dataframe(df_with_similar_romaji)
     st.write(len(df_with_similar_romaji))
