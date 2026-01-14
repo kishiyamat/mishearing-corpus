@@ -1,4 +1,5 @@
 import os
+import glob
 import gensim
 import MeCab
 import difflib
@@ -192,3 +193,37 @@ def extract_word_mishear_pairs(input_df):
     # to romaji
     st.write("抽出結果 (1行が0行やN行になる):")
     return df_with_similar_romaji_in_vocab
+
+
+def load_mishearing_corpus(root: str = "data/mishearing") -> pd.DataFrame:
+    """data/mishearing 以下の全CSVを読み込み、1つのDataFrameに結合する。"""
+    pattern = os.path.join(root, "**", "*.csv")
+    files = glob.glob(pattern, recursive=True)
+    if not files:
+        raise RuntimeError(f"No CSV files found under {root}")
+
+    frames = []
+    for path in files:
+        try:
+            frames.append(pd.read_csv(path))
+        except Exception as e:  # 1ファイル壊れていても他は続行
+            print(f"[WARN] Failed to read {path}: {e}")
+
+    if not frames:
+        raise RuntimeError(f"Failed to load any CSV from {root}")
+
+    return pd.concat(frames, ignore_index=True)
+
+
+def main() -> None:
+    """CLIエントリポイント: mishearingコーパスから誤聴ペアを抽出してCSVに保存する。"""
+    input_df = load_mishearing_corpus()
+    result_df = extract_word_mishear_pairs(input_df)
+    output_path = "resource/extracted_word_pairs.csv"
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    result_df.to_csv(output_path, index=False)
+    print(f"Saved {len(result_df)} rows to {output_path}")
+
+
+if __name__ == "__main__":
+    main()
