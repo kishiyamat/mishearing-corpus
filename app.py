@@ -71,7 +71,6 @@ UI_STR = {
     },
 }
 
-from scripts.asa2025.extract_word_pairs import extract_word_mishear_pairs
 
 def extract_dir(path_str: str) -> str:
     """
