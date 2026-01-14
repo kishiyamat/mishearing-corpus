@@ -233,6 +233,84 @@ If validation fails, the commit/merge is blocked and a detailed error list is sh
 
 ---
 
+## 5.5. ASA2025 word-pair extractor
+
+This repo includes an experimental word-level mishearing extractor used in the ASA2025 context.
+
+- Script: `scripts/asa2025/extract_word_pairs.py`
+- Output: `resource/extracted_word_pairs.csv`
+- Model: `resource/chive-1.3-mc5_gensim/chive-1.3-mc5.kv` (chiVe; not tracked in Git)
+
+### How to run the experiment
+
+From the repo root:
+
+```bash
+# 1) Set up env + ASA2025 tools
+make setup       # if you have not created .venv yet
+source .venv/bin/activate
+make asa2025     # installs MeCab bindings etc. and downloads chiVe
+
+# 2) Run the extractor
+python scripts/asa2025/extract_word_pairs.py
+# -> writes resource/extracted_word_pairs.csv
+```
+
+The script will:
+
+- load all `data/mishearing/**/*.csv` into a single DataFrame,
+- expand misheard segments to word-level pairs,
+- convert `Src`/`Tgt` to romaji and compute a normalized edit distance,
+- keep only reasonably similar pairs (romaji edit distance < 1, alphabetic romaji only),
+- filter to pairs that exist in the chiVe vocabulary, and
+- compute cosine similarity between the word vectors.
+
+### Difference from the historical CSV
+
+`resource/extracted_word_pairs.csv` is version-controlled. When we regenerated it with the
+current code and data, we observed:
+
+- same shape: `(1908, 9)` rows/columns,
+- identical column schema,
+- but **56 rows swapped**: 56 key rows present only in the old file and 56 only in the new one
+  (keys based on `MishearID, Src, Tgt, Src_romaji, Tgt_romaji, romaji_edit_distance`).
+
+This indicates that the extractor is **deterministic in the current environment** (two consecutive
+runs produce bit-identical CSVs), but the historical committed CSV was generated under a slightly
+different condition (e.g., older code, data snapshot, or chiVe variant).
+
+To reproduce the comparison we ran:
+
+```bash
+cp resource/extracted_word_pairs.csv resource/extracted_word_pairs_orig.csv
+python scripts/asa2025/extract_word_pairs.py
+
+python - << 'PY'
+import pandas as pd
+
+orig = pd.read_csv('resource/extracted_word_pairs_orig.csv')
+new = pd.read_csv('resource/extracted_word_pairs.csv')
+
+print('orig shape:', orig.shape)
+print('new  shape:', new.shape)
+print('same columns:', list(orig.columns) == list(new.columns))
+print('all_equal:', orig.equals(new))
+
+key_cols = ['MishearID','Src','Tgt','Src_romaji','Tgt_romaji','romaji_edit_distance']
+orig_set = set(map(tuple, orig[key_cols].to_numpy()))
+new_set  = set(map(tuple, new[key_cols].to_numpy()))
+
+print('only_in_orig:', len(orig_set - new_set))
+print('only_in_new :', len(new_set - orig_set))
+PY
+```
+
+Two consecutive runs of the current extractor yield identical files, so future deviations from the
+committed CSV should be interpreted as **intentional changes in logic or source data**, not as
+randomness.
+
+---
+
 ## 6. Contributing
 
 1. **Fork -> Branch -> PR**.
@@ -501,6 +579,32 @@ _ google_search_name_kikimachigai	71
   - 文脈を絞る度合いの個人差
   - 大きなデータ・セットによる評価
 
+## Research
+
+1. janome/ginzaで単語単位のdiffを実装
+
+#### one-wordsの抽出を実行し、kikoepredプロジェクトに送る
+
+Extracted 1908 errors from 4490 errors following the processing steps:
+
+1. Displays the number of rows in the input DataFrame.
+2. Expands word-level mishearing pairs using `extract_word_mishear_pairs_from_df`.
+3. Removes parentheses and their contents from the 'Src' and 'Tgt' columns.
+4. Removes duplicate rows based on 'Src' and 'Tgt' columns.
+5. Adds romaji representations for the words in 'Src' and 'Tgt' columns.
+6. Filters rows where the romaji edit distance is less than 1.
+7. Ensures that both 'Src_romaji' and 'Tgt_romaji' consist of only alphabetic characters.
+8. Adds a column indicating whether the words are present in the word vector vocabulary.
+9. Filters rows where both words are in the word vector vocabulary.
+10. Calculates the similarity between 'Src' and 'Tgt' using the word vector model and adds it as a new column.
+
+Read `Makefile` to build the environment.
+
+```sh
+sudo apt-get install mecab libmecab-dev mecab-ipadic-utf8
+pip install mecab-python3
+export MECABRC=/etc/mecabrc
+```
 
 ## Appendix
 
