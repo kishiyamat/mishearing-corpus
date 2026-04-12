@@ -1,6 +1,6 @@
 # Mishearing Corpus (Japanese)  
 
-_Approximately 10 k rows of Japanese (for now) mis-hearing instances,
+_Approximately 5 k rows of Japanese (for now) mis-hearing instances,
 kept as plain CSV/TSV plus Table Schema 
 and automatically validated with `frictionless` + `pre-commit` + GitHub Actions._
 
@@ -20,10 +20,6 @@ The extent of such data available on the web is currently unknown.
 | **Data Mining**   |  4,000  | 07.10 | Extract explicit mishearing cases from available sources using LLMs.        | *Utilize LLMs and fix tags* |
 | **Application**   |  4,500  | 07.28 | Expand the CSV dataset and apply it to psycholinguistics.                   | *Rule-based Validation* |
 | **ML Design**     |  5,000  | 08.31 | Develop a prediction model to generate stimuli for commonly misheard pairs. | *Make an MVP, Get feedback* |
-| **Crowdsourcing** |  6,000  | 09.30 | Optimize the process to complete the remaining data collection.             | *Validating Gathered Data* |
-| **Crowdsourcing** |  8,000  | 10.31 | Optimize the process to complete the remaining data collection.             | *Validating Gathered Data* |
-| **Crowdsourcing** | 10,000  | 11.30 | Optimize the process to complete the remaining data collection.             | *Validating Gathered Data* |
-| **Crowdsourcing** | 10,000  | 12.31 | Optimize the process to complete the remaining data collection.             | *Validating Gathered Data* |
 
 Crowdsourcing for data collection has been excluded due to concerns 
 about the potential introduction of fabricated examples,
