@@ -1,0 +1,18 @@
+[project]
+name = "mishearing-corpus"
+version = "0.1.0"
+description = "Mishearing Corpus data tools and Streamlit viewer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "GitPython>=3.1.44",
+    "click>=8.0,<8.2",
+    "duckdb",
+    "frictionless==5.18.1",
+    "loguru==0.7.3",
+    "pandas==2.2.3",
+    "pre-commit==4.2.0",
+    "pytest",
+    "python-slugify==8.0.4",
+    "streamlit",
+]
