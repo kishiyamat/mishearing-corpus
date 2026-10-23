@@ -1,17 +1,27 @@
 # Makefile for deploying the Streamlit app
 
-.PHONY: setup install run clean build-datapackage asa2025 test asa2025-test
+.PHONY: setup install run clean build-datapackage asa2025 test asa2025-test api api-test api-check
 
 # プロジェクト用の仮想環境作成＋依存関係インストール
 setup:
-	python -m venv .venv
-	. .venv/bin/activate && pip install --upgrade pip
-	. .venv/bin/activate && pip install -r requirements.txt
+	uv sync --locked
 	@echo "\n[OK] Activate environment with: source .venv/bin/activate"
 
-# 既存環境に requirements.txt だけ入れる場合
+# コミット済みロックと環境を同期
 install:
-	pip install -r requirements.txt
+	uv sync --locked
+
+# 読み取り専用API（配備は行わない）
+api:
+	uv run --locked --extra api uvicorn corpus_api.main:create_app --factory --host 127.0.0.1
+
+api-test:
+	uv run --locked --extra api python -m pytest --ignore=tests/asa2025
+
+api-check:
+	uv run --locked ruff check corpus_api tests/test_corpus_api.py
+	uv run --locked ruff format --check corpus_api tests/test_corpus_api.py
+	uv run --locked --extra api mypy corpus_api
 
 run:
 	streamlit run app.py

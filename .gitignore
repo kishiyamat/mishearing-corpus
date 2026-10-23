@@ -24,6 +24,8 @@ build/
 dist/
 *.egg-info/
 .eggs/
+.mypy_cache/
+.ruff_cache/
 
 # Frictionless/CSV artifacts
 datapackage.json
