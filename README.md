@@ -1,10 +1,24 @@
 # Mishearing Corpus (Japanese)  
 
-_Approximately 10 k rows of Japanese (for now) mis-hearing instances,
-kept as plain CSV/TSV plus Table Schema 
-and automatically validated with `frictionless` + `pre-commit` + GitHub Actions._
+_Public mis-hearing examples, kept as plain CSV plus Table Schema and validated
+with `frictionless` and local tests. The current data snapshot contains 4,490
+records; the roadmap below describes goals, not completed collection counts._
 
 You can see the data [here](https://mishearing-corpus-dev.streamlit.app/).
+
+For programmatic access, see the [read-only API and reproducible export guide](docs/api.md).
+The API provides dataset metadata, text/classification search, exact-ID lookup,
+and CSV/JSONL export with a fixed Git data version and checksums. Run it locally:
+
+```bash
+uv sync --locked --extra api
+uv run --locked --extra api uvicorn corpus_api.main:create_app --factory
+```
+
+This public repository owns released data, schemas, validation and API code.
+Private research code, experiment management, and the future Web/blog frontend
+are separate responsibilities. The existing Streamlit viewer remains available;
+this change does not deploy a hosted API or migrate the viewer.
 
 ---
 
@@ -36,6 +50,7 @@ Ensuring the authenticity and quality of the dataset is paramount for its scient
 - [1. What's inside?](#1-whats-inside)
 - [2. Quick start](#2-quick-start)
 - [2.5. Viewer (Streamlit app)](#25-viewer-streamlit-app)
+- [API: versioned search and export](docs/api.md)
 - [3. Directory layout](#3-directory-layout)
 - [4. Data model](#4-data-model)
 - [5. Validation workflow](#5-validation-workflow)
@@ -61,8 +76,8 @@ Typical use-cases:
 * Developing data-driven pronunciation teaching materials
 
 The corpus includes a `Language` column, allowing for future expansion to non-Japanese data as well.
-A `Category` column is also included to classify each instance by context
----some involve safety-critical mishearings 
+Context classifications are stored in the tag and environment bridge tables,
+joined by `MishearID`, rather than a `Category` column. Some examples involve safety-critical mishearings
 (e.g., in medical or industrial settings),
 while others come from everyday, educational, or entertainment situations.
 
@@ -74,11 +89,12 @@ while others come from everyday, educational, or entertainment situations.
 git clone https://github.com/kishiyamat/mishearing-corpus.git
 cd mishearing-corpus
 
-# set up tools (once)
-python -m venv venv
-. venv/bin/activate
-pip install -r requirements.txt          # frictionless & pre-commit
-pre-commit install                       # auto-validation on commit
+# set up tools from the committed dependency lock
+uv sync --locked
+uv run --locked pre-commit install        # auto-validation on commit
+
+# local validation (API tests require --extra api)
+uv run --locked python -m pytest --ignore=tests/asa2025
 
 # see summary (Future)
 # python scripts/stats.py
@@ -99,14 +115,12 @@ Run locally:
 
 ```bash
 # from the repo root
-python -m venv venv
-. venv/bin/activate
-pip install -r requirements.txt
+uv sync --locked
 
 # start the app
-streamlit run app.py
+uv run --locked streamlit run app.py
 # or:
-make run
+uv run --locked make run
 ```
 
 ### How to use
@@ -192,7 +206,10 @@ mishearing-corpus/
 │  └─ test_scripts.py
 │
 ├─ datapackage.json              # データパッケージ定義（自動生成）
-├─ requirements.txt              # 必要なPythonパッケージ一覧
+├─ corpus_api/                   # 公開CSVの版固定・検索・読み取り専用HTTP API
+├─ docs/api.md                   # API契約、利用例、ローカル検証
+├─ pyproject.toml                # 必要なPythonパッケージと任意のapi extra
+├─ uv.lock                       # 再現用の依存バージョン
 ├─ .pre-commit-config.yaml       # pre-commit用フック設定
 └─ .github/
   └─ workflows/
