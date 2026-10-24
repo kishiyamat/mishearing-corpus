@@ -1,0 +1,21 @@
+{
+  "schema": "uncovered-phrase-sol-correction/v1",
+  "supersedes_table_sha256": "cab8e004be382f142c33919fe6550f11844f1595e5fd572e0d608c4ad14d5d32",
+  "items": [
+    {
+      "MishearID": "niftykids_200408100935_003",
+      "OldPairID": "aaac5365-9cbc-53ba-a889-866b0b8eb83f",
+      "OriginalHash": "0983bd6bb61b2aca59706afef927dd3862b70189df7813bc346218e6d715d010",
+      "decision": "KEEP_CONTEXTUAL",
+      "new_pairs": [
+        {
+          "new_unit_type": "phrase",
+          "new_pair": [[0, 3, "一児の", "イチジノ"], [0, 3, "一時は", "イチジワ"]],
+          "reading_basis": "unchanged_old_reviewed_annotation",
+          "reading_gate": "none"
+        }
+      ],
+      "basis": "The noun readings are homophonous, but の and は are different pronounced grammatical particles, not shared removable context. Original CSV has 一児の母/一時は母 and an empty Note; inaccessible primary page does not independently attest a word-only misunderstanding. Preserve the source's full audible and syntactic contrast as a contextual phrase, without a lexical child."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "decision_count": 12,
+  "audit_rows": 13,
+  "input_review_sha256": "d56282470bd1c73c40e4d64c43d5c3659f28716db24509278a48c0c7fbb88c09",
+  "output_review_sha256": "0805dc7cc103e499757012475b357424f2ba9f35491a8974245f335ce9814f1d",
+  "decision_patch_sha256": "6bf909a027bedbe6af60d6d5744218e870e2bb50ca3412c46900ece7a0ea9e16",
+  "audit_sha256": "8f86243a800d530af051333c6e7e9a30520b310fd536bbc9c0d835ab8c842321",
+  "baseline_ref": "772419e",
+  "baseline_conditionally_adjudicated_records_checked": 332,
+  "records_with_lost_policy_rationale_repaired": 12,
+  "records_with_lost_conditional_qualifiers": 0,
+  "note": "Restored conditional/policy rationale from baseline Reason/Evidence without changing current pair boundaries, readings, or qualifier annotations.",
+  "output": "data/annotations/reviews.csv"
+}

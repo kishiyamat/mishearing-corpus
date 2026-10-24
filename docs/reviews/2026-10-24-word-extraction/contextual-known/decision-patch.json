@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:997c113144c2e8da8dd617d09d715578dcbeedd8077ddc957b6d6457ea6292e4",
+  "source_review_sha256": "997c113144c2e8da8dd617d09d715578dcbeedd8077ddc957b6d6457ea6292e4",
+  "decisions": [
+    {
+      "MishearID": "coffee_break_parts_similar200707_001",
+      "OriginalHash": "3d5dfcc510acf701f43030b9062e70251b1fc47161347196d686da6533d138ec",
+      "old_pairs": [
+        {
+          "PairID": "9c94982b-87b2-5880-81ac-8ffab457dc8a",
+          "src_start": 12,
+          "src_end": 17,
+          "tgt_start": 12,
+          "tgt_end": 17,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "9c94982b-87b2-5880-81ac-8ffab457dc8a",
+          "SupersedesPairID": "cba23ec0-b817-5202-995e-11355a263f96",
+          "src_end": 17,
+          "src_start": 12,
+          "tgt_end": 17,
+          "tgt_start": 12,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 17,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ローマキテイ",
+          "start": 12,
+          "surface": "ローマ規程"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 17,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "マアキテイ",
+          "start": 12,
+          "surface": "まあ、規定"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200707.html entry 1: 正解 highlights ローマ規程 in 国際刑事裁判所に関するローマ規程の提起について、国会承認を求める件で～; 間違い highlights まあ、規定 in 国際刑事裁判所に関する、まあ、規定の提起について、国会承認を求める件で～. Raw CSV correct sentence is 国際刑事裁判所に関する、ローマ規程の提起について、国会承認を求める件で～. The highlighted units occur in both, but the full correct sentences differ (other); full-sentence identity is not claimed. The archived error sentence agrees with CSV. Selected contrast ローマ規程[ローマキテイ] versus まあ、規定[マアキテイ]. MOFA identifies the Rome Statute governing the International Criminal Court as ローマ規程; the source’s ローマ[ローマ] + 規程[キテイ] contrasts with filler まあ[マア] + 規定[キテイ], comma silent. Published lexical reference: https://www.mofa.go.jp/mofaj/gaiko/icc/index.html. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Reviewed pair is a phrase/phrase-fragment contrast rather than one independent lexical word: source and target retain context-dependent material or phonological alignment across the full selected expressions.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200909_007",
+      "OriginalHash": "e2b0318b494b8020c4ad88d18b29b79b5dc675616b7dba77cf6feffed3fb4b4b",
+      "old_pairs": [
+        {
+          "PairID": "c7a88065-1c19-5753-bd89-c7169e0bec82",
+          "src_start": 18,
+          "src_end": 21,
+          "tgt_start": 18,
+          "tgt_end": 21,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "c7a88065-1c19-5753-bd89-c7169e0bec82",
+          "SupersedesPairID": "986bcf14-dc6e-5f46-a557-ea13970107d7",
+          "src_end": 21,
+          "src_start": 18,
+          "tgt_end": 21,
+          "tgt_start": 18,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 21,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "モデル",
+          "start": 18,
+          "surface": "モデル"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 21,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "モデル",
+          "start": 18,
+          "surface": "も出る"
+        }
+      ],
+      "Evidence": "Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200909.html entry 7: 正解 highlights モデル in ２０年度で言えば、精度の高い波浪予測モデルなどを開発したことが評価に値するでしょうか。; 間違い highlights も出る in ２０年度で言えば、精度の高い波浪予測も出る、などを開発したことが評価に値するでしょうか。. The raw CSV correct sentence is ２０年度で言えば、精度の高い波浪予測モデル、などを開発したことが評価に値するでしょうか。. The highlighted units occur in both, but the complete correct sentences differ (other); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF-8 MeCab/IPADIC components where available and a separately cited published source for non-dictionary components: モデル = モデル[モデル]; も出る = も[モ] + 出る[デル]. IPADIC identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.  Context determines the selected reading; grammatical particles are spoken ワ/エ/オ, punctuation silent. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200909.html, entry 7; 正解=２０年度で言えば、精度の高い波浪予測モデルなどを開発したことが評価に値するでしょうか。; 間違い=２０年度で言えば、精度の高い波浪予測も出る、などを開発したことが評価に値するでしょうか。; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。",
+      "Reason": "Reviewed pair is a phrase/phrase-fragment contrast rather than one independent lexical word: source and target retain context-dependent material or phonological alignment across the full selected expressions.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "20190115_002",
+      "OriginalHash": "cebf0de784430a217bf225b4816fe389d7f2d6dde76ef18a60f8cf4ce5b195ce",
+      "old_pairs": [
+        {
+          "PairID": "8fdcd99c-652d-548b-8a33-9a7404c579ec",
+          "src_start": 12,
+          "src_end": 18,
+          "tgt_start": 12,
+          "tgt_end": 16,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "8fdcd99c-652d-548b-8a33-9a7404c579ec",
+          "SupersedesPairID": "",
+          "src_end": 18,
+          "src_start": 12,
+          "tgt_end": 16,
+          "tgt_start": 12,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 18,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "モデレートナ",
+          "start": 12,
+          "surface": "モデレートな"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 16,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "モドリエタ",
+          "start": 12,
+          "surface": "戻り得た"
+        }
+      ],
+      "Evidence": "Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar201901.html, SHA256 1b0509b72c3cdff3000661388cedf09a78ad403ebac0c51f0d6eb99b0fc99612; source text surrounding both source/highlight expressions after HTML tag and layout removal: 'られちゃ～【正解】十分周知していたのに、今ごろテール・ヘビー（tailheavy）に乗っかってこられちゃ～【間違い】当初の案よりもずいぶんと戻り得たものにはなってきたと思うけど～【正解】当初の案よりもずいぶんとモデレート（moderate）なものにはなってきたと思うけど～【間違い】将来へ向けて、競争を勝ち抜くための位置づけを構築する～【正解】将来へ向けて、競争'. Audited comparison unit 'モデレートな'/'戻り得た'; contextual readings モデレートナ/モドリエタ. The record may contain other highlighted differences; this span is a coherent matching comparison unit. Installed MeCab/IPADIC features for original spans: [{\"src\":\"モデレートな\",\"tgt\":\"戻り得た\",\"span\":{\"src_start\":12,\"src_end\":18,\"tgt_start\":12,\"tgt_end\":16,\"unit_type\":\"word\",\"PairID\":\"\",\"SupersedesPairID\":\"\"},\"src_tokens\":[{\"surface\":\"モデレート\",\"reading\":\"*\",\"features\":[\"UNK\"]},{\"surface\":\"な\",\"reading\":\"ナ\",\"features\":[\"助詞\",\"終助詞\",\"*\",\"*\",\"*\",\"*\",\"な\",\"ナ\",\"ナ\"]}],\"tgt_tokens\":[{\"surface\":\"戻り\",\"reading\":\"モドリ\",\"features\":[\"動詞\",\"自立\",\"*\",\"*\",\"五段・ラ行\",\"連用形\",\"戻る\",\"モドリ\",\"モドリ\"]},{\"surface\":\"得\",\"reading\":\"エ\",\"features\":[\"動詞\",\"非自立\",\"*\",\"*\",\"一段\",\"連用形\",\"得る\",\"エ\",\"エ\"]},{\"surface\":\"た\",\"reading\":\"タ\",\"features\":[\"助動詞\",\"*\",\"*\",\"*\",\"特殊・タ\",\"基本形\",\"た\",\"タ\",\"タ\"]}],\"src_entries\":[],\"tgt_entries\":[]}]; dictionary SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Reviewed pair is a phrase/phrase-fragment contrast rather than one independent lexical word: source and target retain context-dependent material or phonological alignment across the full selected expressions.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "39mag_benesse_16332_004",
+      "OriginalHash": "45e538bea8c5d653bba992795230454337ae60340caa0a628a67d7c51e429043",
+      "old_pairs": [
+        {
+          "PairID": "82671ee3-1b4c-555b-8036-b949798af223",
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "82671ee3-1b4c-555b-8036-b949798af223",
+          "SupersedesPairID": "",
+          "src_end": 3,
+          "src_start": 0,
+          "tgt_end": 3,
+          "tgt_start": 0,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 3,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "タキノウ",
+          "start": 0,
+          "surface": "多機能"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 3,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "タキノオ",
+          "start": 0,
+          "surface": "滝のお"
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_shigoto_kikimachigai/benesse_ne_jp.csv row 39mag_benesse_16332_004; Src=多機能トイレです; Tgt=滝のおトイレです; Note=子ども時代の聞き間違い。駅の音声案内「多機能トイレです」を「滝のおトイレです」と誤解; URL=https://39mag.benesse.ne.jp/lifestyle/content/?id=16332. Exact public IPADIC constituent entries: 多=タ, 機能=キノウ; dictionary SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Exact public IPADIC constituent entries: 滝=タキ, の=ノ, お=オ; dictionary SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Reviewed pair is a phrase/phrase-fragment contrast rather than one independent lexical word: source and target retain context-dependent material or phonological alignment across the full selected expressions.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:fe1d8baa871f160ba90b21c4f5b7c0ad52dce7259c736b7e97791129f9abdcff",
+  "source_review_sha256": "fe1d8baa871f160ba90b21c4f5b7c0ad52dce7259c736b7e97791129f9abdcff",
+  "preserve_previous_rationale": true,
+  "decisions": [
+    {
+      "MishearID": "coffee_break_parts_similar200603_007",
+      "OriginalHash": "f7ce785d54b84503fe5e2d6fd35f8b128fe9f3cff3c77265d90410af9b57e6eb",
+      "old_pairs": [{"PairID":"0d2b5218-aeb8-5a32-a4ad-21790c152aa1","src_start":9,"src_end":13,"tgt_start":9,"tgt_end":13,"unit_type":"compound"}],
+      "new_pair_spans": [{"src_start":9,"src_end":11,"tgt_start":9,"tgt_end":11,"unit_type":"word","PairID":"","SupersedesPairID":"0d2b5218-aeb8-5a32-a4ad-21790c152aa1"}],
+      "SrcAnnotations": [{"start":9,"end":11,"surface":"中水","reading":"チュウスイ","meanings":[],"qualifiers":[]}],
+      "TgtAnnotations": [{"start":9,"end":11,"surface":"注水","reading":"チュウスイ","meanings":[],"qualifiers":[]}],
+      "Evidence": "Saved Yamato archive entry 7 confirms the full sentences 中水利用を行うことになっている / 注水利用を行うことになっている. The shared 利用 is usage context; the independent contrast is 中水 / 注水. The researcher confirmed the word pair and 中水 reading. IPADIC exact 注水 entry is チュウスイ. The published MLIT glossary gives 中水[チュウスイ]. Original audio is unverified.",
+      "Reason": "Adopt the researcher-confirmed word contrast 中水 / 注水 while retaining 利用 in both original contexts. Both readings are チュウスイ; this is a lexical/meaning contrast under the researcher's correction criteria. Original audio is unverified.",
+      "Reviewer": "agent:gpt-6.1-sol",
+      "ReviewedAt": "2026-10-25",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "39mag_benesse_16332_002",
+      "OriginalHash": "bf21d0976257a3a3abc3af70470e7af79394662a78ee4df6dcadb2085f85ae1d",
+      "old_pairs": [{"PairID":"af14d04f-c816-58d0-b563-2b643f1bc29e","src_start":0,"src_end":2,"tgt_start":0,"tgt_end":2,"unit_type":"word"}],
+      "new_pair_spans": [{"src_start":0,"src_end":3,"tgt_start":0,"tgt_end":3,"unit_type":"word","PairID":"","SupersedesPairID":"af14d04f-c816-58d0-b563-2b643f1bc29e"}],
+      "SrcAnnotations": [{"start":0,"end":3,"surface":"誤って","reading":"アヤマッテ","meanings":["過失で"],"qualifiers":[]}],
+      "TgtAnnotations": [{"start":0,"end":3,"surface":"謝って","reading":"アヤマッテ","meanings":["謝罪して"],"qualifiers":[]}],
+      "Evidence": "Original CSV row 39mag_benesse_16332_002 and its Note explicitly report 誤って as misheard for 謝って in the childhood example. Contextual complete-form readings are アヤマッテ on both sides. The cited article was not fetched and original audio was not verified; these uncertainties remain explicit.",
+      "Reason": "Use the complete lexical forms 誤って / 謝って. Preserve the contextual meaning distinction 過失で / 謝罪して. Equal readings do not erase the orthographic/lexical ambiguity; source article and original audio remain unverified.",
+      "Reviewer": "agent:gpt-6.1-sol",
+      "ReviewedAt": "2026-10-25",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "ohanashi_yokota_blog_001",
+      "OriginalHash": "2c9f733874a3a3bacdcb7fff24b1a2f5bfea4e24178e6c79be569b8c1366441d",
+      "old_pairs": [{"PairID":"cc78b300-da3a-5acb-8c8b-a4cc6094fe52","src_start":0,"src_end":2,"tgt_start":0,"tgt_end":2,"unit_type":"word"}],
+      "new_pair_spans": [{"src_start":0,"src_end":4,"tgt_start":0,"tgt_end":4,"unit_type":"word","PairID":"","SupersedesPairID":"cc78b300-da3a-5acb-8c8b-a4cc6094fe52"}],
+      "SrcAnnotations": [{"start":0,"end":4,"surface":"乗ります","reading":"ノリマス","meanings":[],"qualifiers":[]}],
+      "TgtAnnotations": [{"start":0,"end":4,"surface":"降ります","reading":"オリマス","meanings":[],"qualifiers":[]}],
+      "Evidence": "Original CSV Src/Tgt and Note report 乗りますか？ misheard as 降りますか？. IPADIC distinguishes 降りるの降り=オリ from 降るの降り=フリ; the vehicle context selects オリ. The complete forms read ノリマス / オリマス. The cited page does not verify original audio.",
+      "Reason": "Compare the complete inflected words 乗ります / 降ります rather than stems 乗り / 降り. The shared ending ます belongs to both forms and remains inside the word boundary.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-25",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "togetter_1803542_001",
+      "OriginalHash": "2036a342bb527ba433484495b4cdf369466f677016333e4d46f3feb15d81217b",
+      "old_pairs": [{"PairID":"6dedcb29-7602-55e3-aca3-c59386e72636","src_start":1,"src_end":3,"tgt_start":1,"tgt_end":3,"unit_type":"word"}],
+      "new_pair_spans": [{"src_start":1,"src_end":5,"tgt_start":1,"tgt_end":5,"unit_type":"word","PairID":"","SupersedesPairID":"6dedcb29-7602-55e3-aca3-c59386e72636"}],
+      "SrcAnnotations": [{"start":1,"end":5,"surface":"あります","reading":"アリマス","meanings":[],"qualifiers":[]}],
+      "TgtAnnotations": [{"start":1,"end":5,"surface":"いります","reading":"イリマス","meanings":[],"qualifiers":[]}],
+      "Evidence": "Original CSV Note explicitly reports 袋あります misheard as 袋いります, with the context of a mistaken offer of a shopping bag. The complete predicates are あります / いります, read アリマス / イリマス. The original audio was not verified.",
+      "Reason": "Compare the complete predicate words あります / いります; the ます ending is part of each word and cannot be omitted as shared context.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-25",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "trilltrill_3469235_001",
+      "OriginalHash": "0ece253cc7f9dc464cea03ea61114713375639f2ac781c62375339a4573b50ca",
+      "old_pairs": [{"PairID":"e67c280f-af67-53ec-a60e-dee3229c8173","src_start":0,"src_end":2,"tgt_start":0,"tgt_end":2,"unit_type":"word"}],
+      "new_pair_spans": [{"src_start":0,"src_end":4,"tgt_start":0,"tgt_end":4,"unit_type":"word","PairID":"","SupersedesPairID":"e67c280f-af67-53ec-a60e-dee3229c8173"}],
+      "SrcAnnotations": [{"start":0,"end":4,"surface":"洗いたい","reading":"アライタイ","meanings":[],"qualifiers":[]}],
+      "TgtAnnotations": [{"start":0,"end":4,"surface":"会いたい","reading":"アイタイ","meanings":[],"qualifiers":[]}],
+      "Evidence": "Original CSV Note states that 洗いたい was misheard as 会いたい. The complete contextual forms read アライタイ / アイタイ. The earlier shorter 洗い / 会い entries omit the shared たい ending, which is part of both reported forms. The cited source and original audio are not treated as audio verification.",
+      "Reason": "Compare the full inflected words 洗いたい / 会いたい, retaining たい within the boundary. The Note supports the intended forms; this correction does not claim original-audio verification.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-25",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200404_006",
+      "OriginalHash": "056dc677cce00811f1f3c57c146ba0ad0bc9c049f306f78df0a25f2fa7e8da1c",
+      "old_pairs": [{"PairID":"44a1ad8c-49c7-58d2-aa6b-341a76a2454a","src_start":0,"src_end":2,"tgt_start":0,"tgt_end":2,"unit_type":"word"}],
+      "new_pair_spans": [{"src_start":0,"src_end":4,"tgt_start":0,"tgt_end":4,"unit_type":"word","PairID":"","SupersedesPairID":"44a1ad8c-49c7-58d2-aa6b-341a76a2454a"}],
+      "SrcAnnotations": [{"start":0,"end":4,"surface":"伺えない","reading":"ウカガエナイ","meanings":[],"qualifiers":[]}],
+      "TgtAnnotations": [{"start":0,"end":4,"surface":"疑えない","reading":"ウタガエナイ","meanings":[],"qualifiers":[]}],
+      "Evidence": "Saved Yamato HTML archive entry 6 gives the complete pair 伺えない / 疑えない. The current [0,2) spans omit ない from the possible negative forms and can be mistaken for other readings such as an imperative. Existing qualifiers are empty; original audio is unverified.",
+      "Reason": "Compare the complete words 伺えない / 疑えない rather than their stems. Preserve the common inflection ない within both word boundaries.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-25",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200404_009",
+      "OriginalHash": "a93babc88360631c13207240f550d07cad820c8861f9ec6c9e7f15d1e8c50fb6",
+      "old_pairs": [{"PairID":"c7365808-9dd5-55a3-a0f6-fdf8e7394777","src_start":0,"src_end":3,"tgt_start":0,"tgt_end":2,"unit_type":"word"}],
+      "new_pair_spans": [{"src_start":0,"src_end":5,"tgt_start":0,"tgt_end":4,"unit_type":"word","PairID":"","SupersedesPairID":"c7365808-9dd5-55a3-a0f6-fdf8e7394777"}],
+      "SrcAnnotations": [{"start":0,"end":5,"surface":"見込めない","reading":"ミコメナイ","meanings":[],"qualifiers":[]}],
+      "TgtAnnotations": [{"start":0,"end":4,"surface":"認めない","reading":"ミトメナイ","meanings":[],"qualifiers":[]}],
+      "Evidence": "Saved Yamato archive entry 9 gives the complete pair 見込めないか / 認めないか. The selected contrast is 見込めない / 認めない; shared か remains in the original question context. Both earlier spans selected only stems and omitted ない. Original audio is unverified.",
+      "Reason": "Compare the complete lexical forms 見込めない / 認めない, including the shared ない ending.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-25",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "www_1101_com_m_iimatugai_1315_html_007",
+      "OriginalHash": "38a055b54533d16cce8350a3cd0b1dc8aed80fe3813acbd62cb5f55583214686",
+      "old_pairs": [{"PairID":"27d971bb-bc88-5a95-a2fc-38fa1efa0eec","src_start":0,"src_end":2,"tgt_start":0,"tgt_end":2,"unit_type":"word"}],
+      "new_pair_spans": [{"src_start":0,"src_end":4,"tgt_start":0,"tgt_end":4,"unit_type":"word","PairID":"","SupersedesPairID":"27d971bb-bc88-5a95-a2fc-38fa1efa0eec"}],
+      "SrcAnnotations": [{"start":0,"end":4,"surface":"知りたい","reading":"シリタイ","meanings":[],"qualifiers":[]}],
+      "TgtAnnotations": [{"start":0,"end":4,"surface":"死にたい","reading":"シニタイ","meanings":[],"qualifiers":[]}],
+      "Evidence": "The saved 1101 primary source describes the exact episode: 知りたいよねー was misheard as 死にたいよねー. Exact IPADIC entries support 知り[シリ] and 死に[シニ]; the full forms are シリタイ / シニタイ. Original audio was not independently verified.",
+      "Reason": "Compare the complete words 知りたい / 死にたい, including the shared たい ending.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-25",
+      "RecordValidity": "unclear"
+    }
+  ]
+}

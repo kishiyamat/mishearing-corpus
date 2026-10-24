@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:fd9b5f3d04942e968b895bc01bb18fda45555831ecada3db05859f56f274199c",
+  "source_review_sha256": "fd9b5f3d04942e968b895bc01bb18fda45555831ecada3db05859f56f274199c",
+  "decisions": [
+    {
+      "MishearID": "eichie_9568_008",
+      "OriginalHash": "e2f35d5443ce7971ed9fe654a55be34c0355fac229e83ce09d87e7bbf4172624",
+      "old_pairs": [
+        {
+          "PairID": "4b768d86-6834-51d6-990a-2653a3b85099",
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "4b768d86-6834-51d6-990a-2653a3b85099",
+          "SupersedesPairID": "08132b33-d518-59af-a5cc-e1bb4b0dca71",
+          "src_end": 4,
+          "src_start": 0,
+          "tgt_end": 3,
+          "tgt_start": 0,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 4,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "キキワケ",
+          "start": 0,
+          "surface": "聞き分け"
+        },
+        {
+          "end": 19,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "",
+          "start": 4,
+          "surface": "のない女の頬を"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 3,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "チチワケ",
+          "start": 0,
+          "surface": "父は毛"
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_name_kikimachigai/eichie_advisements_9568.csv row eichie_9568_008; Src=聞き分けのない女の頬を（ジュリーの歌）; Tgt=父は毛のない女の頬を; Note=歌詞を耳で覚えていたための覚え間違い。; URL=https://eichie.jp/advisements/9568. The actual first-person childhood mishearing is printed at https://eichie.jp/advisements/9568: a Julie song's 聞き分けのない女の頬を was remembered as 父は毛のない女の頬を. The parenthetical ジュリーの歌 only names the source, while キキワケ and チチワケ contrast; in 父は毛, は is pronounced wa. 末尾「（ジュリーの歌）」は発話ではなく出典注記として正規化し、SrcOriginalを保持する。",
+      "Reason": "Keep the phrase fragment 聞き分け/父は毛. The parenthetical names the source and is not speech; the actual source audio is unverified. The contextual readings are キキワケ/チチワケ, with は pronounced wa.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    }
+  ]
+}

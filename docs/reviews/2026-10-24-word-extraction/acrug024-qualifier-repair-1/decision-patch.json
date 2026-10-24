@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:017f7d2f80974006c7af7730a6451c1dea85eedeb8091e4ca961b83081c56bce",
+  "source_review_sha256": "017f7d2f80974006c7af7730a6451c1dea85eedeb8091e4ca961b83081c56bce",
+  "decisions": [
+    {
+      "MishearID": "AcrugLVnrLE_024",
+      "OriginalHash": "61c78cb149de4d9ce58de19a474dbeb14eb27a960b6e4adcf7ca010ea54dc931",
+      "old_pairs": [
+        {
+          "PairID": "997ca4ce-63c6-5669-a79e-f7c8687721ef",
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word",
+          "PairID": "997ca4ce-63c6-5669-a79e-f7c8687721ef",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "三角橋",
+          "reading": "みすみばし",
+          "meanings": [],
+          "qualifiers": [
+            "東北沢の公式地名読み。原Tipsのさんかくばしとは不一致。実際の発話は未確認"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "参宮橋",
+          "reading": "さんぐうばし",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "The cited video/comment https://www.youtube.com/watch?v=AcrugLVnrLE was not retrievable in this inspection; event provenance remains unclear. Setagaya Ward's public planning document identifies 三角橋交差点 (https://www.city.setagaya.lg.jp/documents/4057/dai4kaikondankaisiryo_1.pdf). A directly indexed official Setagaya Ward civic-group list gives 三角橋通り商和会フリガナ「ミスミバシドオリショウワカイ」 (2025-06-end list: https://www.city.setagaya.lg.jp/documents/986/kunaikatudoudanntai0630.pdf; same reading in current ward listing https://www.city.setagaya.lg.jp/documents/986/kunaidantai_r80324.pdf), grounding 三角橋 as ミスミバシ rather than a compositional サンカクバシ. Odakyu's official station page gives 参宮橋 as さんぐうばし (https://www.odakyu.jp/station/sangubashi/). Dictionary CLI SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Restored the source-reading/unverified-utterance qualifier from baseline review after verifying the official place-name sources; the actual video remains unavailable.",
+      "Reason": "Setagaya ward place-name listing and Odakyu station source already cited in current reviews.csv; original video inaccessible, no claim actual pronunciation verified. Qualifier preserved on the selected proper-name span: 東北沢の公式地名読み。原Tipsのさんかくばしとは不一致。実際の発話は未確認. This is an orthographic/public-name reading, not a verification of the actual speaker.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

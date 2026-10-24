@@ -1,0 +1,14 @@
+{
+  "batch": "shared-syntax-85",
+  "source_run": "working-reviews:a631742f86115e1cc78f51f225c0fceb91b67894884d443c69e468a38d34fb3e",
+  "source_review_sha256": "a631742f86115e1cc78f51f225c0fceb91b67894884d443c69e468a38d34fb3e",
+  "review_sha256": "997c113144c2e8da8dd617d09d715578dcbeedd8077ddc957b6d6457ea6292e4",
+  "patch_sha256": "1faf4134484d760121ca3078ed76fc2399415c673a91f2b24b906e4e1f0b28de",
+  "audit_sha256": "27e84841554d953af9b8e8aa6fbf64c2af42e75e1274b37f80326e10b3294733",
+  "candidate_profile_sha256": "8f6686eec866abbf57b19bec120860e53ad3835daaeeea3a623fe7e451c4b35d",
+  "patched_records": 85,
+  "old_pairs": 85,
+  "audit_rows": 85,
+  "changed_pairs": 85,
+  "validation": "apply_word_pair_decisions --working-source; full review_record rebuild passed"
+}

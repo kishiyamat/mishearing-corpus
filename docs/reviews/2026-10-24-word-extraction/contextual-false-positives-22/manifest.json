@@ -1,0 +1,17 @@
+{
+  "batch": "contextual-false-positives-22",
+  "source_run": "working-reviews:99c3c677a667f790241b424bdf198f460a2bfa7cf079eea047478c71fc14d4f3",
+  "source_review_sha256": "99c3c677a667f790241b424bdf198f460a2bfa7cf079eea047478c71fc14d4f3",
+  "review_sha256": "38d007cfc2be12dcb700bfe6fa39718bad96d6860b29834c6153762e1649242c",
+  "patch_sha256": "adefc1c48d6fa1ccbd707287e898354d337748f739733887efadc72932bb2f7a",
+  "audit_sha256": "d8cee66c5c0aaf19943cbb79f54fc58c348bb02c9d0930e2ed6ccce8f5ea0515",
+  "records": 22,
+  "audit_rows": 22,
+  "phrase_retypes": 22,
+  "all_32": {
+    "already_phrase_including_contextual-known_batch": 10,
+    "retyped_in_this_batch": 22,
+    "total_checks": 32
+  },
+  "notes": "Preserved all old spans and PairIDs. Follow-up shorter lexical decision remains pending for 再燃しかねない/対立しかねない; B5/A4 multistring case still requires separate difference mapping."
+}

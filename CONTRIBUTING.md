@@ -39,9 +39,16 @@ To add new mishearing data:
 
 ## Running Tests
 
-1. Install dependencies using `pip install -r requirements.txt`.
-2. Run tests using `pytest`.
-3. Ensure all tests pass before submitting a PR.
+1. Install locked dependencies using `uv sync --locked --extra api`.
+2. Run `make api-test` (historical ASA tests require separate research dependencies).
+3. For pair/annotation changes, run `make pairs-test`, `make pairs-check`, and `make api-check`.
+   See [the two-stage workflow](docs/pair_workflow.md) for extraction, actual agent review,
+   visual/source checks, pending linguistic decisions and immutable regeneration.
+4. Include the input, reviewed, pending, excluded and unprocessed counts in the PR.
+   Changed originals or annotations require regenerated artifacts; an old review hash must
+   never be mechanically replaced to make validation pass.
+5. Evaluation finalization additionally requires `python -m corpus_api.pair_workflow check --require-complete`.
+   Test success alone does not establish the correctness of readings or meanings.
 
 ## Building Datapackage
 

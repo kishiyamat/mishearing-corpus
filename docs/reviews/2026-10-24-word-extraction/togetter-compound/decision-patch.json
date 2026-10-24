@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:8130f6fa2102af2d3364347175f19ed4e23ddadb263b0b1e5a7c133008a6a82f",
+  "source_review_sha256": "8130f6fa2102af2d3364347175f19ed4e23ddadb263b0b1e5a7c133008a6a82f",
+  "decisions": [
+    {
+      "MishearID": "togetter_193527_003",
+      "OriginalHash": "db848a758aca36d221874f9accdf8ee15e1e5da804ca67ce758e7919d6058070",
+      "old_pairs": [
+        {
+          "PairID": "690d24d3-10fe-5c7e-a421-3335af86a525",
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "藤沢周平",
+          "reading": "フジサワシュウヘイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "富士山周辺",
+          "reading": "フジサンシュウヘン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol review: 藤沢周平 (surname+given name) / 富士山周辺 (mountain+periphery) are complete noun chains, not clauses or whole single dictionary entries.",
+      "Reason": "Both selected sides are complete compound noun chains; same-boundary classification only.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

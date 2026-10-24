@@ -1,0 +1,12 @@
+{
+  "decision_count": 2,
+  "audit_rows": 2,
+  "input_review_sha256": "bfe86cc8d0181746fc1084ed7b6ccec8223c8a3932cfe191ff98aa5ccad1e919",
+  "output_review_sha256": "d56282470bd1c73c40e4d64c43d5c3659f28716db24509278a48c0c7fbb88c09",
+  "decision_patch_sha256": "0210f5636c60a872743e4f2e2be650eab54acb7d410bd2357f7fc6de612901e0",
+  "audit_sha256": "dfdae38061f21955cdb11d7dca824f543594b7d033aae69e28fa6091e5470bdb",
+  "source_record": "AcrugLVnrLE_014",
+  "source_warning": "Tgt says 警視庁前 while Note says 都庁前; the primary video transcript was not retrieved. Raw source values and word classification are unchanged; referent uncertainty is added to Tgt qualifiers and Evidence/Reason.",
+  "review_policy_rationale_preserved": "niftykids_200408100935_030 original conditionally inferred reading rationale restored alongside pair subtype calibration",
+  "output": "data/annotations/reviews.csv"
+}

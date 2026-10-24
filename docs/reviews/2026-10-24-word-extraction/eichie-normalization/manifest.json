@@ -1,0 +1,10 @@
+{
+  "source_run": "working-reviews:56ff6a600e3c9efd1fc674c6627d867fb494901f1e58c72d8d86823f48ba9fdb",
+  "source_review_sha256": "56ff6a600e3c9efd1fc674c6627d867fb494901f1e58c72d8d86823f48ba9fdb",
+  "review_sha256": "fd9b5f3d04942e968b895bc01bb18fda45555831ecada3db05859f56f274199c",
+  "patch_sha256": "9e53875ef2054a74f90a730d3634e96c37db76ac442cce875293200dd2117daf",
+  "audit_sha256": "730620ecaa43e720ab9dff98462ac92def14721b344faa4f6a1105494f0fc15e",
+  "records": 1,
+  "audit_rows": 1,
+  "change": "Eichie Src annotation separated into [0,4] pair + [4,19] non-pair annotation; spoken pair stays [0,4]/[0,3]"
+}

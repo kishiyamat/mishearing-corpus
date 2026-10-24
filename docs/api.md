@@ -25,7 +25,8 @@ Actionsの復旧・APIの外部配備はこの変更には含みません。
 
 - `/v1`はAPIの形式の版です。`dataset_version`は**データを読み出したGitコミットの完全なSHA**です。
 - 起動時に一つのコミットを解決し、そのGitオブジェクトの公開CSV・スキーマを読み込みます。
-  作業ツリーの未コミットCSV、親リポジトリ、`resource/`は読みません。
+  作業ツリーの未コミットCSV、親リポジトリは読みません。records APIは
+  `resource/`を読みません。ペアAPIだけは後述の明示的な校正成果物を読みます。
 - 既定はこのリポジトリの`HEAD`。`MISHEARING_DATASET_REF`でローカルに存在するコミットやタグを
   指定できます。別のcheckoutは`MISHEARING_CORPUS_ROOT`で指定します。Git checkoutが必要です。
 - 稼働中は固定し、ブランチの更新を自動で追いません。更新は再起動時に明示的に行います。
@@ -127,6 +128,32 @@ sha256sum corpus.jsonl
 研究用の取得では、上の例に`--data-urlencode 'dataset_version=<版一覧で確認した完全SHA>'`を追加します。
 ヘッダーを保存することで、0件の場合も版・条件・本文指紋を記録できます。
 
+## 校正済みペア（Issue #63）
+
+[抽出・校正の手順と列契約](pair_workflow.md)で生成した成果物を読みます。
+`resource/pairs_v2/current.json` が選ぶrunの6ファイルと
+`data/annotations/reviews.csv` のコミット済みblobだけが対象です。
+他のresourceやPrivate資産、未コミットの校正を探索・配信しません。
+
+- `GET /v1/pairs`: `q`（表記・読みの部分一致）、`mishear_id`、`unit_type`、`unit_group`、
+  `limit`、`offset`で校正済みの採用・除外行を検索。
+- `unit_group=lexical`は`word` / `compound`、`contextual`は
+  `particle-inclusive` / `phrase`。`unit_type`との併用は積集合で、無指定時は全種類。
+- `GET /v1/pairs/{pair_id}`: PairID完全一致。
+- `GET /v1/pairs/export?format=csv|jsonl`: 一覧と同じ検索条件で採用行のみを出力。
+  ページング指定は不可。未処理原本があれば409、保留は出力しない。
+  単語・複合語CSVは`?format=csv&unit_group=lexical`で取得する。
+
+原本の `dataset_version` / `dataset_sha256` と、ペアの `pair_version` /
+`pair_sha256` は別に返します。exportは各行にも版・ハッシュを付加し、
+`X-Pair-Version` / `X-Pair-SHA256` / `X-Coverage` と既存の出力検証ヘッダーを返します。
+未収録PairID・別の版は404、校正成果物のない旧コミットはペアAPIだけ503です。
+原本・注釈・成果物の不整合は起動時に拒否します。
+
+`RecordValidity`（記録の種類）と `TargetDecision`（音韻的適否）は独立です。
+保留件数が残る出力は「確定した部分集合」であり、全件の言語的品質を保証しません。
+新しい版を旧研究入力・評価分母へ自動で置換しないでください。
+
 ## 利用上の注意と今後
 
 収集事例の件数は、実社会での誤聴発生率や代表的な分布ではありません。
@@ -134,8 +161,8 @@ sha256sum corpus.jsonl
 APIは既存の公開範囲・ライセンスを変更しません。READMEの利用条件と原出典の制約を確認してください。
 既存のREADMEとLICENSEの表記不一致は、この実装で新たな利用許諾を推定して解決しません。
 
-バッチID取得、ラベル付き分類カタログ、統計、音韻注釈検索、Web/ブログの分離は後続の対象です。
-現段階で未収録の音声や音韻注釈をAPIが提供しているとは扱わないでください。
+バッチID取得、ラベル付き分類カタログ、統計、音素・アクセント、Web/ブログの分離は後続の対象です。
+現段階で未収録の音声・音素・アクセントをAPIが提供しているとは扱わないでください。
 
 実装に使う標準機能: [FastAPI query models](https://fastapi.tiangolo.com/tutorial/query-param-models/)、
 [lifespan](https://fastapi.tiangolo.com/advanced/events/)、[TestClient](https://fastapi.tiangolo.com/tutorial/testing/)、

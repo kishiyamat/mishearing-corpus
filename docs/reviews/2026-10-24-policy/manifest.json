@@ -1,0 +1,11 @@
+{
+  "baseline_commit": "c76277a3046913a9796c5af7e371692bc6320d36",
+  "canonical_review_csv_sha256": "067b72feb3879d7d935a72a5353a56df80ca743cb420a85c0143e9957291963d",
+  "files": {
+    "decisions.json": "fd65095fb295fa7093d01537ccdcbb186eda267eb5db6cfbaa5749c31cb0a410",
+    "pending.csv": "7cd6b456f552e669cb70b5cb792643d690d52d0bdfcde491a5b94f31fe3b733e"
+  },
+  "remaining_count": 158,
+  "changed_record_count": 42,
+  "note": "Generated audit copies; edit only data/annotations/reviews.csv. No researcher exclusion approvals have been entered."
+}

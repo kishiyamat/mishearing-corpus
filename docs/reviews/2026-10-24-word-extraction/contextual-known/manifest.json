@@ -1,0 +1,11 @@
+{
+  "batch": "contextual-known",
+  "source_run": "working-reviews:997c113144c2e8da8dd617d09d715578dcbeedd8077ddc957b6d6457ea6292e4",
+  "source_review_sha256": "997c113144c2e8da8dd617d09d715578dcbeedd8077ddc957b6d6457ea6292e4",
+  "review_sha256": "99c3c677a667f790241b424bdf198f460a2bfa7cf079eea047478c71fc14d4f3",
+  "patch_sha256": "99f8577383dfdfe7d10f2b986d6c8256a1d3f29970e9efc4f0d9f7afacf04491",
+  "audit_sha256": "af3754c104df2ea502da08d6c52609d607590e8e2668d854cd964cba4e789b40",
+  "records": 4,
+  "audit_rows": 4,
+  "result": "Four known lexical false positives corrected to phrase, preserving boundaries/readings/PairIDs."
+}

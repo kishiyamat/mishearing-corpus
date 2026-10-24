@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:56ff6a600e3c9efd1fc674c6627d867fb494901f1e58c72d8d86823f48ba9fdb",
+  "source_review_sha256": "56ff6a600e3c9efd1fc674c6627d867fb494901f1e58c72d8d86823f48ba9fdb",
+  "decisions": [
+    {
+      "MishearID": "eichie_9568_008",
+      "OriginalHash": "e2f35d5443ce7971ed9fe654a55be34c0355fac229e83ce09d87e7bbf4172624",
+      "old_pairs": [
+        {
+          "PairID": "4b768d86-6834-51d6-990a-2653a3b85099",
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "phrase",
+          "PairID": "4b768d86-6834-51d6-990a-2653a3b85099",
+          "SupersedesPairID": "08132b33-d518-59af-a5cc-e1bb4b0dca71"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "聞き分け",
+          "reading": "キキワケ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 4,
+          "end": 19,
+          "surface": "のない女の頬を",
+          "reading": "",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "父は毛",
+          "reading": "チチワケ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_name_kikimachigai/eichie_advisements_9568.csv row eichie_9568_008; Src=聞き分けのない女の頬を（ジュリーの歌）; Tgt=父は毛のない女の頬を; Note=歌詞を耳で覚えていたための覚え間違い。; URL=https://eichie.jp/advisements/9568. The actual first-person childhood mishearing is printed at https://eichie.jp/advisements/9568: a Julie song's 聞き分けのない女の頬を was remembered as 父は毛のない女の頬を. The parenthetical ジュリーの歌 only names the source, while キキワケ and チチハケ contrast. 末尾「（ジュリーの歌）」は発話ではなく出典注記として正規化し、SrcOriginalを保持する。",
+      "Reason": "Keep the phrase fragment 聞き分け/父は毛. The parenthetical identifies the song source and is excluded from spoken content; pair readings are キキワケ/チチワケ.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    }
+  ]
+}

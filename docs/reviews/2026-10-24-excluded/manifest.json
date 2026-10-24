@@ -1,0 +1,21 @@
+{
+  "reference_commit": "5ae4db99762ff1ec1cc570d06082732eb54d3d20",
+  "excluded_count": 567,
+  "page_size": 50,
+  "files": {
+    "README.md": "6937bc204634c1fd326ea42406d6687c1bba14a615a524559739eb58034750b5",
+    "excluded.csv": "b902f0c7ef8bdef1f20291f512e398fd34992abe9116e7aef88fc3c46350f304",
+    "page-001.md": "a2a66dd1a24da96f7bb6710c6edc74357a9c0eebcb65b0f41b72d2ff4cebc83f",
+    "page-002.md": "8286a9b12557ff4c5fb2a9741dd3f0863f3a153a1d39f7a69070394a252d6f95",
+    "page-003.md": "5571edc0205df585d0c4055182489fe39948a239efbf1cac175ad03c2deacb1a",
+    "page-004.md": "c3fb7067d5ef7f3e21086852112ac477ce43b3f6370fe5a91ab8e329f24f5e0e",
+    "page-005.md": "3bcd629f79ec0ee86ed1528e1a6f9b0592de3bcd7b803345eb0108329d453a69",
+    "page-006.md": "886a4bbabb813ca826d6608f414fefeccf7b0fd70090c2d4945b6727867c1cbe",
+    "page-007.md": "bd4d1ab5f3cd71df7c4937b71932f09d419c4cf8e483c2aa5367278128d4c31a",
+    "page-008.md": "9c57f4b986d793eb034c6d94201d3e1710c067383edc607b1b55b5d3d5202f0d",
+    "page-009.md": "a8d266d0d6b026504b4d2762bc711d6be71eba8a2af5176209865cdeebfad8d9",
+    "page-010.md": "de9e6ca924a38d6e7405e31e3e03a6ceefc49c1860c79cd54206e62da46d6740",
+    "page-011.md": "14d2658e3ce5c96d23f6cca0173f76e7d5b93b018991a7d10be6af7fa6b5b11c",
+    "page-012.md": "761bf1dcbdf0fa1410cf366a741c485e5c101a2bc4c253f4e7eecdbee168408a"
+  }
+}

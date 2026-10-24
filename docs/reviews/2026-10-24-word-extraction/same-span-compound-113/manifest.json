@@ -1,0 +1,12 @@
+{
+  "decision_count": 113,
+  "audit_rows": 116,
+  "input_review_sha256": "2f5f02f6ab71910141a5bccd58db18ee55c360675c81125942518d794602c438",
+  "output_review_sha256": "a77f0f1c16b8b266f02a83a03fa02417ba754d93f212af231389332f7738ac80",
+  "decision_patch_sha256": "389ec39d7e6bd183fcffb971fdd60df613137d70093bd8368d71dcdc0dac8a5f",
+  "audit_sha256": "cda0766313652a8927274272a47811808b6c72e2edb751e49880a3d312f77dfb",
+  "reviewer_table": "/tmp/same-span-compound-sol-decisions.json",
+  "reviewer_table_sha256": "f27c364054cd05e2ced7173051e34c1f88e1ea3fda3ac3a918ee4d4ea0f95829",
+  "decision_class": "Sol-reviewed same-span retyping of whole lexical compounds; bounds and readings unchanged",
+  "output": "data/annotations/reviews.csv"
+}

@@ -19,9 +19,16 @@ api-test:
 	uv run --locked --extra api python -m pytest --ignore=tests/asa2025
 
 api-check:
-	uv run --locked ruff check corpus_api tests/test_corpus_api.py
-	uv run --locked ruff format --check corpus_api tests/test_corpus_api.py
+	uv run --locked ruff check corpus_api tests/test_corpus_api.py tests/test_pair*.py tests/test_review_pack.py
+	uv run --locked ruff format --check corpus_api tests/test_corpus_api.py tests/test_pair*.py tests/test_review_pack.py
 	uv run --locked --extra api mypy corpus_api
+
+.PHONY: pairs-test pairs-check
+pairs-test:
+	uv run --locked --extra api python -m pytest tests/test_pair*.py tests/test_review_pack.py
+
+pairs-check:
+	uv run --locked python -m corpus_api.pair_workflow check
 
 run:
 	streamlit run app.py

@@ -1,0 +1,1043 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:3ce1c7c2fc659f049990a976507e7959097a997d8df9bc60885f57bf61729b81",
+  "source_review_sha256": "3ce1c7c2fc659f049990a976507e7959097a997d8df9bc60885f57bf61729b81",
+  "decisions": [
+    {
+      "MishearID": "coffee_break_parts_similar200409_003",
+      "OriginalHash": "7b782ec71cac9dd80d28c21518cc5d787df41b6992b8422534ff615bc5189370",
+      "old_pairs": [
+        {
+          "PairID": "53671027-0ef4-5bb2-ae06-826d4aff061a",
+          "src_start": 10,
+          "src_end": 16,
+          "tgt_start": 10,
+          "tgt_end": 16,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 10,
+          "src_end": 12,
+          "tgt_start": 10,
+          "tgt_end": 12,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "53671027-0ef4-5bb2-ae06-826d4aff061a"
+        },
+        {
+          "src_start": 13,
+          "src_end": 15,
+          "tgt_start": 13,
+          "tgt_end": 15,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "53671027-0ef4-5bb2-ae06-826d4aff061a"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 10,
+          "end": 12,
+          "surface": "適度",
+          "reading": "テキド",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 13,
+          "end": 15,
+          "surface": "間隔",
+          "reading": "カンカク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 10,
+          "end": 12,
+          "surface": "程度",
+          "reading": "テイド",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 13,
+          "end": 15,
+          "surface": "感覚",
+          "reading": "カンカク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200409.html entry 3: 正解 highlights 適度の間隔、 in 広過ぎず、狭過ぎず、適度の間隔、つまりある程度の距離感が必要～～; 間違い highlights 程度の感覚、 in 広過ぎず、狭過ぎず、程度の感覚、つまりある程度の距離感が必要～～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Installed UTF-8 MeCab/IPADIC le All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200503_009",
+      "OriginalHash": "9b41dca2f83b720b738045b519b6dd553915e0cd08a6aade2fa7086a72387626",
+      "old_pairs": [
+        {
+          "PairID": "c685fd76-e926-5eb0-8026-d98298dc813d",
+          "src_start": 0,
+          "src_end": 8,
+          "tgt_start": 0,
+          "tgt_end": 9,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "c685fd76-e926-5eb0-8026-d98298dc813d"
+        },
+        {
+          "src_start": 6,
+          "src_end": 8,
+          "tgt_start": 6,
+          "tgt_end": 9,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "c685fd76-e926-5eb0-8026-d98298dc813d"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "強制力",
+          "reading": "キョウセイリョク",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 6,
+          "end": 8,
+          "surface": "要請",
+          "reading": "ヨウセイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "調整力",
+          "reading": "チョウセイリョク",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "surface": "必要性",
+          "reading": "ヒツヨウセイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200503.html entry 9: 正解 highlights 強制力がない要請 in 強制力がない要請にすぎないわけで、２割に達する未回答企業に対して、今後どう対応を～～; 間違い highlights 調整力がない必要性 in 調整力がない必要性にすぎないわけで、２割に達する未回答企業に対して、今後どう対応を～～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Exact All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200504_003",
+      "OriginalHash": "6c28556088f78ec54b27b789821d7126fc777753aa5890af9ca4cbe30d78caf6",
+      "old_pairs": [
+        {
+          "PairID": "0c87ed6d-79ce-5e98-8b21-eb42e65b7b68",
+          "src_start": 23,
+          "src_end": 32,
+          "tgt_start": 23,
+          "tgt_end": 32,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 23,
+          "src_end": 27,
+          "tgt_start": 23,
+          "tgt_end": 26,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "0c87ed6d-79ce-5e98-8b21-eb42e65b7b68"
+        },
+        {
+          "src_start": 28,
+          "src_end": 31,
+          "tgt_start": 27,
+          "tgt_end": 31,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "0c87ed6d-79ce-5e98-8b21-eb42e65b7b68"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 23,
+          "end": 27,
+          "surface": "計画承認",
+          "reading": "ケイカクショウニン",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 28,
+          "end": 31,
+          "surface": "申し出",
+          "reading": "モウシデ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 23,
+          "end": 26,
+          "surface": "計画書",
+          "reading": "ケイカクショ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 27,
+          "end": 31,
+          "surface": "申し入れ",
+          "reading": "モウシイレ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200504.html entry 3: 正解 highlights 計画承認の申し出が in 三菱自動車の新しい事業計画が発表されるが、この計画承認の申し出がいつになるか～～; 間違い highlights 計画書の申し入れが in 三菱自動車の新しい事業計画が発表されるが、この計画書の申し入れがいつになるか～～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Exact UTF All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200801_006",
+      "OriginalHash": "184cc3f2c97f47231c55f2f7b16898b908230c7ad62f3a3f7c5f946b3ab7214b",
+      "old_pairs": [
+        {
+          "PairID": "a4ad871f-6dba-54fa-9441-eb3aac351923",
+          "src_start": 35,
+          "src_end": 40,
+          "tgt_start": 35,
+          "tgt_end": 41,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 35,
+          "src_end": 36,
+          "tgt_start": 35,
+          "tgt_end": 37,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "a4ad871f-6dba-54fa-9441-eb3aac351923"
+        },
+        {
+          "src_start": 38,
+          "src_end": 40,
+          "tgt_start": 39,
+          "tgt_end": 41,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "a4ad871f-6dba-54fa-9441-eb3aac351923"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 35,
+          "end": 36,
+          "surface": "質",
+          "reading": "シツ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 38,
+          "end": 40,
+          "surface": "逃避",
+          "reading": "トウヒ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 35,
+          "end": 37,
+          "surface": "支出",
+          "reading": "シシュツ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 39,
+          "end": 41,
+          "surface": "投資",
+          "reading": "トウシ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200801.html entry 6: 正解 highlights 質への逃避 in 予想ＰＥＲなど、株価のバリエーションに割高感がない。イールドレシオも、質への逃避で長期金利が急低下していることもあるが～; 間違い highlights 支出への投資 in 予想ＰＥＲなど、株価のバリエーションに割高感がない。イールドレシオも、支出への投資で長期金利が急低下していることもあるが～. Both complete archived sentences agree with the original CSV after Unic All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201205_008",
+      "OriginalHash": "a517ecec1045dfc858cad525a3b291afb93634a29906e9990e8df5f7c1ab498b",
+      "old_pairs": [
+        {
+          "PairID": "4d25b441-89ac-536a-9bd5-686f204ee308",
+          "src_start": 3,
+          "src_end": 12,
+          "tgt_start": 3,
+          "tgt_end": 11,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 9,
+          "tgt_start": 3,
+          "tgt_end": 8,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "4d25b441-89ac-536a-9bd5-686f204ee308"
+        },
+        {
+          "src_start": 10,
+          "src_end": 12,
+          "tgt_start": 9,
+          "tgt_end": 11,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "4d25b441-89ac-536a-9bd5-686f204ee308"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 9,
+          "surface": "テールリスク",
+          "reading": "テールリスク",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 10,
+          "end": 12,
+          "surface": "低下",
+          "reading": "テイカ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 8,
+          "surface": "経済リスク",
+          "reading": "ケイザイリスク",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 9,
+          "end": 11,
+          "surface": "転換",
+          "reading": "テンカン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Locally saved public Yamato archive resource/yamato/gochou_goyaku/coffee_break_parts_similar201205.html lines 31-34 marks 「欧州の経済リスクが転換した」 as 間違い and 「欧州のテールリスクが低下した」 as 正解. Dictionary CLI per-word entries: テール=テール, リスク=リスク, 経済=ケイザイ, 低下=テイカ, 転換=テンカン; grammatical particle が is read が. Thus the selected phrases read てーるりすくがていか and けいざいりすくがてんかん. Dictio All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201302_006",
+      "OriginalHash": "421119a4f882348fb80a8526cc327f0c9fd16f30ecc2137352112f78c497d0e6",
+      "old_pairs": [
+        {
+          "PairID": "5d35ef33-da03-518a-8ba8-412b4fa1b822",
+          "src_start": 8,
+          "src_end": 14,
+          "tgt_start": 8,
+          "tgt_end": 14,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 8,
+          "src_end": 10,
+          "tgt_start": 8,
+          "tgt_end": 10,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "5d35ef33-da03-518a-8ba8-412b4fa1b822"
+        },
+        {
+          "src_start": 11,
+          "src_end": 13,
+          "tgt_start": 11,
+          "tgt_end": 13,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "5d35ef33-da03-518a-8ba8-412b4fa1b822"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 8,
+          "end": 10,
+          "surface": "状況",
+          "reading": "ジョウキョウ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 11,
+          "end": 13,
+          "surface": "段階",
+          "reading": "ダンカイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 8,
+          "end": 10,
+          "surface": "地元",
+          "reading": "ジモト",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 11,
+          "end": 13,
+          "surface": "団体",
+          "reading": "ダンタイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201302.html entry 6: 正解 highlights 状況の段階等 in 日本全体の経済の状況の段階等は１年たてば変わってきておりますので、今後はより被災地直接の予算に特化していくべきだろうと考えております～; 間違い highlights 地元の団体等 in 日本全体の経済の地元の団体等は１年たてば変わってきておりますので、今後はより被災地直接の予算に特化していくべきだろうと考えております～. Both complete archived sentences agree with the original  All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201307_010",
+      "OriginalHash": "a3106cf2b8e95fec4e199416af6ca6d58c8a875a6ed092b692da7b2c83219f19",
+      "old_pairs": [
+        {
+          "PairID": "f9c7762a-5a9d-5165-a548-71d027832c5b",
+          "src_start": 52,
+          "src_end": 59,
+          "tgt_start": 52,
+          "tgt_end": 59,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 52,
+          "src_end": 54,
+          "tgt_start": 52,
+          "tgt_end": 54,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "f9c7762a-5a9d-5165-a548-71d027832c5b"
+        },
+        {
+          "src_start": 55,
+          "src_end": 57,
+          "tgt_start": 55,
+          "tgt_end": 57,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "f9c7762a-5a9d-5165-a548-71d027832c5b"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 52,
+          "end": 54,
+          "surface": "現状",
+          "reading": "ゲンジョウ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 55,
+          "end": 57,
+          "surface": "変更",
+          "reading": "ヘンコウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 52,
+          "end": 54,
+          "surface": "原則",
+          "reading": "ゲンソク",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 55,
+          "end": 57,
+          "surface": "検討",
+          "reading": "ケントウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201307.html entry 10: 正解 highlights 現状で変更する in 電力システム改革について、本年末をめどに策定すべく検討を進めていただいておりまして、それについては、特に現状で変更する必要はないと思っております。; 間違い highlights 原則で検討する in 電力システム改革について、本年末をめどに策定すべく検討を進めていただいておりまして、それについては、特に原則で検討する必要はないと思っております。. Both complete archived sentences agree wit All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201309_002",
+      "OriginalHash": "ffee5e5f2e12005a96c709369f128fc89af9aaf23bf3291f1b32edca32a8d455",
+      "old_pairs": [
+        {
+          "PairID": "7a5edc2d-a6b3-5d23-8306-9ed90eef1995",
+          "src_start": 69,
+          "src_end": 74,
+          "tgt_start": 69,
+          "tgt_end": 74,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 69,
+          "src_end": 71,
+          "tgt_start": 69,
+          "tgt_end": 71,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "7a5edc2d-a6b3-5d23-8306-9ed90eef1995"
+        },
+        {
+          "src_start": 72,
+          "src_end": 74,
+          "tgt_start": 72,
+          "tgt_end": 74,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "7a5edc2d-a6b3-5d23-8306-9ed90eef1995"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 69,
+          "end": 71,
+          "surface": "要員",
+          "reading": "ヨウイン",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 72,
+          "end": 74,
+          "surface": "選抜",
+          "reading": "センバツ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 69,
+          "end": 71,
+          "surface": "要人",
+          "reading": "ヨウジン",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 72,
+          "end": 74,
+          "surface": "先発",
+          "reading": "センパツ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201309.html entry 2: 正解 highlights 要員を選抜 in 政府として、在留邦人や在外企業の安全確保に向けて、テロリズム緊急展開班の派遣体制を強化し、あらかじめ現地情勢に知見のある専門家や邦人保護の要員を選抜をして～; 間違い highlights 要人を先発 in 政府として、在留邦人や在外企業の安全確保に向けて、テロリズム緊急展開班の派遣体制を強化し、あらかじめ現地情勢に知見のある専門家や邦人保護の要人を先発をして～. Both complete archived sentences agre All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201311_002",
+      "OriginalHash": "27d0d9234a227763672190a133614ddf55980ff8c01ff6887b3002bef94ca345",
+      "old_pairs": [
+        {
+          "PairID": "6b5ed1c1-902e-5cde-b286-35e38c34ef36",
+          "src_start": 86,
+          "src_end": 93,
+          "tgt_start": 86,
+          "tgt_end": 93,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 88,
+          "src_end": 90,
+          "tgt_start": 88,
+          "tgt_end": 90,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "6b5ed1c1-902e-5cde-b286-35e38c34ef36"
+        },
+        {
+          "src_start": 91,
+          "src_end": 93,
+          "tgt_start": 91,
+          "tgt_end": 93,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "6b5ed1c1-902e-5cde-b286-35e38c34ef36"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 88,
+          "end": 90,
+          "surface": "遺構",
+          "reading": "イコウ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 91,
+          "end": 93,
+          "surface": "保存",
+          "reading": "ホゾン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 88,
+          "end": 90,
+          "surface": "以降",
+          "reading": "イコウ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 91,
+          "end": 93,
+          "surface": "歩道",
+          "reading": "ホドウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201311.html entry 2: 正解 highlights 震災遺構の保存 in 効果促進事業などについても、砂浜の再生、私立幼稚園用地、駅前駐輪場を含め、専ら個人、法人の資産を形成するための事業などのネガティブリストに該当しないものには基本的に対応し、震災遺構の保存にも調査費を配分します。; 間違い highlights 震災以降の歩道 in 効果促進事業などについても、砂浜の再生、私立幼稚園用地、駅前駐輪場を含め、専ら個人、法人の資産を形成するための事業などのネガティブリストに該当しないものには基本的に対応し、 All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201412_003",
+      "OriginalHash": "dd12d8ec574a39396127b72c094e2f41a533201cf3313e6c174c705bd094a36f",
+      "old_pairs": [
+        {
+          "PairID": "5f8d7179-78f1-5d6d-99ab-a8edaa410ca6",
+          "src_start": 46,
+          "src_end": 51,
+          "tgt_start": 46,
+          "tgt_end": 51,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 46,
+          "src_end": 48,
+          "tgt_start": 46,
+          "tgt_end": 48,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "5f8d7179-78f1-5d6d-99ab-a8edaa410ca6"
+        },
+        {
+          "src_start": 49,
+          "src_end": 51,
+          "tgt_start": 49,
+          "tgt_end": 51,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "5f8d7179-78f1-5d6d-99ab-a8edaa410ca6"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 46,
+          "end": 48,
+          "surface": "牽制",
+          "reading": "ケンセイ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 49,
+          "end": 51,
+          "surface": "機能",
+          "reading": "キノウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 46,
+          "end": 48,
+          "surface": "形成",
+          "reading": "ケイセイ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 49,
+          "end": 51,
+          "surface": "規模",
+          "reading": "キボ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201412.html entry 3: 正解 highlights 牽制の機能 in 大学がつくる子会社である以上、大学の理念に基づく経営を実行していただきたい、つまり、お互いに牽制の機能を持ってもらいたいというのが～; 間違い highlights 形成の規模 in 大学がつくる子会社である以上、大学の理念に基づく経営を実行していただきたい、つまり、お互いに形成の規模を持ってもらいたいというのが～. Both complete archived sentences agree with the original CSV  All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201704_005",
+      "OriginalHash": "3c4f6366e0de157f339f7b4e3189f8042ec14fed2d8e3d34862d3ae51acc65d7",
+      "old_pairs": [
+        {
+          "PairID": "0ace73b9-72b6-524c-b0b6-3d49d4b35b90",
+          "src_start": 11,
+          "src_end": 17,
+          "tgt_start": 11,
+          "tgt_end": 18,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 11,
+          "src_end": 14,
+          "tgt_start": 11,
+          "tgt_end": 15,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "0ace73b9-72b6-524c-b0b6-3d49d4b35b90"
+        },
+        {
+          "src_start": 15,
+          "src_end": 17,
+          "tgt_start": 16,
+          "tgt_end": 18,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "0ace73b9-72b6-524c-b0b6-3d49d4b35b90"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 11,
+          "end": 14,
+          "surface": "一企業",
+          "reading": "イチキギョウ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 15,
+          "end": 17,
+          "surface": "意向",
+          "reading": "イコウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 11,
+          "end": 15,
+          "surface": "地域業務",
+          "reading": "チイキギョウム",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "surface": "移行",
+          "reading": "イコウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201704.html entry 5: 正解 highlights 一企業の意向 in 地方の税制については、一企業の意向によって小さな町が～; 間違い highlights 地域業務の移行 in 地方の税制については、地域業務の移行によって小さな町が～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Installed UTF-8 MeCab/IPADIC lexical se All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201706_008",
+      "OriginalHash": "6db1643de66e076d5f99a13606467b20608bbf325ee28fb376dccd2ffa9b385e",
+      "old_pairs": [
+        {
+          "PairID": "d87952e8-3caa-54c1-9880-daef83bb283b",
+          "src_start": 8,
+          "src_end": 13,
+          "tgt_start": 8,
+          "tgt_end": 13,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 8,
+          "src_end": 10,
+          "tgt_start": 8,
+          "tgt_end": 10,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "d87952e8-3caa-54c1-9880-daef83bb283b"
+        },
+        {
+          "src_start": 11,
+          "src_end": 13,
+          "tgt_start": 11,
+          "tgt_end": 13,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "d87952e8-3caa-54c1-9880-daef83bb283b"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 8,
+          "end": 10,
+          "surface": "種々",
+          "reading": "シュジュ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 11,
+          "end": 13,
+          "surface": "要素",
+          "reading": "ヨウソ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 8,
+          "end": 10,
+          "surface": "種子",
+          "reading": "シュシ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 11,
+          "end": 13,
+          "surface": "様子",
+          "reading": "ヨウス",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201706.html entry 8: 正解 highlights 種々の要素 in この件については種々の要素を総合的に勘案し～; 間違い highlights 種子の様子 in この件については種子の様子を総合的に勘案し～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Installed UTF-8 MeCab/IPADIC lexical segments, with c All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201707_005",
+      "OriginalHash": "192b5949e339246e18fb130a146f72a63e67b32d82a1c0ad188ff8ac3fbde49e",
+      "old_pairs": [
+        {
+          "PairID": "b0db2d37-6120-510b-a264-d0b8f5c2e074",
+          "src_start": 3,
+          "src_end": 8,
+          "tgt_start": 3,
+          "tgt_end": 8,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 5,
+          "tgt_start": 3,
+          "tgt_end": 6,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "b0db2d37-6120-510b-a264-d0b8f5c2e074"
+        },
+        {
+          "src_start": 6,
+          "src_end": 8,
+          "tgt_start": 7,
+          "tgt_end": 8,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "b0db2d37-6120-510b-a264-d0b8f5c2e074"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "surface": "再開",
+          "reading": "サイカイ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 6,
+          "end": 8,
+          "surface": "時期",
+          "reading": "ジキ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 6,
+          "surface": "最下位",
+          "reading": "サイカイ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "surface": "軸",
+          "reading": "ジク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201707.html entry 5: 正解 highlights 再開の時期 in ここは再開の時期をずらしてはいかが～; 間違い highlights 最下位の軸 in ここは最下位の軸をずらしてはいかが～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Installed UTF-8 MeCab/IPADIC lexical segments, with context-s All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201810_005",
+      "OriginalHash": "bccef1c14471857c117e888eea25a9d054afb41c02ee44876b6a61453c93e0e7",
+      "old_pairs": [
+        {
+          "PairID": "57e72421-7574-5953-8b31-b173e8abf42b",
+          "src_start": 10,
+          "src_end": 15,
+          "tgt_start": 10,
+          "tgt_end": 15,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 10,
+          "src_end": 12,
+          "tgt_start": 10,
+          "tgt_end": 12,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "57e72421-7574-5953-8b31-b173e8abf42b"
+        },
+        {
+          "src_start": 13,
+          "src_end": 15,
+          "tgt_start": 13,
+          "tgt_end": 15,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "57e72421-7574-5953-8b31-b173e8abf42b"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 10,
+          "end": 12,
+          "surface": "密度",
+          "reading": "ミツド",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 13,
+          "end": 15,
+          "surface": "高い",
+          "reading": "タカイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 10,
+          "end": 12,
+          "surface": "未知",
+          "reading": "ミチ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 13,
+          "end": 15,
+          "surface": "長い",
+          "reading": "ナガイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201810.html entry 5: 正解 highlights 密度の高い in 今、大変ためになる、密度の高いご発表をいただきました～; 間違い highlights 未知の長い in 今、大変ためになる、未知の長いご発表をいただきました～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Installed UTF-8 MeCab/IPADIC lexical segmen All complete new surfaces have context-compatible exact whole dictionary entries or explicit noun component entries; both sequences match old contextual readings in order. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified two independent contrast words; preserve both pairs and their exact readings, with shared intervening material outside them.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

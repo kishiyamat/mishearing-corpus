@@ -1,0 +1,25 @@
+{
+  "schema": "word-pair-decision-batch-manifest/v1",
+  "batch": "uncovered-phrases-final-795",
+  "reviewer_table": "../sol-uncovered-phrases-1249/uncovered-phrases-sol-decisions.json",
+  "first_half_overlay": "../sol-uncovered-phrases-1249/contextual-first-half-sol-corrections.json",
+  "first_half_overlay_sha256": "f3957fc4e3e62687021a12241c3a6cb82153b4ea0de8523476b74c6723e12b4d",
+  "second_half_overlay": "../sol-uncovered-phrases-1249/contextual-second-half-sol-corrections.json",
+  "second_half_overlay_sha256": "9be6b14958d0ef2ff584bbfc94b2d4f619f1f2f09a42a27a59eb4b7b1e0c5b31",
+  "reading_audit": "../sol-uncovered-phrases-1249/11-reading-audit.json",
+  "reading_audit_sha256": "6344f92b2398d677eba04094a07b7e0f4a4ce25994b144d947724f679b8b1198",
+  "reviewer_table_sha256": "cab8e004be382f142c33919fe6550f11844f1595e5fd572e0d608c4ad14d5d32",
+  "input_review_sha256": "028014de959b662f1caa903f1b7ad619bb3f6e5e5c3fa59a2d619706b8ddebc0",
+  "output_review_sha256": "017f7d2f80974006c7af7730a6451c1dea85eedeb8091e4ca961b83081c56bce",
+  "decision_patch_sha256": "40c468d8d9e66c5485df0f622d91fb381bd7878de85b9c931f6a18fcb4bdc702",
+  "audit_sha256": "c13fa22769f6c7b5c40b4ec0e74a78f46e84d39f40bd752176087e2dc74d8be9",
+  "decision_record_count": 795,
+  "audit_lineage_row_count": 807,
+  "decision_type_counts": {
+    "compound": 471,
+    "word": 286,
+    "phrase": 38
+  },
+  "validation": "apply_word_pair_decisions --working-source; full canonical record validation passed before write",
+  "note": "All 1,249 baseline phrase IDs are classified by the source judgment table; this batch applies the 795 changed/retyped records. The remaining explicit KEEP_CONTEXTUAL decisions are registered in the integrated audit."
+}

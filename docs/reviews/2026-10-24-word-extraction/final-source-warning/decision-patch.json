@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:bfe86cc8d0181746fc1084ed7b6ccec8223c8a3932cfe191ff98aa5ccad1e919",
+  "source_review_sha256": "bfe86cc8d0181746fc1084ed7b6ccec8223c8a3932cfe191ff98aa5ccad1e919",
+  "decisions": [
+    {
+      "MishearID": "niftykids_200408100935_030",
+      "OriginalHash": "ea25905c1dad93fa9d407e704bd0222d77d3ccad3c86350f50092840744fe195",
+      "old_pairs": [
+        {
+          "PairID": "5f80d79a-d7a7-5902-9296-1e9bd38f94a1",
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "compound",
+          "PairID": "5f80d79a-d7a7-5902-9296-1e9bd38f94a1",
+          "SupersedesPairID": "1b65f2d8-9fd4-516a-b132-600df1a1566a"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "小食かん",
+          "reading": "ショウショッカン",
+          "meanings": [],
+          "qualifiers": [
+            "研究者方針に基づく想定読み。原音未確認"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "中食かん",
+          "reading": "チュウショッカン",
+          "meanings": [],
+          "qualifiers": [
+            "研究者方針に基づく想定読み。原音未確認"
+          ]
+        }
+      ],
+      "Evidence": "Source-specific investigation after inspecting the cited original or attempting retrieval: The cited Kids@nifty URL was inaccessible; neither 小食かん nor 中食かん is established in the preserved row as a lexical item or a literal spoken phrase, and the Note is blank. Common 小食/中食 readings alone do not determine the added かん or what was said.\n2026-10-24 adjudication: 研究者方針による条件付き採用。聞き間違いが起きた前提で文脈上の自然な読みを選定。原音未確認であり、実際の発音・聞き取りを実証したものではない。 SCHOOL文脈と給食の小食缶／中食缶という実在名称から解釈する。小食・中食という食習慣の語に分割しない。かなの「かん」を含む原表記は修正しない。 Contextual inference, not confirmation of the unavailable original: 岡山市給食施設要求資料 https://www.city.okayama.jp/cmsfiles/contents/0000047/47876/youkyuan.pdf lists 小食缶 and 中食缶. 東大阪市学校給食献立 https://school.higashiosaka-osk.ed.jp/_view/nawate-j/attach/get2/916/0 gives 食缶[しょっかん]. Neither source proves this particular exchange.\n\nCurrent pair calibration: Source Note and whole-surface morphology establish a complete inflected verb pair or uninterrupted nominal compound. MeCab POS risk does not make it contextual, but the old lexical subtype needs correction.",
+      "Reason": "SCHOOL文脈と給食の小食缶／中食缶という実在名称から解釈する。小食・中食という食習慣の語に分割しない。かなの「かん」を含む原表記は修正しない。 研究者方針による条件付き採用。聞き間違いが起きた前提で文脈上の自然な読みを選定。原音未確認であり、実際の発音・聞き取りを実証したものではない。 Current calibration: Source Note and whole-surface morphology establish a complete inflected verb pair or uninterrupted nominal compound. MeCab POS risk does not make it contextual, but the old lexical subtype needs correction.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "AcrugLVnrLE_014",
+      "OriginalHash": "d345f7dfbf83c7b1f968139f44dff5c2174faaaa972dd66ecc801355eb178aa2",
+      "old_pairs": [
+        {
+          "PairID": "b7b4fe23-f46a-5715-9cfb-c985a2372428",
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "compound",
+          "PairID": "b7b4fe23-f46a-5715-9cfb-c985a2372428",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "錦糸町",
+          "reading": "キンシチョウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "警視庁前",
+          "reading": "ケイシチョウマエ",
+          "meanings": [],
+          "qualifiers": [
+            "名称同定未確認：原本Tgtは警視庁前、Noteは都庁前。一次動画発話本文未確認"
+          ]
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_taxi_kikimachigae/youtube_q_v_AcrugLVnrLE.csv row AcrugLVnrLE_014; Src=錦糸町; Tgt=警視庁前; Note=動画では“きんしちょう” が“けいしちょう” に聞こえ都庁前で降ろされそうになった笑えない例を紹介。; URL=https://www.youtube.com/watch?v=AcrugLVnrLE. Exact dictionary entries verify 錦糸町=キンシチョウ and 警視庁=ケイシチョウ; 前=マエ is contextually regular. Exact constituent queries used .venv/bin/python -m corpus_api.dictionary, IPADIC SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol compound ruling: data/mishearing/google_search_taxi_kikimachigae/youtube_q_v_AcrugLVnrLE.csv#AcrugLVnrLE_014 data/mishearing/google_search_taxi_kikimachigae/youtube_q_v_AcrugLVnrLE.csv row AcrugLVnrLE_014 Source identity warning: source Tgt is 警視庁前 but Note says 都庁前; the cited primary video has about 200 views, but the spoken subtitle/transcript was not retrieved, so the named referent is unconfirmed. Raw Tgt and Note are retained unchanged.",
+      "Reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair. Unit classification is independent of referent certainty. Name identity remains unconfirmed because original Tgt is 警視庁前 while Note says 都庁前 and the primary video transcript was not obtained.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

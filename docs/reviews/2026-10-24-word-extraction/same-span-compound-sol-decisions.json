@@ -1,0 +1,4004 @@
+{
+  "schema": "same-span-compound-sol-adjudication-v1",
+  "date": "2026-10-24",
+  "source_review_file": "/tmp/same-span-phrase-compound-review-126.json",
+  "source_review_sha256": "f27c364054cd05e2ced7173051e34c1f88e1ea3fda3ac3a918ee4d4ea0f95829",
+  "candidate_count": 126,
+  "counts": {
+    "RETYPE_COMPOUND": 113,
+    "KEEP_CONTEXTUAL": 12,
+    "KEEP_COMPOUND": 1
+  },
+  "policy": "Full original spans/readings/PairID stay unchanged. Retype both-side source-attested noun or affix compounds only; source syntax overrides POS. No whole-dictionary entry alone does not reject name, number, or component-supported compound.",
+  "validation_problems": [],
+  "items": [
+    {
+      "i": 1,
+      "PairID": "f8c3fba7-a4e8-50f1-aa9b-73fe7a13ba7c",
+      "OriginalHash": "ade0a9554865ba315fc6f0f6d966e1ea7c4891922a376a72ffdc3d21f9746426",
+      "MishearID": "A215C215E6370BE28",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        3,
+        10,
+        3,
+        8
+      ],
+      "Src": "100マイクロ",
+      "Tgt": "100mg",
+      "SrcReading": "ヒャクマイクロ",
+      "TgtReading": "ヒャクミリグラム",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "TgtPOS": [
+        "名詞-数",
+        "名詞-固有名詞-組織"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/medsafe/2025-06-10_medsafe.csv#A215C215E6370BE28",
+      "evidence_ref": "Native primary export resource/medsafe/MedicalReportPub.csv (CP932), 事例ID=A215C215E6370BE28, 事例の内容: physician "
+    },
+    {
+      "i": 2,
+      "PairID": "384ff190-b995-5339-902d-52cdaf35658f",
+      "OriginalHash": "4764e943cc00988e9181a124ea9b6a088f49e25efa71bc37c1d72f1bd2ecbe87",
+      "MishearID": "A70EFE685048D1274",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "入室不可",
+      "Tgt": "入室可能",
+      "SrcReading": "ニュウシツフカ",
+      "TgtReading": "ニュウシツカノウ",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-形容動詞語幹"
+      ],
+      "reason": "MRI-entry status; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/medsafe/2025-06-10_medsafe.csv#A70EFE685048D1274",
+      "evidence_ref": "data/mishearing/medsafe/2025-06-10_medsafe.csv row A70EFE685048D1274"
+    },
+    {
+      "i": 3,
+      "PairID": "b7b4fe23-f46a-5715-9cfb-c985a2372428",
+      "OriginalHash": "d345f7dfbf83c7b1f968139f44dff5c2174faaaa972dd66ecc801355eb178aa2",
+      "MishearID": "AcrugLVnrLE_014",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        4
+      ],
+      "Src": "錦糸町",
+      "Tgt": "警視庁前",
+      "SrcReading": "キンシチョウ",
+      "TgtReading": "ケイシチョウマエ",
+      "SrcPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-接尾-地域"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-組織",
+        "名詞-副詞可能"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_taxi_kikimachigae/youtube_q_v_AcrugLVnrLE.csv#AcrugLVnrLE_014",
+      "evidence_ref": "data/mishearing/google_search_taxi_kikimachigae/youtube_q_v_AcrugLVnrLE.csv row AcrugLVnrLE_014",
+      "warning": "Source Note says 都庁前, while source Tgt/PairID says 警視庁前; identity review separately."
+    },
+    {
+      "i": 4,
+      "PairID": "cdce39cd-6d08-5beb-a335-2d6e29162bb8",
+      "OriginalHash": "a8f99f7956bfde747665b00e8f2d85e7609c102fce786bb59f859d5dd49f28e9",
+      "MishearID": "H29F69757CA274D06",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        3
+      ],
+      "Src": "10倍組成",
+      "Tgt": "10A",
+      "SrcReading": "ジュウバイソセイ",
+      "TgtReading": "ジュウエー",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-数",
+        "名詞-固有名詞-組織"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/medsafe/2025-06-10_medsafe.csv#H29F69757CA274D06",
+      "evidence_ref": "Native primary export resource/medsafe/MedicalReportPub.csv (CP932), 事例ID=H29F69757CA274D06, 事例の内容: physician "
+    },
+    {
+      "i": 5,
+      "PairID": "e6ea198e-5068-50e3-aa8a-2e863841ff6c",
+      "OriginalHash": "9d8ec25ea4ae593b5649a8bb38443ea3f634f1355430becc44e90c10e8e69edf",
+      "MishearID": "chonanshugakko_843317592715055_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "Src": "長南集学校",
+      "Tgt": "長南小学校",
+      "SrcReading": "チョウナンシュウガッコウ",
+      "TgtReading": "チョウナンショウガッコウ",
+      "SrcPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-接尾-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_taxi_kikimachigae/facebook_chonanshugakko.csv#chonanshugakko_843317592715055_001",
+      "evidence_ref": "data/mishearing/google_search_taxi_kikimachigae/facebook_chonanshugakko.csv row chonanshugakko_843317592715055"
+    },
+    {
+      "i": 6,
+      "PairID": "56b4fb51-cefc-5ed4-8710-49b1cf0480f5",
+      "OriginalHash": "4dc8e3de356fdef05a6c554225992e3b4a88a5029fb935aeae1e7f6cb80fa212",
+      "MishearID": "coffee_break_parts_similar200502_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        7,
+        11,
+        7,
+        11
+      ],
+      "Src": "校務分掌",
+      "Tgt": "交付文書",
+      "SrcReading": "コウムブンショウ",
+      "TgtReading": "コウフブンショ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-固有名詞-人名-名",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "reason": "school duty versus document; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200502.csv#coffee_break_parts_similar200502_005",
+      "evidence_ref": "Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar200502.html, SH"
+    },
+    {
+      "i": 7,
+      "PairID": "80496364-5673-5d93-a4fd-134bcba16c9e",
+      "OriginalHash": "052a8ce12186dbd4874bf7ea252f3ce1f041b1144d7ecee04ed821465a31447a",
+      "MishearID": "coffee_break_parts_similar200504_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        29,
+        32,
+        29,
+        32
+      ],
+      "Src": "通信量",
+      "Tgt": "通信料",
+      "SrcReading": "ツウシンリョウ",
+      "TgtReading": "ツウシンリョウ",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "reason": "communication amount versus charge; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200504.csv#coffee_break_parts_similar200504_001",
+      "evidence_ref": "Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar200504.html, SH"
+    },
+    {
+      "i": 8,
+      "PairID": "8393eb10-6a7e-584d-b1f8-dde25e649440",
+      "OriginalHash": "15682de469cf83da6b29aa4652d734a633d7a6fa974c4e7271227bc013740f37",
+      "MishearID": "coffee_break_parts_similar200504_006",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        55,
+        58,
+        55,
+        58
+      ],
+      "Src": "鉄条網",
+      "Tgt": "鉄条門",
+      "SrcReading": "テツジョウモウ",
+      "TgtReading": "テツジョウモン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "wire net versus gate; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200504.csv#coffee_break_parts_similar200504_006",
+      "evidence_ref": "Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar200504.html, SH"
+    },
+    {
+      "i": 9,
+      "PairID": "3738ad98-ea47-540f-87b8-552dcbf1ad52",
+      "OriginalHash": "d182d529bb1c2985cb43c361850f98d2a86b874514d56c5bdb38acbbc641cd07",
+      "MishearID": "coffee_break_parts_similar200509_008",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        3,
+        7,
+        3,
+        7
+      ],
+      "Src": "出張所費",
+      "Tgt": "出張旅費",
+      "SrcReading": "しゅっちょうしょひ",
+      "TgtReading": "しゅっちょうりょひ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "reason": "budget-account labels; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200509.csv#coffee_break_parts_similar200509_008",
+      "evidence_ref": "data/mishearing/yamato_gochou/coffee_break_parts_similar200509.csv row coffee_break_parts_similar200509_008"
+    },
+    {
+      "i": 10,
+      "PairID": "dab296fe-69bc-5854-83e4-bd4527da4f65",
+      "OriginalHash": "3eb75ba149ad1e0548dfaf8fd0b83073c93432885c7f3679a8d6b7b9919eaba1",
+      "MishearID": "coffee_break_parts_similar200510_002",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        9,
+        13,
+        9,
+        13
+      ],
+      "Src": "不実記載",
+      "Tgt": "支出起債",
+      "SrcReading": "ふじつきさい",
+      "TgtReading": "ししゅつきさい",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-サ変接続"
+      ],
+      "reason": "accounting labels; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200510.csv#coffee_break_parts_similar200510_002",
+      "evidence_ref": "data/mishearing/yamato_gochou/coffee_break_parts_similar200510.csv row coffee_break_parts_similar200510_002"
+    },
+    {
+      "i": 11,
+      "PairID": "b078b71d-fdc8-5257-8a90-361e9b7a5c4f",
+      "OriginalHash": "947802bd9e94e6534f260f9679a532fdc79da599ca3106461011e92c5a7ec62c",
+      "MishearID": "coffee_break_parts_similar200510_006",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        46,
+        50,
+        46,
+        49
+      ],
+      "Src": "経営法学",
+      "Tgt": "刑法学",
+      "SrcReading": "けいえいほうがく",
+      "TgtReading": "けいほうがく",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "legal-academic fields; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200510.csv#coffee_break_parts_similar200510_006",
+      "evidence_ref": "data/mishearing/yamato_gochou/coffee_break_parts_similar200510.csv row coffee_break_parts_similar200510_006"
+    },
+    {
+      "i": 12,
+      "PairID": "89f1ab42-6eb9-571f-92fe-7f9dd087e912",
+      "OriginalHash": "a316e76b15ab6255ceef9e486ca6c5e75c47b4b3df0d6b807145f1f88713780f",
+      "MishearID": "coffee_break_parts_similar200605_010",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        24,
+        28,
+        23,
+        27
+      ],
+      "Src": "前年同期",
+      "Tgt": "前年度期",
+      "SrcReading": "ゼンネンドウキ",
+      "TgtReading": "ゼンネンドキ",
+      "SrcPOS": [
+        "名詞-副詞可能",
+        "名詞-副詞可能"
+      ],
+      "TgtPOS": [
+        "名詞-副詞可能",
+        "名詞-接尾-一般"
+      ],
+      "reason": "comparison periods; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200605.csv#coffee_break_parts_similar200605_010",
+      "evidence_ref": "Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar200605.html, SH"
+    },
+    {
+      "i": 13,
+      "PairID": "29907e3b-09dc-57a8-aa7f-e36982f25f16",
+      "OriginalHash": "c3ebe58228db9aca8c29d20c1fa1d1b817e379c29a9182e508d90b91b36296fc",
+      "MishearID": "coffee_break_parts_similar200703_001",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        18,
+        20,
+        18,
+        20
+      ],
+      "Src": "農都",
+      "Tgt": "農と",
+      "SrcReading": "ノウト",
+      "TgtReading": "ノウト",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-地域"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "助詞-並立助詞"
+      ],
+      "reason": "農と is noun+particle, not the coined noun 農都.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200703.csv#coffee_break_parts_similar200703_001",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200703.html entry 1: 正解 h"
+    },
+    {
+      "i": 14,
+      "PairID": "89edf4bb-7edb-5a64-8d92-ba9d793b8249",
+      "OriginalHash": "9798fbbab7a49869905f102f71698c2dbf0e93a1dd3f90224c1606e8fdff9474",
+      "MishearID": "coffee_break_parts_similar200704_010",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        11,
+        15,
+        11,
+        15
+      ],
+      "Src": "損金算入",
+      "Tgt": "早期参入",
+      "SrcReading": "ソンキンサンニュウ",
+      "TgtReading": "ソウキサンニュウ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "reason": "tax deduction versus early entry; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200704.csv#coffee_break_parts_similar200704_010",
+      "evidence_ref": "Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar200704.html, SH"
+    },
+    {
+      "i": 15,
+      "PairID": "941761ae-4e2f-574b-9735-50f9a76a098d",
+      "OriginalHash": "0d515116da1acc6a9da9bd917a4bf6d4dfbbc92482dd4d47502807bea4dda58c",
+      "MishearID": "coffee_break_parts_similar200708_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        35,
+        38,
+        33,
+        35
+      ],
+      "Src": "同期比",
+      "Tgt": "同期",
+      "SrcReading": "ドウキヒ",
+      "TgtReading": "ドウキ",
+      "SrcPOS": [
+        "名詞-副詞可能",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-副詞可能"
+      ],
+      "reason": "同期比 versus 同期; 比 has no whole-pair counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200708.csv#coffee_break_parts_similar200708_003",
+      "evidence_ref": "Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar200708.html, SH"
+    },
+    {
+      "i": 16,
+      "PairID": "5f2515b1-4b30-5dea-b77a-2761d4ac9e36",
+      "OriginalHash": "ef5ad17330d83162d98582d8a817f72ce75652747c1912e424a735099f2b6c73",
+      "MishearID": "coffee_break_parts_similar200803_002",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        14,
+        19,
+        14,
+        19
+      ],
+      "Src": "黒鉛減速炉",
+      "Tgt": "国連原則論",
+      "SrcReading": "コクエンゲンソクロ",
+      "TgtReading": "コクレンゲンソクロン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-組織",
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "reactor versus imagined UN term; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200803.csv#coffee_break_parts_similar200803_002",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200803.html entry 2: 正解 h"
+    },
+    {
+      "i": 17,
+      "PairID": "d049b8b5-00af-5e99-bcb2-06c1be6d4bbd",
+      "OriginalHash": "c34b14b6cd35cb6d812bf1a677eddaaf7a19cfeb81829c2e9e4d70f45ed6d206",
+      "MishearID": "coffee_break_parts_similar200811_005",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        44,
+        49,
+        44,
+        51
+      ],
+      "Src": "用途外使用",
+      "Tgt": "用途替えしよう",
+      "SrcReading": "ヨウトガイシヨウ",
+      "TgtReading": "ヨウトカエシヨウ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "動詞-自立",
+        "動詞-自立",
+        "助動詞"
+      ],
+      "reason": "用途替えしよう includes conjugated verbs; 用途外使用 is a noun.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200811.csv#coffee_break_parts_similar200811_005",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200811.html entry 5: 正解 h"
+    },
+    {
+      "i": 18,
+      "PairID": "d976d1d7-5975-5f3c-8900-ad11354c6bbf",
+      "OriginalHash": "7aa1a77758df6ff1a07afa8aa0e5af9fc696b87a7b70c2e4abfd6db252620bef",
+      "MishearID": "coffee_break_parts_similar200907_010",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        8,
+        10,
+        8,
+        10
+      ],
+      "Src": "４者",
+      "Tgt": "４社",
+      "SrcReading": "ヨンシャ",
+      "TgtReading": "ヨンシャ",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar200907.csv#coffee_break_parts_similar200907_010",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200907.html entry 10: 正解 "
+    },
+    {
+      "i": 19,
+      "PairID": "832cdcf8-9ba6-5bec-b559-feeed9c0c626",
+      "OriginalHash": "e200a995cf8e6e12790c98040e87e77088ffdcea60632032d9a27b315c4818c5",
+      "MishearID": "coffee_break_parts_similar201007_009",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        13,
+        17,
+        13,
+        17
+      ],
+      "Src": "ＧＤＰ比",
+      "Tgt": "ＧＤＰ費",
+      "SrcReading": "ジーディーピーヒ",
+      "TgtReading": "ジーディーピーヒ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "GDP ratio versus expense; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar201007.csv#coffee_break_parts_similar201007_009",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201007.html entry 9: 正解 h"
+    },
+    {
+      "i": 20,
+      "PairID": "a97c4f99-02ef-53f2-aac0-13c5c86674d4",
+      "OriginalHash": "eb4cf081ad229f7f7595457447b972ce35acf276ed3fdfcffbc14f0016245053",
+      "MishearID": "coffee_break_parts_similar201110_006",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        4,
+        8,
+        4,
+        9
+      ],
+      "Src": "統合新校",
+      "Tgt": "統合・振興",
+      "SrcReading": "トウゴウシンコウ",
+      "TgtReading": "トウゴウシンコウ",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "接頭詞-名詞接続",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "記号-一般",
+        "名詞-サ変接続"
+      ],
+      "reason": "統合・振興 is punctuation-linked coordination.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar201110.csv#coffee_break_parts_similar201110_006",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201110.html entry 6: 正解 h"
+    },
+    {
+      "i": 21,
+      "PairID": "ce71dc87-820b-56d1-b991-23ef61ff23a6",
+      "OriginalHash": "2a2424035678bb106aca45d527ccf7ad9e1c3db2c4d207c835d83034e4fde656",
+      "MishearID": "coffee_break_parts_similar201111_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        3,
+        6,
+        3,
+        7
+      ],
+      "Src": "兵庫県",
+      "Tgt": "基本計画",
+      "SrcReading": "ヒョウゴケン",
+      "TgtReading": "キホンケイカク",
+      "SrcPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-接尾-地域"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar201111.csv#coffee_break_parts_similar201111_005",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201111.html entry 5: 正解 h"
+    },
+    {
+      "i": 22,
+      "PairID": "2bccc5bf-7831-5df4-939a-20cab9a346e3",
+      "OriginalHash": "74ca75d31ea0df91e8fea14130f97aca294cd5f646a4af3623e7343fe33f6439",
+      "MishearID": "coffee_break_parts_similar201308_009",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        56,
+        59,
+        56,
+        60
+      ],
+      "Src": "山陽筋",
+      "Tgt": "算用数字",
+      "SrcReading": "サンヨウスジ",
+      "TgtReading": "サンヨウスウジ",
+      "SrcPOS": [
+        "名詞-固有名詞-組織",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar201308.csv#coffee_break_parts_similar201308_009",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201308.html entry 9: 正解 h"
+    },
+    {
+      "i": 23,
+      "PairID": "b0278236-021e-53db-bff9-70757c0b2873",
+      "OriginalHash": "a86806ac1178799211f13e43232729623edd817862531b5ad1a7146aecc38dec",
+      "MishearID": "coffee_break_parts_similar201310_002",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        63,
+        67,
+        63,
+        65
+      ],
+      "Src": "利子補給",
+      "Tgt": "１億",
+      "SrcReading": "リシホキュウ",
+      "TgtReading": "イチオク",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-数",
+        "名詞-数"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar201310.csv#coffee_break_parts_similar201310_002",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201310.html entry 2: 正解 h"
+    },
+    {
+      "i": 24,
+      "PairID": "ab7bf4ae-88e5-5700-955c-5777d827f83b",
+      "OriginalHash": "01823336250ea445031f2709527c883fc214bb29b3ef01fbea24c726fde3ba5e",
+      "MishearID": "coffee_break_parts_similar201603_002",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        9,
+        14,
+        9,
+        14
+      ],
+      "Src": "出産一時金",
+      "Tgt": "主催地議員",
+      "SrcReading": "シュッサンイチジキン",
+      "TgtReading": "シュサイチギイン",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-数",
+        "名詞-接尾-助数詞",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-一般",
+        "名詞-一般"
+      ],
+      "reason": "birth benefit versus person label; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar201603.csv#coffee_break_parts_similar201603_002",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201603.html entry 2: 正解 h"
+    },
+    {
+      "i": 25,
+      "PairID": "56fb035b-8564-55a7-b684-deb353405516",
+      "OriginalHash": "8849da3fd4336e2cc9e9843a47116628f140d15963518febda5dda49e7af5314",
+      "MishearID": "coffee_break_parts_similar201711_008",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        2,
+        5,
+        2,
+        5
+      ],
+      "Src": "施行令",
+      "Tgt": "施工例",
+      "SrcReading": "シコウレイ",
+      "TgtReading": "シコウレイ",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "reason": "legal order versus construction example; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar201711.csv#coffee_break_parts_similar201711_008",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201711.html entry 8: 正解 h"
+    },
+    {
+      "i": 26,
+      "PairID": "c1222805-f9ef-55a0-a89d-dc838cacc490",
+      "OriginalHash": "b69bf80018c31164692976b1c89a2f38ddeec608146ac2f074bc219dc223ebed",
+      "MishearID": "coffee_break_parts_similar201804_004",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        5,
+        9,
+        5,
+        9
+      ],
+      "Src": "地方移転",
+      "Tgt": "事後意見",
+      "SrcReading": "チホウイテン",
+      "TgtReading": "ジゴイケン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "reason": "government relocation versus opinion; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar201804.csv#coffee_break_parts_similar201804_004",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201804.html entry 4: 正解 h"
+    },
+    {
+      "i": 27,
+      "PairID": "45e87b52-970c-5ecb-8c50-02927d183282",
+      "OriginalHash": "df1b17791f3a321a2a73aa4a56cc82e5966905ff0ece24f9ff981fc720754aaf",
+      "MishearID": "coffee_break_parts_similar201905_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        13,
+        16,
+        13,
+        17
+      ],
+      "Src": "一律化",
+      "Tgt": "１次通過",
+      "SrcReading": "イチリツカ",
+      "TgtReading": "イチジツウカ",
+      "SrcPOS": [
+        "名詞-副詞可能",
+        "名詞-接尾-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞",
+        "名詞-サ変接続"
+      ],
+      "reason": "uniformization versus first-stage passage; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar201905.csv#coffee_break_parts_similar201905_003",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201905.html entry 3: 正解 h"
+    },
+    {
+      "i": 28,
+      "PairID": "68eb0fcf-4fe9-5b9d-b391-55879b3a45c0",
+      "OriginalHash": "9171ca21b59711fb2c04d78cfa0d1f6a8df5e6a2e85ae88d177e7555f04dcc25",
+      "MishearID": "coffee_break_parts_similar202008_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        7,
+        9,
+        7,
+        13
+      ],
+      "Src": "数％",
+      "Tgt": "スーパー銭湯",
+      "SrcReading": "スウパーセント",
+      "TgtReading": "スーパーセントウ",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/yamato_gochou/coffee_break_parts_similar202008.csv#coffee_break_parts_similar202008_001",
+      "evidence_ref": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar202008.html entry 1: 正解 h"
+    },
+    {
+      "i": 29,
+      "PairID": "77361fc7-cd2f-5403-a949-17e06c500e42",
+      "OriginalHash": "768390174fb3a404bf7a01aa7ca25c68bb22a07ee1010f0bd71dab58deba8c62",
+      "MishearID": "girlschannel_5697216_007",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        4
+      ],
+      "Src": "6時頃",
+      "Tgt": "野口五郎",
+      "SrcReading": "ロクジゴロ",
+      "TgtReading": "ノグチゴロウ",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞",
+        "名詞-非自立-副詞可能"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_denwa_kikimachigai/girlschannel_net_topics_5697216.csv#girlschannel_5697216_007",
+      "evidence_ref": "data/mishearing/google_search_denwa_kikimachigai/girlschannel_net_topics_5697216.csv row girlschannel_5697216_"
+    },
+    {
+      "i": 30,
+      "PairID": "940d59d1-ec08-50e0-ad9d-6b83d5066e94",
+      "OriginalHash": "37b5874c9c6dcd7ea376d05e94f2654924f538bce818cebdf34075d9d194389c",
+      "MishearID": "girlschannel_5697216_010",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        4
+      ],
+      "Src": "花自慢",
+      "Tgt": "鼻血マン",
+      "SrcReading": "ハナジマン",
+      "TgtReading": "ハナヂマン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_denwa_kikimachigai/girlschannel_net_topics_5697216.csv#girlschannel_5697216_010",
+      "evidence_ref": "data/mishearing/google_search_denwa_kikimachigai/girlschannel_net_topics_5697216.csv row girlschannel_5697216_"
+    },
+    {
+      "i": 31,
+      "PairID": "b651afa0-6002-5c63-ba91-0b6624304935",
+      "OriginalHash": "3097b6c68dd90add6041259f9a04794e27d53b9eda88d3244325c99faaa620e0",
+      "MishearID": "girlschannel_5697216_036",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        5,
+        9,
+        5,
+        9
+      ],
+      "Src": "9秒99",
+      "Tgt": "急病救急",
+      "SrcReading": "キュウビョウキュウキュウ",
+      "TgtReading": "キュウビョウキュウキュウ",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞",
+        "名詞-数"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_denwa_kikimachigai/girlschannel_net_topics_5697216.csv#girlschannel_5697216_036",
+      "evidence_ref": "data/mishearing/google_search_denwa_kikimachigai/girlschannel_net_topics_5697216.csv row girlschannel_5697216_"
+    },
+    {
+      "i": 32,
+      "PairID": "4218d69b-7554-5e1d-95f1-d2997b16b90f",
+      "OriginalHash": "4daeb0f9033af2c2cfb694e44acf7bc626208c7478fbeaf9eae7a4ef6ae6e187",
+      "MishearID": "hobonichi_493_003",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        0,
+        2,
+        0,
+        5
+      ],
+      "Src": "何茶",
+      "Tgt": "なにちゃん",
+      "SrcReading": "ナニチャ",
+      "TgtReading": "ナニチャン",
+      "SrcPOS": [
+        "名詞-代名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-代名詞-一般",
+        "名詞-接尾-人名"
+      ],
+      "reason": "Primary dialogue contrasts 何茶？ with address question なにちゃん？.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050621_html.csv#hobonichi_493_003",
+      "evidence_ref": "Recovered saved primary source by original CSV stem: resource/txt_1101/www_1101_com_iimatugai_archive_more0506"
+    },
+    {
+      "i": 33,
+      "PairID": "9fccb4e5-0c42-5496-9e93-784cf880a0a3",
+      "OriginalHash": "8fdb87eacdc60c7e2bf56a58366e48f55092759a472a7cbf5670b21b2a35a7c6",
+      "MishearID": "komachi367676_002",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        0,
+        11,
+        0,
+        15
+      ],
+      "Src": "Eiffel Tour",
+      "Tgt": "Et fais le tour",
+      "SrcReading": "エッフェルトゥール",
+      "TgtReading": "エフェルトゥール",
+      "SrcPOS": [
+        "名詞-固有名詞-組織",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-組織",
+        "名詞-一般",
+        "名詞-一般",
+        "名詞-固有名詞-組織"
+      ],
+      "reason": "Et fais le tour is a French verb phrase, despite MeCab noun tags.",
+      "source": "data/mishearing/google_search_taxi_kikimachigai/komachi_367676.csv#komachi367676_002",
+      "evidence_ref": "Current primary URL https://komachi.yomiuri.co.jp/topics/id/367676/ fetched HTTP 200"
+    },
+    {
+      "i": 34,
+      "PairID": "c285b50d-e35a-51bb-ad30-5e6071982c00",
+      "OriginalHash": "7f1b58ecd22665d495c3c4dca74dee9c898fd519bc14a2a87ba8f19e06ca7c6f",
+      "MishearID": "komachi816730_038",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        5
+      ],
+      "Src": "排他的",
+      "Tgt": "はえたたき",
+      "SrcReading": "ハイタテキ",
+      "TgtReading": "ハエタタキ",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-形容動詞語幹"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "derived modifier versus implement; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_taxi_kikimachigai/komachi_816730.csv#komachi816730_038",
+      "evidence_ref": "data/mishearing/google_search_taxi_kikimachigai/komachi_816730.csv row komachi816730_038"
+    },
+    {
+      "i": 35,
+      "PairID": "9f1977a7-5feb-5c79-9e78-b1a4f9d896c1",
+      "OriginalHash": "d20861db118ceeaa94e17295a4c2570f0806afddc3b01de53023ed047ae0bfa2",
+      "MishearID": "mynaviwoman_15102557_002",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "Src": "鹿野顧問",
+      "Tgt": "カノコーン",
+      "SrcReading": "カノコモン",
+      "TgtReading": "カノコーン",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_wo_star_to_kikimatiga/mynavi_3.csv#mynaviwoman_15102557_002",
+      "evidence_ref": "data/mishearing/google_wo_star_to_kikimatiga/mynavi_3.csv row mynaviwoman_15102557_002"
+    },
+    {
+      "i": 36,
+      "PairID": "45d7f028-4405-55bf-b70d-633fee2331a9",
+      "OriginalHash": "56c2b360b9646cf3b5f5e410d8176a897716df3c0218521cb17d826103dc171a",
+      "MishearID": "niftykids_200408100935_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        8
+      ],
+      "Src": "給食セット",
+      "Tgt": "地球破壊センター",
+      "SrcReading": "キュウショクセット",
+      "TgtReading": "チキュウハカイセンター",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_denwa_kikimachigae/nifty_kids_soudan.csv#niftykids_200408100935_001",
+      "evidence_ref": "data/mishearing/google_search_denwa_kikimachigae/nifty_kids_soudan.csv row niftykids_200408100935_001"
+    },
+    {
+      "i": 37,
+      "PairID": "7781ebc7-a606-517b-b0d9-c5f45dc7677c",
+      "OriginalHash": "af1a3d1306eb01952e2420991d5a07d4c0c45c6b184545ac108670a90b49a1b6",
+      "MishearID": "posfie_OOEDO4_012",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        6
+      ],
+      "Src": "綾瀬市",
+      "Tgt": "アイアン戦士",
+      "SrcReading": "アヤセシ",
+      "TgtReading": "アイアンセンシ",
+      "SrcPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-接尾-地域"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_taxi_kikimachigai/posfie_aaGyT0z.csv#posfie_OOEDO4_012",
+      "evidence_ref": "data/mishearing/google_search_taxi_kikimachigai/posfie_aaGyT0z.csv row posfie_OOEDO4_012"
+    },
+    {
+      "i": 38,
+      "PairID": "fb3927df-1435-552b-adb5-b64f48da3a29",
+      "OriginalHash": "bde85ca1e1d82e0a0a1b75a208c535d2b53d7021212ccfe4ee73fffb3b8410a0",
+      "MishearID": "posfie_OOEDO4_022",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "Src": "コードシェア便",
+      "Tgt": "幸田シャーミン",
+      "SrcReading": "コードシェアビン",
+      "TgtReading": "コウダシャーミン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_taxi_kikimachigai/posfie_aaGyT0z.csv#posfie_OOEDO4_022",
+      "evidence_ref": "data/mishearing/google_search_taxi_kikimachigai/posfie_aaGyT0z.csv row posfie_OOEDO4_022"
+    },
+    {
+      "i": 39,
+      "PairID": "7861ceba-9a1d-51b7-991e-8e93ca20b106",
+      "OriginalHash": "1148f4a6c1718ee887fbb2ec5ccd545fcd7d1227e3259dccaf2056da43930b4d",
+      "MishearID": "posfie_nDGXf53_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "Src": "藤沢周平",
+      "Tgt": "富士山周辺",
+      "SrcReading": "フジサワシュウヘイ",
+      "TgtReading": "フジサンシュウヘン",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_taxi_kikimachigae/togetter_li_193527.csv#posfie_nDGXf53_003",
+      "evidence_ref": "data/mishearing/google_search_taxi_kikimachigae/togetter_li_193527.csv row posfie_nDGXf53_003"
+    },
+    {
+      "i": 40,
+      "PairID": "fee1348d-ad5b-5572-965d-09f10b36dac3",
+      "OriginalHash": "6e95a2acb1bfdd2fc6089d252e6b6b6c415caa3599a9b90cf39415fdd079e9bd",
+      "MishearID": "sotogofun_23065_003",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        0,
+        6,
+        0,
+        5
+      ],
+      "Src": "コース名のみ",
+      "Tgt": "コース内容",
+      "SrcReading": "コースメイノミ",
+      "TgtReading": "コースナイヨウ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般",
+        "助詞-副助詞"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "コース名のみ ends in restrictive particle のみ.",
+      "source": "data/mishearing/google_search_konsaru_kikimachigai/sotogofun_club_23065.csv#sotogofun_23065_003",
+      "evidence_ref": "data/mishearing/google_search_konsaru_kikimachigai/sotogofun_club_23065.csv row sotogofun_23065_003"
+    },
+    {
+      "i": 41,
+      "PairID": "b27d7198-50c2-54d5-bae4-1e23613352da",
+      "OriginalHash": "ee843c8cefd4803095c2e497edb730baaa6bd6aab79206c6ab611fbbf8f158fc",
+      "MishearID": "tfm_skyrocket_20200915_006",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "Src": "シングレア錠",
+      "Tgt": "シンデレラ城",
+      "SrcReading": "シングレアジョウ",
+      "TgtReading": "シンデレラジョウ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_taxi_kikimachigai/tfm_archive_pc.csv#tfm_skyrocket_20200915_006",
+      "evidence_ref": "data/mishearing/google_search_taxi_kikimachigai/tfm_archive_pc.csv row tfm_skyrocket_20200915_006"
+    },
+    {
+      "i": 42,
+      "PairID": "690d24d3-10fe-5c7e-a421-3335af86a525",
+      "OriginalHash": "db848a758aca36d221874f9accdf8ee15e1e5da804ca67ce758e7919d6058070",
+      "MishearID": "togetter_193527_003",
+      "decision": "KEEP_COMPOUND",
+      "old_type": "compound",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "Src": "藤沢周平",
+      "Tgt": "富士山周辺",
+      "SrcReading": "フジサワシュウヘイ",
+      "TgtReading": "フジサンシュウヘン",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "Already typed compound; whole person-name versus regional expression remains intact.",
+      "source": "data/mishearing/google_search_taxi_kikimachigai/togetter_li.csv#togetter_193527_003",
+      "evidence_ref": "data/mishearing/google_search_taxi_kikimachigai/togetter_li.csv row togetter_193527_003"
+    },
+    {
+      "i": 43,
+      "PairID": "2b6ed7b4-9f55-50a2-8d54-ab3d7dc73056",
+      "OriginalHash": "2323210bf182e2b9f7b61d07e6a5f5d1a82d102aeeab750beff697923a7f30bb",
+      "MishearID": "womanmynavi_15102557_002",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "Src": "鹿野顧問",
+      "Tgt": "カノコーン",
+      "SrcReading": "カノコモン",
+      "TgtReading": "カノコーン",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_denwa_kikimachigai/mynavi_57.csv#womanmynavi_15102557_002",
+      "evidence_ref": "data/mishearing/google_search_denwa_kikimachigai/mynavi_57.csv row womanmynavi_15102557_002"
+    },
+    {
+      "i": 44,
+      "PairID": "7ec4d651-9e5e-502f-8f76-d87fa846443a",
+      "OriginalHash": "5d10ae204d6c584d4506c9267d46d978c4018b3dbca569a80ddf6aa9747a1983",
+      "MishearID": "www1101com_iimatugai_archive_more060807_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        6,
+        0,
+        4
+      ],
+      "Src": "セクハラ問題",
+      "Tgt": "桜田門外",
+      "SrcReading": "セクハラモンダイ",
+      "TgtReading": "サクラダモンガイ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-ナイ形容詞語幹"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060807_html.csv#www1101com_iimatugai_archive_more060807_001",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060807_html.txt, SHA256 1a26b6e"
+    },
+    {
+      "i": 45,
+      "PairID": "ee87ef99-2a3e-5c0d-8bbf-464e65b26f33",
+      "OriginalHash": "019f68f0edd90579ec2be81f04203411e71b70a9e711ec6433e88dac5e9cfaea",
+      "MishearID": "www1101com_iimatugai_archive_more060807_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "Src": "数パーセント",
+      "Tgt": "スーパー銭湯",
+      "SrcReading": "スウパーセント",
+      "TgtReading": "スーパーセントウ",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060807_html.csv#www1101com_iimatugai_archive_more060807_003",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060807_html.txt, SHA256 1a26b6e"
+    },
+    {
+      "i": 46,
+      "PairID": "b6fa4f97-458b-56ec-9713-b6dce5ecc049",
+      "OriginalHash": "281bbf2467be60257eaf96af05136da9bf4c408c23185e749ebb6626a3d746fd",
+      "MishearID": "www1101comiimatugaiarchive060411_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "古内東子",
+      "Tgt": "堀内孝雄",
+      "SrcReading": "フルウチトウコ",
+      "TgtReading": "ホリウチタカオ",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060411_html.csv#www1101comiimatugaiarchive060411_005",
+      "evidence_ref": "Recovered saved primary source by original CSV stem: resource/txt_1101/www_1101_com_iimatugai_archive_more0604"
+    },
+    {
+      "i": 47,
+      "PairID": "5d64ffbf-e47d-5bfc-b733-cd67c0a09539",
+      "OriginalHash": "ae1ed9c94d59caefb724ba1c312fc90d67a8284a1a32e2a45e0f444aca903a00",
+      "MishearID": "www1101iimatugai_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        6,
+        0,
+        3
+      ],
+      "Src": "アドブレーン",
+      "Tgt": "和田勉",
+      "SrcReading": "アドブレーン",
+      "TgtReading": "ワダベン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050523_html.csv#www1101iimatugai_005",
+      "evidence_ref": "Recovered saved primary source by original CSV stem: resource/txt_1101/www_1101_com_iimatugai_archive_more0505"
+    },
+    {
+      "i": 48,
+      "PairID": "1b79b1df-34cf-520f-a192-8c09d45df149",
+      "OriginalHash": "d780d81728f24e55f2ed157845f235435280c9dd9af06abd6261dce9912b61a9",
+      "MishearID": "www1101iimatugai_011",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        6
+      ],
+      "Src": "沖漬けイカ",
+      "Tgt": "チーズケーキ",
+      "SrcReading": "オキヅケイカ",
+      "TgtReading": "チーズケーキ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050523_html.csv#www1101iimatugai_011",
+      "evidence_ref": "Recovered saved primary source by original CSV stem: resource/txt_1101/www_1101_com_iimatugai_archive_more0505"
+    },
+    {
+      "i": 49,
+      "PairID": "a94ec8fc-4991-5544-9049-badc6697c855",
+      "OriginalHash": "7e03df96c56be2044f6b038057f965566b8e627da27307f29d56c4427254aa6b",
+      "MishearID": "www_1101_com_iimatugai_050704_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        5
+      ],
+      "Src": "厚切り",
+      "Tgt": "アズキ入り",
+      "SrcReading": "アツギリ",
+      "TgtReading": "アズキイリ",
+      "SrcPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-接尾-サ変接続"
+      ],
+      "reason": "product modifiers 厚切り versus アズキ入り; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050704_html.csv#www_1101_com_iimatugai_050704_001",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more050704_html.txt, SHA256 c970f73"
+    },
+    {
+      "i": 50,
+      "PairID": "50c78ddb-b2aa-5d93-9b55-c5fbccfed88f",
+      "OriginalHash": "3442ffbc500f5474d236d04e457a1d24941230eb7bc9c2e33af510c429245ede",
+      "MishearID": "www_1101_com_iimatugai_050704_006",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        9,
+        0,
+        4
+      ],
+      "Src": "ニュージーランド館",
+      "Tgt": "11時半",
+      "SrcReading": "ニュージーランドカン",
+      "TgtReading": "ジュウイチジハン",
+      "SrcPOS": [
+        "名詞-固有名詞-地域-国",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050704_html.csv#www_1101_com_iimatugai_050704_006",
+      "evidence_ref": "Saved primary 1101 narrative resource/txt_1101/www_1101_com_iimatugai_archive_more050704_html.txt, SHA256 c970"
+    },
+    {
+      "i": 51,
+      "PairID": "a8b45025-a357-5ef1-934d-d0634723e19f",
+      "OriginalHash": "9e453ca96e51ffcca58a24dbd83e3e9dd1da1a50caf44f398a1543c550207bfc",
+      "MishearID": "www_1101_com_iimatugai_050704_012",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        6,
+        0,
+        4
+      ],
+      "Src": "光GENJI",
+      "Tgt": "羽賀研二",
+      "SrcReading": "ヒカルゲンジ",
+      "TgtReading": "ハガケンジ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-固有名詞-組織"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050704_html.csv#www_1101_com_iimatugai_050704_012",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_iimatugai_archive_more050704_html.txt, SHA256 c970f73b5986"
+    },
+    {
+      "i": 52,
+      "PairID": "ea690406-5b65-565f-98c1-197d87f26be4",
+      "OriginalHash": "cfbba4f204d14866b3ee1dc1984a8041ba50a31e34bd2c2f55f5732b9c30f3c3",
+      "MishearID": "www_1101_com_iimatugai_2009-09-30_html_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        4
+      ],
+      "Src": "インカ帝国",
+      "Tgt": "宴会天国",
+      "SrcReading": "インカテイコク",
+      "TgtReading": "エンカイテンゴク",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2009-09-30_html.csv#www_1101_com_iimatugai_2009-09-30_html_003",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_2009-09-30_html.txt, SHA256 f3ea47867e79d7e"
+    },
+    {
+      "i": 53,
+      "PairID": "ea2834ea-4b3a-5af8-822c-64304c7968e0",
+      "OriginalHash": "d7aa2b6a621b5e982e71b576fd09bb0fe69ff19810c0609064b79bbfad5e7f3d",
+      "MishearID": "www_1101_com_iimatugai_2009-10-14_html_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        5
+      ],
+      "Src": "団体名",
+      "Tgt": "だてメガネ",
+      "SrcReading": "ダンタイメイ",
+      "TgtReading": "ダテメガネ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2009-10-14_html.csv#www_1101_com_iimatugai_2009-10-14_html_003",
+      "evidence_ref": "Saved primary episode resource/txt_1101/www_1101_com_iimatugai_2009-10-14_html.txt, SHA256 2c7a494f4a294da3ec9"
+    },
+    {
+      "i": 54,
+      "PairID": "db6cf8b4-1a03-5644-9e65-934582b904f3",
+      "OriginalHash": "7d6d00aafddcf2153037cc1fc9633aa30a6cc12fa9ab0c50ae936ac1cf7f8ffa",
+      "MishearID": "www_1101_com_iimatugai_2009-10-14_html_004",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "サド侯爵",
+      "Tgt": "佐藤耕作",
+      "SrcReading": "サドコウシャク",
+      "TgtReading": "サトウコウサク",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2009-10-14_html.csv#www_1101_com_iimatugai_2009-10-14_html_004",
+      "evidence_ref": "Saved primary 1101 narrative resource/txt_1101/www_1101_com_iimatugai_2009-10-14_html.txt, SHA256 2c7a494f4a29"
+    },
+    {
+      "i": 55,
+      "PairID": "7e989dc6-a2b6-5b98-a14b-c0fac6a60e92",
+      "OriginalHash": "7cc23c0aecdacb6474382a0f470e5cbe645816615a28da52c95ae96eec2aff94",
+      "MishearID": "www_1101_com_iimatugai_2010-01-06_html_007",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        7
+      ],
+      "Src": "横尾忠則展",
+      "Tgt": "旅行ただ乗り券",
+      "SrcReading": "ヨコオタダノリテン",
+      "TgtReading": "リョコウタダノリケン",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-一般",
+        "名詞-接尾-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2010-01-06_html.csv#www_1101_com_iimatugai_2010-01-06_html_007",
+      "evidence_ref": "Saved primary episode resource/txt_1101/www_1101_com_iimatugai_2010-01-06_html.txt, SHA256 c55d0094d7178a67e3e"
+    },
+    {
+      "i": 56,
+      "PairID": "3c4ec3f4-3c54-5099-87fe-9ac504348e4c",
+      "OriginalHash": "f595c8da3d0a2b26b502de65c50d5531e5dcb5481ee2c84e6c8778c09ca56dc5",
+      "MishearID": "www_1101_com_iimatugai_2010-06-08_html_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        6
+      ],
+      "Src": "後楽園球場",
+      "Tgt": "コーラ研究所",
+      "SrcReading": "コウラクエンキュウジョウ",
+      "TgtReading": "コーラケンキュウジョ",
+      "SrcPOS": [
+        "名詞-固有名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2010-06-08_html.csv#www_1101_com_iimatugai_2010-06-08_html_003",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_2010-06-08_html.txt, SHA256 cc3ed59bf492b8a"
+    },
+    {
+      "i": 57,
+      "PairID": "02f37a2c-1f77-58b9-bcd4-b109f560f01b",
+      "OriginalHash": "fe4fbd7d0af86de6165f1d603934401115f6645613f38ed268cfe575f08e4bdf",
+      "MishearID": "www_1101_com_iimatugai_2010-08-10_html_005",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        0,
+        15,
+        0,
+        7
+      ],
+      "Src": "HUNTER×HUNTER休載",
+      "Tgt": "ハタハタ九千円",
+      "SrcReading": "ハンターハンターキュウサイ",
+      "TgtReading": "ハタハタキュウセンエン",
+      "SrcPOS": [
+        "名詞-固有名詞-組織",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-数",
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "reason": "Title+休載 event versus fish+price; both are syntactic chunks.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2010-08-10_html.csv#www_1101_com_iimatugai_2010-08-10_html_005",
+      "evidence_ref": "Saved primary episode resource/txt_1101/www_1101_com_iimatugai_2010-08-10_html.txt, SHA256 e0c692445aabb6bb6fb"
+    },
+    {
+      "i": 58,
+      "PairID": "18318b27-ffe6-5fad-9e67-3b5fe4bc2982",
+      "OriginalHash": "328b81ffaa03bcf7f29874e19255fd9746f29771930995ee1479d08cb016aaae",
+      "MishearID": "www_1101_com_iimatugai_2010-08-10_html_006",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        3
+      ],
+      "Src": "生理用品",
+      "Tgt": "製氷機",
+      "SrcReading": "セイリヨウヒン",
+      "TgtReading": "セイヒョウキ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2010-08-10_html.csv#www_1101_com_iimatugai_2010-08-10_html_006",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_2010-08-10_html.txt, SHA256 e0c692445aabb6b"
+    },
+    {
+      "i": 59,
+      "PairID": "ba15330e-32a5-5b37-a434-e9dc179f7686",
+      "OriginalHash": "7967af2f0ba838c691380215fa1438b82aac6c84cf8535057357c009a680cf0f",
+      "MishearID": "www_1101_com_iimatugai_2010-12-07_html_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "Src": "不審物",
+      "Tgt": "婦人靴",
+      "SrcReading": "フシンブツ",
+      "TgtReading": "フジンクツ",
+      "SrcPOS": [
+        "名詞-形容動詞語幹",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2010-12-07_html.csv#www_1101_com_iimatugai_2010-12-07_html_005",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_2010-12-07_html.txt, SHA256 379642aecdd436d"
+    },
+    {
+      "i": 60,
+      "PairID": "ff220751-b389-5d3b-92d8-0f320fab33ae",
+      "OriginalHash": "d9ecc0fa8ff84508ee1fad2b95a0b07ae50fc215ef8bf3fb506c2afc705e7ff6",
+      "MishearID": "www_1101_com_iimatugai_2011-01-19_html_002",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        4
+      ],
+      "Src": "漢字アニメ",
+      "Tgt": "関ジャニ",
+      "SrcReading": "カンジアニメ",
+      "TgtReading": "カンジャニ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-組織"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2011-01-19_html.csv#www_1101_com_iimatugai_2011-01-19_html_002",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_iimatugai_2011-01-19_html.txt, SHA256 8dcb5871ca85385d860a"
+    },
+    {
+      "i": 61,
+      "PairID": "5c8feb82-904d-5c07-8ed3-b89beafcf9d8",
+      "OriginalHash": "3b0cdf029b09aafaecc2ddbce4950729de5af8dd49d293ab3aceab985336a890",
+      "MishearID": "www_1101_com_iimatugai_2011-02-09_html_004",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "Src": "12時半",
+      "Tgt": "中日ファン",
+      "SrcReading": "ジュウニジハン",
+      "TgtReading": "チュウニチファン",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-組織",
+        "名詞-一般"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2011-02-09_html.csv#www_1101_com_iimatugai_2011-02-09_html_004",
+      "evidence_ref": "Saved primary episode resource/txt_1101/www_1101_com_iimatugai_2011-02-09_html.txt, SHA256 f74776f61ecc9feac4d"
+    },
+    {
+      "i": 62,
+      "PairID": "9a450308-2526-51ee-97db-b1b6c85f5245",
+      "OriginalHash": "c6950f71f08ad546438cc4923ed050f092cae508fdcfb21ac92b6811483fccdf",
+      "MishearID": "www_1101_com_iimatugai_2011-08-10_html_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        6
+      ],
+      "Src": "塩こしょう",
+      "Tgt": "ひよこショー",
+      "SrcReading": "シオコショウ",
+      "TgtReading": "ヒヨコショー",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2011-08-10_html.csv#www_1101_com_iimatugai_2011-08-10_html_001",
+      "evidence_ref": "Saved primary episode resource/txt_1101/www_1101_com_iimatugai_2011-08-10_html.txt, SHA256 93d32313dc931444092"
+    },
+    {
+      "i": 63,
+      "PairID": "06b87488-a205-5b2c-9721-f8d46aec521a",
+      "OriginalHash": "b6cf5e0cd1b5e5f032ec3003c5e3dcf7d161745ccece853b3ede15941944ce6c",
+      "MishearID": "www_1101_com_iimatugai_2011-12-20_html_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "Src": "役所広司さん",
+      "Tgt": "約束おじさん",
+      "SrcReading": "ヤクショコウジサン",
+      "TgtReading": "ヤクソクオジサン",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-一般",
+        "名詞-接尾-人名"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2011-12-20_html.csv#www_1101_com_iimatugai_2011-12-20_html_003",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_2011-12-20_html.txt, SHA256 caf753aa6fc50a5"
+    },
+    {
+      "i": 64,
+      "PairID": "02bcb50b-1de5-5aec-88c0-7a2c19b9fa19",
+      "OriginalHash": "cf3157320bb546fc3e1767da5d02c03971bd69c1f44fff4b582e5ca524ffc0ed",
+      "MishearID": "www_1101_com_iimatugai_2011-12-20_html_007",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "小玉傾向",
+      "Tgt": "児玉恵子",
+      "SrcReading": "コダマケイコウ",
+      "TgtReading": "コダマケイコ",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2011-12-20_html.csv#www_1101_com_iimatugai_2011-12-20_html_007",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_2011-12-20_html.txt, SHA256 caf753aa6fc50a5"
+    },
+    {
+      "i": 65,
+      "PairID": "63ee0cde-cc26-5502-a02f-96a3d9e7eb29",
+      "OriginalHash": "e2df3018224b05ab9b9d357caf7c12ddc829f0728cedfdce7dc47d2898907af3",
+      "MishearID": "www_1101_com_iimatugai_2011-12-20_html_009",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        8,
+        0,
+        6
+      ],
+      "Src": "コーンポタージュ",
+      "Tgt": "コロンボ退治",
+      "SrcReading": "コーンポタージュ",
+      "TgtReading": "コロンボタイジ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-サ変接続"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2011-12-20_html.csv#www_1101_com_iimatugai_2011-12-20_html_009",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_2011-12-20_html.txt, SHA256 caf753aa6fc50a5"
+    },
+    {
+      "i": 66,
+      "PairID": "e6dcb221-2de6-5d7b-916b-81e574f8390f",
+      "OriginalHash": "2538c716a4e1f53111597c5fbd639241c9dfc2b96b8e8e68c7e5a00baadce33c",
+      "MishearID": "www_1101_com_iimatugai_2012-01-18_html_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "懐中電灯",
+      "Tgt": "怪獣弁当",
+      "SrcReading": "カイチュウデントウ",
+      "TgtReading": "カイジュウベントウ",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2012-01-18_html.csv#www_1101_com_iimatugai_2012-01-18_html_005",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_2012-01-18_html.txt, SHA256 d227a1758c71059"
+    },
+    {
+      "i": 67,
+      "PairID": "d8bc8564-613d-57bb-abf0-382aed4cab88",
+      "OriginalHash": "eac7ebe9e009c35df8eb38ce90ba3ba80755eb502c13a21718b17b6742447ef5",
+      "MishearID": "www_1101_com_iimatugai_2012-01-18_html_007",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        5
+      ],
+      "Src": "浅田飴",
+      "Tgt": "朝ラーメン",
+      "SrcReading": "アサダアメ",
+      "TgtReading": "アサラーメン",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-副詞可能",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2012-01-18_html.csv#www_1101_com_iimatugai_2012-01-18_html_007",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_2012-01-18_html.txt, SHA256 d227a1758c71059"
+    },
+    {
+      "i": 68,
+      "PairID": "2cbb3156-bfcd-5aed-9745-807deb41fe69",
+      "OriginalHash": "c020a8b07bd719380160fb57031b6553ebb6d8b85f28e3eddb747bae941a8dc1",
+      "MishearID": "www_1101_com_iimatugai_archive_more050224_007",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "東京砂漠",
+      "Tgt": "包丁捌き",
+      "SrcReading": "トウキョウサバク",
+      "TgtReading": "ホウチョウサバキ",
+      "SrcPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050224_html.csv#www_1101_com_iimatugai_archive_more050224_007",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more050224_html.txt, SHA256 52f5a00"
+    },
+    {
+      "i": 69,
+      "PairID": "7bea1f57-699c-5109-b668-0fdb02ca7dbf",
+      "OriginalHash": "1d0fe613768b583196581bbd6c388b0abd63039b9524670aa4fdb905ef4aa092",
+      "MishearID": "www_1101_com_iimatugai_archive_more050224_011",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "Src": "コードシェア便",
+      "Tgt": "幸田シャーミン",
+      "SrcReading": "コードシェアビン",
+      "TgtReading": "コウダシャーミン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050224_html.csv#www_1101_com_iimatugai_archive_more050224_011",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more050224_html.txt, SHA256 52f5a00"
+    },
+    {
+      "i": 70,
+      "PairID": "aeb504de-b089-5c2f-81a3-1150cf361c54",
+      "OriginalHash": "61685ed7859933a3ffef603fa464c3715606ed654098ce6920ea1176bfc0de85",
+      "MishearID": "www_1101_com_iimatugai_archive_more050224_019",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        7
+      ],
+      "Src": "石窟寺院",
+      "Tgt": "セックスシーン",
+      "SrcReading": "セックツジイン",
+      "TgtReading": "セックスシーン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050224_html.csv#www_1101_com_iimatugai_archive_more050224_019",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more050224_html.txt, SHA256 52f5a00"
+    },
+    {
+      "i": 71,
+      "PairID": "38f5e521-d0dd-5ecc-9e04-65e1baff47c4",
+      "OriginalHash": "b877c3eec2d9f6b6f348ca432d211afe29b442743399e63806dffb96676c6ff6",
+      "MishearID": "www_1101_com_iimatugai_archive_more050516_006",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        8,
+        0,
+        4
+      ],
+      "Src": "ランチバイキング",
+      "Tgt": "愛知万博",
+      "SrcReading": "ランチバイキング",
+      "TgtReading": "アイチバンパク",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050516_html.csv#www_1101_com_iimatugai_archive_more050516_006",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more050516_html.txt, SHA256 8c896ac"
+    },
+    {
+      "i": 72,
+      "PairID": "00e98438-c167-5477-8e25-01d31b7c58cd",
+      "OriginalHash": "139fe70b62c2bdaf6c50d1d1c470d549c050bdd6c41d884e0041e3364b1a98a4",
+      "MishearID": "www_1101_com_iimatugai_archive_more050516_012",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        7
+      ],
+      "Src": "遺体安置所",
+      "Tgt": "イタリアン痴女",
+      "SrcReading": "イタイアンチショ",
+      "TgtReading": "イタリアンチジョ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050516_html.csv#www_1101_com_iimatugai_archive_more050516_012",
+      "evidence_ref": "Saved primary 1101 narrative resource/txt_1101/www_1101_com_iimatugai_archive_more050516_html.txt, SHA256 8c89"
+    },
+    {
+      "i": 73,
+      "PairID": "2f5d721a-4d39-5d25-a412-ac3dbbf95d1d",
+      "OriginalHash": "9326752d94da20248e2acb6de34a39bc336d0495f9724816db7f8024da1bef33",
+      "MishearID": "www_1101_com_iimatugai_archive_more050720_html_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "株主総会",
+      "Tgt": "釜飯業界",
+      "SrcReading": "カブヌシソウカイ",
+      "TgtReading": "カマメシギョウカイ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050720_html.csv#www_1101_com_iimatugai_archive_more050720_html_003",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more050720_html.txt, SHA256 1d15b86"
+    },
+    {
+      "i": 74,
+      "PairID": "b8d550a4-b5e7-5960-9165-0e5621f397ad",
+      "OriginalHash": "6b31da4c57d2e739738e461f015e81b06d73edf7ed7f4fa2dc96c186e608d055",
+      "MishearID": "www_1101_com_iimatugai_archive_more050912_012",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        3
+      ],
+      "Src": "レース糸",
+      "Tgt": "冷水筒",
+      "SrcReading": "レースイト",
+      "TgtReading": "レイスイトウ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050912_html.csv#www_1101_com_iimatugai_archive_more050912_012",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more050912_html.txt, SHA256 46eb6de"
+    },
+    {
+      "i": 75,
+      "PairID": "2833bca2-7784-5346-8be6-c0914e5062e3",
+      "OriginalHash": "d8868e22fc5bc1bb879b8d144c346ea112a46e58c1ec07598df846e0efa2201d",
+      "MishearID": "www_1101_com_iimatugai_archive_more060116_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        7,
+        0,
+        3
+      ],
+      "Src": "オレンジレンジ",
+      "Tgt": "森進一",
+      "SrcReading": "オレンジレンジ",
+      "TgtReading": "モリシンイチ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060116_html.csv#www_1101_com_iimatugai_archive_more060116_003",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060116_html.txt, SHA256 5bec673"
+    },
+    {
+      "i": 76,
+      "PairID": "deb35276-54e2-52bd-8502-f87f75cdae8e",
+      "OriginalHash": "bc1fdee11359ad4ada1eb77d795fef4640051a0ec6a37ca1299ab580653f2dab",
+      "MishearID": "www_1101_com_iimatugai_archive_more060116_009",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        4
+      ],
+      "Src": "地球上",
+      "Tgt": "スキー場",
+      "SrcReading": "チキュウジョウ",
+      "TgtReading": "スキージョウ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-副詞可能"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "locative 地球上 versus スキー場; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060116_html.csv#www_1101_com_iimatugai_archive_more060116_009",
+      "evidence_ref": "Saved primary episode resource/txt_1101/www_1101_com_iimatugai_archive_more060116_html.txt, SHA256 5bec673ca2f"
+    },
+    {
+      "i": 77,
+      "PairID": "f52cea6b-61c8-5eeb-b4b5-b615e2eb0412",
+      "OriginalHash": "91efbb96db3b8eb35038dbd9e54a5f87f48fed1d12676a6441580f1cdd6b0e41",
+      "MishearID": "www_1101_com_iimatugai_archive_more060208_html_003",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "舞台向き",
+      "Tgt": "ぶたいぬ",
+      "SrcReading": "ぶたいむき",
+      "TgtReading": "ぶたいぬ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "Primary narrative treats heard ぶたいぬ as a nonce phrase against 舞台向き.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060208_html.csv#www_1101_com_iimatugai_archive_more060208_html_003",
+      "evidence_ref": "Locally saved public archive resource/txt_1101/www_1101_com_iimatugai_archive_more060208_html.txt lines 47-54:"
+    },
+    {
+      "i": 78,
+      "PairID": "605e68f3-0767-5736-a7d3-f4a9aeaac0cd",
+      "OriginalHash": "89e114073dd92a549a6e448d62f73c50a7b022aa35b7b70d7e8b0b8f4685a559",
+      "MishearID": "www_1101_com_iimatugai_archive_more060208_html_009",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        7,
+        0,
+        3
+      ],
+      "Src": "1000年女王",
+      "Tgt": "洗面所",
+      "SrcReading": "センネンジョオウ",
+      "TgtReading": "センメンジョ",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060208_html.csv#www_1101_com_iimatugai_archive_more060208_html_009",
+      "evidence_ref": "Saved primary 1101 narrative resource/txt_1101/www_1101_com_iimatugai_archive_more060208_html.txt, SHA256 29c8"
+    },
+    {
+      "i": 79,
+      "PairID": "45975029-83af-5274-909a-17ade6119e96",
+      "OriginalHash": "803d79d3e6698ea563e09b3d81705fa4444c98e31930718a00acf9d2475b878c",
+      "MishearID": "www_1101_com_iimatugai_archive_more060208_html_014",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        7,
+        0,
+        4
+      ],
+      "Src": "ナインアンダー",
+      "Tgt": "内野安打",
+      "SrcReading": "ナインアンダー",
+      "TgtReading": "ナイヤアンダ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060208_html.csv#www_1101_com_iimatugai_archive_more060208_html_014",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060208_html.txt, SHA256 29c8174"
+    },
+    {
+      "i": 80,
+      "PairID": "cbfd5865-30b9-57dc-80db-13574d4b4dd3",
+      "OriginalHash": "7f4dd2968c5cd6b4d49f8accf3ef9ffbada6a101c45bfa4d339dc07bbd892887",
+      "MishearID": "www_1101_com_iimatugai_archive_more060208_html_015",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        6,
+        0,
+        3
+      ],
+      "Src": "ハンムラビ王",
+      "Tgt": "半村良",
+      "SrcReading": "ハンムラビオウ",
+      "TgtReading": "ハンムラリョウ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060208_html.csv#www_1101_com_iimatugai_archive_more060208_html_015",
+      "evidence_ref": "Saved primary 1101 narrative resource/txt_1101/www_1101_com_iimatugai_archive_more060208_html.txt, SHA256 29c8"
+    },
+    {
+      "i": 81,
+      "PairID": "43c527fa-eb4e-5b41-b2ad-e569ba58a709",
+      "OriginalHash": "1b1e88ccfd5d630c15671299104188d57b5598398df1a3d5988fe8b7c86b645d",
+      "MishearID": "www_1101_com_iimatugai_archive_more060327_002",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "Src": "横山大観",
+      "Tgt": "横浜体育館",
+      "SrcReading": "ヨコヤマタイカン",
+      "TgtReading": "ヨコハマタイイクカン",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060327_html.csv#www_1101_com_iimatugai_archive_more060327_002",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060327_html.txt, SHA256 820de26"
+    },
+    {
+      "i": 82,
+      "PairID": "399d4940-9b61-5490-b8ba-7c99176e4c88",
+      "OriginalHash": "b709ab5f7da97d1929eb3156dc60274b1cd0d4ba1ff10f9a2ade52a05ca61c54",
+      "MishearID": "www_1101_com_iimatugai_archive_more060414_html_004",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "強制送還",
+      "Tgt": "近親相姦",
+      "SrcReading": "キョウセイソウカン",
+      "TgtReading": "キンシンソウカン",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060414_html.csv#www_1101_com_iimatugai_archive_more060414_html_004",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060414_html.txt, SHA256 6964aa4"
+    },
+    {
+      "i": 83,
+      "PairID": "00fca2c2-7fba-55e9-8a2e-39d9b431bf09",
+      "OriginalHash": "736ae5c8b41b40820416215ceb2fb0c4a34139b67a4efe2e6c74faff462889ac",
+      "MishearID": "www_1101_com_iimatugai_archive_more060516_009",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        2
+      ],
+      "Src": "ゴトウさん",
+      "Tgt": "乙葉",
+      "SrcReading": "ゴトウサン",
+      "TgtReading": "オツハ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-人名"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060516_html.csv#www_1101_com_iimatugai_archive_more060516_009",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060516_html.txt, SHA256 759154e"
+    },
+    {
+      "i": 84,
+      "PairID": "58c1c8a3-8042-5df2-8b13-b2e10245a053",
+      "OriginalHash": "4561faf3837ba547b810c5cafabe823072e212099796b5e15f65903f082999d1",
+      "MishearID": "www_1101_com_iimatugai_archive_more060621_007",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        3
+      ],
+      "Src": "ゲド戦記",
+      "Tgt": "零戦機",
+      "SrcReading": "ゲドセンキ",
+      "TgtReading": "ゼロセンキ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-数",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060621_html.csv#www_1101_com_iimatugai_archive_more060621_007",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_iimatugai_archive_more060621_html.txt, SHA256 3319bcccb94a"
+    },
+    {
+      "i": 85,
+      "PairID": "289876e2-edbe-543c-acb4-8d5b9f36c000",
+      "OriginalHash": "7bddcb4de808527b3a1b39f355553286e95c0e4c445e1ddb1ace2a63dcb6f449",
+      "MishearID": "www_1101_com_iimatugai_archive_more060623_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        4
+      ],
+      "Src": "送付状",
+      "Tgt": "ソープ嬢",
+      "SrcReading": "ソウフジョウ",
+      "TgtReading": "ソープジョウ",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060623_html.csv#www_1101_com_iimatugai_archive_more060623_001",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060623_html.txt, SHA256 0dd9758"
+    },
+    {
+      "i": 86,
+      "PairID": "24bb7e7a-6404-5586-b62b-6d59f44aab5a",
+      "OriginalHash": "ba8200a9a1ed337e8d2a9a07513b7814d760f26316856e81cfd891a77ab12858",
+      "MishearID": "www_1101_com_iimatugai_archive_more060804_html_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        6
+      ],
+      "Src": "封建反動",
+      "Tgt": "包茎ファンド",
+      "SrcReading": "ホウケンハンドウ",
+      "TgtReading": "ホウケイファンド",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060804_html.csv#www_1101_com_iimatugai_archive_more060804_html_005",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060804_html.txt, SHA256 4724a8e"
+    },
+    {
+      "i": 87,
+      "PairID": "95140ad7-e6cf-5f77-9aee-1f76c915d340",
+      "OriginalHash": "16501f50dbdd400b70a3801d474230639d201eaa77081b6155b938453e63bda7",
+      "MishearID": "www_1101_com_iimatugai_archive_more060905_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "Src": "栓抜き",
+      "Tgt": "洗面器",
+      "SrcReading": "センヌキ",
+      "TgtReading": "センメンキ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060905_html.csv#www_1101_com_iimatugai_archive_more060905_005",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060905_html.txt, SHA256 0577f39"
+    },
+    {
+      "i": 88,
+      "PairID": "f3f8d3be-2904-52d1-918b-3a415382e777",
+      "OriginalHash": "5ae5bc474fd07415780ae858cbbf107c1e95979c23349c16d497e2159cf5a522",
+      "MishearID": "www_1101_com_iimatugai_archive_more060905_008",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "Src": "各駅停車",
+      "Tgt": "落書き電車",
+      "SrcReading": "カクエキテイシャ",
+      "TgtReading": "ラクガキデンシャ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060905_html.csv#www_1101_com_iimatugai_archive_more060905_008",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more060905_html.txt, SHA256 0577f39"
+    },
+    {
+      "i": 89,
+      "PairID": "f487aa6b-754d-5bbd-86a2-8e3d774be886",
+      "OriginalHash": "86edcd1e65948c83a624377177248c5357c69d57eaea1de377bbd884850fc767",
+      "MishearID": "www_1101_com_iimatugai_archive_more061025_002",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        0,
+        13,
+        0,
+        3
+      ],
+      "Src": "Good morning!",
+      "Tgt": "五万円",
+      "SrcReading": "グッドモーニング",
+      "TgtReading": "ゴマンエン",
+      "SrcPOS": [
+        "名詞-固有名詞-組織",
+        "名詞-一般",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-数",
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "reason": "Good morning! is an English greeting sentence.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more061025_html.csv#www_1101_com_iimatugai_archive_more061025_002",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_iimatugai_archive_more061025_html.txt, SHA256 9bb735908041"
+    },
+    {
+      "i": 90,
+      "PairID": "288c2694-86cf-5483-9759-a0c6ed9aac63",
+      "OriginalHash": "0d283eef9b19a28fffe709ba80ff8f97bbd2d1b34cf3d6b1fc8128bf40d0f7d6",
+      "MishearID": "www_1101_com_iimatugai_archive_more061025_008",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        0,
+        6,
+        0,
+        7
+      ],
+      "Src": "小降り小降り",
+      "Tgt": "うんこぶりぶり",
+      "SrcReading": "コブリコブリ",
+      "TgtReading": "ウンコブリブリ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "Source has うん、小降り小降り: response plus repetition resegmented.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more061025_html.csv#www_1101_com_iimatugai_archive_more061025_008",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more061025_html.txt, SHA256 9bb7359"
+    },
+    {
+      "i": 91,
+      "PairID": "2cf9ccb2-62c0-5782-9c8b-d3b12ec25c02",
+      "OriginalHash": "f03bbd5186828f099577f234ecc601e6e5c792b86825ea0003b3a0eb99cd6c36",
+      "MishearID": "www_1101_com_iimatugai_archive_more061211_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "Src": "スーパー銭湯",
+      "Tgt": "数パーセント",
+      "SrcReading": "スーパーセントウ",
+      "TgtReading": "スウパーセント",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more061211_html.csv#www_1101_com_iimatugai_archive_more061211_001",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more061211_html.txt, SHA256 5cbbb99"
+    },
+    {
+      "i": 92,
+      "PairID": "4d2e7a7d-14cf-59ca-8be7-9610aaf32343",
+      "OriginalHash": "87e572ba20e2fb54d58f46da89155c25153265f88e7ee0cd0dd66eff0ee59775",
+      "MishearID": "www_1101_com_iimatugai_archive_more070523_html_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        4
+      ],
+      "Src": "営業推進部",
+      "Tgt": "円安新聞",
+      "SrcReading": "エイギョウスイシンブ",
+      "TgtReading": "エンヤスシンブン",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more070523_html.csv#www_1101_com_iimatugai_archive_more070523_html_005",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more070523_html.txt, SHA256 b77505a"
+    },
+    {
+      "i": 93,
+      "PairID": "de9685c0-9efa-56ed-9a9a-a999ab1f27f7",
+      "OriginalHash": "297e2f50d13dd45676e557c6077fe473b1cfacaf64ca398025dacd8cc88b6598",
+      "MishearID": "www_1101_com_iimatugai_archive_more071010_html_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        3
+      ],
+      "Src": "天体ショー",
+      "Tgt": "点対称",
+      "SrcReading": "テンタイショー",
+      "TgtReading": "テンタイショウ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "sky show versus point symmetry; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more071010_html.csv#www_1101_com_iimatugai_archive_more071010_html_005",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more071010_html.txt, SHA256 036dcb8"
+    },
+    {
+      "i": 94,
+      "PairID": "80a26383-5b46-5b32-84ae-e3007cc67905",
+      "OriginalHash": "4fdb557fa9b808a00216ccdaca18dc7c54e9a1abe8966e54435d9ca302f04493",
+      "MishearID": "www_1101_com_iimatugai_archive_more071024_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        8
+      ],
+      "Src": "理学療法士",
+      "Tgt": "ディカプリオ王子",
+      "SrcReading": "リガクリョウホウシ",
+      "TgtReading": "ディカプリオオウジ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-固有名詞-地域-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more071024_html.csv#www_1101_com_iimatugai_archive_more071024_001",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_iimatugai_archive_more071024_html.txt, SHA256 22ab278cd200"
+    },
+    {
+      "i": 95,
+      "PairID": "aa458717-ffe2-5eb5-b418-a2795425a540",
+      "OriginalHash": "098b2b2586e359ffe9a7ad96b0a4eb55c687175899868b493b73781b1b401785",
+      "MishearID": "www_1101_com_iimatugai_archive_more080109_007",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "Src": "石野課長",
+      "Tgt": "磯野カツオ",
+      "SrcReading": "イシノカチョウ",
+      "TgtReading": "イソノカツオ",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080109_html.csv#www_1101_com_iimatugai_archive_more080109_007",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more080109_html.txt, SHA256 115c479"
+    },
+    {
+      "i": 96,
+      "PairID": "b55666f7-1022-5565-a73c-8f358c05c331",
+      "OriginalHash": "ea257188c3b0bc2640940fb430be78e10c3e40999fb4f4527d5ef862443e0aae",
+      "MishearID": "www_1101_com_iimatugai_archive_more080212_007",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "梅サワー",
+      "Tgt": "シメサバ",
+      "SrcReading": "ウメサワー",
+      "TgtReading": "シメサバ",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-組織"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080212_html.csv#www_1101_com_iimatugai_archive_more080212_007",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_iimatugai_archive_more080212_html.txt, SHA256 e2d8a9261913"
+    },
+    {
+      "i": 97,
+      "PairID": "266a9e04-e498-510c-a53a-591c31ea3824",
+      "OriginalHash": "a6ba85e2b309cb7739602b180b08313fa60a86ce6ce0465a1fadfa27000c4f94",
+      "MishearID": "www_1101_com_iimatugai_archive_more080212_008",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "シネマ3",
+      "Tgt": "島根さん",
+      "SrcReading": "シネマスリー",
+      "TgtReading": "シマネサン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-数"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-接尾-人名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080212_html.csv#www_1101_com_iimatugai_archive_more080212_008",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_iimatugai_archive_more080212_html.txt, SHA256 e2d8a9261913"
+    },
+    {
+      "i": 98,
+      "PairID": "6963859f-80ad-5d05-9a4b-f86d14743c45",
+      "OriginalHash": "fbbb014f39e6caec9e26097e22652dfb752c69522b2b514bcf49bb88d0c73265",
+      "MishearID": "www_1101_com_iimatugai_archive_more080304_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        4
+      ],
+      "Src": "コーラグミ",
+      "Tgt": "倖田來未",
+      "SrcReading": "コーラグミ",
+      "TgtReading": "コウダクミ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080304_html.csv#www_1101_com_iimatugai_archive_more080304_001",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_iimatugai_archive_more080304_html.txt, SHA256 203502cb88d2"
+    },
+    {
+      "i": 99,
+      "PairID": "1b0190d1-7e27-586a-81b7-97f01448a4af",
+      "OriginalHash": "2371ef4de4e796a3667246cf9620c60fae6e2c2f346b789417b6cbeaa764fe92",
+      "MishearID": "www_1101_com_iimatugai_archive_more080304_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        3
+      ],
+      "Src": "コブクロ",
+      "Tgt": "国富論",
+      "SrcReading": "コブクロ",
+      "TgtReading": "コクフロン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080304_html.csv#www_1101_com_iimatugai_archive_more080304_003",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more080304_html.txt, SHA256 203502c"
+    },
+    {
+      "i": 100,
+      "PairID": "8d7f07b0-65e5-5f3f-b059-21afffc81d7c",
+      "OriginalHash": "2da49f09d7f23a1a8bd07ff55fae9ae1b59dbc50836c05c4905f04c489dc2ac9",
+      "MishearID": "www_1101_com_iimatugai_archive_more080304_008",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        9,
+        0,
+        7
+      ],
+      "Src": "北ロータリークラブ",
+      "Tgt": "鬼太郎旅クラブ",
+      "SrcReading": "キタロータリークラブ",
+      "TgtReading": "キタロウタビクラブ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-名",
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080304_html.csv#www_1101_com_iimatugai_archive_more080304_008",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more080304_html.txt, SHA256 203502c"
+    },
+    {
+      "i": 101,
+      "PairID": "b7683cf0-f44e-5f9e-a634-ea42935ec7f3",
+      "OriginalHash": "8f08fadda5c786984f46e597aefe903462628b3f95b5bf171145b930530d388f",
+      "MishearID": "www_1101_com_iimatugai_archive_more080409_009",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "十条大路",
+      "Tgt": "純情王子",
+      "SrcReading": "ジュウジョウオオジ",
+      "TgtReading": "ジュンジョウオウジ",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-固有名詞-地域-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080409_html.csv#www_1101_com_iimatugai_archive_more080409_009",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more080409_html.txt, SHA256 2aef29c"
+    },
+    {
+      "i": 102,
+      "PairID": "4b6087a1-b13d-5cce-b4ef-9dc2c34a1493",
+      "OriginalHash": "238b6d2feaeb317591dcd9220e77c24e2e96a5a00a32d61ecdafbb35254f3f10",
+      "MishearID": "www_1101_com_iimatugai_archive_more080513_006",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "倖田來未",
+      "Tgt": "大田区民",
+      "SrcReading": "コウダクミ",
+      "TgtReading": "オオタクミン",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080513_html.csv#www_1101_com_iimatugai_archive_more080513_006",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_iimatugai_archive_more080513_html.txt, SHA256 860da1817298"
+    },
+    {
+      "i": 103,
+      "PairID": "86f774b4-e0ba-5ce3-98cd-604cd265231d",
+      "OriginalHash": "55da6f4e88f072c99214f5f67c9668a48537efeee4c764c6b3de71ca04e45207",
+      "MishearID": "www_1101_com_iimatugai_archive_more080521_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        9,
+        0,
+        7
+      ],
+      "Src": "食わず嫌い王決定戦",
+      "Tgt": "好き嫌いショー",
+      "SrcReading": "クワズギライオウケッテイセン",
+      "TgtReading": "スキキライショー",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般",
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080521_html.csv#www_1101_com_iimatugai_archive_more080521_001",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more080521_html.txt, SHA256 07fb689"
+    },
+    {
+      "i": 104,
+      "PairID": "ea476df0-aafe-5e75-b4e5-27633ae0295d",
+      "OriginalHash": "c4b562272f7dc2b62d5590318d1e5a6daca0f2530d9cbfad4d7d8f39dd29c1f5",
+      "MishearID": "www_1101_com_iimatugai_archive_more080521_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "Src": "宮崎吾朗",
+      "Tgt": "野口ゴロー",
+      "SrcReading": "ミヤザキゴロウ",
+      "TgtReading": "ノグチゴロー",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-組織"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080521_html.csv#www_1101_com_iimatugai_archive_more080521_003",
+      "evidence_ref": "Saved primary episode resource/txt_1101/www_1101_com_iimatugai_archive_more080521_html.txt, SHA256 07fb689a57e"
+    },
+    {
+      "i": 105,
+      "PairID": "87299160-adfb-5613-92f0-42cf015c96da",
+      "OriginalHash": "4c19d4b1ba482572dd2abfea33580c04d8e36d574b5d0590b053fee5a2a7f36d",
+      "MishearID": "www_1101_com_iimatugai_archive_more080611_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "麻バッグ",
+      "Tgt": "朝マック",
+      "SrcReading": "アサバッグ",
+      "TgtReading": "アサマック",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-副詞可能",
+        "名詞-固有名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080611_html.csv#www_1101_com_iimatugai_archive_more080611_001",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more080611_html.txt, SHA256 0b857dc"
+    },
+    {
+      "i": 106,
+      "PairID": "91737978-d798-5fa7-bd82-e19572756d1b",
+      "OriginalHash": "9b26cbd870a72b6f295507571fad417a42f647f86abab24d0fde92faf186bcd0",
+      "MishearID": "www_1101_com_iimatugai_archive_more090225_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "過剰包装",
+      "Tgt": "三蔵法師",
+      "SrcReading": "カジョウホウソウ",
+      "TgtReading": "サンゾウホウシ",
+      "SrcPOS": [
+        "名詞-形容動詞語幹",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more090225_html.csv#www_1101_com_iimatugai_archive_more090225_003",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more090225_html.txt, SHA256 e5bad6d"
+    },
+    {
+      "i": 107,
+      "PairID": "b110fb1e-dd81-5c87-bdf3-611a63d78912",
+      "OriginalHash": "c2c55c94b6ea7f7b64aa554bd3e55b7d3d48ab9c3b4614487a3ade3aef14307f",
+      "MishearID": "www_1101_com_iimatugai_archive_more090225_004",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "Src": "鬼平犯科帳",
+      "Tgt": "ハンカチ男",
+      "SrcReading": "オニヘイハンカチョウ",
+      "TgtReading": "ハンカチオトコ",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-一般",
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more090225_html.csv#www_1101_com_iimatugai_archive_more090225_004",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_archive_more090225_html.txt, SHA256 e5bad6d"
+    },
+    {
+      "i": 108,
+      "PairID": "af29cf6b-9797-54e9-91e7-2a9cb1cd7a83",
+      "OriginalHash": "49d2caadbc088d6cac4b22bf4d1134fdb1b051ad5bcfa4bc08bcdf0ace69d73a",
+      "MishearID": "www_1101_com_iimatugai_archive_more090225_008",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "ロシア産",
+      "Tgt": "吉田さん",
+      "SrcReading": "ロシアサン",
+      "TgtReading": "ヨシダサン",
+      "SrcPOS": [
+        "名詞-固有名詞-地域-国",
+        "名詞-接尾-地域"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-接尾-人名"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more090225_html.csv#www_1101_com_iimatugai_archive_more090225_008",
+      "evidence_ref": "Saved primary episode resource/txt_1101/www_1101_com_iimatugai_archive_more090225_html.txt, SHA256 e5bad6d196a"
+    },
+    {
+      "i": 109,
+      "PairID": "4da72615-7ebf-547c-9430-817cd3f641b8",
+      "OriginalHash": "343a3fba653ce0e75b28ee1552a6fc708a6f8b940ed10074725ee01757ea75cf",
+      "MishearID": "www_1101_com_iimatugai_archive_more090414_html_007",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        0,
+        19,
+        0,
+        5
+      ],
+      "Src": "home made chocolate",
+      "Tgt": "本命チョコ",
+      "SrcReading": "ホームメイドチョコレート",
+      "TgtReading": "ホンメイチョコ",
+      "SrcPOS": [
+        "名詞-固有名詞-組織",
+        "名詞-一般",
+        "名詞-固有名詞-組織"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "home made chocolate is an English modifier+noun phrase.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more090414_html.csv#www_1101_com_iimatugai_archive_more090414_html_007",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_iimatugai_archive_more090414_html.txt, SHA256 89dcde320b90"
+    },
+    {
+      "i": 110,
+      "PairID": "1bab81cc-7f18-5286-8b74-0438b43e7211",
+      "OriginalHash": "dad068fdc8125421a4bf4da514d7baa4d03b4b64fe97711bfe6409da37ac0e37",
+      "MishearID": "www_1101_com_iimatugai_ore_04_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        8,
+        0,
+        4
+      ],
+      "Src": "マーケティング部",
+      "Tgt": "まめ天狗",
+      "SrcReading": "マーケティングブ",
+      "TgtReading": "マメテング",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_ore_04_html.csv#www_1101_com_iimatugai_ore_04_001",
+      "evidence_ref": "Saved primary episode resource/txt_1101/www_1101_com_iimatugai_ore_04_html.txt, SHA256 393582d60699872246c12c9"
+    },
+    {
+      "i": 111,
+      "PairID": "beb9e884-8397-55dc-881f-9d211d5ceadd",
+      "OriginalHash": "b90c3800f6c2e133a16281f1e2ef67ab1f9df9d97972d080b219cd1f530d093f",
+      "MishearID": "www_1101_com_m_iimatugai_1031_html_001",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "Src": "スーパー銭湯",
+      "Tgt": "数パーセント",
+      "SrcReading": "スーパーセントウ",
+      "TgtReading": "スウパーセント",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_1031_html.csv#www_1101_com_m_iimatugai_1031_html_001",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_1031_html.txt, SHA256 a5b9aa3e2289e5e0f8e"
+    },
+    {
+      "i": 112,
+      "PairID": "26ebeaee-bd3f-50ad-959a-d33fd442d614",
+      "OriginalHash": "5e30097a40a24a1f880a0de521114e439ca114541cb5da166d609293e3a723e2",
+      "MishearID": "www_1101_com_m_iimatugai_1231_html_007",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        6
+      ],
+      "Src": "絵入り行灯",
+      "Tgt": "エイリアン丼",
+      "SrcReading": "エイリアンドン",
+      "TgtReading": "エイリアンドンブリ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_1231_html.csv#www_1101_com_m_iimatugai_1231_html_007",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_1231_html.txt, SHA256 48acd53d8f9a6e11cb1"
+    },
+    {
+      "i": 113,
+      "PairID": "fb6a9f74-0ecd-543a-a592-fd09d56259f3",
+      "OriginalHash": "961072268dc085dd63b72c94a8dd95b2a38fdca41152b75d1909b453f27b3342",
+      "MishearID": "www_1101_com_m_iimatugai_1334_html_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        3
+      ],
+      "Src": "天体ショー",
+      "Tgt": "点対称",
+      "SrcReading": "テンタイショー",
+      "TgtReading": "テンタイショウ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "sky show versus point symmetry; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_1334_html.csv#www_1101_com_m_iimatugai_1334_html_005",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_1334_html.txt, SHA256 d25f29e5f67a298af63"
+    },
+    {
+      "i": 114,
+      "PairID": "82181f7e-5015-5821-acad-bd1bd084f195",
+      "OriginalHash": "8446981f68673a14e879302e3abc7a8e1b33a953080cb4de6bd2a741b09de184",
+      "MishearID": "www_1101_com_m_iimatugai_1383_html_002",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "Src": "６時ごろ",
+      "Tgt": "野口五郎",
+      "SrcReading": "ロクジゴロ",
+      "TgtReading": "ノグチゴロウ",
+      "SrcPOS": [
+        "名詞-数",
+        "名詞-接尾-助数詞",
+        "名詞-接尾-副詞可能"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "reason": "whole numeral+counter/unit/time; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_1383_html.csv#www_1101_com_m_iimatugai_1383_html_002",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_1383_html.txt, SHA256 786dac257509d7bfc99"
+    },
+    {
+      "i": 115,
+      "PairID": "dd75239f-31f7-5e38-94fd-01337b7ceecc",
+      "OriginalHash": "08781fc60ce38872b674cc8b7a334239b0124d7317f06d288a7639d7eeb94283",
+      "MishearID": "www_1101_com_m_iimatugai_1383_html_006",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        4
+      ],
+      "Src": "始業式",
+      "Tgt": "ヒゲ屋敷",
+      "SrcReading": "シギョウシキ",
+      "TgtReading": "ヒゲヤシキ",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_1383_html.csv#www_1101_com_m_iimatugai_1383_html_006",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_1383_html.txt, SHA256 786dac257509d7bfc99"
+    },
+    {
+      "i": 116,
+      "PairID": "5cf3fd73-e196-59c3-b37e-59c0f1a2bcc7",
+      "OriginalHash": "17f9ab47ac68b85cdb119b4a45a0913d8b13c5efdab36e8014a9a419ffa4ea00",
+      "MishearID": "www_1101_com_m_iimatugai_1565_html_004",
+      "decision": "KEEP_CONTEXTUAL",
+      "old_type": "phrase",
+      "new_type": "phrase",
+      "span": [
+        0,
+        4,
+        0,
+        5
+      ],
+      "Src": "過去三度",
+      "Tgt": "タコサンド",
+      "SrcReading": "カコサンド",
+      "TgtReading": "タコサンド",
+      "SrcPOS": [
+        "名詞-副詞可能",
+        "名詞-数",
+        "名詞-接尾-助数詞"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "過去三度 is a temporal adverbial modifying 極めた.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_1565_html.csv#www_1101_com_m_iimatugai_1565_html_004",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_1565_html.txt, SHA256 5c30478ffba0fbe21db"
+    },
+    {
+      "i": 117,
+      "PairID": "05a908f5-dafd-5f6e-b2da-d8aeee203adf",
+      "OriginalHash": "517826f189461cb5cbc2b89555c9840e8f2a46f55f0bb1d423b37030bff03c41",
+      "MishearID": "www_1101_com_m_iimatugai_1565_html_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        8,
+        13,
+        8,
+        15
+      ],
+      "Src": "死亡保険金",
+      "Tgt": "シフォンケーキ",
+      "SrcReading": "シボウホケンキン",
+      "TgtReading": "シフォンケーキ",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-一般",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_1565_html.csv#www_1101_com_m_iimatugai_1565_html_005",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_m_iimatugai_1565_html.txt, SHA256 5c30478ffba0fbe21db6bc6e"
+    },
+    {
+      "i": 118,
+      "PairID": "dcb14221-4c1e-5cac-ab67-24481112d8ef",
+      "OriginalHash": "9a52fd592c5a4c2ace9e1419baf82b2d78925f244f2bc58ac918eb097c93dc74",
+      "MishearID": "www_1101_com_m_iimatugai_2692_html_004",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        3
+      ],
+      "Src": "和田アキ子",
+      "Tgt": "和太鼓",
+      "SrcReading": "ワダアキコ",
+      "TgtReading": "ワダイコ",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_2692_html.csv#www_1101_com_m_iimatugai_2692_html_004",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_2692_html.txt, SHA256 c2c13b1061466a51f51"
+    },
+    {
+      "i": 119,
+      "PairID": "83baa0ba-5d63-5829-b057-e04b0b4f07d9",
+      "OriginalHash": "32fd995cf977a6ba13b7139d29d742719f401866ffe20ed248e058ca849c2602",
+      "MishearID": "www_1101_com_m_iimatugai_290_html_004",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "Src": "料理本",
+      "Tgt": "如意棒",
+      "SrcReading": "リョウリホン",
+      "TgtReading": "ニョイボウ",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_290_html.csv#www_1101_com_m_iimatugai_290_html_004",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_290_html.txt, SHA256 08533725938ab62414cb"
+    },
+    {
+      "i": 120,
+      "PairID": "ccec91df-e118-564a-bb80-0d83c80b0701",
+      "OriginalHash": "4091a43fa10dfe403d5012db3290919e435f0999d05b0fa89df4b207f0f65cea",
+      "MishearID": "www_1101_com_m_iimatugai_290_html_010",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "Src": "不審物",
+      "Tgt": "婦人靴",
+      "SrcReading": "フシンブツ",
+      "TgtReading": "フジンクツ",
+      "SrcPOS": [
+        "名詞-形容動詞語幹",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_290_html.csv#www_1101_com_m_iimatugai_290_html_010",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_290_html.txt, SHA256 08533725938ab62414cb"
+    },
+    {
+      "i": 121,
+      "PairID": "8c8d71fe-9a08-55eb-bdf7-618c0eaa5fe3",
+      "OriginalHash": "3c24ed8ec87e2a00f4827a570f6994a418c7422d7ff3990e4668455166dc6207",
+      "MishearID": "www_1101_com_m_iimatugai_444_html_003",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        7
+      ],
+      "Src": "横尾忠則展",
+      "Tgt": "旅行ただ乗り券",
+      "SrcReading": "ヨコオタダノリテン",
+      "TgtReading": "リョコウタダノリケン",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-姓",
+        "名詞-固有名詞-人名-名",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-サ変接続",
+        "名詞-一般",
+        "名詞-接尾-一般",
+        "名詞-接尾-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_444_html.csv#www_1101_com_m_iimatugai_444_html_003",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_444_html.txt, SHA256 06952826d14e58894183"
+    },
+    {
+      "i": 122,
+      "PairID": "445fee03-c378-5cac-b85f-62d977044ba9",
+      "OriginalHash": "c1729ea01362b550c9e59d9ea129a16a10a75e8313e7a085c9da255cc4f7dd68",
+      "MishearID": "www_1101_com_m_iimatugai_457_html_006",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        8,
+        0,
+        4
+      ],
+      "Src": "ランチバイキング",
+      "Tgt": "愛知万博",
+      "SrcReading": "ランチバイキング",
+      "TgtReading": "アイチバンパク",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-固有名詞-地域-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_457_html.csv#www_1101_com_m_iimatugai_457_html_006",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_457_html.txt, SHA256 6a554a901f3136352686"
+    },
+    {
+      "i": 123,
+      "PairID": "77779ce9-32de-5ae7-a9ac-219791f0c5f2",
+      "OriginalHash": "29434f739492405b1fd16b19f316e2adab74852e39b4d30bcb3aec1d87aa3021",
+      "MishearID": "www_1101_com_m_iimatugai_457_html_012",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        5,
+        0,
+        7
+      ],
+      "Src": "遺体安置所",
+      "Tgt": "イタリアン痴女",
+      "SrcReading": "イタイアンチショ",
+      "TgtReading": "イタリアンチジョ",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-サ変接続",
+        "名詞-接尾-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_457_html.csv#www_1101_com_m_iimatugai_457_html_012",
+      "evidence_ref": "Saved primary source resource/txt_1101/www_1101_com_m_iimatugai_457_html.txt, SHA256 6a554a901f3136352686c9f75"
+    },
+    {
+      "i": 124,
+      "PairID": "84718f20-699a-57e8-89ee-39fff6fe1da0",
+      "OriginalHash": "e34aab6b7a517170217cbd5d515a72505b8986435cdd9f735957162e3ece0baa",
+      "MishearID": "www_1101_com_m_iimatugai_544_html_014",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "Src": "役所広司さん",
+      "Tgt": "役職おじさん",
+      "SrcReading": "ヤクショコウジサン",
+      "TgtReading": "ヤクショクオジサン",
+      "SrcPOS": [
+        "名詞-固有名詞-人名-一般",
+        "名詞-接尾-人名"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "whole name/place/title and counterpart; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_544_html.csv#www_1101_com_m_iimatugai_544_html_014",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_544_html.txt, SHA256 0d619910951238f9f697"
+    },
+    {
+      "i": 125,
+      "PairID": "2c955bed-05de-5c5f-b005-7443c1796bd9",
+      "OriginalHash": "3afa8557c81a7126d81bc162a104744ded96c0aa63d901d83f435911215a795c",
+      "MishearID": "www_1101_com_m_iimatugai_902_html_005",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        6
+      ],
+      "Src": "封建反動",
+      "Tgt": "包茎ファンド",
+      "SrcReading": "ホウケンハンドウ",
+      "TgtReading": "ホウケイファンド",
+      "SrcPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_902_html.csv#www_1101_com_m_iimatugai_902_html_005",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_m_iimatugai_902_html.txt, SHA256 2ce17e93ad67eb93d78b"
+    },
+    {
+      "i": 126,
+      "PairID": "4dbf2d01-bb01-5274-a664-85d21474b3b1",
+      "OriginalHash": "cf3fdb46a137cb89fff7bfdf19fc9621ef7446a33b0ef43a2d26ea6df8bb813c",
+      "MishearID": "www_1101_com_pl_iimatugai_statuses_285426_002",
+      "decision": "RETYPE_COMPOUND",
+      "old_type": "phrase",
+      "new_type": "compound",
+      "span": [
+        0,
+        4,
+        0,
+        8
+      ],
+      "Src": "婚約活動",
+      "Tgt": "こんにゃくカツ丼",
+      "SrcReading": "コンヤクカツドウ",
+      "TgtReading": "コンニャクカツドン",
+      "SrcPOS": [
+        "名詞-サ変接続",
+        "名詞-サ変接続"
+      ],
+      "TgtPOS": [
+        "名詞-一般",
+        "名詞-固有名詞-一般",
+        "名詞-一般"
+      ],
+      "reason": "complete nominal referents; source contrasts these whole noun/derivational chains, with no particle/verb/punctuation or aligned shorter word-pair.",
+      "source": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_pl_iimatugai_statuses_285426.csv#www_1101_com_pl_iimatugai_statuses_285426_002",
+      "evidence_ref": "Saved primary 1101 source resource/txt_1101/www_1101_com_pl_iimatugai_statuses_285426.txt, SHA256 3cf333da0372"
+    }
+  ],
+  "reading_support_exceptions": [
+  {
+    "index": 1,
+    "old_pair_id": "f8c3fba7-a4e8-50f1-aa9b-73fe7a13ba7c",
+    "reading_basis": "Medsafe primary case preserves 100マイクロ/100mg; unit pronunciation is conditional (Issue #66), so this is manual source-based retype, not automatic dictionary alignment.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 4,
+    "old_pair_id": "cdce39cd-6d08-5beb-a335-2d6e29162bb8",
+    "reading_basis": "Medsafe primary case preserves 10倍組成/10A; A=エー is a documented conditional pronunciation, not an IPADIC numeric-token alignment.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 6,
+    "old_pair_id": "56b4fb51-cefc-5ed4-8710-49b1cf0480f5",
+    "reading_basis": "校務分掌 is supported by 校務+分掌 rather than the analyzer's 校+務+分掌 path; original Yamato contrast fixes the term.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 29,
+    "old_pair_id": "77361fc7-cd2f-5403-a949-17e06c500e42",
+    "reading_basis": "Digit 6 in 6時頃 has context-selected ロク; numerical writing is not an IPADIC exact entry.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 31,
+    "old_pair_id": "b651afa0-6002-5c63-ba91-0b6624304935",
+    "reading_basis": "9秒99 is a sports time in original news context; the numeric speed-record pronunciation is source-contextual.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 41,
+    "old_pair_id": "b27d7198-50c2-54d5-bae4-1e23613352da",
+    "reading_basis": "シングレア is a medicine trade name; the medical-source note identifies the complete tablet name.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 47,
+    "old_pair_id": "5d64ffbf-e47d-5bfc-b733-cd67c0a09539",
+    "reading_basis": "和田勉 is a person's name with context-selected given-name reading ベン.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 50,
+    "old_pair_id": "50c78ddb-b2aa-5d93-9b55-c5fbccfed88f",
+    "reading_basis": "11時半 is a complete time expression; digit string uses source-contextual reading.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 51,
+    "old_pair_id": "a8b45025-a357-5ef1-934d-d0634723e19f",
+    "reading_basis": "光GENJI is the complete performer name; Latin GENJI is outside exact Japanese dictionary alignment.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 54,
+    "old_pair_id": "db6cf8b4-1a03-5644-9e65-934582b904f3",
+    "reading_basis": "サド侯爵 is a complete historical-person title; foreign proper name reading is source-contextual.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 60,
+    "old_pair_id": "ff220751-b389-5d3b-92d8-0f320fab33ae",
+    "reading_basis": "関ジャニ is the source-identified group name, with its name-specific reading.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 61,
+    "old_pair_id": "5c8feb82-904d-5c07-8ed3-b89beafcf9d8",
+    "reading_basis": "12時半 is a complete time expression; digits use source-contextual reading.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 72,
+    "old_pair_id": "00e98438-c167-5477-8e25-01d31b7c58cd",
+    "reading_basis": "イタリアン痴女 is a source-attested misheard nominal image, not an established dictionary whole entry; preserve its complete contrasted span.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 78,
+    "old_pair_id": "605e68f3-0767-5736-a7d3-f4a9aeaac0cd",
+    "reading_basis": "1000年女王 is the full title; numeric title reading is source-contextual.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 80,
+    "old_pair_id": "cbfd5865-30b9-57dc-80db-13574d4b4dd3",
+    "reading_basis": "ハンムラビ王 is a foreign ruler name plus title; source establishes the full name reading.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 84,
+    "old_pair_id": "58c1c8a3-8042-5df2-8b13-b2e10245a053",
+    "reading_basis": "ゲド戦記 and 零戦機 are complete work/aircraft terms; contextual readings differ from analyzer segmentation.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 94,
+    "old_pair_id": "80a26383-5b46-5b32-84ae-e3007cc67905",
+    "reading_basis": "ディカプリオ王子 is a source-imagined person title; foreign name reading is source-contextual.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 96,
+    "old_pair_id": "b55666f7-1022-5565-a73c-8f358c05c331",
+    "reading_basis": "梅サワー is the complete drink name in source context; selected ウメ reading is not reproduced by analyzer token path.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 97,
+    "old_pair_id": "266a9e04-e498-510c-a53a-591c31ea3824",
+    "reading_basis": "シネマ3 is a named venue/title with numeral 3 read スリー in source context.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 98,
+    "old_pair_id": "6963859f-80ad-5d05-9a4b-f86d14743c45",
+    "reading_basis": "倖田來未 is a person's stage name; preserve the name-specific reading.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 100,
+    "old_pair_id": "8d7f07b0-65e5-5f3f-b059-21afffc81d7c",
+    "reading_basis": "鬼太郎旅クラブ is the full imagined club name, supported by the source story rather than exact whole-dictionary entry.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 102,
+    "old_pair_id": "4b6087a1-b13d-5cce-b4ef-9dc2c34a1493",
+    "reading_basis": "倖田來未 is a person's stage name; preserve the name-specific reading.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 104,
+    "old_pair_id": "ea476df0-aafe-5e75-b4e5-27633ae0295d",
+    "reading_basis": "野口ゴロー is a heard performer name; source context controls the mixed-script reading.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 118,
+    "old_pair_id": "dcb14221-4c1e-5cac-ab67-24481112d8ef",
+    "reading_basis": "和太鼓 uses lexicalized rendaku ワダイコ, not simple 和+太鼓 concatenation.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 123,
+    "old_pair_id": "77779ce9-32de-5ae7-a9ac-219791f0c5f2",
+    "reading_basis": "イタリアン痴女 is a source-attested misheard nominal image, not an established dictionary whole entry; preserve complete span.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  },
+  {
+    "index": 126,
+    "old_pair_id": "4dbf2d01-bb01-5274-a664-85d21474b3b1",
+    "reading_basis": "こんにゃくカツ丼 is a food-name compound with context-selected 丼 reading ドン.",
+    "application_gate": "MANUAL_SOURCE_REVIEW_REQUIRED"
+  }
+]
+}

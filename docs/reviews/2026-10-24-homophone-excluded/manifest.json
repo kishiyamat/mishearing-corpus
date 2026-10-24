@@ -1,0 +1,10 @@
+{
+  "reference_commit": "73d2c7885b63fb4973542ae653b975d829b806ed",
+  "excluded_count": 26,
+  "page_size": 50,
+  "files": {
+    "README.md": "c4d6fed75feea87e3b87093561440c03d86195f314e781d4a59044a17e65fde7",
+    "excluded.csv": "1ff7e7c597b9397e9fb469804f54df7ef253f23098c0995c6638de9e6b7fadf1",
+    "page-001.md": "ed33227a48facc8e038a609ec6fdb2a72e4093756b75ef73f499977f6c9b43ca"
+  }
+}

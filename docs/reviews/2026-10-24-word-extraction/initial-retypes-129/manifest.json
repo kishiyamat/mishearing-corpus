@@ -1,0 +1,47 @@
+{
+  "title": "Initial 129 word retypes exact replay record",
+  "baseline": {
+    "git_commit": "772419eab62e67e39e09a0bec31eede78e255ac4",
+    "reviews_sha256": "42b17d86f1cec33fb1bbd0b3018a587f38b4adfa695a1ae25b8f1c7846ee49ea",
+    "pair_snapshot": "resource/pairs_v2/2026-10-24-homophones-retained/reviewed.csv",
+    "pair_snapshot_sha256": "dff10f6ec8e3ae41a5c4b0b40b3780e65fe5021e268d71892344e07a9ddfbe5c"
+  },
+  "replay": {
+    "stage_1": {
+      "script": "scripts/apply_confirmed_word_pair_retypes.py",
+      "script_sha256": "a5632170e5c21d2889b460bfdb5628d8c293166a1d3408dc5781c85489fae103",
+      "retyped_pair_count": 25,
+      "output_reviews_sha256": "57cccf37efb534d34c2ea8cf9e42a1b99edac97ccf489ff641ab2ba0a7b15d61"
+    },
+    "stage_2": {
+      "script": "scripts/apply_auto_word_pair_retypes.py",
+      "script_sha256": "ab59e2bb0b341d463ee492862824e5c1a532201ebe72d45d3540c66d42f18c01",
+      "retyped_pair_count": 104,
+      "output_reviews_sha256": "9603161087f638b80ab07a81771319dbef7ba87bcd1cfbb91bcb5a5be684fd3c"
+    },
+    "known_v1_input_reviews_sha256": "9603161087f638b80ab07a81771319dbef7ba87bcd1cfbb91bcb5a5be684fd3c",
+    "execution": "Python 3.13 in repository .venv, isolated temporary copy of corpus, scripts run sequentially; independently replayed from saved audit input"
+  },
+  "replay_inputs": {
+    "audit_input_status": "reconstructed from retained post-run audit by resetting 25 RETYPE_VERIFIED and 104 AUTO_WORD_RETYPE rows to RESEARCH_REQUIRED; saved replay input",
+    "audit_input": {
+      "path": "pair-level-audit-reset.csv",
+      "sha256": "84fb5949436bc7f0cf6f527be3bea502ccb20c6ea6c2662ae045477c2752a555"
+    },
+    "post_run_audit": {
+      "path": "pair-level-audit-post-run.csv",
+      "sha256": "dfb4d25499d4a4637f8c1d5ec44612fc7ae92d60f15c765b1ba5ac565044d152"
+    },
+    "post_run_manifest": {
+      "path": "manifest-post-run.json",
+      "sha256": "c22388ffbe9043f3dc1d4fffccc379147a315488172b095709c59407c98dbf2d"
+    },
+    "dictionary_evidence": {
+      "path": "dictionary-evidence.jsonl",
+      "sha256": "43c82d318f7938e146e2519b0cd8b01be27ce218df26a0da45eec8d0d9ebe7d3",
+      "source": "baseline run resource/pairs_v2/2026-10-24-homophones-retained/"
+    }
+  },
+  "scope": "Exact output hashes from the two historical scripts only. No generic decision-engine exact replay is claimed.",
+  "canonical_data_modified": false
+}

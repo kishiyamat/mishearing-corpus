@@ -1,0 +1,13 @@
+{
+  "decision_count": 1,
+  "audit_rows": 1,
+  "input_review_sha256": "0d1e3a027983358c31c1bb86030e483c43ec1c22794864d12427f962a4c15e6c",
+  "output_review_sha256": "fe1d8baa871f160ba90b21c4f5b7c0ad52dce7259c736b7e97791129f9abdcff",
+  "decision_patch_sha256": "1ff42947b9f9c41c5f92a5f825a0f524951d722f8c244e96ab16cbda1d44c4ec",
+  "audit_sha256": "d49281500ce1390934bdcdc6ffc1fca483ea27643557f5821f606effe2918124",
+  "review_decision_source": "sol-correction-override.json",
+  "review_decision_source_sha256": "5dd4054c5d4e397e0f5990721ffd780813fb64aba9a5c932eebfd0a93fac4b21",
+  "superseded_sol_table_sha256": "cab8e004be382f142c33919fe6550f11844f1595e5fd572e0d608c4ad14d5d32",
+  "baseline_ref": "772419e",
+  "source_run": "working-reviews:0d1e3a027983358c31c1bb86030e483c43ec1c22794864d12427f962a4c15e6c"
+}

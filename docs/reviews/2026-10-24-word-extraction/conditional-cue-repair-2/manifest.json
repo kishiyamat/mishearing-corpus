@@ -1,0 +1,10 @@
+{
+  "decision_count": 2,
+  "audit_rows": 2,
+  "input_review_sha256": "0e500f60ccd209ba102eba4849748217a14a75a28ae7444cac2ccc1ec1faa54f",
+  "output_review_sha256": "0d1e3a027983358c31c1bb86030e483c43ec1c22794864d12427f962a4c15e6c",
+  "decision_patch_sha256": "5b302925af00141255a6928c28cedd1fa962d7bccce86b8759617e3cc1cfb8aa",
+  "audit_sha256": "be7dd059d8d7eb91840d5baca8934d15ebe05583c815ab7db5323f013c620a63",
+  "baseline_ref": "772419e",
+  "source_run": "working-reviews:0e500f60ccd209ba102eba4849748217a14a75a28ae7444cac2ccc1ec1faa54f"
+}
