@@ -91,6 +91,8 @@ H6E3F490D977F6CC1だけは今回の明示指示により対象外とし、他の
 - Python 3.13.3、MeCab 0.996、UTF-8 IPADIC版102。抽出器・辞書の同定値は前版と同一。
 - 変更前に回帰テスト7件の失敗を確認。変更後はローカル153件成功。
 - RuffのLint・整形検証、mypyのAPI全9モジュールも成功。Actionsには依存しない。
+- コミット済みAPIのCSV/JSONL出力3,787件の一致、除外指定例が出力されないこと、
+  条件付き読みの根拠・識別注釈がAPIからも失われないことを確認した。
 
 ```bash
 uv run --locked python -m corpus_api.pair_workflow build \

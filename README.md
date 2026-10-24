@@ -257,6 +257,10 @@ For new extraction and annotation work, use the **test-first two-stage v2 workfl
 readings/meaning/qualifiers, accounts for every record, and exposes reviewed pairs through
 the local read-only API. Langflow is not required. Machine drafts are not evaluation truth.
 
+The [researcher review pack](docs/reviews/2026-10-24-excluded/README.md) lists excluded
+records for human confirmation. See the [current adjudication policy](docs/pair_review_policy_2026-10-24.md)
+for conditional reading choices and remaining questions; these choices are not verified audio.
+
 The instructions below reproduce a **historical research pipeline**. Do not run it to
 overwrite the version-controlled research snapshots during v2 annotation work.
 
