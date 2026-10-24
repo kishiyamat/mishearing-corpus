@@ -149,6 +149,18 @@
       "title": "Targetdecision",
       "type": "string"
     },
+    "RecordValidity": {
+      "default": "unclear",
+      "enum": [
+        "documented",
+        "illustrative",
+        "production",
+        "visual",
+        "unclear"
+      ],
+      "title": "Recordvalidity",
+      "type": "string"
+    },
     "SrcAnnotations": {
       "items": {
         "$ref": "#/$defs/Override"

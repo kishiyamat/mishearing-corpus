@@ -35,6 +35,7 @@ PAIR_FIELDS = (
     "SourceFile",
     "URL",
     "Language",
+    "RecordValidity",
     "SrcOriginal",
     "TgtOriginal",
     "Src",
@@ -103,6 +104,9 @@ class RecordReview(BaseModel):
     Reason: str = Field(min_length=1)
     Status: Literal["reviewed", "pending"]
     TargetDecision: Literal["include", "exclude", "undecided"]
+    RecordValidity: Literal[
+        "documented", "illustrative", "production", "visual", "unclear"
+    ] = "unclear"
     SrcAnnotations: list[Override] = Field(default_factory=list)
     TgtAnnotations: list[Override] = Field(default_factory=list)
     PairSpans: list[PairSpan]
@@ -155,6 +159,13 @@ def pair_table_schema() -> dict[str, object]:
         "UnitType": ["word", "particle-inclusive", "compound", "phrase"],
         "ReviewStatus": ["draft", "pending", "reviewed"],
         "TargetDecision": ["include", "exclude", "undecided"],
+        "RecordValidity": [
+            "documented",
+            "illustrative",
+            "production",
+            "visual",
+            "unclear",
+        ],
         "SrcReadingStatus": ["proposed", "confirmed", "unknown"],
         "TgtReadingStatus": ["proposed", "confirmed", "unknown"],
     }
@@ -405,6 +416,7 @@ def _pair(
         "SourceFile": path,
         "URL": record["URL"],
         "Language": record["Language"],
+        "RecordValidity": "unclear",
         "SrcOriginal": record["Src"],
         "TgtOriginal": record["Tgt"],
         "UnitType": span.unit_type,
@@ -434,6 +446,7 @@ def _audit(
         "TgtOriginal": record["Tgt"],
         "CandidateCount": count,
         "ZeroReason": zero_reason,
+        "RecordValidity": "unclear",
         "ReviewStatus": "draft",
         "TargetDecision": "undecided",
         "Reason": "",
@@ -551,6 +564,7 @@ def review_record(
             ReviewedAt=review.ReviewedAt,
             Evidence=review.Evidence,
             Reason=review.Reason,
+            RecordValidity=review.RecordValidity,
         )
         for side in ("Src", "Tgt"):
             if row[side + "Reading"]:
@@ -580,6 +594,7 @@ def review_record(
         ReviewStatus=review.Status,
         TargetDecision=review.TargetDecision,
         Reason=review.Reason,
+        RecordValidity=review.RecordValidity,
     )
     return rows, audit
 
@@ -954,7 +969,8 @@ def main() -> None:
     """Generate immutable run directories, or validate current worktree review artifacts."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "command", choices=("build", "validate", "check", "import-reviews", "schema")
+        "command",
+        choices=("draft", "build", "validate", "check", "import-reviews", "schema"),
     )
     parser.add_argument(
         "--repository", type=Path, default=Path(__file__).resolve().parents[1]
@@ -1051,8 +1067,10 @@ def main() -> None:
         output.write_bytes(review_csv(imported))
         print(f"Imported {len(imported)} deliberate reviews; no automatic approvals")
         return
-    decisions = load_reviews(annotation_path.read_bytes())
-    if args.command == "build":
+    decisions = (
+        [] if args.command == "draft" else load_reviews(annotation_path.read_bytes())
+    )
+    if args.command in ("draft", "build"):
         if output.exists():
             raise ValueError(
                 "output exists; use a new run directory, never overwrite reviews"

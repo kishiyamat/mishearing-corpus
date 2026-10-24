@@ -41,6 +41,12 @@ Frictionless 5.18.1のPython検証は `Schema.from_descriptor(...)` を渡す契
   明示する。実際の発話に属する括弧を機械的に消さない。
 - `ReviewStatus` と `TargetDecision` は別物。確認済みでも意味の違いだけなら
   `exclude`。`pending` は `undecided` のまま残す。
+- `RecordValidity` は記録の種類（`documented` / `illustrative` / `production` /
+  `visual` / `unclear`）で、音韻的な対象判定とは独立。
+  [Issue #43の確認済み基準](https://github.com/kishiyamat/mishearing-corpus/issues/43#issuecomment-6378482555)
+  は「異聴として音韻的に妥当か」。例示・未遂・歌唱・難しい予測だからといって
+  自動的に対象外にしない。実際の出来事・方向の確認不足は別の確認事項に記録する。
+  今回のエージェントによる採否を、既存の研究者ラベルや1,816件の評価分母へ自動適用しない。
 - 読みを評価に採用するには、原資料の明示・辞書・研究者判断の根拠を `Evidence` に
   記録する。LLMやMeCabの推定だけで正解扱いにしない。かな表記だけの原本も、
   事例の方向・実際の聞き間違いかを文脈と照合する。
@@ -64,7 +70,7 @@ Frictionless 5.18.1のPython検証は `Schema.from_descriptor(...)` を渡す契
 2. 新しいrun名で機械抽出する。まだ全件の注釈がなくても下書き・未処理を保存できる。
 
    ```bash
-   uv run --locked python -m corpus_api.pair_workflow build \
+   uv run --locked python -m corpus_api.pair_workflow draft \
      --working-tree --output resource/pairs_v2/YYYY-MM-DD-draft
    ```
 
@@ -72,6 +78,8 @@ Frictionless 5.18.1のPython検証は `Schema.from_descriptor(...)` を渡す契
    `source_commit` は読み取り元コミット（working-treeでは編集前の基点）、
    `source_state` と全原本ハッシュで未コミット入力との違いも記録する。
    既存runディレクトリへの上書きは拒否する。
+   `draft` は既存レビューを適用しないので、原文変更で古いレビューが失効していても
+   新しい機械候補を確認できる。校正正本と過去の確認済みrunは変更しない。
 
 3. `draft.csv` と `records.csv` を原資料と照合する。全候補と候補ゼロの記録を確認し、
    比較単位・注釈・読みを `reviews.csv` へ記入する。新規行は `RecordReview` の必須欄

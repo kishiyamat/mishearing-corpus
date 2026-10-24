@@ -27,12 +27,12 @@ repos:
       - id: pytest
         name: Run pytest
         language: system
-        entry: python -m pytest --ignore=tests/asa2025
+        entry: uv run --locked --extra api python -m pytest --ignore=tests/asa2025
         pass_filenames: false
 
       - id: reviewed-pairs
         name: Validate source-bound pair annotations and coverage
         language: system
-        entry: python -m corpus_api.pair_workflow check --staged
+        entry: uv run --locked python -m corpus_api.pair_workflow check --staged
         pass_filenames: false
         files: ^(data/mishearing/|data/annotations/|resource/pairs_v2/|corpus_api/(annotations|pair_workflow)\.py|schema/)

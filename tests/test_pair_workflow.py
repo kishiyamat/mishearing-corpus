@@ -109,6 +109,32 @@ def test_typed_meaning_difference_is_not_a_phonological_candidate() -> None:
     assert audit["ReviewStatus"] == "draft"
 
 
+def test_machine_audit_has_explicit_unknown_record_validity() -> None:
+    """Extraction does not infer an observed event from a differing word pair."""
+    # Arrange
+    raw = record("かめ", "かね")
+
+    # Act
+    _, audit = extract_record(raw, "test.csv", tokens)
+
+    # Assert
+    assert audit["RecordValidity"] == "unclear"
+
+
+def test_illustrative_pair_is_not_automatically_phonologically_excluded() -> None:
+    """Issue 43 separates event validity from phonological target eligibility."""
+    # Arrange
+    raw = record("|かめ《かめ》", "|かね《かね》")
+    decision = review(raw, RecordValidity="illustrative")
+
+    # Act
+    rows, audit = review_record(raw, "test.csv", decision)
+
+    # Assert
+    assert rows[0]["TargetDecision"] == "include"
+    assert rows[0]["RecordValidity"] == audit["RecordValidity"] == "illustrative"
+
+
 def test_legacy_parentheses_are_not_silently_removed() -> None:
     """Unknown legacy annotations remain visible and require review."""
     # Arrange

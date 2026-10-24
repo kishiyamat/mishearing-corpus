@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 from pathlib import Path
 from typing import Any
 
@@ -422,3 +423,45 @@ def test_precommit_accepts_a_consistent_committed_index(tmp_path: Path) -> None:
 
     # Assert
     assert manifest["unprocessed_count"] == 0
+
+
+@pytest.mark.skipif(shutil.which("mecab") is None, reason="optional MeCab CLI missing")
+def test_machine_draft_does_not_apply_stale_reviews(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Changed originals can be inspected before updating old review decisions."""
+    # Arrange
+    import csv
+    import sys
+
+    from corpus_api.pair_workflow import main
+
+    root, _, _ = _fixture_repository(tmp_path / "new-originals", complete=True)
+    source = root / "data/mishearing/sample/records.csv"
+    rows = list(csv.DictReader(source.open(encoding="utf-8", newline="")))
+    rows[0]["Note"] = "changed source; original annotations are intentionally stale"
+    _write_csv(source, FIELDS, rows)
+    output = tmp_path / "new-machine-draft"
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        [
+            "pair_workflow",
+            "draft",
+            "--repository",
+            str(root),
+            "--working-tree",
+            "--output",
+            str(output),
+        ],
+    )
+
+    # Act
+    main()
+
+    # Assert
+    manifest = json.loads((output / "manifest.json").read_text())
+    assert manifest["unprocessed_count"] == 4
+    assert manifest["reviewed_record_count"] == 0
+    assert manifest["source_state"] == "working-tree"
+    assert len(list(csv.DictReader((output / "reviewed.csv").open()))) == 0
