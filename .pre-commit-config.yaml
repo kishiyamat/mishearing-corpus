@@ -27,5 +27,12 @@ repos:
       - id: pytest
         name: Run pytest
         language: system
-        entry: pytest
+        entry: python -m pytest --ignore=tests/asa2025
         pass_filenames: false
+
+      - id: reviewed-pairs
+        name: Validate source-bound pair annotations and coverage
+        language: system
+        entry: python -m corpus_api.pair_workflow check --staged
+        pass_filenames: false
+        files: ^(data/mishearing/|data/annotations/|resource/pairs_v2/|corpus_api/(annotations|pair_workflow)\.py|schema/)

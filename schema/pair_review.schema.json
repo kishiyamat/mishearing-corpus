@@ -1,0 +1,187 @@
+{
+  "$defs": {
+    "Override": {
+      "additionalProperties": false,
+      "description": "Replace one explicitly reviewed original span, retaining its literal surface.",
+      "properties": {
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "minimum": 0,
+          "title": "End",
+          "type": "integer"
+        },
+        "surface": {
+          "title": "Surface",
+          "type": "string"
+        },
+        "reading": {
+          "default": "",
+          "title": "Reading",
+          "type": "string"
+        },
+        "meanings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Meanings",
+          "type": "array"
+        },
+        "qualifiers": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Qualifiers",
+          "type": "array"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "surface"
+      ],
+      "title": "Override",
+      "type": "object"
+    },
+    "PairSpan": {
+      "additionalProperties": false,
+      "description": "Select independent source and target ranges in original Unicode offsets.",
+      "properties": {
+        "src_start": {
+          "minimum": 0,
+          "title": "Src Start",
+          "type": "integer"
+        },
+        "src_end": {
+          "minimum": 0,
+          "title": "Src End",
+          "type": "integer"
+        },
+        "tgt_start": {
+          "minimum": 0,
+          "title": "Tgt Start",
+          "type": "integer"
+        },
+        "tgt_end": {
+          "minimum": 0,
+          "title": "Tgt End",
+          "type": "integer"
+        },
+        "unit_type": {
+          "enum": [
+            "word",
+            "particle-inclusive",
+            "compound",
+            "phrase"
+          ],
+          "title": "Unit Type",
+          "type": "string"
+        },
+        "PairID": {
+          "default": "",
+          "title": "Pairid",
+          "type": "string"
+        },
+        "SupersedesPairID": {
+          "default": "",
+          "title": "Supersedespairid",
+          "type": "string"
+        }
+      },
+      "required": [
+        "src_start",
+        "src_end",
+        "tgt_start",
+        "tgt_end",
+        "unit_type"
+      ],
+      "title": "PairSpan",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "One deliberate review covers all selected units and zero-candidate records.",
+  "properties": {
+    "MishearID": {
+      "title": "Mishearid",
+      "type": "string"
+    },
+    "OriginalHash": {
+      "title": "Originalhash",
+      "type": "string"
+    },
+    "Reviewer": {
+      "minLength": 1,
+      "title": "Reviewer",
+      "type": "string"
+    },
+    "ReviewedAt": {
+      "title": "Reviewedat",
+      "type": "string"
+    },
+    "Evidence": {
+      "minLength": 1,
+      "title": "Evidence",
+      "type": "string"
+    },
+    "Reason": {
+      "minLength": 1,
+      "title": "Reason",
+      "type": "string"
+    },
+    "Status": {
+      "enum": [
+        "reviewed",
+        "pending"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "TargetDecision": {
+      "enum": [
+        "include",
+        "exclude",
+        "undecided"
+      ],
+      "title": "Targetdecision",
+      "type": "string"
+    },
+    "SrcAnnotations": {
+      "items": {
+        "$ref": "#/$defs/Override"
+      },
+      "title": "Srcannotations",
+      "type": "array"
+    },
+    "TgtAnnotations": {
+      "items": {
+        "$ref": "#/$defs/Override"
+      },
+      "title": "Tgtannotations",
+      "type": "array"
+    },
+    "PairSpans": {
+      "items": {
+        "$ref": "#/$defs/PairSpan"
+      },
+      "title": "Pairspans",
+      "type": "array"
+    }
+  },
+  "required": [
+    "MishearID",
+    "OriginalHash",
+    "Reviewer",
+    "ReviewedAt",
+    "Evidence",
+    "Reason",
+    "Status",
+    "TargetDecision",
+    "PairSpans"
+  ],
+  "title": "RecordReview",
+  "type": "object"
+}

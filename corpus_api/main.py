@@ -24,6 +24,7 @@ from .models import (
     RecordsResponse,
     VersionQuery,
 )
+from .pairs import load_pair_snapshot, register_pair_routes
 
 EXPORT_HEADERS = (
     "X-Dataset-Version",
@@ -31,6 +32,9 @@ EXPORT_HEADERS = (
     "X-Applied-Filters",
     "X-Result-Count",
     "X-Export-SHA256",
+    "X-Pair-Version",
+    "X-Pair-SHA256",
+    "X-Coverage",
     "Content-Disposition",
 )
 
@@ -89,9 +93,13 @@ def create_app(
     async def lifespan(application: FastAPI) -> AsyncIterator[None]:
         """Load before serving and discard the in-memory snapshot after shutdown."""
         application.state.snapshot = CorpusSnapshot.from_git(root.resolve(), ref)
+        application.state.pair_snapshot = load_pair_snapshot(
+            root.resolve(), ref, application.state.snapshot
+        )
         try:
             yield
         finally:
+            del application.state.pair_snapshot
             del application.state.snapshot
 
     application = FastAPI(
@@ -107,6 +115,7 @@ def create_app(
         allow_credentials=False,
         expose_headers=list(EXPORT_HEADERS),
     )
+    register_pair_routes(application)
 
     def snapshot_for(version: str | None = None) -> CorpusSnapshot:
         """Get the startup snapshot, rejecting an unavailable version without fallback."""

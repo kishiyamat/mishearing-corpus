@@ -1,0 +1,201 @@
+{
+  "fields": [
+    {
+      "name": "PairID",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "MishearID",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "OriginalHash",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "SourceFile",
+      "type": "string"
+    },
+    {
+      "name": "URL",
+      "type": "string"
+    },
+    {
+      "name": "Language",
+      "type": "string"
+    },
+    {
+      "name": "SrcOriginal",
+      "type": "string"
+    },
+    {
+      "name": "TgtOriginal",
+      "type": "string"
+    },
+    {
+      "name": "Src",
+      "type": "string"
+    },
+    {
+      "name": "Tgt",
+      "type": "string"
+    },
+    {
+      "name": "SrcReading",
+      "type": "string"
+    },
+    {
+      "name": "TgtReading",
+      "type": "string"
+    },
+    {
+      "name": "SrcReadingStatus",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "proposed",
+          "confirmed",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "name": "TgtReadingStatus",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "proposed",
+          "confirmed",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "name": "SrcMeaning",
+      "type": "array"
+    },
+    {
+      "name": "TgtMeaning",
+      "type": "array"
+    },
+    {
+      "name": "SrcQualifier",
+      "type": "array"
+    },
+    {
+      "name": "TgtQualifier",
+      "type": "array"
+    },
+    {
+      "name": "SrcAnnotated",
+      "type": "string"
+    },
+    {
+      "name": "TgtAnnotated",
+      "type": "string"
+    },
+    {
+      "name": "SrcStart",
+      "type": "integer",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "SrcEnd",
+      "type": "integer",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "TgtStart",
+      "type": "integer",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "TgtEnd",
+      "type": "integer",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "UnitType",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "word",
+          "particle-inclusive",
+          "compound",
+          "phrase"
+        ]
+      }
+    },
+    {
+      "name": "Flags",
+      "type": "array"
+    },
+    {
+      "name": "ReviewStatus",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "draft",
+          "pending",
+          "reviewed"
+        ]
+      }
+    },
+    {
+      "name": "TargetDecision",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "include",
+          "exclude",
+          "undecided"
+        ]
+      }
+    },
+    {
+      "name": "Reviewer",
+      "type": "string"
+    },
+    {
+      "name": "ReviewedAt",
+      "type": "string"
+    },
+    {
+      "name": "Evidence",
+      "type": "string"
+    },
+    {
+      "name": "Reason",
+      "type": "string"
+    },
+    {
+      "name": "ExtractorVersion",
+      "type": "string"
+    },
+    {
+      "name": "SupersedesPairID",
+      "type": "string"
+    }
+  ],
+  "primaryKey": "PairID",
+  "missingValues": [
+    ""
+  ]
+}

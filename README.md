@@ -252,6 +252,14 @@ If validation fails, the commit/merge is blocked and a detailed error list is sh
 
 ## 5.5. ASA2025 word-pair extractor
 
+For new extraction and annotation work, use the **test-first two-stage v2 workflow**:
+[pair extraction and review](docs/pair_workflow.md). It preserves originals, separates
+readings/meaning/qualifiers, accounts for every record, and exposes reviewed pairs through
+the local read-only API. Langflow is not required. Machine drafts are not evaluation truth.
+
+The instructions below reproduce a **historical research pipeline**. Do not run it to
+overwrite the version-controlled research snapshots during v2 annotation work.
+
 This repo includes an experimental word-level mishearing extractor used in the ASA2025 context.
 
 - Script: `scripts/asa2025/extract_word_pairs.py`
