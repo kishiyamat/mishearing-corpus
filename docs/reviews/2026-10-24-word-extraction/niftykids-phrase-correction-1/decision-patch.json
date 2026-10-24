@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:0d1e3a027983358c31c1bb86030e483c43ec1c22794864d12427f962a4c15e6c",
+  "source_review_sha256": "0d1e3a027983358c31c1bb86030e483c43ec1c22794864d12427f962a4c15e6c",
+  "decisions": [
+    {
+      "MishearID": "niftykids_200408100935_003",
+      "OriginalHash": "0983bd6bb61b2aca59706afef927dd3862b70189df7813bc346218e6d715d010",
+      "old_pairs": [
+        {
+          "PairID": "fd4bfcdb-d3d6-53b4-8fa2-dc36d83209b4",
+          "MishearID": "niftykids_200408100935_003",
+          "OriginalHash": "0983bd6bb61b2aca59706afef927dd3862b70189df7813bc346218e6d715d010",
+          "SourceFile": "data/mishearing/google_search_denwa_kikimachigae/nifty_kids_soudan.csv",
+          "URL": "https://kids.nifty.com/cs/kuchikomi/kids_soudan/list/aid_200408100935/1.htm",
+          "Language": "ja",
+          "RecordValidity": "unclear",
+          "SrcOriginal": "一児の母",
+          "TgtOriginal": "一時は母",
+          "Src": "一児",
+          "Tgt": "一時",
+          "SrcReading": "イチジ",
+          "TgtReading": "イチジ",
+          "SrcReadingStatus": "confirmed",
+          "TgtReadingStatus": "confirmed",
+          "SrcMeaning": "[]",
+          "TgtMeaning": "[]",
+          "SrcQualifier": "[]",
+          "TgtQualifier": "[]",
+          "SrcAnnotated": "|一児《イチジ》",
+          "TgtAnnotated": "|一時《イチジ》",
+          "SrcStart": "0",
+          "SrcEnd": "2",
+          "TgtStart": "0",
+          "TgtEnd": "2",
+          "UnitType": "word",
+          "Flags": "[]",
+          "ReviewStatus": "reviewed",
+          "TargetDecision": "include",
+          "Reviewer": "agent:gpt-6-sol",
+          "ReviewedAt": "2026-10-24",
+          "Evidence": "data/mishearing/google_search_denwa_kikimachigae/nifty_kids_soudan.csv row niftykids_200408100935_003; Src=一児の母; Tgt=一時は母; Note=; URL=https://kids.nifty.com/cs/kuchikomi/kids_soudan/list/aid_200408100935/1.htm. 一児 and 一時 both read イチジ, but the following particles の and は (spoken ワ) differ. Exact constituent queries used .venv/bin/python -m corpus_api.dictionary, IPADIC SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol phrase audit: independent_complete_lexical_contrast_after_context_removal; first-half Sol manual review | old_reviewed_annotation_unique_substring_plus_orthographic_source_context",
+          "Reason": "The selected context gives 一児の=イチジノ and 一時は=イチジワ; the spoken forms differ. Unit classification/boundary reviewed against source evidence: independent_complete_lexical_contrast_after_context_removal; first-half Sol manual review | old_reviewed_annotation_unique_substring_plus_orthographic_source_context",
+          "ExtractorVersion": "pairs-v2.3",
+          "SupersedesPairID": "aaac5365-9cbc-53ba-a889-866b0b8eb83f"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "fd4bfcdb-d3d6-53b4-8fa2-dc36d83209b4"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "一児の",
+          "reading": "イチジノ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "一時は",
+          "reading": "イチジワ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_denwa_kikimachigae/nifty_kids_soudan.csv row niftykids_200408100935_003; Src=一児の母; Tgt=一時は母; Note=; URL=https://kids.nifty.com/cs/kuchikomi/kids_soudan/list/aid_200408100935/1.htm. 一児 and 一時 both read イチジ, but the following particles の and は (spoken ワ) differ. Exact constituent queries used .venv/bin/python -m corpus_api.dictionary, IPADIC SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol phrase audit: independent_complete_lexical_contrast_after_context_removal; first-half Sol manual review | old_reviewed_annotation_unique_substring_plus_orthographic_source_context Sol final correction (supersedes phrase table cab8e004be382f142c33919fe6550f11844f1595e5fd572e0d608c4ad14d5d32): The noun readings are homophonous, but の and は are different pronounced grammatical particles, not shared removable context. Original CSV has 一児の母/一時は母 and an empty Note; inaccessible primary page does not independently attest a word-only misunderstanding. Preserve the source's full audible and syntactic contrast as a contextual phrase, without a lexical child.",
+      "Reason": "The selected context gives 一児の=イチジノ and 一時は=イチジワ; the spoken forms differ. Unit classification/boundary reviewed against source evidence: independent_complete_lexical_contrast_after_context_removal; first-half Sol manual review | old_reviewed_annotation_unique_substring_plus_orthographic_source_context Sol final correction (supersedes phrase table cab8e004be382f142c33919fe6550f11844f1595e5fd572e0d608c4ad14d5d32): The noun readings are homophonous, but の and は are different pronounced grammatical particles, not shared removable context. Original CSV has 一児の母/一時は母 and an empty Note; inaccessible primary page does not independently attest a word-only misunderstanding. Preserve the source's full audible and syntactic contrast as a contextual phrase, without a lexical child.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

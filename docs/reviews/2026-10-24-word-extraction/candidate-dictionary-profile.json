@@ -1,0 +1,11 @@
+{
+  "shortened_proposal_instances": 4532,
+  "unique_candidate_side_surfaces": 8250,
+  "shortened_proposals_with_exact_reading_entries_on_both_sides": 31,
+  "dictionary_sha256_values": [
+    "c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba"
+  ],
+  "candidate_dictionary_evidence": "candidate-dictionary-evidence.jsonl",
+  "candidate_proposal_inventory": "candidate-proposals.jsonl",
+  "qualification": "dictionary readings are evidence only; token alignment and meanings still require review"
+}

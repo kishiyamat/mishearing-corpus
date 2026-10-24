@@ -304,10 +304,100 @@ def test_pair_export_uses_list_filters_and_reports_them(served_pairs: Any) -> No
     assert listed.status_code == exported.status_code == 200
     assert listed.json()["total"] == 1
     assert exported.headers["x-result-count"] == "1"
-    assert json.loads(exported.headers["x-applied-filters"]) == params
+    assert json.loads(exported.headers["x-applied-filters"]) == params | {
+        "unit_group": None
+    }
     assert "include" in exported.text
     assert "exclude" not in exported.text
     assert "untouched" not in exported.text
+
+
+def test_pair_unit_groups_split_lexical_and_contextual_outputs() -> None:
+    """List and CSV/JSONL exports share unit-group filtering and intersections."""
+    # Arrange
+    from fastapi import FastAPI
+
+    from corpus_api.pair_workflow import PAIR_FIELDS
+    from corpus_api.pairs import PairSnapshot, register_pair_routes
+
+    rows = tuple(
+        dict.fromkeys(PAIR_FIELDS, "")
+        | {
+            "PairID": str(index),
+            "MishearID": group,
+            "Src": group,
+            "Tgt": group,
+            "SrcReading": group,
+            "TgtReading": group,
+            "UnitType": unit_type,
+            "TargetDecision": "include",
+        }
+        for index, (group, unit_type) in enumerate(
+            (
+                ("word", "word"),
+                ("compound", "compound"),
+                ("particle", "particle-inclusive"),
+                ("phrase", "phrase"),
+            )
+        )
+    )
+    app = FastAPI()
+    app.state.pair_snapshot = PairSnapshot(
+        pair_version="unit-groups",
+        dataset_version="a" * 40,
+        dataset_sha256="b" * 64,
+        source_commit="c" * 40,
+        checksum="d" * 64,
+        coverage={
+            "input_count": 4,
+            "reviewed_record_count": 4,
+            "pending_record_count": 0,
+            "excluded_record_count": 0,
+            "unprocessed_count": 0,
+            "review_complete": True,
+            "linguistic_quality_complete": True,
+        },
+        rows=rows,
+    )
+    register_pair_routes(app)
+
+    # Act
+    with TestClient(app) as client:
+        default = client.get("/v1/pairs")
+        lexical = client.get("/v1/pairs", params={"unit_group": "lexical"})
+        contextual = client.get("/v1/pairs", params={"unit_group": "contextual"})
+        empty = client.get(
+            "/v1/pairs", params={"unit_group": "lexical", "unit_type": "phrase"}
+        )
+        lexical_csv = client.get(
+            "/v1/pairs/export", params={"unit_group": "lexical", "format": "csv"}
+        )
+        contextual_jsonl = client.get(
+            "/v1/pairs/export",
+            params={"unit_group": "contextual", "format": "jsonl"},
+        )
+
+    # Assert
+    assert default.json()["total"] == 4
+    assert [row["UnitType"] for row in lexical.json()["pairs"]] == [
+        "word",
+        "compound",
+    ]
+    assert [row["UnitType"] for row in contextual.json()["pairs"]] == [
+        "particle-inclusive",
+        "phrase",
+    ]
+    assert empty.json()["total"] == 0
+    assert lexical_csv.status_code == contextual_jsonl.status_code == 200
+    assert lexical_csv.headers["x-result-count"] == "2"
+    assert (
+        json.loads(lexical_csv.headers["x-applied-filters"])["unit_group"] == "lexical"
+    )
+    assert contextual_jsonl.headers["x-result-count"] == "2"
+    assert all(
+        json.loads(line)["UnitType"] in ("particle-inclusive", "phrase")
+        for line in contextual_jsonl.text.splitlines()
+    )
 
 
 def test_homophones_remain_separate_surface_pairs_in_list_lookup_and_export(

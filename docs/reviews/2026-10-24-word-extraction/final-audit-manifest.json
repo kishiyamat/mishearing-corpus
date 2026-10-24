@@ -1,0 +1,59 @@
+{
+  "baseline_run": "2026-10-24-homophones-retained",
+  "baseline_commit": "772419eab62e67e39e09a0bec31eede78e255ac4",
+  "baseline_pair_count": 4315,
+  "baseline_reviews_sha256": "42b17d86f1cec33fb1bbd0b3018a587f38b4adfa695a1ae25b8f1c7846ee49ea",
+  "initial_129_output_sha256": "9603161087f638b80ab07a81771319dbef7ba87bcd1cfbb91bcb5a5be684fd3c",
+  "canonical_reviews_sha256": "fe1d8baa871f160ba90b21c4f5b7c0ad52dce7259c736b7e97791129f9abdcff",
+  "final_run": "resource/pairs_v2/2026-10-24-word-units-final-v5",
+  "final_run_manifest_sha256": "4794cd17c30886b310934a0e8c9e6c5bf0f970517d65af71223d6726cf85a459",
+  "final_reviewed_csv_sha256": "9481cdbb65423082d6826feacac81e41db22d7ec663b321864a8f83195cae878",
+  "final_pair_audit": "pair-level-audit-final.csv",
+  "final_pair_audit_sha256": "de44ba502502e0ad7b6e1429419f2e596c6c10efa64d900039e6793df4bf6a2b",
+  "baseline_pairid_rows": 4315,
+  "baseline_pairid_coverage": 4315,
+  "missing_or_foreign_lineage_endpoints": 0,
+  "current_included_pair_count": 4341,
+  "current_included_record_count": 4292,
+  "current_included_unit_type_counts": {
+    "word": 2209,
+    "compound": 1224,
+    "phrase": 908
+  },
+  "canonical_record_counts": {
+    "total": 4490,
+    "reviewed_include": 4292,
+    "reviewed_exclude": 26,
+    "pending_undecided": 172
+  },
+  "final_decision_class_counts": {
+    "KEEP_WORD": 1145,
+    "APPLIED_REVIEWED_CHANGE": 1647,
+    "KEEP_LEXICAL": 208,
+    "AUTO_WORD_RETYPE": 99,
+    "KEEP_CONTEXTUAL": 705,
+    "RETYPE_VERIFIED": 25,
+    "KEEP_COMPOUND": 382,
+    "KEEP_WITH_REASON": 93,
+    "RETYPE_CONTEXTUAL": 10,
+    "EXPAND_CONTEXTUAL": 1
+  },
+  "research_required": 0,
+  "conditional_rationale_scan": {
+    "baseline_included_records_with_conditional_policy_cues": 572,
+    "lost_cues_after_repairs": 0,
+    "lost_conditional_qualifiers": 0,
+    "baseline_qualifier_instances": 260,
+    "baseline_distinct_qualifier_strings": 99,
+    "intentional_pair_out_source_note_moves": 1,
+    "repairs": [
+      "AcrugLVnrLE_024 qualifier restored verbatim",
+      "39mag_benesse_16332_008 and www_1101_com_pl_iimatugai_statuses_355608_001 audio-unverified caveat restored",
+      "Eichie parenthetical source note intentionally retained in Evidence/Reason outside pair"
+    ]
+  },
+  "extractor_version": "pairs-v2.3",
+  "extractor_sha256": "1a484a55550c151f353ab278b329b776dd13f2512079648accffec84bdda330b",
+  "source_state": "working-tree originals matching baseline; canonical reviews are dirty-tree input",
+  "limitations": "All 4,315 baseline PairIDs have a decision classification and valid current lineage endpoint. Linguistic audio verification is not implied; source uncertainty remains explicit where present."
+}

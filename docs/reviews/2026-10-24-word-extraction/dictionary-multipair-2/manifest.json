@@ -1,0 +1,12 @@
+{
+  "decision_count": 2,
+  "applied_records": 2,
+  "audit_rows": 6,
+  "input_review_sha256": "45b866f3cd09b8e0b4f84ec8ab751e8af5414f56935ecad8cef2872e13daf83d",
+  "output_review_sha256": "d8262641d43ae9a2c562f8324cb1711a143d00692031969c49421a43c850c127",
+  "decision_patch_sha256": "58b1417738c57d75002bd16891909dcb76918c08718157c5fe9edfd08706e8bf",
+  "audit_sha256": "81c4180581af1f5b2b2a332a632b46b71129c4b85c2737252c6013a3d4a443dd",
+  "dictionary_sha256": "c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba",
+  "note": "Each target pair was edited in the full record replacement while preserving its second included pair unchanged.",
+  "output": "data/annotations/reviews.csv"
+}

@@ -1,0 +1,11 @@
+{
+  "decision_count": 97,
+  "applied_records": 97,
+  "audit_rows": 99,
+  "input_review_sha256": "e5c3f8d74b3ef32abd12468217b7171f85f36324067bb8e69bb859e0b5dd4430",
+  "output_review_sha256": "8130f6fa2102af2d3364347175f19ed4e23ddadb263b0b1e5a7c133008a6a82f",
+  "decision_patch_sha256": "975a53b2b56c3155047b8a1519bde66a60814160946c13a695e7ebc72360cf42",
+  "audit_sha256": "67e6c275673e06f9ec9ae2fa285be28799e92ff69599d2a5a71d72b084adec64",
+  "output": "data/annotations/reviews.csv",
+  "note": "Same-span contextual retypes; IDs and inclusion decisions retained. 24 other POS-review items were already phrase; 10 had bounds superseded by prior shorteners."
+}

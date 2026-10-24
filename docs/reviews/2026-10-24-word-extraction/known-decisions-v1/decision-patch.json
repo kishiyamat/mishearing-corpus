@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "source_run": "2026-10-24-homophones-retained",
+  "source_review_sha256": "9603161087f638b80ab07a81771319dbef7ba87bcd1cfbb91bcb5a5be684fd3c",
+  "decisions": [
+    {
+      "MishearID": "coffee_break_parts_similar201209_009",
+      "OriginalHash": "eac97adbd59627cbb3212db4a179100e2ddd810aa548bbf1289dc25e3050448e",
+      "old_pairs": [
+        {
+          "PairID": "12e6ec6c-e84f-5ac2-9e9e-637925622854",
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "word"
+        },
+        {
+          "PairID": "4afeb6c9-a8b8-5669-b5e6-949283a87572",
+          "src_start": 19,
+          "src_end": 21,
+          "tgt_start": 19,
+          "tgt_end": 20,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 2,
+          "src_end": 4,
+          "tgt_start": 2,
+          "tgt_end": 4,
+          "unit_type": "word",
+          "SupersedesPairID": "12e6ec6c-e84f-5ac2-9e9e-637925622854",
+          "PairID": ""
+        },
+        {
+          "src_start": 17,
+          "src_end": 21,
+          "tgt_start": 17,
+          "tgt_end": 20,
+          "unit_type": "compound",
+          "SupersedesPairID": "4afeb6c9-a8b8-5669-b5e6-949283a87572",
+          "PairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 2,
+          "end": 4,
+          "surface": "問題",
+          "reading": "モンダイ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 17,
+          "end": 21,
+          "surface": "回避姿勢",
+          "reading": "カイヒシセイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 2,
+          "end": 4,
+          "surface": "本体",
+          "reading": "ホンタイ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 17,
+          "end": 20,
+          "surface": "回避性",
+          "reading": "カイヒセイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar201209.html, SHA256 eb6641614cbaa6221c9ae7df624c2a6ba4e92f94a49b17514d819cb5c3f10128; source text surrounding both source/highlight expressions after HTML tag and layout removal: 'く審議していただきたいのですが、一方で、財務委員会、内閣委員会も他に重要な法案、マイナンバー法案を含めて、相当立て込んでおります。【間違い】欧州本体が深刻化し、投資家のリスク回避性が強まってきますと、円高になる傾向が生まれやすくなります。そのことが企業マインド、あるいは収益等を通じて、日本経済を下押すことがあります。【正解】欧州問題が深刻化し、投資家のリスク回避姿勢が強まってきますと、円高になる傾向が生まれやすくなります。そのことが企業マインド、あるいは収益等を通じて、日'. Audited comparison unit '欧州問題が'/'欧州本体が'; contextual readings オウシュウモンダイガ/オウシュウホンタイガ. The record may contain other highlighted differences; this span is a coherent matching comparison unit. Installed MeCab/IPADIC features for original spans: [{\"src\":\"欧州問題が\",\"tgt\":\"欧州本体が\",\"span\":{\"src_start\":0,\"src_end\":5,\"tgt_start\":0,\"tgt_end\":5,\"unit_type\":\"word\",\"PairID\":\"\",\"SupersedesPairID\":\"\"},\"src_tokens\":[{\"surface\":\"欧州\",\"reading\":\"オウシュウ\",\"features\":[\"名詞\",\"固有名詞\",\"地域\",\"一般\",\"*\",\"*\",\"欧州\",\"オウシュウ\",\"オーシュー\"]},{\"surface\":\"問題\",\"reading\":\"モンダイ\",\"features\":[\"名詞\",\"ナイ形容詞語幹\",\"*\",\"*\",\"*\",\"*\",\"問題\",\"モンダイ\",\"モンダイ\"]},{\"surface\":\"が\",\"reading\":\"ガ\",\"features\":[\"助詞\",\"格助詞\",\"一般\",\"*\",\"*\",\"*\",\"が\",\"ガ\",\"ガ\"]}],\"tgt_tokens\":[{\"surface\":\"欧州\",\"reading\":\"オウシュウ\",\"features\":[\"名詞\",\"固有名詞\",\"地域\",\"一般\",\"*\",\"*\",\"欧州\",\"オウシュウ\",\"オーシュー\"]},{\"surface\":\"本体\",\"reading\":\"ホンタイ\",\"features\":[\"名詞\",\"一般\",\"*\",\"*\",\"*\",\"*\",\"本体\",\"ホンタイ\",\"ホンタイ\"]},{\"surface\":\"が\",\"reading\":\"ガ\",\"features\":[\"助詞\",\"格助詞\",\"一般\",\"*\",\"*\",\"*\",\"が\",\"ガ\",\"ガ\"]}],\"src_entries\":[],\"tgt_entries\":[]},{\"src\":\"回避姿勢\",\"tgt\":\"回避性\",\"span\":{\"src_start\":17,\"src_end\":21,\"tgt_start\":17,\"tgt_end\":20,\"unit_type\":\"word\",\"PairID\":\"\",\"SupersedesPairID\":\"\"},\"src_tokens\":[{\"surface\":\"回避\",\"reading\":\"カイヒ\",\"features\":[\"名詞\",\"サ変接続\",\"*\",\"*\",\"*\",\"*\",\"回避\",\"カイヒ\",\"カイヒ\"]},{\"surface\":\"姿勢\",\"reading\":\"シセイ\",\"features\":[\"名詞\",\"一般\",\"*\",\"*\",\"*\",\"*\",\"姿勢\",\"シセイ\",\"シセイ\"]}],\"tgt_tokens\":[{\"surface\":\"回避\",\"reading\":\"カイヒ\",\"features\":[\"名詞\",\"サ変接続\",\"*\",\"*\",\"*\",\"*\",\"回避\",\"カイヒ\",\"カイヒ\"]},{\"surface\":\"性\",\"reading\":\"セイ\",\"features\":[\"名詞\",\"接尾\",\"一般\",\"*\",\"*\",\"*\",\"性\",\"セイ\",\"セイ\"]}],\"src_entries\":[],\"tgt_entries\":[]}]; dictionary SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Multi-contrast scope audit against the same archived primary: 姿勢/性 [シセイ/セイ]. ",
+      "Reason": "Archived Yamato paired original has two highlighted contrasts; exact IPADIC 問題/本体 entries; 性 is a bound suffix. See current reviews.csv Evidence.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "yahooexpert_73e6a209_002",
+      "OriginalHash": "7b085669eb1db786ca13c19625dc8c5924b2ac013a46c69345d0352bf2581fb8",
+      "old_pairs": [
+        {
+          "PairID": "2287ea9d-4d3e-54be-ba6e-42801b7236fb",
+          "src_start": 0,
+          "src_end": 18,
+          "tgt_start": 0,
+          "tgt_end": 19,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 4,
+          "src_end": 6,
+          "tgt_start": 4,
+          "tgt_end": 7,
+          "unit_type": "word",
+          "SupersedesPairID": "2287ea9d-4d3e-54be-ba6e-42801b7236fb",
+          "PairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 4,
+          "end": 6,
+          "surface": "幸福",
+          "reading": "コウフク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 4,
+          "end": 7,
+          "surface": "交付金",
+          "reading": "コウフキン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_konsaru_kikimachigai/yahoo_expert.csv row yahooexpert_73e6a209_002; Src=その人に幸福をもたらすことができるか; Tgt=その人に交付金をもたらすことができるか; Note=「幸福をもたらす」を「交付金」と聞き間違えた事例。; URL=https://news.yahoo.co.jp/expert/articles/73e6a209342db5efd178ace81b0bfb0b7be6b646. The original business example contrasts 幸福 and 交付金 in the same frame; フク versus フキン differs.",
+      "Reason": "Original Note directly contrasts the words in the common frame; old full-context confirmed readings uniquely supply the short readings. 交付金 need not be one IPADIC token.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "eichie_9568_008",
+      "OriginalHash": "e2f35d5443ce7971ed9fe654a55be34c0355fac229e83ce09d87e7bbf4172624",
+      "old_pairs": [
+        {
+          "PairID": "08132b33-d518-59af-a5cc-e1bb4b0dca71",
+          "src_start": 0,
+          "src_end": 19,
+          "tgt_start": 0,
+          "tgt_end": 10,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "phrase",
+          "SupersedesPairID": "08132b33-d518-59af-a5cc-e1bb4b0dca71",
+          "PairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "聞き分け",
+          "reading": "キキワケ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 11,
+          "end": 19,
+          "surface": "ジュリーの歌",
+          "reading": "",
+          "meanings": [],
+          "qualifiers": [
+            "出典注記"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "父は毛",
+          "reading": "チチワケ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_name_kikimachigai/eichie_advisements_9568.csv row eichie_9568_008; Src=聞き分けのない女の頬を（ジュリーの歌）; Tgt=父は毛のない女の頬を; Note=歌詞を耳で覚えていたための覚え間違い。; URL=https://eichie.jp/advisements/9568. The actual first-person childhood mishearing is printed at https://eichie.jp/advisements/9568: a Julie song's 聞き分けのない女の頬を was remembered as 父は毛のない女の頬を. The parenthetical ジュリーの歌 only names the source, while キキワケ and チチハケ contrast.",
+      "Reason": "https://eichie.jp/advisements/9568 prints the childhood mishearing; parenthetical ジュリーの歌 is source note, not spoken span. In the particle は is ワ, not the old ハ; official orthographic rule: https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/03/tosin03/index.html. Actual audio unverified; retain qualifier outside span.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "AcrugLVnrLE_024",
+      "OriginalHash": "61c78cb149de4d9ce58de19a474dbeb14eb27a960b6e4adcf7ca010ea54dc931",
+      "old_pairs": [
+        {
+          "PairID": "997ca4ce-63c6-5669-a79e-f7c8687721ef",
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word",
+          "PairID": "997ca4ce-63c6-5669-a79e-f7c8687721ef"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "三角橋",
+          "reading": "みすみばし",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "参宮橋",
+          "reading": "さんぐうばし",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "The cited video/comment https://www.youtube.com/watch?v=AcrugLVnrLE was not retrievable in this inspection; event provenance remains unclear. Setagaya Ward's public planning document identifies 三角橋交差点 (https://www.city.setagaya.lg.jp/documents/4057/dai4kaikondankaisiryo_1.pdf). A directly indexed official Setagaya Ward civic-group list gives 三角橋通り商和会フリガナ「ミスミバシドオリショウワカイ」 (2025-06-end list: https://www.city.setagaya.lg.jp/documents/986/kunaikatudoudanntai0630.pdf; same reading in current ward listing https://www.city.setagaya.lg.jp/documents/986/kunaidantai_r80324.pdf), grounding 三角橋 as ミスミバシ rather than a compositional サンカクバシ. Odakyu's official station page gives 参宮橋 as さんぐうばし (https://www.odakyu.jp/station/sangubashi/). Dictionary CLI SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Setagaya ward place-name listing and Odakyu station source already cited in current reviews.csv; original video inaccessible, no claim actual pronunciation verified.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    }
+  ]
+}

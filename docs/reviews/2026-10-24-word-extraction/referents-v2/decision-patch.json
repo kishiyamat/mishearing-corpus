@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "source_run": "canonical-review-60810870b259fc14",
+  "source_review_sha256": "60810870b259fc146229c9cdf232dcdae6dedaf06f604aa461403a981bd056a7",
+  "decisions": [
+    {
+      "MishearID": "moneypost_1057961_006",
+      "OriginalHash": "683b5709aafa73ec95e33f741175ab160c2e4e3b9f1fe940e04879bb51e51533",
+      "old_pairs": [
+        {
+          "PairID": "d6d92d0c-b282-59fd-bb58-4a483d5e3ebe",
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word",
+          "PairID": "d6d92d0c-b282-59fd-bb58-4a483d5e3ebe",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 3,
+          "meanings": [],
+          "qualifiers": [
+            "東京都目黒区青葉台"
+          ],
+          "reading": "アオバダイ",
+          "start": 0,
+          "surface": "青葉台"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 3,
+          "meanings": [],
+          "qualifiers": [
+            "横浜市青葉区青葉台"
+          ],
+          "reading": "アオバダイ",
+          "start": 0,
+          "surface": "青葉台"
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_taxi_kikimachigai/moneypost_1057961.csv: Src=青葉台; Tgt=青葉台; Note=「青葉台」は目黒区と横浜市に存在し、区別しないと全く違う場所に到着してしまう。; Tips=地名は明確に伝える; all machine candidates=[]. Reading annotations use phonetic source text or explicit source-note pronunciations; machine candidates are boundary proposals only. | Previous Reason (historical): Src and Tgt are exactly the same 青葉台 string. The distinction is geographic referent, so there is no distinct surface or pronunciation pair. | Reaudit: data/mishearing/google_search_taxi_kikimachigai/moneypost_1057961.csv row moneypost_1057961_006; Src=青葉台; Tgt=青葉台; Note=「青葉台」は目黒区と横浜市に存在し、区別しないと全く違う場所に到着してしまう。; Tips=地名は明確に伝える; URL=https://www.moneypost.jp/1057961. External dictionary:  Dictionary: []. Original audio not verified; context reading selected where supplied. Sol reviewed both identical-surface name tokens as word units while retaining their distinct referent annotations.",
+      "Reason": "Original reviewed source/Note contrasts referents of 青葉台, 鎌倉, or 松屋. Preserve side-specific qualifiers.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "taxi_gendai_001",
+      "OriginalHash": "d00a86bf1d5050545d5d6ee4ae88421e724242ce6ee75e4f21effeb7a07d1ed2",
+      "old_pairs": [
+        {
+          "PairID": "f5e89685-3d2e-5595-a03d-fd02238faaf1",
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "f5e89685-3d2e-5595-a03d-fd02238faaf1",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 2,
+          "meanings": [],
+          "qualifiers": [
+            "東京都葛飾区鎌倉"
+          ],
+          "reading": "カマクラ",
+          "start": 0,
+          "surface": "鎌倉"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 2,
+          "meanings": [],
+          "qualifiers": [
+            "神奈川県鎌倉市"
+          ],
+          "reading": "カマクラ",
+          "start": 0,
+          "surface": "鎌倉"
+        }
+      ],
+      "Evidence": "data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv: Src=鎌倉; Tgt=鎌倉; Note=誤:「鎌倉（東京都葛飾区の町名）」を「鎌倉（神奈川県鎌倉市）」と誤認; Tips=; all machine candidates=[]. Reading annotations use phonetic source text or explicit source-note pronunciations; machine candidates are boundary proposals only. | Previous Reason (historical): Both source and target are the identical surface 鎌倉; the note contrasts destination referents, not spoken forms. | Reaudit: data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv row taxi_gendai_001; Src=鎌倉; Tgt=鎌倉; Note=誤:「鎌倉（東京都葛飾区の町名）」を「鎌倉（神奈川県鎌倉市）」と誤認; Tips=; URL=https://gendai.media/articles/-/152393. External dictionary:  Dictionary: []. Original audio not verified; context reading selected where supplied. Sol reviewed both identical-surface name tokens as word units while retaining their distinct referent annotations.",
+      "Reason": "Original reviewed source/Note contrasts referents of 青葉台, 鎌倉, or 松屋. Preserve side-specific qualifiers.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "taxi_gendai_002",
+      "OriginalHash": "6c6c9493cef39ab98576ef632a6b041ba9487f054b03125da01ecbb56f3f65ff",
+      "old_pairs": [
+        {
+          "PairID": "3c24c3c0-21dd-5f9e-b690-f416341cc856",
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "3c24c3c0-21dd-5f9e-b690-f416341cc856",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 2,
+          "meanings": [],
+          "qualifiers": [
+            "神奈川県鎌倉市"
+          ],
+          "reading": "カマクラ",
+          "start": 0,
+          "surface": "鎌倉"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 2,
+          "meanings": [],
+          "qualifiers": [
+            "東京都葛飾区鎌倉"
+          ],
+          "reading": "カマクラ",
+          "start": 0,
+          "surface": "鎌倉"
+        }
+      ],
+      "Evidence": "data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv: Src=鎌倉; Tgt=鎌倉; Note=誤:「鎌倉（神奈川県鎌倉市）」を「鎌倉（東京都葛飾区の町名）」と誤認; Tips=; all machine candidates=[]. Reading annotations use phonetic source text or explicit source-note pronunciations; machine candidates are boundary proposals only. | Previous Reason (historical): Both source and target are the identical surface 鎌倉; the reverse direction changes destination referent only. | Reaudit: data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv row taxi_gendai_002; Src=鎌倉; Tgt=鎌倉; Note=誤:「鎌倉（神奈川県鎌倉市）」を「鎌倉（東京都葛飾区の町名）」と誤認; Tips=; URL=https://gendai.media/articles/-/152393. External dictionary:  Dictionary: []. Original audio not verified; context reading selected where supplied. Sol reviewed both identical-surface name tokens as word units while retaining their distinct referent annotations.",
+      "Reason": "Original reviewed source/Note contrasts referents of 青葉台, 鎌倉, or 松屋. Preserve side-specific qualifiers.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "taxi_gendai_007",
+      "OriginalHash": "a423622cfacca99e48c4ecde0c89fb2e879e9593ca7496e51e3ebb3911100ab4",
+      "old_pairs": [
+        {
+          "PairID": "97c572f9-ebaf-5550-ae1e-c102e0c6e259",
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "97c572f9-ebaf-5550-ae1e-c102e0c6e259",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 2,
+          "meanings": [],
+          "qualifiers": [
+            "銀座の百貨店"
+          ],
+          "reading": "マツヤ",
+          "start": 0,
+          "surface": "松屋"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 2,
+          "meanings": [],
+          "qualifiers": [
+            "牛丼チェーン"
+          ],
+          "reading": "マツヤ",
+          "start": 0,
+          "surface": "松屋"
+        }
+      ],
+      "Evidence": "data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv: Src=松屋; Tgt=松屋; Note=誤:「松屋（銀座の百貨店）」を「松屋（牛丼チェーン）」と誤認; Tips=; all machine candidates=[]. Reading annotations use phonetic source text or explicit source-note pronunciations; machine candidates are boundary proposals only. | Previous Reason (historical): Both sides are the identical surface 松屋; the note distinguishes a department store from a restaurant chain, not spoken words. | Reaudit: data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv row taxi_gendai_007; Src=松屋; Tgt=松屋; Note=誤:「松屋（銀座の百貨店）」を「松屋（牛丼チェーン）」と誤認; Tips=; URL=https://gendai.media/articles/-/152393. External dictionary:  Dictionary: []. Original audio not verified; context reading selected where supplied. Sol reviewed both identical-surface name tokens as word units while retaining their distinct referent annotations.",
+      "Reason": "Original reviewed source/Note contrasts referents of 青葉台, 鎌倉, or 松屋. Preserve side-specific qualifiers.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "taxi_gendai_008",
+      "OriginalHash": "96723dfcbe6aae73e7a551deabd1e9c708622bf952f0a783da4fa430165d556c",
+      "old_pairs": [
+        {
+          "PairID": "88bf319c-4c98-5785-bd4a-61836fff715b",
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "88bf319c-4c98-5785-bd4a-61836fff715b",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 2,
+          "meanings": [],
+          "qualifiers": [
+            "牛丼チェーン"
+          ],
+          "reading": "マツヤ",
+          "start": 0,
+          "surface": "松屋"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 2,
+          "meanings": [],
+          "qualifiers": [
+            "銀座の百貨店"
+          ],
+          "reading": "マツヤ",
+          "start": 0,
+          "surface": "松屋"
+        }
+      ],
+      "Evidence": "data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv: Src=松屋; Tgt=松屋; Note=誤:「松屋（牛丼チェーン）」を「松屋（銀座の百貨店）」と誤認; Tips=; all machine candidates=[]. Reading annotations use phonetic source text or explicit source-note pronunciations; machine candidates are boundary proposals only. | Previous Reason (historical): Both sides are the identical surface 松屋; reversing the referents does not yield a sound contrast. | Reaudit: data/mishearing/taxi_gendai/2025-06-10_taxigendai.csv row taxi_gendai_008; Src=松屋; Tgt=松屋; Note=誤:「松屋（牛丼チェーン）」を「松屋（銀座の百貨店）」と誤認; Tips=; URL=https://gendai.media/articles/-/152393. External dictionary:  Dictionary: []. Original audio not verified; context reading selected where supplied. Sol reviewed both identical-surface name tokens as word units while retaining their distinct referent annotations.",
+      "Reason": "Original reviewed source/Note contrasts referents of 青葉台, 鎌倉, or 松屋. Preserve side-specific qualifiers.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "gendai_media_152393_001",
+      "OriginalHash": "fdeb1a30ab7ab9a512daeca23b953dbe305b7b3eeb7561b4740bb4030feb2584",
+      "old_pairs": [
+        {
+          "PairID": "32aa1966-edd7-5128-9248-ee1fe23335e4",
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "32aa1966-edd7-5128-9248-ee1fe23335e4"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 2,
+          "surface": "鎌倉",
+          "reading": "カマクラ",
+          "meanings": [],
+          "qualifiers": [
+            "東京都葛飾区鎌倉"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 2,
+          "surface": "鎌倉",
+          "reading": "カマクラ",
+          "meanings": [],
+          "qualifiers": [
+            "神奈川県鎌倉市"
+          ]
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_taxi_kikimachigae/gendai_articles_152393.csv: Src=鎌倉まで; Tgt=鎌倉まで; Note=乗客が『鎌倉まで』と伝えたが、ドライバーは神奈川県鎌倉市と誤解し、実際は東京都葛飾区鎌倉が目的地だった。; Tips=地名は複数存在するので、都道府県や区市町村名も伝えると誤解を防げる | Previous Reason (historical): Src and Tgt are identical 鎌倉; the Note describes referent disambiguation between two places, not phonological mishearing. | Reaudit: data/mishearing/google_search_taxi_kikimachigae/gendai_articles_152393.csv row gendai_media_152393_001; Src=鎌倉まで; Tgt=鎌倉まで; Note=乗客が『鎌倉まで』と伝えたが、ドライバーは神奈川県鎌倉市と誤解し、実際は東京都葛飾区鎌倉が目的地だった。; Tips=地名は複数存在するので、都道府県や区市町村名も伝えると誤解を防げる; URL=https://gendai.media/articles/-/152393. External dictionary:  Dictionary: []. Original audio not verified; context reading selected where supplied. Sol reviewed the smallest place/store name while preserving source-versus-target referent qualifiers.",
+      "Reason": "Existing Note distinguishes Tokyo Katsushika 鎌倉 and Kanagawa Kamakura city; retain side-specific qualifiers. Readings can be split from exact shared まで suffix with source context; no actual audio claim.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    },
+    {
+      "MishearID": "gendai_152393_002",
+      "OriginalHash": "f8ec1903e9f893fc9d16f64ee16fc0670f99cf38e3455d5cea648d6a7c311dc6",
+      "old_pairs": [
+        {
+          "PairID": "8a0ebf0b-9796-5a6a-ace5-20b40ba766f7",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 5,
+          "tgt_start": 3,
+          "tgt_end": 5,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "8a0ebf0b-9796-5a6a-ace5-20b40ba766f7"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "surface": "松屋",
+          "reading": "マツヤ",
+          "meanings": [],
+          "qualifiers": [
+            "銀座の百貨店"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "surface": "松屋",
+          "reading": "マツヤ",
+          "meanings": [],
+          "qualifiers": [
+            "牛丼チェーン"
+          ]
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_taxi_kikimachigae/gendai_media_152393.csv: Src=銀座の松屋まで; Tgt=銀座の松屋まで; Note=「銀座の松屋（百貨店）」を「松屋（牛丼チェーン）」と聞き間違えた。; Tips=目的地の種類（百貨店・飲食店など）も明確に伝えると誤解を防げる | Previous Reason (historical): Src and Tgt are identical strings; the Note concerns ambiguity between two referents of 松屋, not a different spoken form. | Reaudit: data/mishearing/google_search_taxi_kikimachigae/gendai_media_152393.csv row gendai_152393_002; Src=銀座の松屋まで; Tgt=銀座の松屋まで; Note=「銀座の松屋（百貨店）」を「松屋（牛丼チェーン）」と聞き間違えた。; Tips=目的地の種類（百貨店・飲食店など）も明確に伝えると誤解を防げる; URL=https://gendai.media/articles/-/152393?page=3. External dictionary:  Dictionary: []. Original audio not verified; context reading selected where supplied. Sol reviewed the smallest place/store name while preserving source-versus-target referent qualifiers.",
+      "Reason": "Existing Note contrasts Ginza department store and beef-bowl chain; retain respective qualifiers. Old full reading has exact shared 銀座の and まで, but new reading requires context check; no actual audio claim.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "unclear"
+    }
+  ]
+}

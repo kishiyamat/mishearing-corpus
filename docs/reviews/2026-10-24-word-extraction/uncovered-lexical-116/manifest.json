@@ -1,0 +1,24 @@
+{
+  "schema": "uncovered-lexical-116-application/v1",
+  "decision_json_sha256": "6e31cae3f7be35f72a17546e7bd4a48456f875ebfd0be4249962c273ca70523d",
+  "dossier_sha256": "6144b08bd6a2194cbf98cfa7543cc6e4887bc6e35f3088a70f4ba09ef533148c",
+  "input_review_sha256": "0805dc7cc103e499757012475b357424f2ba9f35491a8974245f335ce9814f1d",
+  "output_review_sha256": "028014de959b662f1caa903f1b7ad619bb3f6e5e5c3fa59a2d619706b8ddebc0",
+  "changed_pair_count": 116,
+  "changed_record_count": 116,
+  "audit_rows": 122,
+  "decision_counts": {
+    "KEEP_WORD": 1145,
+    "RETYPE_COMPOUND": 76,
+    "KEEP_COMPOUND": 382,
+    "RETYPE_WORD": 28,
+    "RETYPE_CONTEXTUAL": 12
+  },
+  "unchanged_adjudicated_pair_count": 1527,
+  "invariants": [
+    "reviewed inclusion/status unchanged",
+    "all PairIDs and bounds retained",
+    "all readings and annotations unchanged",
+    "old Reason/Evidence retained before appended type rationale"
+  ]
+}

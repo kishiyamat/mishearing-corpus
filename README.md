@@ -8,7 +8,10 @@ You can see the data [here](https://mishearing-corpus-dev.streamlit.app/).
 
 For programmatic access, see the [read-only API and reproducible export guide](docs/api.md).
 The API provides dataset metadata, text/classification search, exact-ID lookup,
-and CSV/JSONL export with a fixed Git data version and checksums. Run it locally:
+and CSV/JSONL export with a fixed Git data version and checksums. Reviewed lexical
+word/compound pairs are exported with `unit_group=lexical`; phrase and particle
+context pairs use `unit_group=contextual`. Omitting the group returns all reviewed
+pairs. Run it locally:
 
 ```bash
 uv sync --locked --extra api
@@ -264,6 +267,11 @@ Homophones remain separate words/interpretations; matching readings alone never 
 
 The instructions below reproduce a **historical research pipeline**. Do not run it to
 overwrite the version-controlled research snapshots during v2 annotation work.
+
+The historical CSV's `word`-level label is not a guarantee that each row is a minimal
+lexical contrast. For reviewed exports, use the v2 pipeline above and select
+`unit_group=lexical` to exclude context units. Without a group filter, CSV and JSONL
+include all reviewed unit types; `unit_group=contextual` returns context units only.
 
 This repo includes an experimental word-level mishearing extractor used in the ASA2025 context.
 

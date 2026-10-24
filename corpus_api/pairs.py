@@ -170,6 +170,7 @@ class PairFilters(BaseModel):
     q: str | None = Field(default=None, min_length=1, max_length=500)
     mishear_id: str | None = Field(default=None, min_length=1, max_length=128)
     unit_type: Literal["word", "particle-inclusive", "compound", "phrase"] | None = None
+    unit_group: Literal["lexical", "contextual"] | None = None
     dataset_version: str | None = Field(default=None, pattern=r"^[0-9a-f]{40}$")
 
 
@@ -197,11 +198,18 @@ def _filter_rows(
     rows: tuple[Mapping[str, str], ...], query: PairFilters
 ) -> tuple[Mapping[str, str], ...]:
     """Apply the same exact ID/unit and literal casefold text filters everywhere."""
+    group_types = {
+        "lexical": {"word", "compound"},
+        "contextual": {"particle-inclusive", "phrase"},
+    }
     return tuple(
         row
         for row in rows
         if (query.mishear_id is None or row["MishearID"] == query.mishear_id)
         and (query.unit_type is None or row["UnitType"] == query.unit_type)
+        and (
+            query.unit_group is None or row["UnitType"] in group_types[query.unit_group]
+        )
         and (
             query.q is None
             or any(
@@ -218,6 +226,7 @@ def _applied_filters(query: PairFilters) -> dict[str, object]:
         "q": query.q,
         "mishear_id": query.mishear_id,
         "unit_type": query.unit_type,
+        "unit_group": query.unit_group,
     }
 
 

@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:fbf2dd21693ab86743137c606e5b3dbfe9ded4467451546fc5ad26d434a60c38",
+  "source_review_sha256": "fbf2dd21693ab86743137c606e5b3dbfe9ded4467451546fc5ad26d434a60c38",
+  "decisions": [
+    {
+      "MishearID": "coffee_break_parts_similar200405_007",
+      "OriginalHash": "abce9456b034737e025364010c642432532c00eaa2bf3e9616c18b8d68c4536b",
+      "old_pairs": [
+        {
+          "PairID": "bcc65016-86c5-56a0-a59e-858f61a7dbda",
+          "src_start": 3,
+          "src_end": 11,
+          "tgt_start": 3,
+          "tgt_end": 11,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 6,
+          "tgt_start": 3,
+          "tgt_end": 6,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "bcc65016-86c5-56a0-a59e-858f61a7dbda"
+        },
+        {
+          "src_start": 8,
+          "src_end": 11,
+          "tgt_start": 8,
+          "tgt_end": 11,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "bcc65016-86c5-56a0-a59e-858f61a7dbda"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 6,
+          "surface": "Ｂ５判",
+          "reading": "ビーゴバン",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "surface": "Ａ４判",
+          "reading": "エーヨンバン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 6,
+          "surface": "Ｂ５版",
+          "reading": "ビーゴバン",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "surface": "Ａ４版",
+          "reading": "エーヨンバン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "B5/A4: archived Yamato source and old full reading segmented at the shared から; kana-name pair: original katakana surfaces; お日さま/おっさん: old full readings show distinct first nouns and the same ニオイ reading for 匂い/臭い. Each new component still needs exact reviewed annotation/read alignment. There are two independent contrasts in the old pair. Both must survive as separate lexical pairs with lineage to the same old PairID; one short span would lose an observation. Readings segmented from the exact reviewed full readings and source materials.",
+      "Reason": "Preserve both independent contrast units as separate lexical pairs; shared conjunction/particle remains outside both pairs.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_m_iimatugai_1383_html_010",
+      "OriginalHash": "727ca97438d22a550a05e9f3b8a1a84000a80efc1c588e0b9a8e0f47e8431cf6",
+      "old_pairs": [
+        {
+          "PairID": "9299b093-fe03-5029-8884-1e9a6b815835",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "9299b093-fe03-5029-8884-1e9a6b815835"
+        },
+        {
+          "src_start": 5,
+          "src_end": 7,
+          "tgt_start": 5,
+          "tgt_end": 7,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "9299b093-fe03-5029-8884-1e9a6b815835"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "お日さま",
+          "reading": "オヒサマ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "surface": "匂い",
+          "reading": "ニオイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "おっさん",
+          "reading": "オッサン",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "surface": "臭い",
+          "reading": "ニオイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "B5/A4: archived Yamato source and old full reading segmented at the shared から; kana-name pair: original katakana surfaces; お日さま/おっさん: old full readings show distinct first nouns and the same ニオイ reading for 匂い/臭い. Each new component still needs exact reviewed annotation/read alignment. There are two independent contrasts in the old pair. Both must survive as separate lexical pairs with lineage to the same old PairID; one short span would lose an observation. Readings segmented from the exact reviewed full readings and source materials.",
+      "Reason": "Preserve both independent contrast units as separate lexical pairs; shared conjunction/particle remains outside both pairs.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_m_iimatugai_1565_html_008",
+      "OriginalHash": "6e1670bfea98547e2771cbcbb434859f4e5b2d890456304ebf5c56178017b9a4",
+      "old_pairs": [
+        {
+          "PairID": "92605e62-ef43-5c59-a66e-52d89b5cc15d",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "92605e62-ef43-5c59-a66e-52d89b5cc15d"
+        },
+        {
+          "src_start": 4,
+          "src_end": 7,
+          "tgt_start": 4,
+          "tgt_end": 7,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "92605e62-ef43-5c59-a66e-52d89b5cc15d"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "ワケギ",
+          "reading": "ワケギ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 4,
+          "end": 7,
+          "surface": "ハネギ",
+          "reading": "ハネギ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "ワキゲ",
+          "reading": "ワキゲ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 4,
+          "end": 7,
+          "surface": "ハナゲ",
+          "reading": "ハナゲ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "B5/A4: archived Yamato source and old full reading segmented at the shared から; kana-name pair: original katakana surfaces; お日さま/おっさん: old full readings show distinct first nouns and the same ニオイ reading for 匂い/臭い. Each new component still needs exact reviewed annotation/read alignment. There are two independent contrasts in the old pair. Both must survive as separate lexical pairs with lineage to the same old PairID; one short span would lose an observation. Readings segmented from the exact reviewed full readings and source materials.",
+      "Reason": "Preserve both independent contrast units as separate lexical pairs; shared conjunction/particle remains outside both pairs.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

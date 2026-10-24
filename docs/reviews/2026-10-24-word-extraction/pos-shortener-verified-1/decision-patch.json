@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:59019e6d93d610cdcb44a7852b0c56c04d0a5877a27e38e909342c3d52e1651a",
+  "source_review_sha256": "59019e6d93d610cdcb44a7852b0c56c04d0a5877a27e38e909342c3d52e1651a",
+  "decisions": [
+    {
+      "MishearID": "coffee_break_parts_similar200406_010",
+      "OriginalHash": "099c5bf6c2ccbf32354aed01e66f2d6bfbd6504ec0ea32d2e6e6f3cf6c8fda4a",
+      "old_pairs": [
+        {
+          "PairID": "d4e61b54-f0d1-5249-91eb-2560264e31cd",
+          "src_start": 3,
+          "src_end": 8,
+          "tgt_start": 3,
+          "tgt_end": 8,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 5,
+          "tgt_start": 3,
+          "tgt_end": 5,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "d4e61b54-f0d1-5249-91eb-2560264e31cd"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "surface": "代替",
+          "reading": "ダイタイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "surface": "大体",
+          "reading": "ダイタイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 13 Exact candidate readings derived by unique full annotation dictionary alignment and confirmed against exact whole-surface noun entry.",
+      "Reason": "Compared word or proper name is smaller than the old span; the old span includes shared syntax, auxiliary, punctuation, or a parenthetical reading/source note. Preserve complete lexical forms and every independent contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

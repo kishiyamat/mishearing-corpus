@@ -5,6 +5,11 @@
 手修正しない。Langflow、Streamlit、chiVe、公開サーバーはこの経路に不要。
 従来の `resource/extracted_word_pairs*.csv` と研究入力・評価結果は上書きしない。
 
+現行抽出器は `pairs-v2.3`。`word` / `compound` は校正済みの単位分類であり、
+機械候補のトークン数や品詞だけでは確定しない。単語・複合語の取得は
+`unit_group=lexical` を明示すると単語・複合語だけを取得する。無指定では
+全種類を取得し、`unit_group=contextual` では句・文脈単位だけを取得する。
+
 現在の方針・件数・研究者確認用一覧は
 [同音排除の撤回と全除外の再確認](pair_review_homophones_2026-10-24.md)を参照。
 原音のない場合の条件付き読みは、その根拠を明示して採用し、原音確認済みとは区別する。
@@ -21,7 +26,9 @@ MeCab CLI と UTF-8 辞書は実コーパスの抽出時のみ必要。単体/AP
 固定トークン列で実行できる。Ubuntuでは `mecab` と `mecab-ipadic-utf8` を利用する。
 インストール済みの実行版・辞書情報・辞書ハッシュを実行マニフェストに記録する。
 利用した標準APIは `difflib.SequenceMatcher(autojunk=False)` と `csv.DictReader` /
-`DictWriter`、MeCab CLIの `-Owakati`。語彙ベクトルの有無は校正対象の選別に使わない。
+`DictWriter`、MeCab CLIの `-Ochasen`。POS情報は境界候補の分類だけに使い、語彙ベクトルの有無は校正対象の選別に使わない。
+run manifestには extractor version/hash、MeCab CLI version、辞書情報と辞書ファイル
+SHA-256が記録される。入力・抽出器・辞書設定が対応しない成果物はAPI起動時に拒否される。
 仕様の参照は [Python difflib](https://docs.python.org/3.13/library/difflib.html) と
 [MeCab公式出力形式](https://taku910.github.io/mecab/format.html)。
 Frictionless 5.18.1のPython検証は `Schema.from_descriptor(...)` を渡す契約を
@@ -67,6 +74,15 @@ Frictionless 5.18.1のPython検証は `Schema.from_descriptor(...)` を渡す契
 - 読みを評価に採用するには、原資料の明示・辞書・研究者判断の根拠を `Evidence` に
   記録する。LLMやMeCabの推定だけで正解扱いにしない。かな表記だけの原本も、
   事例の方向・実際の聞き間違いかを文脈と照合する。
+- PairSpanは原文の対立単位を表す。共通の左右文脈・助詞・述語は外す一方、
+  語内部には切らず、差分が複数離れている場合は独立ペアに分ける。MeCab候補の
+  `UnitType` は仮分類で、人手レビューの `PairSpan.unit_type` が採用分類を決める。
+- 長い旧Overrideから短いPairSpanへ変更するとき、旧全文読みを機械的に切り出して
+  短縮後の読みとして `confirmed` にしてはならない。短縮境界と既存の根拠付き注釈が
+  完全一致する場合、根拠に短縮表面の読みが明示される場合、または正確な辞書見出しと
+  文脈適合読みの根拠が記録されている場合だけ確定できる。MeCab最適経路、連結推定、
+  単一の辞書候補だけでは不十分。注釈は新PairSpan単位に再構成し、意味・識別・読みの
+  根拠も対応づける。根拠を移せなければそのペアは `pending` / `undecided` のまま残す。
 
 復号後のレビュー行のスキーマは `schema/pair_review.schema.json`。
 派生ペアの列順は `corpus_api.pair_workflow.PAIR_FIELDS` に固定する。
@@ -146,6 +162,12 @@ Frictionless 5.18.1のPython検証は `Schema.from_descriptor(...)` を渡す契
 レビュー途中のJSONをCSVに取り込む補助手段もある。出力既存ファイルは上書きせず、
 生成した新CSVとの差分を確認して正本へ適用する。JSONを第二の編集正本にしない。
 
+旧全文Overrideを短縮候補へ移す調査では、
+`scripts/profile_word_span_reading_evidence.py --output /tmp/word-span-evidence.csv` が
+候補表面の完全一致辞書項目、旧Overrideの全トークン辞書読み連結の一意性、候補範囲の
+MeCabトークン境界対応を診断出力する。best-path readingの一致も別に記録するが、
+いずれも診断であって承認ではない。短い読みの自動確定やレビューCSVの編集は行わない。
+
 ```bash
 uv run --locked python -m corpus_api.pair_workflow import-reviews \
   --inputs /tmp/deliberate-reviews.json --output /tmp/reviews-next.csv
@@ -177,12 +199,18 @@ PairIDは原本と原文位置・比較単位に基づくUUID。校正で同じ�
 
 `make api`。APIは選択コミットのGit blobだけを読み、未コミットの校正を配信しない。
 
-- `GET /v1/pairs?q=...&mishear_id=...&unit_type=compound&limit=100&offset=0`
+- `GET /v1/pairs?q=...&mishear_id=...&unit_type=compound&unit_group=lexical&limit=100&offset=0`
   校正済みの採用・除外行を検索する。`q` は表記・読みの部分一致。
+- `unit_group=lexical` は `word` / `compound`、`contextual` は
+  `particle-inclusive` / `phrase` を選ぶ。`unit_type` を併用すると積集合になる。
+  無指定時は従来どおり全種類を返す。
 - `GET /v1/pairs/{PairID}` は完全一致の単件取得。
 - `GET /v1/pairs/export?format=csv` または `format=jsonl`。
   一覧と同じ検索条件を指定でき、採用された校正済みペアだけを出力する。
   未処理が残る場合はHTTP 409。保留は除外し、全体の保留件数を返す。
+- 単語・複合語だけのCSVは
+  `GET /v1/pairs/export?format=csv&unit_group=lexical`。句・句断片を含めた出力は
+  `unit_group=contextual` で明示する。UnitTypeの訂正前のrunでは分類が反映されない。
 - `dataset_version=<40桁SHA>` で配信版を照合する。別版へ勝手にフォールバックしない。
   原本の版・ハッシュとペアの版・ハッシュを別々に返す。
   校正成果物のない旧コミットではペアAPIだけ503、既存records APIは利用できる。

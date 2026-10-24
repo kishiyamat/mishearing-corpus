@@ -1,0 +1,11 @@
+{
+  "source_review_sha256": "d8262641d43ae9a2c562f8324cb1711a143d00692031969c49421a43c850c127",
+  "applied_records": 42,
+  "audit_rows": 43,
+  "current_review_sha256": "2f5f02f6ab71910141a5bccd58db18ee55c360675c81125942518d794602c438",
+  "decision_patch_sha256": "6dcba4e62c86f0613b125b3827b396ec97c9edc08d5c98049e8eaf524538afeb",
+  "audit_sha256": "ce4033695dd65642a14b5d8ede8f4c71d755ce1f46284d2a5f92e7f4ecaa7485",
+  "overrides_in_source": 43,
+  "status": "sol_verified_passed_source_hash_surface_unique_reading_and_shared_residual_gates",
+  "output": "data/annotations/reviews.csv"
+}

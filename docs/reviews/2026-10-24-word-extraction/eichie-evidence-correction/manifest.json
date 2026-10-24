@@ -1,0 +1,10 @@
+{
+  "source_run": "working-reviews:fd9b5f3d04942e968b895bc01bb18fda45555831ecada3db05859f56f274199c",
+  "source_review_sha256": "fd9b5f3d04942e968b895bc01bb18fda45555831ecada3db05859f56f274199c",
+  "review_sha256": "a631742f86115e1cc78f51f225c0fceb91b67894884d443c69e468a38d34fb3e",
+  "patch_sha256": "a35fbd9de445090d900b7029e5024b17e91cdb75d4ba540fca41669241c71b3a",
+  "audit_sha256": "73f87631f6d8a56d1889ee77880db1f47994d051b8bb98fc249ef229f224f7d9",
+  "records": 1,
+  "audit_rows": 1,
+  "change": "Corrected contradictory evidence reading from チチハケ to チチワケ and documented は=wa; corrected reason notes original audio is unverified."
+}

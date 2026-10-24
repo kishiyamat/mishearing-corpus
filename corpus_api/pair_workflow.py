@@ -25,8 +25,8 @@ from .annotations import AnnotatedText, Annotation, parse_annotation, render_ann
 from .dataset import CorpusSnapshot, _rows, canonical_json
 from .models import CSV_FIELDS, Record
 
-EXTRACTOR_VERSION = "pairs-v2.2"
-TOKENIZER_SETTINGS = "mecab -Owakati; difflib autojunk=False; no vocabulary filter"
+EXTRACTOR_VERSION = "pairs-v2.3"
+TOKENIZER_SETTINGS = "mecab -Ochasen; difflib autojunk=False; no vocabulary filter"
 Tokenizer = Callable[[str], list[tuple[int, int]]]
 PAIR_FIELDS = (
     "PairID",
@@ -90,6 +90,24 @@ class PairSpan(BaseModel):
     unit_type: Literal["word", "particle-inclusive", "compound", "phrase"]
     PairID: str = ""
     SupersedesPairID: str = ""
+
+
+class TokenSpans(list[tuple[int, int]]):
+    """Keep token offsets list-compatible while attaching corresponding POS labels.
+
+    Construct with parallel span and tag sequences, for example
+    ``TokenSpans([(0, 2)], ["名詞"])``. Existing callers can still iterate or index
+    the instance as a list of source offset pairs; extraction can also inspect
+    ``pos_tags`` to classify suffix and particle boundaries.
+    """
+
+    def __init__(
+        self, spans: Sequence[tuple[int, int]], pos_tags: Sequence[str]
+    ) -> None:
+        super().__init__(spans)
+        if len(self) != len(pos_tags):
+            raise ValueError("each MeCab token span requires one POS tag")
+        self.pos_tags = tuple(pos_tags)
 
 
 class RecordReview(BaseModel):
@@ -250,12 +268,12 @@ def working_snapshot(root: Path, committed: CorpusSnapshot) -> CorpusSnapshot:
     )
 
 
-def mecab_tokens(text: str) -> list[tuple[int, int]]:
-    """Use installed MeCab's public CLI and align tokens to unchanged source text."""
+def mecab_tokens(text: str) -> TokenSpans:
+    """Use MeCab's public Chasen output to align source offsets and POS tags."""
     if not text:
-        return []
+        return TokenSpans([], [])
     result = subprocess.run(
-        ["mecab", "-Owakati"],
+        ["mecab", "-Ochasen"],
         input=text,
         text=True,
         encoding="utf-8",
@@ -265,15 +283,25 @@ def mecab_tokens(text: str) -> list[tuple[int, int]]:
     )
     cursor = 0
     offsets: list[tuple[int, int]] = []
-    for token in result.stdout.split():
+    pos_tags: list[str] = []
+    for line in result.stdout.splitlines():
+        if not line or line == "EOS":
+            continue
+        fields = line.split("\t")
+        if len(fields) < 4:
+            raise ValueError("MeCab Chasen output is missing token features")
+        token, pos = fields[0], fields[3]
         start = text.find(token, cursor)
         if start < 0 or text[cursor:start].strip():
             raise ValueError("MeCab tokens do not align with original surface")
-        offsets.append((start, start + len(token)))
         cursor = start + len(token)
+        if token.isspace():
+            continue
+        offsets.append((start, start + len(token)))
+        pos_tags.append(pos)
     if text[cursor:].strip():
         raise ValueError("MeCab omitted non-whitespace source text")
-    return offsets
+    return TokenSpans(offsets, pos_tags)
 
 
 def _prepared(text: str, overrides: Sequence[Override] = ()) -> AnnotatedText:
@@ -460,6 +488,34 @@ def _same_interpretation(src: AnnotatedText, tgt: AnnotatedText) -> bool:
     ] == [replace(a, reading=_reading_key(a.reading)) for a in tgt.annotations]
 
 
+def _pos_tags(tokens: list[tuple[int, int]]) -> tuple[str, ...]:
+    """Return available tokenizer tags without requiring custom tokenizers to add them."""
+    tags = getattr(tokens, "pos_tags", ())
+    if not tags:
+        return tuple("" for _ in tokens)
+    if len(tags) != len(tokens):
+        raise ValueError("tokenizer returned mismatched offsets and POS tags")
+    return tuple(str(tag) for tag in tags)
+
+
+def _is_suffix(pos: str) -> bool:
+    """Recognize IPADIC suffix categories that cannot stand alone as a lexical contrast."""
+    return "接尾" in pos
+
+
+def _is_particle(pos: str) -> bool:
+    """Recognize particles for distinguishing contextual fragments from words."""
+    return pos.startswith("助詞")
+
+
+def _token_surface(
+    text: AnnotatedText, spans: list[tuple[int, int]], index: int
+) -> str:
+    """Return the original surface for one token, independent of its absolute offset."""
+    start, end = spans[index]
+    return text.surface[start:end]
+
+
 def extract_record(
     record: Mapping[str, str], path: str, tokenizer: Tokenizer = mecab_tokens
 ) -> tuple[list[dict[str, str]], dict[str, object]]:
@@ -476,6 +532,7 @@ def extract_record(
     if _same_interpretation(src, tgt):
         return [], _audit(record, path, 0, "same_surface")
     src_tokens, tgt_tokens = tokenizer(src.surface), tokenizer(tgt.surface)
+    src_pos, tgt_pos = _pos_tags(src_tokens), _pos_tags(tgt_tokens)
     matcher = SequenceMatcher(
         None,
         [src.surface[s:e] for s, e in src_tokens],
@@ -502,10 +559,119 @@ def extract_record(
     for op, i, j, k, l in matcher.get_opcodes():
         if op == "equal":
             continue
-        s, e = raw_bounds(src, src_tokens, i, j)
-        t, u = raw_bounds(tgt, tgt_tokens, k, l)
+        left_i, right_i, left_k, right_k = i, j, k, l
+        expanded_left_suffix = False
+        expanded_right_nominal_suffix = False
+        expanded_right_verb_ending = False
+        # A suffix-only mismatch such as 姿勢/性 needs its shared lexical stem.
+        if (
+            ((i < j and _is_suffix(src_pos[i])) or (k < l and _is_suffix(tgt_pos[k])))
+            and i > 0
+            and k > 0
+            and _token_surface(src, src_tokens, i - 1)
+            == _token_surface(tgt, tgt_tokens, k - 1)
+            and not _is_particle(src_pos[i - 1])
+        ):
+            left_i -= 1
+            left_k -= 1
+            expanded_left_suffix = True
+        # A shared suffix can belong to both proper-name alternatives (三角橋/参宮橋).
+        if (
+            right_i < len(src_tokens)
+            and right_k < len(tgt_tokens)
+            and _token_surface(src, src_tokens, right_i)
+            == _token_surface(tgt, tgt_tokens, right_k)
+            and _is_suffix(src_pos[right_i])
+            and _is_suffix(tgt_pos[right_k])
+        ):
+            right_i += 1
+            right_k += 1
+            expanded_right_nominal_suffix = True
+        # Shared inflection auxiliaries are part of the contrasting full forms.
+        if (
+            i < j
+            and k < l
+            and right_i < len(src_tokens)
+            and right_k < len(tgt_tokens)
+            and _token_surface(src, src_tokens, right_i)
+            == _token_surface(tgt, tgt_tokens, right_k)
+            and src_pos[right_i].startswith("助動詞")
+            and tgt_pos[right_k].startswith("助動詞")
+            and src_pos[j - 1].startswith(("動詞", "形容詞"))
+            and tgt_pos[l - 1].startswith(("動詞", "形容詞"))
+        ):
+            right_i += 1
+            right_k += 1
+            expanded_right_verb_ending = True
+        # In matched te-forms, て/で is required to express the verb form; keep it
+        # with the contrasting verb stems rather than emitting non-independent stems.
+        if (
+            right_i < len(src_tokens)
+            and right_k < len(tgt_tokens)
+            and right_i > left_i
+            and right_k > left_k
+            and _token_surface(src, src_tokens, right_i)
+            == _token_surface(tgt, tgt_tokens, right_k)
+            and _token_surface(src, src_tokens, right_i) in {"て", "で"}
+            and src_pos[right_i].startswith("助詞-接続助詞")
+            and tgt_pos[right_k].startswith("助詞-接続助詞")
+            and src_pos[right_i - 1].startswith("動詞-")
+            and tgt_pos[right_k - 1].startswith("動詞-")
+        ):
+            right_i += 1
+            right_k += 1
+            expanded_right_verb_ending = True
+        s, e = raw_bounds(src, src_tokens, left_i, right_i)
+        t, u = raw_bounds(tgt, tgt_tokens, left_k, right_k)
+        source_tags = src_pos[left_i:right_i]
+        target_tags = tgt_pos[left_k:right_k]
+        has_particle = any(map(_is_particle, (*source_tags, *target_tags)))
+        if expanded_left_suffix:
+            unit_type: Literal["word", "particle-inclusive", "compound", "phrase"] = (
+                "compound"
+            )
+        elif expanded_right_nominal_suffix:
+            unit_type = "compound"
+        elif expanded_right_verb_ending:
+            unit_type = "word"
+        elif has_particle:
+            larger = source_tags if len(source_tags) > len(target_tags) else target_tags
+            smaller = (
+                target_tags if len(source_tags) > len(target_tags) else source_tags
+            )
+            only_particle_extension = (
+                abs(len(source_tags) - len(target_tags)) == 1
+                and len(larger) == 2
+                and len(smaller) == 1
+                and sum(_is_particle(tag) for tag in larger) == 1
+                and all(
+                    tag.startswith("名詞")
+                    for tag in (*[t for t in larger if not _is_particle(t)], *smaller)
+                )
+            )
+            unit_type = "particle-inclusive" if only_particle_extension else "phrase"
+        elif all(
+            not tag or tag.startswith("名詞") for tag in source_tags + target_tags
+        ):
+            unit_type = (
+                "word" if len(source_tags) == len(target_tags) == 1 else "compound"
+            )
+        elif all(
+            len(tags) == 1
+            and (
+                not tags[0] or tags[0].startswith(("動詞-自立", "形容詞-自立", "副詞-"))
+            )
+            for tags in (source_tags, target_tags)
+        ):
+            unit_type = "word"
+        else:
+            unit_type = "phrase"
         span = PairSpan(
-            src_start=s, src_end=e, tgt_start=t, tgt_end=u, unit_type="word"
+            src_start=s,
+            src_end=e,
+            tgt_start=t,
+            tgt_end=u,
+            unit_type=unit_type,
         )
         try:
             rows.append(

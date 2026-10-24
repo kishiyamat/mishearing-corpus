@@ -66,8 +66,24 @@ def test_researched_readings_are_not_left_as_generic_pending(
     assert review["Status"] == "reviewed"
     assert review["TargetDecision"] == decision
     for side, expected in zip(annotations, (src_reading, tgt_reading), strict=True):
-        assert isinstance(side, list) and len(side) == 1
-        assert _reading_key(side[0]["reading"]) == _reading_key(expected)
+        assert isinstance(side, list) and side
+        matching = [
+            annotation
+            for annotation in side
+            if _reading_key(annotation["reading"]) == _reading_key(expected)
+        ]
+        assert len(matching) == 1
+        if identifier == "ameblo_bbtmba_10852900207_002":
+            # The explicit parenthetical repeats a partial reading, but is not
+            # spoken; Sol keeps it as a separate, empty-reading annotation.
+            supplements = [
+                annotation for annotation in side if annotation not in matching
+            ]
+            assert len(supplements) == 1
+            assert supplements[0]["reading"] == ""
+            assert "括弧内表記補足（非発話）" in supplements[0]["qualifiers"]
+        else:
+            assert len(side) == 1
 
 
 def test_announcement_keeps_the_actual_name_contrast(

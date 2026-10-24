@@ -1,0 +1,4842 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:e5c3f8d74b3ef32abd12468217b7171f85f36324067bb8e69bb859e0b5dd4430",
+  "source_review_sha256": "e5c3f8d74b3ef32abd12468217b7171f85f36324067bb8e69bb859e0b5dd4430",
+  "decisions": [
+    {
+      "MishearID": "39mag_benesse_16332_008",
+      "OriginalHash": "225a9bdadf97f3ef18e5a6afe738719e00bbf9ea71f9b596bea2ced5d3f90043",
+      "old_pairs": [
+        {
+          "PairID": "bb2c1ab5-01d0-5427-86b4-68f8a44f72b8",
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "7768b2e2-b375-5879-8a1c-d24f058cfd1f"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "お世話さま",
+          "reading": "オセワサマ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "オセワ様",
+          "reading": "オセワサマ",
+          "meanings": [
+            "名字"
+          ],
+          "qualifiers": [
+            "名字"
+          ]
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 5: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200407_009",
+      "OriginalHash": "ddb88926eb574d04311971967b95807f85de1e23bd45ee55de58080ea3d2897c",
+      "old_pairs": [
+        {
+          "PairID": "73014c52-f944-587c-a993-811608ee49c9",
+          "src_start": 10,
+          "src_end": 14,
+          "tgt_start": 10,
+          "tgt_end": 14,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 10,
+          "src_end": 14,
+          "tgt_start": 10,
+          "tgt_end": 14,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "f4aaf7d5-114d-5e6e-87d6-d621642f899b"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 10,
+          "end": 14,
+          "surface": "県として",
+          "reading": "ケントシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 10,
+          "end": 14,
+          "surface": "検討して",
+          "reading": "ケントウシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 15: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200412_002",
+      "OriginalHash": "b056a15c8781693faeb735dcbdb2f6c5550b7d3721a07a306016b49912efe512",
+      "old_pairs": [
+        {
+          "PairID": "1c7c3052-a245-5850-b1e5-4768ce0f4a4e",
+          "src_start": 7,
+          "src_end": 9,
+          "tgt_start": 7,
+          "tgt_end": 9,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 7,
+          "src_end": 9,
+          "tgt_start": 7,
+          "tgt_end": 9,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "f6900d25-4581-5644-aade-69939f6c4cfc"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 7,
+          "end": 9,
+          "surface": "繰延",
+          "reading": "クリノベ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 7,
+          "end": 9,
+          "surface": "国の",
+          "reading": "クニノ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 21: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200602_003",
+      "OriginalHash": "a1958daec640e051e17840dcf2dde236e925d7fdee67df5ce60acfebf3361ab8",
+      "old_pairs": [
+        {
+          "PairID": "1d829ca2-6fd7-58f1-84e5-58d52fa344c0",
+          "src_start": 28,
+          "src_end": 32,
+          "tgt_start": 28,
+          "tgt_end": 31,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 28,
+          "src_end": 32,
+          "tgt_start": 28,
+          "tgt_end": 31,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 28,
+          "end": 32,
+          "surface": "渡し切り",
+          "reading": "ワタシキリ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 28,
+          "end": 31,
+          "surface": "私きり",
+          "reading": "ワタシキリ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 24: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200612_005",
+      "OriginalHash": "80ef1a412cc69cc87c0b913ae584f40813cc8d2385ea2fd757bd6bd4361861b9",
+      "old_pairs": [
+        {
+          "PairID": "2d6c8559-1945-50b0-b243-92408ab40ca8",
+          "src_start": 31,
+          "src_end": 35,
+          "tgt_start": 31,
+          "tgt_end": 36,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 31,
+          "src_end": 35,
+          "tgt_start": 31,
+          "tgt_end": 36,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "62059e77-df48-527e-84fa-b408bc5175ad"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 31,
+          "end": 35,
+          "surface": "東電労組",
+          "reading": "トウデンロウソ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 31,
+          "end": 36,
+          "surface": "当然のこと",
+          "reading": "トウゼンノコト",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 28: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200705_005",
+      "OriginalHash": "20202e74a2a6e285f71aabd1a5f44685a40a754830cde84a303b9b201f517677",
+      "old_pairs": [
+        {
+          "PairID": "e32b0005-09e7-535a-aa45-d60e676279fe",
+          "src_start": 27,
+          "src_end": 32,
+          "tgt_start": 27,
+          "tgt_end": 31,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 27,
+          "src_end": 32,
+          "tgt_start": 27,
+          "tgt_end": 31,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "eec4a387-7520-5ee8-9d00-cbbef315dfd1"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 27,
+          "end": 32,
+          "surface": "策のなさを",
+          "reading": "サクノナサオ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 27,
+          "end": 31,
+          "surface": "柵の中を",
+          "reading": "サクノナカオ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 29: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200710_004",
+      "OriginalHash": "607a7ae163de09012d1a64a2d0f86a6bfd955226eb68eefd6aad84ce524daaef",
+      "old_pairs": [
+        {
+          "PairID": "a91a7f54-e22b-5f5a-8d0a-df94009ba714",
+          "src_start": 51,
+          "src_end": 54,
+          "tgt_start": 51,
+          "tgt_end": 54,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 51,
+          "src_end": 54,
+          "tgt_start": 51,
+          "tgt_end": 54,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 51,
+          "end": 54,
+          "surface": "体して",
+          "reading": "タイシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 51,
+          "end": 54,
+          "surface": "解して",
+          "reading": "カイシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 31: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200710_008",
+      "OriginalHash": "99234241e51cbe47771acf43bf76905fedf2a899e2273b8fdec53c9ebe6eabc6",
+      "old_pairs": [
+        {
+          "PairID": "0b08a2de-bcc9-5b8c-8afd-f0c46a113ca2",
+          "src_start": 10,
+          "src_end": 14,
+          "tgt_start": 10,
+          "tgt_end": 15,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 10,
+          "src_end": 14,
+          "tgt_start": 10,
+          "tgt_end": 15,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "d6d02577-1c96-5da1-a9aa-e0162d5695fb"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 10,
+          "end": 14,
+          "surface": "常在戦場",
+          "reading": "ジョウザイセンジョウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 10,
+          "end": 15,
+          "surface": "浄財、洗浄",
+          "reading": "ジョウザイセンジョウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 32: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200802_002",
+      "OriginalHash": "ce2190d1b1ab199f7116e7c9f7932726ea31926577667dbc3004fbd741b59181",
+      "old_pairs": [
+        {
+          "PairID": "6005562e-5ca0-596e-8fc5-53048e448354",
+          "src_start": 40,
+          "src_end": 46,
+          "tgt_start": 40,
+          "tgt_end": 46,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 40,
+          "src_end": 46,
+          "tgt_start": 40,
+          "tgt_end": 46,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "a1967dae-50b5-5051-b72e-e2abeeb1cadb"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 40,
+          "end": 46,
+          "surface": "過誤納還付金",
+          "reading": "カゴノウカンプキン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 40,
+          "end": 46,
+          "surface": "過去の還付金",
+          "reading": "カコノカンプキン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 34: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200803_007",
+      "OriginalHash": "aebfdd3a4567ac4028bb07eff9f0ae48f301380d506d123b74ea9b56cb4b28e3",
+      "old_pairs": [
+        {
+          "PairID": "a31574df-4bf5-5b6d-a174-b80e0296a950",
+          "src_start": 28,
+          "src_end": 33,
+          "tgt_start": 28,
+          "tgt_end": 32,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 28,
+          "src_end": 33,
+          "tgt_start": 28,
+          "tgt_end": 32,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "27604d96-4b6c-57f2-a435-32ab78c15cd3"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 28,
+          "end": 33,
+          "surface": "政策マター",
+          "reading": "セイサクマター",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 28,
+          "end": 32,
+          "surface": "政策まで",
+          "reading": "セイサクマデ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 35: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200805_003",
+      "OriginalHash": "9af634343c48c5d1c39a1c599ba723a2a799ca6c07c9f4195851929e392862b2",
+      "old_pairs": [
+        {
+          "PairID": "a55c4c2c-f5d7-5a2c-9367-77a512145db8",
+          "src_start": 27,
+          "src_end": 32,
+          "tgt_start": 27,
+          "tgt_end": 31,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 27,
+          "src_end": 32,
+          "tgt_start": 27,
+          "tgt_end": 31,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "2c6ba351-058d-5887-ad38-73497c0c3c10"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 27,
+          "end": 32,
+          "surface": "政策マター",
+          "reading": "セイサクマター",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 27,
+          "end": 31,
+          "surface": "政策まで",
+          "reading": "セイサクマデ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 36: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200806_005",
+      "OriginalHash": "24abe230da76217eee9f32bc0b3fb84980a70b74738720780f9984d8148d1197",
+      "old_pairs": [
+        {
+          "PairID": "43b56f62-4b92-57ae-a949-05dc42159cdb",
+          "src_start": 26,
+          "src_end": 30,
+          "tgt_start": 16,
+          "tgt_end": 20,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 26,
+          "src_end": 30,
+          "tgt_start": 16,
+          "tgt_end": 20,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "a8c496ef-a5f2-5132-9a92-0c6915e038c4"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 26,
+          "end": 30,
+          "surface": "ドル建て",
+          "reading": "ドルダテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 16,
+          "end": 20,
+          "surface": "どれだけ",
+          "reading": "ドレダケ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 37: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200807_007",
+      "OriginalHash": "c3f5d2230aa4d72a5868dfc4b9042fc6caaaaa624062c99050606c36327893e9",
+      "old_pairs": [
+        {
+          "PairID": "a957db2c-9b38-5792-8c84-ef34c7de92ec",
+          "src_start": 21,
+          "src_end": 26,
+          "tgt_start": 21,
+          "tgt_end": 25,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 21,
+          "src_end": 26,
+          "tgt_start": 21,
+          "tgt_end": 25,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "03a03ea4-c633-5c17-8d6c-839b71ced16c"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 21,
+          "end": 26,
+          "surface": "先日示され",
+          "reading": "センジツシメサレ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 21,
+          "end": 25,
+          "surface": "説明され",
+          "reading": "セツメイサレ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 40: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200810_010",
+      "OriginalHash": "f762dffd92231e24f92cd403877d450e61899168949c75a5e6533d8c2de3fd06",
+      "old_pairs": [
+        {
+          "PairID": "79a3a9f7-1d37-5ac5-814b-2c52c5e1198a",
+          "src_start": 6,
+          "src_end": 10,
+          "tgt_start": 6,
+          "tgt_end": 10,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 6,
+          "src_end": 10,
+          "tgt_start": 6,
+          "tgt_end": 10,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "108576f5-6fa2-5240-989d-549ab0fb97b2"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 6,
+          "end": 10,
+          "surface": "郷土尾道",
+          "reading": "キョウドオノミチ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 6,
+          "end": 10,
+          "surface": "協働の道",
+          "reading": "キョウドウノミチ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 44: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200902_002",
+      "OriginalHash": "fc7211bec37e9baf063fd2efd2c18ea0b011b1c81fb5838b0f81e3247f2f80f0",
+      "old_pairs": [
+        {
+          "PairID": "929d0921-0c78-51ba-a33d-d8695006f736",
+          "src_start": 41,
+          "src_end": 47,
+          "tgt_start": 41,
+          "tgt_end": 46,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 41,
+          "src_end": 47,
+          "tgt_start": 41,
+          "tgt_end": 46,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "172d7d11-905d-54a1-9add-4d4eb0f33743"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 41,
+          "end": 47,
+          "surface": "もとにあった",
+          "reading": "モトニアッタ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 41,
+          "end": 46,
+          "surface": "求められた",
+          "reading": "モトメラレタ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 45: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200904_009",
+      "OriginalHash": "2dec182debb00061a4463da07b5afc54bd7b328914cfdab795fa8b6d550798b0",
+      "old_pairs": [
+        {
+          "PairID": "da2e3c9e-5c8d-54fe-b145-dcaa6e786183",
+          "src_start": 4,
+          "src_end": 7,
+          "tgt_start": 4,
+          "tgt_end": 8,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 4,
+          "src_end": 7,
+          "tgt_start": 4,
+          "tgt_end": 8,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "d74c69e2-b7ec-5841-90e8-d9017ece9c32"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 4,
+          "end": 7,
+          "surface": "鈴木寛",
+          "reading": "スズキカン",
+          "meanings": [
+            "鈴木寛という一人の人名"
+          ],
+          "qualifiers": [
+            "保存原文の文脈における指示対象。研究者方針による解釈、原音未確認"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 4,
+          "end": 8,
+          "surface": "鈴木、菅",
+          "reading": "スズキカン",
+          "meanings": [
+            "鈴木と菅という二人の姓"
+          ],
+          "qualifiers": [
+            "保存原文の文脈における指示対象。研究者方針による解釈、原音未確認"
+          ]
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 46: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200905_005",
+      "OriginalHash": "6c138a2c41e381a33cf2f91ef9926eea8d44932f186526a5a8525eb4e73e0cc3",
+      "old_pairs": [
+        {
+          "PairID": "c959c922-07bd-5895-a60f-1320731ee6a1",
+          "src_start": 36,
+          "src_end": 42,
+          "tgt_start": 36,
+          "tgt_end": 43,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 36,
+          "src_end": 42,
+          "tgt_start": 36,
+          "tgt_end": 43,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "fcf00fc6-7d26-5a3e-ba18-94d4501c25c7"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 36,
+          "end": 42,
+          "surface": "１歳のときに",
+          "reading": "イッサイノトキニ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 36,
+          "end": 43,
+          "surface": "実際あのときに",
+          "reading": "ジッサイアノトキニ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 47: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200906_004",
+      "OriginalHash": "3b253ac286347893712ef74b958615fd70a1ab71e69dacba65fd3935407d0479",
+      "old_pairs": [
+        {
+          "PairID": "084c3268-5b77-5d11-bb6a-9b7425520e5e",
+          "src_start": 47,
+          "src_end": 51,
+          "tgt_start": 47,
+          "tgt_end": 50,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 47,
+          "src_end": 51,
+          "tgt_start": 47,
+          "tgt_end": 50,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "8e9453f4-7594-5811-900b-07856ece7dda"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 47,
+          "end": 51,
+          "surface": "政治資金",
+          "reading": "セイジシキン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 47,
+          "end": 50,
+          "surface": "正式に",
+          "reading": "セイシキニ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 48: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200909_005",
+      "OriginalHash": "b475d72fa45446072e8aef0772986d05b89edc80cfd3ffaa40dc9e3f3b53c5c6",
+      "old_pairs": [
+        {
+          "PairID": "3ace6a3f-a4bb-55b5-9362-31e37d9e8159",
+          "src_start": 23,
+          "src_end": 25,
+          "tgt_start": 23,
+          "tgt_end": 27,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 23,
+          "src_end": 25,
+          "tgt_start": 23,
+          "tgt_end": 27,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "ef6d3276-61fe-59c9-b6a8-a51c7d8d32e9"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 23,
+          "end": 25,
+          "surface": "捜索",
+          "reading": "ソウサク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 23,
+          "end": 27,
+          "surface": "そうした",
+          "reading": "ソウシタ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 50: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200912_007",
+      "OriginalHash": "b4610299ea36cc41ba1d9ca403c7c5282c54b3b9e0ce9871e93d38022232b2b6",
+      "old_pairs": [
+        {
+          "PairID": "dd1dacce-d91b-5573-bf8c-716f74cc3b94",
+          "src_start": 33,
+          "src_end": 38,
+          "tgt_start": 33,
+          "tgt_end": 39,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 33,
+          "src_end": 38,
+          "tgt_start": 33,
+          "tgt_end": 39,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "689a6fa9-9dd8-52a4-b29a-284ede49496c"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 33,
+          "end": 38,
+          "surface": "越後の藩士",
+          "reading": "エチゴノハンシ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 33,
+          "end": 39,
+          "surface": "いつもの半紙",
+          "reading": "イツモノハンシ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 53: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201004_010",
+      "OriginalHash": "377ab671d0e977c0e53ca9b87ec809f7db3592bdd4de3c9cae6bef66d553aecf",
+      "old_pairs": [
+        {
+          "PairID": "108b8c21-aec3-5165-b144-980cf59edf8f",
+          "src_start": 12,
+          "src_end": 15,
+          "tgt_start": 12,
+          "tgt_end": 17,
+          "unit_type": "word"
+        },
+        {
+          "PairID": "218ab4f5-57a5-5474-8ffd-3f79ae443410",
+          "src_start": 44,
+          "src_end": 47,
+          "tgt_start": 46,
+          "tgt_end": 49,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 12,
+          "src_end": 15,
+          "tgt_start": 12,
+          "tgt_end": 17,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        },
+        {
+          "src_start": 44,
+          "src_end": 47,
+          "tgt_start": 46,
+          "tgt_end": 49,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "cb7e51b6-ed8c-51bd-a344-511a896803c3"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 12,
+          "end": 15,
+          "surface": "同様に",
+          "reading": "ドウヨウニ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 44,
+          "end": 47,
+          "surface": "詰めて",
+          "reading": "ツメテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 12,
+          "end": 17,
+          "surface": "どのように",
+          "reading": "ドノヨウニ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 46,
+          "end": 49,
+          "surface": "進めて",
+          "reading": "ススメテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 54: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201007_002",
+      "OriginalHash": "8e4eae3e48c3b57130a2416138922b3919c0bac0a0fd976330cecb1e47adaca8",
+      "old_pairs": [
+        {
+          "PairID": "b3e032d9-8771-54e5-b7e9-62b9cefb8c30",
+          "src_start": 5,
+          "src_end": 9,
+          "tgt_start": 5,
+          "tgt_end": 10,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 5,
+          "src_end": 9,
+          "tgt_start": 5,
+          "tgt_end": 10,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "b96a1ba2-0360-5002-8262-4ea65e58aee8"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 5,
+          "end": 9,
+          "surface": "陰に陽に",
+          "reading": "インニヨウニ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 5,
+          "end": 10,
+          "surface": "いいように",
+          "reading": "イイヨウニ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 57: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201008_008",
+      "OriginalHash": "b29055afa5aaeebeb860e6671db76955c042f68711c1fab9595984fa2efc1bc9",
+      "old_pairs": [
+        {
+          "PairID": "25205ac7-44ec-5f76-8989-c717588c2889",
+          "src_start": 24,
+          "src_end": 25,
+          "tgt_start": 24,
+          "tgt_end": 26,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 24,
+          "src_end": 25,
+          "tgt_start": 24,
+          "tgt_end": 26,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "75469947-f686-5a9b-98c9-84450688c4a5"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 24,
+          "end": 25,
+          "surface": "債",
+          "reading": "サイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 24,
+          "end": 26,
+          "surface": "さえ",
+          "reading": "サエ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 59: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201009_001",
+      "OriginalHash": "8ec4bbdc380906acfb6194de8d10a0a172f78b48db944d156ad315da944d1dcc",
+      "old_pairs": [
+        {
+          "PairID": "b7795744-9867-5a9c-9071-eea0dcc02409",
+          "src_start": 18,
+          "src_end": 22,
+          "tgt_start": 18,
+          "tgt_end": 21,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 18,
+          "src_end": 22,
+          "tgt_start": 18,
+          "tgt_end": 21,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "6236c85f-3381-51ab-bb67-9ebc85daabc7"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 18,
+          "end": 22,
+          "surface": "活性汚濁",
+          "reading": "カッセイオダク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 18,
+          "end": 21,
+          "surface": "過少で",
+          "reading": "カショウデ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 60: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201112_003",
+      "OriginalHash": "936143376f05b4b12673c80159f77270f7dfb73f9592ea25a59848885fb6b43c",
+      "old_pairs": [
+        {
+          "PairID": "99a29cfa-9530-5c27-b943-eb704c340dea",
+          "src_start": 7,
+          "src_end": 10,
+          "tgt_start": 7,
+          "tgt_end": 12,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 7,
+          "src_end": 10,
+          "tgt_start": 7,
+          "tgt_end": 12,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "d98421c7-8a09-57d6-bd19-f6f784d38575"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 7,
+          "end": 10,
+          "surface": "政府案",
+          "reading": "セイフアン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 7,
+          "end": 12,
+          "surface": "政府が応答",
+          "reading": "セイフガオウトウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 68: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201201_001",
+      "OriginalHash": "e199676335e1700b25f6688f1e97c0fbcff1d98dfc6176887afae101745e69a5",
+      "old_pairs": [
+        {
+          "PairID": "e71c973a-a225-58f7-9a03-1b595c0633f9",
+          "src_start": 44,
+          "src_end": 54,
+          "tgt_start": 44,
+          "tgt_end": 54,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 44,
+          "src_end": 54,
+          "tgt_start": 44,
+          "tgt_end": 54,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "8ae251ac-ec92-52b1-acea-a8ffa19c2194"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 44,
+          "end": 54,
+          "surface": "ご自身の身の安全確保",
+          "reading": "ゴジシンノミノアンゼンカクホ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 44,
+          "end": 54,
+          "surface": "ご自身のみの安全確保",
+          "reading": "ゴジシンノミノアンゼンカクホ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 69: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201201_008",
+      "OriginalHash": "f7fbb3d1d9321e429074bab8cc2cb3c8f6dc51233349c963fd9a07e61df1be3a",
+      "old_pairs": [
+        {
+          "PairID": "4f49b521-fb99-5f36-b082-4865bae199dd",
+          "src_start": 12,
+          "src_end": 18,
+          "tgt_start": 12,
+          "tgt_end": 15,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 12,
+          "src_end": 18,
+          "tgt_start": 12,
+          "tgt_end": 15,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "7dcd7ab9-5423-551b-9a72-3c999158d001"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 12,
+          "end": 18,
+          "surface": "しゃんしゃん",
+          "reading": "シャンシャン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 12,
+          "end": 15,
+          "surface": "３、３",
+          "reading": "サンサン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 71: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201203_002",
+      "OriginalHash": "06c04c2403e4aaf48830e79e4b116c6e92b2c9d6fceb986bd318255275e007b2",
+      "old_pairs": [
+        {
+          "PairID": "e5c7b405-560a-55dd-bc99-b6ce265c4dc1",
+          "src_start": 26,
+          "src_end": 29,
+          "tgt_start": 26,
+          "tgt_end": 31,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 26,
+          "src_end": 29,
+          "tgt_start": 26,
+          "tgt_end": 31,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "62e12a20-b092-5ec9-b3f1-9e4af3053213"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 26,
+          "end": 29,
+          "surface": "ＣＳＲ",
+          "reading": "シーエスアール",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 26,
+          "end": 31,
+          "surface": "支持される",
+          "reading": "シジサレル",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 72: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201204_008",
+      "OriginalHash": "a5373d4fd8ed73a49d649eb802138250633ce1eff27d29cabd1a5169fcbac1b0",
+      "old_pairs": [
+        {
+          "PairID": "5a20bfdd-17a1-5f13-a096-4dcbd6bb5e1d",
+          "src_start": 35,
+          "src_end": 39,
+          "tgt_start": 36,
+          "tgt_end": 42,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 35,
+          "src_end": 39,
+          "tgt_start": 36,
+          "tgt_end": 42,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "1830874b-90cb-57bd-b42d-1a33b2a052df"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 35,
+          "end": 39,
+          "surface": "ばかりに",
+          "reading": "バカリニ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 36,
+          "end": 42,
+          "surface": "わかる意味に",
+          "reading": "ワカルイミニ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 73: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201209_004",
+      "OriginalHash": "aa5978f311e472c3dce9c595b023cca2793ef1f4c759f23c2ef95c279a23e49a",
+      "old_pairs": [
+        {
+          "PairID": "a61609d2-275c-576f-b663-c164dd819a28",
+          "src_start": 39,
+          "src_end": 43,
+          "tgt_start": 37,
+          "tgt_end": 42,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 39,
+          "src_end": 43,
+          "tgt_start": 37,
+          "tgt_end": 42,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "265d9a26-5fec-584f-9b9f-475e51c00673"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 39,
+          "end": 43,
+          "surface": "義務づけ",
+          "reading": "ギムヅケ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 37,
+          "end": 42,
+          "surface": "急激に増え",
+          "reading": "キュウゲキニフエ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 76: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201209_005",
+      "OriginalHash": "861f767f95a255a1b804d8cd27de932cdcb0d784b0d4b0d621495ed7d0e1397f",
+      "old_pairs": [
+        {
+          "PairID": "230f8fed-58fd-5654-800f-f8be01fbcdf2",
+          "src_start": 44,
+          "src_end": 51,
+          "tgt_start": 44,
+          "tgt_end": 53,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 44,
+          "src_end": 51,
+          "tgt_start": 44,
+          "tgt_end": 53,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "d27b480a-7316-5348-8b3c-0278e7abd561"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 44,
+          "end": 51,
+          "surface": "つきまとい勧誘",
+          "reading": "ツキマトイカンユウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 44,
+          "end": 53,
+          "surface": "すき間というか回遊",
+          "reading": "スキマトイウカカイユウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 77: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201211_010",
+      "OriginalHash": "36a355f7cd3a1ca79e1e73a39010117f6714c866d0f42c9e35dce1be23f99250",
+      "old_pairs": [
+        {
+          "PairID": "795d3a3a-486b-5e37-8eb0-a7fd2d3b35b1",
+          "src_start": 27,
+          "src_end": 32,
+          "tgt_start": 27,
+          "tgt_end": 32,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 27,
+          "src_end": 32,
+          "tgt_start": 27,
+          "tgt_end": 32,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "482de828-3154-5d5c-a65d-435f52ddf8b3"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 27,
+          "end": 32,
+          "surface": "ＣＳＲ的な",
+          "reading": "シーエスアールテキナ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 27,
+          "end": 32,
+          "surface": "支援策的な",
+          "reading": "シエンサクテキナ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 80: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201310_001",
+      "OriginalHash": "2c11df50f25f60990ad43a793917cbd7a6a79e3d5ce02e435305d85d14274289",
+      "old_pairs": [
+        {
+          "PairID": "8f17473c-d0ae-5150-9cf7-7ca5a3d10e09",
+          "src_start": 43,
+          "src_end": 48,
+          "tgt_start": 43,
+          "tgt_end": 47,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 43,
+          "src_end": 48,
+          "tgt_start": 43,
+          "tgt_end": 47,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "26331f06-2850-52c0-9232-68825b37ffdc"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 43,
+          "end": 48,
+          "surface": "旧建、旧運",
+          "reading": "キュウケンキュウウン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 43,
+          "end": 47,
+          "surface": "９圏９群",
+          "reading": "キュウケンキュウグン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 82: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201311_001",
+      "OriginalHash": "0d245a3de362a87a382037cb3f6ab4e020da1564e77a60f45a9af40d3507b349",
+      "old_pairs": [
+        {
+          "PairID": "518d2544-c517-58e5-90c5-f3308b6d1d72",
+          "src_start": 29,
+          "src_end": 39,
+          "tgt_start": 29,
+          "tgt_end": 36,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 29,
+          "src_end": 39,
+          "tgt_start": 29,
+          "tgt_end": 36,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "ef07373d-f4e3-5699-9690-a5f569cc097c"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 29,
+          "end": 39,
+          "surface": "マックス・ウェーバー",
+          "reading": "マックスウェーバー",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 29,
+          "end": 36,
+          "surface": "ま、そういえば",
+          "reading": "マソウイエバ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 84: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201311_006",
+      "OriginalHash": "e799ff5fa6cfb1c9915d80053e7c61ca3545e0ff22a7942182465275213a20e2",
+      "old_pairs": [
+        {
+          "PairID": "49fbcf8e-a36c-5292-8b4f-a34fbf5f3525",
+          "src_start": 33,
+          "src_end": 40,
+          "tgt_start": 33,
+          "tgt_end": 37,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 33,
+          "src_end": 40,
+          "tgt_start": 33,
+          "tgt_end": 37,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "97a769c7-6a89-5db3-adfc-a57f8fb36335"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 33,
+          "end": 40,
+          "surface": "クオリティーを",
+          "reading": "クオリティーオ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 33,
+          "end": 37,
+          "surface": "効率比を",
+          "reading": "コウリツヒオ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 85: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201311_010",
+      "OriginalHash": "23168cdde720357f4e500aef6cc69eb4dc1e12a9e2bac68686a97e34b5ffa599",
+      "old_pairs": [
+        {
+          "PairID": "f4c56df5-d357-5d98-acc9-0030d9b10d8e",
+          "src_start": 27,
+          "src_end": 32,
+          "tgt_start": 27,
+          "tgt_end": 32,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 27,
+          "src_end": 32,
+          "tgt_start": 27,
+          "tgt_end": 32,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "0215e818-ea4f-54db-92bb-08efa956f9f7"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 27,
+          "end": 32,
+          "surface": "巻き起こし",
+          "reading": "マキオコシ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 27,
+          "end": 32,
+          "surface": "ま、強行し",
+          "reading": "マキョウコウシ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 86: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201312_001",
+      "OriginalHash": "d01b8a5808c371c043ccf712e45f00ed87050e9f17410a29eabb6c3615b66ffb",
+      "old_pairs": [
+        {
+          "PairID": "6105c197-7460-503d-b0c1-deb3bc6f9f59",
+          "src_start": 18,
+          "src_end": 20,
+          "tgt_start": 18,
+          "tgt_end": 21,
+          "unit_type": "word"
+        },
+        {
+          "PairID": "2ff385c2-3cf1-5904-8d60-d7ea5e62fb58",
+          "src_start": 83,
+          "src_end": 85,
+          "tgt_start": 84,
+          "tgt_end": 86,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 18,
+          "src_end": 20,
+          "tgt_start": 18,
+          "tgt_end": 21,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        },
+        {
+          "src_start": 83,
+          "src_end": 85,
+          "tgt_start": 84,
+          "tgt_end": 86,
+          "unit_type": "word",
+          "PairID": "2ff385c2-3cf1-5904-8d60-d7ea5e62fb58",
+          "SupersedesPairID": "a41dc8e6-e568-5add-a3c1-b1f379fe64b5"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 18,
+          "end": 20,
+          "surface": "力を",
+          "reading": "チカラヲ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 83,
+          "end": 85,
+          "surface": "自制",
+          "reading": "ジセイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 18,
+          "end": 21,
+          "surface": "しかる",
+          "reading": "シカル",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 84,
+          "end": 86,
+          "surface": "是正",
+          "reading": "ゼセイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 87: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201312_006",
+      "OriginalHash": "b9aa6ea1a3331a9af043cc75617e4a5705905491d2f57ab278fed36684243910",
+      "old_pairs": [
+        {
+          "PairID": "fff9e661-4bf5-5d84-a53d-f4c9bea2dad3",
+          "src_start": 22,
+          "src_end": 29,
+          "tgt_start": 22,
+          "tgt_end": 28,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 22,
+          "src_end": 29,
+          "tgt_start": 22,
+          "tgt_end": 28,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "57ac9a16-e397-52c2-b26d-92087d36b5e5"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 22,
+          "end": 29,
+          "surface": "イールドカーブ",
+          "reading": "イールドカーブ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 22,
+          "end": 28,
+          "surface": "インフレで株",
+          "reading": "インフレデカブ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 88: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201401_002",
+      "OriginalHash": "6295b386b4a9d7957b251603b05a586a4777d72d063178b867fa2918d11a81e3",
+      "old_pairs": [
+        {
+          "PairID": "2e4d163a-f594-589c-ab57-5559b267d024",
+          "src_start": 27,
+          "src_end": 31,
+          "tgt_start": 27,
+          "tgt_end": 35,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 27,
+          "src_end": 31,
+          "tgt_start": 27,
+          "tgt_end": 35,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "488200c6-70bf-557c-9150-2e5ed0a1fbd3"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 27,
+          "end": 31,
+          "surface": "高台移転",
+          "reading": "タカダイイテン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 27,
+          "end": 35,
+          "surface": "といった課題２点",
+          "reading": "トイッタカダイニテン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 89: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201409_001",
+      "OriginalHash": "2856a997ac66bd10af644200297c55488411789dd8819430c880d0d9251d543f",
+      "old_pairs": [
+        {
+          "PairID": "9dcfaaa2-fab9-5243-ab2e-a79dd12c7189",
+          "src_start": 46,
+          "src_end": 51,
+          "tgt_start": 46,
+          "tgt_end": 52,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 46,
+          "src_end": 51,
+          "tgt_start": 46,
+          "tgt_end": 52,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "c0247c2c-a99d-5c1f-9923-8a2b25e218d1"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 46,
+          "end": 51,
+          "surface": "後顧の憂い",
+          "reading": "コウコノウレイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 46,
+          "end": 52,
+          "surface": "公庫に売れる",
+          "reading": "コウコニウレル",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 91: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201411_002",
+      "OriginalHash": "085272cf6e956c125039cab49781a143f6279fe9ce9f4f48b63f92edce73a4e2",
+      "old_pairs": [
+        {
+          "PairID": "02488161-cc62-5939-8785-17d6d9a04145",
+          "src_start": 44,
+          "src_end": 49,
+          "tgt_start": 44,
+          "tgt_end": 48,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 44,
+          "src_end": 49,
+          "tgt_start": 44,
+          "tgt_end": 48,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "8ba9ad5e-7a96-5a28-ad12-4f08a6e758cf"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 44,
+          "end": 49,
+          "surface": "ガバナンス",
+          "reading": "ガバナンス",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 44,
+          "end": 48,
+          "surface": "側の指摘",
+          "reading": "ガワノシテキ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 92: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201411_003",
+      "OriginalHash": "df494484c7ffd9377c8bf6a7f09e34947c9a5883d06106d61ec613ae58100a39",
+      "old_pairs": [
+        {
+          "PairID": "8b568fea-747d-50d8-b896-d9149e50826a",
+          "src_start": 34,
+          "src_end": 38,
+          "tgt_start": 34,
+          "tgt_end": 39,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 34,
+          "src_end": 38,
+          "tgt_start": 34,
+          "tgt_end": 39,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "8419a1b6-6687-5966-a5dd-8634da1915be"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 34,
+          "end": 38,
+          "surface": "ＩＴＳの",
+          "reading": "アイティーエスノ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 34,
+          "end": 39,
+          "surface": "あえてその",
+          "reading": "アエテソノ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 93: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201505_001",
+      "OriginalHash": "a29ae51258dc2ba7a301cf4a2d42e2a238cd6b1bebcbe19e940b6ce89c546101",
+      "old_pairs": [
+        {
+          "PairID": "9c63434d-89b8-56d2-93dd-69d6e2a36a62",
+          "src_start": 13,
+          "src_end": 18,
+          "tgt_start": 13,
+          "tgt_end": 17,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 13,
+          "src_end": 18,
+          "tgt_start": 13,
+          "tgt_end": 17,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "42b0894d-021e-579c-8b51-afbeec10e967"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 13,
+          "end": 18,
+          "surface": "どれを購入",
+          "reading": "ドレオコウニュウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 13,
+          "end": 17,
+          "surface": "度量衡に",
+          "reading": "ドリョウコウニ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 96: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201506_008",
+      "OriginalHash": "3175a0f1fd627136b652b295023c4c55f852180acbe590af7276a1ba5824122a",
+      "old_pairs": [
+        {
+          "PairID": "d2aa7bca-8976-587a-a1f2-c314dd6c3e6d",
+          "src_start": 18,
+          "src_end": 23,
+          "tgt_start": 18,
+          "tgt_end": 23,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 18,
+          "src_end": 23,
+          "tgt_start": 18,
+          "tgt_end": 23,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "25080e08-d10a-52b9-a545-3a8af912fe1c"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 18,
+          "end": 23,
+          "surface": "附帯決議が",
+          "reading": "フタイケツギガ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 18,
+          "end": 23,
+          "surface": "具体的には",
+          "reading": "グタイテキニワ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 97: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201509_008",
+      "OriginalHash": "7c1b4bc1d25a1abdf983168555230f2dfe95fd6610a9acf747d35ec219dddbcf",
+      "old_pairs": [
+        {
+          "PairID": "209c36ba-3831-5c87-807f-f59a9535e6f0",
+          "src_start": 16,
+          "src_end": 18,
+          "tgt_start": 16,
+          "tgt_end": 19,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 16,
+          "src_end": 18,
+          "tgt_start": 16,
+          "tgt_end": 19,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "8e6d12ac-2486-5322-ac20-e60ab2efab21"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 16,
+          "end": 18,
+          "surface": "朔望",
+          "reading": "サクボウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 16,
+          "end": 19,
+          "surface": "サブの",
+          "reading": "サブノ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 99: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201512_003",
+      "OriginalHash": "5787b0745ede0d89f0548dd966add632159ae81fb5d09382cfaf89f39d1e0552",
+      "old_pairs": [
+        {
+          "PairID": "0d783327-2b7b-5d24-a86e-b16d22e8cb85",
+          "src_start": 7,
+          "src_end": 14,
+          "tgt_start": 7,
+          "tgt_end": 14,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 7,
+          "src_end": 14,
+          "tgt_start": 7,
+          "tgt_end": 14,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 7,
+          "end": 14,
+          "surface": "まかりならない",
+          "reading": "まかりならない",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 7,
+          "end": 14,
+          "surface": "ばかにならない",
+          "reading": "ばかにならない",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 101: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201605_007",
+      "OriginalHash": "93924490bff0cf12779a655fb4bf77863394ac58304de5c60b1ca4d412977b9a",
+      "old_pairs": [
+        {
+          "PairID": "420305c4-b42b-5531-8806-1570a9770e11",
+          "src_start": 12,
+          "src_end": 16,
+          "tgt_start": 12,
+          "tgt_end": 16,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 12,
+          "src_end": 16,
+          "tgt_start": 12,
+          "tgt_end": 16,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "3fce0a13-e405-5b0d-b304-61b8fc44efbd"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 12,
+          "end": 16,
+          "surface": "徒過して",
+          "reading": "トカシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 12,
+          "end": 16,
+          "surface": "溶かして",
+          "reading": "トカシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 103: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201606_007",
+      "OriginalHash": "cbe8173c9b423461033600f49f74c91a20c645c4abca2677b052989d71a7966d",
+      "old_pairs": [
+        {
+          "PairID": "87444347-0be0-506f-83c1-d76b0e620b02",
+          "src_start": 20,
+          "src_end": 24,
+          "tgt_start": 20,
+          "tgt_end": 25,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 20,
+          "src_end": 24,
+          "tgt_start": 20,
+          "tgt_end": 25,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "d10cd762-cfed-5f6f-9e0d-2481e596b82c"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 20,
+          "end": 24,
+          "surface": "代謝する",
+          "reading": "タイシャスル",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 20,
+          "end": 25,
+          "surface": "耐えさせる",
+          "reading": "タエサセル",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 105: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201608_002",
+      "OriginalHash": "35f19c8c7d32bceedd5078c98d834e2dcb63e7299e602e03d5c6d06ba4e6fe2a",
+      "old_pairs": [
+        {
+          "PairID": "44649b5a-0e22-590d-a9ba-2ddb9facfa4b",
+          "src_start": 12,
+          "src_end": 16,
+          "tgt_start": 12,
+          "tgt_end": 17,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 12,
+          "src_end": 16,
+          "tgt_start": 12,
+          "tgt_end": 17,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "e2ae84bd-b62c-5082-a1e3-4912bf483449"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 12,
+          "end": 16,
+          "surface": "大荒れの",
+          "reading": "オオアレノ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 12,
+          "end": 17,
+          "surface": "に追われる",
+          "reading": "ニオワレル",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 106: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201612_001",
+      "OriginalHash": "f06515ff5d55cfac95bbd73004e43d62d228109faab1ca428030fc11c32cd552",
+      "old_pairs": [
+        {
+          "PairID": "90cee975-ac0e-581d-a0bb-3c128f5575d2",
+          "src_start": 8,
+          "src_end": 15,
+          "tgt_start": 8,
+          "tgt_end": 14,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 8,
+          "src_end": 15,
+          "tgt_start": 8,
+          "tgt_end": 14,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "eefedafe-cdbe-5645-81e0-90918bac7ebf"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 8,
+          "end": 15,
+          "surface": "床の間背にして",
+          "reading": "トコノマセニシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 8,
+          "end": 14,
+          "surface": "綻ばせにして",
+          "reading": "ホコロバセニシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 109: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201612_002",
+      "OriginalHash": "71c4b3602d7af9d746941afdfd31c532fb5ea0a40077966b5c8bd1c33e7bd219",
+      "old_pairs": [
+        {
+          "PairID": "79b91b31-9b96-5c5f-9cca-81303f935ea5",
+          "src_start": 4,
+          "src_end": 7,
+          "tgt_start": 4,
+          "tgt_end": 8,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 4,
+          "src_end": 7,
+          "tgt_start": 4,
+          "tgt_end": 8,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "8bb63e72-d754-51da-8fe3-cf38efc1631f"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 4,
+          "end": 7,
+          "surface": "更問い",
+          "reading": "サラトイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 4,
+          "end": 8,
+          "surface": "さらっと",
+          "reading": "サラット",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 110: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201612_007",
+      "OriginalHash": "575101fe888a7d611dc0136ec1ded1d0215f7380c15191a4bd87c7b68fb25894",
+      "old_pairs": [
+        {
+          "PairID": "f18b2806-f476-57c5-8e50-8879329cdd23",
+          "src_start": 7,
+          "src_end": 10,
+          "tgt_start": 7,
+          "tgt_end": 12,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 7,
+          "src_end": 10,
+          "tgt_start": 7,
+          "tgt_end": 12,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "aa350c7d-bb04-5f6e-8222-43d1f9dbd645"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 7,
+          "end": 10,
+          "surface": "総地積",
+          "reading": "ソウチセキ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 7,
+          "end": 12,
+          "surface": "そうすべき",
+          "reading": "ソウスベキ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 111: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201706_004",
+      "OriginalHash": "55a79d326b8da76f9ed8970ce8a6c4d21f98e71ed1146ff25902b8fa2aec1ebe",
+      "old_pairs": [
+        {
+          "PairID": "c19838ab-55d1-59ad-b1a7-5916d30dfc83",
+          "src_start": 3,
+          "src_end": 6,
+          "tgt_start": 3,
+          "tgt_end": 5,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 6,
+          "tgt_start": 3,
+          "tgt_end": 5,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "3d3c2421-0703-5447-9382-1e15b585392a"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 6,
+          "surface": "増資を",
+          "reading": "ゾウシオ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "surface": "増床",
+          "reading": "ゾウショウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 113: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201707_008",
+      "OriginalHash": "2ec8ad2c65554520804440758b77a1d321a5fee9afbc8f613c8b44107a352332",
+      "old_pairs": [
+        {
+          "PairID": "d66eb37c-a2cb-50a6-bc3a-dbadd0a70e8d",
+          "src_start": 2,
+          "src_end": 7,
+          "tgt_start": 2,
+          "tgt_end": 7,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 2,
+          "src_end": 7,
+          "tgt_start": 2,
+          "tgt_end": 7,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "0f513ffc-d557-506b-8115-7d3eba569da7"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 2,
+          "end": 7,
+          "surface": "命令・裁定",
+          "reading": "メイレイサイテイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 2,
+          "end": 7,
+          "surface": "命令されて",
+          "reading": "メイレイサレテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 114: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201709_009",
+      "OriginalHash": "86b4479dd2a704eadd33d3eb93394adcd249752e8a5defc32d02be59fd5d4052",
+      "old_pairs": [
+        {
+          "PairID": "b5695f92-b4aa-539d-b4c2-966313f17c04",
+          "src_start": 17,
+          "src_end": 20,
+          "tgt_start": 17,
+          "tgt_end": 22,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 17,
+          "src_end": 20,
+          "tgt_start": 17,
+          "tgt_end": 22,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "9f638fbf-a831-517f-bc21-f62983cdbc6c"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 17,
+          "end": 20,
+          "surface": "１点目",
+          "reading": "イッテンメ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 17,
+          "end": 22,
+          "surface": "言ってみる",
+          "reading": "イッテミル",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 116: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201711_003",
+      "OriginalHash": "df4c7b96d599d67ab1d860bda725807e59805a25787713d30652fd90a4ea2a6b",
+      "old_pairs": [
+        {
+          "PairID": "03e0302c-579c-5173-996e-d94bc5740b24",
+          "src_start": 12,
+          "src_end": 18,
+          "tgt_start": 12,
+          "tgt_end": 15,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 12,
+          "src_end": 18,
+          "tgt_start": 12,
+          "tgt_end": 15,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "759b6c3c-969a-5a2e-8af4-44a3c427d0d9"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 12,
+          "end": 18,
+          "surface": "ケースアンド",
+          "reading": "ケースアンド",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 12,
+          "end": 15,
+          "surface": "計算と",
+          "reading": "ケイサント",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 117: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201801_001",
+      "OriginalHash": "26c8b9094b53f8402ff94e2ca17bf1ade9846b8a968f9042d57bd07c3c98756b",
+      "old_pairs": [
+        {
+          "PairID": "54545405-ce27-55ab-bad2-0ad4f159b4a1",
+          "src_start": 11,
+          "src_end": 16,
+          "tgt_start": 9,
+          "tgt_end": 16,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 11,
+          "src_end": 16,
+          "tgt_start": 9,
+          "tgt_end": 16,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "669509af-e734-5c46-a898-fee416fbeb52"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 11,
+          "end": 16,
+          "surface": "かなり公的",
+          "reading": "カナリコウテキ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 9,
+          "end": 16,
+          "surface": "真っ赤な遺構的",
+          "reading": "マッカナイコウテキ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 118: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201801_005",
+      "OriginalHash": "a8f57d80374014f5c0b29912d4abaa9689df8e9bd46eae67dbddc044fc63b1c0",
+      "old_pairs": [
+        {
+          "PairID": "8f2c424a-6a7f-5d1e-a3d9-4fcf59ca51c1",
+          "src_start": 3,
+          "src_end": 7,
+          "tgt_start": 3,
+          "tgt_end": 8,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 7,
+          "tgt_start": 3,
+          "tgt_end": 8,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "6f3e2db6-7cb9-5326-9706-f960ab9e72c2"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 7,
+          "surface": "３階建て",
+          "reading": "サンカイダテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 8,
+          "surface": "桟がでかい",
+          "reading": "サンガデカイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 119: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201801_010",
+      "OriginalHash": "f1f836d7d50a1e1f9351be2258f3070d0b4258cbf60ba32a7dc445b162f84393",
+      "old_pairs": [
+        {
+          "PairID": "e437f8fc-a833-5eaa-85df-9026f90524b9",
+          "src_start": 11,
+          "src_end": 14,
+          "tgt_start": 11,
+          "tgt_end": 16,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 11,
+          "src_end": 14,
+          "tgt_start": 11,
+          "tgt_end": 16,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "cc2d54e5-425a-559e-ac21-fbcf010a9c79"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 11,
+          "end": 14,
+          "surface": "年換算",
+          "reading": "ネンカンサン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 11,
+          "end": 16,
+          "surface": "年間じゃん",
+          "reading": "ネンカンジャン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 120: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201804_001",
+      "OriginalHash": "c8eb26244bcc201f20d2acb2b7a7c0aa307c730269615d0bc4edd05657597b90",
+      "old_pairs": [
+        {
+          "PairID": "66a8de26-c565-5692-82f9-74525c6c756d",
+          "src_start": 18,
+          "src_end": 23,
+          "tgt_start": 18,
+          "tgt_end": 24,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 18,
+          "src_end": 23,
+          "tgt_start": 18,
+          "tgt_end": 24,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "42045a86-f19b-5f5e-905c-f8b11fd2e80e"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 18,
+          "end": 23,
+          "surface": "ＯＥＣＤと",
+          "reading": "オーイーシーディート",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 18,
+          "end": 24,
+          "surface": "おいしいねと",
+          "reading": "オイシイネト",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 122: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201805_001",
+      "OriginalHash": "8a65a50c0044ccd2ef14c3577b0598ea1d8247c66b938bc0d45e088b57afd2a1",
+      "old_pairs": [
+        {
+          "PairID": "c072b8e1-8195-5b6b-9562-f64eecbd0435",
+          "src_start": 18,
+          "src_end": 24,
+          "tgt_start": 18,
+          "tgt_end": 25,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 18,
+          "src_end": 24,
+          "tgt_start": 18,
+          "tgt_end": 25,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 18,
+          "end": 24,
+          "surface": "アプリオリに",
+          "reading": "アプリオリに",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 18,
+          "end": 25,
+          "surface": "あふれるように",
+          "reading": "あふれるように",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 124: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201807_003",
+      "OriginalHash": "ed5adc6beee2370f356707316ae74323429bd09edec8d8bacdb4eb3a34590a06",
+      "old_pairs": [
+        {
+          "PairID": "3e48795e-87ba-5ec1-bc75-b709a302f593",
+          "src_start": 8,
+          "src_end": 18,
+          "tgt_start": 8,
+          "tgt_end": 14,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 8,
+          "src_end": 18,
+          "tgt_start": 8,
+          "tgt_end": 14,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "405b3589-09bd-59bc-9c3e-8a8465449769"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 8,
+          "end": 18,
+          "surface": "サイバーインシデント",
+          "reading": "サイバーインシデント",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 8,
+          "end": 14,
+          "surface": "災害事件とか",
+          "reading": "サイガイジケントカ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 126: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201811_001",
+      "OriginalHash": "2b03dc1e46d0398b71e0c8e2ef248ee2453aa2df2aeff44b1dfc51ccd4ca599e",
+      "old_pairs": [
+        {
+          "PairID": "c1747914-7adb-5828-8b59-6e210b6c733e",
+          "src_start": 16,
+          "src_end": 21,
+          "tgt_start": 16,
+          "tgt_end": 19,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 16,
+          "src_end": 21,
+          "tgt_start": 16,
+          "tgt_end": 19,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "7278805d-0bcb-5462-8ab6-551a175bb3ee"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 16,
+          "end": 21,
+          "surface": "手法っつう",
+          "reading": "シュホウッツウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 16,
+          "end": 19,
+          "surface": "ＣＯ２",
+          "reading": "シーオーツー",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 128: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201812_005",
+      "OriginalHash": "9e496efc6e3aa4fbf625bc5ee421ee46401fcf7edc7b1765e16fe3e18b486171",
+      "old_pairs": [
+        {
+          "PairID": "c1e25682-43d5-5f68-8d2e-a5ba2fbde614",
+          "src_start": 3,
+          "src_end": 8,
+          "tgt_start": 3,
+          "tgt_end": 9,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 8,
+          "tgt_start": 3,
+          "tgt_end": 9,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "8aa58cf9-e32b-5b34-b5f1-e3b6f8931d91"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 8,
+          "surface": "５年前の話",
+          "reading": "ゴネンマエノハナシ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 9,
+          "surface": "語弊のある話",
+          "reading": "ゴヘイノアルハナシ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 129: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201903_001",
+      "OriginalHash": "7f2b61836123dcd8314067666898e56617df8ff7332cb38b2685799bc2bf96d8",
+      "old_pairs": [
+        {
+          "PairID": "de34f889-bb58-5c85-8b3b-b35def76eb53",
+          "src_start": 16,
+          "src_end": 21,
+          "tgt_start": 16,
+          "tgt_end": 21,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 16,
+          "src_end": 21,
+          "tgt_start": 16,
+          "tgt_end": 21,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "52e832a8-e678-5437-be8c-e501994fd8f0"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 16,
+          "end": 21,
+          "surface": "シジフォス",
+          "reading": "シジフォス",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 16,
+          "end": 21,
+          "surface": "指示を欲す",
+          "reading": "シジオホッス",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 130: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201907_003",
+      "OriginalHash": "754f386dd81be1c174b4fba3459a4b91bfa5f5bb312c6cf5eb0cfef6d1e0315a",
+      "old_pairs": [
+        {
+          "PairID": "457b462f-ede3-54ee-9b05-5781abd896a3",
+          "src_start": 6,
+          "src_end": 10,
+          "tgt_start": 6,
+          "tgt_end": 13,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 6,
+          "src_end": 10,
+          "tgt_start": 6,
+          "tgt_end": 13,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "196d9023-361f-54a5-9c12-052dc9175b87"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 6,
+          "end": 10,
+          "surface": "対となる",
+          "reading": "ツイトナル",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 6,
+          "end": 13,
+          "surface": "ツイートのある",
+          "reading": "ツイートノアル",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 132: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202002_003",
+      "OriginalHash": "1bd93ff824e8c97c31d20d28501dd044bde5eea3f3f85a35cd14215b3dfc429c",
+      "old_pairs": [
+        {
+          "PairID": "8d54b72e-8f4b-5246-b2c1-c964f4afa6df",
+          "src_start": 11,
+          "src_end": 13,
+          "tgt_start": 11,
+          "tgt_end": 14,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 11,
+          "src_end": 13,
+          "tgt_start": 11,
+          "tgt_end": 14,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 11,
+          "end": 13,
+          "surface": "次第",
+          "reading": "シダイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 11,
+          "end": 14,
+          "surface": "しない",
+          "reading": "シナイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 133: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202005_001",
+      "OriginalHash": "54b4d8e6909809dbb936e5a86a6313a3679bbbe40a91cf23de97f9ec353f1f2c",
+      "old_pairs": [
+        {
+          "PairID": "40870051-fcfe-589b-bf93-0013e43f0191",
+          "src_start": 5,
+          "src_end": 9,
+          "tgt_start": 5,
+          "tgt_end": 11,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 5,
+          "src_end": 9,
+          "tgt_start": 5,
+          "tgt_end": 11,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "c3bd761b-fa2a-55ec-a803-7e292f345a07"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 5,
+          "end": 9,
+          "surface": "供試体等",
+          "reading": "キョウシタイトウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 5,
+          "end": 11,
+          "surface": "今日したいと",
+          "reading": "キョウシタイト",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 135: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202103_001",
+      "OriginalHash": "37ec07452bbcebb930767f9746aab71b7adcd2fa036fc00a5fb116e0ee6836fa",
+      "old_pairs": [
+        {
+          "PairID": "461a83c5-1570-5f82-97de-43617788d58e",
+          "src_start": 8,
+          "src_end": 15,
+          "tgt_start": 8,
+          "tgt_end": 12,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 8,
+          "src_end": 15,
+          "tgt_start": 8,
+          "tgt_end": 12,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "c9a85d03-e4ab-5275-a5ae-eabed773a064"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 8,
+          "end": 15,
+          "surface": "①",
+          "reading": "マルイチ",
+          "meanings": [],
+          "qualifiers": [
+            "原資料表記中の括弧注記 （まるいち） は語の説明・読みの補助であり、選択語の発音に追加しない。"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 8,
+          "end": 12,
+          "surface": "ま、類似",
+          "reading": "マルイジ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 137: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202108_003",
+      "OriginalHash": "e4e6795357f2f18ffc3713b56df5b441305421fed59ece63e45c7bc798204cc0",
+      "old_pairs": [
+        {
+          "PairID": "745d37bc-80d5-529e-b8a8-7c50673e44ec",
+          "src_start": 6,
+          "src_end": 8,
+          "tgt_start": 6,
+          "tgt_end": 9,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 6,
+          "src_end": 8,
+          "tgt_start": 6,
+          "tgt_end": 9,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "05a6c776-5782-5c87-a416-64b9cdedfbaa"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 6,
+          "end": 8,
+          "surface": "多と",
+          "reading": "タト",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 6,
+          "end": 9,
+          "surface": "あった",
+          "reading": "アッタ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 139: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202109_005",
+      "OriginalHash": "714e4b281bbf1f89fa0008620ebd0f0e65a9b9b29c0df4a4a4ed6c3b17d0b55d",
+      "old_pairs": [
+        {
+          "PairID": "a9bf6223-8dd5-57cd-ba48-9829dca941b4",
+          "src_start": 13,
+          "src_end": 20,
+          "tgt_start": 13,
+          "tgt_end": 18,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 13,
+          "src_end": 20,
+          "tgt_start": 13,
+          "tgt_end": 18,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "1f1f3d0b-527f-5191-b5e2-54327bbda2df"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 13,
+          "end": 20,
+          "surface": "アジテーション",
+          "reading": "アジテーション",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 13,
+          "end": 18,
+          "surface": "アジと一緒",
+          "reading": "アジトイッショ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 141: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202110_001",
+      "OriginalHash": "15aa934f4945ac7d942e7d8e95b637fbc05cff1e77ece35f4ec301a31fd77505",
+      "old_pairs": [
+        {
+          "PairID": "7e519097-eae0-5ac9-8adf-24cc45dcdb17",
+          "src_start": 4,
+          "src_end": 6,
+          "tgt_start": 4,
+          "tgt_end": 6,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 4,
+          "src_end": 6,
+          "tgt_start": 4,
+          "tgt_end": 6,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "3b2f8547-0b59-565e-9b36-0bf1b3eb7df7"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 4,
+          "end": 6,
+          "surface": "官が",
+          "reading": "カンガ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 4,
+          "end": 6,
+          "surface": "考え",
+          "reading": "カンガエ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 142: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202112_001",
+      "OriginalHash": "c94cbf1968acafcb2ac0c0638df557edac433aafcd2a251167fcbfcf68b0a737",
+      "old_pairs": [
+        {
+          "PairID": "c49123e2-b2ea-5836-9c4a-018b364dfa9f",
+          "src_start": 23,
+          "src_end": 28,
+          "tgt_start": 23,
+          "tgt_end": 29,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 23,
+          "src_end": 28,
+          "tgt_start": 23,
+          "tgt_end": 29,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "032c2383-0ee6-574d-a341-a762f1d7f7de"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 23,
+          "end": 28,
+          "surface": "第一の原因",
+          "reading": "ダイイチノゲンイン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 23,
+          "end": 29,
+          "surface": "大地のゲイン",
+          "reading": "ダイチノゲイン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 143: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202202_002",
+      "OriginalHash": "4c8571352a49c0476fb7e83854367ba1a1675e4e6cc1a85306e33a9f738fdb64",
+      "old_pairs": [
+        {
+          "PairID": "9e43b262-09c7-565f-af92-6b48c8ed4956",
+          "src_start": 2,
+          "src_end": 5,
+          "tgt_start": 2,
+          "tgt_end": 4,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 2,
+          "src_end": 5,
+          "tgt_start": 2,
+          "tgt_end": 4,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 2,
+          "end": 5,
+          "surface": "マネー",
+          "reading": "マネー",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 2,
+          "end": 4,
+          "surface": "まで",
+          "reading": "マデ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 145: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202207_002",
+      "OriginalHash": "ba0dc7d98138274f33a0f6913455673079fe30b83f2e76f8c79a16aeaf39ad09",
+      "old_pairs": [
+        {
+          "PairID": "76cb8e95-b4fa-5e92-ad16-ff384c4b923c",
+          "src_start": 7,
+          "src_end": 13,
+          "tgt_start": 7,
+          "tgt_end": 11,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 7,
+          "src_end": 13,
+          "tgt_start": 7,
+          "tgt_end": 11,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "15cc8895-1a0c-5540-9299-d27e01d7cddc"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 7,
+          "end": 13,
+          "surface": "どこか探して",
+          "reading": "ドコカサガシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 7,
+          "end": 11,
+          "surface": "傘貸して",
+          "reading": "カサカシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 147: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202210_003",
+      "OriginalHash": "8017c9791491515c397f51748aad9991e1e92d77ed5f400b5e7dc900284d93ea",
+      "old_pairs": [
+        {
+          "PairID": "e14ceec5-263f-5c02-ae9f-78a015462abf",
+          "src_start": 16,
+          "src_end": 22,
+          "tgt_start": 16,
+          "tgt_end": 19,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 16,
+          "src_end": 22,
+          "tgt_start": 16,
+          "tgt_end": 19,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "a62996dc-d838-5085-8113-c76ab2f9616e"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 16,
+          "end": 22,
+          "surface": "ローンチして",
+          "reading": "ローンチシテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 16,
+          "end": 19,
+          "surface": "論じて",
+          "reading": "ロンジテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 148: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202210_004",
+      "OriginalHash": "a7e9b7e0effc9d62aaf7ee77aed82cc6953ce39e4afa3a1daa3e64fe13fd6d66",
+      "old_pairs": [
+        {
+          "PairID": "08d311dc-1c81-5f7f-ab6e-478f8817b093",
+          "src_start": 12,
+          "src_end": 18,
+          "tgt_start": 12,
+          "tgt_end": 18,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 12,
+          "src_end": 18,
+          "tgt_start": 12,
+          "tgt_end": 18,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "1935f672-e94e-55e8-9fde-ffe6976c3d97"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 12,
+          "end": 18,
+          "surface": "エフォートは",
+          "reading": "エフォートワ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 12,
+          "end": 18,
+          "surface": "ええほうとは",
+          "reading": "エエホウトワ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 149: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202211_001",
+      "OriginalHash": "d8102e491fb50d9109dc072f57d443fecff53bf377bc7843cd08b095c6f50a4b",
+      "old_pairs": [
+        {
+          "PairID": "52b0911d-88d4-5a7f-996e-20c26016928d",
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "08855160-c1b3-5dba-b509-a8cfcab02280"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "営業マターの",
+          "reading": "エイギョウマターノ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "営業、また、あの",
+          "reading": "エイギョウマタアノ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 150: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202211_002",
+      "OriginalHash": "63b5ffa84a77af000b5d3899649e73595b400d25e690f6c381d53d85e5be3f50",
+      "old_pairs": [
+        {
+          "PairID": "b5a561fe-e3e0-5626-9b91-0f25edb77d1e",
+          "src_start": 9,
+          "src_end": 13,
+          "tgt_start": 9,
+          "tgt_end": 13,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 9,
+          "src_end": 13,
+          "tgt_start": 9,
+          "tgt_end": 13,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "aaa594b7-27a6-5092-be8d-961092893526"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 9,
+          "end": 13,
+          "surface": "奇貨居く",
+          "reading": "キカオク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 9,
+          "end": 13,
+          "surface": "機械置く",
+          "reading": "キカイオク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 151: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "kyoto55taxi_4284_009",
+      "OriginalHash": "ac59af8b28c67522e0f99d800f85dcbbdb60a57bc93abc712b8142735c6cc372",
+      "old_pairs": [
+        {
+          "PairID": "8df2b299-2404-5208-98b6-b5d756a086f5",
+          "src_start": 0,
+          "src_end": 13,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 13,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "a6defd1c-f6c0-5810-93e4-9d52ffe6bbed"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "surface": "南丹の八木",
+          "reading": "ナンタンノヤギ",
+          "meanings": [],
+          "qualifiers": [
+            "やぎ、京都府"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "奈良県のヤギ",
+          "reading": "ナラケンノヤギ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 186: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www1101com_iimatugai_archive_more051128_007",
+      "OriginalHash": "0b2cb033fa13e38848e289f17ccc19769bf8ffd5d6e7a64f8180d35b40e45383",
+      "old_pairs": [
+        {
+          "PairID": "12c8652a-2830-5f98-8b8c-3dcf9e8c5de0",
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "コンコースで",
+          "reading": "コンコースデ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "高校生",
+          "reading": "コウコウセイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 240: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www1101iimatugai060228_007",
+      "OriginalHash": "0403c2737bdea3884d9f5f766d21b619b0c484681c612232cfaf3931acd09301",
+      "old_pairs": [
+        {
+          "PairID": "ff65c633-25e0-589a-a174-9ab513f96d5b",
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "謹んで",
+          "reading": "ツツシンデ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "キスシーンで",
+          "reading": "キスシーンデ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 241: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_050704_016",
+      "OriginalHash": "bc7f0f9f3ba18b6856a2de5ba6eee6a654fa0ba6b5310dde27121665bda63bc2",
+      "old_pairs": [
+        {
+          "PairID": "4334da47-7a75-5501-8e47-9ec6ec9dca7e",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "きつねの嫁入り",
+          "reading": "キツネノヨメイリ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "けつななめより",
+          "reading": "ケツナナメヨリ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 243: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_050704_017",
+      "OriginalHash": "5d8306c1bd340d4131a1fa3630c604c3ee9caa2951994bda6973a61d0e0100ee",
+      "old_pairs": [
+        {
+          "PairID": "c2d5ffe2-1f5e-5fce-b675-d916d6dbf1f0",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "きつねの嫁入り",
+          "reading": "キツネノヨメイリ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "けつななまがり",
+          "reading": "ケツナナマガリ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 244: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_2010-01-06_html_005",
+      "OriginalHash": "c157faf102ae8e84d3ca6d60cb994565f1c0b4333cae78e09e1fbd425db993f7",
+      "old_pairs": [
+        {
+          "PairID": "b884e4a1-677f-5c06-9b90-3bd8b24cc096",
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "みりんと",
+          "reading": "みりんと",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "ミジンコ",
+          "reading": "ミジンコ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 246: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more050912_010",
+      "OriginalHash": "dc8c95779635d77c46752d97a0a4453e59712160eadce0afe3a8f47e8fed24d7",
+      "old_pairs": [
+        {
+          "PairID": "210d9903-cfb0-5daf-a644-baa86be4420e",
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "いいですー",
+          "reading": "いいですー",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "イエース",
+          "reading": "イエース",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 255: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more060613_html_010",
+      "OriginalHash": "11cb0427b0f9d69bfebb370e2fb09751637fc542f23586e7c78c6a17fc22ccff",
+      "old_pairs": [
+        {
+          "PairID": "2fe0a79e-21a2-5819-adec-0586d02a1fa2",
+          "src_start": 0,
+          "src_end": 8,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 8,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "いただきものだよ",
+          "reading": "イタダキモノダヨ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "ドラえもんだけど",
+          "reading": "ドラエモンダケド",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 257: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more061025_009",
+      "OriginalHash": "3ca5feb6e85cbda60f177ca49fbb69e300f38be5d543d8ec874bf02f7be41ce0",
+      "old_pairs": [
+        {
+          "PairID": "fc24d433-d34d-5e79-8195-f81f0a4bb936",
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "8771b013-b9d6-51b6-8a4c-40eab88e0aa3"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "うん聞きたい",
+          "reading": "ウンキキタイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "うんちしたい",
+          "reading": "ウンチシタイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 262: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more070828_html_001",
+      "OriginalHash": "b7837b9e0c3fea1df943f08beb5496a074d95f092a14f750d39d1c741de2765a",
+      "old_pairs": [
+        {
+          "PairID": "87fb50ff-f4de-5d58-8cca-57405268d455",
+          "src_start": 0,
+          "src_end": 12,
+          "tgt_start": 0,
+          "tgt_end": 11,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 12,
+          "tgt_start": 0,
+          "tgt_end": 11,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 12,
+          "surface": "イタリアちょーすげーよね",
+          "reading": "イタリアちょーすげーよね",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 11,
+          "surface": "いかりやちょうすけよね",
+          "reading": "いかりやちょうすけよね",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 263: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more080513_002",
+      "OriginalHash": "fe63ab7f2458cab22efd9214cf59761f0d81d4f0578361339b068f764140b767",
+      "old_pairs": [
+        {
+          "PairID": "6ce1b5ea-3bec-54d8-b97f-949f02eadf76",
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "プリントが",
+          "reading": "プリントが",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "プリンとか",
+          "reading": "プリンとか",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 271: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more080521_005",
+      "OriginalHash": "6da4ca27f159da902fd23577a63b3387c69bb135581a1a8b6ad53bb23fd3d1bb",
+      "old_pairs": [
+        {
+          "PairID": "36ed1a22-69f0-58e0-a846-dc3c8460cbf2",
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "ワインレッド",
+          "reading": "ワインレッド",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "バラのベージュ",
+          "reading": "バラノベージュ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 272: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more080611_003",
+      "OriginalHash": "41e62f59f1659b2115390d6cd7eaf53a233dd25e68618a91174d878a6da24a5b",
+      "old_pairs": [
+        {
+          "PairID": "1e0c9dc1-913e-530d-a148-58412977bdf0",
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "ワシントンで",
+          "reading": "ワシントンで",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "バシッと",
+          "reading": "バシッと",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 273: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more080923_004",
+      "OriginalHash": "3b0864e4270d869999fb0be3d7bdeae6bf1f63dfda9c29f3a352853362a35ba9",
+      "old_pairs": [
+        {
+          "PairID": "72c1bee4-a708-5964-9d2a-08a81ea43794",
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "オズの",
+          "reading": "オズノ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "大相撲",
+          "reading": "オオズモウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 275: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_m_iimatugai_290_html_014",
+      "OriginalHash": "c3c350830ac28cd686d3829bb27b18dd5f6647dbe2ba2e6e0b4d9af487ebd234",
+      "old_pairs": [
+        {
+          "PairID": "668d29f4-76f3-52eb-833d-7a23785a8ae7",
+          "src_start": 0,
+          "src_end": 11,
+          "tgt_start": 0,
+          "tgt_end": 11,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 11,
+          "tgt_start": 0,
+          "tgt_end": 11,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 11,
+          "surface": "ねむたくなっちゃったな",
+          "reading": "ねむたくなっちゃったな",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 11,
+          "surface": "やめたくなっちゃったな",
+          "reading": "やめたくなっちゃったな",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 288: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_m_iimatugai_544_html_010",
+      "OriginalHash": "0e013c601691d07a0e51feb0fea2d59327652dc39dccff195de4913586dd8a7c",
+      "old_pairs": [
+        {
+          "PairID": "af70cf66-295a-59f2-a5cb-57508d701228",
+          "src_start": 0,
+          "src_end": 8,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 8,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "いらっしゃいませ",
+          "reading": "イラッシャイマセー",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "せんせ",
+          "reading": "センセーイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 291: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_m_pl_iimatugai_105993_001",
+      "OriginalHash": "380e709f7551721edb129826ddf72b1a2e4189138c077aa55ef5e77b32078911",
+      "old_pairs": [
+        {
+          "PairID": "cd91007d-f6bd-56a3-8c66-63b4a68ab114",
+          "src_start": 0,
+          "src_end": 13,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 13,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "surface": "布袋寅泰",
+          "reading": "ほていともやす",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "ポケットもやす",
+          "reading": "ポケットもやす",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 292: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_pl_iimatugai_statuses_355608_001",
+      "OriginalHash": "2feccbca45fa155addab0fb03d8c21d743674a60e9dc65b3788e4637602be692",
+      "old_pairs": [
+        {
+          "PairID": "3ea43c4a-4e3c-558f-9252-1ce42d0c4a52",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "5b336191-dc4b-565a-ad10-789d929c11ce"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "ハト派とタカ派",
+          "reading": "ハトハトタカハ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "ハトハトタカ派",
+          "reading": "ハトハトタカハ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 293: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

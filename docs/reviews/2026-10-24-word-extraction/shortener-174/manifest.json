@@ -1,0 +1,12 @@
+{
+  "decision_count": 174,
+  "applied_records": 174,
+  "audit_rows": 174,
+  "input_review_sha256": "38d007cfc2be12dcb700bfe6fa39718bad96d6860b29834c6153762e1649242c",
+  "output_review_sha256": "e5c3f8d74b3ef32abd12468217b7171f85f36324067bb8e69bb859e0b5dd4430",
+  "decision_patch_sha256": "1120cfd641e29635f51f13ec1ac822b3a7420c11e3d06c47e221a43184c79abd",
+  "audit_sha256": "bfa2ba601ff3bd4c97b74006a190c843b5c40e557e1c615a5478785c932cce15",
+  "reading_profile_sha256": "8f6686eec866abbf57b19bec120860e53ad3835daaeeea3a623fe7e451c4b35d",
+  "dictionary_evidence_sha256": "c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba",
+  "output": "data/annotations/reviews.csv"
+}

@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:45b866f3cd09b8e0b4f84ec8ab751e8af5414f56935ecad8cef2872e13daf83d",
+  "source_review_sha256": "45b866f3cd09b8e0b4f84ec8ab751e8af5414f56935ecad8cef2872e13daf83d",
+  "decisions": [
+    {
+      "MishearID": "coffee_break_parts_similar200601_007",
+      "OriginalHash": "1277a33c6c1b407d40ed7cc7da7f78c4811adba4dc2b98f7551faa62632359f3",
+      "old_pairs": [
+        {
+          "PairID": "b0ca4f2f-8d56-5a09-9b1b-bea1ecc03d44",
+          "src_start": 14,
+          "src_end": 18,
+          "tgt_start": 14,
+          "tgt_end": 18,
+          "unit_type": "compound"
+        },
+        {
+          "PairID": "cde778fa-2298-5ee1-8acf-77754f72011b",
+          "src_start": 35,
+          "src_end": 37,
+          "tgt_start": 35,
+          "tgt_end": 37,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 16,
+          "src_end": 18,
+          "tgt_start": 16,
+          "tgt_end": 18,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "b0ca4f2f-8d56-5a09-9b1b-bea1ecc03d44"
+        },
+        {
+          "src_start": 35,
+          "src_end": 37,
+          "tgt_start": 35,
+          "tgt_end": 37,
+          "unit_type": "word",
+          "PairID": "cde778fa-2298-5ee1-8acf-77754f72011b",
+          "SupersedesPairID": "b0ca4f2f-8d56-5a09-9b1b-bea1ecc03d44"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 16,
+          "end": 18,
+          "surface": "整備",
+          "reading": "セイビ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 35,
+          "end": 37,
+          "surface": "施策",
+          "reading": "シサク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 16,
+          "end": 18,
+          "surface": "整理",
+          "reading": "セイリ",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 35,
+          "end": 37,
+          "surface": "政策",
+          "reading": "セイサク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar200601.html, SHA256 8a68035bce89429c4c06d7f42ae814d27d0a1bcafad600ba1f2c3121674c98ab; source text surrounding both source/highlight expressions after HTML tag and layout removal: '速性を上げる。【正解】環境の変化に素早く対応し、競争力を高めるために決定とアクションの迅速性を上げる。【間違い】財政的に逼迫した中で、福祉の基盤整理が大幅に改正されたが、これらの福祉政策をどう展開していくか～～【正解】財政的に逼迫した中で、福祉の基盤整備が大幅に改正されたが、これらの福祉施策をどう展開していくか～～【間違い】市長の答弁は、組織が課題になっているから、今後検討していきたいと～【'. Audited comparison unit '基盤整備'/'基盤整理'; contextual readings キバンセイビ/キバンセイリ. The record may contain other highlighted differences; this span is a coherent matching comparison unit. Installed MeCab/IPADIC features for original spans: [{\"src\":\"基盤整備\",\"tgt\":\"基盤整理\",\"span\":{\"src_start\":14,\"src_end\":18,\"tgt_start\":14,\"tgt_end\":18,\"unit_type\":\"compound\",\"PairID\":\"\",\"SupersedesPairID\":\"\"},\"src_tokens\":[{\"surface\":\"基盤\",\"reading\":\"キバン\",\"features\":[\"名詞\",\"一般\",\"*\",\"*\",\"*\",\"*\",\"基盤\",\"キバン\",\"キバン\"]},{\"surface\":\"整備\",\"reading\":\"セイビ\",\"features\":[\"名詞\",\"サ変接続\",\"*\",\"*\",\"*\",\"*\",\"整備\",\"セイビ\",\"セイビ\"]}],\"tgt_tokens\":[{\"surface\":\"基盤\",\"reading\":\"キバン\",\"features\":[\"名詞\",\"一般\",\"*\",\"*\",\"*\",\"*\",\"基盤\",\"キバン\",\"キバン\"]},{\"surface\":\"整理\",\"reading\":\"セイリ\",\"features\":[\"名詞\",\"サ変接続\",\"*\",\"*\",\"*\",\"*\",\"整理\",\"セイリ\",\"セイリ\"]}],\"src_entries\":[],\"tgt_entries\":[]}]; dictionary SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Multi-contrast scope audit against the same archived primary: 施策/政策 [シサク/セイサク].  Src exact IPADIC entry checked: [{\"surface\":\"施策\",\"reading\":\"シサク\",\"features\":[\"名詞\",\"サ変接続\",\"*\",\"*\",\"*\",\"*\",\"施策\",\"シサク\",\"シサク\"]}]; dictionary SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Tgt exact IPADIC entry checked: [{\"surface\":\"政策\",\"reading\":\"セイサク\",\"features\":[\"名詞\",\"一般\",\"*\",\"*\",\"*\",\"*\",\"政策\",\"セイサク\",\"セイサク\"]}]; dictionary SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. | Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar200601.html, SHA256 8a68035bce89429c4c06d7f42ae814d27d0a1bcafad600ba1f2c3121674c98ab; source text surrounding both source/highlight expressions after HTML tag and layout removal: '速性を上げる。【正解】環境の変化に素早く対応し、競 Complete candidate surfaces have exact independent dictionary entries; unique context-compatible readings match the reviewed old readings and source comparison; residual context is identical. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "原資料の【正解】／【間違い】で 基盤整備／基盤整理 の対応を確認。文脈の通常読み キバンセイビ／キバンセイリ は異なる音形なので音韻比較ペアとして採用。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。 同一原文中の独立した音形差も別スパンで追加。 UnitType reclassified as word under AUTO_WORD_RETYPE: the selected span is an independent whole-surface dictionary word on both sides, supported by exact matching readings; the extractor selects the same spans as word candidates. | Sol verified the minimal lexical contrast and exact dictionaries; other selected pair in this record is unchanged.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200601_009",
+      "OriginalHash": "ed4cec7f1e9387a417a087a2f76a5eafdf266c5dd62c16bc903d2f10231e64f2",
+      "old_pairs": [
+        {
+          "PairID": "b24d3d59-eb74-56ba-960d-fd78ccac306d",
+          "src_start": 40,
+          "src_end": 44,
+          "tgt_start": 39,
+          "tgt_end": 43,
+          "unit_type": "compound"
+        },
+        {
+          "PairID": "e3a5a5c2-c130-5a83-bbd6-bc9739b3c42c",
+          "src_start": 10,
+          "src_end": 12,
+          "tgt_start": 10,
+          "tgt_end": 11,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 42,
+          "src_end": 44,
+          "tgt_start": 41,
+          "tgt_end": 43,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "b24d3d59-eb74-56ba-960d-fd78ccac306d"
+        },
+        {
+          "src_start": 10,
+          "src_end": 12,
+          "tgt_start": 10,
+          "tgt_end": 11,
+          "unit_type": "phrase",
+          "PairID": "",
+          "SupersedesPairID": "b24d3d59-eb74-56ba-960d-fd78ccac306d"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 10,
+          "end": 12,
+          "surface": "支援",
+          "reading": "シエン",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 42,
+          "end": 44,
+          "surface": "機会",
+          "reading": "キカイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 10,
+          "end": 11,
+          "surface": "新",
+          "reading": "シン",
+          "meanings": [],
+          "qualifiers": []
+        },
+        {
+          "start": 41,
+          "end": 43,
+          "surface": "機関",
+          "reading": "キカン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar200601.html, SHA256 8a68035bce89429c4c06d7f42ae814d27d0a1bcafad600ba1f2c3121674c98ab; source text surrounding both source/highlight expressions after HTML tag and layout removal: '組織が過大になっているから、今後検討していきたいと～【間違い】ｅラーニングを使った新システムの構築とか、情報通信技術を活用した市民塾のような学習機関に関するデータベースの整備等も進み～【正解】ｅラーニングを使った支援システムの構築とか、情報通信技術を活用した市民塾のような学習機会に関するデータベースの整備等も進み～【間違い】図面には実習室、製図室、視聴覚室、会議室等を設け、教室１と２は稼働間仕切りで仕切られ、一体利用'. Audited comparison unit '学習機会'/'学習機関'; contextual readings ガクシュウキカイ/ガクシュウキカン. The record may contain other highlighted differences; this span is a coherent matching comparison unit. Installed MeCab/IPADIC features for original spans: [{\"src\":\"学習機会\",\"tgt\":\"学習機関\",\"span\":{\"src_start\":40,\"src_end\":44,\"tgt_start\":39,\"tgt_end\":43,\"unit_type\":\"compound\",\"PairID\":\"\",\"SupersedesPairID\":\"\"},\"src_tokens\":[{\"surface\":\"学習\",\"reading\":\"ガクシュウ\",\"features\":[\"名詞\",\"サ変接続\",\"*\",\"*\",\"*\",\"*\",\"学習\",\"ガクシュウ\",\"ガクシュー\"]},{\"surface\":\"機会\",\"reading\":\"キカイ\",\"features\":[\"名詞\",\"一般\",\"*\",\"*\",\"*\",\"*\",\"機会\",\"キカイ\",\"キカイ\"]}],\"tgt_tokens\":[{\"surface\":\"学習\",\"reading\":\"ガクシュウ\",\"features\":[\"名詞\",\"サ変接続\",\"*\",\"*\",\"*\",\"*\",\"学習\",\"ガクシュウ\",\"ガクシュー\"]},{\"surface\":\"機関\",\"reading\":\"キカン\",\"features\":[\"名詞\",\"一般\",\"*\",\"*\",\"*\",\"*\",\"機関\",\"キカン\",\"キカン\"]}],\"src_entries\":[],\"tgt_entries\":[]}]; dictionary SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Multi-contrast scope audit against the same archived primary: 支援/新 [シエン/シン].  | Archived Yamato primary paired example resource/yamato/gochou_goyaku/coffee_break_parts_similar200601.html, SHA256 8a68035bce89429c4c06d7f42ae814d27d0a1bcafad600ba1f2c3121674c98ab; source text surrounding both source/highlight expressions after HTML tag and layout removal: '組織が過大になっているから、今後検討していきたいと Complete candidate surfaces have exact independent dictionary entries; unique context-compatible readings match the reviewed old readings and source comparison; residual context is identical. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "原資料の【正解】／【間違い】で 学習機会／学習機関 の対応を確認。文脈の通常読み ガクシュウキカイ／ガクシュウキカン は異なる音形なので音韻比較ペアとして採用。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。 同一原文中の独立した音形差も別スパンで追加。 | Sol verified the minimal lexical contrast and exact dictionaries; other selected pair in this record is unchanged.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

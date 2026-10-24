@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:0e500f60ccd209ba102eba4849748217a14a75a28ae7444cac2ccc1ec1faa54f",
+  "source_review_sha256": "0e500f60ccd209ba102eba4849748217a14a75a28ae7444cac2ccc1ec1faa54f",
+  "decisions": [
+    {
+      "MishearID": "39mag_benesse_16332_008",
+      "OriginalHash": "225a9bdadf97f3ef18e5a6afe738719e00bbf9ea71f9b596bea2ced5d3f90043",
+      "old_pairs": [
+        {
+          "PairID": "bb2c1ab5-01d0-5427-86b4-68f8a44f72b8",
+          "MishearID": "39mag_benesse_16332_008",
+          "OriginalHash": "225a9bdadf97f3ef18e5a6afe738719e00bbf9ea71f9b596bea2ced5d3f90043",
+          "SourceFile": "data/mishearing/google_search_shigoto_kikimachigai/benesse_ne_jp.csv",
+          "URL": "https://39mag.benesse.ne.jp/lifestyle/content/?id=16332",
+          "Language": "ja",
+          "RecordValidity": "unclear",
+          "SrcOriginal": "お世話さまです",
+          "TgtOriginal": "オセワ様（名字）",
+          "Src": "お世話さま",
+          "Tgt": "オセワ様",
+          "SrcReading": "オセワサマ",
+          "TgtReading": "オセワサマ",
+          "SrcReadingStatus": "confirmed",
+          "TgtReadingStatus": "confirmed",
+          "SrcMeaning": "[]",
+          "TgtMeaning": "[\"名字\"]",
+          "SrcQualifier": "[]",
+          "TgtQualifier": "[\"名字\"]",
+          "SrcAnnotated": "|お世話さま《オセワサマ》",
+          "TgtAnnotated": "|オセワ様《オセワサマ》【意味：名字】【識別：名字】",
+          "SrcStart": "0",
+          "SrcEnd": "5",
+          "TgtStart": "0",
+          "TgtEnd": "8",
+          "UnitType": "phrase",
+          "Flags": "[]",
+          "ReviewStatus": "reviewed",
+          "TargetDecision": "include",
+          "Reviewer": "agent:gpt-6-sol",
+          "ReviewedAt": "2026-10-24",
+          "Evidence": "Sol POS-risk review item 5: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+          "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+          "ExtractorVersion": "pairs-v2.3",
+          "SupersedesPairID": "7768b2e2-b375-5879-8a1c-d24f058cfd1f"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "phrase",
+          "PairID": "bb2c1ab5-01d0-5427-86b4-68f8a44f72b8",
+          "SupersedesPairID": "7768b2e2-b375-5879-8a1c-d24f058cfd1f"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "お世話さま",
+          "reading": "オセワサマ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "オセワ様",
+          "reading": "オセワサマ",
+          "meanings": [
+            "名字"
+          ],
+          "qualifiers": [
+            "名字"
+          ]
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 5: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast. 原音・実際の発話音声は未確認。選択読みは提供文脈に基づくもので、原音による確認済みではない。",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast. 原音・実際の発話音声は未確認。選択読みは提供文脈に基づくもので、原音による確認済みではない。",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_pl_iimatugai_statuses_355608_001",
+      "OriginalHash": "2feccbca45fa155addab0fb03d8c21d743674a60e9dc65b3788e4637602be692",
+      "old_pairs": [
+        {
+          "PairID": "3ea43c4a-4e3c-558f-9252-1ce42d0c4a52",
+          "MishearID": "www_1101_com_pl_iimatugai_statuses_355608_001",
+          "OriginalHash": "2feccbca45fa155addab0fb03d8c21d743674a60e9dc65b3788e4637602be692",
+          "SourceFile": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_pl_iimatugai_statuses_355608.csv",
+          "URL": "",
+          "Language": "ja",
+          "RecordValidity": "documented",
+          "SrcOriginal": "ハト派とタカ派",
+          "TgtOriginal": "ハトハトタカ派",
+          "Src": "ハト派とタカ派",
+          "Tgt": "ハトハトタカ派",
+          "SrcReading": "ハトハトタカハ",
+          "TgtReading": "ハトハトタカハ",
+          "SrcReadingStatus": "confirmed",
+          "TgtReadingStatus": "confirmed",
+          "SrcMeaning": "[]",
+          "TgtMeaning": "[]",
+          "SrcQualifier": "[]",
+          "TgtQualifier": "[]",
+          "SrcAnnotated": "|ハト派とタカ派《ハトハトタカハ》",
+          "TgtAnnotated": "|ハトハトタカ派《ハトハトタカハ》",
+          "SrcStart": "0",
+          "SrcEnd": "7",
+          "TgtStart": "0",
+          "TgtEnd": "7",
+          "UnitType": "phrase",
+          "Flags": "[]",
+          "ReviewStatus": "reviewed",
+          "TargetDecision": "include",
+          "Reviewer": "agent:gpt-6-sol",
+          "ReviewedAt": "2026-10-24",
+          "Evidence": "Sol POS-risk review item 293: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+          "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast.",
+          "ExtractorVersion": "pairs-v2.3",
+          "SupersedesPairID": "5b336191-dc4b-565a-ad10-789d929c11ce"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "phrase",
+          "PairID": "3ea43c4a-4e3c-558f-9252-1ce42d0c4a52",
+          "SupersedesPairID": "5b336191-dc4b-565a-ad10-789d929c11ce"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "ハト派とタカ派",
+          "reading": "ハトハトタカハ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "ハトハトタカ派",
+          "reading": "ハトハトタカハ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Sol POS-risk review item 293: The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast. 原音・実際の発話音声は未確認。選択読みは提供文脈に基づくもので、原音による確認済みではない。",
+      "Reason": "The full old comparison includes contrast-essential particle, clause/predicate, enumeration, or asymmetric phrase material; it is not a pair of whole independent lexical units. This classification does not waive later review for a separate shorter contrast. 原音・実際の発話音声は未確認。選択読みは提供文脈に基づくもので、原音による確認済みではない。",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

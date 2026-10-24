@@ -1,0 +1,78 @@
+{
+  "batch": "referents-v2",
+  "source_run": "canonical-review-60810870b259fc14",
+  "source_review_sha256": "60810870b259fc146229c9cdf232dcdae6dedaf06f604aa461403a981bd056a7",
+  "current_review_sha256": "56ff6a600e3c9efd1fc674c6627d867fb494901f1e58c72d8d86823f48ba9fdb",
+  "patched_records": 7,
+  "old_pair_count": 7,
+  "audit_row_count": 7,
+  "changed_pairs": 7,
+  "decision_patch_sha256": "963927923597b3c5554b8ce0be4773dad2b70af6e18666550c0e6ca6f7c95d01",
+  "audit_sha256": "6d5906a509a300552fff75c294613dc3b924f34559a21dd41032efac1c66f516",
+  "review_sha256": "56ff6a600e3c9efd1fc674c6627d867fb494901f1e58c72d8d86823f48ba9fdb",
+  "post_change_spans": {
+    "moneypost_1057961_006": [
+      [
+        0,
+        3,
+        0,
+        3,
+        "word"
+      ]
+    ],
+    "taxi_gendai_001": [
+      [
+        0,
+        2,
+        0,
+        2,
+        "word"
+      ]
+    ],
+    "taxi_gendai_002": [
+      [
+        0,
+        2,
+        0,
+        2,
+        "word"
+      ]
+    ],
+    "taxi_gendai_007": [
+      [
+        0,
+        2,
+        0,
+        2,
+        "word"
+      ]
+    ],
+    "taxi_gendai_008": [
+      [
+        0,
+        2,
+        0,
+        2,
+        "word"
+      ]
+    ],
+    "gendai_media_152393_001": [
+      [
+        0,
+        2,
+        0,
+        2,
+        "word"
+      ]
+    ],
+    "gendai_152393_002": [
+      [
+        3,
+        5,
+        3,
+        5,
+        "word"
+      ]
+    ]
+  }
+}

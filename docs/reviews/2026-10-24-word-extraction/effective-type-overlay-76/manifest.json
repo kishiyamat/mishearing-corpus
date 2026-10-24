@@ -1,0 +1,15 @@
+{
+  "decision_count": 76,
+  "audit_rows": 77,
+  "input_review_sha256": "a77f0f1c16b8b266f02a83a03fa02417ba754d93f212af231389332f7738ac80",
+  "output_review_sha256": "bfe86cc8d0181746fc1084ed7b6ccec8223c8a3932cfe191ff98aa5ccad1e919",
+  "decision_patch_sha256": "cb2f78412d820f96f92f86c880d96e2979b67e02c7ea26778a33f423339410ea",
+  "audit_sha256": "523bad69fddf4788c71afca1d0f8590d38ebf9a67df234086918e7deedc05e83",
+  "sol_table": "/tmp/remaining-word-span-sol-decisions.json",
+  "sol_table_sha256": "c2cec0d63cf7b641536e9219770bffb23c2b725ca420db0f7c426760d97db438",
+  "overlay_entry_count": 428,
+  "already_desired": 352,
+  "superseded_by_boundary_changes": 0,
+  "applied_record_count": 76,
+  "note": "Only explicit type changes at unchanged PairID and source bounds were applied; all unrelated pair spans and annotations were preserved."
+}

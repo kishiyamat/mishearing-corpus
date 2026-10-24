@@ -1,0 +1,2411 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:09a7ce0d7258ec856e718d8ac7a32b53590859a160e03a124f252ad13b189ce6",
+  "source_review_sha256": "09a7ce0d7258ec856e718d8ac7a32b53590859a160e03a124f252ad13b189ce6",
+  "decisions": [
+    {
+      "MishearID": "39mag_benesse_16332_007",
+      "OriginalHash": "a8f658883524278416087cd257cb852c72ae03612d04e3d01c526b0a5fb5f695",
+      "old_pairs": [
+        {
+          "PairID": "f0209508-55a0-5897-871f-1ddb6d2cc956",
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 11,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "f0209508-55a0-5897-871f-1ddb6d2cc956"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 2,
+          "surface": "恐縮",
+          "reading": "キョウシュク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 11,
+          "surface": "キョウシュク",
+          "reading": "キョウシュク",
+          "meanings": [
+            "品物名"
+          ],
+          "qualifiers": [
+            "品物名"
+          ]
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_shigoto_kikimachigai/benesse_ne_jp.csv row 39mag_benesse_16332_007; Src=恐縮です; Tgt=キョウシュク（品物名）; Note=子ども時代の聞き間違い。「恐縮です」を商品名と誤解; URL=https://39mag.benesse.ne.jp/lifestyle/content/?id=16332. The child heard conventional 恐縮=キョウシュク as a product name; the parenthetical 品物名 is a semantic classifier, not spoken content, and the sound is unchanged. | Previous Reason (historical): Original context gives 恐縮=キョウシュク versus キョウシュク=キョウシュク; the spoken forms are equivalent. | Reaudit: data/mishearing/google_search_shigoto_kikimachigai/benesse_ne_jp.csv row 39mag_benesse_16332_007; Src=恐縮です; Tgt=キョウシュク（品物名）; Note=子ども時代の聞き間違い。「恐縮です」を商品名と誤解; Tips=子どもに多い; URL=https://39mag.benesse.ne.jp/lifestyle/content/?id=16332. External dictionary:  Dictionary: [{\"side\":\"Src\",\"surface\":\"恐縮\",\"selected_reading\":\"キョウシュク\",\"entries\":[{\"reading\":\"キョウシュク\",\"pos\":[\"名詞\",\"形容動詞語幹\"],\"base\":\"恐縮\"},{\"reading\":\"キョウシュク\",\"pos\":[\"名詞\",\"サ変接続\"],\"base\":\"恐縮\"}],\"dictionary_sha256\":\"c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba\"},{\"side\":\"Tgt\",\"surface\":\"キョウシュク\",\"selected_reading\":\"キョウシュク\",\"entries\":[],\"dictionary_sha256\":\"c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba\"}]. Original audio not verified; context reading selected where supplied. | Sol individually reviewed shortening exception: data/mishearing/google_search_shigoto_kikimachigai/benesse_ne_jp.csv row 39mag_benesse_16332_007; Src=恐縮です; Tgt=キョウシュク（品物名）; Note=子ども時代の聞き間違い。「恐縮です」を商品名と誤解; URL=https://39mag.benesse.ne.jp/lifestyle/content/?id=16332. The child heard conventional 恐縮=キョウシュク as a product name; the parenthetical 品物名 is a semantic classifier, not spoken content, and the sound is unchanged. | Previous Reason (historical): Original context gives 恐縮=キョウシュク versus キョウシュク=キョウシュク; the spoken forms are equivalent. | Reaudit: data/mishearing/google_search_shigoto_kikimachigai/benesse_ne_jp.csv row 39mag_benesse_16332_007; Src=恐縮です; Tgt=キョウシュク（品物名）; Note=子ども時代の聞き間違い。「恐縮です」を商品名と誤解; Tips=子どもに多い; URL=https://39mag.benesse.ne.jp/lifestyle/content/?id=16332. External dictionary:  Dictionary: [{\"side\":\"Src\",\"surface\":\"恐縮\",\"selected_reading\":\"キョウシュク\",\"entries\":[{\"reading\":\"キョウシュク\",\"pos\":[\"名詞\",\"形容動詞語幹\"],\"base\":\"恐縮\"},{\"reading\":\"キョウシュク\",\"pos\":[\"名詞\",\"サ変接続\"],\"base\":\"恐縮\"}],\"dictionary_sha256\":\"c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba\"},{\"side\":\"Tgt\",\"surface\":\"キョウシュク\",\"selected_reading\":\"キョウシュク\",\"entries\":[],\"dictionary_sha256\":\"c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba\"}]. Original audio not verified; context reading selected where supplied. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "原本Src/TgtとNoteの文脈で語・複合語・語境界・固有名詞の解釈が異なる。 原本対「恐縮です」／「キョウシュク（品物名）」。 文脈: 子ども時代の聞き間違い。「恐縮です」を商品名と誤解 | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "anond_20211223175927_003",
+      "OriginalHash": "eb52c40cb20545c299d9a13663891e25303a7eb04e84966a2f0c12514e8d09d8",
+      "old_pairs": [
+        {
+          "PairID": "19bd5fee-2cb7-5db9-bee8-dac4b066c930",
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 1,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "19bd5fee-2cb7-5db9-bee8-dac4b066c930"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "魚",
+          "reading": "サカナ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "山田",
+          "reading": "ヤマダ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_name_kikimachigai/anond_20211223175927.csv row anond_20211223175927_003; Src=魚（さかな）; Tgt=山田（やまだ）; Note=苗字と全く違う単語でも自分が呼ばれたと勘違いして反応してしまう。; URL=https://anond.hatelabo.jp/20211223175927. The original source explicitly annotates 魚（さかな） and 山田（やまだ） in its illustrative name-confusion example. | Sol individually reviewed shortening exception: data/mishearing/google_search_name_kikimachigai/anond_20211223175927.csv row anond_20211223175927_003; Src=魚（さかな）; Tgt=山田（やまだ）; Note=苗字と全く違う単語でも自分が呼ばれたと勘違いして反応してしまう。; URL=https://anond.hatelabo.jp/20211223175927. The original source explicitly annotates 魚（さかな） and 山田（やまだ） in its illustrative name-confusion example. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives 魚=サカナ versus 山田=ヤマダ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200405_006",
+      "OriginalHash": "3b3b446865921316acb40f8e1da91d0ee070547cfb510ca5202bf54ee5d0d469",
+      "old_pairs": [
+        {
+          "PairID": "ae6e1b0a-a23c-517e-9153-fcf1cd082482",
+          "src_start": 8,
+          "src_end": 16,
+          "tgt_start": 8,
+          "tgt_end": 10,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 8,
+          "src_end": 10,
+          "tgt_start": 8,
+          "tgt_end": 10,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "ae6e1b0a-a23c-517e-9153-fcf1cd082482"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 8,
+          "end": 16,
+          "surface": "代位",
+          "reading": "ダイイ",
+          "meanings": [],
+          "qualifiers": [
+            "原資料表記中の括弧注記 （肩代わり） は語の説明・読みの補助であり、選択語の発音に追加しない。"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 8,
+          "end": 10,
+          "surface": "代理",
+          "reading": "ダイリ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200405.html entry 6: 正解 highlights 代位（肩代わり）弁済 in 家賃滞納確定後の代位（肩代わり）弁済をする保証委託形式; 間違い highlights 代理弁済 in 家賃滞納確定後の代理弁済をする保証委託形式. The archived highlight occurs in the raw CSV, but the full correct sentences differ; no full-sentence agreement is claimed. Full raw parenthetical span 代位（肩代わり） is classified as lexical surface 代位[ダイイ] with separate note '（肩代わり）'; target span 代理 as 代理[ダイリ] with separate note ''. The rent-guaranty context is 代位弁済[ダイイベンサイ], payment by subrogation; the source inserts 肩代わり as a gloss after 代位. The error is 代理[ダイリ] before the shared 弁済. Published lexical reference: https://kotobank.jp/word/%E4%BB%A3%E4%BD%8D%E5%BC%81%E6%B8%88-554987. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. | Sol individually reviewed shortening exception: Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200405.html entry 6: 正解 highlights 代位（肩代わり）弁済 in 家賃滞納確定後の代位（肩代わり）弁済をする保証委託形式; 間違い highlights 代理弁済 in 家賃滞納確定後の代理弁済をする保証委託形式. The archived highlight occurs in the raw CSV, but the full correct sentences differ; no full-sentence agreement is claimed. Full raw parenthetical span 代位（肩代わり） is classified as lexical surface 代位[ダイイ] with separate note '（肩代わり）'; target span 代理 as 代理[ダイリ] with separate note ''. The rent-guaranty context is 代位弁済[ダイイベンサイ], payment by subrogation; the source inserts 肩代わり as a gloss after 代位. The error is 代理[ダイリ] before the shared 弁済. Published lexical reference: https://kotobank.jp/word/%E4%BB%A3%E4%BD%8D%E5%BC%81%E6%B8%88-554987. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "Archived correction direction and classified parenthetical note give spoken ダイイ versus ダイリ; distinct under the phonological rule. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200408_010",
+      "OriginalHash": "ab1309d292c77316f48a4c14da4d7ed4faf505fb658c1056f5db62bf18cfe266",
+      "old_pairs": [
+        {
+          "PairID": "e47b84f2-1784-5ae6-8ead-58882c4d6837",
+          "src_start": 11,
+          "src_end": 15,
+          "tgt_start": 11,
+          "tgt_end": 15,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 11,
+          "src_end": 13,
+          "tgt_start": 11,
+          "tgt_end": 13,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "e47b84f2-1784-5ae6-8ead-58882c4d6837"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 11,
+          "end": 13,
+          "surface": "徒過",
+          "reading": "トカ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 11,
+          "end": 13,
+          "surface": "渡河",
+          "reading": "トカ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200408.html entry 10: 正解 highlights 徒過して in 今日時点で１年８カ月を徒過して、なお進まないという～～; 間違い highlights 渡河して in 今日時点で１年８カ月を渡河して、なお進まないという～～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Published lexical source: https://dictionary.goo.ne.jp/word/%E5%BE%92%E9%81%8E/. 小学館デジタル大辞泉 gives 徒過[トカ] in the elapsed-period legal sense; same publisher indexes 渡河[トカ]. Both add し[シ] + て[テ]. Context selects 徒過して[トカシテ] versus 渡河して[トカシテ]. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200408.html, entry 10; 正解=今日時点で１年８カ月を徒過して、なお進まないという～～; 間違い=今日時点で１年８カ月を渡河して、なお進まないという～～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 | Sol individually reviewed shortening exception: Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200408.html entry 10: 正解 highlights 徒過して in 今日時点で１年８カ月を徒過して、なお進まないという～～; 間違い highlights 渡河して in 今日時点で１年８カ月を渡河して、なお進まないという～～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Published lexical source: https://dictionary.goo.ne.jp/word/%E5%BE%92%E9%81%8E/. 小学館デジタル大辞泉 gives 徒過[トカ] in the elapsed-period legal sense; same publisher indexes 渡河[トカ]. Both add し[シ] + て[テ]. Context selects 徒過して[トカシテ] versus 渡河して[トカシテ]. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200408.html, entry 10; 正解=今日時点で１年８カ月を徒過して、なお進まないという～～; 間違い=今日時点で１年８カ月を渡河して、なお進まないという～～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reason": "研究者の訂正基準で同音異義・異指示対象の対比を採用。徒過して／渡河しては、保存原文の正解と誤記で語義・構成または指示対象が異なる。音声原本は未確認であり、読みは保存文脈に自然な比較読み。 | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200409_004",
+      "OriginalHash": "dce9f87d20f88dcf7e7d2067ec4e8b989ee642ba21eb8dbe74e7f1a8d9755eba",
+      "old_pairs": [
+        {
+          "PairID": "ee2b35d3-0834-58a9-a06c-337af3d73fda",
+          "src_start": 8,
+          "src_end": 12,
+          "tgt_start": 8,
+          "tgt_end": 12,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 8,
+          "src_end": 10,
+          "tgt_start": 8,
+          "tgt_end": 10,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "ee2b35d3-0834-58a9-a06c-337af3d73fda"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 8,
+          "end": 10,
+          "surface": "協働",
+          "reading": "キョウドウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 8,
+          "end": 10,
+          "surface": "共同",
+          "reading": "キョウドウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200409.html entry 4: 正解 highlights 協働して in 本市では、市民と協働して豊かな自然環境を守り育てるという～～; 間違い highlights 共同して in 本市では、市民と共同して豊かな自然環境を守り育てるという～～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Published lexical source: https://www.nilim.go.jp/lab/rcg/newhp/yougo/words/029/html/029_main.html. 国土技術政策総合研究所 explicitly gives 協働[キョウドウ] for citizens and government working together; 共同[キョウドウ] and し[シ] + て[テ] have exact IPADIC entries. Context selects 協働して[キョウドウシテ] versus 共同して[キョウドウシテ]. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200409.html, entry 4; 正解=本市では、市民と協働して豊かな自然環境を守り育てるという～～; 間違い=本市では、市民と共同して豊かな自然環境を守り育てるという～～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 | Sol individually reviewed shortening exception: Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200409.html entry 4: 正解 highlights 協働して in 本市では、市民と協働して豊かな自然環境を守り育てるという～～; 間違い highlights 共同して in 本市では、市民と共同して豊かな自然環境を守り育てるという～～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Published lexical source: https://www.nilim.go.jp/lab/rcg/newhp/yougo/words/029/html/029_main.html. 国土技術政策総合研究所 explicitly gives 協働[キョウドウ] for citizens and government working together; 共同[キョウドウ] and し[シ] + て[テ] have exact IPADIC entries. Context selects 協働して[キョウドウシテ] versus 共同して[キョウドウシテ]. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200409.html, entry 4; 正解=本市では、市民と協働して豊かな自然環境を守り育てるという～～; 間違い=本市では、市民と共同して豊かな自然環境を守り育てるという～～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reason": "研究者の訂正基準で同音異義・異指示対象の対比を採用。協働して／共同しては、保存原文の正解と誤記で語義・構成または指示対象が異なる。音声原本は未確認であり、読みは保存文脈に自然な比較読み。 | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200411_008",
+      "OriginalHash": "1b8c6a355b2406ae801e02d7e3bd498495226adc085837358d988e7b3219ddae",
+      "old_pairs": [
+        {
+          "PairID": "5bfd753d-4027-586e-a36a-1ef3166c906e",
+          "src_start": 3,
+          "src_end": 6,
+          "tgt_start": 3,
+          "tgt_end": 6,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 5,
+          "tgt_start": 3,
+          "tgt_end": 5,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "5bfd753d-4027-586e-a36a-1ef3166c906e"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "surface": "運航",
+          "reading": "ウンコウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "surface": "運行",
+          "reading": "ウンコウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200411.html entry 8: 正解 highlights 運航、 in 船舶の運航、船員教育の分野で組織的に研究計画を策定する～～（飛行機と船の場合は「運航」を用いる。）; 間違い highlights 運行、 in 船舶の運行、船員教育の分野で組織的に研究計画を策定する～～. The raw CSV correct sentence is 船舶の運航、船員教育の分野で組織的に研究計画を策定する～～. The highlighted units occur in both, but the complete correct sentences differ (csv_in_html); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF-8 MeCab/IPADIC components where available and a separately cited published source for non-dictionary components: 運航、 = 運航[ウンコウ]; 運行、 = 運行[ウンコウ]. IPADIC identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.  Context determines the selected reading; grammatical particles are spoken ワ/エ/オ, punctuation silent. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200411.html, entry 8; 正解=船舶の運航、船員教育の分野で組織的に研究計画を策定する～～（飛行機と船の場合は「運航」を用いる。）; 間違い=船舶の運行、船員教育の分野で組織的に研究計画を策定する～～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 | Sol individually reviewed shortening exception: Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200411.html entry 8: 正解 highlights 運航、 in 船舶の運航、船員教育の分野で組織的に研究計画を策定する～～（飛行機と船の場合は「運航」を用いる。）; 間違い highlights 運行、 in 船舶の運行、船員教育の分野で組織的に研究計画を策定する～～. The raw CSV correct sentence is 船舶の運航、船員教育の分野で組織的に研究計画を策定する～～. The highlighted units occur in both, but the complete correct sentences differ (csv_in_html); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF-8 MeCab/IPADIC components where available and a separately cited published source for non-dictionary components: 運航、 = 運航[ウンコウ]; 運行、 = 運行[ウンコウ]. IPADIC identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.  Context determines the selected reading; grammatical particles are spoken ワ/エ/オ, punctuation silent. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200411.html, entry 8; 正解=船舶の運航、船員教育の分野で組織的に研究計画を策定する～～（飛行機と船の場合は「運航」を用いる。）; 間違い=船舶の運行、船員教育の分野で組織的に研究計画を策定する～～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reason": "研究者の訂正基準で同音異義・異指示対象の対比を採用。運航、／運行、は、保存原文の正解と誤記で語義・構成または指示対象が異なる。音声原本は未確認であり、読みは保存文脈に自然な比較読み。 | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200411_009",
+      "OriginalHash": "3ac8aae96ba5a3502d04735344091da188bab195abc6cea9c0250070c43c63e5",
+      "old_pairs": [
+        {
+          "PairID": "4c7f56af-bd3e-50d8-839c-4710f8fb8a98",
+          "src_start": 3,
+          "src_end": 7,
+          "tgt_start": 3,
+          "tgt_end": 7,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 6,
+          "tgt_start": 3,
+          "tgt_end": 6,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "4c7f56af-bd3e-50d8-839c-4710f8fb8a98"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 6,
+          "surface": "最終財",
+          "reading": "サイシュウザイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 6,
+          "surface": "最終材",
+          "reading": "サイシュウザイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200411.html entry 9: 正解 highlights 最終財に in 一部の最終財にも物価上昇が波及していると思う～～（他に中間財・消費財・情報関連財がある。）; 間違い highlights 最終材に in 一部の最終材にも物価上昇が波及していると思う～～. The raw CSV correct sentence is 一部の最終財にも物価上昇が波及していると思う～～. The highlighted units occur in both, but the complete correct sentences differ (csv_in_html); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF-8 MeCab/IPADIC components where available and a separately cited published source for non-dictionary components: 最終財に = 最終[サイシュウ] + 財[ザイ] + に[ニ]; 最終材に = 最終[サイシュウ] + 材[ザイ] + に[ニ]. IPADIC identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.  Context determines the selected reading; grammatical particles are spoken ワ/エ/オ, punctuation silent. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200411.html, entry 9; 正解=一部の最終財にも物価上昇が波及していると思う～～（他に中間財・消費財・情報関連財がある。）; 間違い=一部の最終材にも物価上昇が波及していると思う～～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 | Sol individually reviewed shortening exception: Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200411.html entry 9: 正解 highlights 最終財に in 一部の最終財にも物価上昇が波及していると思う～～（他に中間財・消費財・情報関連財がある。）; 間違い highlights 最終材に in 一部の最終材にも物価上昇が波及していると思う～～. The raw CSV correct sentence is 一部の最終財にも物価上昇が波及していると思う～～. The highlighted units occur in both, but the complete correct sentences differ (csv_in_html); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF-8 MeCab/IPADIC components where available and a separately cited published source for non-dictionary components: 最終財に = 最終[サイシュウ] + 財[ザイ] + に[ニ]; 最終材に = 最終[サイシュウ] + 材[ザイ] + に[ニ]. IPADIC identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.  Context determines the selected reading; grammatical particles are spoken ワ/エ/オ, punctuation silent. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200411.html, entry 9; 正解=一部の最終財にも物価上昇が波及していると思う～～（他に中間財・消費財・情報関連財がある。）; 間違い=一部の最終材にも物価上昇が波及していると思う～～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reason": "研究者の訂正基準で同音異義・異指示対象の対比を採用。最終財に／最終材には、保存原文の正解と誤記で語義・構成または指示対象が異なる。音声原本は未確認であり、読みは保存文脈に自然な比較読み。 | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200501_003",
+      "OriginalHash": "83b312743aefbce6315fba2c7df4ed4bda4516916b4dc9d341a1f86ba932d9b6",
+      "old_pairs": [
+        {
+          "PairID": "cbb70443-198b-56fb-aabd-af4549cdf64a",
+          "src_start": 5,
+          "src_end": 13,
+          "tgt_start": 5,
+          "tgt_end": 15,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 5,
+          "src_end": 7,
+          "tgt_start": 5,
+          "tgt_end": 7,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "cbb70443-198b-56fb-aabd-af4549cdf64a"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 5,
+          "end": 13,
+          "surface": "居宅",
+          "reading": "キョタク",
+          "meanings": [],
+          "qualifiers": [
+            "原資料表記中の括弧注記 （キョタク） は語の説明・読みの補助であり、選択語の発音に追加しない。"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 5,
+          "end": 15,
+          "surface": "委託",
+          "reading": "イタク",
+          "meanings": [],
+          "qualifiers": [
+            "原資料表記中の括弧注記 （イタクと誤読） は語の説明・読みの補助であり、選択語の発音に追加しない。"
+          ]
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200501.html entry 3: 正解 highlights 居宅（キョタク） in 今の一般の居宅（キョタク）の補助金よりも、工事費が高くなるのはわかります。; 間違い highlights 委託（イタクと誤読） in 今の一般の委託（イタクと誤読）の補助金よりも、工事費が高くなるのはわかります。. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span 居宅（キョタク） is classified as lexical surface 居宅[キョタク] with separate note '（キョタク）'; target span 委託（イタクと誤読） as 委託[イタク] with separate note '（イタクと誤読）'. Source parenthesis explicitly supplies キョタク; error parenthesis explicitly calls イタク a misreading. Kyoto prefectural material independently gives 居宅[きょたく]. Published lexical reference: https://www.pref.kyoto.jp/shogaishien/sougoukeikaku/documents/04-honbun-beppyou-rubi.pdf. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. | Sol individually reviewed shortening exception: Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200501.html entry 3: 正解 highlights 居宅（キョタク） in 今の一般の居宅（キョタク）の補助金よりも、工事費が高くなるのはわかります。; 間違い highlights 委託（イタクと誤読） in 今の一般の委託（イタクと誤読）の補助金よりも、工事費が高くなるのはわかります。. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span 居宅（キョタク） is classified as lexical surface 居宅[キョタク] with separate note '（キョタク）'; target span 委託（イタクと誤読） as 委託[イタク] with separate note '（イタクと誤読）'. Source parenthesis explicitly supplies キョタク; error parenthesis explicitly calls イタク a misreading. Kyoto prefectural material independently gives 居宅[きょたく]. Published lexical reference: https://www.pref.kyoto.jp/shogaishien/sougoukeikaku/documents/04-honbun-beppyou-rubi.pdf. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Archived correction direction and classified parenthetical note give spoken キョタク versus イタク; distinct under the phonological rule. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200501_009",
+      "OriginalHash": "afe18ff67744e61627b517ca6e825712e24b45108aaa321ce80e8279deaa9091",
+      "old_pairs": [
+        {
+          "PairID": "6f21b6b3-3de0-555f-a168-6a5b3f9c32f1",
+          "src_start": 3,
+          "src_end": 9,
+          "tgt_start": 3,
+          "tgt_end": 9,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 5,
+          "tgt_start": 3,
+          "tgt_end": 5,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "6f21b6b3-3de0-555f-a168-6a5b3f9c32f1"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "surface": "俎上",
+          "reading": "ソジョウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 5,
+          "surface": "遡上",
+          "reading": "ソジョウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200501.html entry 9: 正解 highlights 俎上にのせる in 議論を俎上にのせる; 間違い highlights 遡上にのせる in 議論を遡上にのせる. Both complete archived sentences agree with the original CSV after Unicode width normalization. Published lexical source: https://kotobank.jp/word/%E4%BF%8E%E4%B8%8A-554389. 小学館デジタル大辞泉 gives 俎上[ソジョウ]; 日本漢字能力検定協会 gives 遡上[ソジョウ] at https://www.kanjipedia.jp/kanji/0004190400 . The shared ordinary grammar に[ニ] + のせる[ノセル] is identical. Context selects 俎上にのせる[ソジョウニノセル] versus 遡上にのせる[ソジョウニノセル]. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200501.html, entry 9; 正解=議論を俎上にのせる; 間違い=議論を遡上にのせる; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 | Sol individually reviewed shortening exception: Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200501.html entry 9: 正解 highlights 俎上にのせる in 議論を俎上にのせる; 間違い highlights 遡上にのせる in 議論を遡上にのせる. Both complete archived sentences agree with the original CSV after Unicode width normalization. Published lexical source: https://kotobank.jp/word/%E4%BF%8E%E4%B8%8A-554389. 小学館デジタル大辞泉 gives 俎上[ソジョウ]; 日本漢字能力検定協会 gives 遡上[ソジョウ] at https://www.kanjipedia.jp/kanji/0004190400 . The shared ordinary grammar に[ニ] + のせる[ノセル] is identical. Context selects 俎上にのせる[ソジョウニノセル] versus 遡上にのせる[ソジョウニノセル]. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200501.html, entry 9; 正解=議論を俎上にのせる; 間違い=議論を遡上にのせる; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reason": "研究者の訂正基準で同音異義・異指示対象の対比を採用。俎上にのせる／遡上にのせるは、保存原文の正解と誤記で語義・構成または指示対象が異なる。音声原本は未確認であり、読みは保存文脈に自然な比較読み。 | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200610_002",
+      "OriginalHash": "a1753ba82017da504c33f374af104b537bce2b44afc4c887d8520b2ba06c9176",
+      "old_pairs": [
+        {
+          "PairID": "68a38878-5440-5805-aa1a-abd2de872367",
+          "src_start": 6,
+          "src_end": 13,
+          "tgt_start": 6,
+          "tgt_end": 11,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 7,
+          "src_end": 12,
+          "tgt_start": 6,
+          "tgt_end": 11,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "68a38878-5440-5805-aa1a-abd2de872367"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 6,
+          "end": 13,
+          "surface": "季節調整値",
+          "reading": "キセツチョウセイチ",
+          "meanings": [],
+          "qualifiers": [
+            "原資料表記中の括弧注記 （） は語の説明・読みの補助であり、選択語の発音に追加しない。"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 6,
+          "end": 11,
+          "surface": "規制調整値",
+          "reading": "キセイチョウセイチ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200610.html entry 2: 正解 highlights （季節調整値） in 有効求人倍率（季節調整値）が1.０９と、これまた０.０１ポイント前月比で上がっている。; 間違い highlights 規制調整値 in 有効求人倍率規制調整値が1.０９と、これまた０.０１ポイント前月比で上がっている。. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span （季節調整値） is classified as lexical surface 季節調整値[キセツチョウセイチ] with separate note '（）'; target span 規制調整値 as 規制調整値[キセイチョウセイチ] with separate note ''. Parentheses set off the statistical indicator 季節[キセツ] + 調整[チョウセイ] + 値[チ]; they are not spoken lexical content. Error 規制[キセイ] + 調整[チョウセイ] + 値[チ] uses ordinary dictionary components. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. | Sol individually reviewed shortening exception: Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200610.html entry 2: 正解 highlights （季節調整値） in 有効求人倍率（季節調整値）が1.０９と、これまた０.０１ポイント前月比で上がっている。; 間違い highlights 規制調整値 in 有効求人倍率規制調整値が1.０９と、これまた０.０１ポイント前月比で上がっている。. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span （季節調整値） is classified as lexical surface 季節調整値[キセツチョウセイチ] with separate note '（）'; target span 規制調整値 as 規制調整値[キセイチョウセイチ] with separate note ''. Parentheses set off the statistical indicator 季節[キセツ] + 調整[チョウセイ] + 値[チ]; they are not spoken lexical content. Error 規制[キセイ] + 調整[チョウセイ] + 値[チ] uses ordinary dictionary components. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Archived correction direction and classified parenthetical note give spoken キセツチョウセイチ versus キセイチョウセイチ; distinct under the phonological rule. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201103_007",
+      "OriginalHash": "8a61a959d7efebce10b8153a3f1d17f636898eef8e8bd74faa43948d2ae002db",
+      "old_pairs": [
+        {
+          "PairID": "04e21d4d-1348-5221-8764-8debda20660b",
+          "src_start": 7,
+          "src_end": 12,
+          "tgt_start": 7,
+          "tgt_end": 12,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 7,
+          "src_end": 9,
+          "tgt_start": 7,
+          "tgt_end": 9,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "04e21d4d-1348-5221-8764-8debda20660b"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 7,
+          "end": 9,
+          "surface": "徴取",
+          "reading": "チョウシュ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 7,
+          "end": 9,
+          "surface": "聴取",
+          "reading": "チョウシュ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201103.html entry 7: 正解 highlights 徴取・保存 in 法律に基づいて徴取・保存がされている領収書等に住所が記載されている場合は、さらに会計帳簿に記載を求める必要はないのでは～; 間違い highlights 聴取・保存 in 法律に基づいて聴取・保存がされている領収書等に住所が記載されている場合は、さらに会計帳簿に記載を求める必要はないのでは～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Published lexical source: https://www.pref.kanagawa.jp/documents/127447/10.pdf. 神奈川県 document furigana explicitly gives 報告徴取[ホウコクチョウシュ], establishing 徴取[チョウシュ]; 聴取[チョウシュ] and 保存[ホゾン] are exact IPADIC, with silent punctuation. Context selects 徴取・保存[チョウシュホゾン] versus 聴取・保存[チョウシュホゾン]. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar201103.html, entry 7; 正解=法律に基づいて徴取・保存がされている領収書等に住所が記載されている場合は、さらに会計帳簿に記載を求める必要はないのでは～; 間違い=法律に基づいて聴取・保存がされている領収書等に住所が記載されている場合は、さらに会計帳簿に記載を求める必要はないのでは～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 | Sol individually reviewed shortening exception: Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201103.html entry 7: 正解 highlights 徴取・保存 in 法律に基づいて徴取・保存がされている領収書等に住所が記載されている場合は、さらに会計帳簿に記載を求める必要はないのでは～; 間違い highlights 聴取・保存 in 法律に基づいて聴取・保存がされている領収書等に住所が記載されている場合は、さらに会計帳簿に記載を求める必要はないのでは～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Published lexical source: https://www.pref.kanagawa.jp/documents/127447/10.pdf. 神奈川県 document furigana explicitly gives 報告徴取[ホウコクチョウシュ], establishing 徴取[チョウシュ]; 聴取[チョウシュ] and 保存[ホゾン] are exact IPADIC, with silent punctuation. Context selects 徴取・保存[チョウシュホゾン] versus 聴取・保存[チョウシュホゾン]. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar201103.html, entry 7; 正解=法律に基づいて徴取・保存がされている領収書等に住所が記載されている場合は、さらに会計帳簿に記載を求める必要はないのでは～; 間違い=法律に基づいて聴取・保存がされている領収書等に住所が記載されている場合は、さらに会計帳簿に記載を求める必要はないのでは～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reason": "研究者の訂正基準で同音異義・異指示対象の対比を採用。徴取・保存／聴取・保存は、保存原文の正解と誤記で語義・構成または指示対象が異なる。音声原本は未確認であり、読みは保存文脈に自然な比較読み。 | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201104_001",
+      "OriginalHash": "81f41ad15f31abfba976b865284c8d569cf341c9fc92f3cd420ad69bb255e9f0",
+      "old_pairs": [
+        {
+          "PairID": "de8a36d6-fce4-5508-8fbf-a013017d57f7",
+          "src_start": 3,
+          "src_end": 7,
+          "tgt_start": 3,
+          "tgt_end": 8,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 3,
+          "src_end": 6,
+          "tgt_start": 3,
+          "tgt_end": 7,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "de8a36d6-fce4-5508-8fbf-a013017d57f7"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 3,
+          "end": 6,
+          "surface": "投開票",
+          "reading": "トウカイヒョウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 3,
+          "end": 7,
+          "surface": "東海地方",
+          "reading": "トウカイチホウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201104.html entry 1: 正解 highlights 投開票の in 昨日、投開票の名古屋市議選で、減税日本が第一党になり～; 間違い highlights 東海地方の in 昨日、東海地方の名古屋市議選で、減税日本が第一党になり～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is 投開票の[トウカイヒョウノ] versus 東海地方の[トウカイチホウノ]. 投開票[トウカイヒョウ] versus 東海[トウカイ] + 地方[チホウ], followed by の[ノ], are exact IPADIC components; Nagoya election context fixes the source sense. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. | Sol individually reviewed shortening exception: Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201104.html entry 1: 正解 highlights 投開票の in 昨日、投開票の名古屋市議選で、減税日本が第一党になり～; 間違い highlights 東海地方の in 昨日、東海地方の名古屋市議選で、減税日本が第一党になり～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is 投開票の[トウカイヒョウノ] versus 東海地方の[トウカイチホウノ]. 投開票[トウカイヒョウ] versus 東海[トウカイ] + 地方[チホウ], followed by の[ノ], are exact IPADIC components; Nagoya election context fixes the source sense. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reason": "Archived source fixes the correction direction. Context-supported spoken readings トウカイヒョウノ versus トウカイチホウノ differ phonologically. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201105_002",
+      "OriginalHash": "ac688d1f04a8b899154b3fa9d7fd7a1e0a49f32de91033b84331bf025126954e",
+      "old_pairs": [
+        {
+          "PairID": "c470e7f8-d37a-5455-97f2-30ea72066c35",
+          "src_start": 25,
+          "src_end": 30,
+          "tgt_start": 25,
+          "tgt_end": 30,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 25,
+          "src_end": 29,
+          "tgt_start": 25,
+          "tgt_end": 29,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "c470e7f8-d37a-5455-97f2-30ea72066c35"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 25,
+          "end": 29,
+          "surface": "党利党略",
+          "reading": "トウリトウリャク",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 25,
+          "end": 29,
+          "surface": "通り一遍",
+          "reading": "トオリイチヘン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201105.html entry 2: 正解 highlights 党利党略は in 東日本大地震の被災者のために、政治の力で公助を急げ。党利党略はいいかげんにしてほしい。; 間違い highlights 通り一遍は in 東日本大地震の被災者のために政治の力で公助を急げ。通り一遍はいいかげんにしてほしい。. The raw CSV correct sentence is 東日本大地震の被災者のために政治の力で公助を急げ。党利党略はいいかげんにしてほしい。. The highlighted units occur in both, but the complete correct sentences differ (other); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF-8 MeCab/IPADIC components where available and a separately cited published source for non-dictionary components: 党利党略は = 党利[トウリ] + 党略[トウリャク] + は[ワ]; 通り一遍は = 通り[トオリ] + 一[イチ] + 遍[ヘン] + は[ワ]. IPADIC identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.  Context determines the selected reading; grammatical particles are spoken ワ/エ/オ, punctuation silent. | Sol individually reviewed shortening exception: Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201105.html entry 2: 正解 highlights 党利党略は in 東日本大地震の被災者のために、政治の力で公助を急げ。党利党略はいいかげんにしてほしい。; 間違い highlights 通り一遍は in 東日本大地震の被災者のために政治の力で公助を急げ。通り一遍はいいかげんにしてほしい。. The raw CSV correct sentence is 東日本大地震の被災者のために政治の力で公助を急げ。党利党略はいいかげんにしてほしい。. The highlighted units occur in both, but the complete correct sentences differ (other); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF-8 MeCab/IPADIC components where available and a separately cited published source for non-dictionary components: 党利党略は = 党利[トウリ] + 党略[トウリャク] + は[ワ]; 通り一遍は = 通り[トオリ] + 一[イチ] + 遍[ヘン] + は[ワ]. IPADIC identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.  Context determines the selected reading; grammatical particles are spoken ワ/エ/オ, punctuation silent. The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reason": "The saved source fixes the correction direction despite the surrounding-sentence difference. Context-supported readings トウリトウリャクワ versus トオリイチヘンワ differ phonologically. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The saved primary excerpt and old review Evidence explicitly identify the contrasted lexical base and its reading. The old full reading splits at the shared inflection, particle, enumeration, or silent punctuation shown in the original surfaces. This independently resolves the strict dictionary best-path/token-boundary/nonunique-alignment gate; do not generalize this exception to other records.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201205_002",
+      "OriginalHash": "cd8d0f0d1752f03dd1e2551f92c8fcc6c144623d207af17fa44d4431bb18f0f0",
+      "old_pairs": [
+        {
+          "PairID": "be352ee7-f483-5933-8ad8-7dbe156ef32b",
+          "src_start": 4,
+          "src_end": 13,
+          "tgt_start": 4,
+          "tgt_end": 6,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 4,
+          "src_end": 6,
+          "tgt_start": 4,
+          "tgt_end": 6,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "be352ee7-f483-5933-8ad8-7dbe156ef32b"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 4,
+          "end": 13,
+          "surface": "常幹",
+          "reading": "ジョウカン",
+          "meanings": [],
+          "qualifiers": [
+            "原資料表記中の括弧注記 （常任幹事会） は語の説明・読みの補助であり、選択語の発音に追加しない。"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 4,
+          "end": 6,
+          "surface": "朝刊",
+          "reading": "チョウカン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201205.html entry 2: 正解 highlights 常幹（常任幹事会） in 火曜日の常幹（常任幹事会）でも話が出ていたが、党として、議員のホームページ、ブログなど、情報の発信の仕方について、十分に気をつけるようにというお達しを出されたと思うが……。; 間違い highlights 朝刊 in 火曜日の朝刊でも話が出ていたが、党として、議員のホームページ、ブログなど、情報の発信の仕方について、十分に気をつけるようにというお達しを出されたと思うが……。. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span 常幹（常任幹事会） is classified as lexical surface 常幹[ジョウカン] with separate note '（常任幹事会）'; target span 朝刊 as 朝刊[チョウカン] with separate note ''. The archived parenthesis expands 常幹 as 常任幹事会, giving party abbreviation 常[ジョウ] + 幹[カン]; 朝刊[チョウカン] is exact IPADIC. The expansion is unspoken. Published lexical reference: https://www.jimin.jp/aboutus/organization/. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. | Sol individually reviewed shortening exception: Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201205.html entry 2: 正解 highlights 常幹（常任幹事会） in 火曜日の常幹（常任幹事会）でも話が出ていたが、党として、議員のホームページ、ブログなど、情報の発信の仕方について、十分に気をつけるようにというお達しを出されたと思うが……。; 間違い highlights 朝刊 in 火曜日の朝刊でも話が出ていたが、党として、議員のホームページ、ブログなど、情報の発信の仕方について、十分に気をつけるようにというお達しを出されたと思うが……。. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span 常幹（常任幹事会） is classified as lexical surface 常幹[ジョウカン] with separate note '（常任幹事会）'; target span 朝刊 as 朝刊[チョウカン] with separate note ''. The archived parenthesis expands 常幹 as 常任幹事会, giving party abbreviation 常[ジョウ] + 幹[カン]; 朝刊[チョウカン] is exact IPADIC. The expansion is unspoken. Published lexical reference: https://www.jimin.jp/aboutus/organization/. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "Archived correction direction and classified parenthetical note give spoken ジョウカン versus チョウカン; distinct under the phonological rule. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201606_002",
+      "OriginalHash": "3980144712340db0596a24369738b30ccf0e740385becdfd94aeb2a188635beb",
+      "old_pairs": [
+        {
+          "PairID": "b9337c3f-3201-55c5-8857-ac7d7d7d99e4",
+          "src_start": 14,
+          "src_end": 19,
+          "tgt_start": 14,
+          "tgt_end": 16,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 14,
+          "src_end": 15,
+          "tgt_start": 14,
+          "tgt_end": 16,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "b9337c3f-3201-55c5-8857-ac7d7d7d99e4"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 14,
+          "end": 19,
+          "surface": "箍",
+          "reading": "タガ",
+          "meanings": [],
+          "qualifiers": [
+            "原資料表記中の括弧注記 （たが） は語の説明・読みの補助であり、選択語の発音に追加しない。"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 14,
+          "end": 16,
+          "surface": "ただ",
+          "reading": "タダ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201606.html entry 2: 正解 highlights 箍（たが）がはまっているか in 財務的に、支出の面できちんと箍（たが）がはまっているかは～; 間違い highlights ただか、余っているか in 財務的に、支出の面できちんとただか、余っているかは～. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span 箍（たが） is classified as lexical surface 箍[タガ] with separate note '（たが）'; target span ただ as ただ[タダ] with separate note ''. The parenthetical source explicitly supplies 箍[たが], a financial constraint metaphor; the error begins ordinary ただ[タダ]. Only this concise lexical contrast is selected. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. | Sol individually reviewed shortening exception: Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201606.html entry 2: 正解 highlights 箍（たが）がはまっているか in 財務的に、支出の面できちんと箍（たが）がはまっているかは～; 間違い highlights ただか、余っているか in 財務的に、支出の面できちんとただか、余っているかは～. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span 箍（たが） is classified as lexical surface 箍[タガ] with separate note '（たが）'; target span ただ as ただ[タダ] with separate note ''. The parenthetical source explicitly supplies 箍[たが], a financial constraint metaphor; the error begins ordinary ただ[タダ]. Only this concise lexical contrast is selected. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Archived correction direction and classified parenthetical note give spoken タガ versus タダ; distinct under the phonological rule. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202003_002",
+      "OriginalHash": "e55da66d0755357fed7232b77af9fe7b82c453503c13a5c756a25be185510933",
+      "old_pairs": [
+        {
+          "PairID": "5faf81b5-5539-5e5b-9bf4-c5ba3db4084a",
+          "src_start": 14,
+          "src_end": 32,
+          "tgt_start": 14,
+          "tgt_end": 16,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 14,
+          "src_end": 17,
+          "tgt_start": 14,
+          "tgt_end": 16,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "5faf81b5-5539-5e5b-9bf4-c5ba3db4084a"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 14,
+          "end": 32,
+          "surface": "ＯＳＳ",
+          "reading": "オーエスエス",
+          "meanings": [],
+          "qualifiers": [
+            "原資料表記中の括弧注記 （オープンソースソフトウェア） は語の説明・読みの補助であり、選択語の発音に追加しない。"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 14,
+          "end": 16,
+          "surface": "大磯",
+          "reading": "オオイソ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar202003.html entry 2: 正解 highlights ＯＳＳ（オープンソースソフトウェア）を in 運用面等課題はあっても、まずＯＳＳ（オープンソースソフトウェア）を中心に考えて～; 間違い highlights 大磯を in 運用面等課題はあっても、まず大磯を中心に考えて～. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span ＯＳＳ（オープンソースソフトウェア） is classified as lexical surface ＯＳＳ[オーエスエス] with separate note '（オープンソースソフトウェア）'; target span 大磯 as 大磯[オオイソ] with separate note ''. The source parenthesis explicitly expands OSS as オープンソースソフトウェア, ordinarily spelled out オーエスエス; the error 大磯[オオイソ] is an exact IPADIC place name. The expansion is a gloss, not an added spoken string. Published lexical reference: https://www.ipa.go.jp/. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. | Sol individually reviewed shortening exception: Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar202003.html entry 2: 正解 highlights ＯＳＳ（オープンソースソフトウェア）を in 運用面等課題はあっても、まずＯＳＳ（オープンソースソフトウェア）を中心に考えて～; 間違い highlights 大磯を in 運用面等課題はあっても、まず大磯を中心に考えて～. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span ＯＳＳ（オープンソースソフトウェア） is classified as lexical surface ＯＳＳ[オーエスエス] with separate note '（オープンソースソフトウェア）'; target span 大磯 as 大磯[オオイソ] with separate note ''. The source parenthesis explicitly expands OSS as オープンソースソフトウェア, ordinarily spelled out オーエスエス; the error 大磯[オオイソ] is an exact IPADIC place name. The expansion is a gloss, not an added spoken string. Published lexical reference: https://www.ipa.go.jp/. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "Archived correction direction and classified parenthetical note give spoken オーエスエス versus オオイソ; distinct under the phonological rule. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202205_001",
+      "OriginalHash": "cc14cba1d722447af117d2f0c8d34d56fd7cbca135062c628d52792755ee0c0d",
+      "old_pairs": [
+        {
+          "PairID": "583e9391-43ce-548c-840d-7ca720468088",
+          "src_start": 22,
+          "src_end": 34,
+          "tgt_start": 22,
+          "tgt_end": 23,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 22,
+          "src_end": 24,
+          "tgt_start": 22,
+          "tgt_end": 23,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "583e9391-43ce-548c-840d-7ca720468088"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 22,
+          "end": 34,
+          "surface": "輸贏",
+          "reading": "ユエイ",
+          "meanings": [],
+          "qualifiers": [
+            "研究者方針に基づく想定読み。原音未確認。括弧内は二つの読み候補。先掲読みに限定"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 22,
+          "end": 23,
+          "surface": "故",
+          "reading": "ユエ",
+          "meanings": [],
+          "qualifiers": [
+            "研究者方針に基づく想定読み。原音未確認"
+          ]
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar202205.html: 正解 highlights 輸贏（ゆえい　しゅえい） in 今はこういう言い方はあまりしませんが、偶然の輸贏（ゆえい　しゅえい）に関し～; 間違い highlights 故 in 今はこういう言い方はあまりしませんが、偶然の故に関し～. Archived context: The source itself prints 「偶然の輸贏（ゆえい　しゅえい）に関し」, while the error highlights 「故」. Checks: The parenthetical source explicitly presents two candidate readings ゆえい and しゅえい. The parenthesis is pronunciation guidance but does not choose one variant; it is not part of the spoken headword. Published references checked: none located. 2026-10-24 user-directed conditional adjudication: assume the reported confusion occurred. Selected reading is a researcher-policy interpretation of the archived writing and context, not verified original speech. IPADIC /var/lib/mecab/dic/debian/sys.dic file SHA256 ce8ea424b3ee79d34c5afdba9cf1dd95266dca15c8ba93645f1284c62fcc3339; corpus_api.dictionary identity SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba, queried with CLI. Selected archived surfaces '輸贏（ゆえい\\u3000しゅえい）'/'故'; interpreted kana ユエイ/ユエ. 原資料が二読を併記。先掲のユエイはIPADICにもある。括弧内の読みに表記上の注記として扱う。 | Sol individually reviewed shortening exception: Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar202205.html: 正解 highlights 輸贏（ゆえい　しゅえい） in 今はこういう言い方はあまりしませんが、偶然の輸贏（ゆえい　しゅえい）に関し～; 間違い highlights 故 in 今はこういう言い方はあまりしませんが、偶然の故に関し～. Archived context: The source itself prints 「偶然の輸贏（ゆえい　しゅえい）に関し」, while the error highlights 「故」. Checks: The parenthetical source explicitly presents two candidate readings ゆえい and しゅえい. The parenthesis is pronunciation guidance but does not choose one variant; it is not part of the spoken headword. Published references checked: none located. 2026-10-24 user-directed conditional adjudication: assume the reported confusion occurred. Selected reading is a researcher-policy interpretation of the archived writing and context, not verified original speech. IPADIC /var/lib/mecab/dic/debian/sys.dic file SHA256 ce8ea424b3ee79d34c5afdba9cf1dd95266dca15c8ba93645f1284c62fcc3339; corpus_api.dictionary identity SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba, queried with CLI. Selected archived surfaces '輸贏（ゆえい\\u3000しゅえい）'/'故'; interpreted kana ユエイ/ユエ. 原資料が二読を併記。先掲のユエイはIPADICにもある。括弧内の読みに表記上の注記として扱う。 The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "原資料が二読を併記。先掲のユエイはIPADICにもある。括弧内の読みに表記上の注記として扱う。 原音未確認の研究者方針による想定読みであり、実際の発音を実証した判断ではない。 | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "e_yamatoya_4994_001",
+      "OriginalHash": "51c9d2343c908c42c0757675e654655d88afb78396d7754aa4a37405cc14f4c9",
+      "old_pairs": [
+        {
+          "PairID": "9445c1d0-b0cd-5ece-9a0a-89843989fb95",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "9445c1d0-b0cd-5ece-9a0a-89843989fb95"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "丸谷",
+          "reading": "マルヤ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "マリア",
+          "reading": "マリア",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_name_kikimachigae/e-yamatoya_4994.csv row e_yamatoya_4994_001; Src=丸谷（まるや）; Tgt=マリア; Note=「丸谷」という名字が「マリア」と聞き間違えられることが多い。スタッフブログ冒頭で言及。; URL=https://www.e-yamatoya.jp/news/4994/. The actual first-person staff blog https://www.e-yamatoya.jp/news/4994/ opens with the surname 丸谷 misheard as マリア and closes by signing マルヤ. The parenthetical まるや in the raw CSV is a reading gloss, not a spoken syllable. Exact dictionary surname alternatives マルタニ/マルヤ exist, but this person explicitly selects マルヤ. | Sol individually reviewed shortening exception: data/mishearing/google_search_name_kikimachigae/e-yamatoya_4994.csv row e_yamatoya_4994_001; Src=丸谷（まるや）; Tgt=マリア; Note=「丸谷」という名字が「マリア」と聞き間違えられることが多い。スタッフブログ冒頭で言及。; URL=https://www.e-yamatoya.jp/news/4994/. The actual first-person staff blog https://www.e-yamatoya.jp/news/4994/ opens with the surname 丸谷 misheard as マリア and closes by signing マルヤ. The parenthetical まるや in the raw CSV is a reading gloss, not a spoken syllable. Exact dictionary surname alternatives マルタニ/マルヤ exist, but this person explicitly selects マルヤ. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "The selected source 丸谷=マルヤ and heard target マリア=マリア differ in their spoken segments. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "gaishishukatsu_6exp_001",
+      "OriginalHash": "2523bbbbef8983be81e19ef6ae27ee77b67d252d81daa892b795d89fac51f5ae",
+      "old_pairs": [
+        {
+          "PairID": "79f7ab7a-209c-5741-b3ae-940ccb98888c",
+          "src_start": 0,
+          "src_end": 11,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "79f7ab7a-209c-5741-b3ae-940ccb98888c"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 11,
+          "surface": "鍛高譚",
+          "reading": "タンタカタン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "タンタカポン",
+          "reading": "タンタカポン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_konsaru_kikimachigai/gaishishukatsu_company.csv row gaishishukatsu_6exp_001; Src=鍛高譚（たんたかたん）; Tgt=タンタカポン; Note=「鍛高譚（たんたかたん）」という焼酎の商品名を「タンタカポン」と聞き間違えた。飲み会や学生同士の会話で発生。; URL=https://gaishishukatsu.com/company/6/experiences. The original source explicitly annotates liquor name 鍛高譚（たんたかたん） and contrasts literal-katakana heard タンタカポン. | Sol individually reviewed shortening exception: data/mishearing/google_search_konsaru_kikimachigai/gaishishukatsu_company.csv row gaishishukatsu_6exp_001; Src=鍛高譚（たんたかたん）; Tgt=タンタカポン; Note=「鍛高譚（たんたかたん）」という焼酎の商品名を「タンタカポン」と聞き間違えた。飲み会や学生同士の会話で発生。; URL=https://gaishishukatsu.com/company/6/experiences. The original source explicitly annotates liquor name 鍛高譚（たんたかたん） and contrasts literal-katakana heard タンタカポン. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives 鍛高譚=タンタカタン versus タンタカポン=タンタカポン; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "girlschannel_1160446_017",
+      "OriginalHash": "b7ea6acb71e1011f36b9f06ca0d8997868bc31d41c953cdb2de54a1a44195e2f",
+      "old_pairs": [
+        {
+          "PairID": "162e0388-3089-55e1-a80f-00367b4c04d7",
+          "src_start": 0,
+          "src_end": 10,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "162e0388-3089-55e1-a80f-00367b4c04d7"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "surface": "太子堂",
+          "reading": "タイシドウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "体脂肪",
+          "reading": "タイシボウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_name_kikimachigai/girls_channel_topics_1160446.csv row girlschannel_1160446_017; Src=太子堂（たいしどう）; Tgt=体脂肪; Note=帰宅時に車内放送の「太子堂駅」が健康ワードに聞こえて二度見。; URL=https://girlschannel.net/topics/1160446/. The original train-announcement example explicitly supplies 太子堂（たいしどう）; 体脂肪 conventionally reads タイシボウ, differing ドウ/ボウ. | Sol individually reviewed shortening exception: data/mishearing/google_search_name_kikimachigai/girls_channel_topics_1160446.csv row girlschannel_1160446_017; Src=太子堂（たいしどう）; Tgt=体脂肪; Note=帰宅時に車内放送の「太子堂駅」が健康ワードに聞こえて二度見。; URL=https://girlschannel.net/topics/1160446/. The original train-announcement example explicitly supplies 太子堂（たいしどう）; 体脂肪 conventionally reads タイシボウ, differing ドウ/ボウ. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives 太子堂=タイシドウ versus 体脂肪=タイシボウ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "gloriaxxx_exblog_2744779_001",
+      "OriginalHash": "8867419c325674a19e2c33fbbb4c41e78f727a411837c33fa9a00fe5b343d0f5",
+      "old_pairs": [
+        {
+          "PairID": "6f41ee7a-92ea-50a5-b310-b3f9566ebf27",
+          "src_start": 0,
+          "src_end": 10,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "6f41ee7a-92ea-50a5-b310-b3f9566ebf27"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "surface": "仲垣内",
+          "reading": "ナカガイチ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "なかがいと",
+          "reading": "ナカガイト",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_name_kikimachigae/exblog_2744779.csv row gloriaxxx_exblog_2744779_001; Src=仲垣内(なかがいち); Tgt=なかがいと; Note=出席時に教師が「なかがいと？なかがいち？」と毎回聞き返す。; URL=https://gloriaxxx.exblog.jp/2744779/. The original entry explicitly supplies 仲垣内（なかがいち） and the queried なかがいと, contrasting チ/ト. | Sol individually reviewed shortening exception: data/mishearing/google_search_name_kikimachigae/exblog_2744779.csv row gloriaxxx_exblog_2744779_001; Src=仲垣内(なかがいち); Tgt=なかがいと; Note=出席時に教師が「なかがいと？なかがいち？」と毎回聞き返す。; URL=https://gloriaxxx.exblog.jp/2744779/. The original entry explicitly supplies 仲垣内（なかがいち） and the queried なかがいと, contrasting チ/ト. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives 仲垣内=ナカガイチ versus なかがいと=ナカガイト; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "jobcatalog_1030780785_001",
+      "OriginalHash": "fd833034c9fda0bc400dc41736f35191d97399ac89223f59873a4944ba4b1af0",
+      "old_pairs": [
+        {
+          "PairID": "b589f8e0-7d6c-5374-9371-e675d4ffd314",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "b589f8e0-7d6c-5374-9371-e675d4ffd314"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "井原",
+          "reading": "イハラ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "ミハラ",
+          "reading": "ミハラ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_call_center_kikimachigai/yahoo_1030780785.csv row jobcatalog_1030780785_001; Src=井原（イハラ）; Tgt=ミハラ; Note=コールセンターで名字を聞き間違えやすい例。漢字を聞くことで正確に把握できる。; URL=https://contents.jobcatalog.yahoo.co.jp/qa/list/1030780785/. The source itself annotates 井原（イハラ） and the misheard ミハラ in a call-center name example. | Sol individually reviewed shortening exception: data/mishearing/google_search_call_center_kikimachigai/yahoo_1030780785.csv row jobcatalog_1030780785_001; Src=井原（イハラ）; Tgt=ミハラ; Note=コールセンターで名字を聞き間違えやすい例。漢字を聞くことで正確に把握できる。; URL=https://contents.jobcatalog.yahoo.co.jp/qa/list/1030780785/. The source itself annotates 井原（イハラ） and the misheard ミハラ in a call-center name example. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives 井原=イハラ versus ミハラ=ミハラ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "kinabal_telephone_002",
+      "OriginalHash": "412c45ca4632ca587fbe64ff86c818e0a62cd802f8c66f5bf0919bfc22ad7a69",
+      "old_pairs": [
+        {
+          "PairID": "1275b61a-8029-5592-84c0-0f8efd5fdcb6",
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "1275b61a-8029-5592-84c0-0f8efd5fdcb6"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "エヌ",
+          "reading": "エヌ",
+          "meanings": [],
+          "qualifiers": [
+            "日本語の英字Nの字名"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "エム",
+          "reading": "エム",
+          "meanings": [],
+          "qualifiers": [
+            "日本語の英字Mの字名"
+          ]
+        }
+      ],
+      "Evidence": "Read primary https://kinabal.co.jp/marketing/basics-of-telephone-support/; the section about repeating information explicitly lists エヌ/エム as similar sounds and then disambiguates them with note/mountain. The previous no-match result failed to recognise this printed pair. Raw parenthetical N/M are letter identifiers, not additional speech. | Sol individually reviewed shortening exception: Read primary https://kinabal.co.jp/marketing/basics-of-telephone-support/; the section about repeating information explicitly lists エヌ/エム as similar sounds and then disambiguates them with note/mountain. The previous no-match result failed to recognise this printed pair. Raw parenthetical N/M are letter identifiers, not additional speech. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Both Japanese letter-name readings are explicitly supplied by the primary article. Include the nasal-final sound contrast as an illustrative example; an actual recorded call is not required. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "komachi367676_022",
+      "OriginalHash": "1d7b761b9cd3c73a1232b562984ce090a42e427d019e843e8dbba8111487ada7",
+      "old_pairs": [
+        {
+          "PairID": "863c8e68-143d-5099-b93c-e260979d913e",
+          "src_start": 0,
+          "src_end": 13,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "863c8e68-143d-5099-b93c-e260979d913e"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "surface": "画像処理",
+          "reading": "カジョウショリ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "課長処理",
+          "reading": "カチョウショリ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_taxi_kikimachigai/komachi_367676.csv row komachi367676_022; Src=画像処理（カジョウショリ）; Tgt=課長処理; Note=「画像処理」が「課長処理」に聞こえる; URL=https://komachi.yomiuri.co.jp/topics/id/367676/. The original material explicitly annotates 画像処理（カジョウショリ） as the reported spoken form, which contrasts 課長処理=カチョウショリ; it is not a claim about standard image-processing pronunciation. | Sol individually reviewed shortening exception: data/mishearing/google_search_taxi_kikimachigai/komachi_367676.csv row komachi367676_022; Src=画像処理（カジョウショリ）; Tgt=課長処理; Note=「画像処理」が「課長処理」に聞こえる; URL=https://komachi.yomiuri.co.jp/topics/id/367676/. The original material explicitly annotates 画像処理（カジョウショリ） as the reported spoken form, which contrasts 課長処理=カチョウショリ; it is not a claim about standard image-processing pronunciation. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives 画像処理=カジョウショリ versus 課長処理=カチョウショリ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "kurashinista_6509_002",
+      "OriginalHash": "a58b0a66d557441956aed33a2ad58749995612d06d145d52b3f0d71d5c59d532",
+      "old_pairs": [
+        {
+          "PairID": "a33555e6-173d-5443-b1a9-f12e42232a6d",
+          "src_start": 0,
+          "src_end": 8,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "a33555e6-173d-5443-b1a9-f12e42232a6d"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "魚民",
+          "reading": "ウオタミ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "ウォーターミント",
+          "reading": "ウォーターミント",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_name_kikimachigae/kurashinista_detail_6509.csv row kurashinista_6509_002; Src=魚民（うおたみ）; Tgt=ウォーターミント; Note=居酒屋の「魚民」を「ウォーターミント」と聞き間違えた。; URL=https://kurashinista.jp/column/detail/6509. The original izakaya source explicitly supplies 魚民（うおたみ） and the literal-katakana herb ウォーターミント. | Sol individually reviewed shortening exception: data/mishearing/google_search_name_kikimachigae/kurashinista_detail_6509.csv row kurashinista_6509_002; Src=魚民（うおたみ）; Tgt=ウォーターミント; Note=居酒屋の「魚民」を「ウォーターミント」と聞き間違えた。; URL=https://kurashinista.jp/column/detail/6509. The original izakaya source explicitly supplies 魚民（うおたみ） and the literal-katakana herb ウォーターミント. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives 魚民=ウオタミ versus ウォーターミント=ウォーターミント; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "mainc_supportzine_0024_003",
+      "OriginalHash": "be2306dfb29a8961c5f934431ac62b9239f0bed198e0a644a6b9191e400f10e9",
+      "old_pairs": [
+        {
+          "PairID": "0b0937ca-49e8-5017-b6b0-86b4d88bc093",
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "0b0937ca-49e8-5017-b6b0-86b4d88bc093"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "オヤマ",
+          "reading": "オヤマ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "大山",
+          "reading": "オオヤマ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_denwa_kikimachigai/ma_supportzine_column0024_001.csv row mainc_supportzine_0024_003; Src=オヤマ; Tgt=大山（オオヤマ）; Note=固有名詞（名前や地名）は音だけでなく漢字を確認することで、誤認を防ぐことができる。; URL=https://ma-inc.jp/supportzine/all/technic/column0024. The original source explicitly contrasts the spoken name オヤマ with 大山（オオヤマ）, a short versus long initial vowel. | Sol individually reviewed shortening exception: data/mishearing/google_search_denwa_kikimachigai/ma_supportzine_column0024_001.csv row mainc_supportzine_0024_003; Src=オヤマ; Tgt=大山（オオヤマ）; Note=固有名詞（名前や地名）は音だけでなく漢字を確認することで、誤認を防ぐことができる。; URL=https://ma-inc.jp/supportzine/all/technic/column0024. The original source explicitly contrasts the spoken name オヤマ with 大山（オオヤマ）, a short versus long initial vowel. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives オヤマ=オヤマ versus 大山=オオヤマ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "mainc_supportzine_column0024_003",
+      "OriginalHash": "7085fe162af5e3a4b34b1f3d928eca70005eaeef69d1d35435d6947e4db5ae10",
+      "old_pairs": [
+        {
+          "PairID": "15c1a405-219a-524c-902a-2044ee5fb934",
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "15c1a405-219a-524c-902a-2044ee5fb934"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "オヤマ",
+          "reading": "オヤマ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "大山",
+          "reading": "オオヤマ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_denwa_kikimachigai/ma_supportzine_column0024.csv row mainc_supportzine_column0024_003; Src=オヤマ; Tgt=大山（オオヤマ）; Note=固有名詞（名前や地名）は音だけで判断せず、必ず漢字やスペルを確認することで誤認を防止できる。; URL=https://ma-inc.jp/supportzine/all/technic/column0024. The companion original source again supplies オヤマ versus 大山（オオヤマ）, contrasting vowel length. | Sol individually reviewed shortening exception: data/mishearing/google_search_denwa_kikimachigai/ma_supportzine_column0024.csv row mainc_supportzine_column0024_003; Src=オヤマ; Tgt=大山（オオヤマ）; Note=固有名詞（名前や地名）は音だけで判断せず、必ず漢字やスペルを確認することで誤認を防止できる。; URL=https://ma-inc.jp/supportzine/all/technic/column0024. The companion original source again supplies オヤマ versus 大山（オオヤマ）, contrasting vowel length. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives オヤマ=オヤマ versus 大山=オオヤマ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "masakitblog_20200910_002",
+      "OriginalHash": "45da69d130884db9af6ae2ae1f1a1565639ac8ec23792cd77a500a596e448680",
+      "old_pairs": [
+        {
+          "PairID": "f151382c-6a60-59c2-9ec4-7809d6f41d11",
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 15,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "f151382c-6a60-59c2-9ec4-7809d6f41d11"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "東京タワー",
+          "reading": "トウキョウタワー",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 15,
+          "surface": "東京タワーズ",
+          "reading": "トウキョウタワーズ",
+          "meanings": [],
+          "qualifiers": [
+            "高層マンション"
+          ]
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_taxi_kikimachigae/masakitblog_10.csv row masakitblog_20200910_002; Src=東京タワー; Tgt=東京タワーズ（高層マンション）; Note=過去の事例。地名・建物名の聞き間違い。; URL=https://masakitblog.com/2020/09/10/%E5%B2%A1%E7%94%B0%E7%9C%9E%E5%96%84%E3%81%95%E3%82%93%E3%81%AE%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E4%B9%97%E5%8B%99%E5%93%A1%E3%81%8C%E5%8F%8D%E6%98%A0%E3%81%99/. The original source distinguishes 東京タワー and the high-rise building 東京タワーズ; the parenthetical 高層マンション classifies the referent, while final ズ is phonological. | Sol individually reviewed shortening exception: data/mishearing/google_search_taxi_kikimachigae/masakitblog_10.csv row masakitblog_20200910_002; Src=東京タワー; Tgt=東京タワーズ（高層マンション）; Note=過去の事例。地名・建物名の聞き間違い。; URL=https://masakitblog.com/2020/09/10/%E5%B2%A1%E7%94%B0%E7%9C%9E%E5%96%84%E3%81%95%E3%82%93%E3%81%AE%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E4%B9%97%E5%8B%99%E5%93%A1%E3%81%8C%E5%8F%8D%E6%98%A0%E3%81%99/. The original source distinguishes 東京タワー and the high-rise building 東京タワーズ; the parenthetical 高層マンション classifies the referent, while final ズ is phonological. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "Original context gives 東京タワー=トウキョウタワー versus 東京タワーズ=トウキョウタワーズ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "minamoblog_notafraid_001",
+      "OriginalHash": "c1a69eed7cadf3f60dc6b51f540cb9f349dbc1cbf46b4fd6dfe18f7416a22485",
+      "old_pairs": [
+        {
+          "PairID": "4c18cfb4-4d41-5b33-8081-f4f4dd8bd7cf",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "4c18cfb4-4d41-5b33-8081-f4f4dd8bd7cf"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "石田",
+          "reading": "イシダ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "三島",
+          "reading": "ミシマ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_call_center_kikimachigai/minamoblog_not-afraid-business-call.csv row minamoblog_notafraid_001; Src=石田（イシダ）さん; Tgt=三島（ミシマ）さん; Note=母音が同じ苗字は電話だと聞き取りづらい。復唱・確認が重要。; URL=https://minamoblog.com/not-afraid-business-call/. The original telephone surname source explicitly annotates 石田（イシダ）さん and 三島（ミシマ）さん; the names differ in consonants. | Sol individually reviewed shortening exception: data/mishearing/google_search_call_center_kikimachigai/minamoblog_not-afraid-business-call.csv row minamoblog_notafraid_001; Src=石田（イシダ）さん; Tgt=三島（ミシマ）さん; Note=母音が同じ苗字は電話だと聞き取りづらい。復唱・確認が重要。; URL=https://minamoblog.com/not-afraid-business-call/. The original telephone surname source explicitly annotates 石田（イシダ）さん and 三島（ミシマ）さん; the names differ in consonants. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives 石田=イシダ versus 三島=ミシマ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "moneypost_1057961_004",
+      "OriginalHash": "b55b3c6ddeae615f19bce83d41d8256e726b0872c2ee6d0fed2f02df432fffb2",
+      "old_pairs": [
+        {
+          "PairID": "a914242f-6b68-5a1f-be61-7a37e1df1a5a",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "a914242f-6b68-5a1f-be61-7a37e1df1a5a"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "千川",
+          "reading": "センカワ",
+          "meanings": [],
+          "qualifiers": [
+            "豊島区"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "仙川",
+          "reading": "センガワ",
+          "meanings": [],
+          "qualifiers": [
+            "調布市"
+          ]
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_taxi_kikimachigai/moneypost_1057961.csv row moneypost_1057961_004; Src=千川（豊島区）; Tgt=仙川（調布市）; Note=「千川」と「仙川」は発音が似ているが、区市が異なるため間違えると大きなロスになる。; URL=https://www.moneypost.jp/1057961. Tokyo Metro https://www.tokyometro.jp/station/senkawa/index.html gives 千川=せんかわ; Keio https://www.keio.co.jp/train/station/station_map/pdf/ko13_sengawa.pdf gives 仙川=せんがわ. | Sol individually reviewed shortening exception: data/mishearing/google_search_taxi_kikimachigai/moneypost_1057961.csv row moneypost_1057961_004; Src=千川（豊島区）; Tgt=仙川（調布市）; Note=「千川」と「仙川」は発音が似ているが、区市が異なるため間違えると大きなロスになる。; URL=https://www.moneypost.jp/1057961. Tokyo Metro https://www.tokyometro.jp/station/senkawa/index.html gives 千川=せんかわ; Keio https://www.keio.co.jp/train/station/station_map/pdf/ko13_sengawa.pdf gives 仙川=せんがわ. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "Original context gives 千川=センカワ versus 仙川=センガワ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "musashikosugi_blogshinobi_6217_001",
+      "OriginalHash": "09ea49b4bd757e5c540f7225e4c18f2087bedcb2b62b3873041e130493661476",
+      "old_pairs": [
+        {
+          "PairID": "8313dfb1-c47d-5b57-9269-1dcb80f2403b",
+          "src_start": 0,
+          "src_end": 10,
+          "tgt_start": 0,
+          "tgt_end": 10,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "8313dfb1-c47d-5b57-9269-1dcb80f2403b"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "surface": "新丸子",
+          "reading": "シンマルコ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "surface": "下丸子",
+          "reading": "シモマルコ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_to_star_no_kikimatigai_100_4-1/shinobi.csv row musashikosugi_blogshinobi_6217_001; Src=新丸子（しんまるこ）駅; Tgt=下丸子（しもまるこ）駅; Note=実際に新丸子駅で「下丸子駅ではありません！」と注意喚起が掲示されている。; URL=https://musashikosugi.blog.shinobi.jp/Entry/6217/. The original explicitly annotates 新丸子（しんまるこ）駅 and 下丸子（しもまるこ）駅, contrasting ン/モ. | Sol individually reviewed shortening exception: data/mishearing/google_to_star_no_kikimatigai_100_4-1/shinobi.csv row musashikosugi_blogshinobi_6217_001; Src=新丸子（しんまるこ）駅; Tgt=下丸子（しもまるこ）駅; Note=実際に新丸子駅で「下丸子駅ではありません！」と注意喚起が掲示されている。; URL=https://musashikosugi.blog.shinobi.jp/Entry/6217/. The original explicitly annotates 新丸子（しんまるこ）駅 and 下丸子（しもまるこ）駅, contrasting ン/モ. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives 新丸子=シンマルコ versus 下丸子=シモマルコ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "oshiete_2625074_003",
+      "OriginalHash": "d38372975aa9c08840764390406ed900d5b0b778233e14ad1eb94bb98b5c612e",
+      "old_pairs": [
+        {
+          "PairID": "367a119f-574e-5915-a4ab-bc02e4c78e2b",
+          "src_start": 0,
+          "src_end": 9,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 5,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "367a119f-574e-5915-a4ab-bc02e4c78e2b"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 9,
+          "surface": "センター街",
+          "reading": "センターガイ",
+          "meanings": [],
+          "qualifiers": [
+            "渋谷"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "千駄ヶ谷",
+          "reading": "センダガヤ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_taxi_kikimachigae/goo_2625074.csv row oshiete_2625074_003; Src=センター街（渋谷）; Tgt=千駄ヶ谷; Note=「センター街」と言ったら「千駄ヶ谷」に連れていかれた。; URL=https://oshiete.goo.ne.jp/qa/2625074.html. The original taxi story contrasts the Shibuya センター街 with 千駄ヶ谷=センダガヤ, an exact dictionary place entry. | Sol individually reviewed shortening exception: data/mishearing/google_search_taxi_kikimachigae/goo_2625074.csv row oshiete_2625074_003; Src=センター街（渋谷）; Tgt=千駄ヶ谷; Note=「センター街」と言ったら「千駄ヶ谷」に連れていかれた。; URL=https://oshiete.goo.ne.jp/qa/2625074.html. The original taxi story contrasts the Shibuya センター街 with 千駄ヶ谷=センダガヤ, an exact dictionary place entry. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "Original context gives センター街=センターガイ versus 千駄ヶ谷=センダガヤ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "oshiete_2625074_012",
+      "OriginalHash": "287e66b5a74f76d6c143b94de7d94b3e59ea6d05c7960f5f92b276fc6c3cf80e",
+      "old_pairs": [
+        {
+          "PairID": "c6cbe4d4-55cf-537c-9696-a19d3d4d4e09",
+          "src_start": 0,
+          "src_end": 9,
+          "tgt_start": 0,
+          "tgt_end": 9,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "c6cbe4d4-55cf-537c-9696-a19d3d4d4e09"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 9,
+          "surface": "北広島市",
+          "reading": "キタヒロシマシ",
+          "meanings": [],
+          "qualifiers": [
+            "北海道"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 9,
+          "surface": "北広島町",
+          "reading": "キタヒロシマチョウ",
+          "meanings": [],
+          "qualifiers": [
+            "広島県"
+          ]
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_taxi_kikimachigae/goo_2625074.csv row oshiete_2625074_012; Src=北広島市（北海道）; Tgt=北広島町（広島県）; Note=「北広島市」と「北広島町」は全く別の場所。; URL=https://oshiete.goo.ne.jp/qa/2625074.html. The original taxi example disambiguates 北海道の北広島市 from 広島県の北広島町; the municipal suffix 市/町 is spoken シ/チョウ, while jurisdiction parentheses are qualifiers. | Sol individually reviewed shortening exception: data/mishearing/google_search_taxi_kikimachigae/goo_2625074.csv row oshiete_2625074_012; Src=北広島市（北海道）; Tgt=北広島町（広島県）; Note=「北広島市」と「北広島町」は全く別の場所。; URL=https://oshiete.goo.ne.jp/qa/2625074.html. The original taxi example disambiguates 北海道の北広島市 from 広島県の北広島町; the municipal suffix 市/町 is spoken シ/チョウ, while jurisdiction parentheses are qualifiers. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "Original context gives 北広島市=キタヒロシマシ versus 北広島町=キタヒロシマチョウ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "oshiete_2625074_024",
+      "OriginalHash": "46a14d9962c32c94f6d809be1ad6e6f09ec05766581751beedd01f471a81f51a",
+      "old_pairs": [
+        {
+          "PairID": "6e6ddd7d-da4f-5376-a9e0-437dc9ab8aeb",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "6e6ddd7d-da4f-5376-a9e0-437dc9ab8aeb"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "谷原",
+          "reading": "やはら",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "谷和原",
+          "reading": "やわら",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "https://oshiete.goo.ne.jp/qa/2625074.html lines 422-443: answer No.12 lists 谷原（やはら）・谷和原（やわら） among examples of similar names, and the asker responds by commenting on the similarity. No speaker/listener incident is described. Dictionary CLI: 谷原 has ヤハラ entry and 谷和原 has ヤワラ; dictionary fingerprint SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. | Sol individually reviewed shortening exception: https://oshiete.goo.ne.jp/qa/2625074.html lines 422-443: answer No.12 lists 谷原（やはら）・谷和原（やわら） among examples of similar names, and the asker responds by commenting on the similarity. No speaker/listener incident is described. Dictionary CLI: 谷原 has ヤハラ entry and 谷和原 has ヤワラ; dictionary fingerprint SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "The cited Q&A presents this as an illustrative comparison rather than an attested event, so RecordValidity is illustrative; that provenance does not decide phonological suitability. やはら and やわら differ only in the medial consonant and are a plausible auditory contrast, so include. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "rpjjwwnokh_2025069292440_001",
+      "OriginalHash": "1bab6703675be0247608ae97c33aa0b7c262fb2a2237f7e0f4fba6a2691d7f04",
+      "old_pairs": [
+        {
+          "PairID": "18d71380-0cd2-52a3-ad79-dc84e5548562",
+          "src_start": 0,
+          "src_end": 10,
+          "tgt_start": 0,
+          "tgt_end": 10,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "18d71380-0cd2-52a3-ad79-dc84e5548562"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "surface": "アグリ",
+          "reading": "アグリ",
+          "meanings": [],
+          "qualifiers": [
+            "原本のローマ字表記: Aguri"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "surface": "アグリー",
+          "reading": "アグリー",
+          "meanings": [],
+          "qualifiers": [
+            "原本の英語表記: ugly。原本の日本語音写であり英語IPAではない"
+          ]
+        }
+      ],
+      "Evidence": "The original linked blog is unavailable. The unchanged CSV originals themselves explicitly supply アグリ（Aguri）/アグリー（ugly）. Separate source investigation also found the staged coffee-shop report with あぐり/アグリー (nlabitmedia_3394429_003), but it does not independently verify this blog's event. Preserve that provenance uncertainty. | Sol individually reviewed shortening exception: The original linked blog is unavailable. The unchanged CSV originals themselves explicitly supply アグリ（Aguri）/アグリー（ugly）. Separate source investigation also found the staged coffee-shop report with あぐり/アグリー (nlabitmedia_3394429_003), but it does not independently verify this blog's event. Preserve that provenance uncertainty. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Compare the explicitly supplied Japanese phonographic forms, including their length contrast. Do not invent an English IPA or require event verification before accepting an already explicit Japanese reading. Parenthetical Roman spelling is classified as identification. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "sakamotojidousha_7952_014",
+      "OriginalHash": "c02231f30d98effbcbb7e8bb633e8a8010c9b82164521e6063e988725f38e2d8",
+      "old_pairs": [
+        {
+          "PairID": "d86ae2fd-e4ca-58f7-8f2d-2bfbcc831e9a",
+          "src_start": 0,
+          "src_end": 13,
+          "tgt_start": 0,
+          "tgt_end": 13,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "d86ae2fd-e4ca-58f7-8f2d-2bfbcc831e9a"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "surface": "向原",
+          "reading": "むかいはら",
+          "meanings": [],
+          "qualifiers": [
+            "板橋区"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "surface": "向原",
+          "reading": "むこうはら",
+          "meanings": [],
+          "qualifiers": [
+            "豊島区"
+          ]
+        }
+      ],
+      "Evidence": "Original CSV data/mishearing/google_search_taxi_kikimachigai/sakamotojidousha_7952.csv: Src='向原（むかいはら；板橋区）'; Tgt='向原（むこうはら；豊島区）'; Note='板橋区の向原と豊島区の向原駅は発音が似ており、誤送迎が発生しやすい'; Tips='発音・表記に注意' Record-validity audit: the Note says mistaken rides are likely (誤送迎が発生しやすい), not that this directional ride was observed. The explicitly different local pronunciations remain a valid phonological contrast independent of event provenance. | Sol individually reviewed shortening exception: Original CSV data/mishearing/google_search_taxi_kikimachigai/sakamotojidousha_7952.csv: Src='向原（むかいはら；板橋区）'; Tgt='向原（むこうはら；豊島区）'; Note='板橋区の向原と豊島区の向原駅は発音が似ており、誤送迎が発生しやすい'; Tips='発音・表記に注意' Record-validity audit: the Note says mistaken rides are likely (誤送迎が発生しやすい), not that this directional ride was observed. The explicitly different local pronunciations remain a valid phonological contrast independent of event provenance. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "The source explicitly contrasts the two 向原 place readings; their written forms coincide but their confirmed readings differ. Src 向原: reading むかいはら, qualifier 板橋区; Tgt 向原: reading むこうはら, qualifier 豊島区 | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "sakamotojidousha_7952_026",
+      "OriginalHash": "edde0399211fec5f0101ec4771c3d8aff0257637e1150cf4839557520a331953",
+      "old_pairs": [
+        {
+          "PairID": "afb1f9dc-6534-518f-bb15-e980d8eef051",
+          "src_start": 0,
+          "src_end": 13,
+          "tgt_start": 0,
+          "tgt_end": 13,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "afb1f9dc-6534-518f-bb15-e980d8eef051"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "surface": "向原",
+          "reading": "むこうはら",
+          "meanings": [],
+          "qualifiers": [
+            "豊島区"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "surface": "向原",
+          "reading": "むかいはら",
+          "meanings": [],
+          "qualifiers": [
+            "板橋区"
+          ]
+        }
+      ],
+      "Evidence": "Original CSV data/mishearing/google_search_taxi_kikimachigai/sakamotojidousha_7952.csv: Src='向原（むこうはら；豊島区）'; Tgt='向原（むかいはら；板橋区）'; Note='板橋区の向原と豊島区の向原駅は発音が似ており、誤送迎が発生しやすい'; Tips='発音・表記に注意' Record-validity audit: the Note says mistaken rides are likely (誤送迎が発生しやすい), not that this directional ride was observed. The explicitly different local pronunciations remain a valid phonological contrast independent of event provenance. | Sol individually reviewed shortening exception: Original CSV data/mishearing/google_search_taxi_kikimachigai/sakamotojidousha_7952.csv: Src='向原（むこうはら；豊島区）'; Tgt='向原（むかいはら；板橋区）'; Note='板橋区の向原と豊島区の向原駅は発音が似ており、誤送迎が発生しやすい'; Tips='発音・表記に注意' Record-validity audit: the Note says mistaken rides are likely (誤送迎が発生しやすい), not that this directional ride was observed. The explicitly different local pronunciations remain a valid phonological contrast independent of event provenance. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "The source explicitly contrasts the two 向原 place readings; their written forms coincide but their confirmed readings differ. Src 向原: reading むこうはら, qualifier 豊島区; Tgt 向原: reading むかいはら, qualifier 板橋区 | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "syunkon_12835221992_003",
+      "OriginalHash": "bfc0280dabfb39f3a819722079746b1ea22acfdb33747d6a0f12717fbe268a5c",
+      "old_pairs": [
+        {
+          "PairID": "3a9ebf9d-5938-5008-82bd-b4dfdd352634",
+          "src_start": 0,
+          "src_end": 8,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "3a9ebf9d-5938-5008-82bd-b4dfdd352634"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "作務衣",
+          "reading": "サムエ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "サムウェイ",
+          "reading": "サムウェイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_taxi_kikimachigae/ameblo_syunkon.csv row syunkon_12835221992_003; Src=作務衣（さむえ）; Tgt=サムウェイ; Note=居酒屋バイトで「サムウェイ」と思い込み、後輩にも使っていた; URL=https://ameblo.jp/syunkon/entry-12835221992.html. The original source supplies 作務衣（さむえ） and the heard literal-katakana サムウェイ; the inserted ウェイ differs from エ. | Sol individually reviewed shortening exception: data/mishearing/google_search_taxi_kikimachigae/ameblo_syunkon.csv row syunkon_12835221992_003; Src=作務衣（さむえ）; Tgt=サムウェイ; Note=居酒屋バイトで「サムウェイ」と思い込み、後輩にも使っていた; URL=https://ameblo.jp/syunkon/entry-12835221992.html. The original source supplies 作務衣（さむえ） and the heard literal-katakana サムウェイ; the inserted ウェイ differs from エ. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Original context gives 作務衣=サムエ versus サムウェイ=サムウェイ; the spoken forms differ. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www1101iimatugai_009",
+      "OriginalHash": "e1ee0d55c80356dcfac9880c99d9e72e40b140df195fc9ea4c5697f42956ec09",
+      "old_pairs": [
+        {
+          "PairID": "4b457626-821e-5acb-b41d-4ab2127fecd2",
+          "src_start": 5,
+          "src_end": 11,
+          "tgt_start": 5,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 5,
+          "src_end": 6,
+          "tgt_start": 5,
+          "tgt_end": 7,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "4b457626-821e-5acb-b41d-4ab2127fecd2"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 5,
+          "end": 11,
+          "surface": "鋼",
+          "reading": "はがね",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 5,
+          "end": 7,
+          "surface": "鼻毛",
+          "reading": "ハナゲ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more050523_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050523_html.csv: Src='世界最古の鋼（はがね）'; Tgt='世界最古の鼻毛'; Note='9歳の娘がテレビニュースの「世界最古の鋼」を「世界最古の鼻毛」と聞き間違えた。'; Tips='ニュースの専門用語は注意' MeCab/IPADIC sys.dic sha256=c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba; whole-word 鼻毛 reading=ハナゲ; features=名詞,一般,*,*,*,*,鼻毛,ハナゲ,ハナゲ. | Sol individually reviewed shortening exception: Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more050523_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050523_html.csv: Src='世界最古の鋼（はがね）'; Tgt='世界最古の鼻毛'; Note='9歳の娘がテレビニュースの「世界最古の鋼」を「世界最古の鼻毛」と聞き間違えた。'; Tips='ニュースの専門用語は注意' MeCab/IPADIC sys.dic sha256=c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba; whole-word 鼻毛 reading=ハナゲ; features=名詞,一般,*,*,*,*,鼻毛,ハナゲ,ハナゲ. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "The Note says 鋼 was heard as 鼻毛. 鋼（はがね） is explicit in the original; the unique ordinary-noun dictionary entry supports 鼻毛（ハナゲ）. The selected spans omit the shared 世界最古の context. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_2010-06-08_html_002",
+      "OriginalHash": "78f6226451929b9d74a55d6befe42c7734e06e83a6ca5a41db6ac35a08a34466",
+      "old_pairs": [
+        {
+          "PairID": "4b73f0a5-1d4c-5c80-9b81-80f431c54442",
+          "src_start": 0,
+          "src_end": 9,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "4b73f0a5-1d4c-5c80-9b81-80f431c54442"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 9,
+          "surface": "小中井",
+          "reading": "こなかい",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "トナカイ",
+          "reading": "トナカイ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Local archive resource/txt_1101/www_1101_com_iimatugai_2010-06-08_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2010-06-08_html.csv: Src='小中井（こなかい）さん'; Tgt='トナカイさん'; Note='クリスマスシーズン、おじいちゃん宛の電話で名字を「トナカイ」と聞き間違えた。'; Tips='電話越しの聞き取りは名字と動物名が似て聞こえることがある。' | Sol individually reviewed shortening exception: Local archive resource/txt_1101/www_1101_com_iimatugai_2010-06-08_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2010-06-08_html.csv: Src='小中井（こなかい）さん'; Tgt='トナカイさん'; Note='クリスマスシーズン、おじいちゃん宛の電話で名字を「トナカイ」と聞き間違えた。'; Tips='電話越しの聞き取りは名字と動物名が似て聞こえることがある。' The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Selected '小中井' / 'トナカイ'. Src=こなかい, Tgt=トナカイ. The Note describes the mishearing, and both word readings are explicit in the adjacent note or kana surface. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more050912_002",
+      "OriginalHash": "9c512ad35df00f93d1d2913e4b59c30780c401737fd2a5c67f53084b665ee2f6",
+      "old_pairs": [
+        {
+          "PairID": "389e2971-ebc6-5511-9610-1c1dd59d3013",
+          "src_start": 0,
+          "src_end": 8,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 5,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "389e2971-ebc6-5511-9610-1c1dd59d3013"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "濱下",
+          "reading": "はました",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "surface": "ハムスター",
+          "reading": "ハムスター",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more050912_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050912_html.csv: Src='濱下（はました）'; Tgt='ハムスター'; Note='テレビのニュースでアナウンサーの名前「濱下（はました）」を「ハムスター」と聞き間違えた。スタジオの音声。'; Tips='名前の聞き取りは注意深く。' | Sol individually reviewed shortening exception: Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more050912_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050912_html.csv: Src='濱下（はました）'; Tgt='ハムスター'; Note='テレビのニュースでアナウンサーの名前「濱下（はました）」を「ハムスター」と聞き間違えた。スタジオの音声。'; Tips='名前の聞き取りは注意深く。' The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Selected '濱下' / 'ハムスター'. Src=はました, Tgt=ハムスター. The Note describes the mishearing, and both word readings are explicit in the adjacent note or kana surface. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more060613_html_004",
+      "OriginalHash": "eb4f6542849146cb2498cb75903d228f304670fd41ed21f16bde12aeda90c57e",
+      "old_pairs": [
+        {
+          "PairID": "0ecdc88b-bb2e-569e-8ade-2acb8ce5790d",
+          "src_start": 0,
+          "src_end": 9,
+          "tgt_start": 0,
+          "tgt_end": 9,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "0ecdc88b-bb2e-569e-8ade-2acb8ce5790d"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 9,
+          "surface": "生中",
+          "reading": "ナマチュウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 9,
+          "surface": "老酒",
+          "reading": "ラオチュウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more060613_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060613_html.csv: Src='生中（ナマチュウ）'; Tgt='老酒（ラオチュウ）'; Note='居酒屋で「生中」を頼んだら「老酒」が出てきて、全部飲んでしまった。'; Tips='居酒屋での注文時は発音に注意' | Sol individually reviewed shortening exception: Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more060613_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more060613_html.csv: Src='生中（ナマチュウ）'; Tgt='老酒（ラオチュウ）'; Note='居酒屋で「生中」を頼んだら「老酒」が出てきて、全部飲んでしまった。'; Tips='居酒屋での注文時は発音に注意' The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Selected '生中' / '老酒'. Src=ナマチュウ, Tgt=ラオチュウ. The Note describes the mishearing, and both word readings are explicit in the adjacent note or kana surface. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more061025_007",
+      "OriginalHash": "420eb45df3affdbefaafaa803c16615cdb014d8f950bb8ef22a2ddf418fee59e",
+      "old_pairs": [
+        {
+          "PairID": "876dcde7-b512-5eb5-8c09-3d3cae0b2543",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 3,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "876dcde7-b512-5eb5-8c09-3d3cae0b2543"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "生麩",
+          "reading": "なまふ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "surface": "なまこ",
+          "reading": "なまこ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more061025_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more061025_html.csv: Src='生麩（なまふ）'; Tgt='なまこ'; Note='旅行帰りの弟夫婦が「生麩（なまふ）」を買ってきたと言ったのを、母が「なまこ」と聞き間違え、家族が騒然となった。'; Tips='方言や発音に注意。' | Sol individually reviewed shortening exception: Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more061025_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more061025_html.csv: Src='生麩（なまふ）'; Tgt='なまこ'; Note='旅行帰りの弟夫婦が「生麩（なまふ）」を買ってきたと言ったのを、母が「なまこ」と聞き間違え、家族が騒然となった。'; Tips='方言や発音に注意。' The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Selected '生麩' / 'なまこ'. Src=なまふ, Tgt=なまこ. The Note describes the mishearing, and both word readings are explicit in the adjacent note or kana surface. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more070828_html_008",
+      "OriginalHash": "8f727dc5157ee559bfcde566dcb8bbcd6a0a4e7ea473a5da3411a50227060467",
+      "old_pairs": [
+        {
+          "PairID": "b2759e98-f0c0-5206-b274-1cb84c5e413d",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "b2759e98-f0c0-5206-b274-1cb84c5e413d"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "小菅",
+          "reading": "こすげ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "スウェーデン",
+          "reading": "スウェーデン",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more070828_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more070828_html.csv: Src='小菅（こすげ）'; Tgt='スウェーデン'; Note='日比谷線の車内アナウンスで駅名を外国の国名と聞き間違えた。'; Tips='駅名は地名や外国語に聞こえることも' | Sol individually reviewed shortening exception: Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more070828_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more070828_html.csv: Src='小菅（こすげ）'; Tgt='スウェーデン'; Note='日比谷線の車内アナウンスで駅名を外国の国名と聞き間違えた。'; Tips='駅名は地名や外国語に聞こえることも' The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Selected '小菅' / 'スウェーデン'. Src=こすげ, Tgt=スウェーデン. The Note describes the mishearing, and both word readings are explicit in the adjacent note or kana surface. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more071219_html_005",
+      "OriginalHash": "a34994569fc0a847c6ab9606ce902826390f1ebcef76fdfcb8a1ba83b1abc151",
+      "old_pairs": [
+        {
+          "PairID": "dbe1692c-9d0c-5dd8-bc44-71396791748d",
+          "src_start": 0,
+          "src_end": 10,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 3,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "dbe1692c-9d0c-5dd8-bc44-71396791748d"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "surface": "樹木医",
+          "reading": "じゅもくい",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "ジモピー",
+          "reading": "ジモピー",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more071219_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more071219_html.csv: Src='樹木医（じゅもくい）'; Tgt='ジモピー'; Note='テレビニュースの音声を家庭で聞き間違えた。NHK、テレビ音声あり。'; Tips='専門用語はカジュアルな言葉に聞き間違えやすい' | Sol individually reviewed shortening exception: Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more071219_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more071219_html.csv: Src='樹木医（じゅもくい）'; Tgt='ジモピー'; Note='テレビニュースの音声を家庭で聞き間違えた。NHK、テレビ音声あり。'; Tips='専門用語はカジュアルな言葉に聞き間違えやすい' The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Selected '樹木医' / 'ジモピー'. Src=じゅもくい, Tgt=ジモピー. The Note describes the mishearing, and both word readings are explicit in the adjacent note or kana surface. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more080109_001",
+      "OriginalHash": "278e2892d128c142f655e4267a834f29eef202a4fa9e6652126c2cb791dbca20",
+      "old_pairs": [
+        {
+          "PairID": "a272f5fc-83a6-5f57-9a7a-3a85f380491f",
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 2,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "a272f5fc-83a6-5f57-9a7a-3a85f380491f"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "標準",
+          "reading": "ヒョウジュン",
+          "meanings": [],
+          "qualifiers": [
+            "体重"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "surface": "風神",
+          "reading": "ふうじん",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more080109_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080109_html.csv: Src='標準（体重）'; Tgt='風神（ふうじん）'; Note='友人同士のダイエット会話で「標準（体重）」を「風神」と聞き間違えた。'; Tips='ダイエットの話題では「標準体重」と言うことが多い' MeCab/IPADIC sys.dic sha256=c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba; whole-word 標準 reading=ヒョウジュン; features=名詞,一般,*,*,*,*,標準,ヒョウジュン,ヒョージュン. | Sol individually reviewed shortening exception: Local archive resource/txt_1101/www_1101_com_iimatugai_archive_more080109_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more080109_html.csv: Src='標準（体重）'; Tgt='風神（ふうじん）'; Note='友人同士のダイエット会話で「標準（体重）」を「風神」と聞き間違えた。'; Tips='ダイエットの話題では「標準体重」と言うことが多い' MeCab/IPADIC sys.dic sha256=c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba; whole-word 標準 reading=ヒョウジュン; features=名詞,一般,*,*,*,*,標準,ヒョウジュン,ヒョージュン. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reason": "The Note identifies 標準 in a weight discussion as the form heard as 風神. The unique ordinary-noun dictionary entry supports 標準（ヒョウジュン）; 風神（ふうじん） is explicit in the original. 体重 identifies the context. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation. The parenthetical distinction is meaning/reference-critical and must not be discarded.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_m_iimatugai_2132_006",
+      "OriginalHash": "79cb7fb4cd21a01ead20d33ac8c221ad4bf727bc75272915f61b52ca0e17efec",
+      "old_pairs": [
+        {
+          "PairID": "0eabe995-254f-58de-b726-a1e9eddb14d6",
+          "src_start": 0,
+          "src_end": 7,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 2,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "0eabe995-254f-58de-b726-a1e9eddb14d6"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "surface": "合田",
+          "reading": "ごうだ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "オーダー",
+          "reading": "オーダー",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Local archive resource/txt_1101/www_1101_com_m_iimatugai_2132_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_2132_html.csv: Src='合田（ごうだ）をお願いします'; Tgt='オーダーお願いします'; Note='会社の電話で「合田をお願いします」と言われたのを「オーダーお願いします」と聞き間違えた。電話応対。'; Tips='名前と注文の言葉が似ているので注意' | Sol individually reviewed shortening exception: Local archive resource/txt_1101/www_1101_com_m_iimatugai_2132_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_2132_html.csv: Src='合田（ごうだ）をお願いします'; Tgt='オーダーお願いします'; Note='会社の電話で「合田をお願いします」と言われたのを「オーダーお願いします」と聞き間違えた。電話応対。'; Tips='名前と注文の言葉が似ているので注意' The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Selected '合田' / 'オーダー'. Src=ごうだ, Tgt=オーダー. The Note describes the mishearing, and both word readings are explicit in the adjacent note or kana surface. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_m_iimatugai_290_html_008",
+      "OriginalHash": "4914072561a13e40ed91c946d678394e103fd3ccaa58ced26374748f2084fb46",
+      "old_pairs": [
+        {
+          "PairID": "f05eb054-bc7c-5f32-a387-1ec3a44edf86",
+          "src_start": 0,
+          "src_end": 13,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "f05eb054-bc7c-5f32-a387-1ec3a44edf86"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "surface": "布袋寅泰",
+          "reading": "ほていともやす",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "ポテトもやし",
+          "reading": "ポテトもやし",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Local archive resource/txt_1101/www_1101_com_m_iimatugai_290_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_290_html.csv: Src='布袋寅泰（ほていともやす）'; Tgt='ポテトもやし'; Note='音楽番組で「布袋寅泰さんです！」を母が「ポテトもやし？」と聞き返した。'; Tips='有名人名と食材名の音が似ている場合がある' | Sol individually reviewed shortening exception: Local archive resource/txt_1101/www_1101_com_m_iimatugai_290_html.txt: source and target strings both occur. Original CSV data/mishearing/google_search_1101_kikimatsugai/www_1101_com_m_iimatugai_290_html.csv: Src='布袋寅泰（ほていともやす）'; Tgt='ポテトもやし'; Note='音楽番組で「布袋寅泰さんです！」を母が「ポテトもやし？」と聞き返した。'; Tips='有名人名と食材名の音が似ている場合がある' The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reason": "Selected '布袋寅泰' / 'ポテトもやし'. Src=ほていともやす, Tgt=ポテトもやし. The Note describes the mishearing, and both word readings are explicit in the adjacent note or kana surface. | Sol exception: preserve side-specific meanings and qualifiers; raw originals and prior evidence remain immutable. The only unmatched material is the literal source parenthetical shown in residual_before_after; the old selected reading already names the shortened whole spoken lexical surface. Side-specific parenthetical reading, sense, or referent notes must be preserved as qualifiers and immutable original/source Evidence, not imported into spoken PairSpan. Thus exact residual equality is inapplicable to this source notation.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

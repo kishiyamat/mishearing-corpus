@@ -1,0 +1,12 @@
+{
+  "decision_count": 14,
+  "applied_records": 14,
+  "old_pairs_replaced": 14,
+  "new_pairs": 28,
+  "audit_rows": 28,
+  "input_review_sha256": "3ce1c7c2fc659f049990a976507e7959097a997d8df9bc60885f57bf61729b81",
+  "output_review_sha256": "09a7ce0d7258ec856e718d8ac7a32b53590859a160e03a124f252ad13b189ce6",
+  "decision_patch_sha256": "1def57bea97d77c9f1048d0fb3e7f1a8c231ca50472ad07c80a53db6cfee94bc",
+  "audit_sha256": "26800a49b6e24e526c9209def1f43456ccc1a115c91543c064972a540539a0e5",
+  "output": "data/annotations/reviews.csv"
+}

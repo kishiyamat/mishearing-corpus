@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:3e733f025a8a90e7c9222efe57bbeac5a4c145c826be2224bca2aa4749ba0e0a",
+  "source_review_sha256": "3e733f025a8a90e7c9222efe57bbeac5a4c145c826be2224bca2aa4749ba0e0a",
+  "decisions": [
+    {
+      "MishearID": "coffee_break_parts_similar200407_007",
+      "OriginalHash": "98c9b82b3f57f8bebe7ad45b6371a1de75d9d287eac43122e7643c8e1e4faac2",
+      "old_pairs": [
+        {
+          "PairID": "52973e51-89a8-55eb-8f9a-cfac3e06dde1",
+          "src_start": 11,
+          "src_end": 16,
+          "tgt_start": 11,
+          "tgt_end": 16,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 11,
+          "src_end": 14,
+          "tgt_start": 11,
+          "tgt_end": 14,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "52973e51-89a8-55eb-8f9a-cfac3e06dde1"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 11,
+          "end": 14,
+          "surface": "後年度",
+          "reading": "コウネンド",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 11,
+          "end": 14,
+          "surface": "今年度",
+          "reading": "コンネンド",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200407.html entry 7: 正解 highlights 後年度負担 in 後年度負担に耐えられないという; 間違い highlights 今年度負担 in 予算編成をし直さないと今年度負担に耐えられないという. The raw CSV correct sentence is 予算編成をし直さないと後年度負担に耐えられないという. The highlighted units occur in both, but the complete correct sentences differ (html_in_csv); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF Source comparison fixes complete candidate terms; shared residual is excluded. Old full readings uniquely align to exact dictionary component readings. No whole-entry requirement for a compositional compound. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified a complete comparable compound/word contrast and exact shorter boundaries; preserve the source-grounded reviewed reading, with the shared residue outside this lexical contrast.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200501_006",
+      "OriginalHash": "ad8d7d6ba4b9b5d9f8a90f8d644e3b9f787fa6ac12da67f4465ea040b5436ec7",
+      "old_pairs": [
+        {
+          "PairID": "7107017a-b393-5ad5-82cd-6a5bac555cc9",
+          "src_start": 12,
+          "src_end": 18,
+          "tgt_start": 12,
+          "tgt_end": 18,
+          "unit_type": "phrase"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 12,
+          "src_end": 15,
+          "tgt_start": 12,
+          "tgt_end": 15,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "7107017a-b393-5ad5-82cd-6a5bac555cc9"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 12,
+          "end": 15,
+          "surface": "予備日",
+          "reading": "ヨビビ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 12,
+          "end": 15,
+          "surface": "予備費",
+          "reading": "ヨビヒ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200501.html entry 6: 正解 highlights 予備日として in 皆さんお忙しいですから、予備日として、一応１日とらせていただいて～～; 間違い highlights 予備費として in 皆さんお忙しいですから、予備費として、一応１日とらせていただいて～～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Installed UTF-8 MeCab/IPADIC lexical segments, with context-selected dictionary alternatives: 予備日として = 予備[ヨビ] + 日[ビ] + として[トシテ]; 予備費として = 予備[ヨビ] + 費[ヒ] + として[トシテ]. Dictionary id Source comparison fixes complete candidate terms; shared residual is excluded. Old full readings uniquely align to exact dictionary component readings. No whole-entry requirement for a compositional compound. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified a complete comparable compound/word contrast and exact shorter boundaries; preserve the source-grounded reviewed reading, with the shared residue outside this lexical contrast.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200512_002",
+      "OriginalHash": "31b4a7358f92150360c64d0d4fb1b24e0c51f2ccd91534b3617117b362815236",
+      "old_pairs": [
+        {
+          "PairID": "397f1ce8-1a4d-52c4-92fa-fb8a3dbd0fce",
+          "src_start": 8,
+          "src_end": 13,
+          "tgt_start": 8,
+          "tgt_end": 13,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 8,
+          "src_end": 10,
+          "tgt_start": 8,
+          "tgt_end": 10,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "397f1ce8-1a4d-52c4-92fa-fb8a3dbd0fce"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 8,
+          "end": 10,
+          "surface": "個票",
+          "reading": "コヒョウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 8,
+          "end": 10,
+          "surface": "公表",
+          "reading": "コウヒョウ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200512.html entry 2: 正解 highlights 個票データ in ネット調査では、個票データの公開、プライバシーの問題等、バランスを取りながら～; 間違い highlights 公表データ in ネット調査では、公表データの公開、プライバシーの問題等、バランスを取りながら～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Installed UTF-8 MeCab/IPADIC lexical segments, with context-selected dictionary alternatives: 個票データ = 個[コ] + 票[ヒョウ] + データ[データ]; 公表データ = 公表[コウヒョウ] + データ[データ]. Dictionary  Source comparison fixes complete candidate terms; shared residual is excluded. Old full readings uniquely align to exact dictionary component readings. No whole-entry requirement for a compositional compound. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified a complete comparable compound/word contrast and exact shorter boundaries; preserve the source-grounded reviewed reading, with the shared residue outside this lexical contrast.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200908_009",
+      "OriginalHash": "97fe82eb2b084850cc541bea2f8de75d313ba80385b4f6d8a743cf52d9588352",
+      "old_pairs": [
+        {
+          "PairID": "1f14a3db-f00c-508a-99df-afaf669437f4",
+          "src_start": 4,
+          "src_end": 9,
+          "tgt_start": 4,
+          "tgt_end": 8,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 4,
+          "src_end": 7,
+          "tgt_start": 4,
+          "tgt_end": 6,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "1f14a3db-f00c-508a-99df-afaf669437f4"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 4,
+          "end": 7,
+          "surface": "ダミー",
+          "reading": "ダミー",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 4,
+          "end": 6,
+          "surface": "ヤミ",
+          "reading": "ヤミ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Yamato public archive corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200908.html entry 9: 正解 highlights ダミー献金 in 熊谷組のダミー献金の報道が、きょうの新聞に出ていると思いますが～; 間違い highlights ヤミ献金 in 熊谷組のヤミ献金の報道が、きょうの新聞に出ていると思いますが～. Both complete archived sentences agree with the original CSV after Unicode width normalization. Installed UTF-8 MeCab/IPADIC lexical segments, with context-selected dictionary alternatives: ダミー献金 = ダミー[ダミー] + 献金[ケンキン]; ヤミ献金 = ヤミ[ヤミ] + 献金[ケンキン]. Dictionary identity SHA-256 c8e456c6 Source comparison fixes complete candidate terms; shared residual is excluded. Old full readings uniquely align to exact dictionary component readings. No whole-entry requirement for a compositional compound. Dictionary SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.",
+      "Reason": "Sol verified a complete comparable compound/word contrast and exact shorter boundaries; preserve the source-grounded reviewed reading, with the shared residue outside this lexical contrast.",
+      "Reviewer": "Sol agent, independent remaining-span audit",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

@@ -1,0 +1,1109 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:99c3c677a667f790241b424bdf198f460a2bfa7cf079eea047478c71fc14d4f3",
+  "source_review_sha256": "99c3c677a667f790241b424bdf198f460a2bfa7cf079eea047478c71fc14d4f3",
+  "decisions": [
+    {
+      "MishearID": "coffee_break_parts_similar200405_007",
+      "OriginalHash": "abce9456b034737e025364010c642432532c00eaa2bf3e9616c18b8d68c4536b",
+      "old_pairs": [
+        {
+          "PairID": "bcc65016-86c5-56a0-a59e-858f61a7dbda",
+          "src_start": 3,
+          "src_end": 11,
+          "tgt_start": 3,
+          "tgt_end": 11,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "bcc65016-86c5-56a0-a59e-858f61a7dbda",
+          "SupersedesPairID": "86b37807-5468-5430-a3f0-285dd54d9259",
+          "src_end": 11,
+          "src_start": 3,
+          "tgt_end": 11,
+          "tgt_start": 3,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 11,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ビーゴバンカラエーヨンバン",
+          "start": 3,
+          "surface": "Ｂ５判からＡ４判"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 11,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ビーゴバンカラエーヨンバン",
+          "start": 3,
+          "surface": "Ｂ５版からＡ４版"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200405.html entry 7: 正解 highlights Ｂ５判からＡ４判 in Ｂ５判からＡ４判に変更; 間違い highlights Ｂ５版からＡ４版 in 現在のＢ５版からＡ４版に変更する. Raw CSV correct sentence is 現在のＢ５判からＡ４判に変更する. The highlighted units occur in both, but the full correct sentences differ (html_in_csv); full-sentence identity is not claimed. The archived error sentence agrees with CSV. Selected contrast Ｂ５判からＡ４判[ビーゴバンカラエーヨンバン] versus Ｂ５版からＡ４版[ビーゴバンカラエーヨンバン]. The B5-to-A4 paper-size change uses B5[ビーゴ] and A4[エーヨン]. 判 and 版 are both spoken バン here; から[カラ] is shared. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar200405.html, entry 7; 正解=Ｂ５判からＡ４判に変更; 間違い=現在のＢ５版からＡ４版に変更する; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200407_005",
+      "OriginalHash": "cd52529474660715bb750011939b3f6b762132800dad85e8aa965192b347c8b5",
+      "old_pairs": [
+        {
+          "PairID": "ffc82942-c45f-575b-a5fa-90f04cefdc0f",
+          "src_start": 5,
+          "src_end": 10,
+          "tgt_start": 5,
+          "tgt_end": 14,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "ffc82942-c45f-575b-a5fa-90f04cefdc0f",
+          "SupersedesPairID": "5396e902-5e64-5ce9-971f-f61ca9e273d9",
+          "src_end": 10,
+          "src_start": 5,
+          "tgt_end": 14,
+          "tgt_start": 5,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 10,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ユシュツオシュタイ",
+          "start": 5,
+          "surface": "輸出を主体"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 14,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ユシュツオシタイトスル",
+          "start": 5,
+          "surface": "輸出をしたいとする"
+        }
+      ],
+      "Evidence": "Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200407.html entry 5: 正解 highlights 輸出を主体 in 輸出を主体とする海外への; 間違い highlights 輸出をしたいとする in 国内からの輸出をしたいとする、海外への一貫輸送の問題. The raw CSV correct sentence is 国内からの輸出を主体とする海外への一貫輸送の問題. The highlighted units occur in both, but the complete correct sentences differ (html_in_csv); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF-8 MeCab/IPADIC components where available and a separately cited published source for non-dictionary components: 輸出を主体 = 輸出[ユシュツ] + を[オ] + 主体[シュタイ]; 輸出をしたいとする = 輸出[ユシュツ] + を[オ] + し[シ] + たい[タイ] + と[ト] + する[スル]. IPADIC identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.  Context determines the selected reading; grammatical particles are spoken ワ/エ/オ, punctuation silent. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200407_010",
+      "OriginalHash": "c870b4fea33ef556dd19ed28189beb1514e3b82b56e53c147f6303114e7bd72a",
+      "old_pairs": [
+        {
+          "PairID": "2c2bcbcd-ab4a-5f03-ad01-faa75deb31bf",
+          "src_start": 22,
+          "src_end": 31,
+          "tgt_start": 22,
+          "tgt_end": 31,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "2c2bcbcd-ab4a-5f03-ad01-faa75deb31bf",
+          "SupersedesPairID": "ead2e0de-63c3-53e0-b677-559ad1ee34a2",
+          "src_end": 31,
+          "src_start": 22,
+          "tgt_end": 31,
+          "tgt_start": 22,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 31,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ジドウシャヨウトムケデス",
+          "start": 22,
+          "surface": "自動車用途向けです"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 31,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ジドウシャヨウトモケイデス",
+          "start": 22,
+          "surface": "自動車用と模型です"
+        }
+      ],
+      "Evidence": "Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200407.html entry 10: 正解 highlights 自動車用途向けです in ほとんど自動車用途向けですが; 間違い highlights 自動車用と模型です in エレクトロデバイスの多層基板事業は、ほとんど自動車用と模型ですが. The raw CSV correct sentence is エレクトロデバイスの多層基板事業は、ほとんど自動車用途向けですが. The highlighted units occur in both, but the complete correct sentences differ (html_in_csv); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF-8 MeCab/IPADIC components where available and a separately cited published source for non-dictionary components: 自動車用途向けです = 自動車[ジドウシャ] + 用途[ヨウト] + 向け[ムケ] + です[デス]; 自動車用と模型です = 自動車[ジドウシャ] + 用[ヨウ] + と[ト] + 模型[モケイ] + です[デス]. IPADIC identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.  Context determines the selected reading; grammatical particles are spoken ワ/エ/オ, punctuation silent. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200807_004",
+      "OriginalHash": "0302b70872536a7e54c09cd2b1c2168c2dfcbacd626efaa9ca89042d2d9eb283",
+      "old_pairs": [
+        {
+          "PairID": "a87ab299-2caf-5959-a2d6-5e15d95546d8",
+          "src_start": 5,
+          "src_end": 12,
+          "tgt_start": 5,
+          "tgt_end": 14,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "a87ab299-2caf-5959-a2d6-5e15d95546d8",
+          "SupersedesPairID": "7089d79d-e78e-5ce4-bc6b-e86cdf913ec0",
+          "src_end": 12,
+          "src_start": 5,
+          "tgt_end": 14,
+          "tgt_start": 5,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 12,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "シリョウヨンオミルト",
+          "start": 5,
+          "surface": "資料４を見ると"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 14,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "シリョウオヨンデミルト",
+          "start": 5,
+          "surface": "資料を読んでみると"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200807.html entry 4: 正解 highlights 資料４を見ると in ８ページの資料４を見ると、全部が図面上一つに繋がっている～; 間違い highlights 資料を読んでみると in ８ページの資料を読んでみると、全部が図面上一つに繋がっている～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is 資料４を見ると[シリョウヨンオミルト] versus 資料を読んでみると[シリョウオヨンデミルト]. Source refers to numbered document 資料４[シリョウヨン] + を[オ] + 見る[ミル] + と[ト]; error has 資料[シリョウ] + を[オ] + 読んで[ヨンデ] + みる[ミル] + と[ト]. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar200907_008",
+      "OriginalHash": "2b1c47893ec1c7cf7329ba64fb7e6ab020c50667f28c37ad4bf53dca831f7b01",
+      "old_pairs": [
+        {
+          "PairID": "8c43b71d-eca5-571d-b25f-dceddc0b9513",
+          "src_start": 42,
+          "src_end": 48,
+          "tgt_start": 42,
+          "tgt_end": 48,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "8c43b71d-eca5-571d-b25f-dceddc0b9513",
+          "SupersedesPairID": "5fef0019-c45f-5296-a801-eafbd2e1220e",
+          "src_end": 48,
+          "src_start": 42,
+          "tgt_end": 48,
+          "tgt_start": 42,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 48,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ハタオオロシテ",
+          "start": 42,
+          "surface": "旗を降ろして"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 48,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "コトオココロシテ",
+          "start": 42,
+          "surface": "ことを心して"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar200907.html entry 8: 正解 highlights 旗を降ろしてはおりません in これは全体の流れの中で決まっていくことで、我々はあくまでも新しい決議が望ましいという旗を降ろしてはおりません。; 間違い highlights ことを心してやみません in これは全体の流れの中で決まっていくことで、我々はあくまでも新しい決議が望ましいということを心してやみません。. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is 旗を降ろして[ハタオオロシテ] versus ことを心して[コトオココロシテ]. The resolution-policy idiom is 旗[ハタ] + を[オ] + 降ろし[オロシ] + て[テ]; the mistaken clause is こと[コト] + を[オ] + 心[ココロ] + し[シ] + て[テ]. Shared trailing words remain outside the contrast. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201107_005",
+      "OriginalHash": "66694c68dd706b9a8b09b68a78a50dff7c1ba6df55b7fbbd78421afea234fc18",
+      "old_pairs": [
+        {
+          "PairID": "4e3a7a32-e965-55e0-9fc3-e1cf91d0d586",
+          "src_start": 45,
+          "src_end": 52,
+          "tgt_start": 45,
+          "tgt_end": 52,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "4e3a7a32-e965-55e0-9fc3-e1cf91d0d586",
+          "SupersedesPairID": "94c1a222-089f-5d20-bc34-d38efd2d3834",
+          "src_end": 52,
+          "src_start": 45,
+          "tgt_end": 52,
+          "tgt_start": 45,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 52,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "サイネンシカネナイ",
+          "start": 45,
+          "surface": "再燃しかねない"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 52,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "タイリツシカネナイ",
+          "start": 45,
+          "surface": "対立しかねない"
+        }
+      ],
+      "Evidence": "Yamato saved primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201107.html entry 5: 正解 highlights 再燃しかねない in 不信任決議案は否決されたが、総理の退陣時期をめぐって再び党内対立の火種がくすぶるというか、再燃しかねない状況が残っていることを、大臣はどうお考えか。; 間違い highlights 対立しかねない in 不信任決議案は否決されたが、総理の退陣時期をめぐって再び党内対立の火種がくすぶるというか、対立しかねない状況が残っていることを大臣はどうお考えか。. The raw CSV correct sentence is 不信任決議案は否決されたが、総理の退陣時期をめぐって再び党内対立の火種がくすぶるというか、再燃しかねない状況が残っていることを大臣はどうお考えか。. The highlighted units occur in both, but the complete correct sentences differ (other); no complete-sentence identity is claimed. The archived error sentence agrees with the CSV. Contextual lexical readings, with exact installed UTF-8 MeCab/IPADIC components where available and a separately cited published source for non-dictionary components: 再燃しかねない = 再燃[サイネン] + し[シ] + かね[カネ] + ない[ナイ]; 対立しかねない = 対立[タイリツ] + し[シ] + かね[カネ] + ない[ナイ]. IPADIC identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba.  Context determines the selected reading; grammatical particles are spoken ワ/エ/オ, punctuation silent. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201201_007",
+      "OriginalHash": "87964ffcd94a406ad276cdbc19efb860402b7b7b365cf59bfde9f5022cfbf1f9",
+      "old_pairs": [
+        {
+          "PairID": "aab78b59-e7f2-5fea-8a41-0ef93670664d",
+          "src_start": 38,
+          "src_end": 43,
+          "tgt_start": 38,
+          "tgt_end": 42,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "aab78b59-e7f2-5fea-8a41-0ef93670664d",
+          "SupersedesPairID": "aef1a595-080e-5ce2-ab0d-a430802c37dd",
+          "src_end": 43,
+          "src_start": 38,
+          "tgt_end": 42,
+          "tgt_start": 38,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 43,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "デワケッシテ",
+          "start": 38,
+          "surface": "では決して"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 42,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ダケシテ",
+          "start": 38,
+          "surface": "だけして"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201201.html entry 7: 正解 highlights ということでは決して in 文化的な活動についてのサポートという意味で、評価のための評価ということでは決してございません。; 間違い highlights ということだけして in 文化的な活動についてのサポートという意味であって、評価のための評価ということだけしてございません。. Raw CSV correct sentence is 文化的な活動についてのサポートという意味であって、評価のための評価ということでは決してございません。. The highlighted units occur in both, but the full correct sentences differ (other); full-sentence identity is not claimed. The archived error sentence agrees with CSV. Selected contrast では決して[デワケッシテ] versus だけして[ダケシテ]. The source negation is で[デ] + particle は[ワ] + 決して[ケッシテ]; the error has だけ[ダケ] + して[シテ]. Spoken particle は is ワ. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201210_005",
+      "OriginalHash": "f5452bbcafcfb5d913587d2b430ecf86beeeefa14992f17d8bf007fbaab4e50d",
+      "old_pairs": [
+        {
+          "PairID": "0f7e122a-091d-5535-a27c-438adfa0daf0",
+          "src_start": 53,
+          "src_end": 60,
+          "tgt_start": 53,
+          "tgt_end": 60,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "0f7e122a-091d-5535-a27c-438adfa0daf0",
+          "SupersedesPairID": "d0b0c628-e70a-5649-ba0e-6b653aaa1e66",
+          "src_end": 60,
+          "src_start": 53,
+          "tgt_end": 60,
+          "tgt_start": 53,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 60,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "サカナガイナキャア",
+          "start": 53,
+          "surface": "魚がいなきゃあ"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 60,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "サカラエナキャア",
+          "start": 53,
+          "surface": "逆らえなきゃあ"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201210.html entry 5: 正解 highlights 魚がいなきゃあ in 今、この五、六年は凪のような状態で、インフラのいい資産というのは出ていないね。出会いは突然で、仕掛けたって魚がいなきゃあしょうがないし～; 間違い highlights 逆らえなきゃあ in 今、この五、六年は凪のような状態で、インフラのいい資産というのは出ていないね。出会いは突然で、仕掛けたって逆らえなきゃあしょうがないし～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is 魚がいなきゃあ[サカナガイナキャア] versus 逆らえなきゃあ[サカラエナキャア]. The fishing metaphor is 魚[サカナ] + が[ガ] + いなきゃあ[イナキャア]; the error uses 逆らえ[サカラエ] + なきゃあ[ナキャア]. The source context and ordinary inflections fix the readings. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201310_005",
+      "OriginalHash": "59fe99b9962f7de0360650e275737c789b438a2946d1dba05437adab4de299a4",
+      "old_pairs": [
+        {
+          "PairID": "9733ae57-81a1-53c7-b942-622ef1bf4d67",
+          "src_start": 3,
+          "src_end": 10,
+          "tgt_start": 3,
+          "tgt_end": 11,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "9733ae57-81a1-53c7-b942-622ef1bf4d67",
+          "SupersedesPairID": "3051f928-ff2c-5078-b95b-d6d6df0168c2",
+          "src_end": 10,
+          "src_start": 3,
+          "tgt_end": 11,
+          "tgt_start": 3,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 10,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "エンカツカホウガカラム",
+          "start": 3,
+          "surface": "円滑化法が絡む"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 11,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ネンカンフカボリガアル",
+          "start": 3,
+          "surface": "年間深掘りがある"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201310.html entry 5: 正解 highlights 円滑化法が絡む in これは円滑化法が絡むという意味で融資にも関係しますが、金融円滑化法が廃止されても何も変わらないとしたら～; 間違い highlights 年間深掘りがある in これは年間深掘りがあるという意味で融資にも関係しますが、金融円滑化法が廃止されても何も変わらないとしたら～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is 円滑化法が絡む[エンカツカホウガカラム] versus 年間深掘りがある[ネンカンフカボリガアル]. The later explicit 金融円滑化法 confirms the law abbreviated 円滑化法[エンカツカホウ], followed by が[ガ] + 絡む[カラム]. The error says 年間[ネンカン] + 深掘り[フカボリ] + が[ガ] + ある[アル], ordinary components. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201504_001",
+      "OriginalHash": "1bc620ea2c2b852fe7dc2b2fd0ea3f1f8edfc8ec12b5ff4e857f1d45511e0741",
+      "old_pairs": [
+        {
+          "PairID": "77d9633c-d379-5289-aa3a-0d7c69eea854",
+          "src_start": 16,
+          "src_end": 24,
+          "tgt_start": 16,
+          "tgt_end": 25,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "77d9633c-d379-5289-aa3a-0d7c69eea854",
+          "SupersedesPairID": "dde15755-7e71-5364-b53e-f321730cfaec",
+          "src_end": 24,
+          "src_start": 16,
+          "tgt_end": 25,
+          "tgt_start": 16,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 24,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ミソモクソモイッショニ",
+          "start": 16,
+          "surface": "味噌も糞も一緒に"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 25,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ミッツノコトモイショニ",
+          "start": 16,
+          "surface": "３つのことも遺書に"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201504.html entry 1: 正解 highlights 味噌も糞も一緒にしないで in その点は趣旨が全く違いますので、味噌も糞も一緒にしないでください～; 間違い highlights ３つのことも遺書にしないで in その点は趣旨が全く違いますので、３つのことも遺書にしないでください～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is 味噌も糞も一緒に[ミソモクソモイッショニ] versus ３つのことも遺書に[ミッツノコトモイショニ]. The source uses the ordinary idiom 味噌[ミソ] + も[モ] + 糞[クソ] + も[モ] + 一緒[イッショ] + に[ニ]. The error has ３つ[ミッツ] + の[ノ] + こと[コト] + も[モ] + 遺書[イショ] + に[ニ]; this does not rely on reading a bare numeral character. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201510_001",
+      "OriginalHash": "bf62930f6894ddbd40a22b9f1cc0301e7f194a19b50a226f7162fa8866b54ca4",
+      "old_pairs": [
+        {
+          "PairID": "50c3288f-0c81-56a2-9775-642d04697b97",
+          "src_start": 19,
+          "src_end": 29,
+          "tgt_start": 19,
+          "tgt_end": 26,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "50c3288f-0c81-56a2-9775-642d04697b97",
+          "SupersedesPairID": "35d4bec7-06c0-5371-8c62-d04eac173fd9",
+          "src_end": 29,
+          "src_start": 19,
+          "tgt_end": 26,
+          "tgt_start": 19,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 29,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "デューディリジェンス",
+          "start": 19,
+          "surface": "デューディリジェンス"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 26,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ギュウジッテンデス",
+          "start": 19,
+          "surface": "牛耳ってんです"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201510.html entry 1: 正解 highlights 企業のデューディリジェンス in グローバル・スタンダードとしての企業のデューディリジェンスという話ですが～; 間違い highlights 企業を牛耳ってんです in グローバル・スタンダードとしての企業を牛耳ってんですという話ですが～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is デューディリジェンス[デューディリジェンス] versus 牛耳ってんです[ギュウジッテンデス]. REVIC identifies デューディリジェンス as business-value diligence, matching the corporate-standard discussion. The error is 牛耳っ[ギュウジッ] + て[テ] + ん[ン] + です[デス], an ordinary colloquial verb clause. Published lexical reference: https://www.revic.co.jp/business/regen/02.html. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201601_001",
+      "OriginalHash": "748c33591607b80fc2664b664f7518ec4dce073e851ad53f7c3b0d05091056f4",
+      "old_pairs": [
+        {
+          "PairID": "106ee90a-8dc4-5f17-a609-5f0e8d0d83e0",
+          "src_start": 17,
+          "src_end": 27,
+          "tgt_start": 17,
+          "tgt_end": 22,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "106ee90a-8dc4-5f17-a609-5f0e8d0d83e0",
+          "SupersedesPairID": "72585de1-af0a-54bb-9838-17c4c2efc2e9",
+          "src_end": 27,
+          "src_start": 17,
+          "tgt_end": 22,
+          "tgt_start": 17,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 27,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ゴーイングコンサーン",
+          "start": 17,
+          "surface": "ゴーイングコンサーン"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 22,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ゴウインニコウサン",
+          "start": 17,
+          "surface": "強引に降参"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201601.html entry 1: 正解 highlights ゴーイングコンサーン in ベンチャーのキーマンが交代しても、ゴーイングコンサーンで簡単には潰せない～; 間違い highlights 強引に降参 in ベンチャーのキーマンが交代しても、強引に降参で簡単には潰せない～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is ゴーイングコンサーン[ゴーイングコンサーン] versus 強引に降参[ゴウインニコウサン]. National Diet Library reference service explains going concern as business continuity, matching survival of the venture. The phonetic loan contrasts with 強引[ゴウイン] + に[ニ] + 降参[コウサン], exact IPADIC. Published lexical reference: https://crd.ndl.go.jp/reference/entry/index.php?id=1000133757&page=ref_view. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201609_001",
+      "OriginalHash": "162d53b29ce93ede2bd22773ddff1652ea51f0dbaee16eb8f3646d7c89213964",
+      "old_pairs": [
+        {
+          "PairID": "a3ecef4c-2ae3-5e1c-8a4f-56ab18d42e90",
+          "src_start": 7,
+          "src_end": 22,
+          "tgt_start": 7,
+          "tgt_end": 13,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "a3ecef4c-2ae3-5e1c-8a4f-56ab18d42e90",
+          "SupersedesPairID": "ffe3bfc4-66a1-5c48-b4cb-bf371c3dad25",
+          "src_end": 22,
+          "src_start": 7,
+          "tgt_end": 13,
+          "tgt_start": 7,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 22,
+          "meanings": [],
+          "qualifiers": [
+            "原資料表記中の括弧注記 「（ほだしゃのせつ）」 は語の説明・読みの補助であり、選択語の発音に追加しない。"
+          ],
+          "reading": "ホダシャノセツ",
+          "start": 7,
+          "surface": "捕蛇者説"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 13,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ホダシタノデス",
+          "start": 7,
+          "surface": "絆したのです"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201609.html entry 1: 正解 highlights 「捕蛇者説（ほだしゃのせつ）」 in 今どき、漢籍で「捕蛇者説（ほだしゃのせつ）」っつっても、ぴんとこないんだよね～; 間違い highlights 絆したのです in 今どき、漢籍で絆したのですっつっても、ぴんとこないんだよね～. Both full archived sentences agree with raw CSV after Unicode-width normalization. Full raw parenthetical span 「捕蛇者説（ほだしゃのせつ）」 is classified as lexical surface 捕蛇者説[ホダシャノセツ] with separate note '「（ほだしゃのせつ）」'; target span 絆したのです as 絆したのです[ホダシタノデス] with separate note ''. The source parenthesis explicitly supplies ほだしゃのせつ for the classical text title; the error is 絆し[ホダシ] + た[タ] + の[ノ] + です[デス]. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201708_009",
+      "OriginalHash": "20fe81253a7e74cbfd33148dfdf4da218b8e02b953fd1f0a45d5a373876a7a47",
+      "old_pairs": [
+        {
+          "PairID": "08bead46-2ce3-56ae-8524-44040aa89a97",
+          "src_start": 3,
+          "src_end": 10,
+          "tgt_start": 3,
+          "tgt_end": 12,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "08bead46-2ce3-56ae-8524-44040aa89a97",
+          "SupersedesPairID": "026ba05d-db6c-509b-86ec-bf5315454555",
+          "src_end": 10,
+          "src_start": 3,
+          "tgt_end": 12,
+          "tgt_start": 3,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 10,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ヒャクネンカセイオマツ",
+          "start": 3,
+          "surface": "百年河清を俟つ"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 12,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ヒャクネンカセイオマツ",
+          "start": 3,
+          "surface": "１００年加勢を待つ"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201708.html entry 9: 正解 highlights 百年河清を俟つ in それは百年河清を俟つようなもので～; 間違い highlights １００年加勢を待つ in それは１００年加勢を待つようなもので～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is 百年河清を俟つ[ヒャクネンカセイオマツ] versus １００年加勢を待つ[ヒャクネンカセイオマツ]. 精選版日本国語大辞典 explicitly gives idiom 百年河清を俟つ[ヒャクネンカセイオマツ]; １００年[ヒャクネン] + 加勢[カセイ] + を[オ] + 待つ[マツ] is the same spoken sequence. Published lexical reference: https://kotobank.jp/word/100%E5%B9%B4%E6%B2%B3%E6%B8%85%E3%82%92%E5%BE%85%E3%81%A4-2236793. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. 再審査: 保存原文 resource/yamato/gochou_goyaku/coffee_break_parts_similar201708.html, entry 9; 正解=それは百年河清を俟つようなもので～; 間違い=それは１００年加勢を待つようなもので～; 旧同音除外理由を再点検。研究者方針に基づく比較読みで原音未確認。 Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar201904_001",
+      "OriginalHash": "21a8ade222dec303551ef4c1bd076841c3bf7dbe0209bf1941e502da84aa9f93",
+      "old_pairs": [
+        {
+          "PairID": "b2e4306a-97ce-5a52-b9e5-3dea790abb02",
+          "src_start": 12,
+          "src_end": 17,
+          "tgt_start": 12,
+          "tgt_end": 23,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "b2e4306a-97ce-5a52-b9e5-3dea790abb02",
+          "SupersedesPairID": "964fefd0-6f0f-59ff-9a90-1e9c2044cc71",
+          "src_end": 17,
+          "src_start": 12,
+          "tgt_end": 23,
+          "tgt_start": 12,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 17,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ジョウチョウカコウセイ",
+          "start": 12,
+          "surface": "冗長化構成"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 23,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ジョウチョウガコウセエトイウ",
+          "start": 12,
+          "surface": "上長がこうせえ、と言う"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar201904.html entry 1: 正解 highlights 冗長化構成 in システム的にも正副２台で冗長化構成というものであり～; 間違い highlights 上長がこうせえ、と言う in システム的にも正副２台で上長がこうせえ、と言うものであり～. Raw CSV correct sentence is システム的にも正副２台で冗長化構成ものであり～. The highlighted units occur in both, but the full correct sentences differ (other); full-sentence identity is not claimed. The archived error sentence agrees with CSV. Selected contrast 冗長化構成[ジョウチョウカコウセイ] versus 上長がこうせえ、と言う[ジョウチョウガコウセエトイウ]. Two-system redundancy calls for 冗長[ジョウチョウ] + 化[カ] + 構成[コウセイ]. The error says 上長[ジョウチョウ] + が[ガ] + こう[コウ] + せえ[セエ] + と[ト] + 言う[イウ], comma silent. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202008_004",
+      "OriginalHash": "a6980be01db458c725fc13d26c30f1b450174e1c949540ad346bbe7153294a91",
+      "old_pairs": [
+        {
+          "PairID": "7d4aa84c-3d79-5d1c-9f20-94e80f7416fc",
+          "src_start": 11,
+          "src_end": 16,
+          "tgt_start": 11,
+          "tgt_end": 15,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "7d4aa84c-3d79-5d1c-9f20-94e80f7416fc",
+          "SupersedesPairID": "ab47f009-1c65-5c3c-b058-d1ce85dd8908",
+          "src_end": 16,
+          "src_start": 11,
+          "tgt_end": 15,
+          "tgt_start": 11,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 16,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ニトオエル",
+          "start": 11,
+          "surface": "二兎を得る"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 15,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ニトオリノ",
+          "start": 11,
+          "surface": "２通りの"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar202008.html entry 4: 正解 highlights 二兎を得る in 経済再生と財政健全化の二兎を得る道～; 間違い highlights ２通りの in 経済再生と財政健全化の２通りの道～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is 二兎を得る[ニトオエル] versus ２通りの[ニトオリノ]. The source uses the ordinary two-hares phrase 二兎[ニト] + を[オ] + 得る[エル]; the error has ２[ニ] + 通り[トオリ] + の[ノ]. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "coffee_break_parts_similar202202_001",
+      "OriginalHash": "37fde6b32fed4bf62ed0c3e6cb0d76b859571b6b8bbee61cc85635c04e5f78fc",
+      "old_pairs": [
+        {
+          "PairID": "0fcc7943-7f99-5782-9a96-2da099b1f974",
+          "src_start": 10,
+          "src_end": 16,
+          "tgt_start": 10,
+          "tgt_end": 15,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "0fcc7943-7f99-5782-9a96-2da099b1f974",
+          "SupersedesPairID": "4d564de4-dd04-5435-89db-937292282174",
+          "src_end": 16,
+          "src_start": 10,
+          "tgt_end": 15,
+          "tgt_start": 10,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 16,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "サガイコウイトリケシ",
+          "start": 10,
+          "surface": "詐害行為取消"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 15,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "サガクオトリヒキ",
+          "start": 10,
+          "surface": "差額を取引"
+        }
+      ],
+      "Evidence": "Saved Yamato primary HTML corpus/resource/yamato/gochou_goyaku/coffee_break_parts_similar202202.html entry 1: 正解 highlights 詐害行為取消でやる in こういうときに今度は詐害行為取消でやるなんてことに～; 間違い highlights 差額を取引してやる in こういうときに今度は差額を取引してやるなんてことに～. Both full archived sentences agree with raw CSV after Unicode-width normalization. The selected contrast is 詐害行為取消[サガイコウイトリケシ] versus 差額を取引[サガクオトリヒキ]. Ministry of Justice describes the legal 詐害行為取消権, matching the archived legal-action context. 詐害[サガイ] + 行為[コウイ] + 取消[トリケシ] contrasts with 差額[サガク] + particle を[オ] + 取引[トリヒキ]. Published lexical reference: https://www.moj.go.jp/content/001259612. Installed dictionary is UTF-8 MeCab/IPADIC, aggregate identity SHA-256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_2009-08-26_html_005",
+      "OriginalHash": "8e1c0a6f6fcc6fb0cf88d7343eddb624c86d3d4c24e6ad203ac6512eefe45314",
+      "old_pairs": [
+        {
+          "PairID": "264cee0b-6a20-5cd9-b58e-125bdf03f575",
+          "src_start": 0,
+          "src_end": 8,
+          "tgt_start": 0,
+          "tgt_end": 8,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "264cee0b-6a20-5cd9-b58e-125bdf03f575",
+          "SupersedesPairID": "",
+          "src_end": 8,
+          "src_start": 0,
+          "tgt_end": 8,
+          "tgt_start": 0,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 8,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ココアどこですか",
+          "start": 0,
+          "surface": "ココアどこですか"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 8,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ここはどこですか",
+          "start": 0,
+          "surface": "ここはどこですか"
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_2009-08-26_html.csv row www_1101_com_iimatugai_2009-08-26_html_005; URL: ; Note: 「スーパーで「ココアどこですか？」と聞かれたのに「ここはスーパー○○です！」と答えてしまい、お客様に笑われた。」; Tips: 「「ココア」と「ここは」は音が似ている。」; raw Src/Tgt: ココアどこですか → ここはどこですか. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_2010-12-07_html_004",
+      "OriginalHash": "5a3ae8392f55e5c8d08da530395874a5f45515bca2d14862a543065690919473",
+      "old_pairs": [
+        {
+          "PairID": "69b815a3-ba40-5796-bcb9-81c3ef94c77f",
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 7,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "69b815a3-ba40-5796-bcb9-81c3ef94c77f",
+          "SupersedesPairID": "",
+          "src_end": 4,
+          "src_start": 0,
+          "tgt_end": 7,
+          "tgt_start": 0,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 4,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ナマアタタカイ",
+          "start": 0,
+          "surface": "生暖かい"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 7,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "ナマズガデカイ",
+          "start": 0,
+          "surface": "ナマズがでかい"
+        }
+      ],
+      "Evidence": "Saved primary 1101 source resource/txt_1101/www_1101_com_iimatugai_2010-12-07_html.txt, SHA256 379642aecdd436d253a12870c178d73576fda0a4971eed33cdfdee877075420b. The two exact expressions are 44 Unicode characters apart in the source; adjacent narrative: '本補助犬協会」の皆様方でした。\\n\\n 失礼な聞きまつがいをしてしまったお詫びに\\n\\n 募金させて頂きました。\\n\\n （名犬ぽち）\\n\\n聞きまつがいです。\\n\\n 母「今日はナマズがでかいね」\\n\\n 私「は？\\u3000ナマズ？\\n\\n \\u3000\\u3000ナマズがどうした？」\\n\\n 母「今日は生暖かいね、と言ったの！」\\n\\n （とろろ）\\n\\n先日、駅のホームでのこと。\\n\\n アナウンスをぼんやり聞いていて\\n\\n びっくりしました。\\n\\n 「お客様にお願いいたします。\\n\\n \\u3000構内で持ち主不明の\\n\\n \\u3000婦人靴を'. Actual installed IPADIC selected lexical features/readings: {\"Src\":[{\"surface\":\"生暖かい\",\"pos\":[\"形容詞\",\"自立\"],\"reading\":\"ナマアタタカイ\",\"base\":\"生暖かい\",\"unknown\":false}],\"Tgt\":[{\"surface\":\"ナマズ\",\"pos\":[\"名詞\",\"一般\"],\"reading\":\"ナマズ\",\"base\":\"ナマズ\",\"unknown\":false},{\"surface\":\"が\",\"pos\":[\"助詞\",\"格助詞\"],\"reading\":\"ガ\",\"base\":\"が\",\"unknown\":false},{\"surface\":\"でかい\",\"pos\":[\"形容詞\",\"自立\"],\"reading\":\"デカイ\",\"base\":\"でかい\",\"unknown\":false}]}. Contextual corrected whole-unit readings: ナマアタタカイ / ナマズガデカイ. Dictionary SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more050224_015",
+      "OriginalHash": "c6d3264043257d8433163e9358dac45840b80541043b9727c041d88dafac6585",
+      "old_pairs": [
+        {
+          "PairID": "4b920581-511a-5d40-8661-40599e2962bb",
+          "src_start": 0,
+          "src_end": 9,
+          "tgt_start": 0,
+          "tgt_end": 11,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "4b920581-511a-5d40-8661-40599e2962bb",
+          "SupersedesPairID": "",
+          "src_end": 9,
+          "src_start": 0,
+          "tgt_end": 11,
+          "tgt_start": 0,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 9,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "パンつぶさないでね",
+          "start": 0,
+          "surface": "パンつぶさないでね"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 11,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "パンツぶっささないでね",
+          "start": 0,
+          "surface": "パンツぶっささないでね"
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_1101_kikimatsugai/www_1101_com_iimatugai_archive_more050224_html.csv row www_1101_com_iimatugai_archive_more050224_015; URL: ; Note: 「タクシー内で妻の発言を聞き間違えた。」; Tips: 「早口や語尾の発音に注意。」; raw Src/Tgt: パンつぶさないでね → パンツぶっささないでね. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "www_1101_com_m_iimatugai_290_html_009",
+      "OriginalHash": "47e7442e6926d88c163aa26874a0e9bbfdff4e6f114d63b46cee6bfbf4dd708a",
+      "old_pairs": [
+        {
+          "PairID": "1cb51d09-b2fe-5c3c-a728-ffd4d2b3177a",
+          "src_start": 0,
+          "src_end": 6,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "1cb51d09-b2fe-5c3c-a728-ffd4d2b3177a",
+          "SupersedesPairID": "",
+          "src_end": 6,
+          "src_start": 0,
+          "tgt_end": 6,
+          "tgt_start": 0,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 6,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "アソコガマダ",
+          "start": 0,
+          "surface": "あそこがまだ"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 6,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "バスコダガマ",
+          "start": 0,
+          "surface": "バスコダガマ"
+        }
+      ],
+      "Evidence": "Saved primary source resource/txt_1101/www_1101_com_m_iimatugai_290_html.txt, SHA256 08533725938ab62414cb3329df1ab610aa90fb9de380ee44c89be47801834fef. Source paragraph (whitespace/NFKC matched): 'ストは、布袋寅泰（ほていともやす）さんです！」というテレビの紹介に、隣で新聞を読んでいた母が「え？ポテトもやし？」と聞き返しました。布袋さん、すみません。（ラムネ瓶）\\n\\n数学の先生が黒板を指しながら「あそこがまだ‥‥」と言ったところ、隣の机の友人が「はぁっ？バスコダガマぁ？」と不機嫌そうにつぶやきました。（苦沙弥）\\n\\n駅ホームの放送。「もし婦人靴を見つけた場合は、駅係員までお知らせください」婦人靴を落とすなんてどんなおっちょこちょいだ？と思い、その放送内容をもういちど聞きなおしたら、婦人靴でなく不審物でした‥‥。（Shino）\\n\\n私は会社の「第'. Contextually verified reading of original compared unit: あそこがまだ=アソコガマダ; バスコダガマ=バスコダガマ. Whole original source and heard expressions are 'あそこがまだ' / 'バスコダガマ'. Base lexical support from installed IPADIC: {\"Src\":[{\"surface\":\"あそこ\",\"pos\":[\"名詞\",\"代名詞\"],\"reading\":\"アソコ\",\"base\":\"あそこ\",\"unknown\":false},{\"surface\":\"が\",\"pos\":[\"助詞\",\"格助詞\"],\"reading\":\"ガ\",\"base\":\"が\",\"unknown\":false},{\"surface\":\"まだ\",\"pos\":[\"副詞\",\"助詞類接続\"],\"reading\":\"マダ\",\"base\":\"まだ\",\"unknown\":false}],\"Tgt\":[{\"surface\":\"バスコダガマ\",\"pos\":[\"UNK\"],\"reading\":\"*\",\"base\":\"*\",\"unknown\":true}]}; literal source kana, source phonetic gloss, numeric construction, and conventional named-expression readings adjudicated in context. IPADIC SHA256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    },
+    {
+      "MishearID": "yahooexpert_73e6a209_005",
+      "OriginalHash": "7fee1940acb1fee1a923329c2d5c04349ef080030adc43fbda50d9d8c5ca8957",
+      "old_pairs": [
+        {
+          "PairID": "ee35e395-4fe3-5ccc-9d8c-6f05d9a3b83f",
+          "src_start": 3,
+          "src_end": 12,
+          "tgt_start": 3,
+          "tgt_end": 13,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "PairID": "ee35e395-4fe3-5ccc-9d8c-6f05d9a3b83f",
+          "SupersedesPairID": "",
+          "src_end": 12,
+          "src_start": 3,
+          "tgt_end": 13,
+          "tgt_start": 3,
+          "unit_type": "phrase"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "end": 12,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "トについたら",
+          "start": 3,
+          "surface": "トについたら"
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "end": 13,
+          "meanings": [],
+          "qualifiers": [],
+          "reading": "トリーについて",
+          "start": 3,
+          "surface": "トリーについて"
+        }
+      ],
+      "Evidence": "data/mishearing/google_search_konsaru_kikimachigai/yahoo_expert.csv row yahooexpert_73e6a209_005; URL: https://news.yahoo.co.jp/expert/articles/73e6a209342db5efd178ace81b0bfb0b7be6b646; Note: 「「デパートに着いたら」を「レパートリー」と聞き間違えた事例。」; Tips: 「注意が必要」; raw Src/Tgt: 劇団がデパートについたら → 劇団がレパートリーについて. Sol contextual-false-positive adjudication: full selected expression must remain contextual.",
+      "Reason": "Sol reviewed this full comparison as contextual phrase material rather than a standalone word or compound. Keep the same source ranges and readings; this preserves the clause, particle, inflection, or multiword expression required by the contrast.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24",
+      "RecordValidity": "documented"
+    }
+  ]
+}

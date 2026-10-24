@@ -135,11 +135,14 @@ sha256sum corpus.jsonl
 `data/annotations/reviews.csv` のコミット済みblobだけが対象です。
 他のresourceやPrivate資産、未コミットの校正を探索・配信しません。
 
-- `GET /v1/pairs`: `q`（表記・読みの部分一致）、`mishear_id`、`unit_type`、
+- `GET /v1/pairs`: `q`（表記・読みの部分一致）、`mishear_id`、`unit_type`、`unit_group`、
   `limit`、`offset`で校正済みの採用・除外行を検索。
+- `unit_group=lexical`は`word` / `compound`、`contextual`は
+  `particle-inclusive` / `phrase`。`unit_type`との併用は積集合で、無指定時は全種類。
 - `GET /v1/pairs/{pair_id}`: PairID完全一致。
 - `GET /v1/pairs/export?format=csv|jsonl`: 一覧と同じ検索条件で採用行のみを出力。
   ページング指定は不可。未処理原本があれば409、保留は出力しない。
+  単語・複合語CSVは`?format=csv&unit_group=lexical`で取得する。
 
 原本の `dataset_version` / `dataset_sha256` と、ペアの `pair_version` /
 `pair_sha256` は別に返します。exportは各行にも版・ハッシュを付加し、

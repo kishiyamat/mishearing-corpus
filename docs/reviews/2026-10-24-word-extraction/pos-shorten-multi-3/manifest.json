@@ -1,0 +1,11 @@
+{
+  "decision_count": 3,
+  "applied_records": 3,
+  "audit_rows": 6,
+  "input_review_sha256": "fbf2dd21693ab86743137c606e5b3dbfe9ded4467451546fc5ad26d434a60c38",
+  "output_review_sha256": "3ce1c7c2fc659f049990a976507e7959097a997d8df9bc60885f57bf61729b81",
+  "decision_patch_sha256": "9f84234143cd925fda8c0afcfe29d535d593e97293a4cfbc26648329b72dded2",
+  "audit_sha256": "97009f020b179521cb21c944eb15831fb5d51443423bc2ab8f310020ae2ce893",
+  "output": "data/annotations/reviews.csv",
+  "note": "Three records split into six contrast pairs; shared から/の/と remains outside the lexical spans."
+}

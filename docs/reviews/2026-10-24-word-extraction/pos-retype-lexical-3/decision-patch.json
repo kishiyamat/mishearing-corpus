@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "source_run": "working-reviews:ba1ce7521f132563c837f62721efebab5e27465955f1d11e1bc8141c309fb28d",
+  "source_review_sha256": "ba1ce7521f132563c837f62721efebab5e27465955f1d11e1bc8141c309fb28d",
+  "decisions": [
+    {
+      "MishearID": "coffee_break_parts_similar200810_002",
+      "OriginalHash": "21bd286b58176cd34c9d080400db2eab2e77309957053055f9d71666912bc3bd",
+      "old_pairs": [
+        {
+          "PairID": "9981ebe5-bfb2-56ce-8e99-b4272a783af4",
+          "src_start": 11,
+          "src_end": 14,
+          "tgt_start": 11,
+          "tgt_end": 14,
+          "unit_type": "compound"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 11,
+          "src_end": 14,
+          "tgt_start": 11,
+          "tgt_end": 14,
+          "unit_type": "word",
+          "PairID": "",
+          "SupersedesPairID": "91202111-2380-5f20-89c0-ee350190b06d"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 11,
+          "end": 14,
+          "surface": "図って",
+          "reading": "ハカッテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 11,
+          "end": 14,
+          "surface": "諮って",
+          "reading": "ハカッテ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Source Note and whole-surface morphology establish a complete inflected verb pair or uninterrupted nominal compound. MeCab POS risk does not make it contextual, but the old lexical subtype needs correction.",
+      "Reason": "Source Note and whole-surface morphology establish a complete inflected verb pair or uninterrupted nominal compound. MeCab POS risk does not make it contextual, but the old lexical subtype needs correction.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "niftykids_200408100935_030",
+      "OriginalHash": "ea25905c1dad93fa9d407e704bd0222d77d3ccad3c86350f50092840744fe195",
+      "old_pairs": [
+        {
+          "PairID": "5f80d79a-d7a7-5902-9296-1e9bd38f94a1",
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 4,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": "1b65f2d8-9fd4-516a-b132-600df1a1566a"
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "小食かん",
+          "reading": "ショウショッカン",
+          "meanings": [],
+          "qualifiers": [
+            "研究者方針に基づく想定読み。原音未確認"
+          ]
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "中食かん",
+          "reading": "チュウショッカン",
+          "meanings": [],
+          "qualifiers": [
+            "研究者方針に基づく想定読み。原音未確認"
+          ]
+        }
+      ],
+      "Evidence": "Source Note and whole-surface morphology establish a complete inflected verb pair or uninterrupted nominal compound. MeCab POS risk does not make it contextual, but the old lexical subtype needs correction.",
+      "Reason": "Source Note and whole-surface morphology establish a complete inflected verb pair or uninterrupted nominal compound. MeCab POS risk does not make it contextual, but the old lexical subtype needs correction.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    },
+    {
+      "MishearID": "www_1101_com_iimatugai_archive_more060905_006",
+      "OriginalHash": "a71ece8359c09f32d3334e2e659911ad14d40ff9170a0f1cabdc1d5d96326703",
+      "old_pairs": [
+        {
+          "PairID": "c9e78f16-f351-50c9-a922-9a87e557d458",
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "word"
+        }
+      ],
+      "new_pair_spans": [
+        {
+          "src_start": 0,
+          "src_end": 4,
+          "tgt_start": 0,
+          "tgt_end": 6,
+          "unit_type": "compound",
+          "PairID": "",
+          "SupersedesPairID": ""
+        }
+      ],
+      "SrcAnnotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "surface": "命知らず",
+          "reading": "イノチシラズ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "TgtAnnotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "surface": "いのししラブ",
+          "reading": "イノシシラブ",
+          "meanings": [],
+          "qualifiers": []
+        }
+      ],
+      "Evidence": "Source Note and whole-surface morphology establish a complete inflected verb pair or uninterrupted nominal compound. MeCab POS risk does not make it contextual, but the old lexical subtype needs correction.",
+      "Reason": "Source Note and whole-surface morphology establish a complete inflected verb pair or uninterrupted nominal compound. MeCab POS risk does not make it contextual, but the old lexical subtype needs correction.",
+      "Reviewer": "agent:gpt-6-sol",
+      "ReviewedAt": "2026-10-24"
+    }
+  ]
+}

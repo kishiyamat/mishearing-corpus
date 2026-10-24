@@ -1,0 +1,12 @@
+{
+  "decision_count": 1,
+  "applied_records": 1,
+  "audit_rows": 1,
+  "input_review_sha256": "59019e6d93d610cdcb44a7852b0c56c04d0a5877a27e38e909342c3d52e1651a",
+  "output_review_sha256": "e7f3575195d56e5a563a815daf4a9bbf48c2563c6027ffbe04cefce32eaeaf8f",
+  "decision_patch_sha256": "71e99f238c3f4fb56680a21338a53e1a0cfee520a3dfa98d4d82c6de5c138c59",
+  "audit_sha256": "701a08fe2ea03f69bb1d7e62050eae9fc22dea778405a26b6918641942f81fdc",
+  "dictionary_sha256": "c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba",
+  "output": "data/annotations/reviews.csv",
+  "note": "Only candidate passing strict shared-residual, exact-token, exact-reading and whole-surface dictionary gates. The other 48 current-old-span candidates remain held with explicit gate failures in the generation log."
+}

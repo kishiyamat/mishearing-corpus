@@ -1,0 +1,11 @@
+{
+  "source_run": "2026-10-24-homophones-retained",
+  "decision_patch": "decision-patch.json",
+  "decision_patch_sha256": "39da93acde33205f16a47fe0f7da584108f514fe7eb62c77100c15a4aaedc8a4",
+  "input_reviews_sha256": "9603161087f638b80ab07a81771319dbef7ba87bcd1cfbb91bcb5a5be684fd3c",
+  "output_reviews_sha256": "60810870b259fc146229c9cdf232dcdae6dedaf06f604aa461403a981bd056a7",
+  "audit_file": "word-pair-decisions-audit.csv",
+  "audit_sha256": "0ee770118d0f042aa6ff2a3171f59eb68ab665c141a8ba3d74bbf7e87c8d58cf",
+  "decision_count": 4,
+  "note": "Full reviews.csv output is retained in /tmp for this working session; canonical data and the patch chain reproduce it."
+}
