@@ -5,6 +5,10 @@
 手修正しない。Langflow、Streamlit、chiVe、公開サーバーはこの経路に不要。
 従来の `resource/extracted_word_pairs*.csv` と研究入力・評価結果は上書きしない。
 
+現在の方針・件数・研究者確認用一覧は
+[研究者方針による再判定と除外レビュー](pair_review_policy_2026-10-24.md)を参照。
+原音のない場合の条件付き読みは、その根拠を明示して採用し、原音確認済みとは区別する。
+
 ## 最初にテストする
 
 ```bash
@@ -61,6 +65,11 @@ Frictionless 5.18.1のPython検証は `Schema.from_descriptor(...)` を渡す契
 `SrcReadingStatus` / `TgtReadingStatus` は `proposed` / `confirmed` / `unknown`。
 ローマ字・音素に変換するときは `confirmed` の読みを入力にし、漢字表記の自動読みに
 戻さない。今回アクセント・音素体系自体は新設しない。
+
+`confirmed` は注釈上の採用状態であり、原音で確認された実際の発音を保証しない。
+研究者方針で選定した読みは、識別注釈（qualifiers）・`Evidence`・`Reason` に
+条件と原音未確認を明記する。読みの候補を選べても、出典・出来事の不確かさは
+`RecordValidity` と根拠に残す。
 
 ## 追加・変更・再校正の手順
 
