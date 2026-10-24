@@ -1,10 +1,10 @@
-# Pair review: final integrity audit (2026-10-24)
+# Pair review: integrity audit and research policy (2026-10-24)
 
 The target decision answers **「異聴として音韻的に妥当か」**. It is separate from whether the source describes a completed listening event. A source can document an illustrative example, a near-miss, a speaker's production error, or a written error and still contain a phonologically suitable comparison pair. `RecordValidity` records that provenance (`documented`, `illustrative`, `production`, `visual`, or `unclear`); it does not determine `TargetDecision` automatically. The default `unclear` is not a claim that an event occurred.
 
-An `include` requires independently selected source and target units with grounded, different readings. Explicit kana in the original row or an actual exact whole-surface dictionary entry can ground a reading. A reading for a kanji compound or phrase must not be assembled from component guesses. An `exclude` requires a supported absence of segmental contrast, such as explicit identical readings, verified whole-word homophony, or a clear same-utterance sense/referent ambiguity. Identical written forms alone do **not** justify exclusion when local pronunciations differ. Other unresolved cases remain `pending` with a concrete evidence question.
+An `include` requires independently selected source and target units with grounded, different readings. Explicit kana in the original row or an actual exact whole-surface dictionary entry can ground a reading. Context-checked lexical composition can also ground ordinary phrases: a whole-phrase dictionary headword is not required. Readings must not be assembled from component guesses or an unchecked morphological best path (e.g. hydraulic 樋門 is ヒモン, not トイモン). An `exclude` requires supported phonological or same-utterance grounds, not a blanket event-category or numerical-distance rule. Identical written forms alone do **not** justify exclusion when local pronunciations differ. An unqueried ordinary-word reading is research work to perform, not a reason to declare the research finished.
 
-All 4,490 original rows are represented exactly once in the canonical `data/annotations/reviews.csv`, retain their original hashes, and pass `RecordReview` plus `review_record` against the raw CSV. The current decisions are 381 include, 106 exclude, and 4,003 pending. This is review coverage, **not** 4,490 confirmed phonological pairs. The following names identify the temporary initial review batches, consolidated into that CSV; they are not additional editable sources of truth. Counts by initial batch:
+All 4,490 original rows were represented exactly once in the canonical `data/annotations/reviews.csv`, retained their original hashes, and passed `RecordReview` plus `review_record` against the raw CSV. The **initial run** had 381 include, 106 exclude, and 4,003 pending. This was ledger coverage, **not completed research** or 4,490 confirmed phonological pairs. Further source/dictionary research updates the canonical CSV and current run; the initial counts below are historical, not current totals. The following names identify the temporary initial review batches, consolidated into that CSV; they are not additional editable sources of truth. Counts by initial batch:
 
 | File | Rows | Include | Exclude | Pending |
 | --- | ---: | ---: | ---: | ---: |
@@ -16,7 +16,14 @@ All 4,490 original rows are represented exactly once in the canonical `data/anno
 | `review_plain_c.json` | 689 | 24 | 1 | 664 |
 | `review_plain_d.json` | 1,033 | 47 | 1 | 985 |
 
-Key adjudications:
+## Historical initial adjudications
+
+The following describes the initial run. Its pending descriptions are not a
+current queue: later source research is recorded in the canonical CSV and the
+run selected by `resource/pairs_v2/current.json`. The initial 17 questions and
+their resolutions are summarised in [pair_review_questions.md](pair_review_questions.md).
+
+Initial adjudications:
 
 - `sakamotojidousha_7952_014` and `_026` remain included: the source explicitly gives 向原（むかいはら；板橋区） versus 向原（むこうはら；豊島区）. The note describes likely mistaken rides, so event validity is illustrative, not a documented ride.
 - `coffee_break_parts_similar202302_005` now compares whole words 射程/下手, grounded by an exact ordinary-word IPADIC entry and the archive's explicit 下手（したて）; `coffee_break_parts_similar200807_009` compares whole words 木賃/持ち with exact dictionary readings, without asserting a full-compound reading.
