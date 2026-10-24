@@ -1,5 +1,7 @@
 """Protect researched corrections that were previously left unresolved or misread."""
 
+import hashlib
+import json
 from pathlib import Path
 
 import pytest
@@ -123,3 +125,199 @@ def test_independent_contrasts_in_one_record_are_not_dropped(
     assert [item["surface"] for item in source] == ["逐一", "政治絡みだ"]
     assert [item["surface"] for item in target] == ["逐次", "政治家なんだ"]
     assert review["PairSpans"][1]["SupersedesPairID"]
+
+
+@pytest.mark.parametrize(
+    (
+        "identifier",
+        "src",
+        "tgt",
+        "src_start",
+        "src_end",
+        "tgt_start",
+        "tgt_end",
+        "src_reading",
+        "tgt_reading",
+    ),
+    [
+        (
+            "coffee_break_parts_similar200603_007",
+            "中水",
+            "注水",
+            9,
+            11,
+            9,
+            11,
+            "チュウスイ",
+            "チュウスイ",
+        ),
+        (
+            "39mag_benesse_16332_002",
+            "誤って",
+            "謝って",
+            0,
+            3,
+            0,
+            3,
+            "アヤマッテ",
+            "アヤマッテ",
+        ),
+        (
+            "ohanashi_yokota_blog_001",
+            "乗ります",
+            "降ります",
+            0,
+            4,
+            0,
+            4,
+            "ノリマス",
+            "オリマス",
+        ),
+        (
+            "togetter_1803542_001",
+            "あります",
+            "いります",
+            1,
+            5,
+            1,
+            5,
+            "アリマス",
+            "イリマス",
+        ),
+        (
+            "trilltrill_3469235_001",
+            "洗いたい",
+            "会いたい",
+            0,
+            4,
+            0,
+            4,
+            "アライタイ",
+            "アイタイ",
+        ),
+        (
+            "coffee_break_parts_similar200404_006",
+            "伺えない",
+            "疑えない",
+            0,
+            4,
+            0,
+            4,
+            "ウカガエナイ",
+            "ウタガエナイ",
+        ),
+        (
+            "coffee_break_parts_similar200404_009",
+            "見込めない",
+            "認めない",
+            0,
+            5,
+            0,
+            4,
+            "ミコメナイ",
+            "ミトメナイ",
+        ),
+        (
+            "www_1101_com_m_iimatugai_1315_html_007",
+            "知りたい",
+            "死にたい",
+            0,
+            4,
+            0,
+            4,
+            "シリタイ",
+            "シニタイ",
+        ),
+    ],
+)
+def test_researcher_boundary_decisions_preserve_full_word_annotations(
+    canonical_reviews: dict[str, dict[str, object]],
+    identifier: str,
+    src: str,
+    tgt: str,
+    src_start: int,
+    src_end: int,
+    tgt_start: int,
+    tgt_end: int,
+    src_reading: str,
+    tgt_reading: str,
+) -> None:
+    """Retain complete lexical units and both contextual readings in the review."""
+    # Arrange
+    review = canonical_reviews[identifier]
+
+    # Act
+    spans = review["PairSpans"]
+
+    # Assert
+    assert review["Status"] == "reviewed"
+    assert review["TargetDecision"] == "include"
+    assert len(spans) == 1
+    assert spans[0]["unit_type"] == "word"
+    assert (spans[0]["src_start"], spans[0]["src_end"]) == (src_start, src_end)
+    assert (spans[0]["tgt_start"], spans[0]["tgt_end"]) == (tgt_start, tgt_end)
+    assert spans[0]["SupersedesPairID"]
+    for side, expected_surface in (("SrcAnnotations", src), ("TgtAnnotations", tgt)):
+        annotations = review[side]
+        match = [item for item in annotations if item["surface"] == expected_surface]
+        assert len(match) == 1
+        expected_bounds = (
+            (tgt_start, tgt_end) if side == "TgtAnnotations" else (src_start, src_end)
+        )
+        expected_reading = tgt_reading if side == "TgtAnnotations" else src_reading
+        assert (match[0]["start"], match[0]["end"]) == expected_bounds
+        assert _reading_key(match[0]["reading"]) == _reading_key(expected_reading)
+    if identifier == "39mag_benesse_16332_002":
+        assert review["RecordValidity"] == "unclear"
+        assert review["SrcAnnotations"][0]["meanings"] == ["過失で"]
+        assert review["TgtAnnotations"][0]["meanings"] == ["謝罪して"]
+        assert review["SrcAnnotations"][0]["qualifiers"] == []
+        assert review["TgtAnnotations"][0]["qualifiers"] == []
+        assert "original audio was not verified" in review["Evidence"]
+        assert "article was not fetched" in review["Evidence"]
+
+
+def test_boundary_fix_manifest_hashes_match_every_referenced_file() -> None:
+    """Keep saved review, patch, code, test, audit and run hashes verifiable."""
+    # Arrange
+    root = Path(__file__).resolve().parents[1]
+    review_dir = root / "docs/reviews/2026-10-25-boundary-fixes"
+    manifest = json.loads((review_dir / "manifest.json").read_text())
+    run_dir = root / "resource/pairs_v2" / manifest["current_run"]
+    references = {
+        "updated_review_sha256": root / "data/annotations/reviews.csv",
+        "decision_patch_sha256": review_dir / "decision-patch.json",
+        "lineage_audit_sha256": review_dir / "word-pair-decisions-audit.csv",
+        "run_manifest_sha256": run_dir / "manifest.json",
+        "decision_engine_sha256": root / "scripts/apply_word_pair_decisions.py",
+    }
+    test_references = {
+        relative: root / relative for relative in manifest["test_sha256"]
+    }
+
+    # Act
+    actual = {
+        key: hashlib.sha256(path.read_bytes()).hexdigest()
+        for key, path in (references | test_references).items()
+    }
+    run_manifest = json.loads((run_dir / "manifest.json").read_text())
+    patch = json.loads((review_dir / "decision-patch.json").read_text())
+
+    # Assert
+    assert all(
+        len(value) == 64
+        for key, value in manifest.items()
+        if key.endswith("sha256") and isinstance(value, str)
+    )
+    assert all(len(value) == 64 for value in manifest["test_sha256"].values())
+    assert all(manifest[key] == actual[key] for key in references)
+    assert all(
+        manifest["test_sha256"][relative] == actual[relative]
+        for relative in manifest["test_sha256"]
+    )
+    assert manifest["source_review_sha256"] == patch["source_review_sha256"]
+    assert manifest["originals_sha256"] == run_manifest["originals_sha256"]
+    assert all(
+        hashlib.sha256((run_dir / name).read_bytes()).hexdigest() == expected
+        for name, expected in run_manifest["files"].items()
+    )

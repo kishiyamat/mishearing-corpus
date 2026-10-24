@@ -86,6 +86,145 @@ def test_canonical_yahoo_pair_uses_reviewed_word_boundary_and_readings() -> None
     )
 
 
+@pytest.mark.parametrize(
+    (
+        "identifier",
+        "src",
+        "tgt",
+        "src_start",
+        "src_end",
+        "tgt_start",
+        "tgt_end",
+        "src_reading",
+        "tgt_reading",
+    ),
+    [
+        (
+            "coffee_break_parts_similar200603_007",
+            "中水",
+            "注水",
+            "9",
+            "11",
+            "9",
+            "11",
+            "チュウスイ",
+            "チュウスイ",
+        ),
+        (
+            "39mag_benesse_16332_002",
+            "誤って",
+            "謝って",
+            "0",
+            "3",
+            "0",
+            "3",
+            "アヤマッテ",
+            "アヤマッテ",
+        ),
+        (
+            "ohanashi_yokota_blog_001",
+            "乗ります",
+            "降ります",
+            "0",
+            "4",
+            "0",
+            "4",
+            "ノリマス",
+            "オリマス",
+        ),
+        (
+            "togetter_1803542_001",
+            "あります",
+            "いります",
+            "1",
+            "5",
+            "1",
+            "5",
+            "アリマス",
+            "イリマス",
+        ),
+        (
+            "trilltrill_3469235_001",
+            "洗いたい",
+            "会いたい",
+            "0",
+            "4",
+            "0",
+            "4",
+            "アライタイ",
+            "アイタイ",
+        ),
+        (
+            "coffee_break_parts_similar200404_006",
+            "伺えない",
+            "疑えない",
+            "0",
+            "4",
+            "0",
+            "4",
+            "ウカガエナイ",
+            "ウタガエナイ",
+        ),
+        (
+            "coffee_break_parts_similar200404_009",
+            "見込めない",
+            "認めない",
+            "0",
+            "5",
+            "0",
+            "4",
+            "ミコメナイ",
+            "ミトメナイ",
+        ),
+        (
+            "www_1101_com_m_iimatugai_1315_html_007",
+            "知りたい",
+            "死にたい",
+            "0",
+            "4",
+            "0",
+            "4",
+            "シリタイ",
+            "シニタイ",
+        ),
+    ],
+)
+def test_current_run_exposes_researched_word_boundaries_and_lineage(
+    identifier: str,
+    src: str,
+    tgt: str,
+    src_start: str,
+    src_end: str,
+    tgt_start: str,
+    tgt_end: str,
+    src_reading: str,
+    tgt_reading: str,
+) -> None:
+    """Expose complete chosen words and ancestry through the selected run rows."""
+    # Arrange
+    rows = _current_reviewed_rows()
+
+    # Act
+    candidate = _pair(rows, identifier, src, tgt)
+
+    # Assert
+    assert (candidate["UnitType"], candidate["SrcStart"], candidate["SrcEnd"]) == (
+        "word",
+        src_start,
+        src_end,
+    )
+    assert (candidate["TgtStart"], candidate["TgtEnd"]) == (tgt_start, tgt_end)
+    assert (candidate["SrcReading"], candidate["TgtReading"]) == (
+        src_reading,
+        tgt_reading,
+    )
+    assert (candidate["SrcReadingStatus"], candidate["TgtReadingStatus"]) == (
+        "confirmed",
+        "confirmed",
+    )
+    assert candidate["SupersedesPairID"]
+
+
 def test_canonical_eichie_pair_remains_a_contextual_phrase_fragment() -> None:
     """Do not trim a phrase fragment to a guessed single word or transfer source notes."""
     # Arrange

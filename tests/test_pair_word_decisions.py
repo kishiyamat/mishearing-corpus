@@ -198,6 +198,56 @@ def test_current_pair_rows_can_be_rebuilt_from_the_exact_review_payload() -> Non
     assert current_rows == old_pairs
 
 
+def test_patch_can_preserve_previous_evidence_before_adding_boundary_evidence() -> None:
+    """Keep prior citations and reading evidence when a boundary is revised."""
+    # Arrange
+    raw, _, old_pairs, patch = _fixture()
+    original_review = _review(raw)
+    original_review["Evidence"] = "Historical source citation and dictionary record."
+    original_review["Reason"] = "Historical reading and interpretation rationale."
+    review_payload = review_csv([original_review])
+    patch["source_review_sha256"] = hashlib.sha256(review_payload).hexdigest()
+    patch["decisions"][0]["old_pairs"] = [
+        {
+            "PairID": old_pairs[0]["PairID"],
+            "src_start": int(old_pairs[0]["SrcStart"]),
+            "src_end": int(old_pairs[0]["SrcEnd"]),
+            "tgt_start": int(old_pairs[0]["TgtStart"]),
+            "tgt_end": int(old_pairs[0]["TgtEnd"]),
+            "unit_type": old_pairs[0]["UnitType"],
+        }
+    ]
+    patch["preserve_previous_rationale"] = True
+    current_rows, _ = review_record(raw, "data/mishearing/test.csv", original_review)
+
+    # Act
+    result = apply_decisions(
+        review_payload,
+        {raw["MishearID"]: (raw, "data/mishearing/test.csv")},
+        current_rows,
+        patch,
+        current_run="fixture-run",
+    )
+
+    # Assert
+    applied = next(
+        row
+        for row in csv.DictReader(
+            io.StringIO(result.review_csv.decode("utf-8"), newline="")
+        )
+    )
+    assert applied["Evidence"].startswith(
+        "Historical rationale for superseded span/reading (retained verbatim):\n"
+        "Historical source citation and dictionary record."
+    )
+    assert "Current boundary review evidence:" in applied["Evidence"]
+    assert "Source text and exact IPADIC entries" in applied["Evidence"]
+    assert "Historical rationale for superseded span/reading" in applied["Reason"]
+    assert "Historical reading and interpretation rationale." in applied["Reason"]
+    assert "Current boundary review rationale:" in applied["Reason"]
+    assert "minimal independent lexical contrast" in applied["Reason"]
+
+
 def test_split_children_both_reference_the_superseded_pair() -> None:
     """Two independent short contrasts retain explicit lineage to one old pair."""
     # Arrange

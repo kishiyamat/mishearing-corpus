@@ -305,9 +305,24 @@ def apply_decisions(
         for field in ("Evidence", "Reason", "Reviewer", "ReviewedAt"):
             if not isinstance(item.get(field), str) or not str(item[field]).strip():
                 raise ValueError(f"patch {field} must be nonempty")
+        evidence = item["Evidence"]
+        reason = item["Reason"]
+        if patch.get("preserve_previous_rationale") is True:
+            evidence = (
+                "Historical rationale for superseded span/reading "
+                "(retained verbatim):\n"
+                f"{decision['Evidence']}\n\n"
+                f"Current boundary review evidence:\n{evidence}"
+            )
+            reason = (
+                "Historical rationale for superseded span/reading "
+                "(retained verbatim):\n"
+                f"{decision['Reason']}\n\n"
+                f"Current boundary review rationale:\n{reason}"
+            )
         replacement = decision | {
-            "Evidence": item["Evidence"],
-            "Reason": item["Reason"],
+            "Evidence": evidence,
+            "Reason": reason,
             "Reviewer": item["Reviewer"],
             "ReviewedAt": item["ReviewedAt"],
             "SrcAnnotations": item["SrcAnnotations"],
