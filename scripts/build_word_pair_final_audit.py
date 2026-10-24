@@ -252,12 +252,11 @@ def build(root: Path, run_dir: Path) -> list[dict[str, Any]]:
         else:
             action = "RETAINED"
 
-        final_phrase_correction = bool(
-            judgement
+        if (
+            judgement is not None
             and judgement["basis"]
             == "niftykids-phrase-correction-1/sol-correction-override.json"
-        )
-        if final_phrase_correction:
+        ):
             classification = judgement["class"]
             basis = judgement["basis"]
             reason = judgement["reason"]
@@ -274,7 +273,7 @@ def build(root: Path, run_dir: Path) -> list[dict[str, Any]]:
                 )
             )
             reviewer = "agent:gpt-6-sol"
-        elif judgement:
+        elif judgement is not None:
             classification = judgement["class"]
             basis = judgement["basis"]
             reason = judgement["reason"]
