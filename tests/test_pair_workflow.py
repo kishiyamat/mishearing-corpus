@@ -1,6 +1,8 @@
 """Behavior contracts for Issue 63, written before the v2 extraction pipeline."""
 
+import csv
 import hashlib
+import io
 import json
 import shutil
 from pathlib import Path
@@ -10,6 +12,7 @@ import pytest
 from corpus_api.dataset import CorpusSnapshot, canonical_json
 from corpus_api.models import DatasetInfo, LinkQuality, Record
 from corpus_api.pair_workflow import (
+    PAIR_FIELDS,
     RecordReview,
     build_artifacts,
     csv_bytes,
@@ -94,8 +97,8 @@ def review(raw: dict[str, str], **extra: object) -> dict[str, object]:
     } | extra
 
 
-def test_typed_meaning_difference_is_not_a_phonological_candidate() -> None:
-    """Meaning notes must be separated before tokenization and comparison."""
+def test_typed_meaning_difference_is_retained_as_a_semantic_alternative() -> None:
+    """Separate meaning notes from the surface without dropping a sense contrast."""
     # Arrange
     raw = record("|退社《たいしゃ》【意味：帰宅】", "|退社《たいしゃ》【意味：退職】")
 
@@ -103,9 +106,11 @@ def test_typed_meaning_difference_is_not_a_phonological_candidate() -> None:
     rows, audit = extract_record(raw, "data/mishearing/test.csv", tokens)
 
     # Assert
-    assert rows == []
-    assert audit["CandidateCount"] == 0
-    assert audit["ZeroReason"] == "same_surface"
+    assert len(rows) == audit["CandidateCount"] == 1
+    assert rows[0]["Src"] == rows[0]["Tgt"] == "退社"
+    assert json.loads(rows[0]["SrcMeaning"]) == ["帰宅"]
+    assert json.loads(rows[0]["TgtMeaning"]) == ["退職"]
+    assert rows[0]["TargetDecision"] == "undecided"
     assert audit["ReviewStatus"] == "draft"
 
 
@@ -164,15 +169,66 @@ def test_homograph_with_explicitly_different_readings_is_not_lost() -> None:
     assert audit["CandidateCount"] == 1
 
 
-def test_kana_script_difference_cannot_be_approved_as_phonological_difference() -> None:
-    """Hiragana versus katakana alone must not create an evaluation pair."""
+def test_same_word_variant_remains_excluded_by_explicit_lexical_review() -> None:
+    """Script normalization is grounds for this review, not a universal sound gate."""
     # Arrange
     raw = record("|退社《タイシャ》", "|退社《たいしゃ》")
-    decision = review(raw)
+    decision = review(
+        raw,
+        TargetDecision="exclude",
+        Evidence="fixture: same lexical surface 退社 and same sense; kana scripts vary only",
+        Reason="Same word and meaning; only the reading notation script differs",
+    )
 
-    # Act / Assert
-    with pytest.raises(ValueError, match="identical"):
-        review_record(raw, "test.csv", decision)
+    # Act
+    rows, audit = review_record(raw, "test.csv", decision)
+
+    # Assert
+    assert rows[0]["TargetDecision"] == audit["TargetDecision"] == "exclude"
+    assert rows[0]["Evidence"] == decision["Evidence"]
+
+
+@pytest.mark.parametrize(
+    ("src", "tgt"),
+    [
+        ("|高地《こうち》", "|高知《コウチ》"),
+        ("|右中間《うちゅうかん》", "|宇宙感《うちゅうかん》"),
+        ("|退社《たいしゃ》【意味：帰宅】", "|退社《たいしゃ》【意味：退職】"),
+        (
+            "|松屋《まつや》【識別：百貨店】",
+            "|松屋《まつや》【識別：飲食店】",
+        ),
+    ],
+)
+def test_review_can_include_homophones_with_distinct_words_or_interpretations(
+    src: str, tgt: str
+) -> None:
+    """Same reading alone never vetoes an attributed word/sense/referent review."""
+    # Arrange
+    raw = record(src, tgt)
+    decision = review(raw, Reason="Different lexical interpretations retained")
+
+    # Act
+    rows, audit = review_record(raw, "test.csv", decision)
+
+    # Assert
+    assert len(rows) == 1
+    assert rows[0]["TargetDecision"] == audit["TargetDecision"] == "include"
+    assert rows[0]["SrcReadingStatus"] == rows[0]["TgtReadingStatus"] == "confirmed"
+
+
+def test_identical_surface_reading_and_meaning_remain_a_zero_difference_draft() -> None:
+    """Adding homophones must not make an identical interpretation a new contrast."""
+    # Arrange
+    raw = record("|退社《タイシャ》【意味：帰宅】", "|退社《たいしゃ》【意味：帰宅】")
+
+    # Act
+    rows, audit = extract_record(raw, "test.csv", tokens)
+
+    # Assert
+    assert rows == []
+    assert audit["CandidateCount"] == 0
+    assert audit["ZeroReason"] == "same_surface"
 
 
 def test_whole_compound_alternative_keeps_shared_suffix() -> None:
@@ -254,12 +310,12 @@ def test_review_keeps_asymmetric_boundaries_and_original_provenance() -> None:
 
 
 def test_explicit_legacy_reading_and_qualifier_can_be_corrected() -> None:
-    """Source-grounded mixed parentheses become typed annotation fields."""
+    """Classified parentheses preserve distinct place referents even at one reading."""
     # Arrange
     raw = record("大山町（おおやまちょう；渋谷区）", "大山町（おおやまちょう；板橋区）")
     decision = review(
         raw,
-        TargetDecision="exclude",
+        TargetDecision="include",
         SrcAnnotations=[
             {
                 "start": 0,
@@ -289,7 +345,7 @@ def test_explicit_legacy_reading_and_qualifier_can_be_corrected() -> None:
     assert rows[0]["Src"] == rows[0]["Tgt"] == "大山町"
     assert rows[0]["SrcReading"] == "おおやまちょう"
     assert rows[0]["SrcAnnotated"] == "|大山町《おおやまちょう》【識別：渋谷区】"
-    assert rows[0]["TargetDecision"] == "exclude"
+    assert rows[0]["TargetDecision"] == "include"
 
 
 @pytest.mark.parametrize(
@@ -406,6 +462,28 @@ def test_validation_checks_rehashed_artifact_content(filename: str) -> None:
     # Act / Assert
     with pytest.raises(ValueError):
         validate_artifacts(files, corpus, decisions)
+
+
+def test_validation_rejects_removing_a_same_surface_meaning_contrast() -> None:
+    """A forged zero-candidate ledger cannot hide a typed semantic distinction."""
+    # Arrange
+    raw = record("|退社《たいしゃ》【意味：帰宅】", "|退社《たいしゃ》【意味：退職】")
+    corpus = snapshot([raw])
+    files = build_artifacts(corpus, [], tokens)
+    ledger_reader = csv.DictReader(io.StringIO(files["records.csv"].decode()))
+    ledger = list(ledger_reader)
+    ledger[0].update(CandidateCount="0", ZeroReason="same_surface")
+    files["records.csv"] = csv_bytes(ledger, list(ledger_reader.fieldnames or []))
+    files["draft.csv"] = csv_bytes([], PAIR_FIELDS)
+    manifest = json.loads(files["manifest.json"])
+    manifest.update(candidate_count=0, zero_candidate_count=1)
+    for name in ("records.csv", "draft.csv"):
+        manifest["files"][name] = hashlib.sha256(files[name]).hexdigest()
+    files["manifest.json"] = canonical_json(manifest).encode()
+
+    # Act / Assert
+    with pytest.raises(ValueError, match="context candidate"):
+        validate_artifacts(files, corpus, [])
 
 
 def test_local_validation_sees_uncommitted_original_changes(tmp_path: Path) -> None:

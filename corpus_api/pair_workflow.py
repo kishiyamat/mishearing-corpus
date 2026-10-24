@@ -25,7 +25,7 @@ from .annotations import AnnotatedText, Annotation, parse_annotation, render_ann
 from .dataset import CorpusSnapshot, _rows, canonical_json
 from .models import CSV_FIELDS, Record
 
-EXTRACTOR_VERSION = "pairs-v2.1"
+EXTRACTOR_VERSION = "pairs-v2.2"
 TOKENIZER_SETTINGS = "mecab -Owakati; difflib autojunk=False; no vocabulary filter"
 Tokenizer = Callable[[str], list[tuple[int, int]]]
 PAIR_FIELDS = (
@@ -453,10 +453,17 @@ def _audit(
     }
 
 
+def _same_interpretation(src: AnnotatedText, tgt: AnnotatedText) -> bool:
+    """Compare surface and typed interpretation, normalizing only reading notation."""
+    return src.surface == tgt.surface and [
+        replace(a, reading=_reading_key(a.reading)) for a in src.annotations
+    ] == [replace(a, reading=_reading_key(a.reading)) for a in tgt.annotations]
+
+
 def extract_record(
     record: Mapping[str, str], path: str, tokenizer: Tokenizer = mecab_tokens
 ) -> tuple[list[dict[str, str]], dict[str, object]]:
-    """Propose changed tokens and a full-context alternative without deleting notes."""
+    """Propose token or interpretation contrasts without treating homophony as identity."""
     flags: list[str] = []
     try:
         src, tgt = _prepared(record["Src"]), _prepared(record["Tgt"])
@@ -466,13 +473,7 @@ def extract_record(
         return [], audit
     if src.legacy_parentheses or tgt.legacy_parentheses:
         flags.append("legacy_parentheses")
-    src_readings = [
-        (a.start, a.end, _reading_key(a.reading)) for a in src.annotations if a.reading
-    ]
-    tgt_readings = [
-        (a.start, a.end, _reading_key(a.reading)) for a in tgt.annotations if a.reading
-    ]
-    if src.surface == tgt.surface and src_readings == tgt_readings:
+    if _same_interpretation(src, tgt):
         return [], _audit(record, path, 0, "same_surface")
     src_tokens, tgt_tokens = tokenizer(src.surface), tokenizer(tgt.surface)
     matcher = SequenceMatcher(
@@ -577,10 +578,6 @@ def review_record(
             ):
                 raise ValueError(
                     "included pairs require both surfaces and confirmed readings"
-                )
-            if _reading_key(row["SrcReading"]) == _reading_key(row["TgtReading"]):
-                raise ValueError(
-                    "identical confirmed readings are not phonological evaluation pairs"
                 )
             if src.legacy_parentheses or tgt.legacy_parentheses:
                 raise ValueError("unclassified parentheses cannot enter evaluation")
@@ -820,16 +817,16 @@ def validate_artifacts(
         if not candidates:
             try:
                 src, tgt = _prepared(raw["Src"]), _prepared(raw["Tgt"])
-                if src.surface != tgt.surface:
+                if not _same_interpretation(src, tgt):
                     raise ValueError(
-                        "nonidentical surfaces cannot have no context candidate"
+                        "distinct interpretations cannot have no context candidate"
                     )
                 zero_reason = "same_surface"
             except ValueError as error:
                 # Distinguish an actual syntax error from a removed context candidate.
                 if (
                     str(error)
-                    == "nonidentical surfaces cannot have no context candidate"
+                    == "distinct interpretations cannot have no context candidate"
                 ):
                     raise
                 zero_reason, parse_error = "annotation_syntax_error", str(error)

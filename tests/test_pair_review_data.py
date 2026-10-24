@@ -22,7 +22,7 @@ def canonical_reviews() -> dict[str, dict[str, object]]:
     [
         ("coffee_break_parts_similar200912_006", "include", "カンスイ", "カンセイ"),
         ("coffee_break_parts_similar202201_005", "include", "シュト", "シト"),
-        ("coffee_break_parts_similar200810_007", "exclude", "ケンメイ", "ケンメイ"),
+        ("coffee_break_parts_similar200810_007", "include", "ケンメイ", "ケンメイ"),
         ("www_1101_com_m_iimatugai_530_html_009", "include", "カアイ", "カワイ"),
         (
             "ameblo_bbtmba_10852900207_002",

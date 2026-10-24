@@ -310,6 +310,80 @@ def test_pair_export_uses_list_filters_and_reports_them(served_pairs: Any) -> No
     assert "untouched" not in exported.text
 
 
+def test_homophones_remain_separate_surface_pairs_in_list_lookup_and_export(
+    tmp_path: Path,
+) -> None:
+    """A shared reading neither rejects nor groups distinct lexical targets."""
+    # Arrange
+    import csv
+    import io
+
+    from corpus_api.main import create_app
+
+    root = tmp_path / "homophones"
+    rows = [
+        _mishearing_row("one", "|高地《こうち》", "|高知《こうち》"),
+        _mishearing_row("two", "|高地《こうち》", "|公知《こうち》"),
+    ]
+    stream = io.StringIO(newline="")
+    writer = csv.DictWriter(stream, fieldnames=FIELDS, lineterminator="\n")
+    writer.writeheader()
+    writer.writerows(rows)
+    initial = _commit_public_fixture(root, stream.getvalue())
+    source = CorpusSnapshot.from_git(root, initial)
+    decisions = [_review(row, "include") for row in rows]
+    payload = review_csv(decisions)
+    artifacts = build_artifacts(
+        source,
+        load_reviews(payload),
+        tokenizer=lambda text: [(0, len(text))] if text else [],
+    )
+    directory = root / "resource/pairs_v2/homophones"
+    directory.mkdir(parents=True)
+    for name, content in artifacts.items():
+        (directory / name).write_bytes(content)
+    annotation = root / "data/annotations/reviews.csv"
+    annotation.parent.mkdir(parents=True)
+    annotation.write_bytes(payload)
+    pointer = root / "resource/pairs_v2/current.json"
+    pointer.write_text('{"directory":"homophones"}\n', encoding="utf-8")
+    with Repo(root) as repo:
+        repo.index.add(
+            [
+                str(p.relative_to(root))
+                for p in [*directory.iterdir(), annotation, pointer]
+            ]
+        )
+        ref = repo.index.commit("explicit homophone reviews").hexsha
+
+    # Act
+    with TestClient(create_app(repository=root, dataset_ref=ref)) as client:
+        listed = client.get("/v1/pairs", params={"q": "こうち"})
+        csv_response = client.get("/v1/pairs/export", params={"format": "csv"})
+        jsonl_response = client.get("/v1/pairs/export", params={"format": "jsonl"})
+        looked_up = [
+            client.get("/v1/pairs/" + row["PairID"]).json()["pair"]
+            for row in listed.json()["pairs"]
+        ]
+
+    # Assert
+    assert (
+        listed.status_code
+        == csv_response.status_code
+        == jsonl_response.status_code
+        == 200
+    )
+    assert listed.json()["total"] == 2
+    assert len({row["PairID"] for row in looked_up}) == 2
+    assert {row["Tgt"] for row in looked_up} == {"高知", "公知"}
+    assert all(row["SrcReading"] == row["TgtReading"] == "こうち" for row in looked_up)
+    csv_rows = list(csv.DictReader(io.StringIO(csv_response.text)))
+    jsonl_rows = [json.loads(line) for line in jsonl_response.text.splitlines()]
+    assert len(csv_rows) == len(jsonl_rows) == 2
+    assert csv_rows == jsonl_rows
+    assert {row["Tgt"] for row in jsonl_rows} == {"高知", "公知"}
+
+
 def test_pair_routes_absent_without_pointer_but_existing_records_remain(
     tmp_path: Path,
 ) -> None:
