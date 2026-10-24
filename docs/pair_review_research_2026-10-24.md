@@ -22,7 +22,7 @@
 `4,292 + 198 = 4,490`。採用ペアは初回381から3,752へ増えたが、単なる
 判定条件の緩和ではない。根拠・読み・原文位置の訂正を正本へ反映した結果である。
 複数対比のあるレコードを含むため、ペア数と採用レコード数は同一ではない。
-境界／比較単位の変わった1,398スパンに旧暫定PairIDへの対応を記録した。
+境界／比較単位の変わった1,420スパンに旧暫定PairIDへの対応を記録した。
 機械候補8,210件・候補ゼロ12レコードは初回と変わらない。
 
 ## 調査と訂正
@@ -61,10 +61,10 @@
 実MeCab・辞書、各成果物のハッシュと段階別件数はその `manifest.json` に記録する。
 初回の `2026-10-24-initial` は比較用の履歴として保持する。
 
-- 読み取り元コミット: `c200aa56d300d1b6fcb4de0fb7ed68434aa89bf4`
+- 読み取り元コミット: `aa8e35847f52a87876db2ea6431634042b341b3e`
 - 原本内容SHA256: `e6b09c686e3f004c5395388488f94d487b1bad75b75fd7d169b3c63415285ab0`
-- 注釈CSVのバイト列SHA256: `dc20323a6436dc8b046841e80f3c4a2f518033f2f14c8440b6d2c8f49241d603`
-- 注釈入力の正規化JSON SHA256（`review_input_sha256`）: `7feaca104a84d6d9f35b6a42011d0cfd9a6d6259b17db5bed1fa863bcd21a7e2`
+- 注釈CSVのバイト列SHA256: `3f8e4cbdd66c54cc7e5f0be14eb409fc14f5e847120a318519da8948ea68be0b`
+- 注釈入力の正規化JSON SHA256（`review_input_sha256`）: `7ca257506072c76e03f4cdd358f7b43f20fd80a49bc4fbc5ddd50cf8a7baf51b`
 - Python 3.13.3、MeCab 0.996、UTF-8 IPADIC（辞書版102）
 - `sys.dic` SHA256: `ce8ea424b3ee79d34c5afdba9cf1dd95266dca15c8ba93645f1284c62fcc3339`
 - 読み照合CLIの辞書同定SHA256: `c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba`
@@ -75,16 +75,21 @@
 
 ```bash
 uv run --locked python -m corpus_api.pair_workflow build \
-  --output resource/pairs_v2/2026-10-24-researched
+  --output resource/pairs_v2/2026-10-24-researched-lineage
 uv run --locked python -m corpus_api.pair_workflow check --require-complete
 uv run --locked python -m corpus_api.pair_workflow validate \
-  --output resource/pairs_v2/2026-10-24-researched --require-complete
+  --output resource/pairs_v2/2026-10-24-researched-lineage --require-complete
 ```
 
 生成先が既にある場合は上書きせず、新しいrun名を指定する。
 コミット前には `check --staged --require-complete` でGit indexの入力も検証する。
 回帰テストはデータ訂正前に失敗を確認し、確定読み・原文範囲・複数対比の
 取りこぼしを保護する。構文検証だけで言語的な正しさを保証するものではない。
+
+追加調査の初版 `2026-10-24-researched` は履歴として保持した。コミット済みAPIの
+確認で、旧選択ペアが複数ある場合の旧ID参照漏れを発見し、テストの失敗で再現した。
+対応する原文範囲を照合して22スパンの参照を追加した修正版が
+`2026-10-24-researched-lineage` である。読み・採否・件数は変えていない。
 
 原本11列CSV、旧1,908行ペアスナップショット、既存研究の1,816件評価分母・
 研究者ラベルは変更しない。Langflow、外部配備、Private側gitlink更新、

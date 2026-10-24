@@ -106,3 +106,4 @@ def test_independent_contrasts_in_one_record_are_not_dropped(
     assert len(review["PairSpans"]) == 2
     assert [item["surface"] for item in source] == ["逐一", "政治絡みだ"]
     assert [item["surface"] for item in target] == ["逐次", "政治家なんだ"]
+    assert review["PairSpans"][1]["SupersedesPairID"]
