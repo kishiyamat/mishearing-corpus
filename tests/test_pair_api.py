@@ -287,6 +287,8 @@ def test_pair_export_csv_and_jsonl_share_provenance_and_exclude_excluded_rows(
     coverage = json.loads(csv_response.headers["x-coverage"])
     assert coverage["pending_record_count"] == 1
     assert coverage["excluded_record_count"] == 2
+    assert coverage["review_complete"] is True
+    assert coverage["linguistic_quality_complete"] is False
     assert "exclude" not in csv_response.text
     assert "exclude" not in jsonl_response.text
     assert "include" in csv_response.text and "include" in jsonl_response.text

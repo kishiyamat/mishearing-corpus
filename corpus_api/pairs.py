@@ -42,7 +42,7 @@ class PairSnapshot:
     dataset_sha256: str
     source_commit: str
     checksum: str
-    coverage: Mapping[str, int]
+    coverage: Mapping[str, int | bool]
     rows: tuple[Mapping[str, str], ...]
 
 
@@ -126,7 +126,13 @@ def load_pair_snapshot(
                 "excluded_record_count",
                 "unprocessed_count",
             )
-            coverage = {key: int(cast(int, manifest[key])) for key in coverage_keys}
+            coverage: dict[str, int | bool] = {
+                key: int(cast(int, manifest[key])) for key in coverage_keys
+            }
+            # Processing coverage is not a claim that pending linguistic decisions
+            # have been resolved. Preserve the validated flags as JSON booleans.
+            for key in ("review_complete", "linguistic_quality_complete"):
+                coverage[key] = cast(bool, manifest[key])
             digest = hashlib.sha256()
             for name, payload in sorted(
                 {**files, _ANNOTATIONS: annotation_bytes}.items()
