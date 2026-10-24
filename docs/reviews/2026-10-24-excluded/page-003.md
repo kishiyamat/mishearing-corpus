@@ -4,7 +4,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200512&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200512&#46;csv
 - RecordValidity: unclear
 - Reason: The public row describes this confusion&#59; exact IPADIC entries confirm 軌跡（キセキ） and 奇跡（キセキ）&#46; Readings are identical&#44; so exclude as a homophonic orthographic confusion&#46;
 - 選択単位・読み: 軌跡&#12308;読み不明&#12309; &#8594; 奇跡&#12308;読み不明&#12309;
@@ -13,7 +14,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200512&#95;006
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200512&#46;csv
 - RecordValidity: unclear
 - Reason: The exact whole&#45;word IPADIC entries give 厳に&#61;ゲンニ and 現に&#61;ゲンニ &#40;dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#41;&#59; exclude as a homophonic orthographic confusion&#46;
 - 選択単位・読み: 厳に&#12308;読み不明&#12309; &#8594; 現に&#12308;読み不明&#12309;
@@ -22,7 +24,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200512&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200512&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading キカイデンシケンキュウジョ versus キカイデンシケンキュウジョ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 機械電子研究所&#12308;キカイデンシケンキュウジョ&#12309; &#8594; 気化遺伝子研究所&#12308;キカイデンシケンキュウジョ&#12309;
@@ -31,7 +34,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200601&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200601&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading シジョウサイコウ versus シジョウサイコウ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 史上最高&#12308;シジョウサイコウ&#12309; &#8594; 市場最高&#12308;シジョウサイコウ&#12309;
@@ -40,7 +44,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200601&#95;008
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200601&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact entries&#58; 過大&#61;カダイ&#59; 課題&#61;カダイ&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; The readings are identical&#44; so exclude it as orthographic&#47;sense confusion&#59; the exact pair span is selected&#46;
 - 選択単位・読み: 過大&#12308;読み不明&#12309; &#8594; 課題&#12308;読み不明&#12309;
@@ -49,7 +54,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200601&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200601&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の&#12304;正解&#12305;&#65295;&#12304;間違い&#12305;で 可動間仕切り&#65295;稼働間仕切り の対応を確認。文脈の通常読み カドウマジキリ&#65295;カドウマジキリ は同音で、表記・語境界のみの違いなので分節音比較から除外。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。
 - 選択単位・読み: 可動間仕切り&#12308;カドウマジキリ&#12309; &#8594; 稼働間仕切り&#12308;カドウマジキリ&#12309;
@@ -58,7 +64,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200602&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200602&#46;csv
 - RecordValidity: unclear
 - Reason: CSV Note explicitly gives 考究（こうきゅう） and 恒久（こうきゅう）&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; The readings are identical&#44; so exclude it as orthographic&#47;sense confusion&#59; the exact pair span is selected&#46;
 - 選択単位・読み: 考究&#12308;読み不明&#12309; &#8594; 恒久&#12308;読み不明&#12309;
@@ -67,7 +74,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200602&#95;002
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200602&#46;csv
 - RecordValidity: unclear
 - Reason: CSV Note explicitly gives 同条（どうじょう） and 同上（どうじょう）&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; The readings are identical&#44; so exclude it as orthographic&#47;sense confusion&#59; the exact pair span is selected&#46;
 - 選択単位・読み: 同条&#12308;読み不明&#12309; &#8594; 同上&#12308;読み不明&#12309;
@@ -76,7 +84,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200602&#95;003
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200602&#46;csv
 - RecordValidity: unclear
 - Reason: CSV Note explicitly gives 渡し切り（わたしきり） and 私きり（わたしきり）&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; The readings are identical&#44; so exclude it as orthographic&#47;sense confusion&#59; the exact pair span is selected&#46;
 - 選択単位・読み: 渡し切り&#12308;読み不明&#12309; &#8594; 私きり&#12308;読み不明&#12309;
@@ -85,7 +94,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200602&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200602&#46;csv
 - RecordValidity: unclear
 - Reason: CSV Note explicitly gives 開講（かいこう） and 開校（かいこう）&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; The readings are identical&#44; so exclude it as orthographic&#47;sense confusion&#59; the exact pair span is selected&#46;
 - 選択単位・読み: 開講&#12308;読み不明&#12309; &#8594; 開校&#12308;読み不明&#12309;
@@ -94,7 +104,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200602&#95;006
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200602&#46;csv
 - RecordValidity: unclear
 - Reason: CSV Note explicitly gives 代替（だいたい） and 大体（だいたい）&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as a homophonic orthographic confusion&#46;
 - 選択単位・読み: 代替&#12308;読み不明&#12309; &#8594; 大体&#12308;読み不明&#12309;
@@ -103,7 +114,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200602&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200602&#46;csv
 - RecordValidity: unclear
 - Reason: CSV Note explicitly gives both readings as ちゅうけんそうだんいん&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as a homophonic orthographic confusion&#46;
 - 選択単位・読み: 中堅層団員&#12308;読み不明&#12309; &#8594; 中堅相談員&#12308;読み不明&#12309;
@@ -112,7 +124,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200602&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200602&#46;csv
 - RecordValidity: unclear
 - Reason: CSV Note explicitly gives 多国間（たこくかん） and 他国間（たこくかん）&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as a homophonic orthographic confusion&#46;
 - 選択単位・読み: 多国間&#12308;読み不明&#12309; &#8594; 他国間&#12308;読み不明&#12309;
@@ -121,7 +134,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200603&#95;003
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200603&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries&#58; 私淑&#61;シシュク&#59; 止宿&#61;シシュク&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as a homophonic orthographic confusion&#46;
 - 選択単位・読み: 私淑&#12308;読み不明&#12309; &#8594; 止宿&#12308;読み不明&#12309;
@@ -130,7 +144,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200603&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200603&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries&#58; 協調&#61;キョウチョウ&#59; 強調&#61;キョウチョウ&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as a homophonic orthographic confusion&#46;
 - 選択単位・読み: 協調&#12308;読み不明&#12309; &#8594; 強調&#12308;読み不明&#12309;
@@ -139,7 +154,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200603&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200603&#46;csv
 - RecordValidity: documented
 - Reason: The archived correction is 中水利用&#44; not 注水利用&#46; Their contextual conventional readings are チュウスイリヨウ versus チュウスイリヨウ&#59; they share the same confirmed kana reading and are excluded under the homophony invariant&#46;
 - 選択単位・読み: 中水利用&#12308;チュウスイリヨウ&#12309; &#8594; 注水利用&#12308;チュウスイリヨウ&#12309;
@@ -148,7 +164,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200603&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200603&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 耐性&#61;タイセイ and 体制&#61;タイセイ&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as homophonic orthographic confusion&#46;
 - 選択単位・読み: 耐性&#12308;読み不明&#12309; &#8594; 体制&#12308;読み不明&#12309;
@@ -157,7 +174,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200604&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200604&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading ヨサンゲンガク versus ヨサンゲンガク&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 予算現額&#12308;ヨサンゲンガク&#12309; &#8594; 予算減額&#12308;ヨサンゲンガク&#12309;
@@ -166,7 +184,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200604&#95;006
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200604&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading カンリカン versus カンリカン&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 監理官&#12308;カンリカン&#12309; &#8594; 管理官&#12308;カンリカン&#12309;
@@ -175,7 +194,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200604&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200604&#46;csv
 - RecordValidity: documented
 - Reason: The archived correction is 皆減&#44; not 下位減&#46; Their contextual conventional readings are カイゲン versus カイゲン&#59; they share the same confirmed kana reading and are excluded under the homophony invariant&#46;
 - 選択単位・読み: 皆減&#12308;カイゲン&#12309; &#8594; 下位減&#12308;カイゲン&#12309;
@@ -184,7 +204,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200604&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200604&#46;csv
 - RecordValidity: unclear
 - Reason: CSV Note explicitly says both phrases are pronounced じょうほうしゅうせい&#46; Dictionary&#47;source corpus SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; The selected candidates have identical readings and are excluded as orthographic confusions&#46;
 - 選択単位・読み: 上方修正&#12308;読み不明&#12309; &#8594; 情報修正&#12308;読み不明&#12309;
@@ -193,7 +214,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200605&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200605&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact entries give 起債&#61;キサイ and 記載&#61;キサイ&#46; Dictionary&#47;source corpus SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; The selected candidates have identical readings and are excluded as orthographic confusions&#46;
 - 選択単位・読み: 起債&#12308;読み不明&#12309; &#8594; 記載&#12308;読み不明&#12309;
@@ -202,7 +224,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200605&#95;003
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200605&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact entries give 交付&#61;コウフ&#47;公布&#61;コウフ and 開放&#61;カイホウ&#47;解放&#61;カイホウ&#59; both candidate pairs are homophones&#46; Dictionary&#47;source corpus SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; The selected candidates have identical readings and are excluded as orthographic confusions&#46;
 - 選択単位・読み: 交付&#12308;読み不明&#12309; &#8594; 公布&#12308;読み不明&#12309; &#8594; 開放&#12308;読み不明&#12309; &#8594; 解放&#12308;読み不明&#12309;
@@ -211,7 +234,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200605&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200605&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の&#12304;正解&#12305;&#65295;&#12304;間違い&#12305;で 党税調&#65295;当税調 の対応を確認。文脈の通常読み トウゼイチョウ&#65295;トウゼイチョウ は同音で、表記・語境界のみの違いなので分節音比較から除外。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。
 - 選択単位・読み: 党税調&#12308;トウゼイチョウ&#12309; &#8594; 当税調&#12308;トウゼイチョウ&#12309;
@@ -220,7 +244,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200605&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200605&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries&#58; 確度&#61;カクド&#59; 角度&#61;カクド&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are the same&#44; so exclude as homophonic&#47;orthographic confusion&#46;
 - 選択単位・読み: 確度&#12308;読み不明&#12309; &#8594; 角度&#12308;読み不明&#12309;
@@ -229,7 +254,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200606&#95;002
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200606&#46;csv
 - RecordValidity: unclear
 - Reason: The CSV Tips explicitly identify 超えた and 越えた as 同音異義語 &#40;homophones&#41;&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are the same&#44; so exclude as homophonic&#47;orthographic confusion&#46;
 - 選択単位・読み: 超えた&#12308;読み不明&#12309; &#8594; 越えた&#12308;読み不明&#12309;
@@ -238,7 +264,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200606&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200606&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries&#58; 実効&#61;ジッコウ&#59; 実行&#61;ジッコウ&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are the same&#44; so exclude as homophonic&#47;orthographic confusion&#46;
 - 選択単位・読み: 実効&#12308;読み不明&#12309; &#8594; 実行&#12308;読み不明&#12309;
@@ -247,7 +274,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200606&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200606&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 創業&#61;ソウギョウ and 操業&#61;ソウギョウ&#46; IPADIC dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; The readings are identical&#44; so exclude as homophones&#46;
 - 選択単位・読み: 創業&#12308;読み不明&#12309; &#8594; 操業&#12308;読み不明&#12309;
@@ -256,7 +284,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200606&#95;008
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200606&#46;csv
 - RecordValidity: documented
 - Reason: Archived source fixes the correction direction&#46; Context&#45;supported spoken readings サンギケン versus サンギケン are identical and excluded under the homophony invariant&#46;
 - 選択単位・読み: 産技研&#12308;サンギケン&#12309; &#8594; ３技研&#12308;サンギケン&#12309;
@@ -265,7 +294,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200606&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200606&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の&#12304;正解&#12305;&#65295;&#12304;間違い&#12305;で 予算現額比&#65295;予算減額比 の対応を確認。文脈の通常読み ヨサンゲンガクヒ&#65295;ヨサンゲンガクヒ は同音で、表記・語境界のみの違いなので分節音比較から除外。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。
 - 選択単位・読み: 予算現額比&#12308;ヨサンゲンガクヒ&#12309; &#8594; 予算減額比&#12308;ヨサンゲンガクヒ&#12309;
@@ -274,7 +304,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200607&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200607&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 過小&#61;カショウ and 過少&#61;カショウ&#46; IPADIC dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; The readings are identical&#44; so exclude as homophones&#46;
 - 選択単位・読み: 過小&#12308;読み不明&#12309; &#8594; 過少&#12308;読み不明&#12309;
@@ -283,7 +314,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200607&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200607&#46;csv
 - RecordValidity: documented
 - Reason: Archived source fixes the correction direction&#46; Context&#45;supported spoken readings センニンタイセイ versus センニンタイセイ are identical and excluded under the homophony invariant&#46;
 - 選択単位・読み: 専任体制&#12308;センニンタイセイ&#12309; &#8594; 1&#44;000人体制&#12308;センニンタイセイ&#12309;
@@ -292,7 +324,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200607&#95;006
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200607&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading クニト versus クニト&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 国・都&#12308;クニト&#12309; &#8594; 国と&#12308;クニト&#12309;
@@ -301,7 +334,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200607&#95;008
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200607&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact entries give 摘要&#61;テキヨウ and 適用&#61;テキヨウ&#46; IPADIC SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as a same&#45;sound transcription distinction&#46;
 - 選択単位・読み: 摘要&#12308;読み不明&#12309; &#8594; 適用&#12308;読み不明&#12309;
@@ -310,7 +344,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200608&#95;003
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200608&#46;csv
 - RecordValidity: unclear
 - Reason: CSV Note explicitly gives both readings as じゅうりょうせい&#46; IPADIC SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as a same&#45;sound transcription distinction&#46;
 - 選択単位・読み: 従量制&#12308;読み不明&#12309; &#8594; 重量制&#12308;読み不明&#12309;
@@ -319,7 +354,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200608&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200608&#46;csv
 - RecordValidity: unclear
 - Reason: CSV Note explicitly gives both readings as いこう&#46; IPADIC SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as a same&#45;sound transcription distinction&#46;
 - 選択単位・読み: 移行&#12308;読み不明&#12309; &#8594; 意向&#12308;読み不明&#12309;
@@ -328,7 +364,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200608&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200608&#46;csv
 - RecordValidity: documented
 - Reason: The source fixes the correction direction&#46; The context&#45;supported phrase readings タヒンシュスクナ and タヒンシュスクナ are identical&#44; so this is excluded under the homophony invariant&#46;
 - 選択単位・読み: 多品種少&#12308;タヒンシュスクナ&#12309; &#8594; 他品種少&#12308;タヒンシュスクナ&#12309;
@@ -337,7 +374,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200609&#95;002
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200609&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 政見&#61;セイケン and 政権&#61;セイケン&#46; Dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as orthographic homophones&#46;
 - 選択単位・読み: 政見&#12308;読み不明&#12309; &#8594; 政権&#12308;読み不明&#12309;
@@ -346,7 +384,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200612&#95;006
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200612&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 戸別&#61;コベツ and 個別&#61;コベツ&#46; IPADIC dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#59; readings are identical&#44; so exclude as homophonic orthography&#46;
 - 選択単位・読み: 戸別&#12308;読み不明&#12309; &#8594; 個別&#12308;読み不明&#12309;
@@ -355,7 +394,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200701&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200701&#46;csv
 - RecordValidity: unclear
 - Reason: The CSV Note states that both あがって&#47;上がって and あける&#47;開ける are alternate spellings of the same spoken forms&#59; exclude both as orthographic&#44; not phonological&#44; contrasts&#46;
 - 選択単位・読み: あがって&#12308;読み不明&#12309; &#8594; 上がって&#12308;読み不明&#12309; &#8594; あける&#12308;読み不明&#12309; &#8594; 開ける&#12308;読み不明&#12309;
@@ -364,7 +404,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200701&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200701&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 政権&#61;セイケン and 政見&#61;セイケン&#46; IPADIC dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as a same&#45;sound spelling distinction&#46;
 - 選択単位・読み: 政権&#12308;読み不明&#12309; &#8594; 政見&#12308;読み不明&#12309;
@@ -373,7 +414,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200701&#95;006
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200701&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 成約&#61;セイヤク and 制約&#61;セイヤク&#46; IPADIC dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as a same&#45;sound spelling distinction&#46;
 - 選択単位・読み: 成約&#12308;読み不明&#12309; &#8594; 制約&#12308;読み不明&#12309;
@@ -382,7 +424,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200701&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200701&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 至近&#61;シキン and 資金&#61;シキン&#46; IPADIC dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as homophonic spelling confusion&#46;
 - 選択単位・読み: 至近&#12308;読み不明&#12309; &#8594; 資金&#12308;読み不明&#12309;
@@ -391,7 +434,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200701&#95;008
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200701&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading デンリョクリョウ versus デンリョクリョウ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 電力料&#12308;デンリョクリョウ&#12309; &#8594; 電力量&#12308;デンリョクリョウ&#12309;
@@ -400,7 +444,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200701&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200701&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 師事&#61;シジ and 指示&#61;シジ&#46; IPADIC dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as homophonic spelling confusion&#46;
 - 選択単位・読み: 師事&#12308;読み不明&#12309; &#8594; 指示&#12308;読み不明&#12309;
@@ -409,7 +454,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200702&#95;002
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200702&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 広範&#61;コウハン and 後半&#61;コウハン&#46; IPADIC dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as homophonic spelling confusion&#46;
 - 選択単位・読み: 広範&#12308;読み不明&#12309; &#8594; 後半&#12308;読み不明&#12309;
@@ -418,7 +464,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200702&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200702&#46;csv
 - RecordValidity: unclear
 - Reason: IPADIC exact whole&#45;word entries give 負託&#61;フタク and 付託&#61;フタク&#46; IPADIC dictionary SHA&#45;256 c8e456c6a753a7960b4bfab6a4264f78038abe9c5ba885b6e40593557d1c56ba&#46; Readings are identical&#44; so exclude as homophonic spelling confusion&#46;
 - 選択単位・読み: 負託&#12308;読み不明&#12309; &#8594; 付託&#12308;読み不明&#12309;
@@ -427,7 +474,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200703&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200703&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading ノウト versus ノウト&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 農都&#12308;ノウト&#12309; &#8594; 農と&#12308;ノウト&#12309;
@@ -436,7 +484,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200703&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200703&#46;csv
 - RecordValidity: unclear
 - Reason: The source and transcript contrast 面積 with 免責&#59; exact whole&#45;word IPADIC entries give メンセキ and メンセキ&#44; give both the same reading メンセキ&#44; so this is not a distinct&#45;reading pair&#46;
 - 選択単位・読み: 面積&#12308;読み不明&#12309; &#8594; 免責&#12308;読み不明&#12309;
@@ -445,7 +494,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200703&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200703&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading デフレカ versus デフレカ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: デフレ下&#12308;デフレカ&#12309; &#8594; デフレ化&#12308;デフレカ&#12309;

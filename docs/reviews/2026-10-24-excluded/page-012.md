@@ -4,7 +4,8 @@
 
 ## www&#95;1101&#95;com&#95;iimatugai&#95;archive&#95;more081104&#95;html&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;iimatugai&#95;archive&#95;more081104&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 一次資料の同じエピソードで飛んで&#65295;トンでを照合。文脈上の読みトンデ&#65295;トンデは同音の表記・意味・区切り違いであり、分節音対立から除外。 比較範囲は原本中の対応する単位に限定。 原本括弧内の読み・補足を無音の説明として明示注釈し、対照面形に含めなかった。
 - 選択単位・読み: 飛んで&#12308;トンデ&#12309; &#8594; トンで&#12308;トンデ&#12309;
@@ -13,7 +14,8 @@
 
 ## www&#95;1101&#95;com&#95;iimatugai&#95;archive&#95;more090520&#95;html&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;iimatugai&#95;archive&#95;more090520&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 一次資料の同一エピソードを照合。振込&#65295;振り子見 は文脈上ともに フリコミ の音形であり、表記・語境界だけの相違なので分節音対立から除外。 共有部分・伏せ字を除き、原本中で対応する比較単位へ範囲を絞った。
 - 選択単位・読み: 振込&#12308;フリコミ&#12309; &#8594; 振り子見&#12308;フリコミ&#12309;
@@ -22,7 +24,8 @@
 
 ## www&#95;1101&#95;com&#95;iimatugai&#95;archive&#95;more090721&#95;html&#95;008
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;iimatugai&#95;archive&#95;more090721&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 保存原文の同一エピソードで比較表現を確認。革でカバン作る&#65295;川でカバン作る は文脈上 カワデカバンツクル&#65295;カワデカバンツクル と読む。同じ通常音形で、意味・表記または分かち方だけが違うため、分節音対立の評価ペアから除外。
 - 選択単位・読み: 革でカバン作る&#12308;カワデカバンツクル&#12309; &#8594; 川でカバン作る&#12308;カワデカバンツクル&#12309;
@@ -31,7 +34,8 @@
 
 ## www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;1256&#95;html&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;1256&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の同一エピソードを読み、比較語と文脈を確認。支柱&#65295;シチュー の読みを シチュウ&#65295;シチュー と確定。同音の意味・表記解釈違いであり、分節音対立の評価ペアから除外する。
 - 選択単位・読み: 支柱&#12308;シチュウ&#12309; &#8594; シチュー&#12308;シチュー&#12309;
@@ -40,7 +44,8 @@
 
 ## www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;1334&#95;html&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;1334&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 保存原文の同一エピソードで比較表現を確認。天体ショー&#65295;点対称 は文脈上 テンタイショー&#65295;テンタイショウ と読む。同じ通常音形で、意味・表記または分かち方だけが違うため、分節音対立の評価ペアから除外。
 - 選択単位・読み: 天体ショー&#12308;テンタイショー&#12309; &#8594; 点対称&#12308;テンタイショウ&#12309;
@@ -49,7 +54,8 @@
 
 ## www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;1334&#95;html&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;1334&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 保存原文の同一エピソードで比較表現を確認。労わりの心&#65295;板割りの心 は文脈上 イタワリノココロ&#65295;イタワリノココロ と読む。同じ通常音形で、意味・表記または分かち方だけが違うため、分節音対立の評価ペアから除外。 一般的な機械分かち書きが文脈の固有名詞・熟語・数字を誤読する箇所は、原文中の用法で読みを訂正。
 - 選択単位・読み: 労わりの心&#12308;イタワリノココロ&#12309; &#8594; 板割りの心&#12308;イタワリノココロ&#12309;
@@ -58,7 +64,8 @@
 
 ## www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;1334&#95;html&#95;011
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;1334&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の同一エピソードを読み、比較語と文脈を確認。散乱&#65295;産卵 の読みを サンラン&#65295;サンラン と確定。同音の意味・表記解釈違いであり、分節音対立の評価ペアから除外する。
 - 選択単位・読み: 散乱&#12308;サンラン&#12309; &#8594; 産卵&#12308;サンラン&#12309;
@@ -67,7 +74,8 @@
 
 ## www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;1565&#95;html&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;1565&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 保存原文の同一エピソードで比較表現を確認。毛布取って&#65281;&#65295;もう、太って&#65281; は文脈上 モウフトッテ&#65295;モウフトッテ と読む。同じ通常音形で、意味・表記または分かち方だけが違うため、分節音対立の評価ペアから除外。
 - 選択単位・読み: 毛布取って&#65281;&#12308;モウフトッテ&#12309; &#8594; もう、太って&#65281;&#12308;モウフトッテ&#12309;
@@ -76,7 +84,8 @@
 
 ## www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;2923&#95;html&#95;008
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;2923&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 保存原文の同一エピソードで比較表現を確認。洗いが悪い&#65295;新井が悪い は文脈上 アライガワルイ&#65295;アライガワルイ と読む。同じ通常音形で、意味・表記または分かち方だけが違うため、分節音対立の評価ペアから除外。
 - 選択単位・読み: 洗いが悪い&#12308;アライガワルイ&#12309; &#8594; 新井が悪い&#12308;アライガワルイ&#12309;
@@ -85,7 +94,8 @@
 
 ## www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;444&#95;html&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;444&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 保存原文の同一エピソードで比較表現を確認。書く仕事&#65295;隠し事 は文脈上 カクシゴト&#65295;カクシゴト と読む。同じ通常音形で、意味・表記または分かち方だけが違うため、分節音対立の評価ペアから除外。
 - 選択単位・読み: 書く仕事&#12308;カクシゴト&#12309; &#8594; 隠し事&#12308;カクシゴト&#12309;
@@ -94,7 +104,8 @@
 
 ## www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;444&#95;html&#95;012
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;444&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 保存原文の同一エピソードで比較表現を確認。お茶碗&#65295;お茶、ワン は文脈上 オチャワン&#65295;オチャワン と読む。同じ通常音形で、意味・表記または分かち方だけが違うため、分節音対立の評価ペアから除外。
 - 選択単位・読み: お茶碗&#12308;オチャワン&#12309; &#8594; お茶、ワン&#12308;オチャワン&#12309;
@@ -103,7 +114,8 @@
 
 ## www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;457&#95;html&#95;017
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;m&#95;iimatugai&#95;457&#95;html&#46;csv
 - RecordValidity: documented
 - Reason: 一次資料で語形を照合。商事&#65295;ショージ は文脈でともに ショウジ と発音される表記・意味・語境界の取り違えで、分節音対立から除外。
 - 選択単位・読み: 商事&#12308;ショウジ&#12309; &#8594; ショージ&#12308;ショージ&#12309;
@@ -112,7 +124,8 @@
 
 ## www&#95;1101&#95;com&#95;pl&#95;iimatugai&#95;statuses&#95;351985&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;pl&#95;iimatugai&#95;statuses&#95;351985&#46;csv
 - RecordValidity: unclear
 - Reason: The source supplies identical complete readings for the selected units&#44; so there is no segmental contrast&#46;
 - 選択単位・読み: 内示&#12308;ないじ&#12309; &#8594; 内痔&#12308;ないじ&#12309;
@@ -121,7 +134,8 @@
 
 ## www&#95;1101&#95;com&#95;pl&#95;iimatugai&#95;statuses&#95;355608&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;1101&#95;kikimatsugai&#47;www&#95;1101&#95;com&#95;pl&#95;iimatugai&#95;statuses&#95;355608&#46;csv
 - RecordValidity: documented
 - Reason: 一次資料で語形を照合。ハト派とタカ派&#65295;ハトハトタカ派 は文脈でともに ハトハトタカハ と発音される表記・意味・語境界の取り違えで、分節音対立から除外。 共通部分または伏せ字を外し、原文中の対応する最小単位へ比較範囲を絞った。
 - 選択単位・読み: ハト派とタカ派&#12308;ハトハトタカハ&#12309; &#8594; ハトハトタカ派&#12308;ハトハトタカハ&#12309;
@@ -131,6 +145,7 @@
 ## yamamotosho&#95;n215cd6d90f79&#95;001
 
 - URL: https&#58;&#47;&#47;yamamotosho&#46;com&#47;n&#47;n215cd6d90f79
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;name&#95;kikimachigai&#47;yamamotosho&#95;n215cd6d90f79&#95;001&#46;csv
 - RecordValidity: unclear
 - Reason: The selected context gives 思い込んだら&#61;オモイコンダラ and 重いコンダラ&#61;オモイコンダラ&#59; the spoken forms are equivalent&#46;
 - 選択単位・読み: 思い込んだら&#12308;オモイコンダラ&#12309; &#8594; 重いコンダラ&#12308;オモイコンダラ&#12309;
@@ -140,6 +155,7 @@
 ## yamamotosho&#95;n215cd6d90f79&#95;003
 
 - URL: https&#58;&#47;&#47;yamamotosho&#46;com&#47;n&#47;n215cd6d90f79
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;name&#95;kikimachigai&#47;yamamotosho&#95;n215cd6d90f79&#95;001&#46;csv
 - RecordValidity: unclear
 - Reason: In the recorded context&#44; 蓼食う虫も好き好き reads タデクウムシモスキスキ and 田で食う虫も好き好き reads タデクウムシモスキスキ&#46; The readings are the same &#40;including long&#45;vowel notation&#41;&#46;
 - 選択単位・読み: 蓼食う虫も好き好き&#12308;タデクウムシモスキスキ&#12309; &#8594; 田で食う虫も好き好き&#12308;タデクウムシモスキスキ&#12309;
@@ -149,6 +165,7 @@
 ## yomifami&#95;post1501&#95;003
 
 - URL: https&#58;&#47;&#47;www&#46;yomifami&#46;com&#47;column&#47;post&#45;1501&#47;
+- 原本ファイル: data&#47;mishearing&#47;google&#95;search&#95;shigoto&#95;kikimachigai&#47;yomifami&#95;post&#45;1501&#46;csv
 - RecordValidity: unclear
 - Reason: Original context gives グレイノベストガホシイ versus グレーノベストガホシイ&#59; the spoken forms are equivalent&#46;
 - 選択単位・読み: GLAYのベストが欲しい&#12308;グレイノベストガホシイ&#12309; &#8594; グレーのベストが欲しい&#12308;グレーノベストガホシイ&#12309;

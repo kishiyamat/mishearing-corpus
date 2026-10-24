@@ -4,7 +4,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200408&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200408&#46;csv
 - RecordValidity: documented
 - Reason: The archived correction is 徒過して&#44; not 渡河して&#46; Their contextual conventional readings are トカシテ versus トカシテ&#59; they share the same confirmed kana reading and are excluded under the homophony invariant&#46;
 - 選択単位・読み: 徒過して&#12308;トカシテ&#12309; &#8594; 渡河して&#12308;トカシテ&#12309;
@@ -13,7 +14,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200409&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200409&#46;csv
 - RecordValidity: documented
 - Reason: The archived correction is 協働して&#44; not 共同して&#46; Their contextual conventional readings are キョウドウシテ versus キョウドウシテ&#59; they share the same confirmed kana reading and are excluded under the homophony invariant&#46;
 - 選択単位・読み: 協働して&#12308;キョウドウシテ&#12309; &#8594; 共同して&#12308;キョウドウシテ&#12309;
@@ -22,7 +24,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200409&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200409&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading ソワナイ versus ソワナイ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 沿わない&#12308;ソワナイ&#12309; &#8594; 添わない&#12308;ソワナイ&#12309;
@@ -31,7 +34,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200410&#95;006
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200410&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading ヨウチサンギョウ versus ヨウチサンギョウ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 幼稚産業&#12308;ヨウチサンギョウ&#12309; &#8594; 用地産業&#12308;ヨウチサンギョウ&#12309;
@@ -40,7 +44,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200411&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200411&#46;csv
 - RecordValidity: documented
 - Reason: The archived correction is 協働&#44; not 共同&#46; Their contextual conventional readings are キョウドウ versus キョウドウ&#59; they share the same confirmed kana reading and are excluded under the homophony invariant&#46;
 - 選択単位・読み: 協働&#12308;キョウドウ&#12309; &#8594; 共同&#12308;キョウドウ&#12309;
@@ -49,7 +54,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200411&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200411&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading タシカナジョウホウ versus タシカナジョウホウ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 確かな情報&#12308;タシカナジョウホウ&#12309; &#8594; 確かな情報&#12308;タシカナジョウホウ&#12309;
@@ -58,7 +64,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200411&#95;008
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200411&#46;csv
 - RecordValidity: documented
 - Reason: The saved source fixes the correction direction despite the surrounding&#45;sentence difference&#46; Context&#45;supported readings ウンコウ versus ウンコウ are identical&#44; so the pair is excluded under the homophony invariant&#46;
 - 選択単位・読み: 運航、&#12308;ウンコウ&#12309; &#8594; 運行、&#12308;ウンコウ&#12309;
@@ -67,7 +74,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200411&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200411&#46;csv
 - RecordValidity: documented
 - Reason: The saved source fixes the correction direction despite the surrounding&#45;sentence difference&#46; Context&#45;supported readings サイシュウザイニ versus サイシュウザイニ are identical&#44; so the pair is excluded under the homophony invariant&#46;
 - 選択単位・読み: 最終財に&#12308;サイシュウザイニ&#12309; &#8594; 最終材に&#12308;サイシュウザイニ&#12309;
@@ -76,7 +84,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200411&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200411&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading ボシュウヨウコウ versus ボシュウヨウコウ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 募集要項&#12308;ボシュウヨウコウ&#12309; &#8594; 募集要綱&#12308;ボシュウヨウコウ&#12309;
@@ -85,7 +94,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200412&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200412&#95;001&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading ケイネンテキナゲンショウ versus ケイネンテキナゲンショウ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 経年的な減少&#12308;ケイネンテキナゲンショウ&#12309; &#8594; 経年的な現象&#12308;ケイネンテキナゲンショウ&#12309;
@@ -94,7 +104,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200412&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200412&#95;001&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading シコウレイ versus シコウレイ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 施行令&#12308;シコウレイ&#12309; &#8594; 施行例&#12308;シコウレイ&#12309;
@@ -103,7 +114,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200412&#95;006
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200412&#95;001&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading キテイヨサンナイ versus キテイヨサンナイ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 既定予算内&#12308;キテイヨサンナイ&#12309; &#8594; 規定予算内&#12308;キテイヨサンナイ&#12309;
@@ -112,7 +124,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200412&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200412&#95;001&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の&#12304;正解&#12305;&#65295;&#12304;間違い&#12305;で ２本&#65295;日本 の対応を確認。文脈の通常読み ニホン&#65295;ニホン は同音で、表記・語境界のみの違いなので分節音比較から除外。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。
 - 選択単位・読み: ２本&#12308;ニホン&#12309; &#8594; 日本&#12308;ニホン&#12309;
@@ -121,7 +134,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200501&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200501&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading キョウソウジギョウ versus キョウソウジギョウ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 競走事業&#12308;キョウソウジギョウ&#12309; &#8594; 競争事業&#12308;キョウソウジギョウ&#12309;
@@ -130,7 +144,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200501&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200501&#46;csv
 - RecordValidity: documented
 - Reason: The source fixes the correction direction&#46; The context&#45;supported phrase readings ランスウオクミアワセテ and ランスウオクミアワセテ are identical&#44; so this is excluded under the homophony invariant&#46;
 - 選択単位・読み: 乱数を組み合わせて&#12308;ランスウオクミアワセテ&#12309; &#8594; ＬＡＮ数を組み合わせて&#12308;ランスウオクミアワセテ&#12309;
@@ -139,7 +154,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200501&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200501&#46;csv
 - RecordValidity: documented
 - Reason: The archived correction is 俎上にのせる&#44; not 遡上にのせる&#46; Their contextual conventional readings are ソジョウニノセル versus ソジョウニノセル&#59; they share the same confirmed kana reading and are excluded under the homophony invariant&#46;
 - 選択単位・読み: 俎上にのせる&#12308;ソジョウニノセル&#12309; &#8594; 遡上にのせる&#12308;ソジョウニノセル&#12309;
@@ -148,7 +164,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200502&#95;002
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200502&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected word has context&#45;supported conventional reading カクテイ versus カクテイ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 画定&#12308;カクテイ&#12309; &#8594; 確定&#12308;カクテイ&#12309;
@@ -157,7 +174,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200502&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200502&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading キヨウニマトメ versus キヨウニマトメ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 紀要にまとめ&#12308;キヨウニマトメ&#12309; &#8594; 器用にまとめ&#12308;キヨウニマトメ&#12309;
@@ -166,7 +184,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200502&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200502&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading ハイシュツスル versus ハイシュツスル&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 輩出する&#12308;ハイシュツスル&#12309; &#8594; 排出する&#12308;ハイシュツスル&#12309;
@@ -175,7 +194,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200502&#95;008
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200502&#46;csv
 - RecordValidity: documented
 - Reason: The source fixes the correction direction&#46; The context&#45;supported phrase readings ニチチュウカンノシュノウカイギ and ニチチュウカンノシュノウカイギ are identical&#44; so this is excluded under the homophony invariant&#46;
 - 選択単位・読み: 日中韓の首脳会議&#12308;ニチチュウカンノシュノウカイギ&#12309; &#8594; 日中間の首脳会議&#12308;ニチチュウカンノシュノウカイギ&#12309;
@@ -184,7 +204,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200502&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200502&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading カクトウガイイインカイ versus カクトウガイイインカイ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 各当該委員会&#12308;カクトウガイイインカイ&#12309; &#8594; 各党外委員会&#12308;カクトウガイイインカイ&#12309;
@@ -193,7 +214,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200502&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200502&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading ヨセイオカッテ versus ヨセイオカッテ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 余勢を駆って&#12308;ヨセイオカッテ&#12309; &#8594; 余勢を勝って&#12308;ヨセイオカッテ&#12309;
@@ -202,7 +224,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200503&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200503&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading イシオツイデ versus イシオツイデ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 遺志を継いで&#12308;イシオツイデ&#12309; &#8594; 意思を継いで&#12308;イシオツイデ&#12309;
@@ -211,7 +234,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200503&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200503&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading トウガイネン versus トウガイネン&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 当該年&#12308;トウガイネン&#12309; &#8594; 当概念&#12308;トウガイネン&#12309;
@@ -220,7 +244,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200504&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200504&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の&#12304;正解&#12305;&#65295;&#12304;間違い&#12305;で 通信量&#65295;通信料 の対応を確認。文脈の通常読み ツウシンリョウ&#65295;ツウシンリョウ は同音で、表記・語境界のみの違いなので分節音比較から除外。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。
 - 選択単位・読み: 通信量&#12308;ツウシンリョウ&#12309; &#8594; 通信料&#12308;ツウシンリョウ&#12309;
@@ -229,7 +254,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200504&#95;002
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200504&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading セイサンオオコナウ versus セイサンオオコナウ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 精算を行う&#12308;セイサンオオコナウ&#12309; &#8594; 清算を行う&#12308;セイサンオオコナウ&#12309;
@@ -238,7 +264,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200504&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200504&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected word has context&#45;supported conventional reading アンブン versus アンブン&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 按分&#12308;アンブン&#12309; &#8594; 案文&#12308;アンブン&#12309;
@@ -247,7 +274,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200504&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200504&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading カブトサイケンガ versus カブトサイケンガ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 株と債券が&#12308;カブトサイケンガ&#12309; &#8594; 株と債権が&#12308;カブトサイケンガ&#12309;
@@ -256,7 +284,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200504&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200504&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading フニオチナイ versus フニオチナイ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 腑に落ちない&#12308;フニオチナイ&#12309; &#8594; 府に落ちない&#12308;フニオチナイ&#12309;
@@ -265,7 +294,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200504&#95;008
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200504&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の&#12304;正解&#12305;&#65295;&#12304;間違い&#12305;で 移譲&#65295;委譲 の対応を確認。文脈の通常読み イジョウ&#65295;イジョウ は同音で、表記・語境界のみの違いなので分節音比較から除外。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。
 - 選択単位・読み: 移譲&#12308;イジョウ&#12309; &#8594; 委譲&#12308;イジョウ&#12309;
@@ -274,7 +304,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200504&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200504&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の&#12304;正解&#12305;&#65295;&#12304;間違い&#12305;で 用に&#65295;ように の対応を確認。文脈の通常読み ヨウニ&#65295;ヨウニ は同音で、表記・語境界のみの違いなので分節音比較から除外。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。
 - 選択単位・読み: 用に&#12308;ヨウニ&#12309; &#8594; ように&#12308;ヨウニ&#12309;
@@ -283,7 +314,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200505&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200505&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading セイタイニンショウ versus セイタイニンショウ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 生体認証&#12308;セイタイニンショウ&#12309; &#8594; 声帯認証&#12308;セイタイニンショウ&#12309;
@@ -292,7 +324,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200505&#95;002
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200505&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading コウニンガ versus コウニンガ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 公認が&#12308;コウニンガ&#12309; &#8594; 後任が&#12308;コウニンガ&#12309;
@@ -301,7 +334,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200505&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200505&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading カイジサイケン versus カイジサイケン&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 開示債権&#12308;カイジサイケン&#12309; &#8594; 開示再建&#12308;カイジサイケン&#12309;
@@ -310,7 +344,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200505&#95;008
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200505&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading イインカイニフタク versus イインカイニフタク&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 委員会に付託&#12308;イインカイニフタク&#12309; &#8594; 委員会に負託&#12308;イインカイニフタク&#12309;
@@ -319,7 +354,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200505&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200505&#46;csv
 - RecordValidity: documented
 - Reason: The source fixes the correction direction&#46; The context&#45;supported phrase readings アメリカグンガシンニュウシテクル and アメリカグンガシンニュウシテクル are identical&#44; so this is excluded under the homophony invariant&#46;
 - 選択単位・読み: アメリカ軍が侵入してくる&#12308;アメリカグンガシンニュウシテクル&#12309; &#8594; アメリカ軍が進入してくる&#12308;アメリカグンガシンニュウシテクル&#12309;
@@ -328,7 +364,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200505&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200505&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の&#12304;正解&#12305;&#65295;&#12304;間違い&#12305;で 権利変換&#65295;権利返還 の対応を確認。文脈の通常読み ケンリヘンカン&#65295;ケンリヘンカン は同音で、表記・語境界のみの違いなので分節音比較から除外。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。
 - 選択単位・読み: 権利変換&#12308;ケンリヘンカン&#12309; &#8594; 権利返還&#12308;ケンリヘンカン&#12309;
@@ -337,7 +374,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200506&#95;005
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200506&#46;csv
 - RecordValidity: documented
 - Reason: The saved source fixes the correction direction despite the surrounding&#45;sentence difference&#46; Context&#45;supported readings トウショ versus トウショ are identical&#44; so the pair is excluded under the homophony invariant&#46;
 - 選択単位・読み: 島しょ&#12308;トウショ&#12309; &#8594; 当所&#12308;トウショ&#12309;
@@ -346,7 +384,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200507&#95;006
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200507&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected word has context&#45;supported conventional reading トトノウ versus トトノウ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 調う&#12308;トトノウ&#12309; &#8594; 整う&#12308;トトノウ&#12309;
@@ -355,7 +394,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200507&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200507&#46;csv
 - RecordValidity: documented
 - Reason: The source fixes the correction direction&#46; The context&#45;supported phrase readings ノウサンムラ and ノウサンムラ are identical&#44; so this is excluded under the homophony invariant&#46;
 - 選択単位・読み: 農山村&#12308;ノウサンムラ&#12309; &#8594; 農産村&#12308;ノウサンムラ&#12309;
@@ -364,7 +404,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200507&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200507&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading ヨサンゲンガク versus ヨサンゲンガク&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 予算現額&#12308;ヨサンゲンガク&#12309; &#8594; 予算減額&#12308;ヨサンゲンガク&#12309;
@@ -373,7 +414,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200508&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200508&#46;csv
 - RecordValidity: documented
 - Reason: The source fixes the correction direction&#46; The context&#45;supported phrase readings ロウサイニアッテイル and ロウサイニアッテイル are identical&#44; so this is excluded under the homophony invariant&#46;
 - 選択単位・読み: 労災に遭っている&#12308;ロウサイニアッテイル&#12309; &#8594; 労災に合っている&#12308;ロウサイニアッテイル&#12309;
@@ -382,7 +424,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200509&#95;002
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200509&#46;csv
 - RecordValidity: documented
 - Reason: 原資料の&#12304;正解&#12305;&#65295;&#12304;間違い&#12305;で 倫選特&#65295;リンセン特 の対応を確認。文脈の通常読み リンセントク&#65295;リンセントク は同音で、表記・語境界のみの違いなので分節音比較から除外。 複数箇所のある原文では、実際に対になる強調箇所を比較単位として選択した。
 - 選択単位・読み: 倫選特&#12308;リンセントク&#12309; &#8594; リンセン特&#12308;リンセントク&#12309;
@@ -391,7 +434,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200509&#95;006
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200509&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected word has context&#45;supported conventional reading シンギ versus シンギ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 信義&#12308;シンギ&#12309; &#8594; 審議&#12308;シンギ&#12309;
@@ -400,7 +444,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200509&#95;010
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200509&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected mixed compound or phrase has context&#45;supported conventional reading シュセキコウシ versus シュセキコウシ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 首席公使&#12308;シュセキコウシ&#12309; &#8594; 主席公使&#12308;シュセキコウシ&#12309;
@@ -409,7 +454,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200510&#95;001
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200510&#46;csv
 - RecordValidity: documented
 - Reason: The archive fixes the correction direction&#46; The selected word has context&#45;supported conventional reading オシススメ versus オシススメ&#59; these are the same confirmed kana reading&#44; so this is orthographic&#47;semantic confusion rather than a segmental contrast&#46;
 - 選択単位・読み: 推し進め&#12308;オシススメ&#12309; &#8594; 押し進め&#12308;オシススメ&#12309;
@@ -418,7 +464,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200510&#95;007
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200510&#46;csv
 - RecordValidity: unclear
 - Reason: The Note explicitly supplies the identical reading （しぜんたい） for 市全体 and 自然体&#59; this is a same&#45;sound transcription distinction&#46;
 - 選択単位・読み: 市全体&#12308;読み不明&#12309; &#8594; 自然体&#12308;読み不明&#12309;
@@ -427,7 +474,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200510&#95;009
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200510&#46;csv
 - RecordValidity: unclear
 - Reason: The Note explicitly gives both readings as （ゆうしょうじょう）&#59; this is a same&#45;sound transcription distinction&#46;
 - 選択単位・読み: 有証上&#12308;読み不明&#12309; &#8594; 有償上&#12308;読み不明&#12309;
@@ -436,7 +484,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200512&#95;003
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200512&#46;csv
 - RecordValidity: unclear
 - Reason: The public row describes this confusion&#59; exact IPADIC entries confirm 広範（コウハン） and 後半（コウハン）&#46; Readings are identical&#44; so exclude as a homophonic orthographic confusion&#46;
 - 選択単位・読み: 広範&#12308;読み不明&#12309; &#8594; 後半&#12308;読み不明&#12309;
@@ -445,7 +494,8 @@
 
 ## coffee&#95;break&#95;parts&#95;similar200512&#95;004
 
-- URL: 
+- URL: 原本URL未記載
+- 原本ファイル: data&#47;mishearing&#47;yamato&#95;gochou&#47;coffee&#95;break&#95;parts&#95;similar200512&#46;csv
 - RecordValidity: unclear
 - Reason: The public row describes this confusion&#59; exact IPADIC entries confirm 興す（オコス） and 起こす（オコス）&#46; Readings are identical&#44; so exclude as a homophonic orthographic confusion&#46;
 - 選択単位・読み: 興す&#12308;読み不明&#12309; &#8594; 起こす&#12308;読み不明&#12309;

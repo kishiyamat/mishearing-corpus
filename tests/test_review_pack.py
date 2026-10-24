@@ -257,3 +257,7 @@ def test_pack_pages_have_complete_navigation(tmp_path: Path) -> None:
     assert "[次へ]" not in last
     assert "[一覧へ](README.md)" in first and "[一覧へ](README.md)" in last
     assert "(page-001.md)" in index and "(page-002.md)" in index
+    assert all(line == line.rstrip() for line in first.splitlines())
+    assert all(line == line.rstrip() for line in last.splitlines())
+    assert "原本URL未記載" in last
+    assert "原本ファイル:" in last

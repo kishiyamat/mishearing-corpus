@@ -96,7 +96,8 @@ def _write_page(
             [
                 f"## {_markdown(row['MishearID'])}",
                 "",
-                f"- URL: {_url(row['URL'])}",
+                f"- URL: {_url(row['URL']) if row['URL'] else '原本URL未記載'}",
+                f"- 原本ファイル: {_markdown(row['SourceFile'])}",
                 f"- RecordValidity: {_markdown(row['RecordValidity'])}",
                 f"- Reason: {_markdown(row['Reason'])}",
                 f"- 選択単位・読み: {_markdown(row['SelectedReadings'])}",
@@ -111,7 +112,7 @@ def _write_page(
     if page < page_count:
         links.append(f"[次へ](page-{page + 1:03}.md)")
     lines.extend([" | ".join(links), ""])
-    path.write_text("\n".join(lines), encoding="utf-8")
+    path.write_text("\n".join(line.rstrip() for line in lines), encoding="utf-8")
 
 
 def export_review_pack(
